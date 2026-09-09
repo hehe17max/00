@@ -1,8 +1,240 @@
 {
   "date": "2026-09-09",
-  "discovered": 0,
+  "mode": "fast",
+  "discovered": 183,
   "updated": 0,
-  "images_added": 0,
+  "images_added": 181,
+  "rechecked": 30,
+  "conflicts_before": 0,
   "conflicts": 0,
-  "errors": []
+  "errors": [
+    {
+      "brand": "Keychron",
+      "url": "https://www.keychron.com/products/keyboard-81-pro-qmk-via-wireless-custom-mechanical-keyboard",
+      "error": "500 Server Error: Internal Server Error for url: https://www.keychron.com/products/keyboard-81-pro-qmk-via-wireless-cust"
+    },
+    {
+      "brand": "Keychron",
+      "url": "https://www.keychron.com/products/lemokey-p1-he-wireless-magnetic-switch-custom-gaming-keyboard-iso-layout-collection",
+      "error": "500 Server Error: Internal Server Error for url: https://www.keychron.com/products/lemokey-p1-he-wireless-magnetic-switc"
+    },
+    {
+      "brand": "Keychron",
+      "url": "https://www.keychron.com/products/magic-animal-resin-artisan-keycap",
+      "error": "500 Server Error: Internal Server Error for url: https://www.keychron.com/products/magic-animal-resin-artisan-keycap"
+    },
+    {
+      "brand": "Keychron",
+      "url": "https://www.keychron.com/products/keychron-custom-keyboard-industry-design-open-source-project-k-pro-series",
+      "error": "500 Server Error: Internal Server Error for url: https://www.keychron.com/products/keychron-custom-keyboard-industry-des"
+    },
+    {
+      "brand": "Keychron",
+      "url": "https://www.keychron.com/products/keychron-q11-ultra-8k-wireless-custom-mechanical-keyboard",
+      "error": "500 Server Error: Internal Server Error for url: https://www.keychron.com/products/keychron-q11-ultra-8k-wireless-custom"
+    },
+    {
+      "brand": "AULA",
+      "url": "https://www.aulastar.com/keyboard/847.html",
+      "error": "404 Client Error: Not Found for url: https://www.aulastar.com/keyboard/847.html"
+    },
+    {
+      "brand": "AULA",
+      "url": "https://www.aulastar.com/mouse/856.html",
+      "error": "404 Client Error: Not Found for url: https://www.aulastar.com/mouse/856.html"
+    },
+    {
+      "brand": "AULA",
+      "url": "https://www.aulastar.com/mouse/832.html",
+      "error": "404 Client Error: Not Found for url: https://www.aulastar.com/mouse/832.html"
+    },
+    {
+      "brand": "AULA",
+      "url": "https://www.aulastar.com/mouse/854.html",
+      "error": "404 Client Error: Not Found for url: https://www.aulastar.com/mouse/854.html"
+    },
+    {
+      "brand": "AULA",
+      "url": "https://www.aulastar.com/mouse/855.html",
+      "error": "404 Client Error: Not Found for url: https://www.aulastar.com/mouse/855.html"
+    }
+  ],
+  "brand_stats": {
+    "iKF": {
+      "found": 203,
+      "subset": 28,
+      "new": 10,
+      "updated": 0,
+      "images": 10,
+      "seconds": 15.1
+    },
+    "Razer": {
+      "found": 276,
+      "subset": 28,
+      "new": 12,
+      "updated": 0,
+      "images": 12,
+      "seconds": 27.5
+    },
+    "SteelSeries": {
+      "found": 284,
+      "subset": 28,
+      "new": 12,
+      "updated": 0,
+      "images": 12,
+      "seconds": 14.5
+    },
+    "HyperX": {
+      "found": 253,
+      "subset": 28,
+      "new": 12,
+      "updated": 0,
+      "images": 12,
+      "seconds": 9.9
+    },
+    "Keychron": {
+      "found": 675,
+      "subset": 28,
+      "new": 7,
+      "updated": 0,
+      "images": 7,
+      "seconds": 43.2
+    },
+    "Corsair": {
+      "found": 32,
+      "subset": 28,
+      "new": 12,
+      "updated": 0,
+      "images": 12,
+      "seconds": 12.3
+    },
+    "MCHOSE": {
+      "found": 42,
+      "subset": 28,
+      "new": 12,
+      "updated": 0,
+      "images": 12,
+      "seconds": 13.3
+    },
+    "Rapoo": {
+      "found": 39,
+      "subset": 28,
+      "new": 12,
+      "updated": 0,
+      "images": 12,
+      "seconds": 16.8
+    },
+    "ATK": {
+      "found": 24,
+      "subset": 24,
+      "new": 2,
+      "updated": 0,
+      "images": 0,
+      "seconds": 7.7
+    },
+    "Darmoshark": {
+      "found": 23,
+      "subset": 23,
+      "new": 12,
+      "updated": 0,
+      "images": 12,
+      "seconds": 8.7
+    },
+    "AJAZZ": {
+      "found": 0,
+      "subset": 0,
+      "new": 0,
+      "updated": 0,
+      "images": 0,
+      "seconds": 3.1
+    },
+    "VGN": {
+      "found": 96,
+      "subset": 28,
+      "new": 12,
+      "updated": 0,
+      "images": 12,
+      "seconds": 12.7
+    },
+    "AULA": {
+      "found": 5,
+      "subset": 5,
+      "new": 0,
+      "updated": 0,
+      "images": 0,
+      "seconds": 3.3
+    },
+    "Dareu": {
+      "found": 189,
+      "subset": 28,
+      "new": 11,
+      "updated": 0,
+      "images": 11,
+      "seconds": 12.6
+    },
+    "DURGOD": {
+      "found": 0,
+      "subset": 0,
+      "new": 0,
+      "updated": 0,
+      "images": 0,
+      "seconds": 16.2
+    },
+    "KZZI": {
+      "found": 13,
+      "subset": 13,
+      "new": 0,
+      "updated": 0,
+      "images": 0,
+      "seconds": 8.4
+    },
+    "Custom Mechanical Keyboards, Gaming Mice, and PC Gear": {
+      "found": 522,
+      "subset": 28,
+      "new": 10,
+      "updated": 0,
+      "images": 10,
+      "seconds": 16.0
+    },
+    "IQUNIX.com": {
+      "found": 72,
+      "subset": 28,
+      "new": 12,
+      "updated": 0,
+      "images": 12,
+      "seconds": 11.8
+    },
+    "Kinetic Labs": {
+      "found": 0,
+      "subset": 0,
+      "new": 0,
+      "updated": 0,
+      "images": 0,
+      "seconds": 2.4
+    },
+    "LAMZU": {
+      "found": 223,
+      "subset": 28,
+      "new": 11,
+      "updated": 0,
+      "images": 11,
+      "seconds": 12.1
+    },
+    "ATTACK SHARK": {
+      "found": 355,
+      "subset": 28,
+      "new": 12,
+      "updated": 0,
+      "images": 12,
+      "seconds": 29.4
+    },
+    "EKSA": {
+      "found": 31,
+      "subset": 28,
+      "new": 12,
+      "updated": 0,
+      "images": 12,
+      "seconds": 7.9
+    }
+  }
 }
