@@ -1,0 +1,33 @@
+{
+  "marketplaces": [
+    {
+      "name": "淘宝/天猫",
+      "enabled": false,
+      "mode": "authorized_api_or_feed",
+      "tier": "authorized_marketplace",
+      "note": "建议接入官方/授权接口或品牌旗舰店数据源；不默认直接爬取动态商品页。"
+    },
+    {
+      "name": "京东",
+      "enabled": false,
+      "mode": "authorized_api_or_feed",
+      "tier": "authorized_marketplace",
+      "note": "建议接入官方/授权接口或品牌旗舰店数据源。"
+    },
+    {
+      "name": "Amazon",
+      "enabled": false,
+      "mode": "authorized_api_or_feed",
+      "tier": "marketplace",
+      "note": "建议使用授权商品数据接口/Feed，避免直接抓取页面造成不稳定。"
+    }
+  ],
+  "review_sources": [],
+  "manual_feeds": [
+    {
+      "path": "data/import_queue.json",
+      "tier": "professional_review",
+      "enabled": true
+    }
+  ]
+}

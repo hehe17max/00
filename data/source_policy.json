@@ -1,0 +1,46 @@
+{
+  "tiers": {
+    "official_product": {
+      "score": 100,
+      "label": "品牌官方产品页",
+      "can_override": true
+    },
+    "official_support": {
+      "score": 95,
+      "label": "品牌官方支持/驱动/说明页",
+      "can_override": true
+    },
+    "official_store": {
+      "score": 90,
+      "label": "品牌官方商城",
+      "can_override": true
+    },
+    "authorized_marketplace": {
+      "score": 75,
+      "label": "授权电商官方旗舰店",
+      "can_override": false
+    },
+    "marketplace": {
+      "score": 60,
+      "label": "电商商品页",
+      "can_override": false
+    },
+    "professional_review": {
+      "score": 55,
+      "label": "专业第三方测评",
+      "can_override": false
+    },
+    "community": {
+      "score": 30,
+      "label": "社区/论坛",
+      "can_override": false
+    }
+  },
+  "rules": [
+    "官方来源优先于电商和第三方来源",
+    "弱来源不得自动覆盖已有官方规格",
+    "同字段出现冲突时保留全部来源并进入 review_queue",
+    "图片优先使用品牌官方产品页/官方商城图片",
+    "第三方实测数据与厂商标称数据分开保存，不自动混为同一字段"
+  ]
+}

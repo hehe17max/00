@@ -1,41 +1,116 @@
-# 全球外设产品参数库 v4
+# PeripheralDB 1.0 正式版
 
-## 核心升级
-- 按品类动态参数模板：鼠标 / 键盘 / 耳机耳麦分别使用不同字段体系。
-- 搜索框 placeholder 会随品类变化。
-- 快捷检索词会随品类变化。
-- 产品卡片与对比表会优先按对应品类的重要字段排序。
-- 支持“≤60g”等简单结构化搜索。
-- 持续补充国产厂商详细参数。
+一个面向键盘、鼠标、耳机/耳麦等外设的可联网产品数据库与静态查询网站。
 
-## 鼠标重点字段
-传感器、最高DPI、回报率、重量、主控、IPS、加速度、LOD、微动、寿命、编码器、电池、续航、尺寸、脚贴、充电、软件、板载存储、握法。
+当前初始数据：
+- **262** 条产品记录
+- **16** 个已配置/监控品牌
+- 中国品牌 + 海外品牌
+- GitHub Pages 静态网页
+- GitHub Actions 自动发现与更新
 
-## 键盘重点字段
-配列、轴体、磁轴方案、Rapid Trigger、RT精度、触发行程、扫描率、回报率、延迟、连接、热插拔、键帽、定位板、结构、机身、NKRO、灯光、电池、软件。
+## 正式版包含
 
-## 耳机重点字段
-驱动单元、驱动类型、频响、蓝牙/无线、连接、编码、采样率、位深、ANC、延迟、麦克风、续航、电池、充电、无线距离、重量、有线连接、虚拟环绕、APP、兼容平台。
+### 查询与比较
+- 品牌、品类、地区、核验状态筛选
+- 针对鼠标 / 键盘 / 耳机分别使用不同参数提示和字段优先级
+- 关键词 **单选 / 多选 AND / 多选 OR**
+- `≤60g`、`≤35ms`、`100h+` 等结构化筛选
+- 最多 **20 款产品**同时对比
+- 产品详情、多来源、可信度与冲突显示
+- 产品配图；无图片时自动显示分类占位图
 
-## 数据规模
-当前产品：262
-品牌：12
+### 每日自动更新
+每天自动执行：
+1. 搜索未知外设品牌
+2. 验证疑似官网真实性
+3. 高置信度品牌自动加入品牌库
+4. 扫描已知品牌和新品牌的产品
+5. 通过官网索引、Sitemap、Shopify Catalog 等方式发现遗漏新品
+6. 补充官方图片与结构化规格
+7. 滚动复核已有产品
+8. 导入审核后的电商 / 第三方补充数据
+9. 检查参数冲突
+10. 校验数据库并自动部署 GitHub Pages
 
-## 新增官方详细参数
-本版本重点补充了 MCHOSE A7 V2 系列、L7 系列、K7 V2 系列、K7 Ultra、A7X Ultra 等鼠标参数。
+### 数据可信度
+来源优先级：
+`品牌官方产品页 > 官方支持/说明书 > 官方商城 > 官方旗舰店/授权电商 > 普通电商 > 专业测评 > 社区`
 
+弱来源不会直接覆盖官方规格；冲突进入 `data/review_queue.json`。
 
-## GitHub Pages 部署（推荐）
+## 快速安装
 
-1. 在 GitHub 新建一个仓库，例如 `peripheral-db`。
-2. 将本项目的**所有文件和目录**上传到仓库根目录，包括 `.github`、`data`、`scripts`。
-3. 确认默认分支名称为 `main`。
-4. 打开 `Settings → Pages`，在 `Build and deployment → Source` 选择 **GitHub Actions**。
-5. 打开 `Settings → Actions → General`，确认 Actions 已启用。
-6. 首次 push 后，`Deploy website to GitHub Pages` 工作流会自动部署。
-7. 定时数据更新完成后，部署工作流会再次读取最新 `main` 并发布。
+请直接阅读 **[INSTALL.md](INSTALL.md)**。
 
-典型网址：
-`https://你的GitHub用户名.github.io/peripheral-db/`
+最简流程：
 
-如果自动更新工作流需要向仓库提交 `data/products.json`，请确认仓库允许工作流写入内容。
+1. GitHub 创建公开仓库；
+2. 上传本项目所有文件，特别是隐藏目录 `.github`；
+3. `Settings → Pages → Source → GitHub Actions`；
+4. `Actions → Deploy website to GitHub Pages` 确认绿色；
+5. `Actions → Update peripheral product database → Run workflow` 手动运行第一次数据更新。
+
+## 可选：稳定的自动品牌搜索
+
+零配置时使用 DDGS 免费搜索兜底。
+
+建议在 GitHub：
+`Settings → Secrets and variables → Actions → New repository secret`
+
+添加：
+
+- `BRAVE_SEARCH_API_KEY`（推荐）
+- 或 `SERPER_API_KEY`
+
+程序自动按 `Brave → Serper → DDGS` 顺序选择。
+
+## 日常维护
+
+重点查看：
+
+- `data/update_report.json`：每日产品更新报告
+- `data/brand_discovery_report.json`：每日新品牌搜索报告
+- `data/brand_candidates.json`：需要人工判断的品牌候选
+- `data/review_queue.json`：规格冲突审核队列
+
+候选品牌：
+- `"status": "approved"` → 下一次任务正式纳入
+- `"status": "rejected"` → 标记为拒绝
+- `"status": "candidate"` → 保留等待审核
+
+## 主要目录
+
+```text
+PeripheralDB/
+├── index.html
+├── app.js
+├── style.css
+├── assets/
+├── data/
+│   ├── products.json
+│   ├── brands.json
+│   ├── filter_schema.json
+│   ├── source_policy.json
+│   ├── brand_discovery_config.json
+│   ├── brand_candidates.json
+│   ├── brand_discovery_report.json
+│   ├── review_queue.json
+│   ├── update_report.json
+│   └── import_queue.json
+├── scripts/
+│   ├── discover_brands.py
+│   ├── update_data.py
+│   ├── import_secondary.py
+│   ├── validate_data.py
+│   └── health_check.py
+└── .github/workflows/
+    ├── update.yml
+    └── deploy-pages.yml
+```
+
+## 注意
+
+自动化可以大幅减少漏收产品，但任何自动采集系统都无法保证覆盖互联网上 100% 的外设产品。对于动态官网、隐藏 API、微信商城或地区站，最好增加品牌专用解析器。
+
+淘宝、天猫、京东、Amazon 等建议通过官方/授权 API、Feed 或人工审核后的结构化数据接入，不建议 GitHub Actions 无限制直爬商品页面。
