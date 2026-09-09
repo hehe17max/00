@@ -1,0 +1,30 @@
+<!doctype html><html lang="zh-CN"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>外设产品参数库</title><meta name="description" content="键盘、鼠标、耳机等外设产品参数搜索、筛选与对比">
+<link rel="stylesheet" href="style.css"></head><body>
+<header><div class="wrap hero"><div><div class="eyebrow">PERIPHERAL PRODUCT DATABASE</div>
+<h1>外设产品参数库</h1><p>跨品牌搜索 · 分类筛选 · 参数对比 · 官方来源追溯</p></div>
+<div class="status"><span class="dot"></span><span id="updated">读取数据中…</span></div></div></header>
+<main class="wrap">
+<section class="toolbar">
+<input id="search" type="search" placeholder="搜索品牌、型号、DPI、轴体、驱动、ANC、回报率、连接方式…">
+<div class="filterrow"><select id="brandFilter"><option value="全部">全部品牌</option></select>
+<select id="catFilter"><option value="全部">全部品类</option></select>
+<select id="originFilter"><option value="全部">全部来源地区</option><option value="中国">中国品牌</option><option value="海外">海外品牌</option></select>
+<select id="verifyFilter"><option value="全部">全部数据状态</option><option value="已核实">详细参数已核实</option><option value="待补充">待补充参数</option></select>
+<select id="sort"><option value="brand">品牌 / 型号</option><option value="name">型号名称</option></select></div>
+<div id="quick" class="quick">
+<button data-q="8000Hz">8K 回报率</button><button data-q="2.4GHz">2.4G</button>
+<button data-q="Bluetooth">蓝牙</button><button data-q="LDAC">LDAC</button>
+<button data-q="磁轴">磁轴</button><button data-q="热插拔">热插拔</button><button data-q="ANC">ANC</button>
+</div></section>
+<section class="metrics"><div><b id="count">0</b><span>当前结果</span></div><div><b id="total">0</b><span>收录产品</span></div>
+<div><b id="brands">0</b><span>品牌</span></div><div><b id="cats">0</b><span>品类</span></div><div><b id="cnbrands">0</b><span>中国品牌</span></div></section>
+<section id="grid" class="grid"></section><div id="empty" class="empty hidden">没有找到匹配产品。</div>
+</main>
+<div id="compareBar" class="comparebar hidden"><span>已选 <b id="compareCount">0</b>/4</span><div id="compareNames"></div>
+<button id="clearCompare">清空</button><button id="doCompare" class="primary">对比</button></div>
+<dialog id="detail"><button class="close" onclick="detail.close()">×</button><div id="detailBody"></div></dialog>
+<dialog id="compareDialog"><button class="close" onclick="compareDialog.close()">×</button><div id="compareBody"></div></dialog>
+<footer class="wrap"><p>数据优先来自厂商官方页面。不同地区、版本和批次可能存在差异；“待审核”表示已自动发现产品，但规格尚未完成核验。</p></footer>
+<script src="app.js"></script></body></html>
