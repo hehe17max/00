@@ -37,6 +37,9 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      - name: Apply brand metadata and publication quality gate
+        run: python scripts/upgrade_quality_v12.py
+
       - name: Search and verify brand official site
         run: python -u scripts/search_brand.py --brand "${{ inputs.brand_name }}" --official-url "${{ inputs.official_url }}"
         timeout-minutes: 10
