@@ -24,6 +24,7 @@ from pathlib import Path
 from urllib.parse import urlparse, urljoin
 import requests
 from bs4 import BeautifulSoup
+from quality_rules import brand_name_ok, is_foreign_locale
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = ROOT / "data/brand_discovery_config.json"
@@ -102,12 +103,12 @@ def brand_name_from_page(soup, host):
         types = typ if isinstance(typ, list) else [typ]
         if any(t in ("Organization", "Brand", "Corporation") for t in types if t):
             name = clean(x.get("name"))
-            if 2 <= len(name) <= 60:
+            if brand_name_ok(name):
                 return name
     og = soup.find("meta", property="og:site_name")
     if og and clean(og.get("content")):
         name = clean(og.get("content"))
-        if len(name) <= 60:
+        if brand_name_ok(name):
             return name
     title = clean(soup.title.get_text(" ", strip=True) if soup.title else "")
     if title:
@@ -115,7 +116,7 @@ def brand_name_from_page(soup, host):
             if sep in title:
                 title = title.split(sep)[0].strip()
                 break
-        if 2 <= len(title) <= 60:
+        if brand_name_ok(title):
             return title
     return host.split(".")[0].upper()
 
@@ -132,6 +133,8 @@ def classify_text(text):
 
 def likely_product_url(url, anchor_text=""):
     s = (url + " " + anchor_text).lower()
+    if is_foreign_locale(url):
+        return False
     if any(x in s for x in ["/blog/", "/news/", "/article/", "/login", "/cart", "/privacy", "/terms"]):
         return False
     return any(x in s for x in PRODUCT_HINTS) or bool(classify_text(s))
@@ -360,7 +363,10 @@ def make_brand_entry(c):
     base = c["official_url"].rstrip("/")
     return {
         "brand": c["brand"],
+        "brand_zh_cn": c.get("brand_zh_cn") or c["brand"],
+        "brand_zh_cn_status": "pending_human_verification",
         "origin": c.get("origin","待确认"),
+        "preferred_locale": "zh-CN" if c.get("origin")=="中国" else "en",
         "domains": [c["domain"]],
         "collection_urls": list(dict.fromkeys([base] + c.get("sample_product_pages", [])[:3])),
         "discovery": ["configured_pages","sitemap","shopify_products_json"],
@@ -460,6 +466,8 @@ for r in raw_results:
         report["new_candidates"] += 1
 
     can_auto = (
+        brand_name_ok(c.get("brand"))
+        and
         c["score"] >= config.get("auto_promote_score",82)
         and c["product_page_count"] >= config.get("auto_promote_min_product_pages",3)
         and c["product_schema_page_count"] >= config.get("auto_promote_min_product_schema_pages",2)
@@ -469,15 +477,15 @@ for r in raw_results:
         report["auto_promoted"] += 1
         known_domains.add(c["domain"].lower())
 
-# De-duplicate brands by domain.
-seen_domains = set()
+# De-duplicate exact brand names. Multiple related brands may legitimately share
+# one corporate domain (for example ATK/VXE or EDIFIER/HECATE).
+seen_brands = set()
 dedup = []
 for b in brands_doc.get("brands", []):
-    doms = tuple(sorted(d.lower() for d in b.get("domains", [])))
-    key = doms[0] if doms else b.get("brand","").lower()
-    if key in seen_domains:
+    key = b.get("brand", "").casefold().strip()
+    if key in seen_brands:
         continue
-    seen_domains.add(key)
+    seen_brands.add(key)
     dedup.append(b)
 brands_doc["brands"] = dedup
 

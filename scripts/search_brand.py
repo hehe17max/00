@@ -4,6 +4,7 @@ from pathlib import Path
 from urllib.parse import urlparse, urljoin
 import requests
 from bs4 import BeautifulSoup
+from quality_rules import brand_name_ok, is_foreign_locale
 
 ROOT=Path(__file__).resolve().parents[1]
 BRANDS=ROOT/"data/brands.json"
@@ -95,6 +96,7 @@ def validate_site(url, brand, config):
     for a in soup.find_all("a",href=True):
         u=urljoin(root,a["href"]).split("#")[0].split("?")[0].rstrip("/")
         if host(u)!=h:continue
+        if is_foreign_locale(u):continue
         t=(u+" "+clean(a.get_text(" ",strip=True))).lower()
         if classify_text(t) and any(x in t for x in ["/product","/products","/mouse","/keyboard","/headset","/gaming"]):
             if u not in links:links.append(u)
@@ -106,7 +108,7 @@ def validate_site(url, brand, config):
         h1=ps.find("h1")
         title=clean(h1.get_text(" ",strip=True) if h1 else "")
         psc=product_schema(ps)
-        if psc or (title and classify_text(title+" "+u)):
+        if psc:
             prod_pages.append(u)
             if psc:schema_pages+=1
             cats |= classify_text(title+" "+u)
@@ -150,7 +152,7 @@ def main():
             "candidates":candidates,"status":"not_found","message":""}
     if not best:
         report["message"]="未找到可信官网候选。"
-    elif best["score"]<58:
+    elif not brand_name_ok(brand) or best["score"]<80 or best["schema_page_count"]<2:
         report["status"]="needs_review"
         report["message"]="找到了候选网站，但可信度不足，未自动加入。"
     else:
@@ -170,7 +172,8 @@ def main():
             report["message"]="已补充现有品牌的官网入口，将继续扫描其产品。"
         else:
             doc["brands"].append({
-                "brand":brand,"origin":"待确认","domains":[best["domain"]],
+                "brand":brand,"brand_zh_cn":brand,"brand_zh_cn_status":"pending_human_verification",
+                "origin":"待确认","preferred_locale":"zh-CN","domains":[best["domain"]],
                 "collection_urls":[best["official_url"]]+best["product_pages"][:5],
                 "discovery":["configured_pages","sitemap","shopify_products_json"],
                 "sitemap_urls":[best["official_url"].rstrip("/")+"/sitemap.xml"],

@@ -5,6 +5,10 @@ from urllib.parse import urljoin, urlparse
 from xml.etree import ElementTree as ET
 import requests
 from bs4 import BeautifulSoup
+from quality_rules import (
+    canonical_url, host_allowed, is_foreign_locale, product_name_ok,
+    publication_rejection, source_priority,
+)
 
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/"data/products.json"; BRANDS=ROOT/"data/brands.json"
@@ -34,9 +38,6 @@ BAD_HINTS=("/blog/","/news/","/pages/","/collections/","/category/","/support/",
 
 def log(x): print(x, flush=True)
 def clean(x): return re.sub(r"\s+"," ",str(x or "")).strip()
-def host_allowed(url,domains):
-    h=urlparse(url).netloc.lower().split(":")[0]
-    return any(h==d.lower() or h.endswith("."+d.lower()) for d in domains)
 def get(url):
     r=session.get(url,timeout=(CONNECT_TIMEOUT,READ_TIMEOUT),allow_redirects=True)
     r.raise_for_status(); return r
@@ -48,12 +49,13 @@ def flatten(obj):
         yield obj
 def parse_product_page(url):
     r=get(url); soup=BeautifulSoup(r.text,"html.parser")
-    name=None; images=[]; specs={}
+    name=None; images=[]; specs={}; product_objects=[]
     for s in soup.find_all("script",type="application/ld+json"):
         try:
             for x in flatten(json.loads(s.string or "")):
                 typ=x.get("@type"); types=typ if isinstance(typ,list) else [typ]
                 if "Product" in types:
+                    product_objects.append(x)
                     if x.get("name") and not name: name=clean(x["name"])
                     im=x.get("image")
                     if isinstance(im,str): images.append(im)
@@ -72,10 +74,25 @@ def parse_product_page(url):
             k,v=clean(dt.get_text(" ",strip=True)),clean(dd.get_text(" ",strip=True))
             if k and v and len(k)<90 and len(v)<400: specs[k]=v
     image=next((i for i in images if isinstance(i,str) and i.startswith("http")),"")
-    return name,specs,image,r.url
+    canonical=soup.find("link",rel="canonical")
+    canonical_href=urljoin(r.url,canonical.get("href")) if canonical and canonical.get("href") else r.url
+    evidence={
+        "product_schema": bool(product_objects),
+        "product_schema_count": len(product_objects),
+        "canonical_url": canonical_url(canonical_href),
+        "page_language": clean((soup.html or {}).get("lang") if soup.html else ""),
+        "official_url": r.url,
+        "source_priority": source_priority(r.url),
+    }
+    if product_objects:
+        obj=product_objects[0]
+        evidence["sku"]=clean(obj.get("sku") or obj.get("mpn"))
+        brand_obj=obj.get("brand")
+        evidence["schema_brand"]=clean(brand_obj.get("name") if isinstance(brand_obj,dict) else brand_obj)
+    return name,specs,image,r.url,evidence
 def likely(u):
     low=u.lower()
-    return not any(x in low for x in BAD_HINTS) and any(x in low for x in PATH_HINTS)
+    return not is_foreign_locale(u) and not any(x in low for x in BAD_HINTS) and any(x in low for x in PATH_HINTS)
 def page_links(url,domains):
     out=set()
     try: soup=BeautifulSoup(get(url).text,"html.parser")
@@ -126,33 +143,62 @@ def due(last):
     try: return (datetime.date.today()-datetime.date.fromisoformat(last)).days>=RECHECK_DAYS
     except: return True
 def rotate(urls,limit,salt):
-    return sorted(urls,key=lambda u: hashlib.sha1((salt+u).encode()).hexdigest())[:limit]
+    return sorted(urls,key=lambda u:(-source_priority(u),hashlib.sha1((salt+u).encode()).hexdigest()))[:limit]
 def add_source(p,url,note):
     srcs=p.setdefault("sources",[])
     hit=next((x for x in srcs if x.get("url")==url),None)
     if hit: hit["checked_at"]=TODAY
-    else: srcs.append({"type":"official_product","url":url,"tier":100,"checked_at":TODAY,"note":note})
+    else:
+        tier=source_priority(url)
+        srcs.append({"type":"official_cn_product" if tier==120 else "official_product","url":url,"tier":tier,"checked_at":TODAY,"note":note})
     p.setdefault("verification",{})["source_count"]=len(srcs)
-def merge(p,new,url,review):
+def merge(p,new,url,review,evidence):
     old=p.setdefault("specs",{}); n=0
     ver=p.setdefault("verification",{"status":"official_discovered","confidence":0.82,"source_count":0,"conflicts":[]})
     ver.setdefault("conflicts",[])
+    field_evidence=p.setdefault("spec_evidence",{})
+    incoming_priority=source_priority(url)
     for k,v in new.items():
         if not v: continue
         if k not in old or old[k] in ("—","待补参数",""):
             old[k]=v; n+=1
+            field_evidence[k]={"value":v,"source_url":url,"source_type":"official_cn_product" if incoming_priority==120 else "official_product","source_priority":incoming_priority,"checked_at":TODAY,"claim_type":"厂商标称"}
+        elif clean(old[k]).lower()==clean(v).lower():
+            field_evidence[k]={"value":old[k],"source_url":url,"source_type":"official_cn_product" if incoming_priority==120 else "official_product","source_priority":incoming_priority,"checked_at":TODAY,"claim_type":"厂商标称"}
         elif clean(old[k]).lower()!=clean(v).lower():
-            item={"brand":p["brand"],"name":p["name"],"field":k,"database_value":old[k],"new_value":v,"source":url,"detected_at":TODAY}
+            current_priority=field_evidence.get(k,{}).get("source_priority",source_priority(p.get("source",url)))
+            resolution="pending_review"
+            if incoming_priority>current_priority:
+                old_value=old[k]; old[k]=v; n+=1; resolution="prefer_zh_cn_official"
+                field_evidence[k]={"value":v,"source_url":url,"source_type":"official_cn_product","source_priority":incoming_priority,"checked_at":TODAY,"claim_type":"厂商标称"}
+            else:
+                old_value=old[k]
+            item={"brand":p["brand"],"name":p["name"],"field":k,"database_value":old_value,"new_value":v,"source":url,"detected_at":TODAY,"resolution":resolution}
             if not any(x.get("brand")==item["brand"] and x.get("name")==item["name"] and x.get("field")==k and x.get("new_value")==v for x in review):
                 review.append(item)
-            ver["status"]="conflict"
+            if resolution=="pending_review": ver["status"]="conflict"
+    ver["evidence"]=evidence
+    ver["quality_gate_version"]="1.2"
+    published_fields={k:v for k,v in old.items() if v not in (None,"","—","待补参数")}
+    fully_evidenced=bool(published_fields) and all(
+        field_evidence.get(k,{}).get("value")==v and field_evidence.get(k,{}).get("source_url")
+        for k,v in published_fields.items()
+    )
+    if ver.get("status")!="conflict" and evidence.get("product_schema") and fully_evidenced and len(published_fields)>=4:
+        ver["status"]="official_verified"
+        ver["confidence"]=0.95 if incoming_priority==120 else 0.92
+        ver["needs_review"]=False
+    elif ver.get("status")!="conflict":
+        ver["status"]="official_discovered"
+        ver["confidence"]=min(float(ver.get("confidence",0.78)),0.78)
+        ver["needs_review"]=True
     return n
 
 db=json.loads(DATA.read_text(encoding="utf-8"))
 cfg=json.loads(BRANDS.read_text(encoding="utf-8"))
 try: review=json.loads(REVIEW.read_text(encoding="utf-8"))
 except: review=[]
-by_url={p.get("source","").rstrip("/"):p for p in db["products"] if p.get("source")}
+by_url={canonical_url(p.get("source", "")):p for p in db["products"] if p.get("source")}
 by_name={(p["brand"].lower(),p["name"].lower()):p for p in db["products"]}
 report={"date":TODAY,"mode":MODE,"discovered":0,"updated":0,"images_added":0,"rechecked":0,"conflicts_before":len(review),"conflicts":0,"errors":[],"brand_stats":{}}
 
@@ -180,26 +226,30 @@ for i,b in enumerate(brands,1):
     log(f"    found={len(found)} subset={len(subset)}")
     budget=MAX_NEW_PAGE_PARSES_PER_BRAND; newc=upd=imgs=0
     for u in subset:
-        if u.rstrip("/") in by_url: continue
+        if canonical_url(u) in by_url: continue
         if budget<=0: break
         try:
-            name,specs,image,final=parse_product_page(u); budget-=1
+            name,specs,image,final,evidence=parse_product_page(u); budget-=1
         except Exception as e:
             report["errors"].append({"brand":brand,"url":u,"error":str(e)[:120]}); budget-=1; continue
-        if not name or len(name)>180: continue
+        rejection=publication_rejection(name,final,evidence.get("product_schema",False))
+        if rejection:
+            report.setdefault("rejected",[]).append({"brand":brand,"url":final,"name":name,"reason":rejection})
+            continue
         key=(brand.lower(),name.lower())
         if key in by_name:
             p=by_name[key]; add_source(p,final,"additional official page")
-            upd += merge(p,specs,final,review)
+            upd += merge(p,specs,final,review,evidence)
             if image and not p.get("image_url"): p["image_url"]=image; p["image_source"]=final; imgs+=1
-            by_url[final.rstrip("/")]=p
+            by_url[canonical_url(final)]=p
             continue
-        p={"brand":brand,"name":name,"category":classify(name,final),"subcategory":"自动发现","status":"官网可确认/待复核",
+        p={"brand":brand,"brand_zh_cn":b.get("brand_zh_cn",brand),"name":name,"category":classify(name,final),"subcategory":"自动发现","status":"官网产品页已确认/参数待复核",
            "verified":"官方页面自动发现","origin":b.get("origin","海外"),"market":"官网","first_seen":TODAY,"last_verified":TODAY,"last_checked":TODAY,
-           "source":final,"image_url":image,"image_source":final if image else "","sources":[],"specs":specs or {"参数状态":"已发现官方产品页，详细参数待结构化"},
-           "conflict":"","verification":{"status":"official_verified" if len(specs)>=4 else "official_discovered","confidence":0.92 if len(specs)>=4 else 0.82,"source_count":0,"conflicts":[]}}
+           "source":final,"image_url":image,"image_source":final if image else "","sources":[],"specs":specs,
+           "spec_evidence":{k:{"value":v,"source_url":final,"source_type":"official_cn_product" if source_priority(final)==120 else "official_product","source_priority":source_priority(final),"checked_at":TODAY,"claim_type":"厂商标称"} for k,v in specs.items()},
+           "conflict":"","verification":{"status":"official_verified" if len(specs)>=4 else "official_discovered","confidence":0.92 if len(specs)>=4 else 0.78,"source_count":0,"conflicts":[],"evidence":evidence,"quality_gate_version":"1.2","needs_review":len(specs)<4}}
         add_source(p,final,"new official product")
-        db["products"].append(p); by_url[final.rstrip("/")]=p; by_name[key]=p; newc+=1
+        db["products"].append(p); by_url[canonical_url(final)]=p; by_name[key]=p; newc+=1
         if image: imgs+=1
     report["discovered"]+=newc; report["updated"]+=upd; report["images_added"]+=imgs
     elapsed=time.time()-t0
@@ -216,11 +266,11 @@ for p in todo:
     url=p.get("source","")
     if not b or not url or not host_allowed(url,b["domains"]): continue
     try:
-        _,specs,image,final=parse_product_page(url)
+        _,specs,image,final,evidence=parse_product_page(url)
     except Exception as e:
         report["errors"].append({"product":p["brand"]+" "+p["name"],"error":str(e)[:120]}); done+=1; continue
     p["last_checked"]=TODAY; add_source(p,final,"periodic recheck")
-    report["updated"] += merge(p,specs,final,review)
+    report["updated"] += merge(p,specs,final,review,evidence)
     if image and p.get("image_url")!=image:
         p["image_url"]=image; p["image_source"]=final; report["images_added"]+=1
     report["rechecked"]+=1; done+=1

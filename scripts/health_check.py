@@ -8,6 +8,8 @@ required_files = [
     "data/products.json", "data/brands.json", "data/filter_schema.json",
     "data/source_policy.json", "data/brand_discovery_config.json",
     "data/brand_candidates.json", "data/review_queue.json",
+    "data/quarantine_products.json",
+    "scripts/quality_rules.py", "scripts/upgrade_quality_v12.py",
     "scripts/discover_brands.py", "scripts/update_data.py",
     "scripts/import_secondary.py", "scripts/validate_data.py",
     ".github/workflows/update.yml", ".github/workflows/deploy-pages.yml",
