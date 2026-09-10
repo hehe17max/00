@@ -30,7 +30,13 @@ function valueLabel(value){
   '支持':['支持','Supported'],'不支持':['不支持','Not supported'],'无':['无','None'],'有':['有','Yes'],'是':['是','Yes'],'否':['否','No'],'待核实':['待核实','Pending verification'],'待补参数':['待补参数','Specifications pending'],'批次不同':['批次不同','Varies by revision'],'低延迟模式':['低延迟模式','Low-latency mode'],'自动发现':['自动分类','Auto-classified'],'在售':['在售','Available'],'海外':['海外','Overseas'],'中国':['中国','China'],'官网':['官网','Official site'],'全球/官网':['全球/官网','Global / official site'],'中国/全球':['中国/全球','Mainland China / global']
  };
  if(exact[out])return exact[out][LANG==='zh-CN'?0:1];
- if(LANG==='en')out=out.replaceAll('未核实/不支持','Unverified / not supported').replaceAll('自适应','Adaptive ').replaceAll('官网产品页已确认/参数待复核','Official product page confirmed / specs pending review').replaceAll('在售/历史状态待核实','Available / legacy status pending review').replaceAll('在售/官方可确认','Available / confirmed on official site').replaceAll('在售/官方支持页有效','Available / official support page active').replaceAll('在售/官网可确认','Available / confirmed on official site').replaceAll('官网可确认/待复核','Official page confirmed / pending review');
+ if(LANG==='en'){
+  const replacements=[
+   ['官网产品页已确认/参数待复核','Official product page confirmed / specs pending review'],['在售/历史状态待核实','Available / legacy status pending review'],['在售/官方可确认','Available / confirmed on official site'],['在售/官方支持页有效','Available / official support page active'],['在售/官网可确认','Available / confirmed on official site'],['官网可确认/待复核','Official page confirmed / pending review'],['未核实/不支持','Unverified / not supported'],
+   ['蓝牙最多3台','Bluetooth, up to 3 devices'],['背光关闭','backlight off'],['背光关','backlight off'],['RGB最低亮度','RGB at minimum brightness'],['最低亮度','minimum brightness'],['最高','Up to '],['左右键','left/right buttons'],['磁吸充电','magnetic charging'],['充电底座','charging dock'],['充电仓','charging case'],['自适应','adaptive'],['主动降噪','active noise cancellation'],['低延迟模式','low-latency mode'],['空间音效','spatial audio'],['虚拟环绕','virtual surround'],['降噪','noise cancellation'],['光微动','optical switches'],['机械微动','mechanical switches'],['磁轴','Hall-effect switches'],['机械轴','mechanical switches'],['热插拔','hot-swappable'],['铝合金','aluminum alloy'],['镁合金','magnesium alloy'],['碳纤维','carbon fiber'],['丝膜复合','composite silk diaphragm'],['丝膜','silk diaphragm'],['玻纤','fiberglass'],['无线','wireless'],['有线','wired'],['蓝牙','Bluetooth'],['三模','tri-mode'],['双模','dual-mode'],['最多','up to '],['约','approx. '],['支持','Supports'],['不支持','Not supported'],['无','None'],['有','Yes'],['台',' devices'],['小时',' hours'],['黑色','Black'],['白色','White'],['灰色','Gray'],['红色','Red'],['（',' ('],['）',')'],['，',', ']
+  ];
+  replacements.forEach(([from,to])=>{out=out.replaceAll(from,to)});
+ }
  return out;
 }
 function originLabel(value){return value==='中国'?t('china'):value==='海外'?t('overseas'):valueLabel(value)}
