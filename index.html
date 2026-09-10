@@ -6,12 +6,26 @@
 <link rel="stylesheet" href="style.css"></head>
 <body>
 <header><div class="wrap hero">
-<div><div class="eyebrow">PERIPHERALDB · RELEASE 1.0</div><h1>全球外设产品参数库</h1>
+<div><div class="eyebrow">PERIPHERALDB · RELEASE 1.1</div><h1>全球外设产品参数库</h1>
 <p>官方优先 · 多来源核验 · 每日发现新品 · 参数筛选 · 最多20款对比</p></div>
 <div class="status"><span class="dot"></span><span id="updated">读取数据中…</span></div>
 </div></header>
 
 <main class="wrap">
+<section class="brandtool">
+  <div>
+    <span class="eyebrow">BRAND SEARCH & SUPPLEMENT</span>
+    <h2>品牌搜索 / 联网补全</h2>
+    <p>先搜索数据库中的品牌；需要补充时，可启动品牌定向联网扫描。</p>
+  </div>
+  <div class="brandtool-actions">
+    <input id="brandSearch" type="search" placeholder="输入品牌，例如 VGN、AULA、Logitech G">
+    <button id="brandLocalSearch">搜索品牌</button>
+    <a id="brandSupplement" href="https://github.com/hehe17max/00/actions/workflows/supplement-brand.yml" target="_blank" rel="noopener">联网补全品牌 ↗</a>
+  </div>
+  <div id="brandSearchResult" class="brandsearchresult"></div>
+</section>
+
 <section class="toolbar">
   <input id="search" type="search" placeholder="搜索品牌、型号或参数…">
   <div class="filterrow">

@@ -1,0 +1,57 @@
+name: Search and supplement a brand
+
+on:
+  workflow_dispatch:
+    inputs:
+      brand_name:
+        description: '品牌名称，例如 VGN / AULA / Logitech G'
+        required: true
+        type: string
+      official_url:
+        description: '可选：你已知的品牌官网 URL'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  supplement:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+
+    env:
+      BRAVE_SEARCH_API_KEY: ${{ secrets.BRAVE_SEARCH_API_KEY }}
+      SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+      PERIPHERALDB_SCAN_MODE: fast
+      PERIPHERALDB_ONLY_BRAND: ${{ inputs.brand_name }}
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - run: pip install -r requirements.txt
+
+      - name: Search and verify brand official site
+        run: python -u scripts/search_brand.py --brand "${{ inputs.brand_name }}" --official-url "${{ inputs.official_url }}"
+        timeout-minutes: 10
+
+      - name: Scan only this brand for products and specs
+        run: python -u scripts/update_data.py
+        timeout-minutes: 20
+
+      - name: Validate database
+        run: python scripts/validate_data.py
+
+      - name: Commit brand supplement
+        run: |
+          git config user.name "peripheral-db-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "feat: supplement brand ${{ inputs.brand_name }}"
+          git push

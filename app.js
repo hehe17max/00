@@ -125,3 +125,21 @@ if(openCandidates) openCandidates.onclick=()=>{
  </div>`).join(''):'<p>暂无候选品牌。</p>'}`;
  candidateDialog.showModal();
 };
+
+const brandSearchEl=document.querySelector('#brandSearch');
+const brandLocalSearch=document.querySelector('#brandLocalSearch');
+const brandResult=document.querySelector('#brandSearchResult');
+if(brandLocalSearch) brandLocalSearch.onclick=()=>{
+ const q=(brandSearchEl?.value||'').trim().toLowerCase();
+ if(!q){brandResult.textContent='请输入品牌名称。';return}
+ const brands=[...new Set(DB.map(p=>p.brand))];
+ const exact=brands.filter(b=>b.toLowerCase()===q);
+ const fuzzy=brands.filter(b=>b.toLowerCase().includes(q)&&!exact.includes(b));
+ const matches=[...exact,...fuzzy];
+ if(matches.length){
+   const counts=matches.map(b=>`${b}（${DB.filter(p=>p.brand===b).length} 款）`);
+   brandResult.innerHTML=`数据库已收录：<b>${counts.join('、')}</b>。如怀疑存在遗漏产品，可点击“联网补全品牌”，在 GitHub Actions 中输入同一品牌名执行定向扫描。`;
+ }else{
+   brandResult.innerHTML=`当前数据库未找到 <b>${brandSearchEl.value}</b>。点击“联网补全品牌”后，在 GitHub Actions 输入该品牌名，系统会搜索官网、验证品牌并扫描产品。`;
+ }
+};

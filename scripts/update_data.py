@@ -157,6 +157,10 @@ by_name={(p["brand"].lower(),p["name"].lower()):p for p in db["products"]}
 report={"date":TODAY,"mode":MODE,"discovered":0,"updated":0,"images_added":0,"rechecked":0,"conflicts_before":len(review),"conflicts":0,"errors":[],"brand_stats":{}}
 
 brands=cfg.get("brands",[])
+ONLY_BRAND=os.getenv("PERIPHERALDB_ONLY_BRAND","").strip()
+if ONLY_BRAND:
+    brands=[b for b in brands if b.get("brand","").lower()==ONLY_BRAND.lower()]
+    log(f"Brand-targeted scan: {ONLY_BRAND}")
 log(f"PeripheralDB mode={MODE} brands={len(brands)} recheck_budget={MAX_RECHECKS}")
 
 for i,b in enumerate(brands,1):
