@@ -1,7 +1,22 @@
 
-let DB=[], FILTERS={}, selected=new Set(), selectedKeywords=new Set();
+let DB=[], FILTERS={}, selected=new Set(), selectedKeywords=new Set(), UPDATED_AT='';
 const $=s=>document.querySelector(s);
 const grid=$('#grid'), detail=$('#detail'), compareDialog=$('#compareDialog');
+let LANG=localStorage.getItem('peripheraldb-language')||'zh-CN';
+const I18N={
+ 'zh-CN':{title:'全球外设产品参数库',subtitle:'中国官方中文数据优先 · 逐字段溯源 · 每日发现新品 · 最多20款对比',brandToolTitle:'品牌搜索 / 联网补全',brandToolDesc:'先搜索数据库中的品牌；需要补充时，可启动品牌定向联网扫描。',brandPlaceholder:'输入中文或英文品牌名',searchBrand:'搜索品牌',supplementBrand:'联网补全品牌 ↗',searchPlaceholder:'搜索品牌、型号或参数…',allBrands:'全部品牌',allCategories:'全部品类',allOrigins:'全部来源地区',chinaBrands:'中国品牌',overseasBrands:'海外品牌',allVerification:'全部核验状态',officialVerified:'官方已核实',officialDiscovered:'官方已发现/待补',legacyReview:'历史数据待复核',conflict:'存在冲突',keywordSingle:'关键词：单选',keywordAnd:'关键词：多选且全部匹配 AND',keywordOr:'关键词：多选任一匹配 OR',sortBrand:'品牌 / 型号',sortName:'型号名称',sortVerified:'核验度优先',quickFilters:'快捷筛选关键词',clearKeywords:'清空关键词',results:'当前结果',products:'收录产品',brands:'品牌',categories:'品类',loadingDiscovery:'正在读取品牌发现状态…',viewCandidates:'查看候选品牌',noResults:'没有找到匹配产品。',selected:'已选',clear:'清空',compare:'参数对比',footer:'中国大陆官方中文产品页优先。自动提取的每个参数均保留来源；证据不足、配件、分类页及重复镜像页不会进入正式库。',updated:'数据更新：',details:'查看详情 →',compareLabel:'对比',verified:'官方已核实',discovered:'官方产品页已确认/参数待补',legacy:'历史数据待逐字段复核',conflictReview:'参数冲突待审',corroborated:'多来源已核验',confidence:'可信度',recentCheck:'最近检查',sources:'数据来源',noSources:'暂无来源记录',atLeastTwo:'至少选择两款产品',maxTwenty:'最多同时对比 20 款产品',compareTitle:'产品参数对比',parameter:'参数',enterBrand:'请输入品牌名称。',databaseHas:'数据库已收录：',missingHint:'如怀疑存在遗漏产品，可在维护者入口验证后执行定向扫描。',databaseMissing:'当前数据库未找到',candidateTitle:'自动发现的品牌候选',candidateDesc:'只有达到严格官网证据门槛的品牌才会自动进入 brands.json；其余候选保留等待人工审核。',noCandidates:'暂无候选品牌。',visitOfficial:'访问疑似官网 ↗',discoveryNew:'新候选',autoAdded:'自动加入',sitesChecked:'检查候选站点',searchSource:'搜索来源',searchResults:'搜索结果',maintainerEntry:'维护者入口',maintainerTitle:'维护者验证',maintainerDesc:'访客仅可查看数据。通过验证后可显示 GitHub 维护入口，最终写入仍需仓库权限。',passwordPlaceholder:'输入维护密码',unlock:'验证',passwordError:'密码不正确。'},
+ en:{title:'Global Peripheral Product Database',subtitle:'Mainland China official data first · Field-level provenance · Daily discovery · Compare up to 20',brandToolTitle:'Brand search / online supplement',brandToolDesc:'Search the database first, then run a targeted verified scan when products are missing.',brandPlaceholder:'Enter a Chinese or English brand name',searchBrand:'Search brand',supplementBrand:'Supplement brand online ↗',searchPlaceholder:'Search brand, model, or specification…',allBrands:'All brands',allCategories:'All categories',allOrigins:'All origins',chinaBrands:'Chinese brands',overseasBrands:'Overseas brands',allVerification:'All verification states',officialVerified:'Officially verified',officialDiscovered:'Official product page / specs pending',legacyReview:'Legacy data pending review',conflict:'Conflicting data',keywordSingle:'Keywords: single',keywordAnd:'Keywords: match all (AND)',keywordOr:'Keywords: match any (OR)',sortBrand:'Brand / model',sortName:'Model name',sortVerified:'Verification first',quickFilters:'Quick filters',clearKeywords:'Clear keywords',results:'Results',products:'Products',brands:'Brands',categories:'Categories',loadingDiscovery:'Loading discovery status…',viewCandidates:'View candidates',noResults:'No matching products.',selected:'Selected',clear:'Clear',compare:'Compare specs',footer:'Mainland China official Chinese product pages take priority. Every automatically extracted specification keeps its source; insufficient evidence, accessories, category pages, and translated duplicates are quarantined.',updated:'Updated: ',details:'View details →',compareLabel:'Compare',verified:'Officially verified',discovered:'Official product page / specs pending',legacy:'Legacy data pending field review',conflictReview:'Conflict pending review',corroborated:'Multi-source verified',confidence:'Confidence',recentCheck:'Last checked',sources:'Sources',noSources:'No source record',atLeastTwo:'Select at least two products',maxTwenty:'You can compare up to 20 products',compareTitle:'Product specification comparison',parameter:'Parameter',enterBrand:'Enter a brand name.',databaseHas:'In database: ',missingHint:'If products may be missing, verify through the maintainer entry and run a targeted scan.',databaseMissing:'Not found in the database:',candidateTitle:'Automatically discovered brand candidates',candidateDesc:'Only brands meeting the strict official-evidence threshold are auto-added; all others wait for human review.',noCandidates:'No candidates.',visitOfficial:'Visit candidate official site ↗',discoveryNew:'new candidates',autoAdded:'auto-added',sitesChecked:'sites checked',searchSource:'Search source',searchResults:'results',maintainerEntry:'Maintainer entry',maintainerTitle:'Maintainer verification',maintainerDesc:'Visitors have read-only access. Verification reveals the GitHub maintenance entry; repository permission is still required to write data.',passwordPlaceholder:'Enter maintenance password',unlock:'Verify',passwordError:'Incorrect password.'}
+};
+const t=k=>(I18N[LANG]||I18N['zh-CN'])[k]||k;
+function applyLanguage(){
+ document.documentElement.lang=LANG; $('#languageSwitch').value=LANG;
+ document.querySelectorAll('[data-i18n]').forEach(e=>e.textContent=t(e.dataset.i18n));
+ document.querySelectorAll('[data-i18n-placeholder]').forEach(e=>e.placeholder=t(e.dataset.i18nPlaceholder));
+}
+function brandLabel(p){const zh=p.brand_zh_cn||p.brand;return LANG==='zh-CN'?(zh===p.brand?zh:`${zh}（${p.brand}）`):(zh===p.brand?p.brand:`${p.brand} (${zh})`)}
+function categoryLabel(value){const map={'鼠标':['鼠标','Mouse'],'键盘':['键盘','Keyboard'],'耳机/耳麦':['耳机/耳麦','Headphones / headsets'],'待分类':['待分类','Unclassified']};return map[value]?.[LANG==='zh-CN'?0:1]||value}
+applyLanguage();
+$('#languageSwitch').addEventListener('change',e=>{LANG=e.target.value;localStorage.setItem('peripheraldb-language',LANG);applyLanguage();populateFilters();render();renderDiscovery()});
 
 Promise.all([
  fetch('data/products.json?ts='+Date.now()).then(r=>r.json()),
@@ -10,20 +25,26 @@ Promise.all([
  fetch('data/brand_candidates.json?ts='+Date.now()).then(r=>r.json()).catch(()=>[])
 ]).then(([d,f,discoveryReport,brandCandidates])=>{
  window.DISCOVERY_REPORT=discoveryReport; window.BRAND_CANDIDATES=brandCandidates;
- DB=d.products; FILTERS=f; $('#updated').textContent='数据更新：'+d.updated_at; $('#total').textContent=DB.length;
- const brands=[...new Set(DB.map(x=>x.brand))].sort(), cats=[...new Set(DB.map(x=>x.category))].sort();
- brands.forEach(x=>$('#brandFilter').add(new Option(x,x))); cats.forEach(x=>$('#catFilter').add(new Option(x,x)));
+ DB=d.products; FILTERS=f; UPDATED_AT=d.updated_at||'—'; $('#updated').textContent=t('updated')+UPDATED_AT; $('#total').textContent=DB.length;
+ populateFilters(); const brands=[...new Set(DB.map(x=>x.brand))], cats=[...new Set(DB.map(x=>x.category))];
  $('#brands').textContent=brands.length; $('#cats').textContent=cats.length;
  $('#verifiedCount').textContent=DB.filter(x=>x.verification?.status==='official_verified').length;
  rebuildKeywords(); render();
- if(discoveryReport){
-   $('#discoverySummary').textContent=`${discoveryReport.date}：新候选 ${discoveryReport.new_candidates||0}，自动加入 ${discoveryReport.auto_promoted||0}，检查候选站点 ${discoveryReport.candidate_sites_checked||0}`;
-   $('#discoveryProvider').textContent=`搜索来源：${discoveryReport.provider||'尚未运行'} · 搜索结果 ${discoveryReport.results_scanned||0}`;
- }else{
-   $('#discoverySummary').textContent='品牌自动发现尚未运行';
-   $('#discoveryProvider').textContent='首次运行 Update peripheral product database 后生成报告';
- }
+ renderDiscovery();
 });
+function populateFilters(){
+ const brandValue=$('#brandFilter').value||'全部',catValue=$('#catFilter').value||'全部';
+ $('#brandFilter').innerHTML=`<option value="全部">${t('allBrands')}</option>`;
+ [...new Set(DB.map(x=>x.brand))].sort().forEach(brand=>{const p=DB.find(x=>x.brand===brand);$('#brandFilter').add(new Option(brandLabel(p),brand))});
+ $('#catFilter').innerHTML=`<option value="全部">${t('allCategories')}</option>`;
+ [...new Set(DB.map(x=>x.category))].sort().forEach(cat=>$('#catFilter').add(new Option(categoryLabel(cat),cat)));
+ $('#brandFilter').value=brandValue;$('#catFilter').value=catValue;
+ $('#updated').textContent=DB.length?t('updated')+UPDATED_AT:t('loadingDiscovery');
+}
+function renderDiscovery(){
+ const r=window.DISCOVERY_REPORT;
+ if(r){$('#discoverySummary').textContent=`${r.date}：${t('discoveryNew')} ${r.new_candidates||0}，${t('autoAdded')} ${r.auto_promoted||0}，${t('sitesChecked')} ${r.candidate_sites_checked||0}`;$('#discoveryProvider').textContent=`${t('searchSource')}：${r.provider||'—'} · ${t('searchResults')} ${r.results_scanned||0}`}
+}
 ['#search','#brandFilter','#originFilter','#verifyFilter','#sort'].forEach(s=>$(s).addEventListener(s==='#search'?'input':'change',render));
 $('#catFilter').addEventListener('change',()=>{selectedKeywords.clear();rebuildKeywords();render()});
 $('#keywordMode').addEventListener('change',()=>{if($('#keywordMode').value==='single'&&selectedKeywords.size>1)selectedKeywords=new Set([[...selectedKeywords][0]]);rebuildKeywords();render()});
@@ -33,17 +54,18 @@ $('#doCompare').onclick=openCompare;
 
 function fallback(cat){return cat==='鼠标'?'assets/mouse.svg':cat==='键盘'?'assets/keyboard.svg':'assets/headset.svg'}
 function img(p){return p.image_url||fallback(p.category)}
-function searchable(p){return [p.brand,p.name,p.category,p.subcategory,p.status,p.origin,...Object.entries(p.specs||{}).flat()].join(' ').toLowerCase()}
+function searchable(p){return [p.brand,p.brand_zh_cn,p.name,p.category,p.subcategory,p.status,p.origin,...Object.entries(p.specs||{}).flat()].join(' ').toLowerCase()}
 function verificationLabel(p){
  const s=p.verification?.status||'official_discovered';
- if(s==='official_verified')return ['官方已核实','good'];
- if(s==='conflict')return ['参数冲突待审','conflict'];
- if(s==='corroborated')return ['多来源已核验','good'];
- return ['官方已发现/待补',''];
+ if(s==='official_verified')return [t('verified'),'good'];
+ if(s==='conflict')return [t('conflictReview'),'conflict'];
+ if(s==='corroborated')return [t('corroborated'),'good'];
+ if(s==='legacy_review_required'||p.verification?.quality_gate_version==='legacy')return [t('legacy'),'conflict'];
+ return [t('discovered'),''];
 }
 function rebuildKeywords(){
  const cat=$('#catFilter').value, spec=FILTERS[cat]||FILTERS['待分类'];
- $('#search').placeholder=cat==='全部'?'搜索品牌、型号、传感器、DPI、RT、轴体、ANC、编码、回报率、重量…':spec.placeholder;
+ $('#search').placeholder=cat==='全部'?t('searchPlaceholder'):(LANG==='zh-CN'?spec.placeholder:t('searchPlaceholder'));
  const terms=cat==='全部'?['PAW3950','8000Hz','≤60g','磁轴','Rapid Trigger','热插拔','LDAC','ANC','2.4GHz','三模']:(spec.keywords||[]);
  const box=$('#quick');box.innerHTML='';
  terms.forEach(t=>{let b=document.createElement('button');b.textContent=t;b.classList.toggle('active',selectedKeywords.has(t));b.onclick=()=>{
@@ -80,34 +102,34 @@ function render(){
   entries.sort((a,b)=>{let ia=wanted.indexOf(a[0]),ib=wanted.indexOf(b[0]);return(ia<0?999:ia)-(ib<0?999:ib)});
   const [vl,vc]=verificationLabel(p);
   e.innerHTML=`<img class="productimg" src="${img(p)}" alt="${p.brand} ${p.name}" loading="lazy" onerror="this.src='${fallback(p.category)}'">
-  <div class="cardbody"><div class="topline"><span class="brand">${p.brand}</span><span class="sub">${p.subcategory||p.category}</span></div>
+  <div class="cardbody"><div class="topline"><span class="brand">${brandLabel(p)}</span><span class="sub">${categoryLabel(p.subcategory||p.category)}</span></div>
   <h3>${p.name}</h3><span class="verify ${vc}">● ${vl} · ${Math.round((p.verification?.confidence||0)*100)}%</span>
   <div class="chips">${entries.slice(0,6).map(([k,v])=>`<span class="chip">${k}: ${v}</span>`).join('')}</div>
   ${p.conflict?`<div class="warn">⚠ ${p.conflict}</div>`:''}
-  <div class="actions"><button class="details">查看详情 →</button><label class="comparecheck"><input type="checkbox" ${selected.has(key)?'checked':''}> 对比</label></div></div>`;
+  <div class="actions"><button class="details">${t('details')}</button><label class="comparecheck"><input type="checkbox" ${selected.has(key)?'checked':''}> ${t('compareLabel')}</label></div></div>`;
   e.querySelector('.details').onclick=()=>openDetail(p);
   e.querySelector('input').onchange=ev=>toggleCompare(p,ev.target.checked);grid.appendChild(e)
  });syncCompare()
 }
 function id(p){return p.brand+'::'+p.name}
-function toggleCompare(p,on){const key=id(p);if(on){if(selected.size>=20){alert('最多同时对比 20 款产品');render();return}selected.add(key)}else selected.delete(key);syncCompare()}
+function toggleCompare(p,on){const key=id(p);if(on){if(selected.size>=20){alert(t('maxTwenty'));render();return}selected.add(key)}else selected.delete(key);syncCompare()}
 function syncCompare(){$('#compareBar').classList.toggle('hidden',!selected.size);$('#compareCount').textContent=selected.size;$('#compareNames').textContent=[...selected].map(x=>x.split('::')[1]).join(' · ')}
 function orderedEntries(p){const w=FILTERS[p.category]?.priority_fields||[],a=Object.entries(p.specs||{});return a.sort((x,y)=>{let i=w.indexOf(x[0]),j=w.indexOf(y[0]);return(i<0?999:i)-(j<0?999:j)})}
 function openDetail(p){
  const [vl,vc]=verificationLabel(p), rows=orderedEntries(p).map(([k,v])=>`<div class="row"><small>${k}</small><b>${v}</b></div>`).join('');
- const sources=(p.sources||[]).map(s=>`<a class="source" href="${s.url}" target="_blank" rel="noopener">${s.type} · 权重 ${s.tier} · ${s.checked_at||'待复核'} ↗</a>`).join('');
+ const sources=(p.sources||[]).map(s=>`<a class="source" href="${s.url}" target="_blank" rel="noopener">${s.type} · ${s.tier||'—'} · ${s.checked_at||t('legacy')} ↗</a>`).join('');
  $('#detailBody').innerHTML=`<div class="detailhead"><img class="detailimg" src="${img(p)}" onerror="this.src='${fallback(p.category)}'">
- <div><span class="brand">${p.brand} · ${p.category} · ${p.origin||'—'}</span><h2>${p.name}</h2><span class="verify ${vc}">● ${vl} · 可信度 ${Math.round((p.verification?.confidence||0)*100)}%</span>
- <p class="sub">${p.status} · 最近检查 ${p.last_checked||p.last_verified||'—'}</p></div></div>
+ <div><span class="brand">${brandLabel(p)} · ${categoryLabel(p.category)} · ${p.origin||'—'}</span><h2>${p.name}</h2><span class="verify ${vc}">● ${vl} · ${t('confidence')} ${Math.round((p.verification?.confidence||0)*100)}%</span>
+ <p class="sub">${p.status} · ${t('recentCheck')} ${p.last_checked||p.last_verified||'—'}</p></div></div>
  <div class="detailgrid">${rows}</div>${p.conflict?`<p class="warn">⚠ ${p.conflict}</p>`:''}
- <div class="sourcelist"><b>数据来源</b>${sources||'<p class="sub">暂无来源记录</p>'}</div>`;detail.showModal()
+ <div class="sourcelist"><b>${t('sources')}</b>${sources||`<p class="sub">${t('noSources')}</p>`}</div>`;detail.showModal()
 }
 function openCompare(){
- const ps=DB.filter(p=>selected.has(id(p)));if(ps.length<2){alert('至少选择两款产品');return}
+ const ps=DB.filter(p=>selected.has(id(p)));if(ps.length<2){alert(t('atLeastTwo'));return}
  let keys=[...new Set(ps.flatMap(p=>Object.keys(p.specs||{})))];
  const same=ps.every(p=>p.category===ps[0].category),wanted=same?(FILTERS[ps[0].category]?.priority_fields||[]):[];
  keys.sort((a,b)=>{let i=wanted.indexOf(a),j=wanted.indexOf(b);return(i<0?999:i)-(j<0?999:j)});
- $('#compareBody').innerHTML=`<h2>产品参数对比（${ps.length} 款）</h2><div class="comparewrap"><table class="comparetable"><thead><tr><th>参数</th>${ps.map(p=>`<th>${p.brand}<br><b>${p.name}</b></th>`).join('')}</tr></thead>
+ $('#compareBody').innerHTML=`<h2>${t('compareTitle')} (${ps.length})</h2><div class="comparewrap"><table class="comparetable"><thead><tr><th>${t('parameter')}</th>${ps.map(p=>`<th>${brandLabel(p)}<br><b>${p.name}</b></th>`).join('')}</tr></thead>
  <tbody>${keys.map(k=>`<tr><td>${k}</td>${ps.map(p=>`<td>${p.specs?.[k]||'—'}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;compareDialog.showModal()
 }
 
@@ -116,13 +138,13 @@ const openCandidates=document.querySelector('#openCandidates');
 if(openCandidates) openCandidates.onclick=()=>{
  const rows=(window.BRAND_CANDIDATES||[]).slice().sort((a,b)=>(b.score||0)-(a.score||0));
  const active=rows.filter(x=>x.status!=='rejected');
- document.querySelector('#candidateBody').innerHTML=`<h2>自动发现的品牌候选</h2>
- <p class="sub">高置信度品牌会自动进入 brands.json；其余候选保留等待审核。将候选 status 改为 approved 后，下次自动任务会正式加入。</p>
+ document.querySelector('#candidateBody').innerHTML=`<h2>${t('candidateTitle')}</h2>
+ <p class="sub">${t('candidateDesc')}</p>
  ${active.length?active.map(c=>`<div class="candidate">
    <h3>${c.brand||c.domain} <span class="score">${c.score||0}/100</span></h3>
    <div class="candidate-meta">${c.domain} · ${c.status||'candidate'} · 产品页 ${c.product_page_count||0} · Product结构化页 ${c.product_schema_page_count||0} · ${(c.categories||[]).join(' / ')||'待分类'}</div>
-   <a href="${c.official_url}" target="_blank" rel="noopener">访问疑似官网 ↗</a>
- </div>`).join(''):'<p>暂无候选品牌。</p>'}`;
+   <a href="${c.official_url}" target="_blank" rel="noopener">${t('visitOfficial')}</a>
+ </div>`).join(''):`<p>${t('noCandidates')}</p>`}`;
  candidateDialog.showModal();
 };
 
@@ -131,15 +153,41 @@ const brandLocalSearch=document.querySelector('#brandLocalSearch');
 const brandResult=document.querySelector('#brandSearchResult');
 if(brandLocalSearch) brandLocalSearch.onclick=()=>{
  const q=(brandSearchEl?.value||'').trim().toLowerCase();
- if(!q){brandResult.textContent='请输入品牌名称。';return}
+ if(!q){brandResult.textContent=t('enterBrand');return}
  const brands=[...new Set(DB.map(p=>p.brand))];
- const exact=brands.filter(b=>b.toLowerCase()===q);
- const fuzzy=brands.filter(b=>b.toLowerCase().includes(q)&&!exact.includes(b));
+ const searchName=b=>{const p=DB.find(x=>x.brand===b);return `${b} ${p?.brand_zh_cn||''}`.toLowerCase()};
+ const exact=brands.filter(b=>searchName(b).split(' ').includes(q));
+ const fuzzy=brands.filter(b=>searchName(b).includes(q)&&!exact.includes(b));
  const matches=[...exact,...fuzzy];
  if(matches.length){
-   const counts=matches.map(b=>`${b}（${DB.filter(p=>p.brand===b).length} 款）`);
-   brandResult.innerHTML=`数据库已收录：<b>${counts.join('、')}</b>。如怀疑存在遗漏产品，可点击“联网补全品牌”，在 GitHub Actions 中输入同一品牌名执行定向扫描。`;
+   const counts=matches.map(b=>{const p=DB.find(x=>x.brand===b);return `${brandLabel(p)} (${DB.filter(x=>x.brand===b).length})`});
+   brandResult.innerHTML=`${t('databaseHas')}<b>${counts.join(' · ')}</b>。${t('missingHint')}`;
  }else{
-   brandResult.innerHTML=`当前数据库未找到 <b>${brandSearchEl.value}</b>。点击“联网补全品牌”后，在 GitHub Actions 输入该品牌名，系统会搜索官网、验证品牌并扫描产品。`;
+   brandResult.innerHTML=`${t('databaseMissing')} <b>${brandSearchEl.value}</b>。${t('missingHint')}`;
  }
 };
+
+// A secondary UI barrier only; GitHub permissions authorize all actual writes.
+const ADMIN_HASH='4aaf584abc1fe71d64ff5db646bbc06b596ba027d98958517e0ced1ab7d50ef6';
+const adminDialog=document.querySelector('#adminDialog');
+const adminUnlock=document.querySelector('#adminUnlock');
+const brandSupplement=document.querySelector('#brandSupplement');
+function setMaintainerMode(enabled){
+ adminUnlock.classList.toggle('hidden',enabled);
+ brandSupplement.classList.toggle('hidden',!enabled);
+ if(enabled)sessionStorage.setItem('peripheraldb-maintainer','1');
+}
+async function adminDigest(value){
+ const bytes=new TextEncoder().encode('peripheraldb-v12:'+value);
+ const digest=await crypto.subtle.digest('SHA-256',bytes);
+ return [...new Uint8Array(digest)].map(x=>x.toString(16).padStart(2,'0')).join('');
+}
+if(sessionStorage.getItem('peripheraldb-maintainer')==='1')setMaintainerMode(true);
+adminUnlock.onclick=()=>{document.querySelector('#adminError').classList.add('hidden');adminDialog.showModal();document.querySelector('#adminPassword').focus()};
+document.querySelector('#adminSubmit').onclick=async()=>{
+ const input=document.querySelector('#adminPassword');
+ const ok=(await adminDigest(input.value))===ADMIN_HASH;
+ input.value='';document.querySelector('#adminError').classList.toggle('hidden',ok);
+ if(ok){setMaintainerMode(true);adminDialog.close()}
+};
+document.querySelector('#adminPassword').addEventListener('keydown',e=>{if(e.key==='Enter')document.querySelector('#adminSubmit').click()});
