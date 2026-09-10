@@ -1,147 +1,35 @@
 {
   "brands": [
     {
-      "brand": "iKF",
-      "domains": [
-        "ikfaudio.com",
-        "ikeepfun.cn"
-      ],
-      "collection_urls": [
-        "https://ikfaudio.com/collections/all",
-        "https://ikfaudio.com/collections/headphones",
-        "https://ikfaudio.com/collections/tws",
-        "https://ikfaudio.com/collections/gaming-headset",
-        "https://ikfaudio.com/collections/bone-conduction",
-        "https://ikfaudio.com/collections/night-waves",
-        "https://ikfaudio.com/",
-        "https://ikfaudio.com/pages/product-driven",
-        "https://ikfaudio.com/products/ikf-mars-wireless-bluetooth-headphones-40mm-20mm-drivers-active-noise-cancelling-3-5mm-wired-headset",
-        "https://ikfaudio.com/products/ikf-r2-retro-classic-wireless-headphones-ergonomic-design-wired-headset",
-        "https://ikfaudio.com/products/ikf-king-wireless-bluetooth-headphones-active-noise-cancelling-power-bass-with-mic-wired-headset"
-      ],
+      "brand": "1MORE",
+      "brand_zh_cn": "万魔",
       "origin": "中国",
-      "discovery": [
-        "configured_pages",
-        "sitemap",
-        "shopify_products_json"
-      ],
-      "sitemap_urls": [
-        "https://ikfaudio.com/sitemap.xml"
-      ],
-      "last_brand_search": "2026-09-10",
-      "last_brand_search_score": 100
-    },
-    {
-      "brand": "Razer",
+      "preferred_locale": "zh-CN",
       "domains": [
-        "razer.com"
+        "1more.com"
       ],
       "collection_urls": [
-        "https://www.razer.com/gaming-mice",
-        "https://www.razer.com/gaming-keyboards",
-        "https://www.razer.com/gaming-headsets"
+        "https://usa.1more.com/"
       ],
-      "origin": "海外",
       "discovery": [
         "configured_pages",
         "sitemap",
         "shopify_products_json"
       ],
       "sitemap_urls": [
-        "https://www.razer.com/sitemap.xml"
-      ]
+        "https://usa.1more.com/sitemap.xml"
+      ],
+      "curation": "official_site_verified"
     },
     {
-      "brand": "SteelSeries",
-      "domains": [
-        "steelseries.com"
-      ],
-      "collection_urls": [
-        "https://steelseries.com/gaming-mice",
-        "https://steelseries.com/gaming-keyboards",
-        "https://steelseries.com/gaming-headsets"
-      ],
-      "origin": "海外",
-      "discovery": [
-        "configured_pages",
-        "sitemap",
-        "shopify_products_json"
-      ],
-      "sitemap_urls": [
-        "https://steelseries.com/sitemap.xml"
-      ]
-    },
-    {
-      "brand": "HyperX",
-      "domains": [
-        "hyperx.com"
-      ],
-      "collection_urls": [
-        "https://hyperx.com/collections/gaming-mice",
-        "https://hyperx.com/collections/gaming-keyboards",
-        "https://hyperx.com/collections/gaming-headsets"
-      ],
-      "origin": "海外",
-      "discovery": [
-        "configured_pages",
-        "sitemap",
-        "shopify_products_json"
-      ],
-      "sitemap_urls": [
-        "https://hyperx.com/sitemap.xml"
-      ]
-    },
-    {
-      "brand": "Keychron",
-      "domains": [
-        "keychron.com"
-      ],
-      "collection_urls": [
-        "https://www.keychron.com/collections/all-keyboards",
-        "https://www.keychron.com/collections/mice-collection"
-      ],
-      "origin": "海外",
-      "discovery": [
-        "configured_pages",
-        "sitemap",
-        "shopify_products_json"
-      ],
-      "sitemap_urls": [
-        "https://www.keychron.com/sitemap.xml"
-      ]
-    },
-    {
-      "brand": "Corsair",
-      "domains": [
-        "corsair.com"
-      ],
-      "collection_urls": [
-        "https://www.corsair.com/us/en/c/keyboards",
-        "https://www.corsair.com/us/en/c/mouse",
-        "https://www.corsair.com/us/en/c/gaming-headsets"
-      ],
-      "origin": "海外",
-      "discovery": [
-        "configured_pages",
-        "sitemap",
-        "shopify_products_json"
-      ],
-      "sitemap_urls": [
-        "https://www.corsair.com/sitemap.xml"
-      ]
-    },
-    {
-      "brand": "MCHOSE",
+      "brand": "AJAZZ",
       "origin": "中国",
       "domains": [
-        "maicong.cn",
-        "mchose.store",
-        "support.mchose.store"
+        "a-jazz.com"
       ],
       "collection_urls": [
-        "https://www.maicong.cn/",
-        "https://www.mchose.store/",
-        "https://support.mchose.store/hc/en-us/articles/51976583851028-MCHOSE-Compliance-and-Documents-of-Conformity"
+        "https://www.a-jazz.com/",
+        "https://www.a-jazz.com/en/h-col-160.html"
       ],
       "discovery": [
         "configured_pages",
@@ -149,31 +37,10 @@
         "shopify_products_json"
       ],
       "sitemap_urls": [
-        "https://www.maicong.cn/sitemap.xml",
-        "https://www.mchose.store/sitemap.xml"
-      ]
-    },
-    {
-      "brand": "Rapoo",
-      "origin": "中国",
-      "domains": [
-        "rapoo.com",
-        "shop.rapoo.com"
+        "https://www.a-jazz.com/sitemap.xml"
       ],
-      "collection_urls": [
-        "https://www.rapoo.com/products/gaming/",
-        "https://rapoo.com/en/support/downloadcenter",
-        "https://shop.rapoo.com/"
-      ],
-      "discovery": [
-        "configured_pages",
-        "sitemap",
-        "shopify_products_json"
-      ],
-      "sitemap_urls": [
-        "https://www.rapoo.com/sitemap.xml",
-        "https://rapoo.com/sitemap.xml"
-      ]
+      "brand_zh_cn": "黑爵",
+      "preferred_locale": "zh-CN"
     },
     {
       "brand": "ATK",
@@ -194,7 +61,94 @@
       "sitemap_urls": [
         "https://www.atk-gear.com/sitemap.xml",
         "https://www.atkgear.com.cn/sitemap.xml"
-      ]
+      ],
+      "brand_zh_cn": "ATK",
+      "preferred_locale": "zh-CN"
+    },
+    {
+      "brand": "ATTACK SHARK",
+      "origin": "中国",
+      "domains": [
+        "attackshark.com"
+      ],
+      "collection_urls": [
+        "https://attackshark.com",
+        "https://attackshark.com/products/attack-shark-r86-he",
+        "https://attackshark.com/products/attack-shark-f1-air-39g-wireless-paw3955max-gaming-mouse",
+        "https://attackshark.com/products/attack-shark-x68-he-rapid-trigger-keyboard-magnetic-switch"
+      ],
+      "discovery": [
+        "configured_pages",
+        "sitemap",
+        "shopify_products_json"
+      ],
+      "sitemap_urls": [
+        "https://attackshark.com/sitemap.xml"
+      ],
+      "auto_discovered": true,
+      "discovered_at": "2026-09-09",
+      "discovery_score": 90,
+      "brand_zh_cn": "攻击鲨",
+      "preferred_locale": "zh-CN"
+    },
+    {
+      "brand": "AULA",
+      "origin": "中国",
+      "domains": [
+        "aulastar.com"
+      ],
+      "collection_urls": [
+        "https://www.aulastar.com/"
+      ],
+      "discovery": [
+        "configured_pages",
+        "sitemap"
+      ],
+      "sitemap_urls": [
+        "https://www.aulastar.com/sitemap.xml"
+      ],
+      "brand_zh_cn": "狼蛛",
+      "preferred_locale": "zh-CN"
+    },
+    {
+      "brand": "Baseus",
+      "brand_zh_cn": "倍思",
+      "origin": "中国",
+      "preferred_locale": "zh-CN",
+      "domains": [
+        "baseus.com"
+      ],
+      "collection_urls": [
+        "https://www.baseus.com/"
+      ],
+      "discovery": [
+        "configured_pages",
+        "sitemap",
+        "shopify_products_json"
+      ],
+      "sitemap_urls": [
+        "https://www.baseus.com/sitemap.xml"
+      ],
+      "curation": "official_site_verified"
+    },
+    {
+      "brand": "Dareu",
+      "origin": "中国",
+      "domains": [
+        "dareu.com"
+      ],
+      "collection_urls": [
+        "https://www.dareu.com/"
+      ],
+      "discovery": [
+        "configured_pages",
+        "sitemap"
+      ],
+      "sitemap_urls": [
+        "https://www.dareu.com/sitemap.xml"
+      ],
+      "brand_zh_cn": "达尔优",
+      "preferred_locale": "zh-CN"
     },
     {
       "brand": "Darmoshark",
@@ -217,77 +171,9 @@
       "sitemap_urls": [
         "https://www.darmoshark.cn/sitemap.xml",
         "https://darmoshark.com/sitemap.xml"
-      ]
-    },
-    {
-      "brand": "AJAZZ",
-      "origin": "中国",
-      "domains": [
-        "a-jazz.com"
       ],
-      "collection_urls": [
-        "https://www.a-jazz.com/",
-        "https://www.a-jazz.com/en/h-col-160.html"
-      ],
-      "discovery": [
-        "configured_pages",
-        "sitemap",
-        "shopify_products_json"
-      ],
-      "sitemap_urls": [
-        "https://www.a-jazz.com/sitemap.xml"
-      ]
-    },
-    {
-      "brand": "VGN",
-      "origin": "中国",
-      "domains": [
-        "vgnlab.com"
-      ],
-      "collection_urls": [
-        "https://vgnlab.com/"
-      ],
-      "discovery": [
-        "configured_pages",
-        "sitemap"
-      ],
-      "sitemap_urls": [
-        "https://vgnlab.com/sitemap.xml"
-      ]
-    },
-    {
-      "brand": "AULA",
-      "origin": "中国",
-      "domains": [
-        "aulastar.com"
-      ],
-      "collection_urls": [
-        "https://www.aulastar.com/"
-      ],
-      "discovery": [
-        "configured_pages",
-        "sitemap"
-      ],
-      "sitemap_urls": [
-        "https://www.aulastar.com/sitemap.xml"
-      ]
-    },
-    {
-      "brand": "Dareu",
-      "origin": "中国",
-      "domains": [
-        "dareu.com"
-      ],
-      "collection_urls": [
-        "https://www.dareu.com/"
-      ],
-      "discovery": [
-        "configured_pages",
-        "sitemap"
-      ],
-      "sitemap_urls": [
-        "https://www.dareu.com/sitemap.xml"
-      ]
+      "brand_zh_cn": "达摩鲨",
+      "preferred_locale": "zh-CN"
     },
     {
       "brand": "DURGOD",
@@ -304,148 +190,34 @@
       ],
       "sitemap_urls": [
         "https://www.durgod.com/sitemap.xml"
-      ]
+      ],
+      "brand_zh_cn": "杜伽",
+      "preferred_locale": "zh-CN"
     },
     {
-      "brand": "KZZI",
+      "brand": "EDIFIER",
+      "brand_zh_cn": "漫步者",
       "origin": "中国",
+      "preferred_locale": "zh-CN",
       "domains": [
-        "kzzi.com"
+        "edifier.com"
       ],
       "collection_urls": [
-        "https://www.kzzi.com/"
+        "https://www.edifier.com/cn/",
+        "https://www.edifier.com/cn/cate-63.html"
       ],
       "discovery": [
         "configured_pages",
         "sitemap"
       ],
       "sitemap_urls": [
-        "https://www.kzzi.com/sitemap.xml"
-      ]
-    },
-    {
-      "brand": "Custom Mechanical Keyboards, Gaming Mice, and PC Gear",
-      "origin": "待确认",
-      "domains": [
-        "gloriousgaming.com"
+        "https://www.edifier.com/sitemap.xml"
       ],
-      "collection_urls": [
-        "https://www.gloriousgaming.com",
-        "https://www.gloriousgaming.com/products/gmmk-eternal-96-keyboard",
-        "https://www.gloriousgaming.com/collections/mice",
-        "https://www.gloriousgaming.com/collections/keyboards"
-      ],
-      "discovery": [
-        "configured_pages",
-        "sitemap",
-        "shopify_products_json"
-      ],
-      "sitemap_urls": [
-        "https://www.gloriousgaming.com/sitemap.xml"
-      ],
-      "auto_discovered": true,
-      "discovered_at": "2026-09-09",
-      "discovery_score": 95
-    },
-    {
-      "brand": "IQUNIX.com",
-      "origin": "待确认",
-      "domains": [
-        "iqunix.com"
-      ],
-      "collection_urls": [
-        "https://iqunix.com",
-        "https://iqunix.com/products/iqunix-ez60-ez63-he",
-        "https://iqunix.com/products/iqunix-ev63-hall-effect-keyboard",
-        "https://iqunix.com/products/iqunix-ev63-ghost-in-the-shell-edition"
-      ],
-      "discovery": [
-        "configured_pages",
-        "sitemap",
-        "shopify_products_json"
-      ],
-      "sitemap_urls": [
-        "https://iqunix.com/sitemap.xml"
-      ],
-      "auto_discovered": true,
-      "discovered_at": "2026-09-09",
-      "discovery_score": 82
-    },
-    {
-      "brand": "Kinetic Labs",
-      "origin": "待确认",
-      "domains": [
-        "kineticlabs.com"
-      ],
-      "collection_urls": [
-        "https://kineticlabs.com",
-        "https://kineticlabs.com/keyboards",
-        "https://kineticlabs.com/switches/kinetic/keyboard-switch-sample-packs",
-        "https://kineticlabs.com/keyboards/kinetic/gmk87-keyboard"
-      ],
-      "discovery": [
-        "configured_pages",
-        "sitemap",
-        "shopify_products_json"
-      ],
-      "sitemap_urls": [
-        "https://kineticlabs.com/sitemap.xml"
-      ],
-      "auto_discovered": true,
-      "discovered_at": "2026-09-09",
-      "discovery_score": 87
-    },
-    {
-      "brand": "LAMZU",
-      "origin": "待确认",
-      "domains": [
-        "lamzu.com"
-      ],
-      "collection_urls": [
-        "https://lamzu.com",
-        "https://lamzu.com/products/lamzu-orcus",
-        "https://lamzu.com/products/lamzu-inca",
-        "https://lamzu.com/products/lamzu-tachi-gaming-mouse"
-      ],
-      "discovery": [
-        "configured_pages",
-        "sitemap",
-        "shopify_products_json"
-      ],
-      "sitemap_urls": [
-        "https://lamzu.com/sitemap.xml"
-      ],
-      "auto_discovered": true,
-      "discovered_at": "2026-09-09",
-      "discovery_score": 94
-    },
-    {
-      "brand": "ATTACK SHARK",
-      "origin": "待确认",
-      "domains": [
-        "attackshark.com"
-      ],
-      "collection_urls": [
-        "https://attackshark.com",
-        "https://attackshark.com/products/attack-shark-r86-he",
-        "https://attackshark.com/products/attack-shark-f1-air-39g-wireless-paw3955max-gaming-mouse",
-        "https://attackshark.com/products/attack-shark-x68-he-rapid-trigger-keyboard-magnetic-switch"
-      ],
-      "discovery": [
-        "configured_pages",
-        "sitemap",
-        "shopify_products_json"
-      ],
-      "sitemap_urls": [
-        "https://attackshark.com/sitemap.xml"
-      ],
-      "auto_discovered": true,
-      "discovered_at": "2026-09-09",
-      "discovery_score": 90
+      "curation": "official_site_verified"
     },
     {
       "brand": "EKSA",
-      "origin": "待确认",
+      "origin": "中国",
       "domains": [
         "eksa.net"
       ],
@@ -465,19 +237,107 @@
       ],
       "auto_discovered": true,
       "discovered_at": "2026-09-09",
-      "discovery_score": 94
+      "discovery_score": 94,
+      "brand_zh_cn": "亿歌",
+      "preferred_locale": "zh-CN"
     },
     {
-      "brand": "Razer 雷蛇",
+      "brand": "FiiO",
+      "brand_zh_cn": "飞傲",
       "origin": "中国",
+      "preferred_locale": "zh-CN",
       "domains": [
-        "cn.razerzone.com"
+        "fiio.com"
       ],
       "collection_urls": [
-        "https://cn.razerzone.com",
-        "https://cn.razerzone.com/gaming-keyboards/razer-huntsman-v3-pro-tenkeyless-8khz-sentinels-edition",
-        "https://cn.razerzone.com/gaming-keyboards/razer-huntsman-v3-pro-tenkeyless-8khz-sentinels-edition/1074286317523",
-        "https://cn.razerzone.com/gaming-mice/razer-viper-v4-pro"
+        "https://www.fiio.com/"
+      ],
+      "discovery": [
+        "configured_pages",
+        "sitemap"
+      ],
+      "sitemap_urls": [
+        "https://www.fiio.com/sitemap.xml"
+      ],
+      "curation": "official_site_verified"
+    },
+    {
+      "brand": "Haylou",
+      "brand_zh_cn": "嘿喽",
+      "origin": "中国",
+      "preferred_locale": "zh-CN",
+      "domains": [
+        "haylou.com"
+      ],
+      "collection_urls": [
+        "https://haylou.com/"
+      ],
+      "discovery": [
+        "configured_pages",
+        "sitemap"
+      ],
+      "sitemap_urls": [
+        "https://haylou.com/sitemap.xml"
+      ],
+      "curation": "official_site_verified"
+    },
+    {
+      "brand": "HIFIMAN",
+      "brand_zh_cn": "海菲曼",
+      "origin": "中国",
+      "preferred_locale": "zh-CN",
+      "domains": [
+        "hifiman.com"
+      ],
+      "collection_urls": [
+        "https://hifiman.com/"
+      ],
+      "discovery": [
+        "configured_pages",
+        "sitemap"
+      ],
+      "sitemap_urls": [
+        "https://hifiman.com/sitemap.xml"
+      ],
+      "curation": "official_site_verified"
+    },
+    {
+      "brand": "iKF",
+      "domains": [
+        "ikfaudio.com",
+        "ikeepfun.cn"
+      ],
+      "collection_urls": [
+        "https://ikfaudio.com/collections/all",
+        "https://ikfaudio.com/collections/headphones",
+        "https://ikfaudio.com/collections/tws",
+        "https://ikfaudio.com/collections/gaming-headset",
+        "https://ikfaudio.com/collections/bone-conduction",
+        "https://ikfaudio.com/collections/night-waves"
+      ],
+      "origin": "中国",
+      "discovery": [
+        "configured_pages",
+        "sitemap",
+        "shopify_products_json"
+      ],
+      "sitemap_urls": [
+        "https://ikfaudio.com/sitemap.xml"
+      ],
+      "brand_zh_cn": "iKF",
+      "preferred_locale": "zh-CN"
+    },
+    {
+      "brand": "IQUNIX",
+      "origin": "中国",
+      "domains": [
+        "iqunix.com"
+      ],
+      "collection_urls": [
+        "https://iqunix.com",
+        "https://iqunix.com/products/iqunix-ez60-ez63-he",
+        "https://iqunix.com/products/iqunix-ev63-hall-effect-keyboard",
+        "https://iqunix.com/products/iqunix-ev63-ghost-in-the-shell-edition"
       ],
       "discovery": [
         "configured_pages",
@@ -485,11 +345,58 @@
         "shopify_products_json"
       ],
       "sitemap_urls": [
-        "https://cn.razerzone.com/sitemap.xml"
+        "https://iqunix.com/sitemap.xml"
       ],
       "auto_discovered": true,
-      "discovered_at": "2026-09-10",
-      "discovery_score": 93
+      "discovered_at": "2026-09-09",
+      "discovery_score": 82,
+      "brand_zh_cn": "IQUNIX",
+      "preferred_locale": "zh-CN"
+    },
+    {
+      "brand": "KZZI",
+      "origin": "中国",
+      "domains": [
+        "kzzi.com"
+      ],
+      "collection_urls": [
+        "https://www.kzzi.com/"
+      ],
+      "discovery": [
+        "configured_pages",
+        "sitemap"
+      ],
+      "sitemap_urls": [
+        "https://www.kzzi.com/sitemap.xml"
+      ],
+      "brand_zh_cn": "珂芝",
+      "preferred_locale": "zh-CN"
+    },
+    {
+      "brand": "LAMZU",
+      "origin": "中国",
+      "domains": [
+        "lamzu.com"
+      ],
+      "collection_urls": [
+        "https://lamzu.com",
+        "https://lamzu.com/products/lamzu-orcus",
+        "https://lamzu.com/products/lamzu-inca",
+        "https://lamzu.com/products/lamzu-tachi-gaming-mouse"
+      ],
+      "discovery": [
+        "configured_pages",
+        "sitemap",
+        "shopify_products_json"
+      ],
+      "sitemap_urls": [
+        "https://lamzu.com/sitemap.xml"
+      ],
+      "auto_discovered": true,
+      "discovered_at": "2026-09-09",
+      "discovery_score": 94,
+      "brand_zh_cn": "兰族",
+      "preferred_locale": "zh-CN"
     },
     {
       "brand": "LUMINKEY",
@@ -513,19 +420,22 @@
       ],
       "auto_discovered": true,
       "discovered_at": "2026-09-10",
-      "discovery_score": 88
+      "discovery_score": 88,
+      "brand_zh_cn": "LUMINKEY",
+      "preferred_locale": "zh-CN"
     },
     {
-      "brand": "HyperX ROW",
+      "brand": "MCHOSE",
       "origin": "中国",
       "domains": [
-        "row.hyperx.com"
+        "maicong.cn",
+        "mchose.store",
+        "support.mchose.store"
       ],
       "collection_urls": [
-        "https://row.hyperx.com",
-        "https://row.hyperx.com/collections/gaming-headsets",
-        "https://row.hyperx.com/collections/gaming-keyboards",
-        "https://row.hyperx.com/collections/gaming-mice"
+        "https://www.maicong.cn/",
+        "https://www.mchose.store/",
+        "https://support.mchose.store/hc/en-us/articles/51976583851028-MCHOSE-Compliance-and-Documents-of-Conformity"
       ],
       "discovery": [
         "configured_pages",
@@ -533,11 +443,326 @@
         "shopify_products_json"
       ],
       "sitemap_urls": [
-        "https://row.hyperx.com/sitemap.xml"
+        "https://www.maicong.cn/sitemap.xml",
+        "https://www.mchose.store/sitemap.xml"
+      ],
+      "brand_zh_cn": "迈从",
+      "preferred_locale": "zh-CN"
+    },
+    {
+      "brand": "MOONDROP",
+      "brand_zh_cn": "水月雨",
+      "origin": "中国",
+      "preferred_locale": "zh-CN",
+      "domains": [
+        "moondroplab.com"
+      ],
+      "collection_urls": [
+        "https://moondroplab.com/cn/home"
+      ],
+      "discovery": [
+        "configured_pages",
+        "sitemap"
+      ],
+      "sitemap_urls": [
+        "https://moondroplab.com/sitemap.xml"
+      ],
+      "curation": "official_site_verified"
+    },
+    {
+      "brand": "QCY",
+      "brand_zh_cn": "QCY",
+      "origin": "中国",
+      "preferred_locale": "zh-CN",
+      "domains": [
+        "qcy.com"
+      ],
+      "collection_urls": [
+        "https://www.qcy.com/"
+      ],
+      "discovery": [
+        "configured_pages",
+        "sitemap",
+        "shopify_products_json"
+      ],
+      "sitemap_urls": [
+        "https://www.qcy.com/sitemap.xml"
+      ],
+      "curation": "official_site_verified"
+    },
+    {
+      "brand": "Rapoo",
+      "origin": "中国",
+      "domains": [
+        "rapoo.com",
+        "shop.rapoo.com"
+      ],
+      "collection_urls": [
+        "https://www.rapoo.com/products/gaming/",
+        "https://rapoo.com/en/support/downloadcenter",
+        "https://shop.rapoo.com/"
+      ],
+      "discovery": [
+        "configured_pages",
+        "sitemap",
+        "shopify_products_json"
+      ],
+      "sitemap_urls": [
+        "https://www.rapoo.com/sitemap.xml",
+        "https://rapoo.com/sitemap.xml"
+      ],
+      "brand_zh_cn": "雷柏",
+      "preferred_locale": "zh-CN"
+    },
+    {
+      "brand": "SoundPEATS",
+      "brand_zh_cn": "泥炭",
+      "origin": "中国",
+      "preferred_locale": "zh-CN",
+      "domains": [
+        "soundpeats.com"
+      ],
+      "collection_urls": [
+        "https://soundpeats.com/"
+      ],
+      "discovery": [
+        "configured_pages",
+        "sitemap",
+        "shopify_products_json"
+      ],
+      "sitemap_urls": [
+        "https://soundpeats.com/sitemap.xml"
+      ],
+      "curation": "official_site_verified"
+    },
+    {
+      "brand": "TRN",
+      "brand_zh_cn": "TRN",
+      "origin": "中国",
+      "preferred_locale": "zh-CN",
+      "domains": [
+        "trn-audio.com"
+      ],
+      "collection_urls": [
+        "https://trn-audio.com/"
+      ],
+      "discovery": [
+        "configured_pages",
+        "sitemap",
+        "shopify_products_json"
+      ],
+      "sitemap_urls": [
+        "https://trn-audio.com/sitemap.xml"
+      ],
+      "curation": "official_site_verified"
+    },
+    {
+      "brand": "VGN",
+      "origin": "中国",
+      "domains": [
+        "vgnlab.com"
+      ],
+      "collection_urls": [
+        "https://vgnlab.com/"
+      ],
+      "discovery": [
+        "configured_pages",
+        "sitemap"
+      ],
+      "sitemap_urls": [
+        "https://vgnlab.com/sitemap.xml"
+      ],
+      "brand_zh_cn": "VGN",
+      "preferred_locale": "zh-CN"
+    },
+    {
+      "brand": "VXE",
+      "brand_zh_cn": "VXE",
+      "origin": "中国",
+      "preferred_locale": "zh-CN",
+      "domains": [
+        "atkgear.com.cn"
+      ],
+      "collection_urls": [
+        "https://www.atkgear.com.cn/about"
+      ],
+      "discovery": [
+        "configured_pages",
+        "sitemap"
+      ],
+      "sitemap_urls": [
+        "https://www.atkgear.com.cn/sitemap.xml"
+      ],
+      "curation": "official_site_verified"
+    },
+    {
+      "brand": "Corsair",
+      "domains": [
+        "corsair.com"
+      ],
+      "collection_urls": [
+        "https://www.corsair.com/us/en/c/keyboards",
+        "https://www.corsair.com/us/en/c/mouse",
+        "https://www.corsair.com/us/en/c/gaming-headsets"
+      ],
+      "origin": "海外",
+      "discovery": [
+        "configured_pages",
+        "sitemap",
+        "shopify_products_json"
+      ],
+      "sitemap_urls": [
+        "https://www.corsair.com/sitemap.xml"
+      ],
+      "brand_zh_cn": "美商海盗船",
+      "preferred_locale": "en"
+    },
+    {
+      "brand": "Glorious",
+      "origin": "海外",
+      "domains": [
+        "gloriousgaming.com"
+      ],
+      "collection_urls": [
+        "https://www.gloriousgaming.com",
+        "https://www.gloriousgaming.com/products/gmmk-eternal-96-keyboard",
+        "https://www.gloriousgaming.com/collections/mice",
+        "https://www.gloriousgaming.com/collections/keyboards"
+      ],
+      "discovery": [
+        "configured_pages",
+        "sitemap",
+        "shopify_products_json"
+      ],
+      "sitemap_urls": [
+        "https://www.gloriousgaming.com/sitemap.xml"
       ],
       "auto_discovered": true,
-      "discovered_at": "2026-09-10",
-      "discovery_score": 96
+      "discovered_at": "2026-09-09",
+      "discovery_score": 95,
+      "brand_zh_cn": "Glorious",
+      "preferred_locale": "en"
+    },
+    {
+      "brand": "HyperX",
+      "domains": [
+        "hyperx.com"
+      ],
+      "collection_urls": [
+        "https://hyperx.com/collections/gaming-mice",
+        "https://hyperx.com/collections/gaming-keyboards",
+        "https://hyperx.com/collections/gaming-headsets"
+      ],
+      "origin": "海外",
+      "discovery": [
+        "configured_pages",
+        "sitemap",
+        "shopify_products_json"
+      ],
+      "sitemap_urls": [
+        "https://hyperx.com/sitemap.xml"
+      ],
+      "brand_zh_cn": "极度未知",
+      "preferred_locale": "en"
+    },
+    {
+      "brand": "Keychron",
+      "domains": [
+        "keychron.com"
+      ],
+      "collection_urls": [
+        "https://www.keychron.com/collections/all-keyboards",
+        "https://www.keychron.com/collections/mice-collection"
+      ],
+      "origin": "海外",
+      "discovery": [
+        "configured_pages",
+        "sitemap",
+        "shopify_products_json"
+      ],
+      "sitemap_urls": [
+        "https://www.keychron.com/sitemap.xml"
+      ],
+      "brand_zh_cn": "渴创",
+      "preferred_locale": "en"
+    },
+    {
+      "brand": "Kinetic Labs",
+      "origin": "海外",
+      "domains": [
+        "kineticlabs.com"
+      ],
+      "collection_urls": [
+        "https://kineticlabs.com",
+        "https://kineticlabs.com/keyboards",
+        "https://kineticlabs.com/switches/kinetic/keyboard-switch-sample-packs",
+        "https://kineticlabs.com/keyboards/kinetic/gmk87-keyboard"
+      ],
+      "discovery": [
+        "configured_pages",
+        "sitemap",
+        "shopify_products_json"
+      ],
+      "sitemap_urls": [
+        "https://kineticlabs.com/sitemap.xml"
+      ],
+      "auto_discovered": true,
+      "discovered_at": "2026-09-09",
+      "discovery_score": 87,
+      "brand_zh_cn": "Kinetic Labs",
+      "preferred_locale": "en"
+    },
+    {
+      "brand": "Razer",
+      "domains": [
+        "razer.com",
+        "cn.razerzone.com"
+      ],
+      "collection_urls": [
+        "https://www.razer.com/gaming-mice",
+        "https://www.razer.com/gaming-keyboards",
+        "https://www.razer.com/gaming-headsets",
+        "https://cn.razerzone.com",
+        "https://cn.razerzone.com/gaming-keyboards/razer-huntsman-v3-pro-tenkeyless-8khz-sentinels-edition",
+        "https://cn.razerzone.com/gaming-keyboards/razer-huntsman-v3-pro-tenkeyless-8khz-sentinels-edition/1074286317523",
+        "https://cn.razerzone.com/gaming-mice/razer-viper-v4-pro"
+      ],
+      "origin": "海外",
+      "discovery": [
+        "configured_pages",
+        "sitemap",
+        "shopify_products_json"
+      ],
+      "sitemap_urls": [
+        "https://www.razer.com/sitemap.xml",
+        "https://cn.razerzone.com/sitemap.xml"
+      ],
+      "brand_zh_cn": "雷蛇",
+      "preferred_locale": "en"
+    },
+    {
+      "brand": "SteelSeries",
+      "domains": [
+        "steelseries.com"
+      ],
+      "collection_urls": [
+        "https://steelseries.com/gaming-mice",
+        "https://steelseries.com/gaming-keyboards",
+        "https://steelseries.com/gaming-headsets"
+      ],
+      "origin": "海外",
+      "discovery": [
+        "configured_pages",
+        "sitemap",
+        "shopify_products_json"
+      ],
+      "sitemap_urls": [
+        "https://steelseries.com/sitemap.xml"
+      ],
+      "brand_zh_cn": "赛睿",
+      "preferred_locale": "en"
     }
-  ]
+  ],
+  "schema_version": "1.2",
+  "language_default": "zh-CN"
 }
