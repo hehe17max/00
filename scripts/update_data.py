@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import json, re, datetime, os, hashlib, time
+import json, re, datetime, os, hashlib, time, html
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
 from xml.etree import ElementTree as ET
@@ -47,6 +47,25 @@ def flatten(obj):
     elif isinstance(obj,dict):
         if "@graph" in obj: yield from flatten(obj["@graph"])
         yield obj
+def image_values(value):
+    """Yield image URLs from schema.org string, list, or ImageObject values."""
+    if isinstance(value,str):
+        yield value
+    elif isinstance(value,list):
+        for item in value: yield from image_values(item)
+    elif isinstance(value,dict):
+        for key in ("url","contentUrl","thumbnailUrl"):
+            if value.get(key): yield from image_values(value[key])
+def normalize_image_url(value,base):
+    raw=html.unescape(clean(value))
+    if not raw: return ""
+    url=urljoin(base,raw)
+    if url.startswith("http://"): url="https://"+url[7:]
+    parsed=urlparse(url)
+    low=(parsed.path+"?"+parsed.query).lower()
+    if parsed.scheme!="https" or not parsed.netloc: return ""
+    if any(x in low for x in ("favicon","site-logo","/logo.","placeholder","spinner","loading.gif","avatar","sprite")): return ""
+    return url
 def parse_product_page(url):
     r=get(url); soup=BeautifulSoup(r.text,"html.parser")
     name=None; images=[]; specs={}; product_objects=[]
@@ -57,12 +76,14 @@ def parse_product_page(url):
                 if "Product" in types:
                     product_objects.append(x)
                     if x.get("name") and not name: name=clean(x["name"])
-                    im=x.get("image")
-                    if isinstance(im,str): images.append(im)
-                    elif isinstance(im,list): images += [i for i in im if isinstance(i,str)]
+                    images += list(image_values(x.get("image")))
         except Exception: pass
     og=soup.find("meta",property="og:image")
     if og and og.get("content"): images.append(urljoin(url,og["content"]))
+    twitter=soup.find("meta",attrs={"name":"twitter:image"}) or soup.find("meta",attrs={"property":"twitter:image"})
+    if twitter and twitter.get("content"): images.append(urljoin(url,twitter["content"]))
+    image_src=soup.find("link",rel=lambda value:value and "image_src" in value)
+    if image_src and image_src.get("href"): images.append(urljoin(url,image_src["href"]))
     if not name:
         h=soup.find("h1"); name=clean(h.get_text(" ",strip=True)) if h else None
     for tr in soup.select("table tr"):
@@ -73,7 +94,7 @@ def parse_product_page(url):
         if dd:
             k,v=clean(dt.get_text(" ",strip=True)),clean(dd.get_text(" ",strip=True))
             if k and v and len(k)<90 and len(v)<400: specs[k]=v
-    image=next((i for i in images if isinstance(i,str) and i.startswith("http")),"")
+    image=next((candidate for i in images if (candidate:=normalize_image_url(i,r.url))),"")
     canonical=soup.find("link",rel="canonical")
     canonical_href=urljoin(r.url,canonical.get("href")) if canonical and canonical.get("href") else r.url
     evidence={

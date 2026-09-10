@@ -4,6 +4,7 @@
 import json
 import sys
 from pathlib import Path
+from urllib.parse import urlparse
 
 from quality_rules import canonical_url, host_allowed, product_name_ok
 
@@ -62,6 +63,13 @@ for product in db.get("products", []):
                 errors.append(f"{label}: 参数 {field} 缺少逐字段来源")
     elif not product.get("spec_evidence"):
         warnings.append(f"{label}: 历史参数待补逐字段来源")
+    image_url = product.get("image_url", "")
+    if image_url:
+        parsed = urlparse(image_url)
+        if parsed.scheme != "https" or not parsed.netloc:
+            errors.append(f"{label}: 产品图片必须使用有效 HTTPS URL")
+        if any(token in image_url.lower() for token in ("favicon", "site-logo", "/logo.", "placeholder", "spinner", "loading.gif", "avatar", "sprite")):
+            errors.append(f"{label}: 产品图片疑似站点图标或占位图")
 
 print(f"products={len(db.get('products', []))}, brands={len(brands)}, errors={len(errors)}, warnings={len(warnings)}")
 for item in warnings[:30]:
