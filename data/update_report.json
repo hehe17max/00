@@ -1,17 +1,32 @@
 {
   "date": "2026-09-10",
   "mode": "fast",
-  "discovered": 206,
-  "updated": 4,
-  "images_added": 189,
-  "rechecked": 25,
+  "discovered": 154,
+  "updated": 44,
+  "images_added": 144,
+  "rechecked": 13,
   "conflicts_before": 0,
-  "conflicts": 0,
+  "conflicts": 26,
   "errors": [
+    {
+      "brand": "Keychron",
+      "url": "https://www.keychron.com/products/custom-keyboard-industry-design-open-source-project-v-max-series",
+      "error": "500 Server Error: Internal Server Error for url: https://www.keychron.com/products/custom-keyboard-industry-design-open-"
+    },
+    {
+      "brand": "Keychron",
+      "url": "https://www.keychron.com/products/kailh-box-summer-clicky-switch",
+      "error": "500 Server Error: Internal Server Error for url: https://www.keychron.com/products/kailh-box-summer-clicky-switch"
+    },
     {
       "brand": "MCHOSE",
       "url": "https://www.mchose.store/products/mchose-gx87s-aluminum-custom-mechanical-keyboard",
       "error": "404 Client Error: Not Found for url: https://www.mchose.store/products/mchose-gx87s-aluminum-custom-mechanical-keyboard"
+    },
+    {
+      "brand": "Razer 雷蛇",
+      "url": "https://cn.razerzone.com/gaming-mice/razer-viper-v4-pro-esports-green",
+      "error": "404 Client Error: Not Found for url: https://cn.razerzone.com/gaming-mice/razer-viper-v4-pro-esports-green"
     },
     {
       "product": "ATK ATK 68 RX",
@@ -32,6 +47,54 @@
     {
       "product": "ATK ATK Blazing Sky U2 V2",
       "error": "HTTPSConnectionPool(host='www.atk-gear.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVeri"
+    },
+    {
+      "product": "ATK ATK Blazing Sky X1 V2",
+      "error": "HTTPSConnectionPool(host='www.atk-gear.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVeri"
+    },
+    {
+      "product": "ATK ATK Blazing Sky Z1 V2",
+      "error": "HTTPSConnectionPool(host='www.atk-gear.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVeri"
+    },
+    {
+      "product": "ATK ATK Dragonfly A9",
+      "error": "HTTPSConnectionPool(host='www.atk-gear.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVeri"
+    },
+    {
+      "product": "ATK ATK Dragonfly A9 Ultimate",
+      "error": "HTTPSConnectionPool(host='www.atk-gear.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVeri"
+    },
+    {
+      "product": "ATK ATK EDGE 60 HE",
+      "error": "HTTPSConnectionPool(host='www.atk-gear.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVeri"
+    },
+    {
+      "product": "ATK ATK EDGE 63 HE",
+      "error": "HTTPSConnectionPool(host='www.atk-gear.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVeri"
+    },
+    {
+      "product": "ATK ATK Mercury I",
+      "error": "HTTPSConnectionPool(host='www.atk-gear.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVeri"
+    },
+    {
+      "product": "ATK ATK Neptune N9",
+      "error": "HTTPSConnectionPool(host='www.atk-gear.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVeri"
+    },
+    {
+      "product": "ATK ATK RS6 Air",
+      "error": "HTTPSConnectionPool(host='www.atk-gear.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVeri"
+    },
+    {
+      "product": "ATK ATK RS6 Series",
+      "error": "HTTPSConnectionPool(host='www.atk-gear.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVeri"
+    },
+    {
+      "product": "ATK ATK RS7 V2",
+      "error": "HTTPSConnectionPool(host='www.atk-gear.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVeri"
+    },
+    {
+      "product": "ATK ATK x QK Hex80",
+      "error": "HTTPSConnectionPool(host='www.atk-gear.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVeri"
     }
   ],
   "brand_stats": {
@@ -41,23 +104,23 @@
       "new": 10,
       "updated": 0,
       "images": 10,
-      "seconds": 12.8
+      "seconds": 11.9
     },
     "Razer": {
       "found": 276,
       "subset": 28,
-      "new": 7,
+      "new": 3,
       "updated": 0,
-      "images": 7,
-      "seconds": 22.5
+      "images": 3,
+      "seconds": 28.5
     },
     "SteelSeries": {
       "found": 284,
       "subset": 28,
-      "new": 10,
+      "new": 6,
       "updated": 0,
-      "images": 10,
-      "seconds": 15.5
+      "images": 6,
+      "seconds": 14.8
     },
     "HyperX": {
       "found": 253,
@@ -65,39 +128,39 @@
       "new": 12,
       "updated": 0,
       "images": 12,
-      "seconds": 7.7
+      "seconds": 9.9
     },
     "Keychron": {
       "found": 675,
       "subset": 28,
-      "new": 12,
+      "new": 10,
       "updated": 0,
-      "images": 12,
-      "seconds": 41.6
+      "images": 10,
+      "seconds": 40.9
     },
     "Corsair": {
       "found": 32,
       "subset": 28,
-      "new": 11,
+      "new": 5,
       "updated": 0,
-      "images": 11,
-      "seconds": 9.6
+      "images": 5,
+      "seconds": 14.6
     },
     "MCHOSE": {
       "found": 42,
       "subset": 28,
-      "new": 11,
+      "new": 5,
       "updated": 0,
-      "images": 11,
-      "seconds": 12.9
+      "images": 5,
+      "seconds": 6.9
     },
     "Rapoo": {
       "found": 39,
       "subset": 28,
-      "new": 12,
+      "new": 7,
       "updated": 0,
-      "images": 12,
-      "seconds": 17.3
+      "images": 7,
+      "seconds": 10.5
     },
     "ATK": {
       "found": 24,
@@ -105,15 +168,15 @@
       "new": 0,
       "updated": 0,
       "images": 0,
-      "seconds": 7.6
+      "seconds": 5.5
     },
     "Darmoshark": {
       "found": 23,
       "subset": 23,
-      "new": 11,
+      "new": 0,
       "updated": 0,
-      "images": 11,
-      "seconds": 7.3
+      "images": 0,
+      "seconds": 3.2
     },
     "AJAZZ": {
       "found": 0,
@@ -121,7 +184,7 @@
       "new": 0,
       "updated": 0,
       "images": 0,
-      "seconds": 2.9
+      "seconds": 2.3
     },
     "VGN": {
       "found": 96,
@@ -129,22 +192,22 @@
       "new": 12,
       "updated": 0,
       "images": 12,
-      "seconds": 9.4
+      "seconds": 10.6
     },
     "AULA": {
       "found": 5,
       "subset": 5,
-      "new": 5,
+      "new": 0,
       "updated": 0,
       "images": 0,
-      "seconds": 11.9
+      "seconds": 3.1
     },
     "Dareu": {
       "found": 189,
       "subset": 28,
-      "new": 12,
+      "new": 9,
       "updated": 0,
-      "images": 12,
+      "images": 9,
       "seconds": 11.4
     },
     "DURGOD": {
@@ -153,7 +216,7 @@
       "new": 12,
       "updated": 0,
       "images": 12,
-      "seconds": 62.0
+      "seconds": 65.8
     },
     "KZZI": {
       "found": 13,
@@ -161,23 +224,23 @@
       "new": 0,
       "updated": 0,
       "images": 0,
-      "seconds": 9.2
+      "seconds": 8.2
     },
     "Custom Mechanical Keyboards, Gaming Mice, and PC Gear": {
-      "found": 521,
+      "found": 514,
       "subset": 28,
-      "new": 12,
+      "new": 10,
       "updated": 0,
-      "images": 12,
-      "seconds": 15.1
+      "images": 10,
+      "seconds": 13.6
     },
     "IQUNIX.com": {
       "found": 73,
       "subset": 28,
-      "new": 12,
-      "updated": 0,
-      "images": 12,
-      "seconds": 11.6
+      "new": 8,
+      "updated": 4,
+      "images": 8,
+      "seconds": 11.5
     },
     "Kinetic Labs": {
       "found": 0,
@@ -185,15 +248,15 @@
       "new": 0,
       "updated": 0,
       "images": 0,
-      "seconds": 0.6
+      "seconds": 1.6
     },
     "LAMZU": {
       "found": 223,
       "subset": 28,
-      "new": 10,
+      "new": 7,
       "updated": 0,
-      "images": 10,
-      "seconds": 8.8
+      "images": 7,
+      "seconds": 9.4
     },
     "ATTACK SHARK": {
       "found": 355,
@@ -201,23 +264,31 @@
       "new": 12,
       "updated": 0,
       "images": 12,
-      "seconds": 22.8
+      "seconds": 24.1
     },
     "EKSA": {
       "found": 31,
       "subset": 28,
-      "new": 11,
+      "new": 3,
       "updated": 0,
-      "images": 11,
-      "seconds": 9.6
+      "images": 3,
+      "seconds": 5.8
     },
     "Razer 雷蛇": {
       "found": 117,
       "subset": 28,
-      "new": 12,
+      "new": 11,
       "updated": 0,
       "images": 0,
       "seconds": 9.7
+    },
+    "LUMINKEY": {
+      "found": 135,
+      "subset": 28,
+      "new": 12,
+      "updated": 0,
+      "images": 12,
+      "seconds": 9.8
     }
   }
 }
