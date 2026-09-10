@@ -1,22 +1,61 @@
 
-let DB=[], FILTERS={}, selected=new Set(), selectedKeywords=new Set(), UPDATED_AT='';
+let DB=[], FILTERS={}, selected=new Set(), selectedKeywords=new Set(), UPDATED_AT='', CURRENT_DETAIL=null;
 const $=s=>document.querySelector(s);
 const grid=$('#grid'), detail=$('#detail'), compareDialog=$('#compareDialog');
 let LANG=localStorage.getItem('peripheraldb-language')||'zh-CN';
 const I18N={
- 'zh-CN':{title:'全球外设产品参数库',subtitle:'中国官方中文数据优先 · 逐字段溯源 · 每日发现新品 · 最多20款对比',brandToolTitle:'品牌搜索 / 联网补全',brandToolDesc:'先搜索数据库中的品牌；需要补充时，可启动品牌定向联网扫描。',brandPlaceholder:'输入中文或英文品牌名',searchBrand:'搜索品牌',supplementBrand:'联网补全品牌 ↗',searchPlaceholder:'搜索品牌、型号或参数…',allBrands:'全部品牌',allCategories:'全部品类',allOrigins:'全部来源地区',chinaBrands:'中国品牌',overseasBrands:'海外品牌',allVerification:'全部核验状态',officialVerified:'官方已核实',officialDiscovered:'官方已发现/待补',legacyReview:'历史数据待复核',conflict:'存在冲突',keywordSingle:'关键词：单选',keywordAnd:'关键词：多选且全部匹配 AND',keywordOr:'关键词：多选任一匹配 OR',sortBrand:'品牌 / 型号',sortName:'型号名称',sortVerified:'核验度优先',quickFilters:'快捷筛选关键词',clearKeywords:'清空关键词',results:'当前结果',products:'收录产品',brands:'品牌',categories:'品类',loadingDiscovery:'正在读取品牌发现状态…',viewCandidates:'查看候选品牌',noResults:'没有找到匹配产品。',selected:'已选',clear:'清空',compare:'参数对比',footer:'中国大陆官方中文产品页优先。自动提取的每个参数均保留来源；证据不足、配件、分类页及重复镜像页不会进入正式库。',updated:'数据更新：',details:'查看详情 →',compareLabel:'对比',verified:'官方已核实',discovered:'官方产品页已确认/参数待补',legacy:'历史数据待逐字段复核',conflictReview:'参数冲突待审',corroborated:'多来源已核验',confidence:'可信度',recentCheck:'最近检查',sources:'数据来源',noSources:'暂无来源记录',atLeastTwo:'至少选择两款产品',maxTwenty:'最多同时对比 20 款产品',compareTitle:'产品参数对比',parameter:'参数',enterBrand:'请输入品牌名称。',databaseHas:'数据库已收录：',missingHint:'如怀疑存在遗漏产品，可在维护者入口验证后执行定向扫描。',databaseMissing:'当前数据库未找到',candidateTitle:'自动发现的品牌候选',candidateDesc:'只有达到严格官网证据门槛的品牌才会自动进入 brands.json；其余候选保留等待人工审核。',noCandidates:'暂无候选品牌。',visitOfficial:'访问疑似官网 ↗',discoveryNew:'新候选',autoAdded:'自动加入',sitesChecked:'检查候选站点',searchSource:'搜索来源',searchResults:'搜索结果',maintainerEntry:'维护者入口',maintainerTitle:'维护者验证',maintainerDesc:'访客仅可查看数据。通过验证后可显示 GitHub 维护入口，最终写入仍需仓库权限。',passwordPlaceholder:'输入维护密码',unlock:'验证',passwordError:'密码不正确。'},
- en:{title:'Global Peripheral Product Database',subtitle:'Mainland China official data first · Field-level provenance · Daily discovery · Compare up to 20',brandToolTitle:'Brand search / online supplement',brandToolDesc:'Search the database first, then run a targeted verified scan when products are missing.',brandPlaceholder:'Enter a Chinese or English brand name',searchBrand:'Search brand',supplementBrand:'Supplement brand online ↗',searchPlaceholder:'Search brand, model, or specification…',allBrands:'All brands',allCategories:'All categories',allOrigins:'All origins',chinaBrands:'Chinese brands',overseasBrands:'Overseas brands',allVerification:'All verification states',officialVerified:'Officially verified',officialDiscovered:'Official product page / specs pending',legacyReview:'Legacy data pending review',conflict:'Conflicting data',keywordSingle:'Keywords: single',keywordAnd:'Keywords: match all (AND)',keywordOr:'Keywords: match any (OR)',sortBrand:'Brand / model',sortName:'Model name',sortVerified:'Verification first',quickFilters:'Quick filters',clearKeywords:'Clear keywords',results:'Results',products:'Products',brands:'Brands',categories:'Categories',loadingDiscovery:'Loading discovery status…',viewCandidates:'View candidates',noResults:'No matching products.',selected:'Selected',clear:'Clear',compare:'Compare specs',footer:'Mainland China official Chinese product pages take priority. Every automatically extracted specification keeps its source; insufficient evidence, accessories, category pages, and translated duplicates are quarantined.',updated:'Updated: ',details:'View details →',compareLabel:'Compare',verified:'Officially verified',discovered:'Official product page / specs pending',legacy:'Legacy data pending field review',conflictReview:'Conflict pending review',corroborated:'Multi-source verified',confidence:'Confidence',recentCheck:'Last checked',sources:'Sources',noSources:'No source record',atLeastTwo:'Select at least two products',maxTwenty:'You can compare up to 20 products',compareTitle:'Product specification comparison',parameter:'Parameter',enterBrand:'Enter a brand name.',databaseHas:'In database: ',missingHint:'If products may be missing, verify through the maintainer entry and run a targeted scan.',databaseMissing:'Not found in the database:',candidateTitle:'Automatically discovered brand candidates',candidateDesc:'Only brands meeting the strict official-evidence threshold are auto-added; all others wait for human review.',noCandidates:'No candidates.',visitOfficial:'Visit candidate official site ↗',discoveryNew:'new candidates',autoAdded:'auto-added',sitesChecked:'sites checked',searchSource:'Search source',searchResults:'results',maintainerEntry:'Maintainer entry',maintainerTitle:'Maintainer verification',maintainerDesc:'Visitors have read-only access. Verification reveals the GitHub maintenance entry; repository permission is still required to write data.',passwordPlaceholder:'Enter maintenance password',unlock:'Verify',passwordError:'Incorrect password.'}
+ 'zh-CN':{title:'全球外设产品参数库',subtitle:'中国官方中文数据优先 · 逐字段溯源 · 每日发现新品 · 最多20款对比',brandToolTitle:'品牌搜索 / 联网补全',brandToolDesc:'先搜索数据库中的品牌；需要补充时，可启动品牌定向联网扫描。',brandPlaceholder:'输入中文或英文品牌名',searchBrand:'搜索品牌',supplementBrand:'联网补全品牌 ↗',searchPlaceholder:'搜索品牌、型号或参数…',allBrands:'全部品牌',allCategories:'全部品类',allOrigins:'全部来源地区',chinaBrands:'中国品牌',overseasBrands:'海外品牌',allVerification:'全部核验状态',officialVerified:'官方已核实',officialDiscovered:'官方已发现/待补',legacyReview:'历史数据待复核',conflict:'存在冲突',keywordSingle:'关键词：单选',keywordAnd:'关键词：多选且全部匹配 AND',keywordOr:'关键词：多选任一匹配 OR',sortBrand:'品牌 / 型号',sortName:'型号名称',sortVerified:'核验度优先',quickFilters:'快捷筛选关键词',clearKeywords:'清空关键词',results:'当前结果',products:'收录产品',brands:'品牌',categories:'品类',loadingDiscovery:'正在读取品牌发现状态…',viewCandidates:'查看候选品牌',noResults:'没有找到匹配产品。',selected:'已选',clear:'清空',compare:'参数对比',footer:'中国大陆官方中文产品页优先。自动提取的每个参数均保留来源；证据不足、配件、分类页及重复镜像页不会进入正式库。',updated:'数据更新：',details:'查看详情 →',compareLabel:'对比',verified:'官方已核实',discovered:'官方产品页已确认/参数待补',legacy:'历史数据待逐字段复核',conflictReview:'参数冲突待审',corroborated:'多来源已核验',confidence:'可信度',recentCheck:'最近检查',sources:'数据来源',noSources:'暂无来源记录',atLeastTwo:'至少选择两款产品',maxTwenty:'最多同时对比 20 款产品',compareTitle:'产品参数对比',parameter:'参数',enterBrand:'请输入品牌名称。',databaseHas:'数据库已收录：',missingHint:'如怀疑存在遗漏产品，可在维护者入口验证后执行定向扫描。',databaseMissing:'当前数据库未找到',candidateTitle:'自动发现的品牌候选',candidateDesc:'只有达到严格官网证据门槛的品牌才会自动进入 brands.json；其余候选保留等待人工审核。',noCandidates:'暂无候选品牌。',visitOfficial:'访问疑似官网 ↗',discoveryNew:'新候选',autoAdded:'自动加入',sitesChecked:'检查候选站点',searchSource:'搜索来源',searchResults:'搜索结果',maintainerEntry:'维护者入口',maintainerTitle:'维护者验证',maintainerDesc:'访客仅可查看数据。通过验证后可显示 GitHub 维护入口，最终写入仍需仓库权限。',passwordPlaceholder:'输入维护密码',unlock:'验证',passwordError:'密码不正确。',noImage:'暂无可靠官方产品图',officialImage:'官方产品图',productStatus:'产品状态',origin:'品牌地区',market:'数据市场',sourceType:'来源类型',sourceWeight:'来源权重',officialCnProduct:'中国大陆官网产品页',officialProduct:'品牌官网产品页',autoCategory:'自动分类',productPages:'产品页',structuredPages:'含结构化数据页面',unclassified:'待分类',china:'中国',overseas:'海外'},
+ en:{title:'Global Peripheral Product Database',subtitle:'Mainland China official data first · Field-level provenance · Daily discovery · Compare up to 20',brandToolTitle:'Brand search / online supplement',brandToolDesc:'Search the database first, then run a targeted verified scan when products are missing.',brandPlaceholder:'Enter a Chinese or English brand name',searchBrand:'Search brand',supplementBrand:'Supplement brand online ↗',searchPlaceholder:'Search brand, model, or specification…',allBrands:'All brands',allCategories:'All categories',allOrigins:'All origins',chinaBrands:'Chinese brands',overseasBrands:'Overseas brands',allVerification:'All verification states',officialVerified:'Officially verified',officialDiscovered:'Official product page / specs pending',legacyReview:'Legacy data pending review',conflict:'Conflicting data',keywordSingle:'Keywords: single',keywordAnd:'Keywords: match all (AND)',keywordOr:'Keywords: match any (OR)',sortBrand:'Brand / model',sortName:'Model name',sortVerified:'Verification first',quickFilters:'Quick filters',clearKeywords:'Clear keywords',results:'Results',products:'Products',brands:'Brands',categories:'Categories',loadingDiscovery:'Loading discovery status…',viewCandidates:'View candidates',noResults:'No matching products.',selected:'Selected',clear:'Clear',compare:'Compare specs',footer:'Mainland China official Chinese product pages take priority. Every automatically extracted specification keeps its source; insufficient evidence, accessories, category pages, and translated duplicates are quarantined.',updated:'Updated: ',details:'View details →',compareLabel:'Compare',verified:'Officially verified',discovered:'Official product page / specs pending',legacy:'Legacy data pending field review',conflictReview:'Conflict pending review',corroborated:'Multi-source verified',confidence:'Confidence',recentCheck:'Last checked',sources:'Sources',noSources:'No source record',atLeastTwo:'Select at least two products',maxTwenty:'You can compare up to 20 products',compareTitle:'Product specification comparison',parameter:'Parameter',enterBrand:'Enter a brand name.',databaseHas:'In database: ',missingHint:'If products may be missing, verify through the maintainer entry and run a targeted scan.',databaseMissing:'Not found in the database:',candidateTitle:'Automatically discovered brand candidates',candidateDesc:'Only brands meeting the strict official-evidence threshold are auto-added; all others wait for human review.',noCandidates:'No candidates.',visitOfficial:'Visit candidate official site ↗',discoveryNew:'new candidates',autoAdded:'auto-added',sitesChecked:'sites checked',searchSource:'Search source',searchResults:'results',maintainerEntry:'Maintainer entry',maintainerTitle:'Maintainer verification',maintainerDesc:'Visitors have read-only access. Verification reveals the GitHub maintenance entry; repository permission is still required to write data.',passwordPlaceholder:'Enter maintenance password',unlock:'Verify',passwordError:'Incorrect password.',noImage:'No reliable official product image',officialImage:'Official product image',productStatus:'Product status',origin:'Brand origin',market:'Data market',sourceType:'Source type',sourceWeight:'Source priority',officialCnProduct:'Mainland China official product page',officialProduct:'Official product page',autoCategory:'Auto-classified',productPages:'product pages',structuredPages:'structured-data pages',unclassified:'Unclassified',china:'China',overseas:'Overseas'}
 };
 const t=k=>(I18N[LANG]||I18N['zh-CN'])[k]||k;
+const esc=value=>String(value??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+
+// One canonical field id can absorb both Chinese and English source labels.
+// The UI renders only meaningful peripheral specifications, which prevents
+// navigation, checkout and support-table text from leaking into product specs.
+const SPEC_DEFS=[
+ ['sensor','传感器','Sensor',['sensor','sensors','mouse sensor']],['dpi','最高DPI','Maximum DPI',['dpi','maximum dpi','max sensitivity (dpi)','dpi (cpi) range','mouse dpi','resolution']],['polling','回报率','Polling rate',['polling rate','max polling rate','usb report rate','polling']],['weight','重量','Weight',['weight','product weight','mouse weight','keyboard weight','weight (excluding receiver)','重量：262 克']],['chip','主控/芯片','Controller / chipset',['chipset','mcu','main controller','芯片']],['connection','连接','Connectivity',['connection','connection method','connection modes','connection type','connectivity','connectivity technology','wireless connectivity','wired connectivity','transmission technology','wireless technology','wireless tech','connection type:']],['ips','IPS','IPS / tracking speed',['tracking speed','max tracking speed','movement speed']],['acceleration','加速度','Acceleration',['acceleration','max acceleration','max acceleration (g)']],['lod','LOD','Lift-off distance',['lod']],['switch','微动','Main switches',['micro switch','main switch','main key micro switch','mouse switch','click switch','left / right button switches']],['switch_life','微动寿命','Switch lifespan',['switch lifespan','click switch lifespan','operation life']],['encoder','滚轮编码器','Scroll encoder',['scroll encoder','scroll wheel']],['battery','电池','Battery',['battery','battery capacity','battery type','mouse battery','keyboard battery']],['battery_life','续航','Battery life',['battery life','wireless working time','wireless working time (backlit off)','wireless working time (rgb)','电池续航时间']],['dimensions','尺寸','Dimensions',['size','dimensions','product dimensions','item dimension','mouse dimensions','mouse dimension(l*w*h)','keyboard dimensions','keyboard dimension(l*w*h)','dimensions (w x d x h)','dimensions (w × h × d)']],['feet','脚贴','Mouse feet',['mouse feet']],['charging','充电方式','Charging method',['charging base','charging port','charging']],['software','软件','Software',['software','software support','driver','driver support','web driver']],['memory','板载存储','Onboard memory',['on-board memory profiles','on-board memory','onboard memory','onboard profiles']],
+ ['layout','配列','Layout',['layout','keyboard layout','form factor','form-factor','number of keys','number of keys','keys','keyboard']],['key_switch','轴体','Switches',['switch','switches','key switches','switch type','switches:']],['key_switch_type','轴体类型','Switch type',['keyboard type','key type']],['magnetic','磁轴方案','Hall-effect system',['hall effect (rapid trigger)']],['rapid_trigger','Rapid Trigger','Rapid Trigger',['rapid trigger','dynamic keystroke','rt smart']],['rt_precision','RT精度','RT precision',['step precision','accuracy','adjustable accuracy','rt range']],['actuation','触发行程','Actuation travel',['actuation point','actuation range','global actuation distance','pre-travel','pre travel/mm','opterating travel/mm']],['total_travel','总行程','Total travel',['total travel','total travel distance','total travel/mm','travel/mm']],['actuation_force','触发压力','Actuation force',['actuation force','operation force','operating force/gf','initial force/gf']],['scan_rate','扫描率','Scan rate',['scan rate']],['latency','延迟','Latency',['latency','click latency','最低延迟','标称延迟']],['hotswap','热插拔','Hot-swappable',['hot swappable','hot-swappable','hot swappable support','hot-swap mixed switches']],['keycaps','键帽','Keycaps',['keycap','keycaps','keycap material','keycap profile','keycap type','keycaps profile','keycaps engraving','keycap materials']],['plate','定位板','Plate',['plate','plate material','positioning plate']],['structure','结构','Structure',['structure','mount style','mounting style','internal structure']],['case','机身','Case / body',['case','case material','body material','material (body and grip)','chassis']],['nkro','全键无冲','N-key rollover',['n-key rollover (nkro)','nkro support','rollover','anti-ghosting']],['lighting','灯光','Lighting',['rgb','rgb lighting','rgb led lights','lighting','lighting effects','backlight','backlighting','backlit','led support','led color']],
+ ['driver','驱动单元','Driver unit',['driver size','drivers','razer™ triforce50 毫米镀钛驱动单元']],['driver_type','驱动类型','Driver type',['driver type & size','driver type']],['frequency','频响','Frequency response',['frequency response']],['wireless','蓝牙/无线','Bluetooth / wireless',['bluetooth version','bluetooth device name','wireless technology']],['codec','编码','Audio codecs',['codec','codecs']],['sample_rate','采样率','Sample rate',['sample rate','采样']],['bit_depth','位深','Bit depth',['bit-depth']],['anc','降噪','Noise cancellation',['anc','noise cancellation']],['microphone','麦克风','Microphone',['microphone','polar pattern','先进的麦克风控制功能','带usb声卡的可拆卸razerhyperclear灵晰降噪心形指向麦克风']],['microphone_count','麦克风数量','Microphone count',['microphone count']],['charge_time','充电时间','Charging time',['charge time','charging time','battery recharge time']],['wireless_range','无线距离','Wireless range',['range','wireless range','bluetooth transmission range','transmission distance']],['wired','有线连接','Wired connection',['wired connectivity','有线连接']],['surround','虚拟环绕','Virtual surround',['surround sound','thx spatial audio 空间音效']],['app','APP/软件','App / software',['app','app/软件']],['multi_device','多设备','Multi-device',['multi-device']],['compatibility','兼容平台','Compatibility',['compatibility','compatible devices','compatible platforms','platform compatibility','os compatibility','os support','system requirements','supported devices','compatible system']],['material','材质','Material',['material']],['protection','防护','Protection rating',['protection rating','ip rating']],['buttons','可编程按键','Programmable buttons',['programmable buttons','programmable mouse buttons','buttons']],['cable','线材','Cable',['cable','cable type','cable length']],['color','颜色','Color',['color','colors','color options']]
+];
+const SPEC_BY_ID=new Map(SPEC_DEFS.map(x=>[x[0],x]));
+const normalizeSpecKey=value=>String(value||'').toLowerCase().replace(/[™®©]/g,'').replace(/[_:\-–—/（）()×*\s]+/g,' ').trim();
+const SPEC_ALIAS=new Map();
+SPEC_DEFS.forEach(def=>[def[1],def[2],...def[3]].forEach(alias=>SPEC_ALIAS.set(normalizeSpecKey(alias),def[0])));
+function specId(key){return SPEC_ALIAS.get(normalizeSpecKey(key))||''}
+function specLabel(key){const def=SPEC_BY_ID.get(specId(key));return def?(LANG==='zh-CN'?def[1]:def[2]):key}
+function valueLabel(value){
+ let out=String(value??'—');
+ const exact={
+  '支持':['支持','Supported'],'不支持':['不支持','Not supported'],'无':['无','None'],'有':['有','Yes'],'是':['是','Yes'],'否':['否','No'],'待核实':['待核实','Pending verification'],'待补参数':['待补参数','Specifications pending'],'批次不同':['批次不同','Varies by revision'],'低延迟模式':['低延迟模式','Low-latency mode'],'自动发现':['自动分类','Auto-classified'],'在售':['在售','Available'],'海外':['海外','Overseas'],'中国':['中国','China'],'官网':['官网','Official site'],'全球/官网':['全球/官网','Global / official site'],'中国/全球':['中国/全球','Mainland China / global']
+ };
+ if(exact[out])return exact[out][LANG==='zh-CN'?0:1];
+ if(LANG==='en')out=out.replaceAll('未核实/不支持','Unverified / not supported').replaceAll('自适应','Adaptive ').replaceAll('官网产品页已确认/参数待复核','Official product page confirmed / specs pending review').replaceAll('在售/历史状态待核实','Available / legacy status pending review').replaceAll('在售/官方可确认','Available / confirmed on official site').replaceAll('在售/官方支持页有效','Available / official support page active').replaceAll('在售/官网可确认','Available / confirmed on official site').replaceAll('官网可确认/待复核','Official page confirmed / pending review');
+ return out;
+}
+function originLabel(value){return value==='中国'?t('china'):value==='海外'?t('overseas'):valueLabel(value)}
+function sourceTypeLabel(value){return value==='official_cn_product'?t('officialCnProduct'):value==='official_product'?t('officialProduct'):value||t('officialProduct')}
+function displaySpecEntries(p){
+ const allowed=new Set([...(FILTERS[p.category]?.priority_fields||[]),...(p.schema_fields||[])]);
+ const output=[],seen=new Set();
+ Object.entries(p.specs||{}).forEach(([key,value])=>{
+   if(value===null||value===''||value==='—'||key==='参数状态'||key==='原分类')return;
+   const id=specId(key),canonical=id?SPEC_BY_ID.get(id)?.[1]:'';
+   if(!id&&!allowed.has(key))return;
+   const identity=id||normalizeSpecKey(key);if(seen.has(identity))return;seen.add(identity);
+   output.push({key,label:specLabel(key),value:valueLabel(value),order:(FILTERS[p.category]?.priority_fields||[]).indexOf(canonical||key)});
+ });
+ return output.sort((a,b)=>(a.order<0?999:a.order)-(b.order<0?999:b.order));
+}
 function applyLanguage(){
  document.documentElement.lang=LANG; $('#languageSwitch').value=LANG;
  document.querySelectorAll('[data-i18n]').forEach(e=>e.textContent=t(e.dataset.i18n));
  document.querySelectorAll('[data-i18n-placeholder]').forEach(e=>e.placeholder=t(e.dataset.i18nPlaceholder));
 }
 function brandLabel(p){const zh=p.brand_zh_cn||p.brand;return LANG==='zh-CN'?(zh===p.brand?zh:`${zh}（${p.brand}）`):(zh===p.brand?p.brand:`${p.brand} (${zh})`)}
-function categoryLabel(value){const map={'鼠标':['鼠标','Mouse'],'键盘':['键盘','Keyboard'],'耳机/耳麦':['耳机/耳麦','Headphones / headsets'],'待分类':['待分类','Unclassified']};return map[value]?.[LANG==='zh-CN'?0:1]||value}
+function categoryLabel(value){const map={'鼠标':['鼠标','Mouse'],'键盘':['键盘','Keyboard'],'耳机/耳麦':['耳机/耳麦','Headphones / headsets'],'待分类':['待分类','Unclassified'],'TWS':['真无线耳机','True wireless earbuds'],'三模机械键盘':['三模机械键盘','Tri-mode mechanical keyboard'],'入耳式电竞耳机':['入耳式电竞耳机','In-ear gaming headphones'],'全铝磁轴键盘':['全铝磁轴键盘','Aluminum Hall-effect keyboard'],'复古头戴':['复古头戴式耳机','Retro over-ear headphones'],'头戴式蓝牙':['头戴式蓝牙','Over-ear Bluetooth'],'客制化机械键盘':['客制化机械键盘','Custom mechanical keyboard'],'开放式/耳夹':['开放式/耳夹耳机','Open-ear / ear-clip headphones'],'无线游戏耳麦':['无线游戏耳麦','Wireless gaming headset'],'无线游戏鼠标':['无线游戏鼠标','Wireless gaming mouse'],'无线电竞鼠标':['无线电竞鼠标','Wireless esports mouse'],'有线游戏/监听':['有线游戏/监听耳机','Wired gaming / monitor headphones'],'有线耳塞':['有线耳塞','Wired earbuds'],'机械键盘':['机械键盘','Mechanical keyboard'],'游戏机械键盘':['游戏机械键盘','Gaming mechanical keyboard'],'游戏耳机':['游戏耳机','Gaming headphones'],'游戏耳麦':['游戏耳麦','Gaming headset'],'电竞耳机':['电竞耳机','Esports headphones'],'电竞鼠标':['电竞鼠标','Esports mouse'],'睡眠':['睡眠耳机','Sleep headphones'],'碳纤维电竞鼠标':['碳纤维电竞鼠标','Carbon-fiber esports mouse'],'磁轴游戏键盘':['磁轴游戏键盘','Hall-effect gaming keyboard'],'磁轴键盘':['磁轴键盘','Hall-effect keyboard'],'自动发现':['自动分类','Auto-classified'],'镁合金无线电竞鼠标':['镁合金无线电竞鼠标','Magnesium wireless esports mouse']};return map[value]?.[LANG==='zh-CN'?0:1]||value}
 applyLanguage();
-$('#languageSwitch').addEventListener('change',e=>{LANG=e.target.value;localStorage.setItem('peripheraldb-language',LANG);applyLanguage();populateFilters();render();renderDiscovery()});
+$('#languageSwitch').addEventListener('change',e=>{LANG=e.target.value;localStorage.setItem('peripheraldb-language',LANG);applyLanguage();populateFilters();render();renderDiscovery();if(CURRENT_DETAIL&&detail.open)openDetail(CURRENT_DETAIL);if(compareDialog.open)openCompare()});
 
 Promise.all([
  fetch('data/products.json?ts='+Date.now()).then(r=>r.json()),
@@ -43,7 +82,7 @@ function populateFilters(){
 }
 function renderDiscovery(){
  const r=window.DISCOVERY_REPORT;
- if(r){$('#discoverySummary').textContent=`${r.date}：${t('discoveryNew')} ${r.new_candidates||0}，${t('autoAdded')} ${r.auto_promoted||0}，${t('sitesChecked')} ${r.candidate_sites_checked||0}`;$('#discoveryProvider').textContent=`${t('searchSource')}：${r.provider||'—'} · ${t('searchResults')} ${r.results_scanned||0}`}
+ if(r){const sep=LANG==='zh-CN'?'，':', ';$('#discoverySummary').textContent=`${r.date}: ${t('discoveryNew')} ${r.new_candidates||0}${sep}${t('autoAdded')} ${r.auto_promoted||0}${sep}${t('sitesChecked')} ${r.candidate_sites_checked||0}`;$('#discoveryProvider').textContent=`${t('searchSource')}: ${r.provider||'—'} · ${t('searchResults')} ${r.results_scanned||0}`}
 }
 ['#search','#brandFilter','#originFilter','#verifyFilter','#sort'].forEach(s=>$(s).addEventListener(s==='#search'?'input':'change',render));
 $('#catFilter').addEventListener('change',()=>{selectedKeywords.clear();rebuildKeywords();render()});
@@ -53,7 +92,19 @@ $('#clearCompare').onclick=()=>{selected.clear();render();syncCompare()};
 $('#doCompare').onclick=openCompare;
 
 function fallback(cat){return cat==='鼠标'?'assets/mouse.svg':cat==='键盘'?'assets/keyboard.svg':'assets/headset.svg'}
-function img(p){return p.image_url||fallback(p.category)}
+function img(p){
+ const raw=String(p.image_url||'').trim();
+ if(!/^https?:\/\//i.test(raw))return fallback(p.category);
+ return raw.replace(/^http:\/\//i,'https://');
+}
+function imageMarkup(p,kind='productimg'){
+ const missing=!p.image_url;
+ return `<div class="imagewrap ${missing?'is-placeholder':''}"><img class="${kind}" src="${esc(img(p))}" alt="${esc(brandLabel(p)+' '+p.name)}" loading="lazy" referrerpolicy="no-referrer"><span class="imagebadge">${esc(t('noImage'))}</span></div>`;
+}
+function bindImageFallback(root,p){
+ const wrap=root.querySelector('.imagewrap'),image=wrap?.querySelector('img');if(!wrap||!image)return;
+ image.addEventListener('error',()=>{if(image.dataset.failed)return;image.dataset.failed='1';image.src=fallback(p.category);wrap.classList.add('is-placeholder')});
+}
 function searchable(p){return [p.brand,p.brand_zh_cn,p.name,p.category,p.subcategory,p.status,p.origin,...Object.entries(p.specs||{}).flat()].join(' ').toLowerCase()}
 function verificationLabel(p){
  const s=p.verification?.status||'official_discovered';
@@ -98,15 +149,15 @@ function render(){
  $('#count').textContent=rows.length;$('#empty').classList.toggle('hidden',!!rows.length);grid.innerHTML='';
  rows.forEach(p=>{
   const key=id(p),e=document.createElement('article');e.className='card';
-  const wanted=(FILTERS[p.category]?.priority_fields||[]), entries=Object.entries(p.specs||{}).filter(([k,v])=>v&&v!=='—'&&k!=='参数状态');
-  entries.sort((a,b)=>{let ia=wanted.indexOf(a[0]),ib=wanted.indexOf(b[0]);return(ia<0?999:ia)-(ib<0?999:ib)});
+  const entries=displaySpecEntries(p);
   const [vl,vc]=verificationLabel(p);
-  e.innerHTML=`<img class="productimg" src="${img(p)}" alt="${p.brand} ${p.name}" loading="lazy" onerror="this.src='${fallback(p.category)}'">
-  <div class="cardbody"><div class="topline"><span class="brand">${brandLabel(p)}</span><span class="sub">${categoryLabel(p.subcategory||p.category)}</span></div>
-  <h3>${p.name}</h3><span class="verify ${vc}">● ${vl} · ${Math.round((p.verification?.confidence||0)*100)}%</span>
-  <div class="chips">${entries.slice(0,6).map(([k,v])=>`<span class="chip">${k}: ${v}</span>`).join('')}</div>
-  ${p.conflict?`<div class="warn">⚠ ${p.conflict}</div>`:''}
+  e.innerHTML=`${imageMarkup(p)}
+  <div class="cardbody"><div class="topline"><span class="brand">${esc(brandLabel(p))}</span><span class="sub">${esc(categoryLabel(p.subcategory||p.category))}</span></div>
+  <h3>${esc(p.name)}</h3><span class="verify ${vc}">● ${esc(vl)} · ${Math.round((p.verification?.confidence||0)*100)}%</span>
+  <div class="chips">${entries.slice(0,6).map(x=>`<span class="chip">${esc(x.label)}: ${esc(x.value)}</span>`).join('')}</div>
+  ${p.conflict?`<div class="warn">⚠ ${esc(valueLabel(p.conflict))}</div>`:''}
   <div class="actions"><button class="details">${t('details')}</button><label class="comparecheck"><input type="checkbox" ${selected.has(key)?'checked':''}> ${t('compareLabel')}</label></div></div>`;
+  bindImageFallback(e,p);
   e.querySelector('.details').onclick=()=>openDetail(p);
   e.querySelector('input').onchange=ev=>toggleCompare(p,ev.target.checked);grid.appendChild(e)
  });syncCompare()
@@ -114,23 +165,23 @@ function render(){
 function id(p){return p.brand+'::'+p.name}
 function toggleCompare(p,on){const key=id(p);if(on){if(selected.size>=20){alert(t('maxTwenty'));render();return}selected.add(key)}else selected.delete(key);syncCompare()}
 function syncCompare(){$('#compareBar').classList.toggle('hidden',!selected.size);$('#compareCount').textContent=selected.size;$('#compareNames').textContent=[...selected].map(x=>x.split('::')[1]).join(' · ')}
-function orderedEntries(p){const w=FILTERS[p.category]?.priority_fields||[],a=Object.entries(p.specs||{});return a.sort((x,y)=>{let i=w.indexOf(x[0]),j=w.indexOf(y[0]);return(i<0?999:i)-(j<0?999:j)})}
 function openDetail(p){
- const [vl,vc]=verificationLabel(p), rows=orderedEntries(p).map(([k,v])=>`<div class="row"><small>${k}</small><b>${v}</b></div>`).join('');
- const sources=(p.sources||[]).map(s=>`<a class="source" href="${s.url}" target="_blank" rel="noopener">${s.type} · ${s.tier||'—'} · ${s.checked_at||t('legacy')} ↗</a>`).join('');
- $('#detailBody').innerHTML=`<div class="detailhead"><img class="detailimg" src="${img(p)}" onerror="this.src='${fallback(p.category)}'">
- <div><span class="brand">${brandLabel(p)} · ${categoryLabel(p.category)} · ${p.origin||'—'}</span><h2>${p.name}</h2><span class="verify ${vc}">● ${vl} · ${t('confidence')} ${Math.round((p.verification?.confidence||0)*100)}%</span>
- <p class="sub">${p.status} · ${t('recentCheck')} ${p.last_checked||p.last_verified||'—'}</p></div></div>
- <div class="detailgrid">${rows}</div>${p.conflict?`<p class="warn">⚠ ${p.conflict}</p>`:''}
- <div class="sourcelist"><b>${t('sources')}</b>${sources||`<p class="sub">${t('noSources')}</p>`}</div>`;detail.showModal()
+ CURRENT_DETAIL=p;
+ const [vl,vc]=verificationLabel(p), rows=displaySpecEntries(p).map(x=>`<div class="row"><small>${esc(x.label)}</small><b>${esc(x.value)}</b></div>`).join('');
+ const sources=(p.sources||[]).map(s=>`<a class="source" href="${esc(s.url)}" target="_blank" rel="noopener">${esc(sourceTypeLabel(s.type))} · ${esc(t('sourceWeight'))} ${esc(s.tier||'—')} · ${esc(s.checked_at||t('legacy'))} ↗</a>`).join('');
+ $('#detailBody').innerHTML=`<div class="detailhead">${imageMarkup(p,'detailimg')}
+ <div><span class="brand">${esc(brandLabel(p))} · ${esc(categoryLabel(p.category))} · ${esc(originLabel(p.origin||'—'))}</span><h2>${esc(p.name)}</h2><span class="verify ${vc}">● ${esc(vl)} · ${t('confidence')} ${Math.round((p.verification?.confidence||0)*100)}%</span>
+ <p class="sub">${esc(t('productStatus'))}: ${esc(valueLabel(p.status))} · ${t('recentCheck')} ${esc(p.last_checked||p.last_verified||'—')}</p></div></div>
+ <div class="detailgrid">${rows}</div>${p.conflict?`<p class="warn">⚠ ${esc(valueLabel(p.conflict))}</p>`:''}
+ <div class="sourcelist"><b>${t('sources')}</b>${sources||`<p class="sub">${t('noSources')}</p>`}</div>`;
+ bindImageFallback($('#detailBody'),p);if(!detail.open)detail.showModal()
 }
 function openCompare(){
  const ps=DB.filter(p=>selected.has(id(p)));if(ps.length<2){alert(t('atLeastTwo'));return}
- let keys=[...new Set(ps.flatMap(p=>Object.keys(p.specs||{})))];
- const same=ps.every(p=>p.category===ps[0].category),wanted=same?(FILTERS[ps[0].category]?.priority_fields||[]):[];
- keys.sort((a,b)=>{let i=wanted.indexOf(a),j=wanted.indexOf(b);return(i<0?999:i)-(j<0?999:j)});
- $('#compareBody').innerHTML=`<h2>${t('compareTitle')} (${ps.length})</h2><div class="comparewrap"><table class="comparetable"><thead><tr><th>${t('parameter')}</th>${ps.map(p=>`<th>${brandLabel(p)}<br><b>${p.name}</b></th>`).join('')}</tr></thead>
- <tbody>${keys.map(k=>`<tr><td>${k}</td>${ps.map(p=>`<td>${p.specs?.[k]||'—'}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;compareDialog.showModal()
+ const canonicalKeys=[...new Set(ps.flatMap(p=>displaySpecEntries(p).map(x=>specId(x.key)||normalizeSpecKey(x.key))))];
+ const values=new Map(ps.map(p=>[id(p),new Map(displaySpecEntries(p).map(x=>[specId(x.key)||normalizeSpecKey(x.key),x]))]));
+ $('#compareBody').innerHTML=`<h2>${t('compareTitle')} (${ps.length})</h2><div class="comparewrap"><table class="comparetable"><thead><tr><th>${t('parameter')}</th>${ps.map(p=>`<th>${esc(brandLabel(p))}<br><b>${esc(p.name)}</b></th>`).join('')}</tr></thead>
+ <tbody>${canonicalKeys.map(k=>{const first=ps.map(p=>values.get(id(p)).get(k)).find(Boolean);return `<tr><td>${esc(first?.label||k)}</td>${ps.map(p=>`<td>${esc(values.get(id(p)).get(k)?.value||'—')}</td>`).join('')}</tr>`}).join('')}</tbody></table></div>`;if(!compareDialog.open)compareDialog.showModal()
 }
 
 const candidateDialog=document.querySelector('#candidateDialog');
@@ -141,9 +192,9 @@ if(openCandidates) openCandidates.onclick=()=>{
  document.querySelector('#candidateBody').innerHTML=`<h2>${t('candidateTitle')}</h2>
  <p class="sub">${t('candidateDesc')}</p>
  ${active.length?active.map(c=>`<div class="candidate">
-   <h3>${c.brand||c.domain} <span class="score">${c.score||0}/100</span></h3>
-   <div class="candidate-meta">${c.domain} · ${c.status||'candidate'} · 产品页 ${c.product_page_count||0} · Product结构化页 ${c.product_schema_page_count||0} · ${(c.categories||[]).join(' / ')||'待分类'}</div>
-   <a href="${c.official_url}" target="_blank" rel="noopener">${t('visitOfficial')}</a>
+   <h3>${esc(c.brand||c.domain)} <span class="score">${c.score||0}/100</span></h3>
+   <div class="candidate-meta">${esc(c.domain)} · ${esc(c.status||'candidate')} · ${t('productPages')} ${c.product_page_count||0} · ${t('structuredPages')} ${c.product_schema_page_count||0} · ${esc((c.categories||[]).map(categoryLabel).join(' / ')||t('unclassified'))}</div>
+   <a href="${esc(c.official_url)}" target="_blank" rel="noopener">${t('visitOfficial')}</a>
  </div>`).join(''):`<p>${t('noCandidates')}</p>`}`;
  candidateDialog.showModal();
 };
@@ -161,9 +212,9 @@ if(brandLocalSearch) brandLocalSearch.onclick=()=>{
  const matches=[...exact,...fuzzy];
  if(matches.length){
    const counts=matches.map(b=>{const p=DB.find(x=>x.brand===b);return `${brandLabel(p)} (${DB.filter(x=>x.brand===b).length})`});
-   brandResult.innerHTML=`${t('databaseHas')}<b>${counts.join(' · ')}</b>。${t('missingHint')}`;
+   brandResult.innerHTML=`${t('databaseHas')}<b>${counts.map(esc).join(' · ')}</b>${LANG==='zh-CN'?'。':'. '}${t('missingHint')}`;
  }else{
-   brandResult.innerHTML=`${t('databaseMissing')} <b>${brandSearchEl.value}</b>。${t('missingHint')}`;
+   brandResult.innerHTML=`${t('databaseMissing')} <b>${esc(brandSearchEl.value)}</b>${LANG==='zh-CN'?'。':'. '}${t('missingHint')}`;
  }
 };
 
