@@ -51681,5 +51681,1108 @@
         "needs_review": false
       }
     }
+  },
+  {
+    "quarantined_at": "2026-09-11",
+    "reason": "unsupported_or_accessory_product",
+    "product": {
+      "brand": "ATTACK SHARK",
+      "brand_zh_cn": "攻击鲨",
+      "name": "X85",
+      "category": "键盘",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "中国",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://attackshark.com/products/attack-shark-x85",
+      "image_url": "https://attackshark.com/cdn/shop/files/X85_58458282-1c5f-44a3-99dd-f04a714b9f9e.jpg?v=1713408054&width=1024",
+      "image_source": "https://attackshark.com/products/attack-shark-x85",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://attackshark.com/products/attack-shark-x85",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {},
+      "spec_evidence": {},
+      "conflict": "",
+      "verification": {
+        "status": "official_discovered",
+        "confidence": 0.78,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 2,
+          "canonical_url": "https://attackshark.com/products/attack-shark-x85",
+          "page_language": "en",
+          "official_url": "https://attackshark.com/products/attack-shark-x85",
+          "source_priority": 110,
+          "sku": "AS-X85-Black",
+          "schema_brand": "ATTACK SHARK"
+        },
+        "quality_gate_version": "1.3",
+        "needs_review": true
+      }
+    }
+  },
+  {
+    "quarantined_at": "2026-09-11",
+    "reason": "unsupported_or_accessory_product",
+    "product": {
+      "brand": "Dareu",
+      "brand_zh_cn": "达尔优",
+      "name": "A98 PRO",
+      "category": "键盘",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "中国",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://dareu.com/en-eu/products/dareu-a98pro-ii",
+      "image_url": "https://dareu.com/cdn/shop/files/1_0000s_0004_A98PP3_2560-2560__-7_130_10-25-22.png?v=1733906844",
+      "image_source": "https://dareu.com/en-eu/products/dareu-a98pro-ii",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://dareu.com/en-eu/products/dareu-a98pro-ii",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "Product": "Total"
+      },
+      "spec_evidence": {
+        "Product": {
+          "value": "Total",
+          "source_url": "https://dareu.com/en-eu/products/dareu-a98pro-ii",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_discovered",
+        "confidence": 0.78,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 2,
+          "canonical_url": "https://dareu.com/en-eu/products/dareu-a98pro-ii",
+          "page_language": "en",
+          "official_url": "https://dareu.com/en-eu/products/dareu-a98pro-ii",
+          "source_priority": 110,
+          "sku": "",
+          "schema_brand": "Dareu"
+        },
+        "quality_gate_version": "1.3",
+        "needs_review": true
+      }
+    }
+  },
+  {
+    "quarantined_at": "2026-09-11",
+    "reason": "unsupported_or_accessory_product",
+    "product": {
+      "brand": "SoundPEATS",
+      "brand_zh_cn": "泥炭",
+      "name": "C30",
+      "category": "耳机/耳麦",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "中国",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://soundpeats.com/en-ca/products/c30",
+      "image_url": "https://soundpeats.com/cdn/shop/files/5_b77d72a3-ad28-45a7-904b-df92cfc1597d_1024x.jpg?v=1768983191",
+      "image_source": "https://soundpeats.com/en-ca/products/c30",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://soundpeats.com/en-ca/products/c30",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "Situation": "Reason",
+        "Near PCs, Wi-Fi routers, microwave ovens, refrigerators": "These devices emit radio waves that may interfere with Bluetooth signals",
+        "Phone in chest/pants pocket or bag": "The human body blocks Bluetooth signals, especially when the main earbud is diagonal to the device",
+        "Close to other Bluetooth devices": "Multiple Bluetooth signals may cause interference",
+        "Using the device in another room": "Bluetooth signal weakens with distance and physical barriers",
+        "Too many apps running": "High system load may affect Bluetooth performance",
+        "User Guide": "SOUNDPEATS C30 User Manual",
+        "FAQ": "SOUNDPEATS C30 FAQ"
+      },
+      "spec_evidence": {
+        "Situation": {
+          "value": "Reason",
+          "source_url": "https://soundpeats.com/en-ca/products/c30",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Near PCs, Wi-Fi routers, microwave ovens, refrigerators": {
+          "value": "These devices emit radio waves that may interfere with Bluetooth signals",
+          "source_url": "https://soundpeats.com/en-ca/products/c30",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Phone in chest/pants pocket or bag": {
+          "value": "The human body blocks Bluetooth signals, especially when the main earbud is diagonal to the device",
+          "source_url": "https://soundpeats.com/en-ca/products/c30",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Close to other Bluetooth devices": {
+          "value": "Multiple Bluetooth signals may cause interference",
+          "source_url": "https://soundpeats.com/en-ca/products/c30",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Using the device in another room": {
+          "value": "Bluetooth signal weakens with distance and physical barriers",
+          "source_url": "https://soundpeats.com/en-ca/products/c30",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Too many apps running": {
+          "value": "High system load may affect Bluetooth performance",
+          "source_url": "https://soundpeats.com/en-ca/products/c30",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "User Guide": {
+          "value": "SOUNDPEATS C30 User Manual",
+          "source_url": "https://soundpeats.com/en-ca/products/c30",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "FAQ": {
+          "value": "SOUNDPEATS C30 FAQ",
+          "source_url": "https://soundpeats.com/en-ca/products/c30",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_verified",
+        "confidence": 0.92,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://soundpeats.com/en-ca/products/c30",
+          "page_language": "en",
+          "official_url": "https://soundpeats.com/en-ca/products/c30",
+          "source_priority": 110,
+          "sku": "SP-C30-BLACK",
+          "schema_brand": "SOUNDPEATS"
+        },
+        "quality_gate_version": "1.3",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "quarantined_at": "2026-09-11",
+    "reason": "unsupported_or_accessory_product",
+    "product": {
+      "brand": "SoundPEATS",
+      "brand_zh_cn": "泥炭",
+      "name": "Air5 Pro",
+      "category": "耳机/耳麦",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "中国",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://soundpeats.com/en-mx/products/soundpeats-air5-pro",
+      "image_url": "https://soundpeats.com/cdn/shop/files/1-3_fc33b605-77ce-4805-9d05-f0a9d3a5fa67_1024x.jpg?v=1749031534",
+      "image_source": "https://soundpeats.com/en-mx/products/soundpeats-air5-pro",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://soundpeats.com/en-mx/products/soundpeats-air5-pro",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "User Guide": "SOUNDPEATS Air5 Pro User Manual"
+      },
+      "spec_evidence": {
+        "User Guide": {
+          "value": "SOUNDPEATS Air5 Pro User Manual",
+          "source_url": "https://soundpeats.com/en-mx/products/soundpeats-air5-pro",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_discovered",
+        "confidence": 0.78,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://soundpeats.com/en-mx/products/soundpeats-air5-pro",
+          "page_language": "en",
+          "official_url": "https://soundpeats.com/en-mx/products/soundpeats-air5-pro",
+          "source_priority": 110,
+          "sku": "SP-US-Air5-Pro-BLACK",
+          "schema_brand": "SOUNDPEATS"
+        },
+        "quality_gate_version": "1.3",
+        "needs_review": true
+      }
+    }
+  },
+  {
+    "quarantined_at": "2026-09-11",
+    "reason": "unsupported_or_accessory_product",
+    "product": {
+      "brand": "SoundPEATS",
+      "brand_zh_cn": "泥炭",
+      "name": "Clip1",
+      "category": "耳机/耳麦",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "中国",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://soundpeats.com/products/clip1",
+      "image_url": "https://soundpeats.com/cdn/shop/files/2_889f992f-bfc7-497a-9fbb-bbd4c3bf1d53_1024x.jpg?v=1760085244",
+      "image_source": "https://soundpeats.com/products/clip1",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://soundpeats.com/products/clip1",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "User Guide": "SOUNDPEATS Clip1 User Manual",
+        "FAQ": "SOUNDPEATS Clip1 FAQ"
+      },
+      "spec_evidence": {
+        "User Guide": {
+          "value": "SOUNDPEATS Clip1 User Manual",
+          "source_url": "https://soundpeats.com/products/clip1",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "FAQ": {
+          "value": "SOUNDPEATS Clip1 FAQ",
+          "source_url": "https://soundpeats.com/products/clip1",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_discovered",
+        "confidence": 0.78,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://soundpeats.com/products/clip1",
+          "page_language": "en",
+          "official_url": "https://soundpeats.com/products/clip1",
+          "source_priority": 110,
+          "sku": "SP-US-Clip1-BLACK",
+          "schema_brand": "SOUNDPEATS"
+        },
+        "quality_gate_version": "1.3",
+        "needs_review": true
+      }
+    }
+  },
+  {
+    "quarantined_at": "2026-09-11",
+    "reason": "unsupported_or_accessory_product",
+    "product": {
+      "brand": "Glorious",
+      "brand_zh_cn": "Glorious",
+      "name": "GMMK PRO FlexKit",
+      "category": "键盘",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "海外",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://www.gloriousgaming.com/en-de/products/gmmk-pro-flexkit",
+      "image_url": "https://www.gloriousgaming.com/cdn/shop/files/GLO-ACC-P75-FLEXKIT-EW_Web_Gallery4_e947ef0f-6c0d-4ff7-ac1b-9358468969a4.webp?v=1714643587&width=1920",
+      "image_source": "https://www.gloriousgaming.com/en-de/products/gmmk-pro-flexkit",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://www.gloriousgaming.com/en-de/products/gmmk-pro-flexkit",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {},
+      "spec_evidence": {},
+      "conflict": "",
+      "verification": {
+        "status": "official_discovered",
+        "confidence": 0.78,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 2,
+          "canonical_url": "https://gloriousgaming.com/en-de/products/gmmk-pro-flexkit",
+          "page_language": "en",
+          "official_url": "https://www.gloriousgaming.com/en-de/products/gmmk-pro-flexkit",
+          "source_priority": 110,
+          "sku": "GLO-ACC-P75-FLEXKIT-W",
+          "schema_brand": "Glorious"
+        },
+        "quality_gate_version": "1.3",
+        "needs_review": true
+      }
+    }
+  },
+  {
+    "quarantined_at": "2026-09-11",
+    "reason": "unsupported_or_accessory_product",
+    "product": {
+      "brand": "HyperX",
+      "brand_zh_cn": "极度未知",
+      "name": "Cloud Alpha S",
+      "category": "耳机/耳麦",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "海外",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://hyperx.com/products/hyperx-cloud-alpha-s",
+      "image_url": "https://hyperx.com/cdn/shop/files/hyperx_cloud_alpha_s_blackblue_1_main_291f30c8-b6d0-4201-9499-daec2090a781_1024x1024.jpg?v=1772886080",
+      "image_source": "https://hyperx.com/products/hyperx-cloud-alpha-s",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://hyperx.com/products/hyperx-cloud-alpha-s",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "Surround System": "HyperX 7.1. surround sound",
+        "Noise Cancelling": "Yes",
+        "Driver": "Custom dynamic, 50mm with neodymium magnets",
+        "Form Factor": "Over ear, circumaural, closed back",
+        "Frequency Response": "10Hz-23kHz",
+        "Compatibility": "PC, PS5™, PS4™",
+        "Sensitivity": "-38dBV (0dB=1V/Pa at 1kHz)",
+        "T.H.D": "< 1%",
+        "Frame Type": "Aluminum",
+        "Ear Cushions": "Memory foam and premium leatherette, Additional cloth ear cushions",
+        "Element": "Electret condenser microphone",
+        "Polar Pattern": "Bi-directional, Noise-cancelling",
+        "USB Specification": "USB 2.0",
+        "Bit-Depth": "16 bit",
+        "Audio Controls": "Audio control mixer",
+        "Weight": "0.68lb",
+        "Cable Length (imperial) and type": "3.2ft detachable headset cable",
+        "Unit price": "/ per"
+      },
+      "spec_evidence": {
+        "Surround System": {
+          "value": "HyperX 7.1. surround sound",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-s",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Noise Cancelling": {
+          "value": "Yes",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-s",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Driver": {
+          "value": "Custom dynamic, 50mm with neodymium magnets",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-s",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Form Factor": {
+          "value": "Over ear, circumaural, closed back",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-s",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Frequency Response": {
+          "value": "10Hz-23kHz",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-s",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Compatibility": {
+          "value": "PC, PS5™, PS4™",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-s",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Sensitivity": {
+          "value": "-38dBV (0dB=1V/Pa at 1kHz)",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-s",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "T.H.D": {
+          "value": "< 1%",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-s",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Frame Type": {
+          "value": "Aluminum",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-s",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Ear Cushions": {
+          "value": "Memory foam and premium leatherette, Additional cloth ear cushions",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-s",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Element": {
+          "value": "Electret condenser microphone",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-s",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Polar Pattern": {
+          "value": "Bi-directional, Noise-cancelling",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-s",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "USB Specification": {
+          "value": "USB 2.0",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-s",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Bit-Depth": {
+          "value": "16 bit",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-s",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Audio Controls": {
+          "value": "Audio control mixer",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-s",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Weight": {
+          "value": "0.68lb",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-s",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Cable Length (imperial) and type": {
+          "value": "3.2ft detachable headset cable",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-s",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Unit price": {
+          "value": "/ per",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-s",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_verified",
+        "confidence": 0.92,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://hyperx.com/products/hyperx-cloud-alpha-s",
+          "page_language": "en",
+          "official_url": "https://hyperx.com/products/hyperx-cloud-alpha-s",
+          "source_priority": 110,
+          "sku": "4P5L3AA",
+          "schema_brand": "HyperX"
+        },
+        "quality_gate_version": "1.3",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "quarantined_at": "2026-09-11",
+    "reason": "unsupported_or_accessory_product",
+    "product": {
+      "brand": "HyperX",
+      "brand_zh_cn": "极度未知",
+      "name": "Cloud Stinger Core",
+      "category": "耳机/耳麦",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "海外",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://hyperx.com/products/hyperx-cloud-stinger-core-wireless-ps5",
+      "image_url": "https://hyperx.com/cdn/shop/files/hyperx_cloud_stinger_core_wireless_ps_01_main_1024x1024.jpg?v=1763563156",
+      "image_source": "https://hyperx.com/products/hyperx-cloud-stinger-core-wireless-ps5",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://hyperx.com/products/hyperx-cloud-stinger-core-wireless-ps5",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "Driver": "Dynamic, 40mm with neodymium magnets",
+        "Form Factor": "Over ear, circumaural, closed back",
+        "Frequency Response": "10Hz–21kHz",
+        "Compatibility": "PS5™, PS4™",
+        "Sensitivity": "-40dBV (1V/Pa at 1kHz)",
+        "T.H.D": "< 2%",
+        "Frame Type": "Steel sliders",
+        "Ear Cushions": "Soft foam & fabric ear cushions",
+        "Element": "Electret condenser microphone",
+        "Polar Pattern": "Uni-directional, Noise-cancelling",
+        "USB Specification": "USB 2.0 USB Type-C",
+        "Bit-Depth": "16 bit",
+        "Audio Controls": "Onboard audio controls",
+        "Battery Life": "17 hours",
+        "Charge Time": "3 hours",
+        "Wireless Range": "Up to 12 meters (open field)",
+        "Weight": "0.53lb",
+        "Cable Length (imperial) and type": "1.64ft | USB charge cable Type-C",
+        "Unit price": "/ per"
+      },
+      "spec_evidence": {
+        "Driver": {
+          "value": "Dynamic, 40mm with neodymium magnets",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-stinger-core-wireless-ps5",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Form Factor": {
+          "value": "Over ear, circumaural, closed back",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-stinger-core-wireless-ps5",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Frequency Response": {
+          "value": "10Hz–21kHz",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-stinger-core-wireless-ps5",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Compatibility": {
+          "value": "PS5™, PS4™",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-stinger-core-wireless-ps5",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Sensitivity": {
+          "value": "-40dBV (1V/Pa at 1kHz)",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-stinger-core-wireless-ps5",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "T.H.D": {
+          "value": "< 2%",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-stinger-core-wireless-ps5",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Frame Type": {
+          "value": "Steel sliders",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-stinger-core-wireless-ps5",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Ear Cushions": {
+          "value": "Soft foam & fabric ear cushions",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-stinger-core-wireless-ps5",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Element": {
+          "value": "Electret condenser microphone",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-stinger-core-wireless-ps5",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Polar Pattern": {
+          "value": "Uni-directional, Noise-cancelling",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-stinger-core-wireless-ps5",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "USB Specification": {
+          "value": "USB 2.0 USB Type-C",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-stinger-core-wireless-ps5",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Bit-Depth": {
+          "value": "16 bit",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-stinger-core-wireless-ps5",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Audio Controls": {
+          "value": "Onboard audio controls",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-stinger-core-wireless-ps5",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Battery Life": {
+          "value": "17 hours",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-stinger-core-wireless-ps5",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Charge Time": {
+          "value": "3 hours",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-stinger-core-wireless-ps5",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Wireless Range": {
+          "value": "Up to 12 meters (open field)",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-stinger-core-wireless-ps5",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Weight": {
+          "value": "0.53lb",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-stinger-core-wireless-ps5",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Cable Length (imperial) and type": {
+          "value": "1.64ft | USB charge cable Type-C",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-stinger-core-wireless-ps5",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Unit price": {
+          "value": "/ per",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-stinger-core-wireless-ps5",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_verified",
+        "confidence": 0.92,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://hyperx.com/products/hyperx-cloud-stinger-core-wireless-ps5",
+          "page_language": "en",
+          "official_url": "https://hyperx.com/products/hyperx-cloud-stinger-core-wireless-ps5",
+          "source_priority": 110,
+          "sku": "4P5J1AA",
+          "schema_brand": "HyperX"
+        },
+        "quality_gate_version": "1.3",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "quarantined_at": "2026-09-11",
+    "reason": "unsupported_or_accessory_product",
+    "product": {
+      "brand": "HyperX",
+      "brand_zh_cn": "极度未知",
+      "name": "Cloud Alpha",
+      "category": "耳机/耳麦",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "海外",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://hyperx.com/products/hyperx-cloud-alpha-wireless",
+      "image_url": "https://hyperx.com/cdn/shop/files/hyperx_cloud_alpha_wireless_1_main_99b8c28d-57bd-42df-bc89-b1d776d5d1d5_1024x1024.jpg?v=1763563176",
+      "image_source": "https://hyperx.com/products/hyperx-cloud-alpha-wireless",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://hyperx.com/products/hyperx-cloud-alpha-wireless",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "Surround System": "DTS® Headphone:X® Spatial Audio",
+        "Noise Cancelling": "Yes",
+        "Driver": "Dynamic, 50mm with neodymium magnets",
+        "Form Factor": "Over ear, circumaural, closed back",
+        "Frequency Response": "15 Hz – 21 kHz",
+        "Compatibility": "PC",
+        "Sensitivity": "-15 dBFS/Pa at 1 kHz",
+        "T.H.D": "≤ 2%",
+        "Frame Type": "Aluminum",
+        "Ear Cushions": "Memory foam and premium leatherette",
+        "Element": "Electret condenser microphone",
+        "Polar Pattern": "Bi-directional, Noise-cancelling",
+        "USB Specification": "USB 2.0",
+        "Bit-Depth": "24 bit",
+        "Audio Controls": "Onboard audio controls",
+        "Battery Life": "Up to 300 hours",
+        "Charge Time": "4.5 hours",
+        "Wireless Range": "Up to 20 meters",
+        "Weight": "0.7lb",
+        "Cable Length (imperial) and type": "1.64ft | USB charge cable",
+        "Unit price": "/ per"
+      },
+      "spec_evidence": {
+        "Surround System": {
+          "value": "DTS® Headphone:X® Spatial Audio",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-wireless",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Noise Cancelling": {
+          "value": "Yes",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-wireless",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Driver": {
+          "value": "Dynamic, 50mm with neodymium magnets",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-wireless",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Form Factor": {
+          "value": "Over ear, circumaural, closed back",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-wireless",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Frequency Response": {
+          "value": "15 Hz – 21 kHz",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-wireless",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Compatibility": {
+          "value": "PC",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-wireless",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Sensitivity": {
+          "value": "-15 dBFS/Pa at 1 kHz",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-wireless",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "T.H.D": {
+          "value": "≤ 2%",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-wireless",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Frame Type": {
+          "value": "Aluminum",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-wireless",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Ear Cushions": {
+          "value": "Memory foam and premium leatherette",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-wireless",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Element": {
+          "value": "Electret condenser microphone",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-wireless",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Polar Pattern": {
+          "value": "Bi-directional, Noise-cancelling",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-wireless",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "USB Specification": {
+          "value": "USB 2.0",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-wireless",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Bit-Depth": {
+          "value": "24 bit",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-wireless",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Audio Controls": {
+          "value": "Onboard audio controls",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-wireless",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Battery Life": {
+          "value": "Up to 300 hours",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-wireless",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Charge Time": {
+          "value": "4.5 hours",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-wireless",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Wireless Range": {
+          "value": "Up to 20 meters",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-wireless",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Weight": {
+          "value": "0.7lb",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-wireless",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Cable Length (imperial) and type": {
+          "value": "1.64ft | USB charge cable",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-wireless",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Unit price": {
+          "value": "/ per",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-alpha-wireless",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_verified",
+        "confidence": 0.92,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://hyperx.com/products/hyperx-cloud-alpha-wireless",
+          "page_language": "en",
+          "official_url": "https://hyperx.com/products/hyperx-cloud-alpha-wireless",
+          "source_priority": 110,
+          "sku": "4P5D4AA",
+          "schema_brand": "HyperX"
+        },
+        "quality_gate_version": "1.3",
+        "needs_review": false
+      }
+    }
   }
 ]
