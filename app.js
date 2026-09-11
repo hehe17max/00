@@ -8,6 +8,8 @@ const I18N={
  en:{title:'Global Peripheral Product Database',subtitle:'Mainland China official data first · Field-level provenance · Daily discovery · Compare up to 20',brandToolTitle:'Brand search / online supplement',brandToolDesc:'Search the database first, then run a targeted verified scan when products are missing.',brandPlaceholder:'Enter a Chinese or English brand name',searchBrand:'Search brand',supplementBrand:'Supplement brand online ↗',searchPlaceholder:'Search brand, model, or specification…',allBrands:'All brands',allCategories:'All categories',allOrigins:'All origins',chinaBrands:'Chinese brands',overseasBrands:'Overseas brands',allVerification:'All verification states',officialVerified:'Officially verified',officialDiscovered:'Official product page / specs pending',legacyReview:'Legacy data pending review',conflict:'Conflicting data',keywordSingle:'Keywords: single',keywordAnd:'Keywords: match all (AND)',keywordOr:'Keywords: match any (OR)',sortBrand:'Brand / model',sortName:'Model name',sortVerified:'Verification first',quickFilters:'Quick filters',clearKeywords:'Clear keywords',results:'Results',products:'Products',brands:'Brands',categories:'Categories',loadingDiscovery:'Loading discovery status…',viewCandidates:'View candidates',noResults:'No matching products.',selected:'Selected',clear:'Clear',compare:'Compare specs',footer:'Mainland China official Chinese product pages take priority. Every automatically extracted specification keeps its source; insufficient evidence, accessories, category pages, and translated duplicates are quarantined.',updated:'Updated: ',details:'View details →',compareLabel:'Compare',verified:'Officially verified',discovered:'Official product page / specs pending',legacy:'Legacy data pending field review',conflictReview:'Conflict pending review',corroborated:'Multi-source verified',confidence:'Confidence',recentCheck:'Last checked',sources:'Sources',noSources:'No source record',atLeastTwo:'Select at least two products',maxTwenty:'You can compare up to 20 products',compareTitle:'Product specification comparison',parameter:'Parameter',enterBrand:'Enter a brand name.',databaseHas:'In database: ',missingHint:'If products may be missing, verify through the maintainer entry and run a targeted scan.',databaseMissing:'Not found in the database:',candidateTitle:'Automatically discovered brand candidates',candidateDesc:'Only brands meeting the strict official-evidence threshold are auto-added; all others wait for human review.',noCandidates:'No candidates.',visitOfficial:'Visit candidate official site ↗',discoveryNew:'new candidates',autoAdded:'auto-added',sitesChecked:'sites checked',searchSource:'Search source',searchResults:'results',maintainerEntry:'Maintainer entry',maintainerTitle:'Maintainer verification',maintainerDesc:'Visitors have read-only access. Verification reveals the GitHub maintenance entry; repository permission is still required to write data.',passwordPlaceholder:'Enter maintenance password',unlock:'Verify',passwordError:'Incorrect password.',noImage:'No reliable official product image',officialImage:'Official product image',productStatus:'Product status',origin:'Brand origin',market:'Data market',sourceType:'Source type',sourceWeight:'Source priority',officialCnProduct:'Mainland China official product page',officialProduct:'Official product page',autoCategory:'Auto-classified',productPages:'product pages',structuredPages:'structured-data pages',unclassified:'Unclassified',china:'China',overseas:'Overseas'}
 };
 const t=k=>(I18N[LANG]||I18N['zh-CN'])[k]||k;
+I18N['zh-CN'].missingHint='如怀疑存在遗漏产品，可直接打开联网补全入口执行定向扫描。';
+I18N.en.missingHint='If products may be missing, open the online supplement entry and run a targeted scan.';
 const esc=value=>String(value??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
 
 // One canonical field id can absorb both Chinese and English source labels.
@@ -223,28 +225,3 @@ if(brandLocalSearch) brandLocalSearch.onclick=()=>{
    brandResult.innerHTML=`${t('databaseMissing')} <b>${esc(brandSearchEl.value)}</b>${LANG==='zh-CN'?'。':'. '}${t('missingHint')}`;
  }
 };
-
-// A secondary UI barrier only; GitHub permissions authorize all actual writes.
-const ADMIN_HASH='4aaf584abc1fe71d64ff5db646bbc06b596ba027d98958517e0ced1ab7d50ef6';
-const adminDialog=document.querySelector('#adminDialog');
-const adminUnlock=document.querySelector('#adminUnlock');
-const brandSupplement=document.querySelector('#brandSupplement');
-function setMaintainerMode(enabled){
- adminUnlock.classList.toggle('hidden',enabled);
- brandSupplement.classList.toggle('hidden',!enabled);
- if(enabled)sessionStorage.setItem('peripheraldb-maintainer','1');
-}
-async function adminDigest(value){
- const bytes=new TextEncoder().encode('peripheraldb-v12:'+value);
- const digest=await crypto.subtle.digest('SHA-256',bytes);
- return [...new Uint8Array(digest)].map(x=>x.toString(16).padStart(2,'0')).join('');
-}
-if(sessionStorage.getItem('peripheraldb-maintainer')==='1')setMaintainerMode(true);
-adminUnlock.onclick=()=>{document.querySelector('#adminError').classList.add('hidden');adminDialog.showModal();document.querySelector('#adminPassword').focus()};
-document.querySelector('#adminSubmit').onclick=async()=>{
- const input=document.querySelector('#adminPassword');
- const ok=(await adminDigest(input.value))===ADMIN_HASH;
- input.value='';document.querySelector('#adminError').classList.toggle('hidden',ok);
- if(ok){setMaintainerMode(true);adminDialog.close()}
-};
-document.querySelector('#adminPassword').addEventListener('keydown',e=>{if(e.key==='Enter')document.querySelector('#adminSubmit').click()});

@@ -24,5 +24,4 @@ dialog{width:min(1050px,calc(100% - 20px));max-height:90vh;overflow:auto;backgro
 .brandtool-actions{display:grid;grid-template-columns:1fr auto auto;gap:8px;align-content:center}
 .brandtool-actions input{min-width:0}.brandtool-actions button,.brandtool-actions a{border:1px solid var(--line);border-radius:12px;padding:11px 13px;background:#0d1116;color:var(--accent);text-decoration:none;cursor:pointer;white-space:nowrap}
 .brandsearchresult{grid-column:1/-1;color:var(--muted);font-size:13px}.brandsearchresult b{color:var(--accent)}
-.admin-dialog{width:min(520px,calc(100% - 20px))}.admin-form{display:grid;grid-template-columns:1fr auto;gap:8px;margin-top:18px}.admin-form button{border:1px solid var(--accent);background:var(--accent);color:#07110d;border-radius:12px;padding:11px 16px;cursor:pointer}.admin-error{color:var(--warn)}
 @media(max-width:850px){.brandtool{grid-template-columns:1fr}.brandtool-actions{grid-template-columns:1fr 1fr}.brandtool-actions input{grid-column:1/-1}}

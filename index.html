@@ -21,8 +21,7 @@
   <div class="brandtool-actions">
     <input id="brandSearch" type="search" placeholder="输入中文或英文品牌名" data-i18n-placeholder="brandPlaceholder">
     <button id="brandLocalSearch" data-i18n="searchBrand">搜索品牌</button>
-    <button id="adminUnlock" data-i18n="maintainerEntry">维护者入口</button>
-    <a id="brandSupplement" class="hidden" href="https://github.com/hehe17max/00/actions/workflows/supplement-brand.yml" target="_blank" rel="noopener" data-i18n="supplementBrand">联网补全品牌 ↗</a>
+    <a id="brandSupplement" href="https://github.com/hehe17max/00/actions/workflows/supplement-brand.yml" target="_blank" rel="noopener" data-i18n="supplementBrand">联网补全品牌 ↗</a>
   </div>
   <div id="brandSearchResult" class="brandsearchresult"></div>
 </section>
@@ -74,12 +73,5 @@
 <dialog id="detail"><button class="close" onclick="detail.close()">×</button><div id="detailBody"></div></dialog>
 <dialog id="compareDialog"><button class="close" onclick="compareDialog.close()">×</button><div id="compareBody"></div></dialog>
 <dialog id="candidateDialog"><button class="close" onclick="candidateDialog.close()">×</button><div id="candidateBody"></div></dialog>
-<dialog id="adminDialog" class="admin-dialog"><button class="close" onclick="adminDialog.close()">×</button>
-  <h2 data-i18n="maintainerTitle">维护者验证</h2>
-  <p class="sub" data-i18n="maintainerDesc">访客仅可查看数据。通过验证后可显示 GitHub 维护入口，最终写入仍需仓库权限。</p>
-  <div class="admin-form"><input id="adminPassword" type="password" autocomplete="current-password" data-i18n-placeholder="passwordPlaceholder"><button id="adminSubmit" data-i18n="unlock">验证</button></div>
-  <p id="adminError" class="admin-error hidden" data-i18n="passwordError">密码不正确。</p>
-</dialog>
-
 <footer class="wrap"><p data-i18n="footer">中国大陆官方中文产品页优先。自动提取的每个参数均保留来源；证据不足、配件、分类页及重复镜像页不会进入正式库。</p></footer>
-<script src="app.js?v=1.2.1-2"></script></body></html>
+<script src="app.js?v=1.2.1-3"></script></body></html>
