@@ -6,22 +6,22 @@
 <link rel="stylesheet" href="style.css?v=1.2.1"></head>
 <body>
 <header><div class="wrap hero">
-<div><div class="eyebrow">PERIPHERALDB · RELEASE 1.2.1</div><h1 data-i18n="title">全球外设产品参数库</h1>
-<p data-i18n="subtitle">中国官方中文数据优先 · 逐字段溯源 · 每日发现新品 · 最多20款对比</p></div>
+<div><div class="eyebrow">PERIPHERALDB · RELEASE 1.3.0</div><h1 data-i18n="title">全球外设产品参数库</h1>
+<p data-i18n="subtitle">中国官方中文数据优先 · 每30分钟自动更新 · 低可信度数据明确标注 · 最多20款对比</p></div>
 <div class="hero-actions"><select id="languageSwitch" aria-label="Language"><option value="zh-CN">简体中文</option><option value="en">English</option></select><div class="status"><span class="dot"></span><span id="updated">读取数据中…</span></div></div>
 </div></header>
 
 <main class="wrap">
 <section class="brandtool">
   <div>
-    <span class="eyebrow">BRAND SEARCH & SUPPLEMENT</span>
-    <h2 data-i18n="brandToolTitle">品牌搜索 / 联网补全</h2>
-    <p data-i18n="brandToolDesc">先搜索数据库中的品牌；需要补充时，可启动品牌定向联网扫描。</p>
+    <span class="eyebrow">QUICK SUPPLEMENT</span>
+    <h2 data-i18n="brandToolTitle">品牌 / 产品快速补全</h2>
+    <p data-i18n="brandToolDesc">输入品牌名先查数据库；缺少品牌或产品时，直接进入联网补全。</p>
   </div>
   <div class="brandtool-actions">
     <input id="brandSearch" type="search" placeholder="输入中文或英文品牌名" data-i18n-placeholder="brandPlaceholder">
-    <button id="brandLocalSearch" data-i18n="searchBrand">搜索品牌</button>
-    <a id="brandSupplement" href="https://github.com/hehe17max/00/actions/workflows/supplement-brand.yml" target="_blank" rel="noopener" data-i18n="supplementBrand">联网补全品牌 ↗</a>
+    <button id="brandLocalSearch" data-i18n="searchBrand">查数据库</button>
+    <a id="brandSupplement" href="https://github.com/hehe17max/00/actions/workflows/supplement-brand.yml" target="_blank" rel="noopener" data-i18n="supplementBrand">联网补全 ↗</a>
   </div>
   <div id="brandSearchResult" class="brandsearchresult"></div>
 </section>
@@ -73,5 +73,5 @@
 <dialog id="detail"><button class="close" onclick="detail.close()">×</button><div id="detailBody"></div></dialog>
 <dialog id="compareDialog"><button class="close" onclick="compareDialog.close()">×</button><div id="compareBody"></div></dialog>
 <dialog id="candidateDialog"><button class="close" onclick="candidateDialog.close()">×</button><div id="candidateBody"></div></dialog>
-<footer class="wrap"><p data-i18n="footer">中国大陆官方中文产品页优先。自动提取的每个参数均保留来源；证据不足、配件、分类页及重复镜像页不会进入正式库。</p></footer>
-<script src="app.js?v=1.2.1-3"></script></body></html>
+<footer class="wrap"><p data-i18n="footer">中国大陆官方中文产品页优先。证据完整的数据标记为已核实；低可信度参数继续展示并注明“待核实”。</p></footer>
+<script src="app.js?v=1.3.0"></script></body></html>

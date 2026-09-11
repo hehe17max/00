@@ -10,6 +10,8 @@ const I18N={
 const t=k=>(I18N[LANG]||I18N['zh-CN'])[k]||k;
 I18N['zh-CN'].missingHint='如怀疑存在遗漏产品，可直接打开联网补全入口执行定向扫描。';
 I18N.en.missingHint='If products may be missing, open the online supplement entry and run a targeted scan.';
+Object.assign(I18N['zh-CN'],{subtitle:'中国官方中文数据优先 · 每30分钟自动更新 · 低可信度数据明确标注 · 最多20款对比',brandToolTitle:'品牌 / 产品快速补全',brandToolDesc:'输入品牌名先查数据库；缺少品牌或产品时，直接进入联网补全。',searchBrand:'查数据库',supplementBrand:'联网补全 ↗',unverified:'待核实',footer:'中国大陆官方中文产品页优先。证据完整的数据标记为已核实；低可信度参数继续展示并注明“待核实”。'});
+Object.assign(I18N.en,{subtitle:'Mainland China official data first · Auto-update every 30 minutes · Low-confidence data labeled · Compare up to 20',brandToolTitle:'Quick brand / product supplement',brandToolDesc:'Check the database by brand, then open online supplement when a brand or product is missing.',searchBrand:'Check database',supplementBrand:'Online supplement ↗',unverified:'Unverified',footer:'Mainland China official Chinese product pages take priority. Fully evidenced data is verified; low-confidence specifications remain visible and are labeled “Unverified”.'});
 const esc=value=>String(value??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
 
 // One canonical field id can absorb both Chinese and English source labels.
@@ -25,13 +27,26 @@ const normalizeSpecKey=value=>String(value||'').toLowerCase().replace(/[™®©]
 const SPEC_ALIAS=new Map();
 SPEC_DEFS.forEach(def=>[def[1],def[2],...def[3]].forEach(alias=>SPEC_ALIAS.set(normalizeSpecKey(alias),def[0])));
 function specId(key){return SPEC_ALIAS.get(normalizeSpecKey(key))||''}
-function specLabel(key){const def=SPEC_BY_ID.get(specId(key));return def?(LANG==='zh-CN'?def[1]:def[2]):key}
+const LOOSE_SPEC_ZH={accuracy:'精度',height:'高度',width:'宽度',depth:'深度',length:'长度',angle:'角度',application:'应用',battery:'电池',buttons:'按键',cable:'线材',calibration:'校准',charge:'充电',charging:'充电',color:'颜色',compatibility:'兼容性',compatible:'兼容',connection:'连接',connectivity:'连接',controls:'控制',device:'设备',dimensions:'尺寸',distance:'距离',driver:'驱动单元',features:'功能',force:'压力',frequency:'频率',height:'高度',interface:'接口',key:'按键',keyboard:'键盘',latency:'延迟',lighting:'灯光',material:'材质',memory:'存储',microphone:'麦克风',mode:'模式',mouse:'鼠标',operating:'触发',operation:'触发',platform:'平台',polling:'回报',profile:'配置',range:'范围',rate:'率',response:'响应',sensor:'传感器',software:'软件',speed:'速度',support:'支持',switch:'轴体/微动',technology:'技术',time:'时间',type:'类型',version:'版本',weight:'重量',wireless:'无线',wired:'有线',working:'工作'};
+function looseSpecLabel(key){
+ if(LANG!=='zh-CN'||!/^[\x00-\x7F]+$/.test(key))return key;
+ let changed=false;
+ const words=String(key).replace(/[_-]+/g,' ').split(/\s+/).map(word=>{const translated=LOOSE_SPEC_ZH[word.toLowerCase().replace(/[^a-z]/g,'')];if(translated){changed=true;return translated}return word});
+ return changed?words.join(''):key;
+}
+function specLabel(key){const def=SPEC_BY_ID.get(specId(key));return def?(LANG==='zh-CN'?def[1]:def[2]):looseSpecLabel(key)}
 function valueLabel(value){
  let out=String(value??'—');
  const exact={
   '支持':['支持','Supported'],'不支持':['不支持','Not supported'],'无':['无','None'],'有':['有','Yes'],'是':['是','Yes'],'否':['否','No'],'待核实':['待核实','Pending verification'],'待补参数':['待补参数','Specifications pending'],'批次不同':['批次不同','Varies by revision'],'低延迟模式':['低延迟模式','Low-latency mode'],'自动发现':['自动分类','Auto-classified'],'在售':['在售','Available'],'海外':['海外','Overseas'],'中国':['中国','China'],'官网':['官网','Official site'],'全球/官网':['全球/官网','Global / official site'],'中国/全球':['中国/全球','Mainland China / global']
  };
  if(exact[out])return exact[out][LANG==='zh-CN'?0:1];
+ if(LANG==='zh-CN'){
+  const replacements=[
+   ['active noise cancellation','主动降噪'],['noise cancellation','降噪'],['low-latency mode','低延迟模式'],['battery life','续航'],['charging case','充电仓'],['charging dock','充电底座'],['mechanical switches','机械轴'],['optical switches','光微动'],['hall-effect switches','磁轴'],['hot-swappable','支持热插拔'],['aluminum alloy','铝合金'],['magnesium alloy','镁合金'],['carbon fiber','碳纤维'],['south-facing','南向'],['north-facing','北向'],['backlight off','关闭背光'],['minimum brightness','最低亮度'],['up to','最高'],['not supported','不支持'],['supported','支持'],['tri-mode','三模'],['dual-mode','双模'],['wireless','无线'],['wired','有线'],['bluetooth','蓝牙'],['adaptive','自适应'],['hours','小时'],['black','黑色'],['white','白色'],['gray','灰色'],['red','红色']
+  ];
+  replacements.forEach(([from,to])=>{out=out.replace(new RegExp(from.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'gi'),to)});
+ }
  if(LANG==='en'){
   const replacements=[
    ['官网产品页已确认/参数待复核','Official product page confirmed / specs pending review'],['在售/历史状态待核实','Available / legacy status pending review'],['在售/官方可确认','Available / confirmed on official site'],['在售/官方支持页有效','Available / official support page active'],['在售/官网可确认','Available / confirmed on official site'],['官网可确认/待复核','Official page confirmed / pending review'],['未核实/不支持','Unverified / not supported'],
@@ -43,15 +58,20 @@ function valueLabel(value){
 }
 function originLabel(value){return value==='中国'?t('china'):value==='海外'?t('overseas'):valueLabel(value)}
 function sourceTypeLabel(value){return value==='official_cn_product'?t('officialCnProduct'):value==='official_product'?t('officialProduct'):value||t('officialProduct')}
+const JUNK_SPEC_KEY=/(add to cart|unit price|price|reviews?|contact|data sheet|spec sheet|product name|package|packing list|what.?s in the box|included accessories|energy efficiency|sustainable impact|network interface|memory slots?|processor|graphics|storage|expansion slots?|external i\/o|system fan|security management)/i;
+function lowConfidenceField(p,key,value){
+ const proof=p.spec_evidence?.[key],confidence=Number(p.verification?.confidence||0);
+ return confidence<0.85||!proof||proof.value!==value||!proof.source_url;
+}
 function displaySpecEntries(p){
- const allowed=new Set([...(FILTERS[p.category]?.priority_fields||[]),...(p.schema_fields||[])]);
  const output=[],seen=new Set();
  Object.entries(p.specs||{}).forEach(([key,value])=>{
    if(value===null||value===''||value==='—'||key==='参数状态'||key==='原分类')return;
    const id=specId(key),canonical=id?SPEC_BY_ID.get(id)?.[1]:'';
-   if(!id&&!allowed.has(key))return;
+   if(!id&&(key.length>55||String(value).length>220||JUNK_SPEC_KEY.test(key)))return;
    const identity=id||normalizeSpecKey(key);if(seen.has(identity))return;seen.add(identity);
-   output.push({key,label:specLabel(key),value:valueLabel(value),order:(FILTERS[p.category]?.priority_fields||[]).indexOf(canonical||key)});
+   const suffix=lowConfidenceField(p,key,value)?(LANG==='zh-CN'?'（'+t('unverified')+'）':' ('+t('unverified')+')'):'';
+   output.push({key,label:specLabel(key),value:valueLabel(value)+suffix,order:(FILTERS[p.category]?.priority_fields||[]).indexOf(canonical||key)});
  });
  return output.sort((a,b)=>(a.order<0?999:a.order)-(b.order<0?999:b.order));
 }
