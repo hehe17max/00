@@ -6,8 +6,8 @@ from xml.etree import ElementTree as ET
 import requests
 from bs4 import BeautifulSoup
 from quality_rules import (
-    canonical_url, host_allowed, is_foreign_locale, product_name_ok,
-    publication_rejection, source_priority,
+    canonical_url, concise_product_name, host_allowed, is_foreign_locale,
+    product_identity, publication_rejection, source_priority,
 )
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -36,6 +36,31 @@ session=requests.Session()
 session.headers["User-Agent"]="Mozilla/5.0 (compatible; PeripheralDB/1.0.1)"
 PATH_HINTS=("/products/","/product/","/gaming-mice/","/gaming-keyboards/","/gaming-headsets/","/mouse/","/keyboard/","/headset/")
 BAD_HINTS=("/blog/","/news/","/pages/","/collections/","/category/","/support/","/download/","/login","/cart")
+
+INLINE_SPEC_LABELS = {
+    "型号": ("model", "product model", "型号"),
+    "驱动单元": ("speaker driver", "driver size", "drivers", "驱动单元", "喇叭单元"),
+    "蓝牙/无线": ("bluetooth version", "bluetooth", "蓝牙版本"),
+    "编码": ("audio decoding", "audio codec", "codec", "音频编码", "解码格式"),
+    "电池": ("battery capacity", "battery", "电池容量"),
+    "续航": ("play time", "playback time", "battery life", "续航时间", "续航"),
+    "充电方式": ("charging interface", "charging port", "充电接口"),
+    "充电时间": ("charging time", "charge time", "充电时间"),
+    "重量": ("product weight", "weight", "重量"),
+    "尺寸": ("product dimensions", "dimensions", "size", "尺寸"),
+    "降噪": ("active noise cancellation(?:\\(anc\\))?", "noise cancellation", "anc", "主动降噪", "降噪深度"),
+    "延迟": ("latency", "game latency", "延迟"),
+    "麦克风": ("microphone", "mic", "麦克风"),
+    "有线连接": ("wired connection", "aux connection", "有线连接"),
+    "多设备": ("pairing 2 devices", "dual-device connection", "multi-device", "双设备", "多设备"),
+    "APP/软件": ("app control", "app", "software", "应用程序", "软件"),
+    "传感器": ("sensor", "传感器"),
+    "最高DPI": ("maximum dpi", "max dpi", "dpi", "最高dpi"),
+    "回报率": ("polling rate", "report rate", "回报率"),
+    "连接": ("connectivity", "connection modes", "connection", "连接方式"),
+    "轴体": ("switch type", "switches", "轴体"),
+    "配列": ("layout", "number of keys", "配列", "按键数量"),
+}
 
 def log(x): print(x, flush=True)
 def clean(x): return re.sub(r"\s+"," ",str(x or "")).strip()
@@ -67,6 +92,39 @@ def normalize_image_url(value,base):
     if parsed.scheme!="https" or not parsed.netloc: return ""
     if any(x in low for x in ("favicon","site-logo","/logo.","placeholder","spinner","loading.gif","avatar","sprite")): return ""
     return url
+def extract_inline_specs(soup):
+    """Extract labelled specification prose used by many Shopify stores."""
+    aliases=[]
+    for key,values in INLINE_SPEC_LABELS.items():
+        for value in values: aliases.append((key,value))
+    alias_pattern="|".join(f"(?:{value})" for _,value in sorted(aliases,key=lambda x:len(x[1]),reverse=True))
+    label_re=re.compile(rf"(?P<label>{alias_pattern})\\s*[:：]\\s*",re.I)
+    candidates=[]
+    for node in soup.select(".product__description,.product-description,[id*='description'],[class*='description'],.rte"):
+        value=clean(node.get_text(" ",strip=True))
+        if 20<len(value)<12000 and len(label_re.findall(value))>=2: candidates.append(value)
+    full=clean(soup.get_text(" ",strip=True))
+    marker=re.search(r"(?:specifications?|technical specifications?|产品参数|规格参数)\\s*[:：]?",full,re.I)
+    if marker:
+        segment=full[marker.end():marker.end()+6000]
+        segment=re.split(r"what.?s in (?:the )?(?:box|package)|package contents|faqs?|包装清单",segment,1,flags=re.I)[0]
+        candidates.append(segment)
+    if not candidates: return {}
+    text=max(candidates,key=lambda value:len(label_re.findall(value)))
+    hits=list(label_re.finditer(text)); result={}
+    alias_to_key={re.sub(r"\\", "", alias).casefold():key for key,values in INLINE_SPEC_LABELS.items() for alias in values if "\\" not in alias}
+    for index,hit in enumerate(hits):
+        raw_label=clean(hit.group("label")).casefold()
+        key=alias_to_key.get(raw_label)
+        if not key:
+            for candidate,values in INLINE_SPEC_LABELS.items():
+                if any(re.fullmatch(value,raw_label,re.I) for value in values): key=candidate; break
+        if not key or key=="型号": continue
+        end=hits[index+1].start() if index+1<len(hits) else min(len(text),hit.end()+180)
+        value=clean(text[hit.end():end]).strip(" -|;,.")
+        value=re.split(r"\\s+(?:[1-9]\\.|important|note:)",value,1,flags=re.I)[0]
+        if 0<len(value)<=180: result.setdefault(key,value)
+    return result
 def parse_product_page(url):
     r=get(url); soup=BeautifulSoup(r.text,"html.parser")
     name=None; images=[]; specs={}; product_objects=[]
@@ -100,6 +158,7 @@ def parse_product_page(url):
         if dd:
             k,v=clean(dt.get_text(" ",strip=True)),clean(dd.get_text(" ",strip=True))
             if k and v and len(k)<90 and len(v)<400: specs[k]=v
+    for k,v in extract_inline_specs(soup).items(): specs.setdefault(k,v)
     image=next((candidate for i in images if (candidate:=normalize_image_url(i,r.url))),"")
     canonical=soup.find("link",rel="canonical")
     canonical_href=urljoin(r.url,canonical.get("href")) if canonical and canonical.get("href") else r.url
@@ -165,6 +224,7 @@ def classify(name,url):
     if any(x in s for x in ["keyboard","键盘"]): return "键盘"
     if any(x in s for x in ["headset","headphone","earbud","earphone","耳机","耳麦"]): return "耳机/耳麦"
     return "待分类"
+
 def due(last):
     if not last: return True
     try: return (datetime.date.today()-datetime.date.fromisoformat(last)).days>=RECHECK_DAYS
@@ -215,7 +275,7 @@ def merge(p,new,url,review,evidence):
                 review.append(item)
             if resolution=="pending_review": ver["status"]="conflict"
     ver["evidence"]=evidence
-    ver["quality_gate_version"]="1.2"
+    ver["quality_gate_version"]="1.3"
     published_fields={k:v for k,v in old.items() if v not in (None,"","—","待补参数")}
     fully_evidenced=bool(published_fields) and all(
         field_evidence.get(k,{}).get("value")==v and field_evidence.get(k,{}).get("source_url")
@@ -236,7 +296,7 @@ cfg=json.loads(BRANDS.read_text(encoding="utf-8"))
 try: review=json.loads(REVIEW.read_text(encoding="utf-8"))
 except: review=[]
 by_url={canonical_url(p.get("source", "")):p for p in db["products"] if p.get("source")}
-by_name={(p["brand"].lower(),p["name"].lower()):p for p in db["products"]}
+by_name={(p["brand"].lower(),product_identity(p["brand"],p["name"])):p for p in db["products"]}
 report={"date":TODAY,"mode":MODE,"discovered":0,"updated":0,"images_added":0,"rechecked":0,"conflicts_before":len(review),"conflicts":0,"errors":[],"brand_stats":{}}
 
 brands=cfg.get("brands",[])
@@ -273,18 +333,19 @@ for i,b in enumerate(brands,1):
         if rejection:
             report.setdefault("rejected",[]).append({"brand":brand,"url":final,"name":name,"reason":rejection})
             continue
-        key=(brand.lower(),name.lower())
+        concise=concise_product_name(brand,name,final)
+        key=(brand.lower(),product_identity(brand,concise))
         if key in by_name:
             p=by_name[key]; add_source(p,final,"additional official page")
             upd += merge(p,specs,final,review,evidence)
             if image and not p.get("image_url"): p["image_url"]=image; p["image_source"]=final; imgs+=1
             by_url[canonical_url(final)]=p
             continue
-        p={"brand":brand,"brand_zh_cn":b.get("brand_zh_cn",brand),"name":name,"category":classify(name,final),"subcategory":"自动发现","status":"官网产品页已确认/参数待复核",
+        p={"brand":brand,"brand_zh_cn":b.get("brand_zh_cn",brand),"name":concise,"category":classify(name,final),"subcategory":"自动发现","status":"官网产品页已确认/参数待复核",
            "verified":"官方页面自动发现","origin":b.get("origin","海外"),"market":"官网","first_seen":TODAY,"last_verified":TODAY,"last_checked":TODAY,
            "source":final,"image_url":image,"image_source":final if image else "","sources":[],"specs":specs,
            "spec_evidence":{k:{"value":v,"source_url":final,"source_type":"official_cn_product" if source_priority(final)==120 else "official_product","source_priority":source_priority(final),"checked_at":TODAY,"claim_type":"厂商标称"} for k,v in specs.items()},
-           "conflict":"","verification":{"status":"official_verified" if len(specs)>=4 else "official_discovered","confidence":0.92 if len(specs)>=4 else 0.78,"source_count":0,"conflicts":[],"evidence":evidence,"quality_gate_version":"1.2","needs_review":len(specs)<4}}
+           "conflict":"","verification":{"status":"official_verified" if len(specs)>=4 else "official_discovered","confidence":0.92 if len(specs)>=4 else 0.78,"source_count":0,"conflicts":[],"evidence":evidence,"quality_gate_version":"1.3","needs_review":len(specs)<4}}
         add_source(p,final,"new official product")
         db["products"].append(p); by_url[canonical_url(final)]=p; by_name[key]=p; newc+=1
         if image: imgs+=1

@@ -6,7 +6,7 @@ import sys
 from pathlib import Path
 from urllib.parse import urlparse
 
-from quality_rules import canonical_url, host_allowed, product_name_ok
+from quality_rules import canonical_url, concise_product_name, host_allowed, product_name_ok
 
 ROOT = Path(__file__).resolve().parents[1]
 db = json.loads((ROOT / "data/products.json").read_text(encoding="utf-8"))
@@ -53,7 +53,8 @@ for product in db.get("products", []):
     confidence = product.get("verification", {}).get("confidence", 0)
     if not isinstance(confidence, (int, float)) or not 0 <= confidence <= 1:
         errors.append(f"{label}: confidence 非法")
-    if product.get("verification", {}).get("quality_gate_version") == "1.2":
+    gate = product.get("verification", {}).get("quality_gate_version")
+    if gate in ("1.2", "1.3"):
         evidence = product.get("verification", {}).get("evidence", {})
         if not evidence.get("product_schema"):
             errors.append(f"{label}: 新记录缺少官方 Product 结构化证据")
@@ -61,6 +62,8 @@ for product in db.get("products", []):
             proof = product.get("spec_evidence", {}).get(field)
             if not proof or proof.get("value") != value or not proof.get("source_url"):
                 errors.append(f"{label}: 参数 {field} 缺少逐字段来源")
+        if gate == "1.3" and product.get("name") != concise_product_name(brand, product.get("name"), source):
+            errors.append(f"{label}: 新记录型号仍包含营销标题")
     elif not product.get("spec_evidence"):
         warnings.append(f"{label}: 历史参数待补逐字段来源")
     image_url = product.get("image_url", "")

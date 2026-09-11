@@ -5,8 +5,9 @@ The rules deliberately prefer false negatives over publishing a category page,
 accessory, translated mirror, or unsupported specification as a product.
 """
 
+import html
 import re
-from urllib.parse import urlparse, urlunparse
+from urllib.parse import unquote, urlparse, urlunparse
 
 FOREIGN_LOCALE_SEGMENTS = {
     "ar", "de", "es", "es-ar", "fr", "it", "ja", "jp", "ko", "pl",
@@ -20,6 +21,14 @@ NON_PRODUCT_TERMS = (
     "microphone and camera arm", "housing", "keycaps", "switch sample",
     "wireless dongle", "产品中心", "全部产品", "配件",
     "替换耳罩", "耳机线", "收纳盒", "支持v hub", "轴体介绍",
+    "mouse pad", "mousepad", "desk mat", "wrist rest", "arm sleeve",
+    "mouse keyboard pad", "keyboard mat", "mouse grip", "grip tape",
+    "glass skates", "ptfe skates", "teflon feets", "mouse feet",
+    "dustproof seal", "dust cover", "keyboard cover", "mouse charging dock",
+    "keycap", "keycaps", "switches", "switch set", "plate", "pcb",
+    "receiver", "dongle", "charging station", "charging cable", "pop filter",
+    "desktop", "laptop", "monitor", "controller charging", "vip deposit",
+    "deposit", "compliance and documents", "download center",
 )
 
 CATEGORY_ONLY = (
@@ -33,6 +42,27 @@ BAD_BRAND_TERMS = (
     "custom mechanical", "gaming mice", "pc gear", "official website",
     "free shipping", "best gaming", "products and accessories",
 )
+
+PRODUCT_KIND_TERMS = (
+    "mouse", "mice", "鼠标", "keyboard", "键盘", "keypad", "headset",
+    "headphone", "earphone", "earbud", "earclip", "耳机", "耳麦",
+)
+
+MODEL_STOP_WORDS = {
+    "wireless", "wired", "bluetooth", "gaming", "esports", "mechanical",
+    "keyboard", "mouse", "headset", "headsets", "headphone", "headphones",
+    "earbud", "earbuds", "earphone", "earphones", "earclip", "with", "for",
+    "featuring", "ultra-lightweight", "ultralight", "lightweight", "rgb",
+    "custom", "active", "noise", "cancellation", "polling", "sensor",
+    "switch", "switches", "aluminum", "magnesium", "carbon", "fiber",
+    "tri-mode", "dual-mode", "low-profile", "hall", "effect", "magnetic",
+    "open", "open-ear", "retro", "ergonomic",
+}
+
+MODEL_SUFFIXES = {
+    "pro", "max", "ultra", "air", "mini", "plus", "master", "elite",
+    "series", "v2", "v3", "gen-2", "gen2", "he", "rt", "rx", "apex",
+}
 
 
 def clean(value):
@@ -104,6 +134,76 @@ def product_name_ok(name):
     return True
 
 
+def product_identity(brand, name):
+    """Stable identity used to merge a concise legacy row with a store title."""
+    value = clean(html.unescape(name)).casefold()
+    brand_value = clean(brand).casefold()
+    if brand_value:
+        value = re.sub(rf"(?<![\w]){re.escape(brand_value)}(?![\w])", " ", value)
+    return re.sub(r"[^a-z0-9\u4e00-\u9fff]+", "", value)
+
+
+def _slug_words(url):
+    slug = unquote(urlparse(url).path.rstrip("/").split("/")[-1])
+    return [x for x in re.split(r"[-_\s]+", slug) if x]
+
+
+def concise_product_name(brand, title, url=""):
+    """Reduce a storefront marketing title to a stable model name.
+
+    The product URL is deliberately preferred because Shopify titles can begin
+    with the selected colour or switch option. This function never invents a
+    model; it only keeps the leading identity tokens already present on the
+    official page or in its slug.
+    """
+    raw = clean(html.unescape(title)).replace("丨", "|")
+    raw = re.sub(r"\s+[|–—]\s+.*$", "", raw)
+    brand_re = re.compile(rf"(?<![\w]){re.escape(clean(brand))}(?![\w])", re.I)
+
+    # Prefer the last brand occurrence: variant selectors often prefix titles
+    # with values such as "Black / Ice Blue Switch".
+    matches = list(brand_re.finditer(raw)) if brand else []
+    if matches:
+        raw = raw[matches[-1].end():].strip(" -|/,:;")
+
+    words = raw.split()
+
+    kept = []
+    for word in words:
+        token = word.strip(" ,:;|()[]{}")
+        low = token.casefold()
+        if kept and low in MODEL_STOP_WORDS:
+            break
+        if not token:
+            continue
+        kept.append(token)
+        if len(kept) >= 6:
+            break
+
+    # A model often ends with one or two edition markers after its alphanumeric
+    # core (R5, V11 Pro, Arctis Nova 5, Ace 68 GT).
+    if kept:
+        digit_positions = [i for i, w in enumerate(kept) if any(c.isdigit() for c in w)]
+        if digit_positions:
+            end = digit_positions[0] + 1
+            while end < len(kept) and kept[end].casefold() in MODEL_SUFFIXES:
+                end += 1
+            kept = kept[:end]
+        elif len(kept) > 3:
+            kept = kept[:3]
+
+    result = clean(" ".join(kept)).replace("&amp;", "&").strip(" ®™-–—|,;:/")
+    return result or clean(title)
+
+
+def supported_product(name, url=""):
+    value = clean(html.unescape(name)).casefold()
+    low_url = unquote(url).casefold()
+    if any(term in value or term in low_url for term in NON_PRODUCT_TERMS):
+        return False
+    return any(term in value or term in low_url for term in PRODUCT_KIND_TERMS)
+
+
 def brand_name_ok(name):
     value = clean(name)
     low = value.casefold()
@@ -117,6 +217,8 @@ def publication_rejection(name, url, has_product_schema):
         return "foreign_locale_mirror"
     if not is_specific_product_url(url):
         return "not_a_specific_product_page"
+    if not supported_product(name, url):
+        return "unsupported_or_accessory_product"
     if not product_name_ok(name):
         return "accessory_or_non_product_name"
     if not has_product_schema:
