@@ -3830,6 +3830,53 @@
       }
     },
     {
+      "brand": "ATTACK SHARK",
+      "brand_zh_cn": "攻击鲨",
+      "name": "X98",
+      "category": "键盘",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "中国",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://attackshark.com/products/attack-shark-x98-tri-mode-102-keys-wireless-mechanical-keyboard",
+      "image_url": "https://attackshark.com/cdn/shop/files/1.3.png?v=1745380753&width=1024",
+      "image_source": "https://attackshark.com/products/attack-shark-x98-tri-mode-102-keys-wireless-mechanical-keyboard",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://attackshark.com/products/attack-shark-x98-tri-mode-102-keys-wireless-mechanical-keyboard",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {},
+      "spec_evidence": {},
+      "conflict": "",
+      "verification": {
+        "status": "official_discovered",
+        "confidence": 0.78,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 2,
+          "canonical_url": "https://attackshark.com/products/attack-shark-x98-tri-mode-102-keys-wireless-mechanical-keyboard",
+          "page_language": "en",
+          "official_url": "https://attackshark.com/products/attack-shark-x98-tri-mode-102-keys-wireless-mechanical-keyboard",
+          "source_priority": 110,
+          "sku": "AS-X98-StarBlack",
+          "schema_brand": "ATTACK SHARK"
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": true
+      }
+    },
+    {
       "brand": "Baseus",
       "brand_zh_cn": "倍思",
       "name": "Bass 35 Max",
@@ -5964,9 +6011,9 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 2,
-          "canonical_url": "https://dareu.com/products/a87l-wired-mechanical-keyboard",
+          "canonical_url": "https://dareu.com/products/dareu-a87l-wired-wholesale-tkl-87-key-custom-hotswap-gaming-keyboard",
           "page_language": "en",
-          "official_url": "https://dareu.com/products/a87l-wired-mechanical-keyboard",
+          "official_url": "https://dareu.com/products/dareu-a87l-wired-wholesale-tkl-87-key-custom-hotswap-gaming-keyboard",
           "source_priority": 110,
           "sku": "",
           "schema_brand": "Dareu"
@@ -5978,7 +6025,7 @@
       "spec_evidence": {
         "Product": {
           "value": "Total",
-          "source_url": "https://dareu.com/products/a87l-wired-mechanical-keyboard",
+          "source_url": "https://dareu.com/products/dareu-a87l-wired-wholesale-tkl-87-key-custom-hotswap-gaming-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -6348,6 +6395,13 @@
           "tier": 110,
           "checked_at": "2026-09-11",
           "note": "new official product"
+        },
+        {
+          "type": "official_product",
+          "url": "https://dareu.com/products/dareu-eh722x-ultra-%E4%B8%A8wireless-gaming-headset-magnetic-charging-automatic-pairing",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
         }
       ],
       "specs": {
@@ -6356,7 +6410,7 @@
       "spec_evidence": {
         "Product": {
           "value": "Total",
-          "source_url": "https://dareu.com/en-eu/products/dareu-eh722x-ultra-%E4%B8%A8wireless-gaming-headset-magnetic-charging-automatic-pairing",
+          "source_url": "https://dareu.com/products/dareu-eh722x-ultra-%E4%B8%A8wireless-gaming-headset-magnetic-charging-automatic-pairing",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -6367,14 +6421,14 @@
       "verification": {
         "status": "official_discovered",
         "confidence": 0.78,
-        "source_count": 1,
+        "source_count": 2,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 2,
-          "canonical_url": "https://dareu.com/en-eu/products/dareu-eh722x-ultra-%e4%b8%a8wireless-gaming-headset-magnetic-charging-automatic-pairing",
+          "canonical_url": "https://dareu.com/products/dareu-eh722x-ultra-%e4%b8%a8wireless-gaming-headset-magnetic-charging-automatic-pairing",
           "page_language": "en",
-          "official_url": "https://dareu.com/en-eu/products/dareu-eh722x-ultra-%E4%B8%A8wireless-gaming-headset-magnetic-charging-automatic-pairing",
+          "official_url": "https://dareu.com/products/dareu-eh722x-ultra-%E4%B8%A8wireless-gaming-headset-magnetic-charging-automatic-pairing",
           "source_priority": 110,
           "sku": "",
           "schema_brand": "Dareu"
@@ -7206,9 +7260,9 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 2,
-          "canonical_url": "https://dareu.com/products/dareu-neo84-wireless-low-profile-mechanical-keyboard",
+          "canonical_url": "https://dareu.com/en-eu/products/dareu-neo84-wireless-low-profile-mechanical-keyboard",
           "page_language": "en",
-          "official_url": "https://dareu.com/products/dareu-neo84-wireless-low-profile-mechanical-keyboard",
+          "official_url": "https://dareu.com/en-eu/products/dareu-neo84-wireless-low-profile-mechanical-keyboard",
           "source_priority": 110,
           "sku": "",
           "schema_brand": "Dareu"
@@ -7220,7 +7274,7 @@
       "spec_evidence": {
         "Product": {
           "value": "Total",
-          "source_url": "https://dareu.com/products/dareu-neo84-wireless-low-profile-mechanical-keyboard",
+          "source_url": "https://dareu.com/en-eu/products/dareu-neo84-wireless-low-profile-mechanical-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -7369,7 +7423,7 @@
       "market": "官网",
       "first_seen": "2026-09-10",
       "last_verified": "2026-09-10",
-      "last_checked": "2026-09-10",
+      "last_checked": "2026-09-11",
       "source": "https://darmoshark.com/products/darmoshark-k3-qmk-wired-mechanical-numeric-keypad",
       "image_url": "https://darmoshark.com/cdn/shop/files/12_5d110233-b920-4339-9087-7d2623129a62_1024x1024.jpg?v=1761356597",
       "image_source": "https://darmoshark.com/products/darmoshark-k3-qmk-wired-mechanical-numeric-keypad",
@@ -7378,7 +7432,7 @@
           "type": "official_product",
           "url": "https://darmoshark.com/products/darmoshark-k3-qmk-wired-mechanical-numeric-keypad",
           "tier": 100,
-          "checked_at": "2026-09-10",
+          "checked_at": "2026-09-11",
           "note": "new official product"
         }
       ],
@@ -7387,18 +7441,34 @@
       },
       "conflict": "",
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://darmoshark.com/products/darmoshark-k3-qmk-wired-mechanical-numeric-keypad",
+          "page_language": "en",
           "official_url": "https://darmoshark.com/products/darmoshark-k3-qmk-wired-mechanical-numeric-keypad",
-          "legacy_record": true
+          "source_priority": 110,
+          "sku": "Darmoshark K3 QMK White / Huano Purple Switch",
+          "schema_brand": "Darmoshark"
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "达摩鲨"
+      "brand_zh_cn": "达摩鲨",
+      "spec_evidence": {
+        "Unit price": {
+          "value": "/ per",
+          "source_url": "https://darmoshark.com/products/darmoshark-k3-qmk-wired-mechanical-numeric-keypad",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      }
     },
     {
       "brand": "Darmoshark",
@@ -8721,11 +8791,11 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://eksa.net/products/eksa-e900-3d-stereo-sound-gaming-headset",
+          "canonical_url": "https://eksa.net/products/eksa-e900-bt",
           "page_language": "en",
-          "official_url": "https://www.eksa.net/products/eksa-e900-3d-stereo-sound-gaming-headset",
+          "official_url": "https://www.eksa.net/products/eksa-e900-bt",
           "source_priority": 110,
-          "sku": "E900-Purple",
+          "sku": "E900 BT",
           "schema_brand": "EKSA"
         },
         "quality_gate_version": "1.3-audited",
@@ -8791,11 +8861,11 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://eksa.net/products/eksa-e900-pro-7-1-virtual-surround-sound-gaming-headset",
+          "canonical_url": "https://eksa.net/products/eksa-e900-pro-7-1-virtual-surround-sound-yellow-gaming-headset-upgraded",
           "page_language": "en",
-          "official_url": "https://www.eksa.net/products/eksa-e900-pro-7-1-virtual-surround-sound-gaming-headset",
+          "official_url": "https://www.eksa.net/products/eksa-e900-pro-7-1-virtual-surround-sound-yellow-gaming-headset-upgraded",
           "source_priority": 110,
-          "sku": "E900Pro - Black",
+          "sku": "E900 Pro - Yellow",
           "schema_brand": "EKSA"
         },
         "quality_gate_version": "1.3-audited",
@@ -15323,6 +15393,253 @@
     {
       "brand": "HyperX",
       "brand_zh_cn": "极度未知",
+      "name": "Origins 2 Pro",
+      "category": "键盘",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "海外",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://hyperx.com/products/hyperx-origins-2-pro-65-gaming-keyboard",
+      "image_url": "https://hyperx.com/cdn/shop/files/hyperx_origins_2_pro_65_us_bn7s3aa_main_1_1024x1024.jpg?v=1787066269",
+      "image_source": "https://hyperx.com/products/hyperx-origins-2-pro-65-gaming-keyboard",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://hyperx.com/products/hyperx-origins-2-pro-65-gaming-keyboard",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "Customization": "Yes",
+        "Form Factor": "65%",
+        "Hot Swap": "Yes",
+        "Switch": "HyperX Red - Linear",
+        "Actuation Point": "40 g",
+        "Backlight": "RGB (16,777,216 colors)",
+        "Light Effects": "Per key RGB lighting and 5 brightness levels",
+        "Onboard Memory": "3 profiles",
+        "Polling Rate": "8000 Hz",
+        "Rollover": "N-key",
+        "Acceleration": "Yes (FN Layer)",
+        "Game Mode": "Yes",
+        "Compatibility": "PC; PS5; Xbox Series; Xbox One. Software Compatibility: NGENUITY.",
+        "Operation Style": "Linear",
+        "Total Travel Distance": "4.0 mm",
+        "Width": "323.7 mm",
+        "Depth": "114.0 mm",
+        "Height": "42.9 mm",
+        "Weight": "With Cable: .5 lb",
+        "Cable Type": "USB-C to USB-A; Braided.",
+        "Cable Length (imperial) and type": "5.9 ft | USB-C to USB-A; Braided.",
+        "Unit price": "/ per"
+      },
+      "spec_evidence": {
+        "Customization": {
+          "value": "Yes",
+          "source_url": "https://hyperx.com/products/hyperx-origins-2-pro-65-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Form Factor": {
+          "value": "65%",
+          "source_url": "https://hyperx.com/products/hyperx-origins-2-pro-65-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Hot Swap": {
+          "value": "Yes",
+          "source_url": "https://hyperx.com/products/hyperx-origins-2-pro-65-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Switch": {
+          "value": "HyperX Red - Linear",
+          "source_url": "https://hyperx.com/products/hyperx-origins-2-pro-65-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Actuation Point": {
+          "value": "40 g",
+          "source_url": "https://hyperx.com/products/hyperx-origins-2-pro-65-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Backlight": {
+          "value": "RGB (16,777,216 colors)",
+          "source_url": "https://hyperx.com/products/hyperx-origins-2-pro-65-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Light Effects": {
+          "value": "Per key RGB lighting and 5 brightness levels",
+          "source_url": "https://hyperx.com/products/hyperx-origins-2-pro-65-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Onboard Memory": {
+          "value": "3 profiles",
+          "source_url": "https://hyperx.com/products/hyperx-origins-2-pro-65-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Polling Rate": {
+          "value": "8000 Hz",
+          "source_url": "https://hyperx.com/products/hyperx-origins-2-pro-65-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Rollover": {
+          "value": "N-key",
+          "source_url": "https://hyperx.com/products/hyperx-origins-2-pro-65-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Acceleration": {
+          "value": "Yes (FN Layer)",
+          "source_url": "https://hyperx.com/products/hyperx-origins-2-pro-65-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Game Mode": {
+          "value": "Yes",
+          "source_url": "https://hyperx.com/products/hyperx-origins-2-pro-65-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Compatibility": {
+          "value": "PC; PS5; Xbox Series; Xbox One. Software Compatibility: NGENUITY.",
+          "source_url": "https://hyperx.com/products/hyperx-origins-2-pro-65-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Operation Style": {
+          "value": "Linear",
+          "source_url": "https://hyperx.com/products/hyperx-origins-2-pro-65-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Total Travel Distance": {
+          "value": "4.0 mm",
+          "source_url": "https://hyperx.com/products/hyperx-origins-2-pro-65-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Width": {
+          "value": "323.7 mm",
+          "source_url": "https://hyperx.com/products/hyperx-origins-2-pro-65-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Depth": {
+          "value": "114.0 mm",
+          "source_url": "https://hyperx.com/products/hyperx-origins-2-pro-65-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Height": {
+          "value": "42.9 mm",
+          "source_url": "https://hyperx.com/products/hyperx-origins-2-pro-65-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Weight": {
+          "value": "With Cable: .5 lb",
+          "source_url": "https://hyperx.com/products/hyperx-origins-2-pro-65-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Cable Type": {
+          "value": "USB-C to USB-A; Braided.",
+          "source_url": "https://hyperx.com/products/hyperx-origins-2-pro-65-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Cable Length (imperial) and type": {
+          "value": "5.9 ft | USB-C to USB-A; Braided.",
+          "source_url": "https://hyperx.com/products/hyperx-origins-2-pro-65-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Unit price": {
+          "value": "/ per",
+          "source_url": "https://hyperx.com/products/hyperx-origins-2-pro-65-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_verified",
+        "confidence": 0.92,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://hyperx.com/products/hyperx-origins-2-pro-65-gaming-keyboard",
+          "page_language": "en",
+          "official_url": "https://hyperx.com/products/hyperx-origins-2-pro-65-gaming-keyboard",
+          "source_priority": 110,
+          "sku": "BN7S3AA#ABA",
+          "schema_brand": "HyperX"
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": false
+      }
+    },
+    {
+      "brand": "HyperX",
+      "brand_zh_cn": "极度未知",
       "name": "Pulsefire Core",
       "category": "鼠标",
       "subcategory": "自动发现",
@@ -18703,7 +19020,7 @@
       "market": "官网",
       "first_seen": "2026-09-10",
       "last_verified": "2026-09-10",
-      "last_checked": "2026-09-10",
+      "last_checked": "2026-09-11",
       "source": "https://www.keychron.com/products/keychron-b39-wireless-keyboard",
       "image_url": "https://www.keychron.com/cdn/shop/files/keychron_B39_wireless_keyboard1.jpg?crop=center&height=1200&v=1787908679&width=1200",
       "image_source": "https://www.keychron.com/products/keychron-b39-wireless-keyboard",
@@ -18712,7 +19029,7 @@
           "type": "official_product",
           "url": "https://www.keychron.com/products/keychron-b39-wireless-keyboard",
           "tier": 100,
-          "checked_at": "2026-09-10",
+          "checked_at": "2026-09-11",
           "note": "new official product"
         }
       ],
@@ -18721,18 +19038,23 @@
       },
       "conflict": "",
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": false,
+          "product_schema_count": 0,
+          "canonical_url": "https://keychron.com/products/keychron-b39-wireless-keyboard",
+          "page_language": "en",
           "official_url": "https://www.keychron.com/products/keychron-b39-wireless-keyboard",
-          "legacy_record": true
+          "source_priority": 110
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "渴创"
+      "brand_zh_cn": "渴创",
+      "spec_evidence": {}
     },
     {
       "brand": "Keychron",
@@ -18804,7 +19126,7 @@
       "market": "官网",
       "first_seen": "2026-09-10",
       "last_verified": "2026-09-10",
-      "last_checked": "2026-09-10",
+      "last_checked": "2026-09-11",
       "source": "https://www.keychron.com/products/custom-keyboard-industry-design-open-source-project-v-max-series",
       "image_url": "https://www.keychron.com/cdn/shop/files/Custom-Keyboard-Industry-Design-Open-Source-Project_5b972d49-ff97-48b8-baeb-ff4fd5f081eb.jpg?crop=center&height=1200&v=1716436168&width=1200",
       "image_source": "https://www.keychron.com/products/custom-keyboard-industry-design-open-source-project-v-max-series",
@@ -18813,7 +19135,7 @@
           "type": "official_product",
           "url": "https://www.keychron.com/products/custom-keyboard-industry-design-open-source-project-v-max-series",
           "tier": 100,
-          "checked_at": "2026-09-10",
+          "checked_at": "2026-09-11",
           "note": "new official product"
         }
       ],
@@ -18822,18 +19144,23 @@
       },
       "conflict": "",
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": false,
+          "product_schema_count": 0,
+          "canonical_url": "https://keychron.com/products/custom-keyboard-industry-design-open-source-project-v-max-series",
+          "page_language": "en",
           "official_url": "https://www.keychron.com/products/custom-keyboard-industry-design-open-source-project-v-max-series",
-          "legacy_record": true
+          "source_priority": 110
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "渴创"
+      "brand_zh_cn": "渴创",
+      "spec_evidence": {}
     },
     {
       "brand": "Keychron",
@@ -18846,7 +19173,7 @@
       "market": "官网",
       "first_seen": "2026-09-10",
       "last_verified": "2026-09-10",
-      "last_checked": "2026-09-10",
+      "last_checked": "2026-09-11",
       "source": "https://www.keychron.com/products/keychron-g5-ultra-light-wireless-mouse",
       "image_url": "https://www.keychron.com/cdn/shop/files/Keychron-G5-Wireless-Mouse-feature.jpg?crop=center&height=1200&v=1776252465&width=1200",
       "image_source": "https://www.keychron.com/products/keychron-g5-ultra-light-wireless-mouse",
@@ -18855,7 +19182,7 @@
           "type": "official_product",
           "url": "https://www.keychron.com/products/keychron-g5-ultra-light-wireless-mouse",
           "tier": 100,
-          "checked_at": "2026-09-10",
+          "checked_at": "2026-09-11",
           "note": "new official product"
         }
       ],
@@ -18864,18 +19191,23 @@
       },
       "conflict": "",
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": false,
+          "product_schema_count": 0,
+          "canonical_url": "https://keychron.com/products/keychron-g5-ultra-light-wireless-mouse",
+          "page_language": "en",
           "official_url": "https://www.keychron.com/products/keychron-g5-ultra-light-wireless-mouse",
-          "legacy_record": true
+          "source_priority": 110
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "渴创"
+      "brand_zh_cn": "渴创",
+      "spec_evidence": {}
     },
     {
       "brand": "Keychron",
@@ -18888,7 +19220,7 @@
       "market": "官网",
       "first_seen": "2026-09-10",
       "last_verified": "2026-09-10",
-      "last_checked": "2026-09-10",
+      "last_checked": "2026-09-11",
       "source": "https://www.keychron.com/products/keychron-k10-qmk-wireless-mechanical-keyboard-iso-layout-version-2",
       "image_url": "https://www.keychron.com/cdn/shop/files/Keychron-K10-Version-2-QMK-Wireless-Keyboard-ISO-UK-Aluminum-Red-Switch.jpg?crop=center&height=1200&v=1747213651&width=1200",
       "image_source": "https://www.keychron.com/products/keychron-k10-qmk-wireless-mechanical-keyboard-iso-layout-version-2",
@@ -18897,7 +19229,7 @@
           "type": "official_product",
           "url": "https://www.keychron.com/products/keychron-k10-qmk-wireless-mechanical-keyboard-iso-layout-version-2",
           "tier": 100,
-          "checked_at": "2026-09-10",
+          "checked_at": "2026-09-11",
           "note": "new official product"
         }
       ],
@@ -18906,18 +19238,23 @@
       },
       "conflict": "",
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": false,
+          "product_schema_count": 0,
+          "canonical_url": "https://keychron.com/products/keychron-k10-qmk-wireless-mechanical-keyboard-iso-layout-version-2",
+          "page_language": "en",
           "official_url": "https://www.keychron.com/products/keychron-k10-qmk-wireless-mechanical-keyboard-iso-layout-version-2",
-          "legacy_record": true
+          "source_priority": 110
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "渴创"
+      "brand_zh_cn": "渴创",
+      "spec_evidence": {}
     },
     {
       "brand": "Keychron",
@@ -18930,7 +19267,7 @@
       "market": "官网",
       "first_seen": "2026-09-10",
       "last_verified": "2026-09-10",
-      "last_checked": "2026-09-10",
+      "last_checked": "2026-09-11",
       "source": "https://www.keychron.com/products/keychron-k10-he-wireless-magnetic-switch-keyboard",
       "image_url": "https://www.keychron.com/cdn/shop/files/K10-HE-Iconic-Features.jpg?crop=center&height=1200&v=1758336707&width=1200",
       "image_source": "https://www.keychron.com/products/keychron-k10-he-wireless-magnetic-switch-keyboard",
@@ -18939,7 +19276,7 @@
           "type": "official_product",
           "url": "https://www.keychron.com/products/keychron-k10-he-wireless-magnetic-switch-keyboard",
           "tier": 100,
-          "checked_at": "2026-09-10",
+          "checked_at": "2026-09-11",
           "note": "new official product"
         }
       ],
@@ -18948,18 +19285,23 @@
       },
       "conflict": "",
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": false,
+          "product_schema_count": 0,
+          "canonical_url": "https://keychron.com/products/keychron-k10-he-wireless-magnetic-switch-keyboard",
+          "page_language": "en",
           "official_url": "https://www.keychron.com/products/keychron-k10-he-wireless-magnetic-switch-keyboard",
-          "legacy_record": true
+          "source_priority": 110
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "渴创"
+      "brand_zh_cn": "渴创",
+      "spec_evidence": {}
     },
     {
       "brand": "Keychron",
@@ -18972,7 +19314,7 @@
       "market": "官网",
       "first_seen": "2026-09-10",
       "last_verified": "2026-09-10",
-      "last_checked": "2026-09-10",
+      "last_checked": "2026-09-11",
       "source": "https://www.keychron.com/products/keychron-k3-ultra-8k-wireless-custom-mechanical-keyboard",
       "image_url": "https://www.keychron.com/cdn/shop/files/Keychron-K3-Ultra-8K-Wireless-Custom-MechanicalKeyboard-1.jpg?crop=center&height=1200&v=1774260926&width=1200",
       "image_source": "https://www.keychron.com/products/keychron-k3-ultra-8k-wireless-custom-mechanical-keyboard",
@@ -18981,7 +19323,7 @@
           "type": "official_product",
           "url": "https://www.keychron.com/products/keychron-k3-ultra-8k-wireless-custom-mechanical-keyboard",
           "tier": 100,
-          "checked_at": "2026-09-10",
+          "checked_at": "2026-09-11",
           "note": "new official product"
         }
       ],
@@ -18990,18 +19332,23 @@
       },
       "conflict": "",
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": false,
+          "product_schema_count": 0,
+          "canonical_url": "https://keychron.com/products/keychron-k3-ultra-8k-wireless-custom-mechanical-keyboard",
+          "page_language": "en",
           "official_url": "https://www.keychron.com/products/keychron-k3-ultra-8k-wireless-custom-mechanical-keyboard",
-          "legacy_record": true
+          "source_priority": 110
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "渴创"
+      "brand_zh_cn": "渴创",
+      "spec_evidence": {}
     },
     {
       "brand": "Keychron",
@@ -19079,7 +19426,7 @@
       "market": "官网",
       "first_seen": "2026-09-10",
       "last_verified": "2026-09-10",
-      "last_checked": "2026-09-10",
+      "last_checked": "2026-09-11",
       "source": "https://www.keychron.com/products/keychron-k6-pro-qmk-via-wireless-custom-mechanical-keyboard-russian-layout",
       "image_url": "https://www.keychron.com/cdn/shop/products/Keychron-K6-Pro-QMK-VIA-Wireless-Mechanical-Keyboard-65-Percent-Russian-Layout-for-Mac-Windows-Hot-Swappable-Keychron-K-Pro-Red-Switch.jpg?crop=center&height=1200&v=1687234697&width=1200",
       "image_source": "https://www.keychron.com/products/keychron-k6-pro-qmk-via-wireless-custom-mechanical-keyboard-russian-layout",
@@ -19088,7 +19435,7 @@
           "type": "official_product",
           "url": "https://www.keychron.com/products/keychron-k6-pro-qmk-via-wireless-custom-mechanical-keyboard-russian-layout",
           "tier": 100,
-          "checked_at": "2026-09-10",
+          "checked_at": "2026-09-11",
           "note": "new official product"
         }
       ],
@@ -19097,18 +19444,23 @@
       },
       "conflict": "",
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": false,
+          "product_schema_count": 0,
+          "canonical_url": "https://keychron.com/products/keychron-k6-pro-qmk-via-wireless-custom-mechanical-keyboard-russian-layout",
+          "page_language": "en",
           "official_url": "https://www.keychron.com/products/keychron-k6-pro-qmk-via-wireless-custom-mechanical-keyboard-russian-layout",
-          "legacy_record": true
+          "source_priority": 110
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "渴创"
+      "brand_zh_cn": "渴创",
+      "spec_evidence": {}
     },
     {
       "brand": "Keychron",
@@ -19121,7 +19473,7 @@
       "market": "官网",
       "first_seen": "2026-09-10",
       "last_verified": "2026-09-10",
-      "last_checked": "2026-09-10",
+      "last_checked": "2026-09-11",
       "source": "https://www.keychron.com/products/keychron-k8-he-wireless-magnetic-switch-custom-keyboard",
       "image_url": "https://www.keychron.com/cdn/shop/files/K8-HE-Iconic-Features.jpg?crop=center&height=1200&v=1758336744&width=1200",
       "image_source": "https://www.keychron.com/products/keychron-k8-he-wireless-magnetic-switch-custom-keyboard",
@@ -19130,7 +19482,7 @@
           "type": "official_product",
           "url": "https://www.keychron.com/products/keychron-k8-he-wireless-magnetic-switch-custom-keyboard",
           "tier": 100,
-          "checked_at": "2026-09-10",
+          "checked_at": "2026-09-11",
           "note": "new official product"
         }
       ],
@@ -19139,18 +19491,23 @@
       },
       "conflict": "",
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": false,
+          "product_schema_count": 0,
+          "canonical_url": "https://keychron.com/products/keychron-k8-he-wireless-magnetic-switch-custom-keyboard",
+          "page_language": "en",
           "official_url": "https://www.keychron.com/products/keychron-k8-he-wireless-magnetic-switch-custom-keyboard",
-          "legacy_record": true
+          "source_priority": 110
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "渴创"
+      "brand_zh_cn": "渴创",
+      "spec_evidence": {}
     },
     {
       "brand": "Keychron",
@@ -19367,7 +19724,7 @@
       "market": "官网",
       "first_seen": "2026-09-10",
       "last_verified": "2026-09-10",
-      "last_checked": "2026-09-10",
+      "last_checked": "2026-09-11",
       "source": "https://www.keychron.com/products/keychron-v1-ultra-8k-wireless-custom-mechanical-keyboard",
       "image_url": "https://www.keychron.com/cdn/shop/files/V1-Ultra-8K-Features.jpg?crop=center&height=1200&v=1768873724&width=1200",
       "image_source": "https://www.keychron.com/products/keychron-v1-ultra-8k-wireless-custom-mechanical-keyboard",
@@ -19376,7 +19733,7 @@
           "type": "official_product",
           "url": "https://www.keychron.com/products/keychron-v1-ultra-8k-wireless-custom-mechanical-keyboard",
           "tier": 100,
-          "checked_at": "2026-09-10",
+          "checked_at": "2026-09-11",
           "note": "new official product"
         }
       ],
@@ -19385,18 +19742,23 @@
       },
       "conflict": "",
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": false,
+          "product_schema_count": 0,
+          "canonical_url": "https://keychron.com/products/keychron-v1-ultra-8k-wireless-custom-mechanical-keyboard",
+          "page_language": "en",
           "official_url": "https://www.keychron.com/products/keychron-v1-ultra-8k-wireless-custom-mechanical-keyboard",
-          "legacy_record": true
+          "source_priority": 110
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "渴创"
+      "brand_zh_cn": "渴创",
+      "spec_evidence": {}
     },
     {
       "brand": "Keychron",
@@ -19551,6 +19913,13 @@
           "tier": 110,
           "checked_at": "2026-09-11",
           "note": "new official product"
+        },
+        {
+          "type": "official_product",
+          "url": "https://lamzu.com/zh/products/lamzu-atlantis-mini-mouse-sapphire-skate",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
         }
       ],
       "specs": {
@@ -19559,7 +19928,7 @@
       "spec_evidence": {
         "Color": {
           "value": "Blue",
-          "source_url": "https://lamzu.com/products/lamzu-atlantis-mini-mouse-sapphire-skate",
+          "source_url": "https://lamzu.com/zh/products/lamzu-atlantis-mini-mouse-sapphire-skate",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -19570,14 +19939,14 @@
       "verification": {
         "status": "official_discovered",
         "confidence": 0.78,
-        "source_count": 1,
+        "source_count": 2,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://lamzu.com/products/lamzu-atlantis-mini-mouse-sapphire-skate",
-          "page_language": "en",
-          "official_url": "https://lamzu.com/products/lamzu-atlantis-mini-mouse-sapphire-skate",
+          "canonical_url": "https://lamzu.com/zh/products/lamzu-atlantis-mini-mouse-sapphire-skate",
+          "page_language": "zh-CN",
+          "official_url": "https://lamzu.com/zh/products/lamzu-atlantis-mini-mouse-sapphire-skate",
           "source_priority": 110,
           "sku": "",
           "schema_brand": "LAMZU"
@@ -19785,7 +20154,7 @@
       "market": "官网",
       "first_seen": "2026-09-10",
       "last_verified": "2026-09-10",
-      "last_checked": "2026-09-10",
+      "last_checked": "2026-09-11",
       "source": "https://lamzu.com/products/lamzu-atlantis-og-v2-mouse-sapphire-skate",
       "image_url": "https://lamzu.com/cdn/shop/files/productColor_Atlantis_OG_V2_Mouse_Sapphire_Skate.png?v=1714124902",
       "image_source": "https://lamzu.com/products/lamzu-atlantis-og-v2-mouse-sapphire-skate",
@@ -19794,7 +20163,7 @@
           "type": "official_product",
           "url": "https://lamzu.com/products/lamzu-atlantis-og-v2-mouse-sapphire-skate",
           "tier": 100,
-          "checked_at": "2026-09-10",
+          "checked_at": "2026-09-11",
           "note": "new official product"
         },
         {
@@ -19824,6 +20193,13 @@
           "tier": 110,
           "checked_at": "2026-09-11",
           "note": "additional official page"
+        },
+        {
+          "type": "official_product",
+          "url": "https://lamzu.com/zh/products/lamzu-atlantis-og-v2-pro-gaming-mouse",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
         }
       ],
       "specs": {
@@ -19833,14 +20209,14 @@
       "verification": {
         "status": "conflict",
         "confidence": 0.7,
-        "source_count": 5,
+        "source_count": 6,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://lamzu.com/products/lamzu-atlantis-og-v2-pro-gaming-mouse",
+          "canonical_url": "https://lamzu.com/products/lamzu-atlantis-og-v2-mouse-sapphire-skate",
           "page_language": "en",
-          "official_url": "https://lamzu.com/products/lamzu-atlantis-og-v2-pro-gaming-mouse",
+          "official_url": "https://lamzu.com/products/lamzu-atlantis-og-v2-mouse-sapphire-skate",
           "source_priority": 110,
           "sku": "",
           "schema_brand": "LAMZU"
@@ -19852,7 +20228,7 @@
       "spec_evidence": {
         "Color": {
           "value": "Matcha Green, Elegant Blue, Polar White, Miami Blue",
-          "source_url": "https://lamzu.com/products/lamzu-atlantis-og-v2-pro-gaming-mouse",
+          "source_url": "https://lamzu.com/zh/products/lamzu-atlantis-og-v2-pro-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -20157,7 +20533,7 @@
       "market": "官网",
       "first_seen": "2026-09-10",
       "last_verified": "2026-09-10",
-      "last_checked": "2026-09-10",
+      "last_checked": "2026-09-11",
       "source": "https://lamzu.com/zh/products/lamzu-thorn-gaming-mouse",
       "image_url": "https://lamzu.com/cdn/shop/products/thorn-1-467963.jpg?v=1704309799",
       "image_source": "https://lamzu.com/zh/products/lamzu-thorn-gaming-mouse",
@@ -20166,27 +20542,43 @@
           "type": "official_product",
           "url": "https://lamzu.com/zh/products/lamzu-thorn-gaming-mouse",
           "tier": 100,
-          "checked_at": "2026-09-10",
+          "checked_at": "2026-09-11",
           "note": "new official product"
         }
       ],
       "specs": {
-        "参数状态": "已发现官方产品页，详细参数待结构化"
+        "Color": "Polar White"
       },
       "conflict": "",
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://lamzu.com/zh/products/lamzu-thorn-gaming-mouse",
+          "page_language": "zh-CN",
           "official_url": "https://lamzu.com/zh/products/lamzu-thorn-gaming-mouse",
-          "legacy_record": true
+          "source_priority": 110,
+          "sku": "",
+          "schema_brand": "LAMZU"
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "兰族"
+      "brand_zh_cn": "兰族",
+      "spec_evidence": {
+        "Color": {
+          "value": "Polar White",
+          "source_url": "https://lamzu.com/zh/products/lamzu-thorn-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      }
     },
     {
       "brand": "LAMZU",
@@ -20609,9 +21001,9 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://luminkey.com/products/luminkey75-v2-tri-mode-custom-mechanical-keyboard",
-          "page_language": "en",
-          "official_url": "https://www.luminkey.com/products/luminkey75-v2-tri-mode-custom-mechanical-keyboard",
+          "canonical_url": "https://luminkey.com/zh/products/luminkey75-v2-tri-mode-custom-mechanical-keyboard",
+          "page_language": "zh-CN",
+          "official_url": "https://www.luminkey.com/zh/products/luminkey75-v2-tri-mode-custom-mechanical-keyboard",
           "source_priority": 110,
           "sku": "KB-LK-LK75-V2-Silver",
           "schema_brand": "LUMINKEY"
@@ -21141,16 +21533,16 @@
       "market": "官网",
       "first_seen": "2026-09-10",
       "last_verified": "2026-09-10",
-      "last_checked": "2026-09-10",
+      "last_checked": "2026-09-11",
       "source": "https://www.luminkey.com/zh/products/magger60-he-magnetic-gaming-keyboard",
-      "image_url": "https://www.luminkey.com/cdn/shop/files/Magger_60_.4463_cbfe9238-c477-4cec-b009-a0ed949974ac.png?v=1778813053",
+      "image_url": "https://www.luminkey.com/cdn/shop/files/Magger_60_.4463_cbfe9238-c477-4cec-b009-a0ed949974ac.png?v=1778813053&width=1200",
       "image_source": "https://www.luminkey.com/zh/products/magger60-he-magnetic-gaming-keyboard",
       "sources": [
         {
           "type": "official_product",
           "url": "https://www.luminkey.com/zh/products/magger60-he-magnetic-gaming-keyboard",
           "tier": 100,
-          "checked_at": "2026-09-10",
+          "checked_at": "2026-09-11",
           "note": "new official product"
         },
         {
@@ -21173,9 +21565,9 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://luminkey.com/products/magger60-he-magnetic-gaming-keyboard",
-          "page_language": "en",
-          "official_url": "https://www.luminkey.com/products/magger60-he-magnetic-gaming-keyboard",
+          "canonical_url": "https://luminkey.com/zh/products/magger60-he-magnetic-gaming-keyboard",
+          "page_language": "zh-CN",
+          "official_url": "https://www.luminkey.com/zh/products/magger60-he-magnetic-gaming-keyboard",
           "source_priority": 110,
           "sku": "KB-LK-M60-BLACK",
           "schema_brand": "LUMINKEY"
@@ -21197,16 +21589,16 @@
       "market": "官网",
       "first_seen": "2026-09-10",
       "last_verified": "2026-09-10",
-      "last_checked": "2026-09-10",
+      "last_checked": "2026-09-11",
       "source": "https://www.luminkey.com/zh/products/magger68-performance-he-magnetic-keyboard",
-      "image_url": "https://cdn.shopify.com/s/files/1/0815/1800/2452/files/Magger68-Performance-2_24056cf5-ddcb-42a5-a481-ad4a5db1db88.png?v=1774367426",
+      "image_url": "https://www.luminkey.com/cdn/shop/files/Magger68-Performance-2_24056cf5-ddcb-42a5-a481-ad4a5db1db88.png?v=1774367426&width=1200",
       "image_source": "https://www.luminkey.com/zh/products/magger68-performance-he-magnetic-keyboard",
       "sources": [
         {
           "type": "official_product",
           "url": "https://www.luminkey.com/zh/products/magger68-performance-he-magnetic-keyboard",
           "tier": 100,
-          "checked_at": "2026-09-10",
+          "checked_at": "2026-09-11",
           "note": "new official product"
         },
         {
@@ -21243,9 +21635,9 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 2,
-          "canonical_url": "https://luminkey.com/products/magger68-performance-he-magnetic-keyboard",
-          "page_language": "en",
-          "official_url": "https://www.luminkey.com/products/magger68-performance-he-magnetic-keyboard",
+          "canonical_url": "https://luminkey.com/zh/products/magger68-performance-he-magnetic-keyboard",
+          "page_language": "zh-CN",
+          "official_url": "https://www.luminkey.com/zh/products/magger68-performance-he-magnetic-keyboard",
           "source_priority": 110,
           "sku": "KB-LK-M68-PER-BLACK",
           "schema_brand": "LUMINKEY"
@@ -21257,7 +21649,7 @@
       "spec_evidence": {
         "Color:": {
           "value": "Ano-Champagne Gold",
-          "source_url": "https://www.luminkey.com/products/magger68-professional-he-magnetic-keyboard",
+          "source_url": "https://www.luminkey.com/zh/products/magger68-professional-he-magnetic-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -21505,16 +21897,16 @@
       "market": "官网",
       "first_seen": "2026-09-10",
       "last_verified": "2026-09-10",
-      "last_checked": "2026-09-10",
+      "last_checked": "2026-09-11",
       "source": "https://www.luminkey.com/products/titan75-he-hall-effect-magnetic-gaming-keyboard",
-      "image_url": "https://www.luminkey.com/cdn/shop/files/9_0631ef51-4fcc-4f06-b16e-7abc735cc4b9.jpg?v=1775027138",
+      "image_url": "https://www.luminkey.com/cdn/shop/files/9_0631ef51-4fcc-4f06-b16e-7abc735cc4b9.jpg?v=1775027138&width=1200",
       "image_source": "https://www.luminkey.com/products/titan75-he-hall-effect-magnetic-gaming-keyboard",
       "sources": [
         {
           "type": "official_product",
           "url": "https://www.luminkey.com/products/titan75-he-hall-effect-magnetic-gaming-keyboard",
           "tier": 100,
-          "checked_at": "2026-09-10",
+          "checked_at": "2026-09-11",
           "note": "new official product"
         }
       ],
@@ -21523,18 +21915,25 @@
       },
       "conflict": "",
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://luminkey.com/products/titan75-he-hall-effect-magnetic-gaming-keyboard",
+          "page_language": "en",
           "official_url": "https://www.luminkey.com/products/titan75-he-hall-effect-magnetic-gaming-keyboard",
-          "legacy_record": true
+          "source_priority": 110,
+          "sku": "",
+          "schema_brand": "LUMINKEY"
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "LUMINKEY"
+      "brand_zh_cn": "LUMINKEY",
+      "spec_evidence": {}
     },
     {
       "brand": "MCHOSE",
@@ -24432,7 +24831,7 @@
       "market": "官网",
       "first_seen": "2026-09-10",
       "last_verified": "2026-09-10",
-      "last_checked": "2026-09-10",
+      "last_checked": "2026-09-11",
       "source": "https://www.mchose.store/products/mchose-g75-tri-mode-gaming-gasket-structure-customized-mechanical-keyboard",
       "image_url": "https://www.mchose.store/cdn/shop/files/mchose-official-keyboard-green-matcha-latte-switch-mchose-g75-pro-tri-mode-gasket-structure-gaming-mechanical-keyboard-1166639824.jpg?v=1754474106",
       "image_source": "https://www.mchose.store/products/mchose-g75-tri-mode-gaming-gasket-structure-customized-mechanical-keyboard",
@@ -24441,7 +24840,7 @@
           "type": "official_product",
           "url": "https://www.mchose.store/products/mchose-g75-tri-mode-gaming-gasket-structure-customized-mechanical-keyboard",
           "tier": 100,
-          "checked_at": "2026-09-10",
+          "checked_at": "2026-09-11",
           "note": "new official product"
         },
         {
@@ -24457,13 +24856,19 @@
       },
       "conflict": "",
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 2,
         "conflicts": [],
         "evidence": {
+          "product_schema": true,
+          "product_schema_count": 6,
+          "canonical_url": "https://mchose.store/products/mchose-g75-tri-mode-gaming-gasket-structure-customized-mechanical-keyboard",
+          "page_language": "en",
           "official_url": "https://www.mchose.store/products/mchose-g75-tri-mode-gaming-gasket-structure-customized-mechanical-keyboard",
-          "legacy_record": true
+          "source_priority": 110,
+          "sku": "G75-9A",
+          "schema_brand": ""
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
@@ -24538,7 +24943,7 @@
       "market": "官网",
       "first_seen": "2026-09-10",
       "last_verified": "2026-09-10",
-      "last_checked": "2026-09-10",
+      "last_checked": "2026-09-11",
       "source": "https://www.mchose.store/products/mchose-gx87-aluminum-custom-mechanical-keyboard",
       "image_url": "https://www.mchose.store/cdn/shop/files/mchose-official-keyboard-lite-white-nano-spraying-mchose-gx87-aluminum-custom-mechanical-keyboard-1166639854.jpg?v=1767167738",
       "image_source": "https://www.mchose.store/products/mchose-gx87-aluminum-custom-mechanical-keyboard",
@@ -24547,7 +24952,7 @@
           "type": "official_product",
           "url": "https://www.mchose.store/products/mchose-gx87-aluminum-custom-mechanical-keyboard",
           "tier": 100,
-          "checked_at": "2026-09-10",
+          "checked_at": "2026-09-11",
           "note": "new official product"
         },
         {
@@ -24563,13 +24968,19 @@
       },
       "conflict": "",
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 2,
         "conflicts": [],
         "evidence": {
+          "product_schema": true,
+          "product_schema_count": 10,
+          "canonical_url": "https://mchose.store/products/mchose-gx87-aluminum-custom-mechanical-keyboard",
+          "page_language": "en",
           "official_url": "https://www.mchose.store/products/mchose-gx87-aluminum-custom-mechanical-keyboard",
-          "legacy_record": true
+          "source_priority": 110,
+          "sku": "GX87-A8",
+          "schema_brand": ""
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
@@ -25807,7 +26218,7 @@
       "market": "官网",
       "first_seen": "2026-09-10",
       "last_verified": "2026-09-10",
-      "last_checked": "2026-09-10",
+      "last_checked": "2026-09-11",
       "source": "https://www.mchose.store/products/mchose-s9-pro-wireless-gaming-headset",
       "image_url": "https://www.mchose.store/cdn/shop/files/mchose-official-headphones-black-red-mchose-s9-pro-wireless-gaming-headset-1166639757.jpg?v=1767168063",
       "image_source": "https://www.mchose.store/products/mchose-s9-pro-wireless-gaming-headset",
@@ -25816,7 +26227,7 @@
           "type": "official_product",
           "url": "https://www.mchose.store/products/mchose-s9-pro-wireless-gaming-headset",
           "tier": 100,
-          "checked_at": "2026-09-10",
+          "checked_at": "2026-09-11",
           "note": "new official product"
         }
       ],
@@ -25825,18 +26236,25 @@
       },
       "conflict": "",
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": true,
+          "product_schema_count": 2,
+          "canonical_url": "https://mchose.store/products/mchose-s9-pro-wireless-gaming-headset",
+          "page_language": "en",
           "official_url": "https://www.mchose.store/products/mchose-s9-pro-wireless-gaming-headset",
-          "legacy_record": true
+          "source_priority": 110,
+          "sku": "MC-S9-5",
+          "schema_brand": ""
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "迈从"
+      "brand_zh_cn": "迈从",
+      "spec_evidence": {}
     },
     {
       "brand": "MCHOSE",
@@ -26038,7 +26456,7 @@
       "market": "官网",
       "first_seen": "2026-09-10",
       "last_verified": "2026-09-10",
-      "last_checked": "2026-09-10",
+      "last_checked": "2026-09-11",
       "source": "https://www.mchose.store/products/mchose-x-unbox-therapy-ut98-mechanical-keyboard",
       "image_url": "https://www.mchose.store/cdn/shop/files/mchose-official-keyboard-classic-therapy-silent-peach-v3-switch-mchose-x-unbox-therapy-ut98-mechanical-keyboard-1200359965.png?v=1776838225",
       "image_source": "https://www.mchose.store/products/mchose-x-unbox-therapy-ut98-mechanical-keyboard",
@@ -26047,7 +26465,7 @@
           "type": "official_product",
           "url": "https://www.mchose.store/products/mchose-x-unbox-therapy-ut98-mechanical-keyboard",
           "tier": 100,
-          "checked_at": "2026-09-10",
+          "checked_at": "2026-09-11",
           "note": "new official product"
         }
       ],
@@ -26056,18 +26474,25 @@
       },
       "conflict": "",
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": true,
+          "product_schema_count": 4,
+          "canonical_url": "https://mchose.store/products/mchose-x-unbox-therapy-ut98-mechanical-keyboard",
+          "page_language": "en",
           "official_url": "https://www.mchose.store/products/mchose-x-unbox-therapy-ut98-mechanical-keyboard",
-          "legacy_record": true
+          "source_priority": 110,
+          "sku": "HW-UT98-2",
+          "schema_brand": ""
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "迈从"
+      "brand_zh_cn": "迈从",
+      "spec_evidence": {}
     },
     {
       "brand": "MCHOSE",
@@ -26080,7 +26505,7 @@
       "market": "官网",
       "first_seen": "2026-09-10",
       "last_verified": "2026-09-10",
-      "last_checked": "2026-09-10",
+      "last_checked": "2026-09-11",
       "source": "https://www.mchose.store/products/mchose-x9-wireless-gaming-headset",
       "image_url": "https://www.mchose.store/cdn/shop/files/mchose-official-headphones-black-mchose-x9-wireless-gaming-headset-1174256555.jpg?v=1764571083",
       "image_source": "https://www.mchose.store/products/mchose-x9-wireless-gaming-headset",
@@ -26089,7 +26514,7 @@
           "type": "official_product",
           "url": "https://www.mchose.store/products/mchose-x9-wireless-gaming-headset",
           "tier": 100,
-          "checked_at": "2026-09-10",
+          "checked_at": "2026-09-11",
           "note": "new official product"
         },
         {
@@ -26105,13 +26530,19 @@
       },
       "conflict": "",
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 2,
         "conflicts": [],
         "evidence": {
+          "product_schema": true,
+          "product_schema_count": 3,
+          "canonical_url": "https://mchose.store/products/mchose-x9-wireless-gaming-headset",
+          "page_language": "en",
           "official_url": "https://www.mchose.store/products/mchose-x9-wireless-gaming-headset",
-          "legacy_record": true
+          "source_priority": 110,
+          "sku": "HW-X9-2",
+          "schema_brand": ""
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
@@ -28312,6 +28743,13 @@
           "tier": 110,
           "checked_at": "2026-09-11",
           "note": "new official product"
+        },
+        {
+          "type": "official_product",
+          "url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v4-x",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
         }
       ],
       "specs": {
@@ -28320,7 +28758,13 @@
         "SURROUND SOUND": "THX Spatial Audio",
         "CONNECTIVITY": "Wireless: Razer™ HyperSpeed Wireless Technology (2.4 GHz) + Bluetooth 5.3 with Simultaneous Audio Wired: USB Type-A + 3.5 mm*",
         "BATTERY LIFE": "Up to 50 hours (Haptics/Lighting OFF, 2.4 GHz connection) Up to 45 hours (Haptics/Lighting OFF, 2.4 GHz + BT connection) Up to 13 hours (Haptics and Lighting ON, 2.4 GHz connection)",
-        "WEIGHT": "397 g (not including OLED Control Hub)"
+        "WEIGHT": "397 g (not including OLED Control Hub)",
+        "驱动单元": "Razer™ TriForce 生物纤维 40 毫米驱动单元",
+        "麦克风": "可伸缩式 Razer™ HyperClear 灵晰技术 超宽带麦克风",
+        "环绕声": "THX Spatial Audio 空间音效",
+        "连接方式": "无线：Razer™ HyperSpeed Wireless 无线技术 (2.4 GHz) + 蓝牙 5.3（支持同步音频） 有线：USB Type-A 端口 + 3.5 毫米接口",
+        "电池续航时间": "长达约 50 小时（关闭触觉反馈/灯光效果，2.4 GHz 连接） 长达约 45 小时（关闭触觉反馈/灯光效果，2.4 GHz + 蓝牙连接） 长达约 13 小时（打开触觉反馈和灯光效果，2.4 GHz 连接）",
+        "重量": "397 克（不包括 OLED 控制中心）"
       },
       "spec_evidence": {
         "DRIVERS": {
@@ -28370,23 +28814,71 @@
           "source_priority": 110,
           "checked_at": "2026-09-11",
           "claim_type": "厂商标称"
+        },
+        "驱动单元": {
+          "value": "Razer™ TriForce 生物纤维 40 毫米驱动单元",
+          "source_url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v4-x",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "麦克风": {
+          "value": "可伸缩式 Razer™ HyperClear 灵晰技术 超宽带麦克风",
+          "source_url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v4-x",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "环绕声": {
+          "value": "THX Spatial Audio 空间音效",
+          "source_url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v4-x",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "连接方式": {
+          "value": "无线：Razer™ HyperSpeed Wireless 无线技术 (2.4 GHz) + 蓝牙 5.3（支持同步音频） 有线：USB Type-A 端口 + 3.5 毫米接口",
+          "source_url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v4-x",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "电池续航时间": {
+          "value": "长达约 50 小时（关闭触觉反馈/灯光效果，2.4 GHz 连接） 长达约 45 小时（关闭触觉反馈/灯光效果，2.4 GHz + 蓝牙连接） 长达约 13 小时（打开触觉反馈和灯光效果，2.4 GHz 连接）",
+          "source_url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v4-x",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "重量": {
+          "value": "397 克（不包括 OLED 控制中心）",
+          "source_url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v4-x",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
         }
       },
       "conflict": "",
       "verification": {
         "status": "official_verified",
         "confidence": 0.92,
-        "source_count": 1,
+        "source_count": 2,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://razer.com/gaming-headsets/razer-kraken-v4",
-          "page_language": "en-US",
-          "official_url": "https://www.razer.com/gaming-headsets/razer-kraken-v4",
+          "canonical_url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v4-x",
+          "page_language": "zh-CN",
+          "official_url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v4-x",
           "source_priority": 110,
           "sku": "",
-          "schema_brand": "Razer"
+          "schema_brand": "Razer 雷蛇"
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": false
@@ -29176,7 +29668,7 @@
       "market": "官网",
       "first_seen": "2026-09-10",
       "last_verified": "2026-09-10",
-      "last_checked": "2026-09-10",
+      "last_checked": "2026-09-11",
       "source": "https://steelseries.com/gaming-headsets/arctis-1?primaryPlatform=pc&connectivityType=wireless",
       "image_url": "https://images.ctfassets.net/hmm5mo4qf4mf/U4k80VCj1ELnMgV0tBsoD/a021ea1f120d1a17883feee0b7e3c6f2/buyimg_arctis1w_main_001.jpg__1920x1080_q100_crop-fit_optimize_subsampling-2-2154.jpg?w=1200&h=600&fit=fill&fm=jpg&q=85",
       "image_source": "https://steelseries.com/gaming-headsets/arctis-1?primaryPlatform=pc&connectivityType=wireless",
@@ -29185,7 +29677,7 @@
           "type": "official_product",
           "url": "https://steelseries.com/gaming-headsets/arctis-1?primaryPlatform=pc&connectivityType=wireless",
           "tier": 100,
-          "checked_at": "2026-09-10",
+          "checked_at": "2026-09-11",
           "note": "new official product"
         }
       ],
@@ -29194,18 +29686,25 @@
       },
       "conflict": "",
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://steelseries.com/gaming-headsets/arctis-1",
+          "page_language": "en",
           "official_url": "https://steelseries.com/gaming-headsets/arctis-1?primaryPlatform=pc&connectivityType=wireless",
-          "legacy_record": true
+          "source_priority": 110,
+          "sku": "61512",
+          "schema_brand": "SteelSeries"
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "赛睿"
+      "brand_zh_cn": "赛睿",
+      "spec_evidence": {}
     },
     {
       "brand": "SteelSeries",
@@ -29326,7 +29825,7 @@
       "market": "官网",
       "first_seen": "2026-09-10",
       "last_verified": "2026-09-10",
-      "last_checked": "2026-09-10",
+      "last_checked": "2026-09-11",
       "source": "https://steelseries.com/gaming-headsets/arctis-7?color=black&model=Plus&primaryPlatform=xbox",
       "image_url": "https://images.ctfassets.net/hmm5mo4qf4mf/1gLXXLnvYlrzB1WP9Bv8i6/350381d4410b9bf4bfe649d8486c2eef/imgbuy_arctis_7x_black_1.jpg__1920x1080_q100_crop-fit_optimize_subsampling-2-42.jpg?w=1200&h=600&fit=fill&fm=jpg&q=85",
       "image_source": "https://steelseries.com/gaming-headsets/arctis-7?color=black&model=Plus&primaryPlatform=xbox",
@@ -29335,7 +29834,7 @@
           "type": "official_product",
           "url": "https://steelseries.com/gaming-headsets/arctis-7?color=black&model=Plus&primaryPlatform=xbox",
           "tier": 100,
-          "checked_at": "2026-09-10",
+          "checked_at": "2026-09-11",
           "note": "new official product"
         }
       ],
@@ -29344,18 +29843,25 @@
       },
       "conflict": "",
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://steelseries.com/gaming-headsets/arctis-7",
+          "page_language": "en",
           "official_url": "https://steelseries.com/gaming-headsets/arctis-7?color=black&model=Plus&primaryPlatform=xbox",
-          "legacy_record": true
+          "source_priority": 110,
+          "sku": "61472",
+          "schema_brand": "SteelSeries"
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "赛睿"
+      "brand_zh_cn": "赛睿",
+      "spec_evidence": {}
     },
     {
       "brand": "SteelSeries",
@@ -29417,7 +29923,7 @@
       "market": "官网",
       "first_seen": "2026-09-10",
       "last_verified": "2026-09-10",
-      "last_checked": "2026-09-10",
+      "last_checked": "2026-09-11",
       "source": "https://steelseries.com/gaming-headsets/arctis-nova-3?color=lavender&connectivityType=wireless&primaryPlatform=pc",
       "image_url": "https://images.ctfassets.net/hmm5mo4qf4mf/3nYHv3ExVcFQLTrwJjroK3/b01412a12785117d33c9067e26445a14/arctis_nova_3_wl_lavender_pdp_img_buy_01.png?w=1200&h=600&fit=fill&fm=jpg&q=85",
       "image_source": "https://steelseries.com/gaming-headsets/arctis-nova-3?color=lavender&connectivityType=wireless&primaryPlatform=pc",
@@ -29426,7 +29932,7 @@
           "type": "official_product",
           "url": "https://steelseries.com/gaming-headsets/arctis-nova-3?color=lavender&connectivityType=wireless&primaryPlatform=pc",
           "tier": 100,
-          "checked_at": "2026-09-10",
+          "checked_at": "2026-09-11",
           "note": "new official product"
         }
       ],
@@ -29435,18 +29941,25 @@
       },
       "conflict": "",
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://steelseries.com/gaming-headsets/arctis-nova-3",
+          "page_language": "en",
           "official_url": "https://steelseries.com/gaming-headsets/arctis-nova-3?color=lavender&connectivityType=wireless&primaryPlatform=pc",
-          "legacy_record": true
+          "source_priority": 110,
+          "sku": "61778",
+          "schema_brand": "SteelSeries"
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "赛睿"
+      "brand_zh_cn": "赛睿",
+      "spec_evidence": {}
     },
     {
       "brand": "SteelSeries",
@@ -29538,11 +30051,11 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://steelseries.com/gaming-headsets/arctis-nova-5",
+          "canonical_url": "https://steelseries.com/gaming-headsets/arctis-nova-5-wireless-blemished-box",
           "page_language": "en",
-          "official_url": "https://steelseries.com/gaming-headsets/arctis-nova-5?color=black&primaryPlatform=pc",
+          "official_url": "https://steelseries.com/gaming-headsets/arctis-nova-5-wireless-blemished-box",
           "source_priority": 110,
-          "sku": "61670",
+          "sku": "arctis-nova-5-wireless-blemished-box-variant",
           "schema_brand": "SteelSeries"
         },
         "quality_gate_version": "1.3-audited",
@@ -29707,6 +30220,13 @@
           "tier": 110,
           "checked_at": "2026-09-11",
           "note": "additional official page"
+        },
+        {
+          "type": "official_product",
+          "url": "https://steelseries.com/gaming-headsets/arctis-nova-7?color=black&primaryPlatform=xbox",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
         }
       ],
       "specs": {},
@@ -29715,16 +30235,16 @@
       "verification": {
         "status": "official_discovered",
         "confidence": 0.78,
-        "source_count": 2,
+        "source_count": 3,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
           "canonical_url": "https://steelseries.com/gaming-headsets/arctis-nova-7",
           "page_language": "en",
-          "official_url": "https://steelseries.com/gaming-headsets/arctis-nova-7?color=white&primaryPlatform=xbox",
+          "official_url": "https://steelseries.com/gaming-headsets/arctis-nova-7?color=black&primaryPlatform=xbox",
           "source_priority": 110,
-          "sku": "61567",
+          "sku": "61565",
           "schema_brand": "SteelSeries"
         },
         "quality_gate_version": "1.3-audited",
@@ -29742,7 +30262,7 @@
       "market": "官网",
       "first_seen": "2026-09-10",
       "last_verified": "2026-09-10",
-      "last_checked": "2026-09-10",
+      "last_checked": "2026-09-11",
       "source": "https://steelseries.com/gaming-headsets/arctis-nova-elite?color=sage-and-gold",
       "image_url": "https://images.ctfassets.net/w5r1fvmogo3f/4B9AXPPltuC3ERCvCHCAja/b73cd357e54dc34900821c5b256ebe88/arctis_nova_elite_sage_gold_pdp_img_buy_01.png?w=1200&h=600&fit=fill&fm=jpg&q=85",
       "image_source": "https://steelseries.com/gaming-headsets/arctis-nova-elite?color=sage-and-gold",
@@ -29751,7 +30271,7 @@
           "type": "official_product",
           "url": "https://steelseries.com/gaming-headsets/arctis-nova-elite?color=sage-and-gold",
           "tier": 100,
-          "checked_at": "2026-09-10",
+          "checked_at": "2026-09-11",
           "note": "new official product"
         }
       ],
@@ -29760,18 +30280,25 @@
       },
       "conflict": "",
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://steelseries.com/gaming-headsets/arctis-nova-elite",
+          "page_language": "en",
           "official_url": "https://steelseries.com/gaming-headsets/arctis-nova-elite?color=sage-and-gold",
-          "legacy_record": true
+          "source_priority": 110,
+          "sku": "61663",
+          "schema_brand": "SteelSeries"
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "赛睿"
+      "brand_zh_cn": "赛睿",
+      "spec_evidence": {}
     },
     {
       "brand": "SteelSeries",
@@ -29784,7 +30311,7 @@
       "market": "官网",
       "first_seen": "2026-09-10",
       "last_verified": "2026-09-10",
-      "last_checked": "2026-09-10",
+      "last_checked": "2026-09-11",
       "source": "https://steelseries.com/gaming-headsets/arctis-nova-pro-omni",
       "image_url": "https://images.ctfassets.net/hmm5mo4qf4mf/1VkqkV7Z3WN1ygbODUmPmH/173e839d023259f2b94b667288d5cf20/arctis_nova_pro_omni_black_pdp_img_buy_01.png?w=1200&h=600&fit=fill&fm=jpg&q=85",
       "image_source": "https://steelseries.com/gaming-headsets/arctis-nova-pro-omni",
@@ -29793,7 +30320,7 @@
           "type": "official_product",
           "url": "https://steelseries.com/gaming-headsets/arctis-nova-pro-omni",
           "tier": 100,
-          "checked_at": "2026-09-10",
+          "checked_at": "2026-09-11",
           "note": "new official product"
         },
         {
@@ -29830,11 +30357,11 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://steelseries.com/gaming-headsets/arctis-nova-pro",
+          "canonical_url": "https://steelseries.com/gaming-headsets/arctis-nova-pro-omni",
           "page_language": "en",
-          "official_url": "https://steelseries.com/gaming-headsets/arctis-nova-pro?color=black&connectivityType=wireless&primaryPlatform=pc%2Fps",
+          "official_url": "https://steelseries.com/gaming-headsets/arctis-nova-pro-omni",
           "source_priority": 110,
-          "sku": "61529",
+          "sku": "61721",
           "schema_brand": "SteelSeries"
         },
         "quality_gate_version": "1.3-audited",
@@ -29959,7 +30486,7 @@
       "market": "官网",
       "first_seen": "2026-09-10",
       "last_verified": "2026-09-10",
-      "last_checked": "2026-09-10",
+      "last_checked": "2026-09-11",
       "source": "https://vgnlab.com/products/vgn-dragonfly-3-series-ultra-lightweight-wireless-mouse",
       "image_url": "https://vgnlab.com/cdn/shop/files/20260120161301_361_200_1024x1024.jpg?v=1768896946",
       "image_source": "https://vgnlab.com/products/vgn-dragonfly-3-series-ultra-lightweight-wireless-mouse",
@@ -29968,7 +30495,7 @@
           "type": "official_product",
           "url": "https://vgnlab.com/products/vgn-dragonfly-3-series-ultra-lightweight-wireless-mouse",
           "tier": 100,
-          "checked_at": "2026-09-10",
+          "checked_at": "2026-09-11",
           "note": "new official product"
         }
       ],
@@ -29977,18 +30504,34 @@
       },
       "conflict": "",
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://vgnlab.com/products/vgn-dragonfly-3-series-ultra-lightweight-wireless-mouse",
+          "page_language": "en",
           "official_url": "https://vgnlab.com/products/vgn-dragonfly-3-series-ultra-lightweight-wireless-mouse",
-          "legacy_record": true
+          "source_priority": 110,
+          "sku": "34360",
+          "schema_brand": "VGN LAB"
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "VGN"
+      "brand_zh_cn": "VGN",
+      "spec_evidence": {
+        "Unit price": {
+          "value": "/ per",
+          "source_url": "https://vgnlab.com/products/vgn-dragonfly-3-series-ultra-lightweight-wireless-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      }
     },
     {
       "brand": "VGN",
@@ -30182,7 +30725,7 @@
       "market": "官网",
       "first_seen": "2026-09-10",
       "last_verified": "2026-09-10",
-      "last_checked": "2026-09-10",
+      "last_checked": "2026-09-11",
       "source": "https://vgnlab.com/products/vgn-dragonfly-f2-master-ultra-lightweight-wireless-mouse",
       "image_url": "https://vgnlab.com/cdn/shop/files/e3342c035e4faf9c6516ce8bab6b1f8b_1024x1024.png?v=1780369953",
       "image_source": "https://vgnlab.com/products/vgn-dragonfly-f2-master-ultra-lightweight-wireless-mouse",
@@ -30191,7 +30734,7 @@
           "type": "official_product",
           "url": "https://vgnlab.com/products/vgn-dragonfly-f2-master-ultra-lightweight-wireless-mouse",
           "tier": 100,
-          "checked_at": "2026-09-10",
+          "checked_at": "2026-09-11",
           "note": "new official product"
         }
       ],
@@ -30200,18 +30743,34 @@
       },
       "conflict": "",
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://vgnlab.com/products/vgn-dragonfly-f2-master-ultra-lightweight-wireless-mouse",
+          "page_language": "en",
           "official_url": "https://vgnlab.com/products/vgn-dragonfly-f2-master-ultra-lightweight-wireless-mouse",
-          "legacy_record": true
+          "source_priority": 110,
+          "sku": "33783",
+          "schema_brand": "VGN LAB"
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "VGN"
+      "brand_zh_cn": "VGN",
+      "spec_evidence": {
+        "Unit price": {
+          "value": "/ per",
+          "source_url": "https://vgnlab.com/products/vgn-dragonfly-f2-master-ultra-lightweight-wireless-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      }
     },
     {
       "brand": "VGN",
@@ -31470,6 +32029,6 @@
   ],
   "quality_policy_version": "1.2",
   "language_default": "zh-CN",
-  "quarantined_count": 737,
+  "quarantined_count": 747,
   "quality_migration_revision": 2
 }
