@@ -12,6 +12,8 @@ I18N['zh-CN'].missingHint='如怀疑存在遗漏产品，可直接打开联网�
 I18N.en.missingHint='If products may be missing, open the online supplement entry and run a targeted scan.';
 Object.assign(I18N['zh-CN'],{subtitle:'中国官方中文数据优先 · 每30分钟自动更新 · 低可信度数据明确标注 · 最多20款对比',brandToolTitle:'品牌 / 产品快速补全',brandToolDesc:'输入品牌名先查数据库；缺少品牌或产品时，直接进入联网补全。',searchBrand:'查数据库',supplementBrand:'联网补全 ↗',unverified:'待核实',footer:'中国大陆官方中文产品页优先。证据完整的数据标记为已核实；低可信度参数继续展示并注明“待核实”。'});
 Object.assign(I18N.en,{subtitle:'Mainland China official data first · Auto-update every 30 minutes · Low-confidence data labeled · Compare up to 20',brandToolTitle:'Quick brand / product supplement',brandToolDesc:'Check the database by brand, then open online supplement when a brand or product is missing.',searchBrand:'Check database',supplementBrand:'Online supplement ↗',unverified:'Unverified',footer:'Mainland China official Chinese product pages take priority. Fully evidenced data is verified; low-confidence specifications remain visible and are labeled “Unverified”.'});
+Object.assign(I18N['zh-CN'],{specStatus:'参数状态',specPending:'官网产品页已确认，详细参数正在自动补充'});
+Object.assign(I18N.en,{specStatus:'Specification status',specPending:'Official product page confirmed; detailed specifications are being added automatically'});
 const esc=value=>String(value??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
 
 // One canonical field id can absorb both Chinese and English source labels.
@@ -66,13 +68,22 @@ function lowConfidenceField(p,key,value){
 function displaySpecEntries(p){
  const output=[],seen=new Set();
  Object.entries(p.specs||{}).forEach(([key,value])=>{
-   if(value===null||value===''||value==='—'||key==='参数状态'||key==='原分类')return;
+   if(value===null||value===''||value==='—'||key==='原分类')return;
+   if(key==='参数状态'){
+     const suffix=LANG==='zh-CN'?'（'+t('unverified')+'）':' ('+t('unverified')+')';
+     output.push({key,label:t('specStatus'),value:(LANG==='zh-CN'?String(value):t('specPending'))+suffix,order:998});
+     return;
+   }
    const id=specId(key),canonical=id?SPEC_BY_ID.get(id)?.[1]:'';
    if(!id&&(key.length>55||String(value).length>220||JUNK_SPEC_KEY.test(key)))return;
    const identity=id||normalizeSpecKey(key);if(seen.has(identity))return;seen.add(identity);
    const suffix=lowConfidenceField(p,key,value)?(LANG==='zh-CN'?'（'+t('unverified')+'）':' ('+t('unverified')+')'):'';
    output.push({key,label:specLabel(key),value:valueLabel(value)+suffix,order:(FILTERS[p.category]?.priority_fields||[]).indexOf(canonical||key)});
  });
+ if(!output.length){
+   const suffix=LANG==='zh-CN'?'（'+t('unverified')+'）':' ('+t('unverified')+')';
+   output.push({key:'参数状态',label:t('specStatus'),value:t('specPending')+suffix,order:998});
+ }
  return output.sort((a,b)=>(a.order<0?999:a.order)-(b.order<0?999:b.order));
 }
 function applyLanguage(){

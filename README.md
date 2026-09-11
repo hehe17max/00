@@ -69,8 +69,9 @@
 
 重点查看：
 
-- `data/update_report.json`：每日产品更新报告
-- `data/brand_discovery_report.json`：每日新品牌搜索报告
+- `data/update_report.json`：每轮产品更新报告
+- `data/brand_discovery_report.json`：每轮新品牌搜索报告
+- `data/data_quality_report.json`：全库型号、重复项和非目标产品审计报告
 - `data/brand_candidates.json`：需要人工判断的品牌候选
 - `data/review_queue.json`：规格冲突审核队列
 
