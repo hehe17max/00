@@ -3176,6 +3176,53 @@
     {
       "brand": "ATTACK SHARK",
       "brand_zh_cn": "攻击鲨",
+      "name": "V8",
+      "category": "鼠标",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "中国",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://attackshark.com/products/attack-shark-v8-ultra-light-ergonomic-wireless-gaming-mouse",
+      "image_url": "https://attackshark.com/cdn/shop/files/1_5cc1a7ca-93fa-421c-8049-53520c3aa5a6.png?v=1767865628&width=1024",
+      "image_source": "https://attackshark.com/products/attack-shark-v8-ultra-light-ergonomic-wireless-gaming-mouse",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://attackshark.com/products/attack-shark-v8-ultra-light-ergonomic-wireless-gaming-mouse",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {},
+      "spec_evidence": {},
+      "conflict": "",
+      "verification": {
+        "status": "official_discovered",
+        "confidence": 0.78,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 2,
+          "canonical_url": "https://attackshark.com/products/attack-shark-v8-ultra-light-ergonomic-wireless-gaming-mouse",
+          "page_language": "en",
+          "official_url": "https://attackshark.com/products/attack-shark-v8-ultra-light-ergonomic-wireless-gaming-mouse",
+          "source_priority": 110,
+          "sku": "AS-V8 Black",
+          "schema_brand": "ATTACK SHARK"
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": true
+      }
+    },
+    {
+      "brand": "ATTACK SHARK",
+      "brand_zh_cn": "攻击鲨",
       "name": "x AJ159P",
       "category": "鼠标",
       "subcategory": "自动发现",
@@ -9092,7 +9139,7 @@
       "spec_evidence": {
         "Product": {
           "value": "Total",
-          "source_url": "https://dareu.com/en-eu/products/dareu-ae6-8k-mouse",
+          "source_url": "https://dareu.com/products/dareu-ae6-8k-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -9108,9 +9155,9 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 2,
-          "canonical_url": "https://dareu.com/en-eu/products/dareu-ae6-8k-mouse",
+          "canonical_url": "https://dareu.com/products/dareu-ae6-8k-mouse",
           "page_language": "en",
-          "official_url": "https://dareu.com/en-eu/products/dareu-ae6-8k-mouse",
+          "official_url": "https://dareu.com/products/dareu-ae6-8k-mouse",
           "source_priority": 110,
           "sku": "",
           "schema_brand": "Dareu"
@@ -10109,7 +10156,7 @@
       "spec_evidence": {
         "Product": {
           "value": "Total",
-          "source_url": "https://dareu.com/products/dareu-ultra-07-tri-mode-modular-gaming-mouse",
+          "source_url": "https://dareu.com/products/dareu-ultra-07-tri-mode-modular-gaming-mouse%20%20%20%20%20%20%20%20%20%20%20%20",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -10127,7 +10174,7 @@
           "product_schema_count": 2,
           "canonical_url": "https://dareu.com/products/dareu-ultra-07-tri-mode-modular-gaming-mouse",
           "page_language": "en",
-          "official_url": "https://dareu.com/products/dareu-ultra-07-tri-mode-modular-gaming-mouse",
+          "official_url": "https://dareu.com/products/dareu-ultra-07-tri-mode-modular-gaming-mouse%20%20%20%20%20%20%20%20%20%20%20%20",
           "source_priority": 110,
           "sku": "",
           "schema_brand": "Dareu"
@@ -13323,7 +13370,7 @@
       "spec_evidence": {
         "Warranty": {
           "value": "2 Years",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-prebuilt-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -13339,7 +13386,7 @@
         },
         "Hot Swappable": {
           "value": "Yes; 3 & 5-pin Mechanical",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-prebuilt-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -13355,7 +13402,7 @@
         },
         "Hall Effect (Rapid Trigger)": {
           "value": "No",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-prebuilt-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -13371,7 +13418,7 @@
         },
         "Lighting": {
           "value": "3 Zones: Per-key Backlighting, Side Lights, Badge",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-prebuilt-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -13379,7 +13426,7 @@
         },
         "Colors": {
           "value": "Black; Silver",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-prebuilt-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -13387,7 +13434,7 @@
         },
         "Case Material": {
           "value": "Case Material CNC Aluminum",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-prebuilt-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -13403,7 +13450,7 @@
         },
         "Software": {
           "value": "Glorious CORE",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-prebuilt-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -13411,7 +13458,7 @@
         },
         "Max Polling Rate": {
           "value": "1,000 Hz",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-prebuilt-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -13419,7 +13466,7 @@
         },
         "OS Support": {
           "value": "Windows, macOS, Linux",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-prebuilt-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -13427,7 +13474,7 @@
         },
         "On-Board Memory Profiles": {
           "value": "3",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-prebuilt-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -13435,7 +13482,7 @@
         },
         "Mounting Style": {
           "value": "Mounting Style Gasket",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-prebuilt-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -13443,7 +13490,7 @@
         },
         "QMK Support": {
           "value": "No",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-prebuilt-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -13451,7 +13498,7 @@
         },
         "Knob Support": {
           "value": "Knob Support Yes",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-prebuilt-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -13475,7 +13522,7 @@
         },
         "Price": {
           "value": "Price",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-prebuilt-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -13483,7 +13530,7 @@
         },
         "Reviews": {
           "value": "Reviews",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-prebuilt-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -13491,7 +13538,7 @@
         },
         "Color": {
           "value": "Color Black; Silver",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-prebuilt-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -13499,7 +13546,7 @@
         },
         "Add to Cart buttons": {
           "value": "Add to Cart",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-prebuilt-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -13515,12 +13562,12 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 2,
-          "canonical_url": "https://gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "canonical_url": "https://gloriousgaming.com/en-de/products/gmmk-3-pro-prebuilt-keyboard",
           "page_language": "en",
-          "official_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "official_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-prebuilt-keyboard",
           "source_priority": 110,
-          "sku": "GLO-KB-GMMK3-PRO-65-BB-W-BLK-US",
-          "schema_brand": "GMMK 3 Barebones"
+          "sku": "GLO-KB-GMMK3-PRO-65-PB-FOX-W-BLK-US",
+          "schema_brand": "GMMK 3 Prebuilt"
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": false
@@ -14249,6 +14296,13 @@
           "tier": 110,
           "checked_at": "2026-09-11",
           "note": "new official product"
+        },
+        {
+          "type": "official_product",
+          "url": "https://www.gloriousgaming.com/products/glorious-cleaning-kit",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
         }
       ],
       "specs": {},
@@ -14257,14 +14311,14 @@
       "verification": {
         "status": "official_discovered",
         "confidence": 0.78,
-        "source_count": 1,
+        "source_count": 2,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 2,
-          "canonical_url": "https://gloriousgaming.com/en-fr/products/glorious-cleaning-kit",
+          "canonical_url": "https://gloriousgaming.com/products/glorious-cleaning-kit",
           "page_language": "en",
-          "official_url": "https://www.gloriousgaming.com/en-fr/products/glorious-cleaning-kit",
+          "official_url": "https://www.gloriousgaming.com/products/glorious-cleaning-kit",
           "source_priority": 110,
           "sku": "GLO-ACC-CK",
           "schema_brand": "Glorious"
@@ -30711,9 +30765,9 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://luminkey.com/products/magger68-professional-he-magnetic-keyboard",
-          "page_language": "en",
-          "official_url": "https://www.luminkey.com/products/magger68-professional-he-magnetic-keyboard",
+          "canonical_url": "https://luminkey.com/zh/products/magger68-professional-he-magnetic-keyboard",
+          "page_language": "zh-CN",
+          "official_url": "https://www.luminkey.com/zh/products/magger68-professional-he-magnetic-keyboard",
           "source_priority": 110,
           "sku": "KB-LK-M68-PRO-GOLD",
           "schema_brand": "LUMINKEY"
@@ -30725,7 +30779,7 @@
       "spec_evidence": {
         "Color:": {
           "value": "Ano-Champagne Gold",
-          "source_url": "https://www.luminkey.com/products/magger68-professional-he-magnetic-keyboard",
+          "source_url": "https://www.luminkey.com/zh/products/magger68-professional-he-magnetic-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -33784,12 +33838,12 @@
         "conflicts": [],
         "evidence": {
           "product_schema": true,
-          "product_schema_count": 10,
-          "canonical_url": "https://mchose.store/products/mchose-ace-68-hall-effect-magnetic-switch-gaming-keyboard",
+          "product_schema_count": 6,
+          "canonical_url": "https://mchose.store/products/mchose-ace-68-gt-full-aluminum-esports-hall-effect-keyboard",
           "page_language": "en",
-          "official_url": "https://www.mchose.store/products/mchose-ace-68-hall-effect-magnetic-switch-gaming-keyboard",
+          "official_url": "https://www.mchose.store/products/mchose-ace-68-gt-full-aluminum-esports-hall-effect-keyboard",
           "source_priority": 110,
-          "sku": "HW-Ace68-15",
+          "sku": "MC-Ace68GT-12",
           "schema_brand": ""
         },
         "quality_gate_version": "1.3-audited",
@@ -42284,6 +42338,13 @@
           "tier": 110,
           "checked_at": "2026-09-11",
           "note": "new official product"
+        },
+        {
+          "type": "official_product",
+          "url": "https://cn.razerzone.com/gaming-headsets/razer-blackshark-v3-pro-niko-edition",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
         }
       ],
       "specs": {},
@@ -42292,17 +42353,17 @@
       "verification": {
         "status": "official_discovered",
         "confidence": 0.78,
-        "source_count": 1,
+        "source_count": 2,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://razer.com/gaming-headsets/razer-blackshark-v3-pro-niko-edition",
-          "page_language": "en-US",
-          "official_url": "https://www.razer.com/gaming-headsets/razer-blackshark-v3-pro-niko-edition",
+          "canonical_url": "https://cn.razerzone.com/gaming-headsets/razer-blackshark-v3-pro-niko-edition",
+          "page_language": "zh-CN",
+          "official_url": "https://cn.razerzone.com/gaming-headsets/razer-blackshark-v3-pro-niko-edition",
           "source_priority": 110,
           "sku": "",
-          "schema_brand": "Razer"
+          "schema_brand": "Razer 雷蛇"
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
@@ -43574,7 +43635,7 @@
       "spec_evidence": {
         "User Guide": {
           "value": "SOUNDPEATS Space Pro User Manual",
-          "source_url": "https://soundpeats.com/en-mx/products/soundpeats-space-pro-over-ear-anc-headphones-with-long-battery-life",
+          "source_url": "https://soundpeats.com/products/soundpeats-space-pro-over-ear-anc-headphones-with-long-battery-life",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -43590,9 +43651,9 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://soundpeats.com/en-mx/products/soundpeats-space-pro-over-ear-anc-headphones-with-long-battery-life",
+          "canonical_url": "https://soundpeats.com/products/soundpeats-space-pro-over-ear-anc-headphones-with-long-battery-life",
           "page_language": "en",
-          "official_url": "https://soundpeats.com/en-mx/products/soundpeats-space-pro-over-ear-anc-headphones-with-long-battery-life",
+          "official_url": "https://soundpeats.com/products/soundpeats-space-pro-over-ear-anc-headphones-with-long-battery-life",
           "source_priority": 110,
           "sku": "SP-Space-Pro-Black",
           "schema_brand": "SOUNDPEATS"
@@ -43653,7 +43714,7 @@
       "spec_evidence": {
         "Case": {
           "value": "Reason",
-          "source_url": "https://soundpeats.com/en-ca/products/uu2-clip-on-earbuds",
+          "source_url": "https://soundpeats.com/products/uu2-clip-on-earbuds",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -43661,7 +43722,7 @@
         },
         "1": {
           "value": "Near PCs, Wi-Fi routers, microwaves, refrigerators",
-          "source_url": "https://soundpeats.com/en-ca/products/uu2-clip-on-earbuds",
+          "source_url": "https://soundpeats.com/products/uu2-clip-on-earbuds",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -43669,7 +43730,7 @@
         },
         "2": {
           "value": "Phone in pocket/bag, body blocking signal",
-          "source_url": "https://soundpeats.com/en-ca/products/uu2-clip-on-earbuds",
+          "source_url": "https://soundpeats.com/products/uu2-clip-on-earbuds",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -43677,7 +43738,7 @@
         },
         "3": {
           "value": "Near other Bluetooth devices",
-          "source_url": "https://soundpeats.com/en-ca/products/uu2-clip-on-earbuds",
+          "source_url": "https://soundpeats.com/products/uu2-clip-on-earbuds",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -43685,7 +43746,7 @@
         },
         "4": {
           "value": "Different room/behind closed doors",
-          "source_url": "https://soundpeats.com/en-ca/products/uu2-clip-on-earbuds",
+          "source_url": "https://soundpeats.com/products/uu2-clip-on-earbuds",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -43693,7 +43754,7 @@
         },
         "5": {
           "value": "Too many apps running",
-          "source_url": "https://soundpeats.com/en-ca/products/uu2-clip-on-earbuds",
+          "source_url": "https://soundpeats.com/products/uu2-clip-on-earbuds",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -43701,7 +43762,7 @@
         },
         "User Guide": {
           "value": "SOUNDPEATS UU2 User Manual",
-          "source_url": "https://soundpeats.com/en-ca/products/uu2-clip-on-earbuds",
+          "source_url": "https://soundpeats.com/products/uu2-clip-on-earbuds",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -43709,7 +43770,7 @@
         },
         "FAQ": {
           "value": "SOUNDPEATS UU2 FAQ",
-          "source_url": "https://soundpeats.com/en-ca/products/uu2-clip-on-earbuds",
+          "source_url": "https://soundpeats.com/products/uu2-clip-on-earbuds",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -43725,9 +43786,9 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://soundpeats.com/en-ca/products/uu2-clip-on-earbuds",
+          "canonical_url": "https://soundpeats.com/products/uu2-clip-on-earbuds",
           "page_language": "en",
-          "official_url": "https://soundpeats.com/en-ca/products/uu2-clip-on-earbuds",
+          "official_url": "https://soundpeats.com/products/uu2-clip-on-earbuds",
           "source_priority": 110,
           "sku": "SP-UU2-BLACK",
           "schema_brand": "SOUNDPEATS"
@@ -44259,6 +44320,13 @@
           "tier": 110,
           "checked_at": "2026-09-11",
           "note": "additional official page"
+        },
+        {
+          "type": "official_product",
+          "url": "https://steelseries.com/gaming-headsets/arctis-nova-7?color=dragon&primaryPlatform=pc",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
         }
       ],
       "specs": {
@@ -44268,16 +44336,16 @@
       "verification": {
         "status": "official_discovered",
         "confidence": 0.7,
-        "source_count": 3,
+        "source_count": 4,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
           "canonical_url": "https://steelseries.com/gaming-headsets/arctis-nova-7",
           "page_language": "en",
-          "official_url": "https://steelseries.com/gaming-headsets/arctis-nova-7?color=black&primaryPlatform=pc",
+          "official_url": "https://steelseries.com/gaming-headsets/arctis-nova-7?color=dragon&primaryPlatform=pc",
           "source_priority": 110,
-          "sku": "61553",
+          "sku": "61557",
           "schema_brand": "SteelSeries"
         },
         "quality_gate_version": "1.3-audited",
@@ -46296,6 +46364,6 @@
   ],
   "quality_policy_version": "1.2",
   "language_default": "zh-CN",
-  "quarantined_count": 891,
+  "quarantined_count": 899,
   "quality_migration_revision": 2
 }
