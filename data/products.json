@@ -3653,6 +3653,53 @@
     {
       "brand": "ATTACK SHARK",
       "brand_zh_cn": "攻击鲨",
+      "name": "X2 PRO",
+      "category": "鼠标",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "中国",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://attackshark.com/products/x2-pro-transparent-gaming-mouse-4000dpi",
+      "image_url": "https://attackshark.com/cdn/shop/files/X2PRO_1.png?v=1777365430&width=1024",
+      "image_source": "https://attackshark.com/products/x2-pro-transparent-gaming-mouse-4000dpi",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://attackshark.com/products/x2-pro-transparent-gaming-mouse-4000dpi",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {},
+      "spec_evidence": {},
+      "conflict": "",
+      "verification": {
+        "status": "official_discovered",
+        "confidence": 0.78,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 2,
+          "canonical_url": "https://attackshark.com/products/x2-pro-transparent-gaming-mouse-4000dpi",
+          "page_language": "en",
+          "official_url": "https://attackshark.com/products/x2-pro-transparent-gaming-mouse-4000dpi",
+          "source_priority": 110,
+          "sku": "AS-X2 PRO White",
+          "schema_brand": "ATTACK SHARK"
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": true
+      }
+    },
+    {
+      "brand": "ATTACK SHARK",
+      "brand_zh_cn": "攻击鲨",
       "name": "X3",
       "category": "鼠标",
       "subcategory": "自动发现",
@@ -8390,9 +8437,9 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 2,
-          "canonical_url": "https://dareu.com/en-eu/products/dareu-a104x-8k-full-size-wired-mechanical-gaming-keyboard",
+          "canonical_url": "https://dareu.com/products/dareu-a104x-wholesale-8k-full-size-wired-mechanical-gaming-keyboard",
           "page_language": "en",
-          "official_url": "https://dareu.com/en-eu/products/dareu-a104x-8k-full-size-wired-mechanical-gaming-keyboard",
+          "official_url": "https://dareu.com/products/dareu-a104x-wholesale-8k-full-size-wired-mechanical-gaming-keyboard",
           "source_priority": 110,
           "sku": "",
           "schema_brand": "Dareu"
@@ -8404,7 +8451,7 @@
       "spec_evidence": {
         "Product": {
           "value": "Total",
-          "source_url": "https://dareu.com/en-eu/products/dareu-a104x-8k-full-size-wired-mechanical-gaming-keyboard",
+          "source_url": "https://dareu.com/products/dareu-a104x-wholesale-8k-full-size-wired-mechanical-gaming-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -8664,9 +8711,9 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 2,
-          "canonical_url": "https://dareu.com/en-eu/products/dareu-a87l-wired-wholesale-tkl-87-key-custom-hotswap-gaming-keyboard",
+          "canonical_url": "https://dareu.com/en-eu/products/a87l-wired-mechanical-keyboard",
           "page_language": "en",
-          "official_url": "https://dareu.com/en-eu/products/dareu-a87l-wired-wholesale-tkl-87-key-custom-hotswap-gaming-keyboard",
+          "official_url": "https://dareu.com/en-eu/products/a87l-wired-mechanical-keyboard",
           "source_priority": 110,
           "sku": "",
           "schema_brand": "Dareu"
@@ -8678,7 +8725,7 @@
       "spec_evidence": {
         "Product": {
           "value": "Total",
-          "source_url": "https://dareu.com/en-eu/products/dareu-a87l-wired-wholesale-tkl-87-key-custom-hotswap-gaming-keyboard",
+          "source_url": "https://dareu.com/en-eu/products/a87l-wired-mechanical-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -8743,9 +8790,9 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 2,
-          "canonical_url": "https://dareu.com/products/dareu-a950-air-35g-8k-ultralight-weight-wireless-gaming-mouse",
+          "canonical_url": "https://dareu.com/en-eu/products/dareu-a950-wireless-gaming-mouse",
           "page_language": "en",
-          "official_url": "https://dareu.com/products/dareu-a950-air-35g-8k-ultralight-weight-wireless-gaming-mouse",
+          "official_url": "https://dareu.com/en-eu/products/dareu-a950-wireless-gaming-mouse",
           "source_priority": 110,
           "sku": "",
           "schema_brand": "Dareu"
@@ -8757,7 +8804,7 @@
       "spec_evidence": {
         "Product": {
           "value": "Total",
-          "source_url": "https://dareu.com/products/dareu-a950-air-35g-8k-ultralight-weight-wireless-gaming-mouse",
+          "source_url": "https://dareu.com/en-eu/products/dareu-a950-wireless-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -11488,11 +11535,11 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://eksa.net/products/eksa-e1000-v2-rgb-wired-gaming-headset",
+          "canonical_url": "https://eksa.net/products/eksa%c2%ae-e1000-v2-rgb-wired-gaming-headset-copy",
           "page_language": "en",
-          "official_url": "https://www.eksa.net/products/eksa-e1000-v2-rgb-wired-gaming-headset",
+          "official_url": "https://www.eksa.net/products/eksa%C2%AE-e1000-v2-rgb-wired-gaming-headset-copy",
           "source_priority": 110,
-          "sku": "E1000 V2 - Black",
+          "sku": "E1000 V2 - Pink",
           "schema_brand": "EKSA"
         },
         "quality_gate_version": "1.3-audited",
@@ -13950,6 +13997,13 @@
           "tier": 110,
           "checked_at": "2026-09-11",
           "note": "new official product"
+        },
+        {
+          "type": "official_product",
+          "url": "https://www.gloriousgaming.com/en-de/products/gsv2-keyboard-stabilizers",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
         }
       ],
       "specs": {},
@@ -13958,14 +14012,14 @@
       "verification": {
         "status": "official_discovered",
         "confidence": 0.78,
-        "source_count": 1,
+        "source_count": 2,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 2,
-          "canonical_url": "https://gloriousgaming.com/en-fr/products/gsv2-keyboard-stabilizers",
+          "canonical_url": "https://gloriousgaming.com/en-de/products/gsv2-keyboard-stabilizers",
           "page_language": "en",
-          "official_url": "https://www.gloriousgaming.com/en-fr/products/gsv2-keyboard-stabilizers",
+          "official_url": "https://www.gloriousgaming.com/en-de/products/gsv2-keyboard-stabilizers",
           "source_priority": 110,
           "sku": "GLO-ACC-STABS-V2",
           "schema_brand": "Glorious"
@@ -14015,6 +14069,53 @@
           "official_url": "https://www.gloriousgaming.com/en-fr/products/glorious-cleaning-kit",
           "source_priority": 110,
           "sku": "GLO-ACC-CK",
+          "schema_brand": "Glorious"
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": true
+      }
+    },
+    {
+      "brand": "Glorious",
+      "brand_zh_cn": "Glorious",
+      "name": "Keyboard G-Lube",
+      "category": "键盘",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "海外",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://www.gloriousgaming.com/en-fr/products/glorious-lube-g-lube",
+      "image_url": "https://www.gloriousgaming.com/cdn/shop/files/GLO-ACC-KEY-LUBE_Web_Gallery1_16b10350-589c-4fc0-984a-2dff1f2842db.webp?v=1714642138&width=1920",
+      "image_source": "https://www.gloriousgaming.com/en-fr/products/glorious-lube-g-lube",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://www.gloriousgaming.com/en-fr/products/glorious-lube-g-lube",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {},
+      "spec_evidence": {},
+      "conflict": "",
+      "verification": {
+        "status": "official_discovered",
+        "confidence": 0.78,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 2,
+          "canonical_url": "https://gloriousgaming.com/en-fr/products/glorious-lube-g-lube",
+          "page_language": "en",
+          "official_url": "https://www.gloriousgaming.com/en-fr/products/glorious-lube-g-lube",
+          "source_priority": 110,
+          "sku": "GLO-ACC-KEY-LUBE",
           "schema_brand": "Glorious"
         },
         "quality_gate_version": "1.3-audited",
@@ -18844,6 +18945,13 @@
           "tier": 110,
           "checked_at": "2026-09-11",
           "note": "additional official page"
+        },
+        {
+          "type": "official_product",
+          "url": "https://hyperx.com/products/hyperx-cloud-iii-s-gaming-earbuds",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
         }
       ],
       "specs": {
@@ -18863,12 +18971,15 @@
         "Noise Cancelling": "Yes",
         "Driver": "Dynamic, 53 mm with neodymium magnets",
         "Frame Type": "Aluminum",
-        "Ear Cushions": "Memory foam (padding material); Premium leatherette (surface material)"
+        "Ear Cushions": "Memory foam (padding material); Premium leatherette (surface material)",
+        "Surround System": "Virtual Surround sound",
+        "USB Specification": "USB 2.0 (full speed)",
+        "Bit-Depth": "16-bit; 24-bit"
       },
       "spec_evidence": {
         "Form Factor": {
           "value": "Wired earbuds",
-          "source_url": "https://hyperx.com/products/hyperx-cloud-gaming-earbuds-ii",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-iii-s-gaming-earbuds",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -18924,7 +19035,7 @@
         },
         "Polar Pattern": {
           "value": "Omni-directional",
-          "source_url": "https://hyperx.com/products/hyperx-cloud-gaming-earbuds-ii",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-iii-s-gaming-earbuds",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -18964,7 +19075,7 @@
         },
         "Unit price": {
           "value": "/ per",
-          "source_url": "https://hyperx.com/products/hyperx-cloud-gaming-headset",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-iii-s-gaming-earbuds",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -19001,22 +19112,46 @@
           "source_priority": 110,
           "checked_at": "2026-09-11",
           "claim_type": "厂商标称"
+        },
+        "Surround System": {
+          "value": "Virtual Surround sound",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-iii-s-gaming-earbuds",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "USB Specification": {
+          "value": "USB 2.0 (full speed)",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-iii-s-gaming-earbuds",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Bit-Depth": {
+          "value": "16-bit; 24-bit",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-iii-s-gaming-earbuds",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
         }
       },
       "conflict": "",
       "verification": {
         "status": "conflict",
         "confidence": 0.92,
-        "source_count": 2,
+        "source_count": 3,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://hyperx.com/products/hyperx-cloud-gaming-headset",
+          "canonical_url": "https://hyperx.com/products/hyperx-cloud-iii-s-gaming-earbuds",
           "page_language": "en",
-          "official_url": "https://hyperx.com/products/hyperx-cloud-gaming-headset",
+          "official_url": "https://hyperx.com/products/hyperx-cloud-iii-s-gaming-earbuds",
           "source_priority": 110,
-          "sku": "A3RL9AA",
+          "sku": "BN7S1AA",
           "schema_brand": "HyperX"
         },
         "quality_gate_version": "1.3-audited",
@@ -22519,7 +22654,7 @@
       "spec_evidence": {
         "Programmable Buttons": {
           "value": "6",
-          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-s-wireless-gaming-mouse",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -22527,7 +22662,7 @@
         },
         "Shape": {
           "value": "Symmetrical",
-          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-s-wireless-gaming-mouse",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -22535,7 +22670,7 @@
         },
         "Sensor": {
           "value": "HyperX 26K Sensor",
-          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-s-wireless-gaming-mouse",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -22543,7 +22678,7 @@
         },
         "Resolution": {
           "value": "Up to 26000 DPI",
-          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-s-wireless-gaming-mouse",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -22551,7 +22686,7 @@
         },
         "DPI Presets": {
           "value": "400 / 800 / 1600 / 3200 DPI",
-          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-s-wireless-gaming-mouse",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -22559,7 +22694,7 @@
         },
         "Speed": {
           "value": "650 IPS",
-          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-s-wireless-gaming-mouse",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -22567,7 +22702,7 @@
         },
         "Acceleration": {
           "value": "50G",
-          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-s-wireless-gaming-mouse",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -22575,7 +22710,7 @@
         },
         "Buttons": {
           "value": "6",
-          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-s-wireless-gaming-mouse",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -22607,7 +22742,7 @@
         },
         "Onboard Memory": {
           "value": "1 profile",
-          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-s-wireless-gaming-mouse",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -22703,7 +22838,7 @@
         },
         "Unit price": {
           "value": "/ per",
-          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-s-wireless-gaming-mouse",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -22727,11 +22862,11 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-s-wireless-gaming-mouse",
+          "canonical_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-gaming-mouse",
           "page_language": "en",
-          "official_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-s-wireless-gaming-mouse",
+          "official_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-gaming-mouse",
           "source_priority": 110,
-          "sku": "9B001AA",
+          "sku": "6N0A8AA",
           "schema_brand": "HyperX"
         },
         "quality_gate_version": "1.3-audited",
@@ -42371,6 +42506,109 @@
     {
       "brand": "Razer",
       "brand_zh_cn": "雷蛇",
+      "name": "Kraken V4 Pro",
+      "category": "耳机/耳麦",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "海外",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v4-pro",
+      "image_url": "https://assets2.razerzone.com/images/pnx.assets/9b2c84ed528aec174a5067d619b6d5c1/razer-kraken-v4-pro-1500x1000-1.webp",
+      "image_source": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v4-pro",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v4-pro",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "驱动单元": "Razer™ TriForce 生物纤维 40 毫米驱动单元",
+        "麦克风": "可伸缩式 Razer™ HyperClear 灵晰技术 超宽带麦克风",
+        "环绕声": "THX Spatial Audio 空间音效",
+        "连接方式": "无线：Razer™ HyperSpeed Wireless 无线技术 (2.4 GHz) + 蓝牙 5.3（支持同步音频） 有线：USB Type-A 端口 + 3.5 毫米接口",
+        "电池续航时间": "长达约 50 小时（关闭触觉反馈/灯光效果，2.4 GHz 连接） 长达约 45 小时（关闭触觉反馈/灯光效果，2.4 GHz + 蓝牙连接） 长达约 13 小时（打开触觉反馈和灯光效果，2.4 GHz 连接）",
+        "重量": "397 克（不包括 OLED 控制中心）"
+      },
+      "spec_evidence": {
+        "驱动单元": {
+          "value": "Razer™ TriForce 生物纤维 40 毫米驱动单元",
+          "source_url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v4-pro",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "麦克风": {
+          "value": "可伸缩式 Razer™ HyperClear 灵晰技术 超宽带麦克风",
+          "source_url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v4-pro",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "环绕声": {
+          "value": "THX Spatial Audio 空间音效",
+          "source_url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v4-pro",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "连接方式": {
+          "value": "无线：Razer™ HyperSpeed Wireless 无线技术 (2.4 GHz) + 蓝牙 5.3（支持同步音频） 有线：USB Type-A 端口 + 3.5 毫米接口",
+          "source_url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v4-pro",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "电池续航时间": {
+          "value": "长达约 50 小时（关闭触觉反馈/灯光效果，2.4 GHz 连接） 长达约 45 小时（关闭触觉反馈/灯光效果，2.4 GHz + 蓝牙连接） 长达约 13 小时（打开触觉反馈和灯光效果，2.4 GHz 连接）",
+          "source_url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v4-pro",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "重量": {
+          "value": "397 克（不包括 OLED 控制中心）",
+          "source_url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v4-pro",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_verified",
+        "confidence": 0.92,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v4-pro",
+          "page_language": "zh-CN",
+          "official_url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v4-pro",
+          "source_priority": 110,
+          "sku": "",
+          "schema_brand": "Razer 雷蛇"
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": false
+      }
+    },
+    {
+      "brand": "Razer",
+      "brand_zh_cn": "雷蛇",
       "name": "Kraken X USB",
       "category": "耳机/耳麦",
       "subcategory": "自动发现",
@@ -43040,7 +43278,7 @@
       "spec_evidence": {
         "User Guide": {
           "value": "SOUNDPEATS Space Pro User Manual",
-          "source_url": "https://soundpeats.com/en-mx/products/soundpeats-space-pro-over-ear-anc-headphones-with-long-battery-life",
+          "source_url": "https://soundpeats.com/products/soundpeats-space-pro-over-ear-anc-headphones-with-long-battery-life",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -43056,9 +43294,9 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://soundpeats.com/en-mx/products/soundpeats-space-pro-over-ear-anc-headphones-with-long-battery-life",
+          "canonical_url": "https://soundpeats.com/products/soundpeats-space-pro-over-ear-anc-headphones-with-long-battery-life",
           "page_language": "en",
-          "official_url": "https://soundpeats.com/en-mx/products/soundpeats-space-pro-over-ear-anc-headphones-with-long-battery-life",
+          "official_url": "https://soundpeats.com/products/soundpeats-space-pro-over-ear-anc-headphones-with-long-battery-life",
           "source_priority": 110,
           "sku": "SP-Space-Pro-Black",
           "schema_brand": "SOUNDPEATS"
@@ -43818,7 +44056,7 @@
           "product_schema_count": 1,
           "canonical_url": "https://steelseries.com/gaming-headsets/arctis-nova-7",
           "page_language": "en",
-          "official_url": "https://steelseries.com/gaming-headsets/arctis-nova-7",
+          "official_url": "https://steelseries.com/gaming-headsets/arctis-nova-7?color=black&primaryPlatform=ps5",
           "source_priority": 110,
           "sku": "61559",
           "schema_brand": "SteelSeries"
@@ -43989,6 +44227,13 @@
           "tier": 110,
           "checked_at": "2026-09-11",
           "note": "additional official page"
+        },
+        {
+          "type": "official_product",
+          "url": "https://steelseries.com/gaming-headsets/arctis-nova-pro?color=black&connectivityType=wired&primaryPlatform=pc",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
         }
       ],
       "specs": {
@@ -43998,16 +44243,16 @@
       "verification": {
         "status": "official_discovered",
         "confidence": 0.7,
-        "source_count": 5,
+        "source_count": 6,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
           "canonical_url": "https://steelseries.com/gaming-headsets/arctis-nova-pro",
           "page_language": "en",
-          "official_url": "https://steelseries.com/gaming-headsets/arctis-nova-pro?color=black&connectivityType=wireless&primaryPlatform=pc%2Fps",
+          "official_url": "https://steelseries.com/gaming-headsets/arctis-nova-pro?color=black&connectivityType=wired&primaryPlatform=pc",
           "source_priority": 110,
-          "sku": "61529",
+          "sku": "61527",
           "schema_brand": "SteelSeries"
         },
         "quality_gate_version": "1.3-audited",
@@ -45755,6 +46000,6 @@
   ],
   "quality_policy_version": "1.2",
   "language_default": "zh-CN",
-  "quarantined_count": 851,
+  "quarantined_count": 863,
   "quality_migration_revision": 2
 }
