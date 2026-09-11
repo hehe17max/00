@@ -1130,82 +1130,6 @@
     },
     {
       "brand": "ATK",
-      "name": "ATK VXE V75 Series",
-      "category": "键盘",
-      "subcategory": "三模机械键盘",
-      "status": "在售/官网可确认",
-      "verified": "官方型号已确认",
-      "origin": "中国",
-      "market": "中国/全球",
-      "last_verified": "2026-09-09",
-      "source": "https://www.atkgear.com.cn/keyboard/atk-v75x",
-      "specs": {
-        "配列": "75% / 80键",
-        "连接": "有线 / 2.4G / 蓝牙",
-        "最低延迟": "1ms（官方理论值）",
-        "热插拔": "五孔热插拔",
-        "RGB": "18种预设灯效",
-        "多设备": "最多3台蓝牙设备",
-        "机身": "CNC铝制上盖"
-      },
-      "conflict": "",
-      "schema_fields": [
-        "配列",
-        "轴体",
-        "轴体类型",
-        "磁轴方案",
-        "Rapid Trigger",
-        "RT精度",
-        "触发行程",
-        "总行程",
-        "触发压力",
-        "回报率",
-        "扫描率",
-        "延迟",
-        "连接",
-        "热插拔",
-        "键帽",
-        "定位板",
-        "结构",
-        "机身",
-        "全键无冲",
-        "灯光",
-        "电池",
-        "续航",
-        "尺寸",
-        "重量",
-        "软件",
-        "板载存储"
-      ],
-      "image_url": "",
-      "image_source": "",
-      "first_seen": "2026-09-09",
-      "last_checked": "2026-09-10",
-      "sources": [
-        {
-          "type": "official_product",
-          "url": "https://www.atkgear.com.cn/keyboard/atk-v75x",
-          "tier": 100,
-          "checked_at": "2026-09-10",
-          "note": "现有数据库官方来源"
-        }
-      ],
-      "verification": {
-        "status": "legacy_review_required",
-        "confidence": 0.7,
-        "source_count": 1,
-        "conflicts": [],
-        "evidence": {
-          "official_url": "https://www.atkgear.com.cn/keyboard/atk-v75x",
-          "legacy_record": true
-        },
-        "quality_gate_version": "legacy",
-        "needs_review": true
-      },
-      "brand_zh_cn": "ATK"
-    },
-    {
-      "brand": "ATK",
       "name": "ATK x QK Hex80",
       "category": "键盘",
       "subcategory": "磁轴键盘",
@@ -1275,6 +1199,134 @@
       "brand_zh_cn": "ATK"
     },
     {
+      "brand": "ATK",
+      "name": "VXE V75 Series",
+      "category": "键盘",
+      "subcategory": "三模机械键盘",
+      "status": "在售/官网可确认",
+      "verified": "官方型号已确认",
+      "origin": "中国",
+      "market": "中国/全球",
+      "last_verified": "2026-09-09",
+      "source": "https://www.atkgear.com.cn/keyboard/atk-v75x",
+      "specs": {
+        "配列": "75% / 80键",
+        "连接": "有线 / 2.4G / 蓝牙",
+        "最低延迟": "1ms（官方理论值）",
+        "热插拔": "五孔热插拔",
+        "RGB": "18种预设灯效",
+        "多设备": "最多3台蓝牙设备",
+        "机身": "CNC铝制上盖"
+      },
+      "conflict": "",
+      "schema_fields": [
+        "配列",
+        "轴体",
+        "轴体类型",
+        "磁轴方案",
+        "Rapid Trigger",
+        "RT精度",
+        "触发行程",
+        "总行程",
+        "触发压力",
+        "回报率",
+        "扫描率",
+        "延迟",
+        "连接",
+        "热插拔",
+        "键帽",
+        "定位板",
+        "结构",
+        "机身",
+        "全键无冲",
+        "灯光",
+        "电池",
+        "续航",
+        "尺寸",
+        "重量",
+        "软件",
+        "板载存储"
+      ],
+      "image_url": "",
+      "image_source": "",
+      "first_seen": "2026-09-09",
+      "last_checked": "2026-09-11",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://www.atkgear.com.cn/keyboard/atk-v75x",
+          "tier": 100,
+          "checked_at": "2026-09-11",
+          "note": "现有数据库官方来源"
+        }
+      ],
+      "verification": {
+        "status": "official_discovered",
+        "confidence": 0.7,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": false,
+          "product_schema_count": 0,
+          "canonical_url": "https://atkgear.com.cn/keyboard/atk-v75x",
+          "page_language": "",
+          "official_url": "https://www.atkgear.com.cn/keyboard/atk-v75x",
+          "source_priority": 120
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": true
+      },
+      "brand_zh_cn": "ATK",
+      "spec_evidence": {}
+    },
+    {
+      "brand": "ATTACK SHARK",
+      "brand_zh_cn": "攻击鲨",
+      "name": "A2",
+      "category": "鼠标",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "中国",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://attackshark.com/products/attack-shark-a2-transparent-rgb-wireless-mouse-with-battery-level-display",
+      "image_url": "https://attackshark.com/cdn/shop/files/A2_2.png?v=1777358853&width=1024",
+      "image_source": "https://attackshark.com/products/attack-shark-a2-transparent-rgb-wireless-mouse-with-battery-level-display",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://attackshark.com/products/attack-shark-a2-transparent-rgb-wireless-mouse-with-battery-level-display",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {},
+      "spec_evidence": {},
+      "conflict": "",
+      "verification": {
+        "status": "official_discovered",
+        "confidence": 0.78,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 2,
+          "canonical_url": "https://attackshark.com/products/attack-shark-a2-transparent-rgb-wireless-mouse-with-battery-level-display",
+          "page_language": "en",
+          "official_url": "https://attackshark.com/products/attack-shark-a2-transparent-rgb-wireless-mouse-with-battery-level-display",
+          "source_priority": 110,
+          "sku": "AS-A2 White",
+          "schema_brand": "ATTACK SHARK"
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": true
+      }
+    },
+    {
       "brand": "ATTACK SHARK",
       "name": "F1 AIR",
       "category": "鼠标",
@@ -1315,6 +1367,199 @@
         "needs_review": true
       },
       "brand_zh_cn": "攻击鲨"
+    },
+    {
+      "brand": "ATTACK SHARK",
+      "brand_zh_cn": "攻击鲨",
+      "name": "G3 PRO",
+      "category": "鼠标",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "中国",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://attackshark.com/products/attack-shark-g3-tri-mode-wireless-gaming-mouse-with-charge-dock-25000-dpi-ultra-lightweight",
+      "image_url": "https://attackshark.com/cdn/shop/files/G3PRO_3.png?v=1777360989&width=1024",
+      "image_source": "https://attackshark.com/products/attack-shark-g3-tri-mode-wireless-gaming-mouse-with-charge-dock-25000-dpi-ultra-lightweight",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://attackshark.com/products/attack-shark-g3-tri-mode-wireless-gaming-mouse-with-charge-dock-25000-dpi-ultra-lightweight",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "Model": "G3 Check It Out",
+        "Sensor": "PAW3311",
+        "MCU": "BK52820 MCU",
+        "Switch": "HUANO Blue Shell Pink Dot Switch: 80 Million Clicks",
+        "Scroll Wheel": "F-Switch Scroll Wheel: 50K Scrolls",
+        "Polling Rate": "1000 Hz",
+        "DPI": "22000",
+        "Acceleration": "40G",
+        "Frame Rate (FPS)": "400 IPS",
+        "Charging Dock": "No",
+        "Software Support": "Web-based Configurator & PC Software",
+        "Receiver": "NANO Receiver",
+        "Connection Method": "Bluetooth / 2.4GHz Wireless / Wired",
+        "Battery": "500 mAh",
+        "Mouse Feet": "Dual-layer PTFE Skates",
+        "Dimensions": "125 x 63 x 39.7 mm"
+      },
+      "spec_evidence": {
+        "Model": {
+          "value": "G3 Check It Out",
+          "source_url": "https://attackshark.com/products/attack-shark-g3-tri-mode-wireless-gaming-mouse-with-charge-dock-25000-dpi-ultra-lightweight",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Sensor": {
+          "value": "PAW3311",
+          "source_url": "https://attackshark.com/products/attack-shark-g3-tri-mode-wireless-gaming-mouse-with-charge-dock-25000-dpi-ultra-lightweight",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "MCU": {
+          "value": "BK52820 MCU",
+          "source_url": "https://attackshark.com/products/attack-shark-g3-tri-mode-wireless-gaming-mouse-with-charge-dock-25000-dpi-ultra-lightweight",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Switch": {
+          "value": "HUANO Blue Shell Pink Dot Switch: 80 Million Clicks",
+          "source_url": "https://attackshark.com/products/attack-shark-g3-tri-mode-wireless-gaming-mouse-with-charge-dock-25000-dpi-ultra-lightweight",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Scroll Wheel": {
+          "value": "F-Switch Scroll Wheel: 50K Scrolls",
+          "source_url": "https://attackshark.com/products/attack-shark-g3-tri-mode-wireless-gaming-mouse-with-charge-dock-25000-dpi-ultra-lightweight",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Polling Rate": {
+          "value": "1000 Hz",
+          "source_url": "https://attackshark.com/products/attack-shark-g3-tri-mode-wireless-gaming-mouse-with-charge-dock-25000-dpi-ultra-lightweight",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "DPI": {
+          "value": "22000",
+          "source_url": "https://attackshark.com/products/attack-shark-g3-tri-mode-wireless-gaming-mouse-with-charge-dock-25000-dpi-ultra-lightweight",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Acceleration": {
+          "value": "40G",
+          "source_url": "https://attackshark.com/products/attack-shark-g3-tri-mode-wireless-gaming-mouse-with-charge-dock-25000-dpi-ultra-lightweight",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Frame Rate (FPS)": {
+          "value": "400 IPS",
+          "source_url": "https://attackshark.com/products/attack-shark-g3-tri-mode-wireless-gaming-mouse-with-charge-dock-25000-dpi-ultra-lightweight",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Charging Dock": {
+          "value": "No",
+          "source_url": "https://attackshark.com/products/attack-shark-g3-tri-mode-wireless-gaming-mouse-with-charge-dock-25000-dpi-ultra-lightweight",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Software Support": {
+          "value": "Web-based Configurator & PC Software",
+          "source_url": "https://attackshark.com/products/attack-shark-g3-tri-mode-wireless-gaming-mouse-with-charge-dock-25000-dpi-ultra-lightweight",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Receiver": {
+          "value": "NANO Receiver",
+          "source_url": "https://attackshark.com/products/attack-shark-g3-tri-mode-wireless-gaming-mouse-with-charge-dock-25000-dpi-ultra-lightweight",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Connection Method": {
+          "value": "Bluetooth / 2.4GHz Wireless / Wired",
+          "source_url": "https://attackshark.com/products/attack-shark-g3-tri-mode-wireless-gaming-mouse-with-charge-dock-25000-dpi-ultra-lightweight",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Battery": {
+          "value": "500 mAh",
+          "source_url": "https://attackshark.com/products/attack-shark-g3-tri-mode-wireless-gaming-mouse-with-charge-dock-25000-dpi-ultra-lightweight",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Mouse Feet": {
+          "value": "Dual-layer PTFE Skates",
+          "source_url": "https://attackshark.com/products/attack-shark-g3-tri-mode-wireless-gaming-mouse-with-charge-dock-25000-dpi-ultra-lightweight",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Dimensions": {
+          "value": "125 x 63 x 39.7 mm",
+          "source_url": "https://attackshark.com/products/attack-shark-g3-tri-mode-wireless-gaming-mouse-with-charge-dock-25000-dpi-ultra-lightweight",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_verified",
+        "confidence": 0.92,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 2,
+          "canonical_url": "https://attackshark.com/products/attack-shark-g3-tri-mode-wireless-gaming-mouse-with-charge-dock-25000-dpi-ultra-lightweight",
+          "page_language": "en",
+          "official_url": "https://attackshark.com/products/attack-shark-g3-tri-mode-wireless-gaming-mouse-with-charge-dock-25000-dpi-ultra-lightweight",
+          "source_priority": 110,
+          "sku": "AS-G3PRO-Black",
+          "schema_brand": "ATTACK SHARK"
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": false
+      }
     },
     {
       "brand": "ATTACK SHARK",
@@ -1681,6 +1926,145 @@
         "needs_review": true
       },
       "brand_zh_cn": "攻击鲨"
+    },
+    {
+      "brand": "ATTACK SHARK",
+      "brand_zh_cn": "攻击鲨",
+      "name": "RS3 ULTRA",
+      "category": "鼠标",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "中国",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://attackshark.com/products/rs3-ultra-carbon-fiber-gaming-mouse",
+      "image_url": "https://attackshark.com/cdn/shop/files/1.1_4ddab7a6-0922-41d9-a7bd-a4445102afdb.png?v=1782115162&width=1024",
+      "image_source": "https://attackshark.com/products/rs3-ultra-carbon-fiber-gaming-mouse",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://attackshark.com/products/rs3-ultra-carbon-fiber-gaming-mouse",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "Product Attributes": "RS3 ULTRA (Flagship Specification)",
+        "Chassis Material": "Premium Carbon Fiber Composites",
+        "Structural Weight": "63±3g (Ultra-lightweight Optimization)",
+        "Microcontroller Unit (MCU)": "Nordic 54L15 High-Efficiency Processor",
+        "Optical Sensor Configuration": "PAW3955MAX (52,000 DPI / 850 IPS)",
+        "Wireless Polling Rate": "True Dual 8,000Hz (Wired & Wireless Modes)",
+        "Wireless Actuation Latency": "0.168ms (Near-Instantaneous Execution)",
+        "Primary Switch Durability": "Omron Optical Switches (100M Clicks)",
+        "Scroll Wheel & Encoder": "CNC Machined Aluminum Wheel + TTC Gold",
+        "Surface Finishing Texture": "Glass-feel Ice Coating (Anti-sweat Barrier)"
+      },
+      "spec_evidence": {
+        "Product Attributes": {
+          "value": "RS3 ULTRA (Flagship Specification)",
+          "source_url": "https://attackshark.com/products/rs3-ultra-carbon-fiber-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Chassis Material": {
+          "value": "Premium Carbon Fiber Composites",
+          "source_url": "https://attackshark.com/products/rs3-ultra-carbon-fiber-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Structural Weight": {
+          "value": "63±3g (Ultra-lightweight Optimization)",
+          "source_url": "https://attackshark.com/products/rs3-ultra-carbon-fiber-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Microcontroller Unit (MCU)": {
+          "value": "Nordic 54L15 High-Efficiency Processor",
+          "source_url": "https://attackshark.com/products/rs3-ultra-carbon-fiber-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Optical Sensor Configuration": {
+          "value": "PAW3955MAX (52,000 DPI / 850 IPS)",
+          "source_url": "https://attackshark.com/products/rs3-ultra-carbon-fiber-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Wireless Polling Rate": {
+          "value": "True Dual 8,000Hz (Wired & Wireless Modes)",
+          "source_url": "https://attackshark.com/products/rs3-ultra-carbon-fiber-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Wireless Actuation Latency": {
+          "value": "0.168ms (Near-Instantaneous Execution)",
+          "source_url": "https://attackshark.com/products/rs3-ultra-carbon-fiber-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Primary Switch Durability": {
+          "value": "Omron Optical Switches (100M Clicks)",
+          "source_url": "https://attackshark.com/products/rs3-ultra-carbon-fiber-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Scroll Wheel & Encoder": {
+          "value": "CNC Machined Aluminum Wheel + TTC Gold",
+          "source_url": "https://attackshark.com/products/rs3-ultra-carbon-fiber-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Surface Finishing Texture": {
+          "value": "Glass-feel Ice Coating (Anti-sweat Barrier)",
+          "source_url": "https://attackshark.com/products/rs3-ultra-carbon-fiber-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_verified",
+        "confidence": 0.92,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 2,
+          "canonical_url": "https://attackshark.com/products/rs3-ultra-carbon-fiber-gaming-mouse",
+          "page_language": "en",
+          "official_url": "https://attackshark.com/products/rs3-ultra-carbon-fiber-gaming-mouse",
+          "source_priority": 110,
+          "sku": "AS-RS3 ULTRA-Black",
+          "schema_brand": "ATTACK SHARK"
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": false
+      }
     },
     {
       "brand": "ATTACK SHARK",
@@ -5082,6 +5466,64 @@
     {
       "brand": "Dareu",
       "brand_zh_cn": "达尔优",
+      "name": "EH722X Ultra",
+      "category": "耳机/耳麦",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "中国",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://dareu.com/en-eu/products/dareu-eh722x-ultra-%E4%B8%A8wireless-gaming-headset-magnetic-charging-automatic-pairing",
+      "image_url": "https://dareu.com/cdn/shop/files/DSC05239.jpg?v=1787708092",
+      "image_source": "https://dareu.com/en-eu/products/dareu-eh722x-ultra-%E4%B8%A8wireless-gaming-headset-magnetic-charging-automatic-pairing",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://dareu.com/en-eu/products/dareu-eh722x-ultra-%E4%B8%A8wireless-gaming-headset-magnetic-charging-automatic-pairing",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "Product": "Total"
+      },
+      "spec_evidence": {
+        "Product": {
+          "value": "Total",
+          "source_url": "https://dareu.com/en-eu/products/dareu-eh722x-ultra-%E4%B8%A8wireless-gaming-headset-magnetic-charging-automatic-pairing",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_discovered",
+        "confidence": 0.78,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 2,
+          "canonical_url": "https://dareu.com/en-eu/products/dareu-eh722x-ultra-%e4%b8%a8wireless-gaming-headset-magnetic-charging-automatic-pairing",
+          "page_language": "en",
+          "official_url": "https://dareu.com/en-eu/products/dareu-eh722x-ultra-%E4%B8%A8wireless-gaming-headset-magnetic-charging-automatic-pairing",
+          "source_priority": 110,
+          "sku": "",
+          "schema_brand": "Dareu"
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": true
+      }
+    },
+    {
+      "brand": "Dareu",
+      "brand_zh_cn": "达尔优",
       "name": "EH925 Ultra",
       "category": "耳机/耳麦",
       "subcategory": "自动发现",
@@ -5136,6 +5578,64 @@
           "canonical_url": "https://dareu.com/products/dareu-eh925-ultra-%e4%b8%a8wireless-gaming-headset-magnetic-charging-automatic-pairing",
           "page_language": "en",
           "official_url": "https://dareu.com/products/dareu-eh925-ultra-%E4%B8%A8wireless-gaming-headset-magnetic-charging-automatic-pairing",
+          "source_priority": 110,
+          "sku": "",
+          "schema_brand": "Dareu"
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": true
+      }
+    },
+    {
+      "brand": "Dareu",
+      "brand_zh_cn": "达尔优",
+      "name": "EK106 Pro",
+      "category": "键盘",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "中国",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://dareu.com/en-eu/products/dareu-ek106-pro-tri-mode-hotswap-gasket-keyboard-with-knob",
+      "image_url": "https://dareu.com/cdn/shop/files/0000_Haze-blue-_1_fcfff11d-0ad9-4466-a7a4-0619c02ff204.png?v=1745918477",
+      "image_source": "https://dareu.com/en-eu/products/dareu-ek106-pro-tri-mode-hotswap-gasket-keyboard-with-knob",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://dareu.com/en-eu/products/dareu-ek106-pro-tri-mode-hotswap-gasket-keyboard-with-knob",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "Product": "Total"
+      },
+      "spec_evidence": {
+        "Product": {
+          "value": "Total",
+          "source_url": "https://dareu.com/en-eu/products/dareu-ek106-pro-tri-mode-hotswap-gasket-keyboard-with-knob",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_discovered",
+        "confidence": 0.78,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 2,
+          "canonical_url": "https://dareu.com/en-eu/products/dareu-ek106-pro-tri-mode-hotswap-gasket-keyboard-with-knob",
+          "page_language": "en",
+          "official_url": "https://dareu.com/en-eu/products/dareu-ek106-pro-tri-mode-hotswap-gasket-keyboard-with-knob",
           "source_priority": 110,
           "sku": "",
           "schema_brand": "Dareu"
@@ -5224,6 +5724,13 @@
           "tier": 100,
           "checked_at": "2026-09-10",
           "note": "new official product"
+        },
+        {
+          "type": "official_product",
+          "url": "https://dareu.com/en-eu/products/dareu-ek75rt-8k-75-key-wired-aluminium-keyboard",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
         }
       ],
       "specs": {
@@ -5231,18 +5738,34 @@
       },
       "conflict": "",
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
-        "source_count": 1,
+        "source_count": 2,
         "conflicts": [],
         "evidence": {
-          "official_url": "https://dareu.com/products/dareu-ek75rt-8k-75-key-wired-aluminium-keyboard",
-          "legacy_record": true
+          "product_schema": true,
+          "product_schema_count": 2,
+          "canonical_url": "https://dareu.com/en-eu/products/dareu-ek75rt-8k-75-key-wired-aluminium-keyboard",
+          "page_language": "en",
+          "official_url": "https://dareu.com/en-eu/products/dareu-ek75rt-8k-75-key-wired-aluminium-keyboard",
+          "source_priority": 110,
+          "sku": "",
+          "schema_brand": "Dareu"
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "达尔优"
+      "brand_zh_cn": "达尔优",
+      "spec_evidence": {
+        "Product": {
+          "value": "Total",
+          "source_url": "https://dareu.com/en-eu/products/dareu-ek75rt-8k-75-key-wired-aluminium-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      }
     },
     {
       "brand": "Dareu",
@@ -5390,6 +5913,13 @@
           "tier": 110,
           "checked_at": "2026-09-11",
           "note": "new official product"
+        },
+        {
+          "type": "official_product",
+          "url": "https://dareu.com/products/dareu-flex-75-tri-mode-keyboard",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
         }
       ],
       "specs": {
@@ -5398,7 +5928,7 @@
       "spec_evidence": {
         "Product": {
           "value": "Total",
-          "source_url": "https://dareu.com/en-eu/products/dareu-flex-75-tri-mode-keyboard",
+          "source_url": "https://dareu.com/products/dareu-flex-75-tri-mode-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -5409,14 +5939,14 @@
       "verification": {
         "status": "official_discovered",
         "confidence": 0.78,
-        "source_count": 1,
+        "source_count": 2,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 2,
-          "canonical_url": "https://dareu.com/en-eu/products/dareu-flex-75-tri-mode-keyboard",
+          "canonical_url": "https://dareu.com/products/dareu-flex-75-tri-mode-keyboard",
           "page_language": "en",
-          "official_url": "https://dareu.com/en-eu/products/dareu-flex-75-tri-mode-keyboard",
+          "official_url": "https://dareu.com/products/dareu-flex-75-tri-mode-keyboard",
           "source_priority": 110,
           "sku": "",
           "schema_brand": "Dareu"
@@ -5447,6 +5977,13 @@
           "tier": 100,
           "checked_at": "2026-09-10",
           "note": "new official product"
+        },
+        {
+          "type": "official_product",
+          "url": "https://dareu.com/products/dareu-lk22-wired-office-numeric-keyboard",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
         }
       ],
       "specs": {
@@ -5454,18 +5991,34 @@
       },
       "conflict": "",
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
-        "source_count": 1,
+        "source_count": 2,
         "conflicts": [],
         "evidence": {
-          "official_url": "https://dareu.com/en-eu/products/dareu-lk22-wired-office-numeric-keyboard",
-          "legacy_record": true
+          "product_schema": true,
+          "product_schema_count": 2,
+          "canonical_url": "https://dareu.com/products/dareu-lk22-wired-office-numeric-keyboard",
+          "page_language": "en",
+          "official_url": "https://dareu.com/products/dareu-lk22-wired-office-numeric-keyboard",
+          "source_priority": 110,
+          "sku": "",
+          "schema_brand": "Dareu"
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "达尔优"
+      "brand_zh_cn": "达尔优",
+      "spec_evidence": {
+        "Product": {
+          "value": "Total",
+          "source_url": "https://dareu.com/products/dareu-lk22-wired-office-numeric-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      }
     },
     {
       "brand": "Dareu",
@@ -5577,7 +6130,7 @@
       "spec_evidence": {
         "Product": {
           "value": "Total",
-          "source_url": "https://dareu.com/products/dareu-ultra-07-tri-mode-modular-gaming-mouse%20%20%20%20%20%20%20%20%20%20%20%20",
+          "source_url": "https://dareu.com/products/dareu-ultra-07-tri-mode-modular-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -5595,7 +6148,7 @@
           "product_schema_count": 2,
           "canonical_url": "https://dareu.com/products/dareu-ultra-07-tri-mode-modular-gaming-mouse",
           "page_language": "en",
-          "official_url": "https://dareu.com/products/dareu-ultra-07-tri-mode-modular-gaming-mouse%20%20%20%20%20%20%20%20%20%20%20%20",
+          "official_url": "https://dareu.com/products/dareu-ultra-07-tri-mode-modular-gaming-mouse",
           "source_priority": 110,
           "sku": "",
           "schema_brand": "Dareu"
@@ -5626,6 +6179,13 @@
           "tier": 100,
           "checked_at": "2026-09-10",
           "note": "new official product"
+        },
+        {
+          "type": "official_product",
+          "url": "https://dareu.com/en-eu/products/dareu-ultra-75-quick-release-magnetic-gaming-keyboard",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
         }
       ],
       "specs": {
@@ -5633,18 +6193,34 @@
       },
       "conflict": "",
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
-        "source_count": 1,
+        "source_count": 2,
         "conflicts": [],
         "evidence": {
-          "official_url": "https://dareu.com/products/dareu-ultra-75-quick-release-magnetic-gaming-keyboard",
-          "legacy_record": true
+          "product_schema": true,
+          "product_schema_count": 2,
+          "canonical_url": "https://dareu.com/en-eu/products/dareu-ultra-75-quick-release-magnetic-gaming-keyboard",
+          "page_language": "en",
+          "official_url": "https://dareu.com/en-eu/products/dareu-ultra-75-quick-release-magnetic-gaming-keyboard",
+          "source_priority": 110,
+          "sku": "",
+          "schema_brand": "Dareu"
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "达尔优"
+      "brand_zh_cn": "达尔优",
+      "spec_evidence": {
+        "Product": {
+          "value": "Total",
+          "source_url": "https://dareu.com/en-eu/products/dareu-ultra-75-quick-release-magnetic-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      }
     },
     {
       "brand": "Dareu",
@@ -6834,11 +7410,11 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://eksa.net/products/eksa-e1000-rgb-usb-gaming-headset",
+          "canonical_url": "https://eksa.net/products/eksa-e1000-bt-7-1-surround-sound-wireless-gaming-headset",
           "page_language": "en",
-          "official_url": "https://www.eksa.net/products/eksa-e1000-rgb-usb-gaming-headset",
+          "official_url": "https://www.eksa.net/products/eksa-e1000-bt-7-1-surround-sound-wireless-gaming-headset",
           "source_priority": 110,
-          "sku": "E1000 - Grey",
+          "sku": "E1000 BT",
           "schema_brand": "EKSA"
         },
         "quality_gate_version": "1.3-audited",
@@ -6890,11 +7466,11 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://eksa.net/products/eksa%c2%ae-e1000-v2-rgb-wired-gaming-headset-copy",
+          "canonical_url": "https://eksa.net/products/eksa-e1000-v2-rgb-wired-gaming-headset",
           "page_language": "en",
-          "official_url": "https://www.eksa.net/products/eksa%C2%AE-e1000-v2-rgb-wired-gaming-headset-copy",
+          "official_url": "https://www.eksa.net/products/eksa-e1000-v2-rgb-wired-gaming-headset",
           "source_priority": 110,
-          "sku": "E1000 V2 - Pink",
+          "sku": "E1000 V2 - Black",
           "schema_brand": "EKSA"
         },
         "quality_gate_version": "1.3-audited",
@@ -7016,11 +7592,11 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://eksa.net/products/eksa-e900-pro-7-1-virtual-surround-sound-gaming-headset",
+          "canonical_url": "https://eksa.net/products/eksa-e900-pro-2set",
           "page_language": "en",
-          "official_url": "https://www.eksa.net/products/eksa-e900-pro-7-1-virtual-surround-sound-gaming-headset",
+          "official_url": "https://www.eksa.net/products/eksa-e900-pro-2set",
           "source_priority": 110,
-          "sku": "E900Pro - Black",
+          "sku": "E900 Pro Black + White",
           "schema_brand": "EKSA"
         },
         "quality_gate_version": "1.3-audited",
@@ -7255,6 +7831,181 @@
       },
       "brand_zh_cn": "亿歌",
       "spec_evidence": {}
+    },
+    {
+      "brand": "Glorious",
+      "brand_zh_cn": "Glorious",
+      "name": "GHS Eternal Audio",
+      "category": "耳机/耳麦",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "海外",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://www.gloriousgaming.com/en-de/products/ghs-eternal-audio-headset",
+      "image_url": "https://www.gloriousgaming.com/cdn/shop/files/GLO-A-1PC-WHT_Web_Gallery_1.webp?v=1776285865&width=1920",
+      "image_source": "https://www.gloriousgaming.com/en-de/products/ghs-eternal-audio-headset",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://www.gloriousgaming.com/en-de/products/ghs-eternal-audio-headset",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "Warranty": "2 years",
+        "RGB Lighting": "No",
+        "Nominal Impedance": "32 Ω",
+        "Headphones Frequency Response": "20 Hz - 20 kHz",
+        "Total Harmonic Distortion": "≤1% @1 Khz",
+        "Headphones Sensitivity": "95dB SPL@1KHz/1mW",
+        "On-Ear Controls (Left)": "Volume, Play/Pause",
+        "On-Ear Controls (Right)": "None",
+        "Weight (w/Mic)": "255g",
+        "Microphone Type": "Omnidirectional",
+        "Microphone Frequency Response": "70 Hz - 10 KHz",
+        "Microphone Sensitivity": "-40dB @ 1 KHz",
+        "Compatibility": "3.5mm to 3.5mm: Compatible with All Platforms",
+        "Cable Length": "3.5mm: 1.5m/4.9ft"
+      },
+      "spec_evidence": {
+        "Warranty": {
+          "value": "2 years",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/ghs-eternal-audio-headset",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "RGB Lighting": {
+          "value": "No",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/ghs-eternal-audio-headset",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Nominal Impedance": {
+          "value": "32 Ω",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/ghs-eternal-audio-headset",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Headphones Frequency Response": {
+          "value": "20 Hz - 20 kHz",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/ghs-eternal-audio-headset",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Total Harmonic Distortion": {
+          "value": "≤1% @1 Khz",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/ghs-eternal-audio-headset",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Headphones Sensitivity": {
+          "value": "95dB SPL@1KHz/1mW",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/ghs-eternal-audio-headset",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "On-Ear Controls (Left)": {
+          "value": "Volume, Play/Pause",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/ghs-eternal-audio-headset",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "On-Ear Controls (Right)": {
+          "value": "None",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/ghs-eternal-audio-headset",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Weight (w/Mic)": {
+          "value": "255g",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/ghs-eternal-audio-headset",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Microphone Type": {
+          "value": "Omnidirectional",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/ghs-eternal-audio-headset",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Microphone Frequency Response": {
+          "value": "70 Hz - 10 KHz",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/ghs-eternal-audio-headset",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Microphone Sensitivity": {
+          "value": "-40dB @ 1 KHz",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/ghs-eternal-audio-headset",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Compatibility": {
+          "value": "3.5mm to 3.5mm: Compatible with All Platforms",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/ghs-eternal-audio-headset",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Cable Length": {
+          "value": "3.5mm: 1.5m/4.9ft",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/ghs-eternal-audio-headset",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_verified",
+        "confidence": 0.92,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 2,
+          "canonical_url": "https://gloriousgaming.com/en-de/products/ghs-eternal-audio-headset",
+          "page_language": "en",
+          "official_url": "https://www.gloriousgaming.com/en-de/products/ghs-eternal-audio-headset",
+          "source_priority": 110,
+          "sku": "GLO-A-1PC-WHT",
+          "schema_brand": "Glorious"
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": false
+      }
     },
     {
       "brand": "Glorious",
@@ -12238,6 +12989,253 @@
     {
       "brand": "HyperX",
       "brand_zh_cn": "极度未知",
+      "name": "Pulsefire Haste 3 Pro",
+      "category": "鼠标",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "海外",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://hyperx.com/products/hyperx-pulsefire-haste-3-pro-wireless-gaming-mouse",
+      "image_url": "https://hyperx.com/cdn/shop/files/hyperx_pulsefire_haste_3_pro_d6gj3aa_main_1_1024x1024.jpg?v=1787066288",
+      "image_source": "https://hyperx.com/products/hyperx-pulsefire-haste-3-pro-wireless-gaming-mouse",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-pro-wireless-gaming-mouse",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "Programmable Buttons": "6",
+        "Shape": "Symmetrical",
+        "Sensor": "HyperX Performance Sensor",
+        "Resolution": "Up to 42000 DPI",
+        "DPI Presets": "400; 800; 1600; 3200; 6400",
+        "Speed": "800 IPS",
+        "Acceleration": "70 G",
+        "Buttons": "6 buttons (including scroll wheel and DPI toggle)",
+        "Left / Right Button Switches": "HyperX Optical Switches",
+        "Left / Right Button Durability": "100 million clicks",
+        "Onboard Memory": "3 profiles",
+        "Connection Type": "Wired USB Type-A; Wired USB Type-C®; Bluetooth®; 2.4 GHz wireless connection",
+        "Polling Rate": "125; 250; 500; 1000; 2000; 4000; 8000 Hz",
+        "Compatibility": "PC; PS5; Xbox Series X|S. Software Compatibility: NGENUITY",
+        "Battery Life": "Up to 35 hrs. at an 8 kHz polling rate",
+        "Length": "127.1 mm",
+        "Height": "38.3 mm",
+        "Width": "66.9 mm",
+        "Weight": "Weight (without cable) .10 lb.; Weight (with cable) .16 lb.",
+        "Cable Type": "USB Type-C® to USB Type-A cable",
+        "Cable Length (imperial) and type": "5.9 ft | USB Type-C® to USB Type-A cable",
+        "Unit price": "/ per"
+      },
+      "spec_evidence": {
+        "Programmable Buttons": {
+          "value": "6",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-pro-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Shape": {
+          "value": "Symmetrical",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-pro-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Sensor": {
+          "value": "HyperX Performance Sensor",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-pro-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Resolution": {
+          "value": "Up to 42000 DPI",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-pro-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "DPI Presets": {
+          "value": "400; 800; 1600; 3200; 6400",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-pro-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Speed": {
+          "value": "800 IPS",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-pro-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Acceleration": {
+          "value": "70 G",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-pro-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Buttons": {
+          "value": "6 buttons (including scroll wheel and DPI toggle)",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-pro-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Left / Right Button Switches": {
+          "value": "HyperX Optical Switches",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-pro-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Left / Right Button Durability": {
+          "value": "100 million clicks",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-pro-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Onboard Memory": {
+          "value": "3 profiles",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-pro-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Connection Type": {
+          "value": "Wired USB Type-A; Wired USB Type-C®; Bluetooth®; 2.4 GHz wireless connection",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-pro-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Polling Rate": {
+          "value": "125; 250; 500; 1000; 2000; 4000; 8000 Hz",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-pro-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Compatibility": {
+          "value": "PC; PS5; Xbox Series X|S. Software Compatibility: NGENUITY",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-pro-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Battery Life": {
+          "value": "Up to 35 hrs. at an 8 kHz polling rate",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-pro-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Length": {
+          "value": "127.1 mm",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-pro-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Height": {
+          "value": "38.3 mm",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-pro-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Width": {
+          "value": "66.9 mm",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-pro-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Weight": {
+          "value": "Weight (without cable) .10 lb.; Weight (with cable) .16 lb.",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-pro-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Cable Type": {
+          "value": "USB Type-C® to USB Type-A cable",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-pro-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Cable Length (imperial) and type": {
+          "value": "5.9 ft | USB Type-C® to USB Type-A cable",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-pro-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Unit price": {
+          "value": "/ per",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-pro-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_verified",
+        "confidence": 0.92,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-pro-wireless-gaming-mouse",
+          "page_language": "en",
+          "official_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-pro-wireless-gaming-mouse",
+          "source_priority": 110,
+          "sku": "D6GJ3AA",
+          "schema_brand": "HyperX"
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": false
+      }
+    },
+    {
+      "brand": "HyperX",
+      "brand_zh_cn": "极度未知",
       "name": "Pulsefire Saga",
       "category": "鼠标",
       "subcategory": "自动发现",
@@ -12484,158 +13482,6 @@
     },
     {
       "brand": "iKF",
-      "name": "Air Clip",
-      "category": "耳机/耳麦",
-      "subcategory": "开放式/耳夹",
-      "status": "在售/历史状态待核实",
-      "verified": "官方来源",
-      "source": "https://ikfaudio.com/collections/bone-conduction",
-      "specs": {
-        "驱动单元": "12mm",
-        "蓝牙/无线": "5.4 / 6.0",
-        "编码": "—",
-        "电池": "充电盒500mAh",
-        "续航": "60h",
-        "降噪": "开放式",
-        "延迟": "35ms",
-        "APP/软件": "支持",
-        "多设备": "未核实/不支持",
-        "有线连接": "无",
-        "原分类": "开放式/耳夹"
-      },
-      "conflict": "",
-      "origin": "中国",
-      "market": "全球/官网",
-      "last_verified": "2026-09-09",
-      "schema_fields": [
-        "驱动单元",
-        "驱动类型",
-        "频响",
-        "蓝牙/无线",
-        "连接",
-        "编码",
-        "采样率",
-        "位深",
-        "降噪",
-        "延迟",
-        "麦克风",
-        "麦克风数量",
-        "续航",
-        "电池",
-        "充电时间",
-        "无线距离",
-        "重量",
-        "有线连接",
-        "虚拟环绕",
-        "APP/软件",
-        "多设备",
-        "兼容平台"
-      ],
-      "image_url": "",
-      "image_source": "",
-      "first_seen": "2026-09-09",
-      "last_checked": "",
-      "sources": [
-        {
-          "type": "official_product",
-          "url": "https://ikfaudio.com/collections/bone-conduction",
-          "tier": 100,
-          "checked_at": "2026-09-09",
-          "note": "现有数据库官方来源"
-        }
-      ],
-      "verification": {
-        "status": "legacy_review_required",
-        "confidence": 0.7,
-        "source_count": 1,
-        "conflicts": [],
-        "evidence": {
-          "official_url": "https://ikfaudio.com/collections/bone-conduction",
-          "legacy_record": true
-        },
-        "quality_gate_version": "legacy",
-        "needs_review": true
-      },
-      "brand_zh_cn": "iKF"
-    },
-    {
-      "brand": "iKF",
-      "name": "Air01+",
-      "category": "耳机/耳麦",
-      "subcategory": "TWS",
-      "status": "在售/历史状态待核实",
-      "verified": "官方来源",
-      "source": "https://ikfaudio.com/collections/tws",
-      "specs": {
-        "驱动单元": "13mm",
-        "蓝牙/无线": "6.0",
-        "编码": "AAC / SBC",
-        "电池": "35mAh / 300mAh",
-        "续航": "30h",
-        "降噪": "无",
-        "延迟": "低延迟模式",
-        "APP/软件": "支持",
-        "多设备": "未核实/不支持",
-        "有线连接": "无",
-        "原分类": "TWS"
-      },
-      "conflict": "",
-      "origin": "中国",
-      "market": "全球/官网",
-      "last_verified": "2026-09-09",
-      "schema_fields": [
-        "驱动单元",
-        "驱动类型",
-        "频响",
-        "蓝牙/无线",
-        "连接",
-        "编码",
-        "采样率",
-        "位深",
-        "降噪",
-        "延迟",
-        "麦克风",
-        "麦克风数量",
-        "续航",
-        "电池",
-        "充电时间",
-        "无线距离",
-        "重量",
-        "有线连接",
-        "虚拟环绕",
-        "APP/软件",
-        "多设备",
-        "兼容平台"
-      ],
-      "image_url": "",
-      "image_source": "",
-      "first_seen": "2026-09-09",
-      "last_checked": "",
-      "sources": [
-        {
-          "type": "official_product",
-          "url": "https://ikfaudio.com/collections/tws",
-          "tier": 100,
-          "checked_at": "2026-09-09",
-          "note": "现有数据库官方来源"
-        }
-      ],
-      "verification": {
-        "status": "legacy_review_required",
-        "confidence": 0.7,
-        "source_count": 1,
-        "conflicts": [],
-        "evidence": {
-          "official_url": "https://ikfaudio.com/collections/tws",
-          "legacy_record": true
-        },
-        "quality_gate_version": "legacy",
-        "needs_review": true
-      },
-      "brand_zh_cn": "iKF"
-    },
-    {
-      "brand": "iKF",
       "name": "AirClip Pro",
       "category": "耳机/耳麦",
       "subcategory": "开放式/耳夹",
@@ -12683,32 +13529,37 @@
         "多设备",
         "兼容平台"
       ],
-      "image_url": "",
-      "image_source": "",
+      "image_url": "https://ikfaudio.com/cdn/shop/files/Air-clip-Pro.jpg?v=1770796561",
+      "image_source": "https://ikfaudio.com/products/ikf-open-ear-clip-on-earbuds-all-day-comfort-secure-fit-ldac-hi-res",
       "first_seen": "2026-09-09",
-      "last_checked": "",
+      "last_checked": "2026-09-11",
       "sources": [
         {
           "type": "official_product",
           "url": "https://ikfaudio.com/products/ikf-open-ear-clip-on-earbuds-all-day-comfort-secure-fit-ldac-hi-res",
           "tier": 100,
-          "checked_at": "2026-09-09",
+          "checked_at": "2026-09-11",
           "note": "现有数据库官方来源"
         }
       ],
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": false,
+          "product_schema_count": 0,
+          "canonical_url": "https://ikfaudio.com/products/ikf-open-ear-clip-on-earbuds-all-day-comfort-secure-fit-ldac-hi-res",
+          "page_language": "en",
           "official_url": "https://ikfaudio.com/products/ikf-open-ear-clip-on-earbuds-all-day-comfort-secure-fit-ldac-hi-res",
-          "legacy_record": true
+          "source_priority": 110
         },
-        "quality_gate_version": "legacy",
+        "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "iKF"
+      "brand_zh_cn": "iKF",
+      "spec_evidence": {}
     },
     {
       "brand": "iKF",
@@ -12759,184 +13610,37 @@
         "多设备",
         "兼容平台"
       ],
-      "image_url": "",
-      "image_source": "",
+      "image_url": "https://ikfaudio.com/cdn/shop/files/iKF-B1-00.jpg?v=1772091288",
+      "image_source": "https://ikfaudio.com/products/ikf-b1-wired-earphones-3-5mm-type-c-semi-in-ear-hifi-stereo-sound",
       "first_seen": "2026-09-09",
-      "last_checked": "",
+      "last_checked": "2026-09-11",
       "sources": [
         {
           "type": "official_product",
           "url": "https://ikfaudio.com/products/ikf-b1-wired-earphones-3-5mm-type-c-semi-in-ear-hifi-stereo-sound",
           "tier": 100,
-          "checked_at": "2026-09-09",
+          "checked_at": "2026-09-11",
           "note": "现有数据库官方来源"
         }
       ],
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": false,
+          "product_schema_count": 0,
+          "canonical_url": "https://ikfaudio.com/products/ikf-b1-wired-earphones-3-5mm-type-c-semi-in-ear-hifi-stereo-sound",
+          "page_language": "en",
           "official_url": "https://ikfaudio.com/products/ikf-b1-wired-earphones-3-5mm-type-c-semi-in-ear-hifi-stereo-sound",
-          "legacy_record": true
+          "source_priority": 110
         },
-        "quality_gate_version": "legacy",
+        "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "iKF"
-    },
-    {
-      "brand": "iKF",
-      "name": "C01",
-      "category": "耳机/耳麦",
-      "subcategory": "开放式/耳夹",
-      "status": "在售/历史状态待核实",
-      "verified": "官方来源",
-      "source": "https://ikfaudio.com/collections/bone-conduction",
-      "specs": {
-        "驱动单元": "10mm",
-        "蓝牙/无线": "6.0 新版",
-        "编码": "—",
-        "电池": "充电盒400mAh",
-        "续航": "48h",
-        "降噪": "开放式",
-        "延迟": "35ms",
-        "APP/软件": "支持",
-        "多设备": "未核实/不支持",
-        "有线连接": "无",
-        "原分类": "开放式/耳夹"
-      },
-      "conflict": "",
-      "origin": "中国",
-      "market": "全球/官网",
-      "last_verified": "2026-09-09",
-      "schema_fields": [
-        "驱动单元",
-        "驱动类型",
-        "频响",
-        "蓝牙/无线",
-        "连接",
-        "编码",
-        "采样率",
-        "位深",
-        "降噪",
-        "延迟",
-        "麦克风",
-        "麦克风数量",
-        "续航",
-        "电池",
-        "充电时间",
-        "无线距离",
-        "重量",
-        "有线连接",
-        "虚拟环绕",
-        "APP/软件",
-        "多设备",
-        "兼容平台"
-      ],
-      "image_url": "",
-      "image_source": "",
-      "first_seen": "2026-09-09",
-      "last_checked": "",
-      "sources": [
-        {
-          "type": "official_product",
-          "url": "https://ikfaudio.com/collections/bone-conduction",
-          "tier": 100,
-          "checked_at": "2026-09-09",
-          "note": "现有数据库官方来源"
-        }
-      ],
-      "verification": {
-        "status": "legacy_review_required",
-        "confidence": 0.7,
-        "source_count": 1,
-        "conflicts": [],
-        "evidence": {
-          "official_url": "https://ikfaudio.com/collections/bone-conduction",
-          "legacy_record": true
-        },
-        "quality_gate_version": "legacy",
-        "needs_review": true
-      },
-      "brand_zh_cn": "iKF"
-    },
-    {
-      "brand": "iKF",
-      "name": "C02",
-      "category": "耳机/耳麦",
-      "subcategory": "开放式/耳夹",
-      "status": "在售/历史状态待核实",
-      "verified": "官方来源",
-      "source": "https://ikfaudio.com/collections/bone-conduction",
-      "specs": {
-        "驱动单元": "10mm",
-        "蓝牙/无线": "5.4",
-        "编码": "—",
-        "电池": "充电盒400mAh",
-        "续航": "60h",
-        "降噪": "开放式",
-        "延迟": "—",
-        "APP/软件": "支持",
-        "多设备": "支持",
-        "有线连接": "无",
-        "原分类": "开放式/耳夹"
-      },
-      "conflict": "",
-      "origin": "中国",
-      "market": "全球/官网",
-      "last_verified": "2026-09-09",
-      "schema_fields": [
-        "驱动单元",
-        "驱动类型",
-        "频响",
-        "蓝牙/无线",
-        "连接",
-        "编码",
-        "采样率",
-        "位深",
-        "降噪",
-        "延迟",
-        "麦克风",
-        "麦克风数量",
-        "续航",
-        "电池",
-        "充电时间",
-        "无线距离",
-        "重量",
-        "有线连接",
-        "虚拟环绕",
-        "APP/软件",
-        "多设备",
-        "兼容平台"
-      ],
-      "image_url": "",
-      "image_source": "",
-      "first_seen": "2026-09-09",
-      "last_checked": "",
-      "sources": [
-        {
-          "type": "official_product",
-          "url": "https://ikfaudio.com/collections/bone-conduction",
-          "tier": 100,
-          "checked_at": "2026-09-09",
-          "note": "现有数据库官方来源"
-        }
-      ],
-      "verification": {
-        "status": "legacy_review_required",
-        "confidence": 0.7,
-        "source_count": 1,
-        "conflicts": [],
-        "evidence": {
-          "official_url": "https://ikfaudio.com/collections/bone-conduction",
-          "legacy_record": true
-        },
-        "quality_gate_version": "legacy",
-        "needs_review": true
-      },
-      "brand_zh_cn": "iKF"
+      "brand_zh_cn": "iKF",
+      "spec_evidence": {}
     },
     {
       "brand": "iKF",
@@ -13443,32 +14147,37 @@
         "多设备",
         "兼容平台"
       ],
-      "image_url": "",
-      "image_source": "",
+      "image_url": "https://ikfaudio.com/cdn/shop/products/9f0a42a81700e4156e27e048159e34e7.jpg?v=1702549332",
+      "image_source": "https://ikfaudio.com/products/new-ikf-find-max6-wireless-earbuds-qualcomm-chip-adaptive-noise-cancelling-36-hours-6-mic-bluetooth-5-3-earphones-for-ios-and-android",
       "first_seen": "2026-09-09",
-      "last_checked": "",
+      "last_checked": "2026-09-11",
       "sources": [
         {
           "type": "official_product",
           "url": "https://ikfaudio.com/products/new-ikf-find-max6-wireless-earbuds-qualcomm-chip-adaptive-noise-cancelling-36-hours-6-mic-bluetooth-5-3-earphones-for-ios-and-android",
           "tier": 100,
-          "checked_at": "2026-09-09",
+          "checked_at": "2026-09-11",
           "note": "现有数据库官方来源"
         }
       ],
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": false,
+          "product_schema_count": 0,
+          "canonical_url": "https://ikfaudio.com/products/new-ikf-find-max6-wireless-earbuds-qualcomm-chip-adaptive-noise-cancelling-36-hours-6-mic-bluetooth-5-3-earphones-for-ios-and-android",
+          "page_language": "en",
           "official_url": "https://ikfaudio.com/products/new-ikf-find-max6-wireless-earbuds-qualcomm-chip-adaptive-noise-cancelling-36-hours-6-mic-bluetooth-5-3-earphones-for-ios-and-android",
-          "legacy_record": true
+          "source_priority": 110
         },
-        "quality_gate_version": "legacy",
+        "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "iKF"
+      "brand_zh_cn": "iKF",
+      "spec_evidence": {}
     },
     {
       "brand": "iKF",
@@ -13747,32 +14456,37 @@
         "多设备",
         "兼容平台"
       ],
-      "image_url": "",
-      "image_source": "",
+      "image_url": "https://ikfaudio.com/cdn/shop/files/iKF-King2-00.jpg?v=1770373870",
+      "image_source": "https://ikfaudio.com/products/ikf-king-wireless-bluetooth-headphones-active-noise-cancelling-power-bass-with-mic-wired-headset",
       "first_seen": "2026-09-09",
-      "last_checked": "",
+      "last_checked": "2026-09-11",
       "sources": [
         {
           "type": "official_product",
           "url": "https://ikfaudio.com/products/ikf-king-wireless-bluetooth-headphones-active-noise-cancelling-power-bass-with-mic-wired-headset",
           "tier": 100,
-          "checked_at": "2026-09-09",
+          "checked_at": "2026-09-11",
           "note": "现有数据库官方来源"
         }
       ],
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": false,
+          "product_schema_count": 0,
+          "canonical_url": "https://ikfaudio.com/products/ikf-king-wireless-bluetooth-headphones-active-noise-cancelling-power-bass-with-mic-wired-headset",
+          "page_language": "en",
           "official_url": "https://ikfaudio.com/products/ikf-king-wireless-bluetooth-headphones-active-noise-cancelling-power-bass-with-mic-wired-headset",
-          "legacy_record": true
+          "source_priority": 110
         },
-        "quality_gate_version": "legacy",
+        "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "iKF"
+      "brand_zh_cn": "iKF",
+      "spec_evidence": {}
     },
     {
       "brand": "iKF",
@@ -13928,158 +14642,6 @@
     },
     {
       "brand": "iKF",
-      "name": "Kiwi Mini",
-      "category": "耳机/耳麦",
-      "subcategory": "TWS",
-      "status": "在售/历史状态待核实",
-      "verified": "官方来源",
-      "source": "https://ikfaudio.com/collections/tws",
-      "specs": {
-        "驱动单元": "13mm",
-        "蓝牙/无线": "5.3",
-        "编码": "—",
-        "电池": "—",
-        "续航": "25h",
-        "降噪": "无",
-        "延迟": "38ms",
-        "APP/软件": "支持",
-        "多设备": "未核实/不支持",
-        "有线连接": "无",
-        "原分类": "TWS"
-      },
-      "conflict": "",
-      "origin": "中国",
-      "market": "全球/官网",
-      "last_verified": "2026-09-09",
-      "schema_fields": [
-        "驱动单元",
-        "驱动类型",
-        "频响",
-        "蓝牙/无线",
-        "连接",
-        "编码",
-        "采样率",
-        "位深",
-        "降噪",
-        "延迟",
-        "麦克风",
-        "麦克风数量",
-        "续航",
-        "电池",
-        "充电时间",
-        "无线距离",
-        "重量",
-        "有线连接",
-        "虚拟环绕",
-        "APP/软件",
-        "多设备",
-        "兼容平台"
-      ],
-      "image_url": "",
-      "image_source": "",
-      "first_seen": "2026-09-09",
-      "last_checked": "",
-      "sources": [
-        {
-          "type": "official_product",
-          "url": "https://ikfaudio.com/collections/tws",
-          "tier": 100,
-          "checked_at": "2026-09-09",
-          "note": "现有数据库官方来源"
-        }
-      ],
-      "verification": {
-        "status": "legacy_review_required",
-        "confidence": 0.7,
-        "source_count": 1,
-        "conflicts": [],
-        "evidence": {
-          "official_url": "https://ikfaudio.com/collections/tws",
-          "legacy_record": true
-        },
-        "quality_gate_version": "legacy",
-        "needs_review": true
-      },
-      "brand_zh_cn": "iKF"
-    },
-    {
-      "brand": "iKF",
-      "name": "Ling",
-      "category": "耳机/耳麦",
-      "subcategory": "头戴式蓝牙",
-      "status": "在售/历史状态待核实",
-      "verified": "官方来源",
-      "source": "https://ikfaudio.com/collections/headphones",
-      "specs": {
-        "驱动单元": "40mm级",
-        "蓝牙/无线": "6.0",
-        "编码": "LDAC / Hi-Res",
-        "电池": "—",
-        "续航": "110h / ANC 85h",
-        "降噪": "自适应 ANC 3.0",
-        "延迟": "低延迟模式",
-        "APP/软件": "支持",
-        "多设备": "未核实/不支持",
-        "有线连接": "—",
-        "原分类": "头戴式蓝牙"
-      },
-      "conflict": "",
-      "origin": "中国",
-      "market": "全球/官网",
-      "last_verified": "2026-09-09",
-      "schema_fields": [
-        "驱动单元",
-        "驱动类型",
-        "频响",
-        "蓝牙/无线",
-        "连接",
-        "编码",
-        "采样率",
-        "位深",
-        "降噪",
-        "延迟",
-        "麦克风",
-        "麦克风数量",
-        "续航",
-        "电池",
-        "充电时间",
-        "无线距离",
-        "重量",
-        "有线连接",
-        "虚拟环绕",
-        "APP/软件",
-        "多设备",
-        "兼容平台"
-      ],
-      "image_url": "",
-      "image_source": "",
-      "first_seen": "2026-09-09",
-      "last_checked": "",
-      "sources": [
-        {
-          "type": "official_product",
-          "url": "https://ikfaudio.com/collections/headphones",
-          "tier": 100,
-          "checked_at": "2026-09-09",
-          "note": "现有数据库官方来源"
-        }
-      ],
-      "verification": {
-        "status": "legacy_review_required",
-        "confidence": 0.7,
-        "source_count": 1,
-        "conflicts": [],
-        "evidence": {
-          "official_url": "https://ikfaudio.com/collections/headphones",
-          "legacy_record": true
-        },
-        "quality_gate_version": "legacy",
-        "needs_review": true
-      },
-      "brand_zh_cn": "iKF"
-    },
-    {
-      "brand": "iKF",
       "name": "Mars / Mars HiFi",
       "category": "耳机/耳麦",
       "subcategory": "头戴式蓝牙",
@@ -14147,234 +14709,6 @@
         "conflicts": [],
         "evidence": {
           "official_url": "https://ikfaudio.com/products/ikf-mars-wireless-bluetooth-headphones-40mm-20mm-drivers-active-noise-cancelling-3-5mm-wired-headset",
-          "legacy_record": true
-        },
-        "quality_gate_version": "legacy",
-        "needs_review": true
-      },
-      "brand_zh_cn": "iKF"
-    },
-    {
-      "brand": "iKF",
-      "name": "Metal",
-      "category": "耳机/耳麦",
-      "subcategory": "头戴式蓝牙",
-      "status": "在售/历史状态待核实",
-      "verified": "官方来源",
-      "source": "https://ikfaudio.com/collections/headphones",
-      "specs": {
-        "驱动单元": "40mm",
-        "蓝牙/无线": "5.4 / 批次升级",
-        "编码": "—",
-        "电池": "—",
-        "续航": "75h / ANC 40h",
-        "降噪": "-52dB",
-        "延迟": "—",
-        "APP/软件": "支持",
-        "多设备": "未核实/不支持",
-        "有线连接": "AUX",
-        "原分类": "头戴式蓝牙"
-      },
-      "conflict": "",
-      "origin": "中国",
-      "market": "全球/官网",
-      "last_verified": "2026-09-09",
-      "schema_fields": [
-        "驱动单元",
-        "驱动类型",
-        "频响",
-        "蓝牙/无线",
-        "连接",
-        "编码",
-        "采样率",
-        "位深",
-        "降噪",
-        "延迟",
-        "麦克风",
-        "麦克风数量",
-        "续航",
-        "电池",
-        "充电时间",
-        "无线距离",
-        "重量",
-        "有线连接",
-        "虚拟环绕",
-        "APP/软件",
-        "多设备",
-        "兼容平台"
-      ],
-      "image_url": "",
-      "image_source": "",
-      "first_seen": "2026-09-09",
-      "last_checked": "",
-      "sources": [
-        {
-          "type": "official_product",
-          "url": "https://ikfaudio.com/collections/headphones",
-          "tier": 100,
-          "checked_at": "2026-09-09",
-          "note": "现有数据库官方来源"
-        }
-      ],
-      "verification": {
-        "status": "legacy_review_required",
-        "confidence": 0.7,
-        "source_count": 1,
-        "conflicts": [],
-        "evidence": {
-          "official_url": "https://ikfaudio.com/collections/headphones",
-          "legacy_record": true
-        },
-        "quality_gate_version": "legacy",
-        "needs_review": true
-      },
-      "brand_zh_cn": "iKF"
-    },
-    {
-      "brand": "iKF",
-      "name": "Moon Pro",
-      "category": "耳机/耳麦",
-      "subcategory": "睡眠",
-      "status": "在售/历史状态待核实",
-      "verified": "官方来源",
-      "source": "https://ikfaudio.com/collections/night-waves",
-      "specs": {
-        "驱动单元": "5mm",
-        "蓝牙/无线": "5.3",
-        "编码": "—",
-        "电池": "—",
-        "续航": "约8h / 总30h",
-        "降噪": "被动隔音",
-        "延迟": "—",
-        "APP/软件": "支持",
-        "多设备": "未核实/不支持",
-        "有线连接": "无",
-        "原分类": "睡眠"
-      },
-      "conflict": "",
-      "origin": "中国",
-      "market": "全球/官网",
-      "last_verified": "2026-09-09",
-      "schema_fields": [
-        "驱动单元",
-        "驱动类型",
-        "频响",
-        "蓝牙/无线",
-        "连接",
-        "编码",
-        "采样率",
-        "位深",
-        "降噪",
-        "延迟",
-        "麦克风",
-        "麦克风数量",
-        "续航",
-        "电池",
-        "充电时间",
-        "无线距离",
-        "重量",
-        "有线连接",
-        "虚拟环绕",
-        "APP/软件",
-        "多设备",
-        "兼容平台"
-      ],
-      "image_url": "",
-      "image_source": "",
-      "first_seen": "2026-09-09",
-      "last_checked": "",
-      "sources": [
-        {
-          "type": "official_product",
-          "url": "https://ikfaudio.com/collections/night-waves",
-          "tier": 100,
-          "checked_at": "2026-09-09",
-          "note": "现有数据库官方来源"
-        }
-      ],
-      "verification": {
-        "status": "legacy_review_required",
-        "confidence": 0.7,
-        "source_count": 1,
-        "conflicts": [],
-        "evidence": {
-          "official_url": "https://ikfaudio.com/collections/night-waves",
-          "legacy_record": true
-        },
-        "quality_gate_version": "legacy",
-        "needs_review": true
-      },
-      "brand_zh_cn": "iKF"
-    },
-    {
-      "brand": "iKF",
-      "name": "Nano",
-      "category": "耳机/耳麦",
-      "subcategory": "头戴式蓝牙",
-      "status": "在售/历史状态待核实",
-      "verified": "官方来源",
-      "source": "https://ikfaudio.com/collections/headphones",
-      "specs": {
-        "驱动单元": "40mm",
-        "蓝牙/无线": "6.0",
-        "编码": "SBC / AAC / LDAC",
-        "电池": "—",
-        "续航": "150h / ANC 100h",
-        "降噪": "-56dB",
-        "延迟": "35ms",
-        "APP/软件": "支持",
-        "多设备": "支持",
-        "有线连接": "AUX + USB Audio",
-        "原分类": "头戴式蓝牙"
-      },
-      "conflict": "",
-      "origin": "中国",
-      "market": "全球/官网",
-      "last_verified": "2026-09-09",
-      "schema_fields": [
-        "驱动单元",
-        "驱动类型",
-        "频响",
-        "蓝牙/无线",
-        "连接",
-        "编码",
-        "采样率",
-        "位深",
-        "降噪",
-        "延迟",
-        "麦克风",
-        "麦克风数量",
-        "续航",
-        "电池",
-        "充电时间",
-        "无线距离",
-        "重量",
-        "有线连接",
-        "虚拟环绕",
-        "APP/软件",
-        "多设备",
-        "兼容平台"
-      ],
-      "image_url": "",
-      "image_source": "",
-      "first_seen": "2026-09-09",
-      "last_checked": "",
-      "sources": [
-        {
-          "type": "official_product",
-          "url": "https://ikfaudio.com/collections/headphones",
-          "tier": 100,
-          "checked_at": "2026-09-09",
-          "note": "现有数据库官方来源"
-        }
-      ],
-      "verification": {
-        "status": "legacy_review_required",
-        "confidence": 0.7,
-        "source_count": 1,
-        "conflicts": [],
-        "evidence": {
-          "official_url": "https://ikfaudio.com/collections/headphones",
           "legacy_record": true
         },
         "quality_gate_version": "legacy",
@@ -14932,234 +15266,6 @@
     },
     {
       "brand": "iKF",
-      "name": "Sleep",
-      "category": "耳机/耳麦",
-      "subcategory": "睡眠",
-      "status": "在售/历史状态待核实",
-      "verified": "官方来源",
-      "source": "https://ikfaudio.com/collections/night-waves",
-      "specs": {
-        "驱动单元": "官网未披露",
-        "蓝牙/无线": "有线",
-        "编码": "—",
-        "电池": "无需电池",
-        "续航": "—",
-        "降噪": "无",
-        "延迟": "—",
-        "APP/软件": "未核实/不支持",
-        "多设备": "未核实/不支持",
-        "有线连接": "3.5mm / USB-C",
-        "原分类": "睡眠"
-      },
-      "conflict": "",
-      "origin": "中国",
-      "market": "全球/官网",
-      "last_verified": "2026-09-09",
-      "schema_fields": [
-        "驱动单元",
-        "驱动类型",
-        "频响",
-        "蓝牙/无线",
-        "连接",
-        "编码",
-        "采样率",
-        "位深",
-        "降噪",
-        "延迟",
-        "麦克风",
-        "麦克风数量",
-        "续航",
-        "电池",
-        "充电时间",
-        "无线距离",
-        "重量",
-        "有线连接",
-        "虚拟环绕",
-        "APP/软件",
-        "多设备",
-        "兼容平台"
-      ],
-      "image_url": "",
-      "image_source": "",
-      "first_seen": "2026-09-09",
-      "last_checked": "",
-      "sources": [
-        {
-          "type": "official_product",
-          "url": "https://ikfaudio.com/collections/night-waves",
-          "tier": 100,
-          "checked_at": "2026-09-09",
-          "note": "现有数据库官方来源"
-        }
-      ],
-      "verification": {
-        "status": "legacy_review_required",
-        "confidence": 0.7,
-        "source_count": 1,
-        "conflicts": [],
-        "evidence": {
-          "official_url": "https://ikfaudio.com/collections/night-waves",
-          "legacy_record": true
-        },
-        "quality_gate_version": "legacy",
-        "needs_review": true
-      },
-      "brand_zh_cn": "iKF"
-    },
-    {
-      "brand": "iKF",
-      "name": "Solo",
-      "category": "耳机/耳麦",
-      "subcategory": "头戴式蓝牙",
-      "status": "在售/历史状态待核实",
-      "verified": "官方来源",
-      "source": "https://ikfaudio.com/collections/headphones",
-      "specs": {
-        "驱动单元": "40mm",
-        "蓝牙/无线": "批次不同",
-        "编码": "—",
-        "电池": "—",
-        "续航": "130h",
-        "降噪": "-52dB",
-        "延迟": "35ms",
-        "APP/软件": "支持",
-        "多设备": "未核实/不支持",
-        "有线连接": "USB Audio",
-        "原分类": "头戴式蓝牙"
-      },
-      "conflict": "",
-      "origin": "中国",
-      "market": "全球/官网",
-      "last_verified": "2026-09-09",
-      "schema_fields": [
-        "驱动单元",
-        "驱动类型",
-        "频响",
-        "蓝牙/无线",
-        "连接",
-        "编码",
-        "采样率",
-        "位深",
-        "降噪",
-        "延迟",
-        "麦克风",
-        "麦克风数量",
-        "续航",
-        "电池",
-        "充电时间",
-        "无线距离",
-        "重量",
-        "有线连接",
-        "虚拟环绕",
-        "APP/软件",
-        "多设备",
-        "兼容平台"
-      ],
-      "image_url": "",
-      "image_source": "",
-      "first_seen": "2026-09-09",
-      "last_checked": "",
-      "sources": [
-        {
-          "type": "official_product",
-          "url": "https://ikfaudio.com/collections/headphones",
-          "tier": 100,
-          "checked_at": "2026-09-09",
-          "note": "现有数据库官方来源"
-        }
-      ],
-      "verification": {
-        "status": "legacy_review_required",
-        "confidence": 0.7,
-        "source_count": 1,
-        "conflicts": [],
-        "evidence": {
-          "official_url": "https://ikfaudio.com/collections/headphones",
-          "legacy_record": true
-        },
-        "quality_gate_version": "legacy",
-        "needs_review": true
-      },
-      "brand_zh_cn": "iKF"
-    },
-    {
-      "brand": "iKF",
-      "name": "Solo Pro",
-      "category": "耳机/耳麦",
-      "subcategory": "头戴式蓝牙",
-      "status": "在售/历史状态待核实",
-      "verified": "官方来源",
-      "source": "https://ikfaudio.com/collections/headphones",
-      "specs": {
-        "驱动单元": "40mm 丝膜",
-        "蓝牙/无线": "批次不同",
-        "编码": "Hi-Res",
-        "电池": "—",
-        "续航": "140h / ANC 95h",
-        "降噪": "-54dB 自适应",
-        "延迟": "35ms",
-        "APP/软件": "支持",
-        "多设备": "支持",
-        "有线连接": "支持",
-        "原分类": "头戴式蓝牙"
-      },
-      "conflict": "",
-      "origin": "中国",
-      "market": "全球/官网",
-      "last_verified": "2026-09-09",
-      "schema_fields": [
-        "驱动单元",
-        "驱动类型",
-        "频响",
-        "蓝牙/无线",
-        "连接",
-        "编码",
-        "采样率",
-        "位深",
-        "降噪",
-        "延迟",
-        "麦克风",
-        "麦克风数量",
-        "续航",
-        "电池",
-        "充电时间",
-        "无线距离",
-        "重量",
-        "有线连接",
-        "虚拟环绕",
-        "APP/软件",
-        "多设备",
-        "兼容平台"
-      ],
-      "image_url": "",
-      "image_source": "",
-      "first_seen": "2026-09-09",
-      "last_checked": "",
-      "sources": [
-        {
-          "type": "official_product",
-          "url": "https://ikfaudio.com/collections/headphones",
-          "tier": 100,
-          "checked_at": "2026-09-09",
-          "note": "现有数据库官方来源"
-        }
-      ],
-      "verification": {
-        "status": "legacy_review_required",
-        "confidence": 0.7,
-        "source_count": 1,
-        "conflicts": [],
-        "evidence": {
-          "official_url": "https://ikfaudio.com/collections/headphones",
-          "legacy_record": true
-        },
-        "quality_gate_version": "legacy",
-        "needs_review": true
-      },
-      "brand_zh_cn": "iKF"
-    },
-    {
-      "brand": "iKF",
       "name": "Sun",
       "category": "耳机/耳麦",
       "subcategory": "睡眠",
@@ -15207,32 +15313,37 @@
         "多设备",
         "兼容平台"
       ],
-      "image_url": "",
-      "image_source": "",
+      "image_url": "https://ikfaudio.com/cdn/shop/products/a8249883dbc24ce69d8c93fbc93db681_tplv-aphluv4xwc-origin-jpeg.jpg?v=1676967579",
+      "image_source": "https://ikfaudio.com/products/ikf-sun-invisible-sleep-earbuds-wireless-earphones-smallest-lightest-tiny-noise-cancelling-ear-buds-for-sleeping-quiet-comfort-mini-sleepbuds-bluetooth-5-3-hidden-headphones-for-side-sleepers-work",
       "first_seen": "2026-09-09",
-      "last_checked": "",
+      "last_checked": "2026-09-11",
       "sources": [
         {
           "type": "official_product",
           "url": "https://ikfaudio.com/products/ikf-sun-invisible-sleep-earbuds-wireless-earphones-smallest-lightest-tiny-noise-cancelling-ear-buds-for-sleeping-quiet-comfort-mini-sleepbuds-bluetooth-5-3-hidden-headphones-for-side-sleepers-work",
           "tier": 100,
-          "checked_at": "2026-09-09",
+          "checked_at": "2026-09-11",
           "note": "现有数据库官方来源"
         }
       ],
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": false,
+          "product_schema_count": 0,
+          "canonical_url": "https://ikfaudio.com/products/ikf-sun-invisible-sleep-earbuds-wireless-earphones-smallest-lightest-tiny-noise-cancelling-ear-buds-for-sleeping-quiet-comfort-mini-sleepbuds-bluetooth-5-3-hidden-headphones-for-side-sleepers-work",
+          "page_language": "en",
           "official_url": "https://ikfaudio.com/products/ikf-sun-invisible-sleep-earbuds-wireless-earphones-smallest-lightest-tiny-noise-cancelling-ear-buds-for-sleeping-quiet-comfort-mini-sleepbuds-bluetooth-5-3-hidden-headphones-for-side-sleepers-work",
-          "legacy_record": true
+          "source_priority": 110
         },
-        "quality_gate_version": "legacy",
+        "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "iKF"
+      "brand_zh_cn": "iKF",
+      "spec_evidence": {}
     },
     {
       "brand": "iKF",
@@ -15303,82 +15414,6 @@
         "conflicts": [],
         "evidence": {
           "official_url": "https://ikfaudio.com/products/ikf-t1-wireless-bluetooth-headphones-over-ear-3-5mm-aux-in-wired-headset",
-          "legacy_record": true
-        },
-        "quality_gate_version": "legacy",
-        "needs_review": true
-      },
-      "brand_zh_cn": "iKF"
-    },
-    {
-      "brand": "iKF",
-      "name": "T1 Max",
-      "category": "耳机/耳麦",
-      "subcategory": "头戴式蓝牙",
-      "status": "在售/历史状态待核实",
-      "verified": "官方来源",
-      "source": "https://ikfaudio.com/collections/headphones",
-      "specs": {
-        "驱动单元": "40mm",
-        "蓝牙/无线": "—",
-        "编码": "—",
-        "电池": "—",
-        "续航": "100h / ANC 75h",
-        "降噪": "-38dB",
-        "延迟": "低延迟模式",
-        "APP/软件": "支持",
-        "多设备": "支持",
-        "有线连接": "支持",
-        "原分类": "头戴式蓝牙"
-      },
-      "conflict": "",
-      "origin": "中国",
-      "market": "全球/官网",
-      "last_verified": "2026-09-09",
-      "schema_fields": [
-        "驱动单元",
-        "驱动类型",
-        "频响",
-        "蓝牙/无线",
-        "连接",
-        "编码",
-        "采样率",
-        "位深",
-        "降噪",
-        "延迟",
-        "麦克风",
-        "麦克风数量",
-        "续航",
-        "电池",
-        "充电时间",
-        "无线距离",
-        "重量",
-        "有线连接",
-        "虚拟环绕",
-        "APP/软件",
-        "多设备",
-        "兼容平台"
-      ],
-      "image_url": "",
-      "image_source": "",
-      "first_seen": "2026-09-09",
-      "last_checked": "",
-      "sources": [
-        {
-          "type": "official_product",
-          "url": "https://ikfaudio.com/collections/headphones",
-          "tier": 100,
-          "checked_at": "2026-09-09",
-          "note": "现有数据库官方来源"
-        }
-      ],
-      "verification": {
-        "status": "legacy_review_required",
-        "confidence": 0.7,
-        "source_count": 1,
-        "conflicts": [],
-        "evidence": {
-          "official_url": "https://ikfaudio.com/collections/headphones",
           "legacy_record": true
         },
         "quality_gate_version": "legacy",
@@ -15671,32 +15706,37 @@
         "多设备",
         "兼容平台"
       ],
-      "image_url": "",
-      "image_source": "",
+      "image_url": "https://ikfaudio.com/cdn/shop/files/V1.jpg?v=1779947258",
+      "image_source": "https://ikfaudio.com/products/ikf-v1-wireless-headphones-2-4g-bluetooth-headset-gaming-with-microphone",
       "first_seen": "2026-09-09",
-      "last_checked": "",
+      "last_checked": "2026-09-11",
       "sources": [
         {
           "type": "official_product",
           "url": "https://ikfaudio.com/products/ikf-v1-wireless-headphones-2-4g-bluetooth-headset-gaming-with-microphone",
           "tier": 100,
-          "checked_at": "2026-09-09",
+          "checked_at": "2026-09-11",
           "note": "现有数据库官方来源"
         }
       ],
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": false,
+          "product_schema_count": 0,
+          "canonical_url": "https://ikfaudio.com/products/ikf-v1-wireless-headphones-2-4g-bluetooth-headset-gaming-with-microphone",
+          "page_language": "en",
           "official_url": "https://ikfaudio.com/products/ikf-v1-wireless-headphones-2-4g-bluetooth-headset-gaming-with-microphone",
-          "legacy_record": true
+          "source_priority": 110
         },
-        "quality_gate_version": "legacy",
+        "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "iKF"
+      "brand_zh_cn": "iKF",
+      "spec_evidence": {}
     },
     {
       "brand": "iKF",
@@ -15857,82 +15897,6 @@
       },
       "brand_zh_cn": "iKF",
       "spec_evidence": {}
-    },
-    {
-      "brand": "iKF",
-      "name": "V11 Pro 2.0",
-      "category": "耳机/耳麦",
-      "subcategory": "游戏耳机",
-      "status": "在售/历史状态待核实",
-      "verified": "官方来源",
-      "source": "https://ikfaudio.com/collections/gaming-headset",
-      "specs": {
-        "驱动单元": "53mm",
-        "蓝牙/无线": "6.0 + 2.4G",
-        "编码": "—",
-        "电池": "2000mAh",
-        "续航": "260h",
-        "降噪": "—",
-        "延迟": "—",
-        "APP/软件": "未核实/不支持",
-        "多设备": "未核实/不支持",
-        "有线连接": "多模",
-        "原分类": "游戏耳机"
-      },
-      "conflict": "",
-      "origin": "中国",
-      "market": "全球/官网",
-      "last_verified": "2026-09-09",
-      "schema_fields": [
-        "驱动单元",
-        "驱动类型",
-        "频响",
-        "蓝牙/无线",
-        "连接",
-        "编码",
-        "采样率",
-        "位深",
-        "降噪",
-        "延迟",
-        "麦克风",
-        "麦克风数量",
-        "续航",
-        "电池",
-        "充电时间",
-        "无线距离",
-        "重量",
-        "有线连接",
-        "虚拟环绕",
-        "APP/软件",
-        "多设备",
-        "兼容平台"
-      ],
-      "image_url": "",
-      "image_source": "",
-      "first_seen": "2026-09-09",
-      "last_checked": "",
-      "sources": [
-        {
-          "type": "official_product",
-          "url": "https://ikfaudio.com/collections/gaming-headset",
-          "tier": 100,
-          "checked_at": "2026-09-09",
-          "note": "现有数据库官方来源"
-        }
-      ],
-      "verification": {
-        "status": "legacy_review_required",
-        "confidence": 0.7,
-        "source_count": 1,
-        "conflicts": [],
-        "evidence": {
-          "official_url": "https://ikfaudio.com/collections/gaming-headset",
-          "legacy_record": true
-        },
-        "quality_gate_version": "legacy",
-        "needs_review": true
-      },
-      "brand_zh_cn": "iKF"
     },
     {
       "brand": "iKF",
@@ -17456,6 +17420,13 @@
           "tier": 110,
           "checked_at": "2026-09-11",
           "note": "additional official page"
+        },
+        {
+          "type": "official_product",
+          "url": "https://lamzu.com/zh/products/lamzu-atlantis-og-v2-4k-gaming-mouse",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
         }
       ],
       "specs": {
@@ -17465,14 +17436,14 @@
       "verification": {
         "status": "conflict",
         "confidence": 0.7,
-        "source_count": 3,
+        "source_count": 4,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://lamzu.com/products/lamzu-atlantis-og-v2-4k-gaming-mouse",
-          "page_language": "en",
-          "official_url": "https://lamzu.com/products/lamzu-atlantis-og-v2-4k-gaming-mouse",
+          "canonical_url": "https://lamzu.com/zh/products/lamzu-atlantis-og-v2-4k-gaming-mouse",
+          "page_language": "zh-CN",
+          "official_url": "https://lamzu.com/zh/products/lamzu-atlantis-og-v2-4k-gaming-mouse",
           "source_priority": 110,
           "sku": "",
           "schema_brand": "LAMZU"
@@ -17980,6 +17951,13 @@
           "tier": 110,
           "checked_at": "2026-09-11",
           "note": "additional official page"
+        },
+        {
+          "type": "official_product",
+          "url": "https://www.luminkey.com/zh/products/luminkey65-hot-swappable-custom-mechanical-keyboard",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
         }
       ],
       "specs": {},
@@ -17988,14 +17966,14 @@
       "verification": {
         "status": "official_discovered",
         "confidence": 0.78,
-        "source_count": 2,
+        "source_count": 3,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://luminkey.com/products/luminkey65-hot-swappable-custom-mechanical-keyboard",
-          "page_language": "en",
-          "official_url": "https://www.luminkey.com/products/luminkey65-hot-swappable-custom-mechanical-keyboard",
+          "canonical_url": "https://luminkey.com/zh/products/luminkey65-hot-swappable-custom-mechanical-keyboard",
+          "page_language": "zh-CN",
+          "official_url": "https://www.luminkey.com/zh/products/luminkey65-hot-swappable-custom-mechanical-keyboard",
           "source_priority": 110,
           "sku": "KB-LK-LK65-Black",
           "schema_brand": "LUMINKEY"
@@ -18121,6 +18099,20 @@
           "tier": 110,
           "checked_at": "2026-09-11",
           "note": "new official product"
+        },
+        {
+          "type": "official_product",
+          "url": "https://www.luminkey.com/zh/products/magger-he-magnetic-switch",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
+        },
+        {
+          "type": "official_product",
+          "url": "https://www.luminkey.com/zh/products/titan75-he-hall-effect-magnetic-gaming-keyboard",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
         }
       ],
       "specs": {},
@@ -18129,14 +18121,14 @@
       "verification": {
         "status": "official_discovered",
         "confidence": 0.78,
-        "source_count": 1,
+        "source_count": 3,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
-          "product_schema_count": 2,
-          "canonical_url": "https://luminkey.com/zh/products/luminkey75-v2-75-he-magnetic-gaming-keyboard",
+          "product_schema_count": 1,
+          "canonical_url": "https://luminkey.com/zh/products/titan75-he-hall-effect-magnetic-gaming-keyboard",
           "page_language": "zh-CN",
-          "official_url": "https://www.luminkey.com/zh/products/luminkey75-v2-75-he-magnetic-gaming-keyboard",
+          "official_url": "https://www.luminkey.com/zh/products/titan75-he-hall-effect-magnetic-gaming-keyboard",
           "source_priority": 110,
           "sku": "",
           "schema_brand": "LUMINKEY"
@@ -19132,7 +19124,64 @@
         "软件": "MCHOSE HUB",
         "板载存储": "支持",
         "回报率": "依版本而定",
-        "性能模式": "Performance / Competitive；部分版本支持 Hyper Competitive"
+        "性能模式": "Performance / Competitive；部分版本支持 Hyper Competitive",
+        "Model": "Sensor",
+        "A7 V2": "Model-dependent",
+        "A7 V2 Pro": "PAW3395",
+        "A7 V2 Ultra": "PAW3950",
+        "A7 V2 Pro+": "PAW3395",
+        "A7 V2 Ultra+": "PAW3950",
+        "Function Type": "Description",
+        "Mouse Functions": "Assign standard mouse actions such as Left Click, Right Click, Middle Click, DPI Switch, Forward, Backward, and more.",
+        "System Functions": "Control operating system features such as Volume Up/Down, Mute, Play/Pause, Screen Brightness, Calculator, and other shortcuts.",
+        "Keyboard Mapping": "Assign any keyboard key or key combination to a mouse button.",
+        "Macro": "Assign recorded macro sequences for games or productivity tasks.",
+        "Disabled": "Disable a button if it is not needed.",
+        "1.Open MCHOSE HUB and Select the Macro tab": "2.Click New Macro .",
+        "3.Enter a name for the macro.": "4.Click Start Recording .",
+        "5.Perform the desired key sequence.": "6.Stop recording and save the macro.",
+        "Mode": "Sensor FPS",
+        "Play Once": "Executes the macro one time for each button press.",
+        "Repeat While Pressed": "Repeats the macro continuously while the assigned button is held.",
+        "Toggle Repeat": "Starts repeating after one press and stops after pressing the button again.",
+        "Setting": "Effect",
+        "Number of Levels": "1–6 configurable DPI stages",
+        "X/Y Axis": "Independent horizontal and vertical DPI adjustment",
+        "Switching": "Instant switching using the assigned DPI button",
+        "Scenario": "Recommended Settings",
+        "Office Work": "800–1600 DPI",
+        "General Use": "1200–2000 DPI",
+        "FPS Games": "400–1600 DPI (based on personal preference)",
+        "High-Resolution Displays": "1600 DPI or above",
+        "Polling Rate": "Measures how frequently movement data is transmitted to the computer.",
+        "125Hz": "125",
+        "500Hz": "500",
+        "1000Hz": "1000",
+        "2000Hz": "2000",
+        "4000Hz": "4000",
+        "8000Hz": "8000",
+        "Lower Value": "Faster click response with a higher chance of accidental double-clicks caused by switch bounce.",
+        "Higher Value": "More stable click detection with reduced risk of unintended double-clicking.",
+        "LOD Setting": "Behavior",
+        "0.7 mm": "Maximum precision for supported mouse pads.",
+        "1 mm": "Recommended for most gaming mouse pads.",
+        "2 mm": "Better compatibility with a wider range of surfaces.",
+        "Enabled": "Disabled",
+        "Smoother cursor movement at high DPI.": "Maximum raw sensor responsiveness.",
+        "Recommended for very high DPI settings.": "Recommended for competitive gaming.",
+        "Smoother straight-line movement.": "True 1:1 sensor tracking.",
+        "Helpful for office work and drawing.": "Recommended for FPS, RTS, and MOBA games.",
+        "Smoother tracking with more consistent cursor movement.": "Lowest possible input latency.",
+        "Slight increase in input latency.": "Preferred for competitive esports.",
+        "Performance Mode": "Approx. 1K FPS",
+        "Competitive Mode": "Approx. 13K FPS",
+        "Hyper Competitive Mode*": "Over 20K FPS",
+        "Feature": "Purpose",
+        "Sensor FPS": "Measures sensor tracking performance and movement accuracy.",
+        "Office & Productivity": "500–1000Hz Polling Rate, Performance Mode, Motion Sync Enabled",
+        "General Gaming": "1000Hz Polling Rate, Competitive Mode, 1mm LOD",
+        "Competitive FPS Gaming": "4000–8000Hz Polling Rate*, Hyper Competitive Mode, Motion Sync Disabled, Straight Line Correction Disabled",
+        "Maximum Battery Life": "Performance Mode, Lower Polling Rate, Longer Sleep Timeout"
       },
       "conflict": "",
       "schema_fields": [
@@ -19158,32 +19207,494 @@
         "适合手型",
         "握法"
       ],
-      "image_url": "",
-      "image_source": "",
+      "image_url": "https://support.mchose.store/hc/theming_assets/01KR5X7MNN8HA7Y6THXMKX21QP",
+      "image_source": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
       "first_seen": "2026-09-09",
-      "last_checked": "",
+      "last_checked": "2026-09-11",
       "sources": [
         {
           "type": "official_product",
           "url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
           "tier": 100,
-          "checked_at": "2026-09-09",
+          "checked_at": "2026-09-11",
           "note": "现有数据库官方来源"
         }
       ],
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": false,
+          "product_schema_count": 0,
+          "canonical_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "page_language": "en-US",
           "official_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
-          "legacy_record": true
+          "source_priority": 110
         },
-        "quality_gate_version": "legacy",
+        "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "迈从"
+      "brand_zh_cn": "迈从",
+      "spec_evidence": {
+        "Model": {
+          "value": "Sensor",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "A7 V2": {
+          "value": "Model-dependent",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "A7 V2 Pro": {
+          "value": "PAW3395",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "A7 V2 Ultra": {
+          "value": "PAW3950",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "A7 V2 Pro+": {
+          "value": "PAW3395",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "A7 V2 Ultra+": {
+          "value": "PAW3950",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Function Type": {
+          "value": "Description",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Mouse Functions": {
+          "value": "Assign standard mouse actions such as Left Click, Right Click, Middle Click, DPI Switch, Forward, Backward, and more.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "System Functions": {
+          "value": "Control operating system features such as Volume Up/Down, Mute, Play/Pause, Screen Brightness, Calculator, and other shortcuts.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Keyboard Mapping": {
+          "value": "Assign any keyboard key or key combination to a mouse button.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Macro": {
+          "value": "Assign recorded macro sequences for games or productivity tasks.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Disabled": {
+          "value": "Disable a button if it is not needed.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "1.Open MCHOSE HUB and Select the Macro tab": {
+          "value": "2.Click New Macro .",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "3.Enter a name for the macro.": {
+          "value": "4.Click Start Recording .",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "5.Perform the desired key sequence.": {
+          "value": "6.Stop recording and save the macro.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Mode": {
+          "value": "Sensor FPS",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Play Once": {
+          "value": "Executes the macro one time for each button press.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Repeat While Pressed": {
+          "value": "Repeats the macro continuously while the assigned button is held.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Toggle Repeat": {
+          "value": "Starts repeating after one press and stops after pressing the button again.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Setting": {
+          "value": "Effect",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Number of Levels": {
+          "value": "1–6 configurable DPI stages",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "X/Y Axis": {
+          "value": "Independent horizontal and vertical DPI adjustment",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Switching": {
+          "value": "Instant switching using the assigned DPI button",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Scenario": {
+          "value": "Recommended Settings",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Office Work": {
+          "value": "800–1600 DPI",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "General Use": {
+          "value": "1200–2000 DPI",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "FPS Games": {
+          "value": "400–1600 DPI (based on personal preference)",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "High-Resolution Displays": {
+          "value": "1600 DPI or above",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Polling Rate": {
+          "value": "Measures how frequently movement data is transmitted to the computer.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "125Hz": {
+          "value": "125",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "500Hz": {
+          "value": "500",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "1000Hz": {
+          "value": "1000",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "2000Hz": {
+          "value": "2000",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "4000Hz": {
+          "value": "4000",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "8000Hz": {
+          "value": "8000",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Lower Value": {
+          "value": "Faster click response with a higher chance of accidental double-clicks caused by switch bounce.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Higher Value": {
+          "value": "More stable click detection with reduced risk of unintended double-clicking.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "LOD Setting": {
+          "value": "Behavior",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "0.7 mm": {
+          "value": "Maximum precision for supported mouse pads.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "1 mm": {
+          "value": "Recommended for most gaming mouse pads.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "2 mm": {
+          "value": "Better compatibility with a wider range of surfaces.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Enabled": {
+          "value": "Disabled",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Smoother cursor movement at high DPI.": {
+          "value": "Maximum raw sensor responsiveness.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Recommended for very high DPI settings.": {
+          "value": "Recommended for competitive gaming.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Smoother straight-line movement.": {
+          "value": "True 1:1 sensor tracking.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Helpful for office work and drawing.": {
+          "value": "Recommended for FPS, RTS, and MOBA games.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Smoother tracking with more consistent cursor movement.": {
+          "value": "Lowest possible input latency.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Slight increase in input latency.": {
+          "value": "Preferred for competitive esports.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Performance Mode": {
+          "value": "Approx. 1K FPS",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Competitive Mode": {
+          "value": "Approx. 13K FPS",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Hyper Competitive Mode*": {
+          "value": "Over 20K FPS",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Feature": {
+          "value": "Purpose",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Sensor FPS": {
+          "value": "Measures sensor tracking performance and movement accuracy.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Office & Productivity": {
+          "value": "500–1000Hz Polling Rate, Performance Mode, Motion Sync Enabled",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "General Gaming": {
+          "value": "1000Hz Polling Rate, Competitive Mode, 1mm LOD",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Competitive FPS Gaming": {
+          "value": "4000–8000Hz Polling Rate*, Hyper Competitive Mode, Motion Sync Disabled, Straight Line Correction Disabled",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Maximum Battery Life": {
+          "value": "Performance Mode, Lower Polling Rate, Longer Sleep Timeout",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      }
     },
     {
       "brand": "MCHOSE",
@@ -19206,7 +19717,64 @@
         "重量": "约59g",
         "回报率": "最高8000Hz",
         "连接": "USB 有线 / 2.4GHz / 蓝牙",
-        "软件": "MCHOSE HUB"
+        "软件": "MCHOSE HUB",
+        "Model": "Sensor",
+        "A7 V2": "Model-dependent",
+        "A7 V2 Pro": "PAW3395",
+        "A7 V2 Ultra": "PAW3950",
+        "A7 V2 Pro+": "PAW3395",
+        "A7 V2 Ultra+": "PAW3950",
+        "Function Type": "Description",
+        "Mouse Functions": "Assign standard mouse actions such as Left Click, Right Click, Middle Click, DPI Switch, Forward, Backward, and more.",
+        "System Functions": "Control operating system features such as Volume Up/Down, Mute, Play/Pause, Screen Brightness, Calculator, and other shortcuts.",
+        "Keyboard Mapping": "Assign any keyboard key or key combination to a mouse button.",
+        "Macro": "Assign recorded macro sequences for games or productivity tasks.",
+        "Disabled": "Disable a button if it is not needed.",
+        "1.Open MCHOSE HUB and Select the Macro tab": "2.Click New Macro .",
+        "3.Enter a name for the macro.": "4.Click Start Recording .",
+        "5.Perform the desired key sequence.": "6.Stop recording and save the macro.",
+        "Mode": "Sensor FPS",
+        "Play Once": "Executes the macro one time for each button press.",
+        "Repeat While Pressed": "Repeats the macro continuously while the assigned button is held.",
+        "Toggle Repeat": "Starts repeating after one press and stops after pressing the button again.",
+        "Setting": "Effect",
+        "Number of Levels": "1–6 configurable DPI stages",
+        "X/Y Axis": "Independent horizontal and vertical DPI adjustment",
+        "Switching": "Instant switching using the assigned DPI button",
+        "Scenario": "Recommended Settings",
+        "Office Work": "800–1600 DPI",
+        "General Use": "1200–2000 DPI",
+        "FPS Games": "400–1600 DPI (based on personal preference)",
+        "High-Resolution Displays": "1600 DPI or above",
+        "Polling Rate": "Measures how frequently movement data is transmitted to the computer.",
+        "125Hz": "125",
+        "500Hz": "500",
+        "1000Hz": "1000",
+        "2000Hz": "2000",
+        "4000Hz": "4000",
+        "8000Hz": "8000",
+        "Lower Value": "Faster click response with a higher chance of accidental double-clicks caused by switch bounce.",
+        "Higher Value": "More stable click detection with reduced risk of unintended double-clicking.",
+        "LOD Setting": "Behavior",
+        "0.7 mm": "Maximum precision for supported mouse pads.",
+        "1 mm": "Recommended for most gaming mouse pads.",
+        "2 mm": "Better compatibility with a wider range of surfaces.",
+        "Enabled": "Disabled",
+        "Smoother cursor movement at high DPI.": "Maximum raw sensor responsiveness.",
+        "Recommended for very high DPI settings.": "Recommended for competitive gaming.",
+        "Smoother straight-line movement.": "True 1:1 sensor tracking.",
+        "Helpful for office work and drawing.": "Recommended for FPS, RTS, and MOBA games.",
+        "Smoother tracking with more consistent cursor movement.": "Lowest possible input latency.",
+        "Slight increase in input latency.": "Preferred for competitive esports.",
+        "Performance Mode": "Approx. 1K FPS",
+        "Competitive Mode": "Approx. 13K FPS",
+        "Hyper Competitive Mode*": "Over 20K FPS",
+        "Feature": "Purpose",
+        "Sensor FPS": "Measures sensor tracking performance and movement accuracy.",
+        "Office & Productivity": "500–1000Hz Polling Rate, Performance Mode, Motion Sync Enabled",
+        "General Gaming": "1000Hz Polling Rate, Competitive Mode, 1mm LOD",
+        "Competitive FPS Gaming": "4000–8000Hz Polling Rate*, Hyper Competitive Mode, Motion Sync Disabled, Straight Line Correction Disabled",
+        "Maximum Battery Life": "Performance Mode, Lower Polling Rate, Longer Sleep Timeout"
       },
       "conflict": "",
       "schema_fields": [
@@ -19232,33 +19800,494 @@
         "适合手型",
         "握法"
       ],
-      "image_url": "",
-      "image_source": "",
+      "image_url": "https://support.mchose.store/hc/theming_assets/01KR5X7MNN8HA7Y6THXMKX21QP",
+      "image_source": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
       "first_seen": "2026-09-09",
-      "last_checked": "",
+      "last_checked": "2026-09-11",
       "sources": [
         {
           "type": "official_product",
           "url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
           "tier": 100,
-          "checked_at": "2026-09-09",
+          "checked_at": "2026-09-11",
           "note": "现有数据库官方来源"
         }
       ],
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": false,
+          "product_schema_count": 0,
+          "canonical_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "page_language": "en-US",
           "official_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
-          "legacy_record": true
+          "source_priority": 110
         },
-        "quality_gate_version": "legacy",
+        "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
       "brand_zh_cn": "迈从",
-      "spec_evidence": {}
+      "spec_evidence": {
+        "Model": {
+          "value": "Sensor",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "A7 V2": {
+          "value": "Model-dependent",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "A7 V2 Pro": {
+          "value": "PAW3395",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "A7 V2 Ultra": {
+          "value": "PAW3950",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "A7 V2 Pro+": {
+          "value": "PAW3395",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "A7 V2 Ultra+": {
+          "value": "PAW3950",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Function Type": {
+          "value": "Description",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Mouse Functions": {
+          "value": "Assign standard mouse actions such as Left Click, Right Click, Middle Click, DPI Switch, Forward, Backward, and more.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "System Functions": {
+          "value": "Control operating system features such as Volume Up/Down, Mute, Play/Pause, Screen Brightness, Calculator, and other shortcuts.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Keyboard Mapping": {
+          "value": "Assign any keyboard key or key combination to a mouse button.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Macro": {
+          "value": "Assign recorded macro sequences for games or productivity tasks.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Disabled": {
+          "value": "Disable a button if it is not needed.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "1.Open MCHOSE HUB and Select the Macro tab": {
+          "value": "2.Click New Macro .",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "3.Enter a name for the macro.": {
+          "value": "4.Click Start Recording .",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "5.Perform the desired key sequence.": {
+          "value": "6.Stop recording and save the macro.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Mode": {
+          "value": "Sensor FPS",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Play Once": {
+          "value": "Executes the macro one time for each button press.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Repeat While Pressed": {
+          "value": "Repeats the macro continuously while the assigned button is held.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Toggle Repeat": {
+          "value": "Starts repeating after one press and stops after pressing the button again.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Setting": {
+          "value": "Effect",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Number of Levels": {
+          "value": "1–6 configurable DPI stages",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "X/Y Axis": {
+          "value": "Independent horizontal and vertical DPI adjustment",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Switching": {
+          "value": "Instant switching using the assigned DPI button",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Scenario": {
+          "value": "Recommended Settings",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Office Work": {
+          "value": "800–1600 DPI",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "General Use": {
+          "value": "1200–2000 DPI",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "FPS Games": {
+          "value": "400–1600 DPI (based on personal preference)",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "High-Resolution Displays": {
+          "value": "1600 DPI or above",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Polling Rate": {
+          "value": "Measures how frequently movement data is transmitted to the computer.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "125Hz": {
+          "value": "125",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "500Hz": {
+          "value": "500",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "1000Hz": {
+          "value": "1000",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "2000Hz": {
+          "value": "2000",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "4000Hz": {
+          "value": "4000",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "8000Hz": {
+          "value": "8000",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Lower Value": {
+          "value": "Faster click response with a higher chance of accidental double-clicks caused by switch bounce.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Higher Value": {
+          "value": "More stable click detection with reduced risk of unintended double-clicking.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "LOD Setting": {
+          "value": "Behavior",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "0.7 mm": {
+          "value": "Maximum precision for supported mouse pads.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "1 mm": {
+          "value": "Recommended for most gaming mouse pads.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "2 mm": {
+          "value": "Better compatibility with a wider range of surfaces.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Enabled": {
+          "value": "Disabled",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Smoother cursor movement at high DPI.": {
+          "value": "Maximum raw sensor responsiveness.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Recommended for very high DPI settings.": {
+          "value": "Recommended for competitive gaming.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Smoother straight-line movement.": {
+          "value": "True 1:1 sensor tracking.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Helpful for office work and drawing.": {
+          "value": "Recommended for FPS, RTS, and MOBA games.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Smoother tracking with more consistent cursor movement.": {
+          "value": "Lowest possible input latency.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Slight increase in input latency.": {
+          "value": "Preferred for competitive esports.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Performance Mode": {
+          "value": "Approx. 1K FPS",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Competitive Mode": {
+          "value": "Approx. 13K FPS",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Hyper Competitive Mode*": {
+          "value": "Over 20K FPS",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Feature": {
+          "value": "Purpose",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Sensor FPS": {
+          "value": "Measures sensor tracking performance and movement accuracy.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Office & Productivity": {
+          "value": "500–1000Hz Polling Rate, Performance Mode, Motion Sync Enabled",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "General Gaming": {
+          "value": "1000Hz Polling Rate, Competitive Mode, 1mm LOD",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Competitive FPS Gaming": {
+          "value": "4000–8000Hz Polling Rate*, Hyper Competitive Mode, Motion Sync Disabled, Straight Line Correction Disabled",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Maximum Battery Life": {
+          "value": "Performance Mode, Lower Polling Rate, Longer Sleep Timeout",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      }
     },
     {
       "brand": "MCHOSE",
@@ -19341,7 +20370,64 @@
         "回报率": "最高8000Hz",
         "连接": "USB 有线 / 2.4GHz / 蓝牙",
         "软件": "MCHOSE HUB",
-        "性能模式": "支持 Hyper Competitive，传感器帧率 >20K FPS"
+        "性能模式": "支持 Hyper Competitive，传感器帧率 >20K FPS",
+        "Model": "Sensor",
+        "A7 V2": "Model-dependent",
+        "A7 V2 Pro": "PAW3395",
+        "A7 V2 Ultra": "PAW3950",
+        "A7 V2 Pro+": "PAW3395",
+        "A7 V2 Ultra+": "PAW3950",
+        "Function Type": "Description",
+        "Mouse Functions": "Assign standard mouse actions such as Left Click, Right Click, Middle Click, DPI Switch, Forward, Backward, and more.",
+        "System Functions": "Control operating system features such as Volume Up/Down, Mute, Play/Pause, Screen Brightness, Calculator, and other shortcuts.",
+        "Keyboard Mapping": "Assign any keyboard key or key combination to a mouse button.",
+        "Macro": "Assign recorded macro sequences for games or productivity tasks.",
+        "Disabled": "Disable a button if it is not needed.",
+        "1.Open MCHOSE HUB and Select the Macro tab": "2.Click New Macro .",
+        "3.Enter a name for the macro.": "4.Click Start Recording .",
+        "5.Perform the desired key sequence.": "6.Stop recording and save the macro.",
+        "Mode": "Sensor FPS",
+        "Play Once": "Executes the macro one time for each button press.",
+        "Repeat While Pressed": "Repeats the macro continuously while the assigned button is held.",
+        "Toggle Repeat": "Starts repeating after one press and stops after pressing the button again.",
+        "Setting": "Effect",
+        "Number of Levels": "1–6 configurable DPI stages",
+        "X/Y Axis": "Independent horizontal and vertical DPI adjustment",
+        "Switching": "Instant switching using the assigned DPI button",
+        "Scenario": "Recommended Settings",
+        "Office Work": "800–1600 DPI",
+        "General Use": "1200–2000 DPI",
+        "FPS Games": "400–1600 DPI (based on personal preference)",
+        "High-Resolution Displays": "1600 DPI or above",
+        "Polling Rate": "Measures how frequently movement data is transmitted to the computer.",
+        "125Hz": "125",
+        "500Hz": "500",
+        "1000Hz": "1000",
+        "2000Hz": "2000",
+        "4000Hz": "4000",
+        "8000Hz": "8000",
+        "Lower Value": "Faster click response with a higher chance of accidental double-clicks caused by switch bounce.",
+        "Higher Value": "More stable click detection with reduced risk of unintended double-clicking.",
+        "LOD Setting": "Behavior",
+        "0.7 mm": "Maximum precision for supported mouse pads.",
+        "1 mm": "Recommended for most gaming mouse pads.",
+        "2 mm": "Better compatibility with a wider range of surfaces.",
+        "Enabled": "Disabled",
+        "Smoother cursor movement at high DPI.": "Maximum raw sensor responsiveness.",
+        "Recommended for very high DPI settings.": "Recommended for competitive gaming.",
+        "Smoother straight-line movement.": "True 1:1 sensor tracking.",
+        "Helpful for office work and drawing.": "Recommended for FPS, RTS, and MOBA games.",
+        "Smoother tracking with more consistent cursor movement.": "Lowest possible input latency.",
+        "Slight increase in input latency.": "Preferred for competitive esports.",
+        "Performance Mode": "Approx. 1K FPS",
+        "Competitive Mode": "Approx. 13K FPS",
+        "Hyper Competitive Mode*": "Over 20K FPS",
+        "Feature": "Purpose",
+        "Sensor FPS": "Measures sensor tracking performance and movement accuracy.",
+        "Office & Productivity": "500–1000Hz Polling Rate, Performance Mode, Motion Sync Enabled",
+        "General Gaming": "1000Hz Polling Rate, Competitive Mode, 1mm LOD",
+        "Competitive FPS Gaming": "4000–8000Hz Polling Rate*, Hyper Competitive Mode, Motion Sync Disabled, Straight Line Correction Disabled",
+        "Maximum Battery Life": "Performance Mode, Lower Polling Rate, Longer Sleep Timeout"
       },
       "conflict": "",
       "schema_fields": [
@@ -19367,33 +20453,494 @@
         "适合手型",
         "握法"
       ],
-      "image_url": "",
-      "image_source": "",
+      "image_url": "https://support.mchose.store/hc/theming_assets/01KR5X7MNN8HA7Y6THXMKX21QP",
+      "image_source": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
       "first_seen": "2026-09-09",
-      "last_checked": "",
+      "last_checked": "2026-09-11",
       "sources": [
         {
           "type": "official_product",
           "url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
           "tier": 100,
-          "checked_at": "2026-09-09",
+          "checked_at": "2026-09-11",
           "note": "现有数据库官方来源"
         }
       ],
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": false,
+          "product_schema_count": 0,
+          "canonical_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "page_language": "en-US",
           "official_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
-          "legacy_record": true
+          "source_priority": 110
         },
-        "quality_gate_version": "legacy",
+        "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
       "brand_zh_cn": "迈从",
-      "spec_evidence": {}
+      "spec_evidence": {
+        "Model": {
+          "value": "Sensor",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "A7 V2": {
+          "value": "Model-dependent",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "A7 V2 Pro": {
+          "value": "PAW3395",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "A7 V2 Ultra": {
+          "value": "PAW3950",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "A7 V2 Pro+": {
+          "value": "PAW3395",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "A7 V2 Ultra+": {
+          "value": "PAW3950",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Function Type": {
+          "value": "Description",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Mouse Functions": {
+          "value": "Assign standard mouse actions such as Left Click, Right Click, Middle Click, DPI Switch, Forward, Backward, and more.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "System Functions": {
+          "value": "Control operating system features such as Volume Up/Down, Mute, Play/Pause, Screen Brightness, Calculator, and other shortcuts.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Keyboard Mapping": {
+          "value": "Assign any keyboard key or key combination to a mouse button.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Macro": {
+          "value": "Assign recorded macro sequences for games or productivity tasks.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Disabled": {
+          "value": "Disable a button if it is not needed.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "1.Open MCHOSE HUB and Select the Macro tab": {
+          "value": "2.Click New Macro .",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "3.Enter a name for the macro.": {
+          "value": "4.Click Start Recording .",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "5.Perform the desired key sequence.": {
+          "value": "6.Stop recording and save the macro.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Mode": {
+          "value": "Sensor FPS",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Play Once": {
+          "value": "Executes the macro one time for each button press.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Repeat While Pressed": {
+          "value": "Repeats the macro continuously while the assigned button is held.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Toggle Repeat": {
+          "value": "Starts repeating after one press and stops after pressing the button again.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Setting": {
+          "value": "Effect",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Number of Levels": {
+          "value": "1–6 configurable DPI stages",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "X/Y Axis": {
+          "value": "Independent horizontal and vertical DPI adjustment",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Switching": {
+          "value": "Instant switching using the assigned DPI button",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Scenario": {
+          "value": "Recommended Settings",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Office Work": {
+          "value": "800–1600 DPI",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "General Use": {
+          "value": "1200–2000 DPI",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "FPS Games": {
+          "value": "400–1600 DPI (based on personal preference)",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "High-Resolution Displays": {
+          "value": "1600 DPI or above",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Polling Rate": {
+          "value": "Measures how frequently movement data is transmitted to the computer.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "125Hz": {
+          "value": "125",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "500Hz": {
+          "value": "500",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "1000Hz": {
+          "value": "1000",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "2000Hz": {
+          "value": "2000",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "4000Hz": {
+          "value": "4000",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "8000Hz": {
+          "value": "8000",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Lower Value": {
+          "value": "Faster click response with a higher chance of accidental double-clicks caused by switch bounce.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Higher Value": {
+          "value": "More stable click detection with reduced risk of unintended double-clicking.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "LOD Setting": {
+          "value": "Behavior",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "0.7 mm": {
+          "value": "Maximum precision for supported mouse pads.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "1 mm": {
+          "value": "Recommended for most gaming mouse pads.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "2 mm": {
+          "value": "Better compatibility with a wider range of surfaces.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Enabled": {
+          "value": "Disabled",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Smoother cursor movement at high DPI.": {
+          "value": "Maximum raw sensor responsiveness.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Recommended for very high DPI settings.": {
+          "value": "Recommended for competitive gaming.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Smoother straight-line movement.": {
+          "value": "True 1:1 sensor tracking.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Helpful for office work and drawing.": {
+          "value": "Recommended for FPS, RTS, and MOBA games.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Smoother tracking with more consistent cursor movement.": {
+          "value": "Lowest possible input latency.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Slight increase in input latency.": {
+          "value": "Preferred for competitive esports.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Performance Mode": {
+          "value": "Approx. 1K FPS",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Competitive Mode": {
+          "value": "Approx. 13K FPS",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Hyper Competitive Mode*": {
+          "value": "Over 20K FPS",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Feature": {
+          "value": "Purpose",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Sensor FPS": {
+          "value": "Measures sensor tracking performance and movement accuracy.",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Office & Productivity": {
+          "value": "500–1000Hz Polling Rate, Performance Mode, Motion Sync Enabled",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "General Gaming": {
+          "value": "1000Hz Polling Rate, Competitive Mode, 1mm LOD",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Competitive FPS Gaming": {
+          "value": "4000–8000Hz Polling Rate*, Hyper Competitive Mode, Motion Sync Disabled, Straight Line Correction Disabled",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Maximum Battery Life": {
+          "value": "Performance Mode, Lower Polling Rate, Longer Sleep Timeout",
+          "source_url": "https://support.mchose.store/hc/en-us/articles/51109920937108-A7-V2-Tri-Mode-Gaming-Mouse-User-Guide",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      }
     },
     {
       "brand": "MCHOSE",
@@ -22033,83 +23580,6 @@
     },
     {
       "brand": "Rapoo",
-      "name": "V700DIY-98",
-      "category": "键盘",
-      "subcategory": "游戏机械键盘",
-      "status": "在售/官网可确认",
-      "verified": "官方型号已确认",
-      "origin": "中国",
-      "market": "中国/全球",
-      "last_verified": "2026-09-09",
-      "source": "https://rapoo.com/en/support/downloadcenter",
-      "specs": {
-        "连接": "三模",
-        "续航": "最高800h",
-        "热插拔": "支持",
-        "轴体": "Speed Silver（官方商城示例）",
-        "RGB": "1680万色逐键",
-        "结构": "Gasket",
-        "全键无冲": "NKRO",
-        "键帽": "双色PBT"
-      },
-      "conflict": "",
-      "schema_fields": [
-        "配列",
-        "轴体",
-        "轴体类型",
-        "磁轴方案",
-        "Rapid Trigger",
-        "RT精度",
-        "触发行程",
-        "总行程",
-        "触发压力",
-        "回报率",
-        "扫描率",
-        "延迟",
-        "连接",
-        "热插拔",
-        "键帽",
-        "定位板",
-        "结构",
-        "机身",
-        "全键无冲",
-        "灯光",
-        "电池",
-        "续航",
-        "尺寸",
-        "重量",
-        "软件",
-        "板载存储"
-      ],
-      "image_url": "",
-      "image_source": "",
-      "first_seen": "2026-09-09",
-      "last_checked": "",
-      "sources": [
-        {
-          "type": "official_product",
-          "url": "https://rapoo.com/en/support/downloadcenter",
-          "tier": 100,
-          "checked_at": "2026-09-09",
-          "note": "现有数据库官方来源"
-        }
-      ],
-      "verification": {
-        "status": "legacy_review_required",
-        "confidence": 0.7,
-        "source_count": 1,
-        "conflicts": [],
-        "evidence": {
-          "official_url": "https://rapoo.com/en/support/downloadcenter",
-          "legacy_record": true
-        },
-        "quality_gate_version": "legacy",
-        "needs_review": true
-      },
-      "brand_zh_cn": "雷柏"
-    },
-    {
-      "brand": "Rapoo",
       "name": "VT0 Air Max",
       "category": "鼠标",
       "subcategory": "自动发现",
@@ -23392,6 +24862,13 @@
           "tier": 100,
           "checked_at": "2026-09-11",
           "note": "new official product"
+        },
+        {
+          "type": "official_product",
+          "url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v3-hypersense",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
         }
       ],
       "specs": {
@@ -23401,14 +24878,14 @@
       "verification": {
         "status": "official_discovered",
         "confidence": 0.7,
-        "source_count": 1,
+        "source_count": 2,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v3",
+          "canonical_url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v3-hypersense",
           "page_language": "zh-CN",
-          "official_url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v3",
+          "official_url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v3-hypersense",
           "source_priority": 110,
           "sku": "",
           "schema_brand": "Razer 雷蛇"
@@ -23430,16 +24907,16 @@
       "market": "官网",
       "first_seen": "2026-09-10",
       "last_verified": "2026-09-10",
-      "last_checked": "2026-09-10",
+      "last_checked": "2026-09-11",
       "source": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v3-pro",
-      "image_url": "",
-      "image_source": "",
+      "image_url": "https://assets2.razerzone.com/images/pnx.assets/6bcf5c98356d49c47a1e7b52e24a934a/kraken-v3-pro-1500x1000-1.jpg",
+      "image_source": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v3-pro",
       "sources": [
         {
           "type": "official_product",
           "url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v3-pro",
           "tier": 100,
-          "checked_at": "2026-09-10",
+          "checked_at": "2026-09-11",
           "note": "new official product"
         }
       ],
@@ -23455,18 +24932,193 @@
       },
       "conflict": "",
       "verification": {
-        "status": "legacy_review_required",
-        "confidence": 0.7,
+        "status": "official_verified",
+        "confidence": 0.92,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v3-pro",
+          "page_language": "zh-CN",
           "official_url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v3-pro",
-          "legacy_record": true
+          "source_priority": 110,
+          "sku": "",
+          "schema_brand": "Razer 雷蛇"
         },
         "quality_gate_version": "1.3-audited",
-        "needs_review": true
+        "needs_review": false
       },
-      "brand_zh_cn": "雷蛇"
+      "brand_zh_cn": "雷蛇",
+      "spec_evidence": {
+        "触觉": {
+          "value": "Razer™ HyperSense 超感技术",
+          "source_url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v3-pro",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "驱动单元": {
+          "value": "Razer™ TriForce 50 毫米镀钛驱动单元",
+          "source_url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v3-pro",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "麦克风": {
+          "value": "可拆卸式 HyperClear 灵晰技术超心形指向麦克风",
+          "source_url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v3-pro",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "材质": {
+          "value": "混合面料和人造皮革记忆绵软垫",
+          "source_url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v3-pro",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "环绕声": {
+          "value": "THX Spatial Audio 空间音效",
+          "source_url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v3-pro",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "连接方式": {
+          "value": "Razer HyperSpeed Wireless 无线技术 + 3.5 毫米模拟",
+          "source_url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v3-pro",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "RGB 灯光效果": {
+          "value": "Razer Chroma 雷蛇幻彩 RGB",
+          "source_url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v3-pro",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "更多高级功能特性": {
+          "value": "音量增大和减小 麦克风静音切换键",
+          "source_url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-v3-pro",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      }
+    },
+    {
+      "brand": "Razer",
+      "brand_zh_cn": "雷蛇",
+      "name": "Kraken V4",
+      "category": "耳机/耳麦",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "海外",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://www.razer.com/gaming-headsets/razer-kraken-v4",
+      "image_url": "https://assets3.razerzone.com/HXhTxOzsNH11j_gikX4lANpISko=/300x300/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh3b%2Fh1e%2F9821452435486%2Fkraken-v4-2-500x500.png",
+      "image_source": "https://www.razer.com/gaming-headsets/razer-kraken-v4",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://www.razer.com/gaming-headsets/razer-kraken-v4",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "DRIVERS": "Razer™ TriForce Bio-Cellulose 40 mm Drivers",
+        "MICROPHONE": "Retractable Razer™ HyperClear Super Wideband Mic",
+        "SURROUND SOUND": "THX Spatial Audio",
+        "CONNECTIVITY": "Wireless: Razer™ HyperSpeed Wireless Technology (2.4 GHz) + Bluetooth 5.3 with Simultaneous Audio Wired: USB Type-A + 3.5 mm*",
+        "BATTERY LIFE": "Up to 50 hours (Haptics/Lighting OFF, 2.4 GHz connection) Up to 45 hours (Haptics/Lighting OFF, 2.4 GHz + BT connection) Up to 13 hours (Haptics and Lighting ON, 2.4 GHz connection)",
+        "WEIGHT": "397 g (not including OLED Control Hub)"
+      },
+      "spec_evidence": {
+        "DRIVERS": {
+          "value": "Razer™ TriForce Bio-Cellulose 40 mm Drivers",
+          "source_url": "https://www.razer.com/gaming-headsets/razer-kraken-v4",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "MICROPHONE": {
+          "value": "Retractable Razer™ HyperClear Super Wideband Mic",
+          "source_url": "https://www.razer.com/gaming-headsets/razer-kraken-v4",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "SURROUND SOUND": {
+          "value": "THX Spatial Audio",
+          "source_url": "https://www.razer.com/gaming-headsets/razer-kraken-v4",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "CONNECTIVITY": {
+          "value": "Wireless: Razer™ HyperSpeed Wireless Technology (2.4 GHz) + Bluetooth 5.3 with Simultaneous Audio Wired: USB Type-A + 3.5 mm*",
+          "source_url": "https://www.razer.com/gaming-headsets/razer-kraken-v4",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "BATTERY LIFE": {
+          "value": "Up to 50 hours (Haptics/Lighting OFF, 2.4 GHz connection) Up to 45 hours (Haptics/Lighting OFF, 2.4 GHz + BT connection) Up to 13 hours (Haptics and Lighting ON, 2.4 GHz connection)",
+          "source_url": "https://www.razer.com/gaming-headsets/razer-kraken-v4",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "WEIGHT": {
+          "value": "397 g (not including OLED Control Hub)",
+          "source_url": "https://www.razer.com/gaming-headsets/razer-kraken-v4",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_verified",
+        "confidence": 0.92,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://razer.com/gaming-headsets/razer-kraken-v4",
+          "page_language": "en-US",
+          "official_url": "https://www.razer.com/gaming-headsets/razer-kraken-v4",
+          "source_priority": 110,
+          "sku": "",
+          "schema_brand": "Razer"
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": false
+      }
     },
     {
       "brand": "Razer",
@@ -23719,7 +25371,7 @@
       "spec_evidence": {
         "User Guide": {
           "value": "SOUNDPEATS Air6 HS User Manual",
-          "source_url": "https://soundpeats.com/en-mx/products/air6-hs-semi-in-ear-earbuds",
+          "source_url": "https://soundpeats.com/en-ca/products/air6-hs-semi-in-ear-earbuds",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -23727,7 +25379,7 @@
         },
         "FAQ": {
           "value": "SOUNDPEATS Air6 HS FAQ",
-          "source_url": "https://soundpeats.com/en-mx/products/air6-hs-semi-in-ear-earbuds",
+          "source_url": "https://soundpeats.com/en-ca/products/air6-hs-semi-in-ear-earbuds",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -23743,9 +25395,9 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://soundpeats.com/en-mx/products/air6-hs-semi-in-ear-earbuds",
+          "canonical_url": "https://soundpeats.com/en-ca/products/air6-hs-semi-in-ear-earbuds",
           "page_language": "en",
-          "official_url": "https://soundpeats.com/en-mx/products/air6-hs-semi-in-ear-earbuds",
+          "official_url": "https://soundpeats.com/en-ca/products/air6-hs-semi-in-ear-earbuds",
           "source_priority": 110,
           "sku": "SP-Air6 HS-BLACK",
           "schema_brand": "SOUNDPEATS"
@@ -24031,7 +25683,7 @@
       "spec_evidence": {
         "Case": {
           "value": "Reason",
-          "source_url": "https://soundpeats.com/products/uu2-clip-on-earbuds",
+          "source_url": "https://soundpeats.com/en-ca/products/uu2-clip-on-earbuds",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -24039,7 +25691,7 @@
         },
         "1": {
           "value": "Near PCs, Wi-Fi routers, microwaves, refrigerators",
-          "source_url": "https://soundpeats.com/products/uu2-clip-on-earbuds",
+          "source_url": "https://soundpeats.com/en-ca/products/uu2-clip-on-earbuds",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -24047,7 +25699,7 @@
         },
         "2": {
           "value": "Phone in pocket/bag, body blocking signal",
-          "source_url": "https://soundpeats.com/products/uu2-clip-on-earbuds",
+          "source_url": "https://soundpeats.com/en-ca/products/uu2-clip-on-earbuds",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -24055,7 +25707,7 @@
         },
         "3": {
           "value": "Near other Bluetooth devices",
-          "source_url": "https://soundpeats.com/products/uu2-clip-on-earbuds",
+          "source_url": "https://soundpeats.com/en-ca/products/uu2-clip-on-earbuds",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -24063,7 +25715,7 @@
         },
         "4": {
           "value": "Different room/behind closed doors",
-          "source_url": "https://soundpeats.com/products/uu2-clip-on-earbuds",
+          "source_url": "https://soundpeats.com/en-ca/products/uu2-clip-on-earbuds",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -24071,7 +25723,7 @@
         },
         "5": {
           "value": "Too many apps running",
-          "source_url": "https://soundpeats.com/products/uu2-clip-on-earbuds",
+          "source_url": "https://soundpeats.com/en-ca/products/uu2-clip-on-earbuds",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -24079,7 +25731,7 @@
         },
         "User Guide": {
           "value": "SOUNDPEATS UU2 User Manual",
-          "source_url": "https://soundpeats.com/products/uu2-clip-on-earbuds",
+          "source_url": "https://soundpeats.com/en-ca/products/uu2-clip-on-earbuds",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -24087,7 +25739,7 @@
         },
         "FAQ": {
           "value": "SOUNDPEATS UU2 FAQ",
-          "source_url": "https://soundpeats.com/products/uu2-clip-on-earbuds",
+          "source_url": "https://soundpeats.com/en-ca/products/uu2-clip-on-earbuds",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -24103,9 +25755,9 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://soundpeats.com/products/uu2-clip-on-earbuds",
+          "canonical_url": "https://soundpeats.com/en-ca/products/uu2-clip-on-earbuds",
           "page_language": "en",
-          "official_url": "https://soundpeats.com/products/uu2-clip-on-earbuds",
+          "official_url": "https://soundpeats.com/en-ca/products/uu2-clip-on-earbuds",
           "source_priority": 110,
           "sku": "SP-UU2-BLACK",
           "schema_brand": "SOUNDPEATS"
@@ -24116,7 +25768,7 @@
     },
     {
       "brand": "SteelSeries",
-      "name": "Aerox 5 Wireless",
+      "name": "Aerox 5",
       "category": "鼠标",
       "subcategory": "无线游戏鼠标",
       "status": "在售",
@@ -24160,32 +25812,39 @@
         "适合手型",
         "握法"
       ],
-      "image_url": "",
-      "image_source": "",
+      "image_url": "https://images.ctfassets.net/hmm5mo4qf4mf/Y5b4NuEOsLlGhzxCjj9Vf/697e03b1c784f66cb82b3a529964666f/aerox_5_wl_black_img_buy_01.png__1920x1080_crop-fit_optimize_subsampling-2-900.png?w=1200&h=600&fit=fill&fm=jpg&q=85",
+      "image_source": "https://steelseries.com/gaming-mice/aerox-5",
       "first_seen": "2026-09-09",
-      "last_checked": "",
+      "last_checked": "2026-09-11",
       "sources": [
         {
           "type": "official_product",
           "url": "https://steelseries.com/gaming-mice/aerox-5",
           "tier": 100,
-          "checked_at": "2026-09-09",
+          "checked_at": "2026-09-11",
           "note": "现有数据库官方来源"
         }
       ],
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://steelseries.com/gaming-mice/aerox-5",
+          "page_language": "en",
           "official_url": "https://steelseries.com/gaming-mice/aerox-5",
-          "legacy_record": true
+          "source_priority": 110,
+          "sku": "62406",
+          "schema_brand": "SteelSeries"
         },
-        "quality_gate_version": "legacy",
+        "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "赛睿"
+      "brand_zh_cn": "赛睿",
+      "spec_evidence": {}
     },
     {
       "brand": "SteelSeries",
@@ -26416,6 +28075,6 @@
   ],
   "quality_policy_version": "1.2",
   "language_default": "zh-CN",
-  "quarantined_count": 660,
+  "quarantined_count": 687,
   "quality_migration_revision": 2
 }
