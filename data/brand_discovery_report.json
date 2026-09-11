@@ -2,17 +2,28 @@
   "date": "2026-09-11",
   "provider": "ddgs",
   "queries": [
-    "gaming peripherals new brand official mouse keyboard headset",
-    "gaming mouse manufacturer official website keyboard headset",
-    "hall effect keyboard brand official website",
-    "wireless gaming mouse brand official store",
-    "gaming headset peripheral brand official site"
+    "国产 耳夹式 开放式耳机 品牌 官方网站",
+    "2026 新款 电竞鼠标 键盘 品牌 官网",
+    "中国 机械键盘 厂商 官方网站",
+    "中国 无线游戏鼠标 厂商 官网",
+    "中国 Hall Effect 磁轴键盘 品牌 官方"
   ],
-  "results_scanned": 60,
-  "candidate_sites_checked": 26,
-  "new_candidates": 1,
+  "results_scanned": 31,
+  "candidate_sites_checked": 17,
+  "new_candidates": 2,
   "auto_promoted": 0,
   "approved_promoted": 0,
   "rejected_skipped": 0,
-  "errors": []
+  "errors": [
+    {
+      "stage": "ddgs",
+      "query": "中国 无线游戏鼠标 厂商 官网",
+      "error": "No results found."
+    },
+    {
+      "stage": "ddgs",
+      "query": "中国 Hall Effect 磁轴键盘 品牌 官方",
+      "error": "No results found."
+    }
+  ]
 }
