@@ -2,12 +2,15 @@ name: Update peripheral product database
 
 on:
   schedule:
-    - cron: '20 2 * * 1-6'
-    - cron: '20 2 * * 0'
+    - cron: '*/30 * * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: peripheral-database-update
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -17,7 +20,7 @@ jobs:
     env:
       BRAVE_SEARCH_API_KEY: ${{ secrets.BRAVE_SEARCH_API_KEY }}
       SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
-      PERIPHERALDB_SCAN_MODE: ${{ github.event.schedule == '20 2 * * 0' && 'deep' || 'fast' }}
+      PERIPHERALDB_SCAN_MODE: fast
 
     steps:
       - uses: actions/checkout@v4
