@@ -1337,16 +1337,16 @@
       "market": "官网",
       "first_seen": "2026-09-09",
       "last_verified": "2026-09-09",
-      "last_checked": "2026-09-09",
+      "last_checked": "2026-09-11",
       "source": "https://attackshark.com/products/attack-shark-f1-air-39g-wireless-paw3955max-gaming-mouse",
-      "image_url": "https://attackshark.com/cdn/shop/files/1_d8efa54b-fd23-4da9-9c5b-c1d5c21d5bd0.webp?v=1786413087&width=2048",
+      "image_url": "https://attackshark.com/cdn/shop/files/1_d8efa54b-fd23-4da9-9c5b-c1d5c21d5bd0.webp?v=1786413087&width=1024",
       "image_source": "https://attackshark.com/products/attack-shark-f1-air-39g-wireless-paw3955max-gaming-mouse",
       "sources": [
         {
           "type": "official_product",
           "url": "https://attackshark.com/products/attack-shark-f1-air-39g-wireless-paw3955max-gaming-mouse",
           "tier": 100,
-          "checked_at": "2026-09-09",
+          "checked_at": "2026-09-11",
           "note": "new official product"
         }
       ],
@@ -1355,18 +1355,25 @@
       },
       "conflict": "",
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://attackshark.com/products/attack-shark-f1-air-39g-wireless-paw3955max-gaming-mouse",
+          "page_language": "en",
           "official_url": "https://attackshark.com/products/attack-shark-f1-air-39g-wireless-paw3955max-gaming-mouse",
-          "legacy_record": true
+          "source_priority": 110,
+          "sku": "AS-F1 AIR-White & Black",
+          "schema_brand": "ATTACK SHARK"
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "攻击鲨"
+      "brand_zh_cn": "攻击鲨",
+      "spec_evidence": {}
     },
     {
       "brand": "ATTACK SHARK",
@@ -1649,6 +1656,53 @@
           "official_url": "https://attackshark.com/products/attack-shark-g500-ultra-light-dual-mode-gaming-headset",
           "source_priority": 110,
           "sku": "AS-G500-Black",
+          "schema_brand": "ATTACK SHARK"
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": true
+      }
+    },
+    {
+      "brand": "ATTACK SHARK",
+      "brand_zh_cn": "攻击鲨",
+      "name": "K85",
+      "category": "键盘",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "中国",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://attackshark.com/products/attack-shark-k85-rapid-trigger-gaming-keyboard-magnetic-switch",
+      "image_url": "https://attackshark.com/cdn/shop/files/1500_2_61c7f4f8-6a47-43cd-b218-4076475f1b64.jpg?v=1742623189&width=1024",
+      "image_source": "https://attackshark.com/products/attack-shark-k85-rapid-trigger-gaming-keyboard-magnetic-switch",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://attackshark.com/products/attack-shark-k85-rapid-trigger-gaming-keyboard-magnetic-switch",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {},
+      "spec_evidence": {},
+      "conflict": "",
+      "verification": {
+        "status": "official_discovered",
+        "confidence": 0.78,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 2,
+          "canonical_url": "https://attackshark.com/products/attack-shark-k85-rapid-trigger-gaming-keyboard-magnetic-switch",
+          "page_language": "en",
+          "official_url": "https://attackshark.com/products/attack-shark-k85-rapid-trigger-gaming-keyboard-magnetic-switch",
+          "source_priority": 110,
+          "sku": "AS-K85 Grey",
           "schema_brand": "ATTACK SHARK"
         },
         "quality_gate_version": "1.3-audited",
@@ -2265,16 +2319,16 @@
       "market": "官网",
       "first_seen": "2026-09-09",
       "last_verified": "2026-09-09",
-      "last_checked": "2026-09-09",
+      "last_checked": "2026-09-11",
       "source": "https://attackshark.com/products/attackshark-ajazz-ak820-mechanical-keyboard",
-      "image_url": "https://cdn.shopify.com/s/files/1/0823/5050/6282/files/AK820_1500_c5999cef-c5a3-412c-b078-0c1e08376ab3.jpg?v=1712669871",
+      "image_url": "https://attackshark.com/cdn/shop/files/AK820_1500_c5999cef-c5a3-412c-b078-0c1e08376ab3.jpg?v=1712669871&width=1024",
       "image_source": "https://attackshark.com/products/attackshark-ajazz-ak820-mechanical-keyboard",
       "sources": [
         {
           "type": "official_product",
           "url": "https://attackshark.com/products/attackshark-ajazz-ak820-mechanical-keyboard",
           "tier": 100,
-          "checked_at": "2026-09-09",
+          "checked_at": "2026-09-11",
           "note": "new official product"
         }
       ],
@@ -2283,18 +2337,25 @@
       },
       "conflict": "",
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": true,
+          "product_schema_count": 2,
+          "canonical_url": "https://attackshark.com/products/attackshark-ajazz-ak820-mechanical-keyboard",
+          "page_language": "en",
           "official_url": "https://attackshark.com/products/attackshark-ajazz-ak820-mechanical-keyboard",
-          "legacy_record": true
+          "source_priority": 110,
+          "sku": "AS-AK820-White",
+          "schema_brand": "ATTACK SHARK"
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "攻击鲨"
+      "brand_zh_cn": "攻击鲨",
+      "spec_evidence": {}
     },
     {
       "brand": "ATTACK SHARK",
@@ -3700,6 +3761,82 @@
     {
       "brand": "Baseus",
       "brand_zh_cn": "倍思",
+      "name": "Bass EP10 Ultra",
+      "category": "耳机/耳麦",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "中国",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://www.baseus.com/products/bass-ep10-ultra-in-ear-true-wireless-earbuds",
+      "image_url": "https://www.baseus.com/cdn/shop/files/Baseus_Bass_EP10_Ultra_In_Ear_True_Wireless_Earbuds_1.jpg?v=1787044985&width=1024",
+      "image_source": "https://www.baseus.com/products/bass-ep10-ultra-in-ear-true-wireless-earbuds",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://www.baseus.com/products/bass-ep10-ultra-in-ear-true-wireless-earbuds",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "Shipped From": "Processing Time",
+        "US": "1-2 Business day",
+        "HongKong": "1-2 Business day"
+      },
+      "spec_evidence": {
+        "Shipped From": {
+          "value": "Processing Time",
+          "source_url": "https://www.baseus.com/products/bass-ep10-ultra-in-ear-true-wireless-earbuds",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "US": {
+          "value": "1-2 Business day",
+          "source_url": "https://www.baseus.com/products/bass-ep10-ultra-in-ear-true-wireless-earbuds",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "HongKong": {
+          "value": "1-2 Business day",
+          "source_url": "https://www.baseus.com/products/bass-ep10-ultra-in-ear-true-wireless-earbuds",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_discovered",
+        "confidence": 0.78,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://baseus.com/products/bass-ep10-ultra-in-ear-true-wireless-earbuds",
+          "page_language": "en",
+          "official_url": "https://www.baseus.com/products/bass-ep10-ultra-in-ear-true-wireless-earbuds",
+          "source_priority": 110,
+          "sku": "A0010G06",
+          "schema_brand": "Baseus"
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": true
+      }
+    },
+    {
+      "brand": "Baseus",
+      "brand_zh_cn": "倍思",
       "name": "Bowie 30",
       "category": "耳机/耳麦",
       "subcategory": "自动发现",
@@ -4505,6 +4642,82 @@
     {
       "brand": "Baseus",
       "brand_zh_cn": "倍思",
+      "name": "Bowie MC2 Air",
+      "category": "耳机/耳麦",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "中国",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://www.baseus.com/products/bowie-mc2-air-open-ear-true-wireless-earbuds",
+      "image_url": "https://www.baseus.com/cdn/shop/files/Baseus_Bowie_MC2_Air_Open_Ear_True_Wireless_Earbuds_Cosmic_Black_1.jpg?v=1778826723&width=1024",
+      "image_source": "https://www.baseus.com/products/bowie-mc2-air-open-ear-true-wireless-earbuds",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://www.baseus.com/products/bowie-mc2-air-open-ear-true-wireless-earbuds",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "Shipped From": "Processing Time",
+        "US": "1-2 Business day",
+        "HongKong": "1-2 Business day"
+      },
+      "spec_evidence": {
+        "Shipped From": {
+          "value": "Processing Time",
+          "source_url": "https://www.baseus.com/products/bowie-mc2-air-open-ear-true-wireless-earbuds",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "US": {
+          "value": "1-2 Business day",
+          "source_url": "https://www.baseus.com/products/bowie-mc2-air-open-ear-true-wireless-earbuds",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "HongKong": {
+          "value": "1-2 Business day",
+          "source_url": "https://www.baseus.com/products/bowie-mc2-air-open-ear-true-wireless-earbuds",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_discovered",
+        "confidence": 0.78,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://baseus.com/products/bowie-mc2-air-open-ear-true-wireless-earbuds",
+          "page_language": "en",
+          "official_url": "https://www.baseus.com/products/bowie-mc2-air-open-ear-true-wireless-earbuds",
+          "source_priority": 110,
+          "sku": "A0102A04",
+          "schema_brand": "Baseus"
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": true
+      }
+    },
+    {
+      "brand": "Baseus",
+      "brand_zh_cn": "倍思",
       "name": "Bowie WM01",
       "category": "耳机/耳麦",
       "subcategory": "自动发现",
@@ -4776,6 +4989,136 @@
       }
     },
     {
+      "brand": "Baseus",
+      "brand_zh_cn": "倍思",
+      "name": "Inspire XP1",
+      "category": "耳机/耳麦",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "中国",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://www.baseus.com/products/inspire-xp1-true-wireless-earbuds",
+      "image_url": "https://www.baseus.com/cdn/shop/files/Baseus_Inspire_XP1_True_Wireless_Earbuds__White_Black_8.jpg?v=1756823671&width=1024",
+      "image_source": "https://www.baseus.com/products/inspire-xp1-true-wireless-earbuds",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://www.baseus.com/products/inspire-xp1-true-wireless-earbuds",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "Shipped From": "Processing Time",
+        "US": "1-2 Business day",
+        "HongKong": "1-2 Business day",
+        "Audio": "Driver Unit: 10 mm dynamic Frequency Response Range: 20 Hz – 20 kHz Audio Codec: SBC, AAC",
+        "Connectivity": "Connection Modes: Bluetooth Bluetooth Version: V6.1 Multipoint Connection: Yes Low Latency: 60 ms",
+        "Battery": "Battery Capacity: 49 mAh/ 0.189 Wh (per earbud), 600 mAh/ 2.22 Wh (charging case) Playback Time: Approx. 8 hours (with ANC off and volume at 50%) Playback Time with Charging Case: Approx. 45 hours (with ANC off)",
+        "ANC": "Transparency Mode: Yes",
+        "General": "Water Resistance: IPX4 Baseus App Support: Yes Product Materials: ABS + PC Ear Tip Material: Liquid Silicone Weight: Approx. 130.5 g",
+        "What's in the Box": "Inspire XP1 Earbuds S / M / L Ear Tips USB-C Cable"
+      },
+      "spec_evidence": {
+        "Shipped From": {
+          "value": "Processing Time",
+          "source_url": "https://www.baseus.com/products/inspire-xp1-true-wireless-earbuds",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "US": {
+          "value": "1-2 Business day",
+          "source_url": "https://www.baseus.com/products/inspire-xp1-true-wireless-earbuds",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "HongKong": {
+          "value": "1-2 Business day",
+          "source_url": "https://www.baseus.com/products/inspire-xp1-true-wireless-earbuds",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Audio": {
+          "value": "Driver Unit: 10 mm dynamic Frequency Response Range: 20 Hz – 20 kHz Audio Codec: SBC, AAC",
+          "source_url": "https://www.baseus.com/products/inspire-xp1-true-wireless-earbuds",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Connectivity": {
+          "value": "Connection Modes: Bluetooth Bluetooth Version: V6.1 Multipoint Connection: Yes Low Latency: 60 ms",
+          "source_url": "https://www.baseus.com/products/inspire-xp1-true-wireless-earbuds",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Battery": {
+          "value": "Battery Capacity: 49 mAh/ 0.189 Wh (per earbud), 600 mAh/ 2.22 Wh (charging case) Playback Time: Approx. 8 hours (with ANC off and volume at 50%) Playback Time with Charging Case: Approx. 45 hours (with ANC off)",
+          "source_url": "https://www.baseus.com/products/inspire-xp1-true-wireless-earbuds",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "ANC": {
+          "value": "Transparency Mode: Yes",
+          "source_url": "https://www.baseus.com/products/inspire-xp1-true-wireless-earbuds",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "General": {
+          "value": "Water Resistance: IPX4 Baseus App Support: Yes Product Materials: ABS + PC Ear Tip Material: Liquid Silicone Weight: Approx. 130.5 g",
+          "source_url": "https://www.baseus.com/products/inspire-xp1-true-wireless-earbuds",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "What's in the Box": {
+          "value": "Inspire XP1 Earbuds S / M / L Ear Tips USB-C Cable",
+          "source_url": "https://www.baseus.com/products/inspire-xp1-true-wireless-earbuds",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_verified",
+        "confidence": 0.92,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://baseus.com/products/inspire-xp1-true-wireless-earbuds",
+          "page_language": "en",
+          "official_url": "https://www.baseus.com/products/inspire-xp1-true-wireless-earbuds",
+          "source_priority": 110,
+          "sku": "A0010902",
+          "schema_brand": "Baseus"
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": false
+      }
+    },
+    {
       "brand": "Corsair",
       "name": "iCUE",
       "category": "耳机/耳麦",
@@ -4946,6 +5289,20 @@
           "tier": 100,
           "checked_at": "2026-09-10",
           "note": "new official product"
+        },
+        {
+          "type": "official_product",
+          "url": "https://dareu.com/products/dareu-a104x-wholesale-8k-full-size-wired-mechanical-gaming-keyboard",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
+        },
+        {
+          "type": "official_product",
+          "url": "https://dareu.com/en-eu/products/dareu-a104x-8k-full-size-wired-mechanical-gaming-keyboard",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
         }
       ],
       "specs": {
@@ -4953,18 +5310,92 @@
       },
       "conflict": "",
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
-        "source_count": 1,
+        "source_count": 3,
         "conflicts": [],
         "evidence": {
-          "official_url": "https://dareu.com/en-eu/products/dareu-a104x-wholesale-8k-full-size-wired-mechanical-gaming-keyboard",
-          "legacy_record": true
+          "product_schema": true,
+          "product_schema_count": 2,
+          "canonical_url": "https://dareu.com/en-eu/products/dareu-a104x-8k-full-size-wired-mechanical-gaming-keyboard",
+          "page_language": "en",
+          "official_url": "https://dareu.com/en-eu/products/dareu-a104x-8k-full-size-wired-mechanical-gaming-keyboard",
+          "source_priority": 110,
+          "sku": "",
+          "schema_brand": "Dareu"
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "达尔优"
+      "brand_zh_cn": "达尔优",
+      "spec_evidence": {
+        "Product": {
+          "value": "Total",
+          "source_url": "https://dareu.com/en-eu/products/dareu-a104x-8k-full-size-wired-mechanical-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      }
+    },
+    {
+      "brand": "Dareu",
+      "brand_zh_cn": "达尔优",
+      "name": "A3",
+      "category": "耳机/耳麦",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "中国",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://dareu.com/products/dareu-a3-stylish-gaming-headset-with-ultra-low-latency-for-competitive-play",
+      "image_url": "https://dareu.com/cdn/shop/files/e40cbbf6e7fed96557d8e2be99e4b9cf_fcba090c-156c-498b-95b2-b66c21add7f1.png?v=1775714912",
+      "image_source": "https://dareu.com/products/dareu-a3-stylish-gaming-headset-with-ultra-low-latency-for-competitive-play",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://dareu.com/products/dareu-a3-stylish-gaming-headset-with-ultra-low-latency-for-competitive-play",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "Product": "Total"
+      },
+      "spec_evidence": {
+        "Product": {
+          "value": "Total",
+          "source_url": "https://dareu.com/products/dareu-a3-stylish-gaming-headset-with-ultra-low-latency-for-competitive-play",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_discovered",
+        "confidence": 0.78,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 2,
+          "canonical_url": "https://dareu.com/products/dareu-a3-stylish-gaming-headset-with-ultra-low-latency-for-competitive-play",
+          "page_language": "en",
+          "official_url": "https://dareu.com/products/dareu-a3-stylish-gaming-headset-with-ultra-low-latency-for-competitive-play",
+          "source_priority": 110,
+          "sku": "",
+          "schema_brand": "Dareu"
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": true
+      }
     },
     {
       "brand": "Dareu",
@@ -5046,6 +5477,13 @@
           "tier": 100,
           "checked_at": "2026-09-10",
           "note": "new official product"
+        },
+        {
+          "type": "official_product",
+          "url": "https://dareu.com/en-eu/products/dareu-a710x-gaming-headphone",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
         }
       ],
       "specs": {
@@ -5053,18 +5491,34 @@
       },
       "conflict": "",
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
-        "source_count": 1,
+        "source_count": 2,
         "conflicts": [],
         "evidence": {
-          "official_url": "https://dareu.com/products/dareu-a710x-gaming-headphone",
-          "legacy_record": true
+          "product_schema": true,
+          "product_schema_count": 2,
+          "canonical_url": "https://dareu.com/en-eu/products/dareu-a710x-gaming-headphone",
+          "page_language": "en",
+          "official_url": "https://dareu.com/en-eu/products/dareu-a710x-gaming-headphone",
+          "source_priority": 110,
+          "sku": "",
+          "schema_brand": "Dareu"
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "达尔优"
+      "brand_zh_cn": "达尔优",
+      "spec_evidence": {
+        "Product": {
+          "value": "Total",
+          "source_url": "https://dareu.com/en-eu/products/dareu-a710x-gaming-headphone",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      }
     },
     {
       "brand": "Dareu",
@@ -5174,6 +5628,13 @@
           "tier": 110,
           "checked_at": "2026-09-11",
           "note": "additional official page"
+        },
+        {
+          "type": "official_product",
+          "url": "https://dareu.com/en-eu/products/dareu-a950-wireless-gaming-mouse",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
         }
       ],
       "specs": {
@@ -5183,14 +5644,14 @@
       "verification": {
         "status": "official_discovered",
         "confidence": 0.7,
-        "source_count": 3,
+        "source_count": 4,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 2,
-          "canonical_url": "https://dareu.com/products/dareu-a950-wireless-gaming-mouse",
+          "canonical_url": "https://dareu.com/en-eu/products/dareu-a950-wireless-gaming-mouse",
           "page_language": "en",
-          "official_url": "https://dareu.com/products/dareu-a950-wireless-gaming-mouse",
+          "official_url": "https://dareu.com/en-eu/products/dareu-a950-wireless-gaming-mouse",
           "source_priority": 110,
           "sku": "",
           "schema_brand": "Dareu"
@@ -5202,7 +5663,7 @@
       "spec_evidence": {
         "Product": {
           "value": "Total",
-          "source_url": "https://dareu.com/products/dareu-a950-wireless-gaming-mouse",
+          "source_url": "https://dareu.com/en-eu/products/dareu-a950-wireless-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -7466,11 +7927,11 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://eksa.net/products/eksa-e1000-v2-rgb-wired-gaming-headset",
+          "canonical_url": "https://eksa.net/products/eksa%c2%ae-e1000-v2-rgb-wired-gaming-headset-copy",
           "page_language": "en",
-          "official_url": "https://www.eksa.net/products/eksa-e1000-v2-rgb-wired-gaming-headset",
+          "official_url": "https://www.eksa.net/products/eksa%C2%AE-e1000-v2-rgb-wired-gaming-headset-copy",
           "source_priority": 110,
-          "sku": "E1000 V2 - Black",
+          "sku": "E1000 V2 - Pink",
           "schema_brand": "EKSA"
         },
         "quality_gate_version": "1.3-audited",
@@ -7592,11 +8053,11 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://eksa.net/products/eksa-e900-pro-2set",
+          "canonical_url": "https://eksa.net/products/eksa-e900-pro-7-1-virtual-surround-sound-yellow-gaming-headset-upgraded",
           "page_language": "en",
-          "official_url": "https://www.eksa.net/products/eksa-e900-pro-2set",
+          "official_url": "https://www.eksa.net/products/eksa-e900-pro-7-1-virtual-surround-sound-yellow-gaming-headset-upgraded",
           "source_priority": 110,
-          "sku": "E900 Pro Black + White",
+          "sku": "E900 Pro - Yellow",
           "schema_brand": "EKSA"
         },
         "quality_gate_version": "1.3-audited",
@@ -8076,6 +8537,262 @@
     {
       "brand": "Glorious",
       "brand_zh_cn": "Glorious",
+      "name": "GMMK 3",
+      "category": "键盘",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "海外",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://www.gloriousgaming.com/products/gmmk-3-barebones-keyboard",
+      "image_url": "https://www.gloriousgaming.com/cdn/shop/files/GLO-KB-GMMK3-65-BB-W-BLK-US_Web_Gallery_Top.webp?v=1725673843&width=1920",
+      "image_source": "https://www.gloriousgaming.com/products/gmmk-3-barebones-keyboard",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://www.gloriousgaming.com/products/gmmk-3-barebones-keyboard",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "Warranty": "2 Years",
+        "Switch Type": "Not Included",
+        "Hot Swappable": "Yes; 5-pin Mechanical",
+        "Size": "Size 65%, 75%, 100%",
+        "Hall Effect (Rapid Trigger)": "No",
+        "Connectivity": "Wired",
+        "Lighting": "3 Zones: Per-key Backlighting, Side Lights, Badge",
+        "Colors": "Black",
+        "Case Material": "Case Material Polymer",
+        "Keycap Material": "Not Included",
+        "Software": "Glorious CORE",
+        "Max Polling Rate": "1,000 Hz",
+        "OS Support": "Windows, macOS, Linux",
+        "On-Board Memory Profiles": "3",
+        "Mounting Style": "Mounting Style Gasket",
+        "QMK Support": "No",
+        "Knob Support": "Knob Support Yes",
+        "Battery Life": "None",
+        "Specification name": "GMMK 3 Barebones Keyboard",
+        "Price": "Price",
+        "Reviews": "Reviews",
+        "Color": "Color Black",
+        "Add to Cart buttons": "Add to Cart"
+      },
+      "spec_evidence": {
+        "Warranty": {
+          "value": "2 Years",
+          "source_url": "https://www.gloriousgaming.com/products/gmmk-3-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Switch Type": {
+          "value": "Not Included",
+          "source_url": "https://www.gloriousgaming.com/products/gmmk-3-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Hot Swappable": {
+          "value": "Yes; 5-pin Mechanical",
+          "source_url": "https://www.gloriousgaming.com/products/gmmk-3-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Size": {
+          "value": "Size 65%, 75%, 100%",
+          "source_url": "https://www.gloriousgaming.com/products/gmmk-3-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Hall Effect (Rapid Trigger)": {
+          "value": "No",
+          "source_url": "https://www.gloriousgaming.com/products/gmmk-3-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Connectivity": {
+          "value": "Wired",
+          "source_url": "https://www.gloriousgaming.com/products/gmmk-3-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Lighting": {
+          "value": "3 Zones: Per-key Backlighting, Side Lights, Badge",
+          "source_url": "https://www.gloriousgaming.com/products/gmmk-3-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Colors": {
+          "value": "Black",
+          "source_url": "https://www.gloriousgaming.com/products/gmmk-3-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Case Material": {
+          "value": "Case Material Polymer",
+          "source_url": "https://www.gloriousgaming.com/products/gmmk-3-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Keycap Material": {
+          "value": "Not Included",
+          "source_url": "https://www.gloriousgaming.com/products/gmmk-3-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Software": {
+          "value": "Glorious CORE",
+          "source_url": "https://www.gloriousgaming.com/products/gmmk-3-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Max Polling Rate": {
+          "value": "1,000 Hz",
+          "source_url": "https://www.gloriousgaming.com/products/gmmk-3-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "OS Support": {
+          "value": "Windows, macOS, Linux",
+          "source_url": "https://www.gloriousgaming.com/products/gmmk-3-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "On-Board Memory Profiles": {
+          "value": "3",
+          "source_url": "https://www.gloriousgaming.com/products/gmmk-3-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Mounting Style": {
+          "value": "Mounting Style Gasket",
+          "source_url": "https://www.gloriousgaming.com/products/gmmk-3-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "QMK Support": {
+          "value": "No",
+          "source_url": "https://www.gloriousgaming.com/products/gmmk-3-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Knob Support": {
+          "value": "Knob Support Yes",
+          "source_url": "https://www.gloriousgaming.com/products/gmmk-3-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Battery Life": {
+          "value": "None",
+          "source_url": "https://www.gloriousgaming.com/products/gmmk-3-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Specification name": {
+          "value": "GMMK 3 Barebones Keyboard",
+          "source_url": "https://www.gloriousgaming.com/products/gmmk-3-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Price": {
+          "value": "Price",
+          "source_url": "https://www.gloriousgaming.com/products/gmmk-3-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Reviews": {
+          "value": "Reviews",
+          "source_url": "https://www.gloriousgaming.com/products/gmmk-3-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Color": {
+          "value": "Color Black",
+          "source_url": "https://www.gloriousgaming.com/products/gmmk-3-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Add to Cart buttons": {
+          "value": "Add to Cart",
+          "source_url": "https://www.gloriousgaming.com/products/gmmk-3-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_verified",
+        "confidence": 0.92,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 2,
+          "canonical_url": "https://gloriousgaming.com/products/gmmk-3-barebones-keyboard",
+          "page_language": "en",
+          "official_url": "https://www.gloriousgaming.com/products/gmmk-3-barebones-keyboard",
+          "source_priority": 110,
+          "sku": "GLO-KB-GMMK3-65-BB-W-BLK-US",
+          "schema_brand": "GMMK 3 Barebones"
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": false
+      }
+    },
+    {
+      "brand": "Glorious",
+      "brand_zh_cn": "Glorious",
       "name": "GMMK 3 HE",
       "category": "键盘",
       "subcategory": "自动发现",
@@ -8331,6 +9048,269 @@
     },
     {
       "brand": "Glorious",
+      "brand_zh_cn": "Glorious",
+      "name": "GMMK 3 PRO",
+      "category": "键盘",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "海外",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://www.gloriousgaming.com/en-fr/products/gmmk-3-pro-prebuilt-wireless-keyboard",
+      "image_url": "https://www.gloriousgaming.com/cdn/shop/files/GLO-KB-GMMK3-PRO-75-PB-FOX-WL-BLK-US_Web_Gallery_Top.webp?v=1725659205&width=1920",
+      "image_source": "https://www.gloriousgaming.com/en-fr/products/gmmk-3-pro-prebuilt-wireless-keyboard",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://www.gloriousgaming.com/en-fr/products/gmmk-3-pro-prebuilt-wireless-keyboard",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        },
+        {
+          "type": "official_product",
+          "url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
+        }
+      ],
+      "specs": {
+        "Warranty": "2 Years",
+        "Switch Type": "Linear Mechanical",
+        "Hot Swappable": "Yes; 3 & 5-pin Mechanical",
+        "Size": "Size 75%",
+        "Hall Effect (Rapid Trigger)": "No",
+        "Connectivity": "Wireless",
+        "Lighting": "3 Zones: Per-key Backlighting, Side Lights, Badge",
+        "Colors": "Black; Silver",
+        "Case Material": "Case Material CNC Aluminum",
+        "Keycap Material": "Doubleshot PBT",
+        "Software": "Glorious CORE",
+        "Max Polling Rate": "1,000 Hz",
+        "OS Support": "Windows, macOS, Linux",
+        "On-Board Memory Profiles": "3",
+        "Mounting Style": "Mounting Style Gasket",
+        "QMK Support": "No",
+        "Knob Support": "Knob Support Yes",
+        "Battery Life": "2.4Ghz: 24 hrs; Bluetooth: 21 hrs",
+        "Specification name": "GMMK 3 PRO Prebuilt Wireless Keyboard",
+        "Price": "Price",
+        "Reviews": "Reviews",
+        "Color": "Color Black; Silver",
+        "Add to Cart buttons": "Add to Cart"
+      },
+      "spec_evidence": {
+        "Warranty": {
+          "value": "2 Years",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Switch Type": {
+          "value": "Linear Mechanical",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-3-pro-prebuilt-wireless-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Hot Swappable": {
+          "value": "Yes; 3 & 5-pin Mechanical",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Size": {
+          "value": "Size 75%",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-3-pro-prebuilt-wireless-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Hall Effect (Rapid Trigger)": {
+          "value": "No",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Connectivity": {
+          "value": "Wireless",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-3-pro-prebuilt-wireless-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Lighting": {
+          "value": "3 Zones: Per-key Backlighting, Side Lights, Badge",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Colors": {
+          "value": "Black; Silver",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Case Material": {
+          "value": "Case Material CNC Aluminum",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Keycap Material": {
+          "value": "Doubleshot PBT",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-3-pro-prebuilt-wireless-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Software": {
+          "value": "Glorious CORE",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Max Polling Rate": {
+          "value": "1,000 Hz",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "OS Support": {
+          "value": "Windows, macOS, Linux",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "On-Board Memory Profiles": {
+          "value": "3",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Mounting Style": {
+          "value": "Mounting Style Gasket",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "QMK Support": {
+          "value": "No",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Knob Support": {
+          "value": "Knob Support Yes",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Battery Life": {
+          "value": "2.4Ghz: 24 hrs; Bluetooth: 21 hrs",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-3-pro-prebuilt-wireless-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Specification name": {
+          "value": "GMMK 3 PRO Prebuilt Wireless Keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-3-pro-prebuilt-wireless-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Price": {
+          "value": "Price",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Reviews": {
+          "value": "Reviews",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Color": {
+          "value": "Color Black; Silver",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Add to Cart buttons": {
+          "value": "Add to Cart",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "conflict",
+        "confidence": 0.92,
+        "source_count": 2,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 2,
+          "canonical_url": "https://gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "page_language": "en",
+          "official_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
+          "source_priority": 110,
+          "sku": "GLO-KB-GMMK3-PRO-65-BB-W-BLK-US",
+          "schema_brand": "GMMK 3 Barebones"
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": false
+      }
+    },
+    {
+      "brand": "Glorious",
       "name": "GMMK 3 PRO HE",
       "category": "键盘",
       "subcategory": "自动发现",
@@ -8542,6 +9522,199 @@
           "checked_at": "2026-09-11",
           "claim_type": "厂商标称"
         }
+      }
+    },
+    {
+      "brand": "Glorious",
+      "brand_zh_cn": "Glorious",
+      "name": "GMMK Eternal 96%",
+      "category": "键盘",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "海外",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://www.gloriousgaming.com/en-fr/products/gmmk-eternal-96-keyboard",
+      "image_url": "https://www.gloriousgaming.com/cdn/shop/files/GLO-GMMK-ETERNAL-96-BLK-US_Web_Gallery_1.webp?v=1788363072&width=1920",
+      "image_source": "https://www.gloriousgaming.com/en-fr/products/gmmk-eternal-96-keyboard",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://www.gloriousgaming.com/en-fr/products/gmmk-eternal-96-keyboard",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "Warranty": "2 years",
+        "Switch Type": "Glorious Fox Switches",
+        "Hot Swappable": "Yes",
+        "Size": "96%",
+        "Hall Effect (Rapid Trigger)": "No",
+        "Connectivity": "Wired",
+        "Lighting": "Per-key RGB lighting",
+        "Colors": "Black",
+        "Case Material": "Aluminum Top Plate",
+        "Keycap Material": "ABS Double-Shot",
+        "Software": "Glorious CORE",
+        "Max Polling Rate": "1,000 Hz",
+        "OS Support": "Windows 10+ ; macOS 10.11 or later",
+        "On-Board Memory Profiles": "3",
+        "Layout": "US, UK, ND",
+        "Stabilizers": "Cherry-style, Pre-lubed"
+      },
+      "spec_evidence": {
+        "Warranty": {
+          "value": "2 years",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-eternal-96-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Switch Type": {
+          "value": "Glorious Fox Switches",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-eternal-96-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Hot Swappable": {
+          "value": "Yes",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-eternal-96-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Size": {
+          "value": "96%",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-eternal-96-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Hall Effect (Rapid Trigger)": {
+          "value": "No",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-eternal-96-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Connectivity": {
+          "value": "Wired",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-eternal-96-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Lighting": {
+          "value": "Per-key RGB lighting",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-eternal-96-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Colors": {
+          "value": "Black",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-eternal-96-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Case Material": {
+          "value": "Aluminum Top Plate",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-eternal-96-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Keycap Material": {
+          "value": "ABS Double-Shot",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-eternal-96-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Software": {
+          "value": "Glorious CORE",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-eternal-96-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Max Polling Rate": {
+          "value": "1,000 Hz",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-eternal-96-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "OS Support": {
+          "value": "Windows 10+ ; macOS 10.11 or later",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-eternal-96-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "On-Board Memory Profiles": {
+          "value": "3",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-eternal-96-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Layout": {
+          "value": "US, UK, ND",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-eternal-96-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Stabilizers": {
+          "value": "Cherry-style, Pre-lubed",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-eternal-96-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_verified",
+        "confidence": 0.92,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://gloriousgaming.com/en-fr/products/gmmk-eternal-96-keyboard",
+          "page_language": "en",
+          "official_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-eternal-96-keyboard",
+          "source_priority": 110,
+          "sku": "GLO-GMMKE96-BLK-US",
+          "schema_brand": "Glorious"
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": false
       }
     },
     {
@@ -10337,12 +11510,22 @@
           "tier": 110,
           "checked_at": "2026-09-11",
           "note": "new official product"
+        },
+        {
+          "type": "official_product",
+          "url": "https://haylou.com/products/haylou-w1-anc-tws-earbuds",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
         }
       ],
       "specs": {
         "Звычайная цана": "$49.00",
         "Адпускная цана": "$49.00",
-        "Цана за адзінку": "/ пер"
+        "Цана за адзінку": "/ пер",
+        "Regular price": "$49.00",
+        "Sale price": "$49.00",
+        "Unit price": "/ per"
       },
       "spec_evidence": {
         "Звычайная цана": {
@@ -10368,26 +11551,297 @@
           "source_priority": 110,
           "checked_at": "2026-09-11",
           "claim_type": "厂商标称"
+        },
+        "Regular price": {
+          "value": "$49.00",
+          "source_url": "https://haylou.com/products/haylou-w1-anc-tws-earbuds",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Sale price": {
+          "value": "$49.00",
+          "source_url": "https://haylou.com/products/haylou-w1-anc-tws-earbuds",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Unit price": {
+          "value": "/ per",
+          "source_url": "https://haylou.com/products/haylou-w1-anc-tws-earbuds",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
         }
       },
       "conflict": "",
       "verification": {
-        "status": "official_discovered",
-        "confidence": 0.78,
-        "source_count": 1,
+        "status": "official_verified",
+        "confidence": 0.92,
+        "source_count": 2,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://haylou.com/be/products/haylou-w1-anc-tws-earbuds",
-          "page_language": "be",
-          "official_url": "https://haylou.com/be/products/haylou-w1-anc-tws-earbuds",
+          "canonical_url": "https://haylou.com/products/haylou-w1-anc-tws-earbuds",
+          "page_language": "en",
+          "official_url": "https://haylou.com/products/haylou-w1-anc-tws-earbuds",
           "source_priority": 110,
           "sku": "W1ANC_T007-BLUE",
           "schema_brand": "Haylou"
         },
         "quality_gate_version": "1.3-audited",
-        "needs_review": true
+        "needs_review": false
+      }
+    },
+    {
+      "brand": "HyperX",
+      "brand_zh_cn": "极度未知",
+      "name": "Alloy Origins",
+      "category": "键盘",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "海外",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://hyperx.com/products/hyperx-alloy-origins-mechanical-gaming-keyboard",
+      "image_url": "https://hyperx.com/cdn/shop/files/hyperx_alloy_origins_us_1_top_down_ee99a353-2d7b-43a1-9bd6-11f736d1b510_1024x1024.jpg?v=1783095510",
+      "image_source": "https://hyperx.com/products/hyperx-alloy-origins-mechanical-gaming-keyboard",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://hyperx.com/products/hyperx-alloy-origins-mechanical-gaming-keyboard",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "Switch": "HyperX Aqua",
+        "Form Factor": "Full Size",
+        "Keyboard Layout": "US Layout",
+        "Actuation Point": "1.8mm",
+        "Backlight": "RGB (16,777,216 colors)",
+        "Light Effects": "Per key RGB lighting and 5 brightness levels",
+        "Onboard Memory": "3 profiles",
+        "Rollover": "N-key",
+        "Acceleration": "Yes",
+        "Game Mode": "Yes",
+        "OS Compatibility": "Windows® 10, 8.1, 8, 7",
+        "Connectivity": "Wired",
+        "Compatibility": "PC, PS5™, PS4™, Xbox Series X|S™, and Xbox One™. Software Compatibility: HyperX NGENUITY",
+        "Operation Style": "Tactile",
+        "Total Travel Distance": "3.8mm",
+        "Width": "442.5mm",
+        "Depth": "132.5mm",
+        "Height": "36.4mm",
+        "Weight": "Weight (with cable): 2.36lb",
+        "Cable Type": "USB-C to USB-A, Braided",
+        "Cable Length (imperial) and type": "5.9ft | USB-C to USB-A, Braided",
+        "Unit price": "/ per"
+      },
+      "spec_evidence": {
+        "Switch": {
+          "value": "HyperX Aqua",
+          "source_url": "https://hyperx.com/products/hyperx-alloy-origins-mechanical-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Form Factor": {
+          "value": "Full Size",
+          "source_url": "https://hyperx.com/products/hyperx-alloy-origins-mechanical-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Keyboard Layout": {
+          "value": "US Layout",
+          "source_url": "https://hyperx.com/products/hyperx-alloy-origins-mechanical-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Actuation Point": {
+          "value": "1.8mm",
+          "source_url": "https://hyperx.com/products/hyperx-alloy-origins-mechanical-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Backlight": {
+          "value": "RGB (16,777,216 colors)",
+          "source_url": "https://hyperx.com/products/hyperx-alloy-origins-mechanical-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Light Effects": {
+          "value": "Per key RGB lighting and 5 brightness levels",
+          "source_url": "https://hyperx.com/products/hyperx-alloy-origins-mechanical-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Onboard Memory": {
+          "value": "3 profiles",
+          "source_url": "https://hyperx.com/products/hyperx-alloy-origins-mechanical-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Rollover": {
+          "value": "N-key",
+          "source_url": "https://hyperx.com/products/hyperx-alloy-origins-mechanical-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Acceleration": {
+          "value": "Yes",
+          "source_url": "https://hyperx.com/products/hyperx-alloy-origins-mechanical-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Game Mode": {
+          "value": "Yes",
+          "source_url": "https://hyperx.com/products/hyperx-alloy-origins-mechanical-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "OS Compatibility": {
+          "value": "Windows® 10, 8.1, 8, 7",
+          "source_url": "https://hyperx.com/products/hyperx-alloy-origins-mechanical-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Connectivity": {
+          "value": "Wired",
+          "source_url": "https://hyperx.com/products/hyperx-alloy-origins-mechanical-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Compatibility": {
+          "value": "PC, PS5™, PS4™, Xbox Series X|S™, and Xbox One™. Software Compatibility: HyperX NGENUITY",
+          "source_url": "https://hyperx.com/products/hyperx-alloy-origins-mechanical-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Operation Style": {
+          "value": "Tactile",
+          "source_url": "https://hyperx.com/products/hyperx-alloy-origins-mechanical-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Total Travel Distance": {
+          "value": "3.8mm",
+          "source_url": "https://hyperx.com/products/hyperx-alloy-origins-mechanical-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Width": {
+          "value": "442.5mm",
+          "source_url": "https://hyperx.com/products/hyperx-alloy-origins-mechanical-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Depth": {
+          "value": "132.5mm",
+          "source_url": "https://hyperx.com/products/hyperx-alloy-origins-mechanical-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Height": {
+          "value": "36.4mm",
+          "source_url": "https://hyperx.com/products/hyperx-alloy-origins-mechanical-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Weight": {
+          "value": "Weight (with cable): 2.36lb",
+          "source_url": "https://hyperx.com/products/hyperx-alloy-origins-mechanical-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Cable Type": {
+          "value": "USB-C to USB-A, Braided",
+          "source_url": "https://hyperx.com/products/hyperx-alloy-origins-mechanical-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Cable Length (imperial) and type": {
+          "value": "5.9ft | USB-C to USB-A, Braided",
+          "source_url": "https://hyperx.com/products/hyperx-alloy-origins-mechanical-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Unit price": {
+          "value": "/ per",
+          "source_url": "https://hyperx.com/products/hyperx-alloy-origins-mechanical-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_verified",
+        "confidence": 0.92,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://hyperx.com/products/hyperx-alloy-origins-mechanical-gaming-keyboard",
+          "page_language": "en",
+          "official_url": "https://hyperx.com/products/hyperx-alloy-origins-mechanical-gaming-keyboard",
+          "source_priority": 110,
+          "sku": "4P5N9AA#ABA",
+          "schema_brand": "HyperX"
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": false
       }
     },
     {
@@ -12479,6 +13933,13 @@
           "tier": 110,
           "checked_at": "2026-09-11",
           "note": "new official product"
+        },
+        {
+          "type": "official_product",
+          "url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-gaming-mouse",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
         }
       ],
       "specs": {
@@ -12510,7 +13971,7 @@
       "spec_evidence": {
         "Programmable Buttons": {
           "value": "6",
-          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-wireless-gaming-mouse",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -12518,7 +13979,7 @@
         },
         "Shape": {
           "value": "Symmetrical",
-          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-wireless-gaming-mouse",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -12526,7 +13987,7 @@
         },
         "Sensor": {
           "value": "HyperX 26K Sensor",
-          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-wireless-gaming-mouse",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -12534,7 +13995,7 @@
         },
         "Resolution": {
           "value": "Up to 26000 DPI",
-          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-wireless-gaming-mouse",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -12542,7 +14003,7 @@
         },
         "DPI Presets": {
           "value": "400 / 800 / 1600 / 3200 DPI",
-          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-wireless-gaming-mouse",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -12550,7 +14011,7 @@
         },
         "Speed": {
           "value": "650 IPS",
-          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-wireless-gaming-mouse",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -12558,7 +14019,7 @@
         },
         "Acceleration": {
           "value": "50G",
-          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-wireless-gaming-mouse",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -12566,7 +14027,7 @@
         },
         "Buttons": {
           "value": "6",
-          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-wireless-gaming-mouse",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -12574,7 +14035,7 @@
         },
         "Left / Right Button Switches": {
           "value": "HyperX Switch",
-          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-wireless-gaming-mouse",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -12582,7 +14043,7 @@
         },
         "Left / Right Button Durability": {
           "value": "100 million clicks",
-          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-wireless-gaming-mouse",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -12590,7 +14051,7 @@
         },
         "Light Effects": {
           "value": "Per-LED RGB lighting",
-          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-wireless-gaming-mouse",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -12598,7 +14059,7 @@
         },
         "Onboard Memory": {
           "value": "1 profile",
-          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-wireless-gaming-mouse",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -12694,7 +14155,7 @@
         },
         "Unit price": {
           "value": "/ per",
-          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-wireless-gaming-mouse",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -12703,18 +14164,18 @@
       },
       "conflict": "",
       "verification": {
-        "status": "official_verified",
+        "status": "conflict",
         "confidence": 0.92,
-        "source_count": 1,
+        "source_count": 2,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-wireless-gaming-mouse",
+          "canonical_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-gaming-mouse",
           "page_language": "en",
-          "official_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-wireless-gaming-mouse",
+          "official_url": "https://hyperx.com/products/hyperx-pulsefire-haste-2-gaming-mouse",
           "source_priority": 110,
-          "sku": "6N0B0AA",
+          "sku": "6N0A8AA",
           "schema_brand": "HyperX"
         },
         "quality_gate_version": "1.3-audited",
@@ -12807,6 +14268,13 @@
           "tier": 110,
           "checked_at": "2026-09-11",
           "note": "new official product"
+        },
+        {
+          "type": "official_product",
+          "url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-wireless-gaming-mouse",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
         }
       ],
       "specs": {
@@ -12826,12 +14294,16 @@
         "Length": "127.1 mm",
         "Height": "38.3 mm",
         "Width": "66.9 mm",
-        "Unit price": "/ per"
+        "Unit price": "/ per",
+        "Battery Life": "Up to 150 hrs. at a 1 kHz polling rate; Up to 35 hrs. at an 8 kHz polling rate",
+        "Weight": "Weight (without cable): .11 lb. Weight (with cable): .17 lb.",
+        "Cable Type": "USB-C to USB-A cable",
+        "Cable Length (imperial) and type": "5.90 ft | USB-C to USB-A cable"
       },
       "spec_evidence": {
         "Programmable Buttons": {
           "value": "6",
-          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-wired-gaming-mouse",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-wireless-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -12839,7 +14311,7 @@
         },
         "Shape": {
           "value": "Symmetrical",
-          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-wired-gaming-mouse",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-wireless-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -12887,7 +14359,7 @@
         },
         "Buttons": {
           "value": "6 buttons (including scroll wheel and DPI toggle)",
-          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-wired-gaming-mouse",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-wireless-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -12895,7 +14367,7 @@
         },
         "Left / Right Button Switches": {
           "value": "HyperX Optical Switches",
-          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-wired-gaming-mouse",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-wireless-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -12903,7 +14375,7 @@
         },
         "Left / Right Button Durability": {
           "value": "100 million clicks",
-          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-wired-gaming-mouse",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-wireless-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -12927,7 +14399,7 @@
         },
         "Compatibility": {
           "value": "PC; PS5; Xbox Series X|S. Software Compatibility: NGENUITY.",
-          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-wired-gaming-mouse",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-wireless-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -12935,7 +14407,7 @@
         },
         "Length": {
           "value": "127.1 mm",
-          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-wired-gaming-mouse",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-wireless-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -12943,7 +14415,7 @@
         },
         "Height": {
           "value": "38.3 mm",
-          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-wired-gaming-mouse",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-wireless-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -12951,7 +14423,7 @@
         },
         "Width": {
           "value": "66.9 mm",
-          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-wired-gaming-mouse",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-wireless-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -12959,7 +14431,39 @@
         },
         "Unit price": {
           "value": "/ per",
-          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-wired-gaming-mouse",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Battery Life": {
+          "value": "Up to 150 hrs. at a 1 kHz polling rate; Up to 35 hrs. at an 8 kHz polling rate",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Weight": {
+          "value": "Weight (without cable): .11 lb. Weight (with cable): .17 lb.",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Cable Type": {
+          "value": "USB-C to USB-A cable",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Cable Length (imperial) and type": {
+          "value": "5.90 ft | USB-C to USB-A cable",
+          "source_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-wireless-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -12968,18 +14472,18 @@
       },
       "conflict": "",
       "verification": {
-        "status": "official_verified",
+        "status": "conflict",
         "confidence": 0.92,
-        "source_count": 1,
+        "source_count": 2,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-wired-gaming-mouse",
+          "canonical_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-wireless-gaming-mouse",
           "page_language": "en",
-          "official_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-wired-gaming-mouse",
+          "official_url": "https://hyperx.com/products/hyperx-pulsefire-haste-3-wireless-gaming-mouse",
           "source_priority": 110,
-          "sku": "D9LS2AA",
+          "sku": "D9LS1AA",
           "schema_brand": "HyperX"
         },
         "quality_gate_version": "1.3-audited",
@@ -13644,234 +15148,6 @@
     },
     {
       "brand": "iKF",
-      "name": "Cloud / 昭月",
-      "category": "耳机/耳麦",
-      "subcategory": "开放式/耳夹",
-      "status": "在售/历史状态待核实",
-      "verified": "官方来源",
-      "source": "https://ikfaudio.com/collections/all",
-      "specs": {
-        "驱动单元": "10mm",
-        "蓝牙/无线": "6.0",
-        "编码": "AAC / SBC",
-        "电池": "550mAh",
-        "续航": "60h",
-        "降噪": "开放式",
-        "延迟": "38ms",
-        "APP/软件": "支持",
-        "多设备": "支持",
-        "有线连接": "无",
-        "原分类": "开放式/耳夹"
-      },
-      "conflict": "",
-      "origin": "中国",
-      "market": "全球/官网",
-      "last_verified": "2026-09-09",
-      "schema_fields": [
-        "驱动单元",
-        "驱动类型",
-        "频响",
-        "蓝牙/无线",
-        "连接",
-        "编码",
-        "采样率",
-        "位深",
-        "降噪",
-        "延迟",
-        "麦克风",
-        "麦克风数量",
-        "续航",
-        "电池",
-        "充电时间",
-        "无线距离",
-        "重量",
-        "有线连接",
-        "虚拟环绕",
-        "APP/软件",
-        "多设备",
-        "兼容平台"
-      ],
-      "image_url": "",
-      "image_source": "",
-      "first_seen": "2026-09-09",
-      "last_checked": "",
-      "sources": [
-        {
-          "type": "official_product",
-          "url": "https://ikfaudio.com/collections/all",
-          "tier": 100,
-          "checked_at": "2026-09-09",
-          "note": "现有数据库官方来源"
-        }
-      ],
-      "verification": {
-        "status": "legacy_review_required",
-        "confidence": 0.7,
-        "source_count": 1,
-        "conflicts": [],
-        "evidence": {
-          "official_url": "https://ikfaudio.com/collections/all",
-          "legacy_record": true
-        },
-        "quality_gate_version": "legacy",
-        "needs_review": true
-      },
-      "brand_zh_cn": "iKF"
-    },
-    {
-      "brand": "iKF",
-      "name": "E1",
-      "category": "耳机/耳麦",
-      "subcategory": "头戴式蓝牙",
-      "status": "在售/历史状态待核实",
-      "verified": "官方来源",
-      "source": "https://ikfaudio.com/collections/headphones",
-      "specs": {
-        "驱动单元": "40mm",
-        "蓝牙/无线": "5.4 / 6.0",
-        "编码": "AAC / SBC",
-        "电池": "600mAh",
-        "续航": "90h",
-        "降噪": "无",
-        "延迟": "低延迟模式",
-        "APP/软件": "支持",
-        "多设备": "支持",
-        "有线连接": "3.5mm",
-        "原分类": "头戴式蓝牙"
-      },
-      "conflict": "",
-      "origin": "中国",
-      "market": "全球/官网",
-      "last_verified": "2026-09-09",
-      "schema_fields": [
-        "驱动单元",
-        "驱动类型",
-        "频响",
-        "蓝牙/无线",
-        "连接",
-        "编码",
-        "采样率",
-        "位深",
-        "降噪",
-        "延迟",
-        "麦克风",
-        "麦克风数量",
-        "续航",
-        "电池",
-        "充电时间",
-        "无线距离",
-        "重量",
-        "有线连接",
-        "虚拟环绕",
-        "APP/软件",
-        "多设备",
-        "兼容平台"
-      ],
-      "image_url": "",
-      "image_source": "",
-      "first_seen": "2026-09-09",
-      "last_checked": "",
-      "sources": [
-        {
-          "type": "official_product",
-          "url": "https://ikfaudio.com/collections/headphones",
-          "tier": 100,
-          "checked_at": "2026-09-09",
-          "note": "现有数据库官方来源"
-        }
-      ],
-      "verification": {
-        "status": "legacy_review_required",
-        "confidence": 0.7,
-        "source_count": 1,
-        "conflicts": [],
-        "evidence": {
-          "official_url": "https://ikfaudio.com/collections/headphones",
-          "legacy_record": true
-        },
-        "quality_gate_version": "legacy",
-        "needs_review": true
-      },
-      "brand_zh_cn": "iKF"
-    },
-    {
-      "brand": "iKF",
-      "name": "E2",
-      "category": "耳机/耳麦",
-      "subcategory": "复古头戴",
-      "status": "在售/历史状态待核实",
-      "verified": "官方来源",
-      "source": "https://ikfaudio.com/collections/headphones",
-      "specs": {
-        "驱动单元": "40mm",
-        "蓝牙/无线": "6.0",
-        "编码": "AAC / SBC",
-        "电池": "600mAh",
-        "续航": "90h",
-        "降噪": "无",
-        "延迟": "低延迟模式",
-        "APP/软件": "支持",
-        "多设备": "支持",
-        "有线连接": "无",
-        "原分类": "复古头戴"
-      },
-      "conflict": "",
-      "origin": "中国",
-      "market": "全球/官网",
-      "last_verified": "2026-09-09",
-      "schema_fields": [
-        "驱动单元",
-        "驱动类型",
-        "频响",
-        "蓝牙/无线",
-        "连接",
-        "编码",
-        "采样率",
-        "位深",
-        "降噪",
-        "延迟",
-        "麦克风",
-        "麦克风数量",
-        "续航",
-        "电池",
-        "充电时间",
-        "无线距离",
-        "重量",
-        "有线连接",
-        "虚拟环绕",
-        "APP/软件",
-        "多设备",
-        "兼容平台"
-      ],
-      "image_url": "",
-      "image_source": "",
-      "first_seen": "2026-09-09",
-      "last_checked": "",
-      "sources": [
-        {
-          "type": "official_product",
-          "url": "https://ikfaudio.com/collections/headphones",
-          "tier": 100,
-          "checked_at": "2026-09-09",
-          "note": "现有数据库官方来源"
-        }
-      ],
-      "verification": {
-        "status": "legacy_review_required",
-        "confidence": 0.7,
-        "source_count": 1,
-        "conflicts": [],
-        "evidence": {
-          "official_url": "https://ikfaudio.com/collections/headphones",
-          "legacy_record": true
-        },
-        "quality_gate_version": "legacy",
-        "needs_review": true
-      },
-      "brand_zh_cn": "iKF"
-    },
-    {
-      "brand": "iKF",
       "name": "Ear Clip",
       "category": "耳机/耳麦",
       "subcategory": "开放式/耳夹",
@@ -13919,184 +15195,37 @@
         "多设备",
         "兼容平台"
       ],
-      "image_url": "",
-      "image_source": "",
+      "image_url": "https://ikfaudio.com/cdn/shop/files/iKF-Ear-Clip.jpg?v=1751678600",
+      "image_source": "https://ikfaudio.com/products/ikf-ear-clip-wireless-earbuds-open-ear-bluetooth-earphones-ergonomic-fit",
       "first_seen": "2026-09-09",
-      "last_checked": "",
+      "last_checked": "2026-09-11",
       "sources": [
         {
           "type": "official_product",
           "url": "https://ikfaudio.com/products/ikf-ear-clip-wireless-earbuds-open-ear-bluetooth-earphones-ergonomic-fit",
           "tier": 100,
-          "checked_at": "2026-09-09",
+          "checked_at": "2026-09-11",
           "note": "现有数据库官方来源"
         }
       ],
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": false,
+          "product_schema_count": 0,
+          "canonical_url": "https://ikfaudio.com/products/ikf-ear-clip-wireless-earbuds-open-ear-bluetooth-earphones-ergonomic-fit",
+          "page_language": "en",
           "official_url": "https://ikfaudio.com/products/ikf-ear-clip-wireless-earbuds-open-ear-bluetooth-earphones-ergonomic-fit",
-          "legacy_record": true
+          "source_priority": 110
         },
-        "quality_gate_version": "legacy",
+        "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "iKF"
-    },
-    {
-      "brand": "iKF",
-      "name": "Find Air 5 Basic",
-      "category": "耳机/耳麦",
-      "subcategory": "TWS",
-      "status": "在售/历史状态待核实",
-      "verified": "官方来源",
-      "source": "https://ikfaudio.com/collections/tws",
-      "specs": {
-        "驱动单元": "10mm",
-        "蓝牙/无线": "5.4",
-        "编码": "AAC / SBC",
-        "电池": "30mAh / 320mAh",
-        "续航": "36h",
-        "降噪": "无",
-        "延迟": "38ms",
-        "APP/软件": "支持",
-        "多设备": "支持",
-        "有线连接": "无",
-        "原分类": "TWS"
-      },
-      "conflict": "",
-      "origin": "中国",
-      "market": "全球/官网",
-      "last_verified": "2026-09-09",
-      "schema_fields": [
-        "驱动单元",
-        "驱动类型",
-        "频响",
-        "蓝牙/无线",
-        "连接",
-        "编码",
-        "采样率",
-        "位深",
-        "降噪",
-        "延迟",
-        "麦克风",
-        "麦克风数量",
-        "续航",
-        "电池",
-        "充电时间",
-        "无线距离",
-        "重量",
-        "有线连接",
-        "虚拟环绕",
-        "APP/软件",
-        "多设备",
-        "兼容平台"
-      ],
-      "image_url": "",
-      "image_source": "",
-      "first_seen": "2026-09-09",
-      "last_checked": "",
-      "sources": [
-        {
-          "type": "official_product",
-          "url": "https://ikfaudio.com/collections/tws",
-          "tier": 100,
-          "checked_at": "2026-09-09",
-          "note": "现有数据库官方来源"
-        }
-      ],
-      "verification": {
-        "status": "legacy_review_required",
-        "confidence": 0.7,
-        "source_count": 1,
-        "conflicts": [],
-        "evidence": {
-          "official_url": "https://ikfaudio.com/collections/tws",
-          "legacy_record": true
-        },
-        "quality_gate_version": "legacy",
-        "needs_review": true
-      },
-      "brand_zh_cn": "iKF"
-    },
-    {
-      "brand": "iKF",
-      "name": "Find Air 5 LDAC",
-      "category": "耳机/耳麦",
-      "subcategory": "TWS",
-      "status": "在售/历史状态待核实",
-      "verified": "官方来源",
-      "source": "https://ikfaudio.com/collections/tws",
-      "specs": {
-        "驱动单元": "10mm",
-        "蓝牙/无线": "6.0",
-        "编码": "AAC / SBC / LDAC",
-        "电池": "30mAh / 320mAh",
-        "续航": "36h",
-        "降噪": "无",
-        "延迟": "35ms",
-        "APP/软件": "支持",
-        "多设备": "支持",
-        "有线连接": "无",
-        "原分类": "TWS"
-      },
-      "conflict": "",
-      "origin": "中国",
-      "market": "全球/官网",
-      "last_verified": "2026-09-09",
-      "schema_fields": [
-        "驱动单元",
-        "驱动类型",
-        "频响",
-        "蓝牙/无线",
-        "连接",
-        "编码",
-        "采样率",
-        "位深",
-        "降噪",
-        "延迟",
-        "麦克风",
-        "麦克风数量",
-        "续航",
-        "电池",
-        "充电时间",
-        "无线距离",
-        "重量",
-        "有线连接",
-        "虚拟环绕",
-        "APP/软件",
-        "多设备",
-        "兼容平台"
-      ],
-      "image_url": "",
-      "image_source": "",
-      "first_seen": "2026-09-09",
-      "last_checked": "",
-      "sources": [
-        {
-          "type": "official_product",
-          "url": "https://ikfaudio.com/collections/tws",
-          "tier": 100,
-          "checked_at": "2026-09-09",
-          "note": "现有数据库官方来源"
-        }
-      ],
-      "verification": {
-        "status": "legacy_review_required",
-        "confidence": 0.7,
-        "source_count": 1,
-        "conflicts": [],
-        "evidence": {
-          "official_url": "https://ikfaudio.com/collections/tws",
-          "legacy_record": true
-        },
-        "quality_gate_version": "legacy",
-        "needs_review": true
-      },
-      "brand_zh_cn": "iKF"
+      "brand_zh_cn": "iKF",
+      "spec_evidence": {}
     },
     {
       "brand": "iKF",
@@ -14178,234 +15307,6 @@
       },
       "brand_zh_cn": "iKF",
       "spec_evidence": {}
-    },
-    {
-      "brand": "iKF",
-      "name": "Fly Max",
-      "category": "耳机/耳麦",
-      "subcategory": "TWS",
-      "status": "在售/历史状态待核实",
-      "verified": "官方来源",
-      "source": "https://ikfaudio.com/collections/tws",
-      "specs": {
-        "驱动单元": "13mm",
-        "蓝牙/无线": "6.0",
-        "编码": "AAC / SBC / LDAC",
-        "电池": "40mAh / 320mAh",
-        "续航": "30h / ANC 24h",
-        "降噪": "-45dB",
-        "延迟": "38ms",
-        "APP/软件": "支持",
-        "多设备": "支持",
-        "有线连接": "无",
-        "原分类": "TWS"
-      },
-      "conflict": "",
-      "origin": "中国",
-      "market": "全球/官网",
-      "last_verified": "2026-09-09",
-      "schema_fields": [
-        "驱动单元",
-        "驱动类型",
-        "频响",
-        "蓝牙/无线",
-        "连接",
-        "编码",
-        "采样率",
-        "位深",
-        "降噪",
-        "延迟",
-        "麦克风",
-        "麦克风数量",
-        "续航",
-        "电池",
-        "充电时间",
-        "无线距离",
-        "重量",
-        "有线连接",
-        "虚拟环绕",
-        "APP/软件",
-        "多设备",
-        "兼容平台"
-      ],
-      "image_url": "",
-      "image_source": "",
-      "first_seen": "2026-09-09",
-      "last_checked": "",
-      "sources": [
-        {
-          "type": "official_product",
-          "url": "https://ikfaudio.com/collections/tws",
-          "tier": 100,
-          "checked_at": "2026-09-09",
-          "note": "现有数据库官方来源"
-        }
-      ],
-      "verification": {
-        "status": "legacy_review_required",
-        "confidence": 0.7,
-        "source_count": 1,
-        "conflicts": [],
-        "evidence": {
-          "official_url": "https://ikfaudio.com/collections/tws",
-          "legacy_record": true
-        },
-        "quality_gate_version": "legacy",
-        "needs_review": true
-      },
-      "brand_zh_cn": "iKF"
-    },
-    {
-      "brand": "iKF",
-      "name": "Fly Pro",
-      "category": "耳机/耳麦",
-      "subcategory": "TWS",
-      "status": "在售/历史状态待核实",
-      "verified": "官方来源",
-      "source": "https://ikfaudio.com/collections/tws",
-      "specs": {
-        "驱动单元": "13mm",
-        "蓝牙/无线": "5.4",
-        "编码": "AAC / SBC",
-        "电池": "40mAh / 320mAh",
-        "续航": "30h",
-        "降噪": "支持",
-        "延迟": "38ms",
-        "APP/软件": "支持",
-        "多设备": "支持",
-        "有线连接": "无",
-        "原分类": "TWS"
-      },
-      "conflict": "",
-      "origin": "中国",
-      "market": "全球/官网",
-      "last_verified": "2026-09-09",
-      "schema_fields": [
-        "驱动单元",
-        "驱动类型",
-        "频响",
-        "蓝牙/无线",
-        "连接",
-        "编码",
-        "采样率",
-        "位深",
-        "降噪",
-        "延迟",
-        "麦克风",
-        "麦克风数量",
-        "续航",
-        "电池",
-        "充电时间",
-        "无线距离",
-        "重量",
-        "有线连接",
-        "虚拟环绕",
-        "APP/软件",
-        "多设备",
-        "兼容平台"
-      ],
-      "image_url": "",
-      "image_source": "",
-      "first_seen": "2026-09-09",
-      "last_checked": "",
-      "sources": [
-        {
-          "type": "official_product",
-          "url": "https://ikfaudio.com/collections/tws",
-          "tier": 100,
-          "checked_at": "2026-09-09",
-          "note": "现有数据库官方来源"
-        }
-      ],
-      "verification": {
-        "status": "legacy_review_required",
-        "confidence": 0.7,
-        "source_count": 1,
-        "conflicts": [],
-        "evidence": {
-          "official_url": "https://ikfaudio.com/collections/tws",
-          "legacy_record": true
-        },
-        "quality_gate_version": "legacy",
-        "needs_review": true
-      },
-      "brand_zh_cn": "iKF"
-    },
-    {
-      "brand": "iKF",
-      "name": "Fun Max",
-      "category": "耳机/耳麦",
-      "subcategory": "TWS",
-      "status": "在售/历史状态待核实",
-      "verified": "官方来源",
-      "source": "https://ikfaudio.com/collections/tws",
-      "specs": {
-        "驱动单元": "蜂窝复合振膜",
-        "蓝牙/无线": "6.0",
-        "编码": "AAC / SBC / LDAC",
-        "电池": "充电盒300mAh",
-        "续航": "38h",
-        "降噪": "-50dB / 6麦",
-        "延迟": "38ms",
-        "APP/软件": "支持",
-        "多设备": "支持",
-        "有线连接": "无",
-        "原分类": "TWS"
-      },
-      "conflict": "",
-      "origin": "中国",
-      "market": "全球/官网",
-      "last_verified": "2026-09-09",
-      "schema_fields": [
-        "驱动单元",
-        "驱动类型",
-        "频响",
-        "蓝牙/无线",
-        "连接",
-        "编码",
-        "采样率",
-        "位深",
-        "降噪",
-        "延迟",
-        "麦克风",
-        "麦克风数量",
-        "续航",
-        "电池",
-        "充电时间",
-        "无线距离",
-        "重量",
-        "有线连接",
-        "虚拟环绕",
-        "APP/软件",
-        "多设备",
-        "兼容平台"
-      ],
-      "image_url": "",
-      "image_source": "",
-      "first_seen": "2026-09-09",
-      "last_checked": "",
-      "sources": [
-        {
-          "type": "official_product",
-          "url": "https://ikfaudio.com/collections/tws",
-          "tier": 100,
-          "checked_at": "2026-09-09",
-          "note": "现有数据库官方来源"
-        }
-      ],
-      "verification": {
-        "status": "legacy_review_required",
-        "confidence": 0.7,
-        "source_count": 1,
-        "conflicts": [],
-        "evidence": {
-          "official_url": "https://ikfaudio.com/collections/tws",
-          "legacy_record": true
-        },
-        "quality_gate_version": "legacy",
-        "needs_review": true
-      },
-      "brand_zh_cn": "iKF"
     },
     {
       "brand": "iKF",
@@ -14507,7 +15408,24 @@
         "APP/软件": "支持",
         "多设备": "支持",
         "有线连接": "多模",
-        "原分类": "游戏耳机"
+        "原分类": "游戏耳机",
+        "Model:": "iKF King G",
+        "Speaker Driver:": "40mm",
+        "Battery:": "1100mAh",
+        "Play time:": "BT 170hrs, 2.4G 120hrs",
+        "Charging interface:": "USB-C",
+        "Wearing method:": "Over Ear",
+        "Control method:": "Button",
+        "Active Noise Cancellation(ANC)": "√( Deep to -50dB)",
+        "Transparent mode:": "√",
+        "iKF APP:": "√",
+        "Game mode:": "√",
+        "Microphone:": "Built-in + External microphone",
+        "Wired Connection:": "√",
+        "Aux-in Port:": "USB-C",
+        "Pairing 2 Devices:": "√",
+        "Earmuffs replaceable:": "√",
+        "Foldable:": "√"
       },
       "conflict": "",
       "origin": "中国",
@@ -14537,112 +15455,178 @@
         "多设备",
         "兼容平台"
       ],
-      "image_url": "",
-      "image_source": "",
+      "image_url": "https://ikfaudio.com/cdn/shop/files/iKF-King-G.jpg?v=1768289560",
+      "image_source": "https://ikfaudio.com/products/ikf-king-g-wireless-gaming-headset-active-noise-cancelling-2-4ghz-bluetooth-6-0-virtual-7-1-surround",
       "first_seen": "2026-09-09",
-      "last_checked": "",
+      "last_checked": "2026-09-11",
       "sources": [
         {
           "type": "official_product",
           "url": "https://ikfaudio.com/products/ikf-king-g-wireless-gaming-headset-active-noise-cancelling-2-4ghz-bluetooth-6-0-virtual-7-1-surround",
           "tier": 100,
-          "checked_at": "2026-09-09",
+          "checked_at": "2026-09-11",
           "note": "现有数据库官方来源"
         }
       ],
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": false,
+          "product_schema_count": 0,
+          "canonical_url": "https://ikfaudio.com/products/ikf-king-g-wireless-gaming-headset-active-noise-cancelling-2-4ghz-bluetooth-6-0-virtual-7-1-surround",
+          "page_language": "en",
           "official_url": "https://ikfaudio.com/products/ikf-king-g-wireless-gaming-headset-active-noise-cancelling-2-4ghz-bluetooth-6-0-virtual-7-1-surround",
-          "legacy_record": true
+          "source_priority": 110
         },
-        "quality_gate_version": "legacy",
+        "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "iKF"
-    },
-    {
-      "brand": "iKF",
-      "name": "King Pro 3.0",
-      "category": "耳机/耳麦",
-      "subcategory": "头戴式蓝牙",
-      "status": "在售/历史状态待核实",
-      "verified": "官方来源",
-      "source": "https://ikfaudio.com/collections/headphones",
-      "specs": {
-        "驱动单元": "40mm",
-        "蓝牙/无线": "6.0",
-        "编码": "SBC / AAC / LDAC",
-        "电池": "1000mAh",
-        "续航": "170h",
-        "降噪": "-50dB",
-        "延迟": "≈38ms",
-        "APP/软件": "支持",
-        "多设备": "支持",
-        "有线连接": "USB-C",
-        "原分类": "头戴式蓝牙"
-      },
-      "conflict": "",
-      "origin": "中国",
-      "market": "全球/官网",
-      "last_verified": "2026-09-09",
-      "schema_fields": [
-        "驱动单元",
-        "驱动类型",
-        "频响",
-        "蓝牙/无线",
-        "连接",
-        "编码",
-        "采样率",
-        "位深",
-        "降噪",
-        "延迟",
-        "麦克风",
-        "麦克风数量",
-        "续航",
-        "电池",
-        "充电时间",
-        "无线距离",
-        "重量",
-        "有线连接",
-        "虚拟环绕",
-        "APP/软件",
-        "多设备",
-        "兼容平台"
-      ],
-      "image_url": "",
-      "image_source": "",
-      "first_seen": "2026-09-09",
-      "last_checked": "",
-      "sources": [
-        {
-          "type": "official_product",
-          "url": "https://ikfaudio.com/collections/headphones",
-          "tier": 100,
-          "checked_at": "2026-09-09",
-          "note": "现有数据库官方来源"
+      "brand_zh_cn": "iKF",
+      "spec_evidence": {
+        "Model:": {
+          "value": "iKF King G",
+          "source_url": "https://ikfaudio.com/products/ikf-king-g-wireless-gaming-headset-active-noise-cancelling-2-4ghz-bluetooth-6-0-virtual-7-1-surround",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Speaker Driver:": {
+          "value": "40mm",
+          "source_url": "https://ikfaudio.com/products/ikf-king-g-wireless-gaming-headset-active-noise-cancelling-2-4ghz-bluetooth-6-0-virtual-7-1-surround",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Battery:": {
+          "value": "1100mAh",
+          "source_url": "https://ikfaudio.com/products/ikf-king-g-wireless-gaming-headset-active-noise-cancelling-2-4ghz-bluetooth-6-0-virtual-7-1-surround",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Play time:": {
+          "value": "BT 170hrs, 2.4G 120hrs",
+          "source_url": "https://ikfaudio.com/products/ikf-king-g-wireless-gaming-headset-active-noise-cancelling-2-4ghz-bluetooth-6-0-virtual-7-1-surround",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Charging interface:": {
+          "value": "USB-C",
+          "source_url": "https://ikfaudio.com/products/ikf-king-g-wireless-gaming-headset-active-noise-cancelling-2-4ghz-bluetooth-6-0-virtual-7-1-surround",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Wearing method:": {
+          "value": "Over Ear",
+          "source_url": "https://ikfaudio.com/products/ikf-king-g-wireless-gaming-headset-active-noise-cancelling-2-4ghz-bluetooth-6-0-virtual-7-1-surround",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Control method:": {
+          "value": "Button",
+          "source_url": "https://ikfaudio.com/products/ikf-king-g-wireless-gaming-headset-active-noise-cancelling-2-4ghz-bluetooth-6-0-virtual-7-1-surround",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Active Noise Cancellation(ANC)": {
+          "value": "√( Deep to -50dB)",
+          "source_url": "https://ikfaudio.com/products/ikf-king-g-wireless-gaming-headset-active-noise-cancelling-2-4ghz-bluetooth-6-0-virtual-7-1-surround",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Transparent mode:": {
+          "value": "√",
+          "source_url": "https://ikfaudio.com/products/ikf-king-g-wireless-gaming-headset-active-noise-cancelling-2-4ghz-bluetooth-6-0-virtual-7-1-surround",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "iKF APP:": {
+          "value": "√",
+          "source_url": "https://ikfaudio.com/products/ikf-king-g-wireless-gaming-headset-active-noise-cancelling-2-4ghz-bluetooth-6-0-virtual-7-1-surround",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Game mode:": {
+          "value": "√",
+          "source_url": "https://ikfaudio.com/products/ikf-king-g-wireless-gaming-headset-active-noise-cancelling-2-4ghz-bluetooth-6-0-virtual-7-1-surround",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Microphone:": {
+          "value": "Built-in + External microphone",
+          "source_url": "https://ikfaudio.com/products/ikf-king-g-wireless-gaming-headset-active-noise-cancelling-2-4ghz-bluetooth-6-0-virtual-7-1-surround",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Wired Connection:": {
+          "value": "√",
+          "source_url": "https://ikfaudio.com/products/ikf-king-g-wireless-gaming-headset-active-noise-cancelling-2-4ghz-bluetooth-6-0-virtual-7-1-surround",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Aux-in Port:": {
+          "value": "USB-C",
+          "source_url": "https://ikfaudio.com/products/ikf-king-g-wireless-gaming-headset-active-noise-cancelling-2-4ghz-bluetooth-6-0-virtual-7-1-surround",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Pairing 2 Devices:": {
+          "value": "√",
+          "source_url": "https://ikfaudio.com/products/ikf-king-g-wireless-gaming-headset-active-noise-cancelling-2-4ghz-bluetooth-6-0-virtual-7-1-surround",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Earmuffs replaceable:": {
+          "value": "√",
+          "source_url": "https://ikfaudio.com/products/ikf-king-g-wireless-gaming-headset-active-noise-cancelling-2-4ghz-bluetooth-6-0-virtual-7-1-surround",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Foldable:": {
+          "value": "√",
+          "source_url": "https://ikfaudio.com/products/ikf-king-g-wireless-gaming-headset-active-noise-cancelling-2-4ghz-bluetooth-6-0-virtual-7-1-surround",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
         }
-      ],
-      "verification": {
-        "status": "legacy_review_required",
-        "confidence": 0.7,
-        "source_count": 1,
-        "conflicts": [],
-        "evidence": {
-          "official_url": "https://ikfaudio.com/collections/headphones",
-          "legacy_record": true
-        },
-        "quality_gate_version": "legacy",
-        "needs_review": true
-      },
-      "brand_zh_cn": "iKF"
+      }
     },
     {
       "brand": "iKF",
-      "name": "Mars / Mars HiFi",
+      "name": "Mars / Mars",
       "category": "耳机/耳麦",
       "subcategory": "头戴式蓝牙",
       "status": "在售/历史状态待核实",
@@ -14689,32 +15673,37 @@
         "多设备",
         "兼容平台"
       ],
-      "image_url": "",
-      "image_source": "",
+      "image_url": "https://ikfaudio.com/cdn/shop/files/iKF-Mars.jpg?v=1743487559",
+      "image_source": "https://ikfaudio.com/products/ikf-mars-wireless-bluetooth-headphones-40mm-20mm-drivers-active-noise-cancelling-3-5mm-wired-headset",
       "first_seen": "2026-09-09",
-      "last_checked": "",
+      "last_checked": "2026-09-11",
       "sources": [
         {
           "type": "official_product",
           "url": "https://ikfaudio.com/products/ikf-mars-wireless-bluetooth-headphones-40mm-20mm-drivers-active-noise-cancelling-3-5mm-wired-headset",
           "tier": 100,
-          "checked_at": "2026-09-09",
+          "checked_at": "2026-09-11",
           "note": "现有数据库官方来源"
         }
       ],
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": false,
+          "product_schema_count": 0,
+          "canonical_url": "https://ikfaudio.com/products/ikf-mars-wireless-bluetooth-headphones-40mm-20mm-drivers-active-noise-cancelling-3-5mm-wired-headset",
+          "page_language": "en",
           "official_url": "https://ikfaudio.com/products/ikf-mars-wireless-bluetooth-headphones-40mm-20mm-drivers-active-noise-cancelling-3-5mm-wired-headset",
-          "legacy_record": true
+          "source_priority": 110
         },
-        "quality_gate_version": "legacy",
+        "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "iKF"
+      "brand_zh_cn": "iKF",
+      "spec_evidence": {}
     },
     {
       "brand": "iKF",
@@ -14849,260 +15838,37 @@
         "多设备",
         "兼容平台"
       ],
-      "image_url": "",
-      "image_source": "",
+      "image_url": "https://ikfaudio.com/cdn/shop/files/R1_7292ec45-6f7b-4cb1-8f86-68937bd6a9dd.jpg?v=1770373586",
+      "image_source": "https://ikfaudio.com/products/retro-wireless-bluetooth-headphones-ikf-r1",
       "first_seen": "2026-09-09",
-      "last_checked": "",
+      "last_checked": "2026-09-11",
       "sources": [
         {
           "type": "official_product",
           "url": "https://ikfaudio.com/products/retro-wireless-bluetooth-headphones-ikf-r1",
           "tier": 100,
-          "checked_at": "2026-09-09",
+          "checked_at": "2026-09-11",
           "note": "现有数据库官方来源"
         }
       ],
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": false,
+          "product_schema_count": 0,
+          "canonical_url": "https://ikfaudio.com/products/retro-wireless-bluetooth-headphones-ikf-r1",
+          "page_language": "en",
           "official_url": "https://ikfaudio.com/products/retro-wireless-bluetooth-headphones-ikf-r1",
-          "legacy_record": true
+          "source_priority": 110
         },
-        "quality_gate_version": "legacy",
+        "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "iKF"
-    },
-    {
-      "brand": "iKF",
-      "name": "R1 Pop",
-      "category": "耳机/耳麦",
-      "subcategory": "复古头戴",
-      "status": "在售/历史状态待核实",
-      "verified": "官方来源",
-      "source": "https://ikfaudio.com/collections/headphones",
-      "specs": {
-        "驱动单元": "32mm",
-        "蓝牙/无线": "5.4 / 6.0",
-        "编码": "AAC / SBC",
-        "电池": "500mAh",
-        "续航": "75h",
-        "降噪": "无",
-        "延迟": "35ms",
-        "APP/软件": "支持",
-        "多设备": "支持",
-        "有线连接": "无",
-        "原分类": "复古头戴"
-      },
-      "conflict": "",
-      "origin": "中国",
-      "market": "全球/官网",
-      "last_verified": "2026-09-09",
-      "schema_fields": [
-        "驱动单元",
-        "驱动类型",
-        "频响",
-        "蓝牙/无线",
-        "连接",
-        "编码",
-        "采样率",
-        "位深",
-        "降噪",
-        "延迟",
-        "麦克风",
-        "麦克风数量",
-        "续航",
-        "电池",
-        "充电时间",
-        "无线距离",
-        "重量",
-        "有线连接",
-        "虚拟环绕",
-        "APP/软件",
-        "多设备",
-        "兼容平台"
-      ],
-      "image_url": "",
-      "image_source": "",
-      "first_seen": "2026-09-09",
-      "last_checked": "",
-      "sources": [
-        {
-          "type": "official_product",
-          "url": "https://ikfaudio.com/collections/headphones",
-          "tier": 100,
-          "checked_at": "2026-09-09",
-          "note": "现有数据库官方来源"
-        }
-      ],
-      "verification": {
-        "status": "legacy_review_required",
-        "confidence": 0.7,
-        "source_count": 1,
-        "conflicts": [],
-        "evidence": {
-          "official_url": "https://ikfaudio.com/collections/headphones",
-          "legacy_record": true
-        },
-        "quality_gate_version": "legacy",
-        "needs_review": true
-      },
-      "brand_zh_cn": "iKF"
-    },
-    {
-      "brand": "iKF",
-      "name": "R2",
-      "category": "耳机/耳麦",
-      "subcategory": "复古头戴",
-      "status": "在售/历史状态待核实",
-      "verified": "官方来源",
-      "source": "https://ikfaudio.com/collections/headphones",
-      "specs": {
-        "驱动单元": "40mm",
-        "蓝牙/无线": "5.4 / 6.0",
-        "编码": "AAC / SBC",
-        "电池": "400mAh",
-        "续航": "60h",
-        "降噪": "无",
-        "延迟": "35ms",
-        "APP/软件": "支持",
-        "多设备": "支持",
-        "有线连接": "3.5mm",
-        "原分类": "复古头戴"
-      },
-      "conflict": "",
-      "origin": "中国",
-      "market": "全球/官网",
-      "last_verified": "2026-09-09",
-      "schema_fields": [
-        "驱动单元",
-        "驱动类型",
-        "频响",
-        "蓝牙/无线",
-        "连接",
-        "编码",
-        "采样率",
-        "位深",
-        "降噪",
-        "延迟",
-        "麦克风",
-        "麦克风数量",
-        "续航",
-        "电池",
-        "充电时间",
-        "无线距离",
-        "重量",
-        "有线连接",
-        "虚拟环绕",
-        "APP/软件",
-        "多设备",
-        "兼容平台"
-      ],
-      "image_url": "",
-      "image_source": "",
-      "first_seen": "2026-09-09",
-      "last_checked": "",
-      "sources": [
-        {
-          "type": "official_product",
-          "url": "https://ikfaudio.com/collections/headphones",
-          "tier": 100,
-          "checked_at": "2026-09-09",
-          "note": "现有数据库官方来源"
-        }
-      ],
-      "verification": {
-        "status": "legacy_review_required",
-        "confidence": 0.7,
-        "source_count": 1,
-        "conflicts": [],
-        "evidence": {
-          "official_url": "https://ikfaudio.com/collections/headphones",
-          "legacy_record": true
-        },
-        "quality_gate_version": "legacy",
-        "needs_review": true
-      },
-      "brand_zh_cn": "iKF"
-    },
-    {
-      "brand": "iKF",
-      "name": "R3",
-      "category": "耳机/耳麦",
-      "subcategory": "复古头戴",
-      "status": "在售/历史状态待核实",
-      "verified": "官方来源",
-      "source": "https://ikfaudio.com/collections/headphones",
-      "specs": {
-        "驱动单元": "30mm",
-        "蓝牙/无线": "5.3 / 5.4 / 6.0",
-        "编码": "AAC / SBC",
-        "电池": "400mAh",
-        "续航": "60h",
-        "降噪": "无",
-        "延迟": "低延迟模式",
-        "APP/软件": "支持",
-        "多设备": "支持",
-        "有线连接": "无",
-        "原分类": "复古头戴"
-      },
-      "conflict": "",
-      "origin": "中国",
-      "market": "全球/官网",
-      "last_verified": "2026-09-09",
-      "schema_fields": [
-        "驱动单元",
-        "驱动类型",
-        "频响",
-        "蓝牙/无线",
-        "连接",
-        "编码",
-        "采样率",
-        "位深",
-        "降噪",
-        "延迟",
-        "麦克风",
-        "麦克风数量",
-        "续航",
-        "电池",
-        "充电时间",
-        "无线距离",
-        "重量",
-        "有线连接",
-        "虚拟环绕",
-        "APP/软件",
-        "多设备",
-        "兼容平台"
-      ],
-      "image_url": "",
-      "image_source": "",
-      "first_seen": "2026-09-09",
-      "last_checked": "",
-      "sources": [
-        {
-          "type": "official_product",
-          "url": "https://ikfaudio.com/collections/headphones",
-          "tier": 100,
-          "checked_at": "2026-09-09",
-          "note": "现有数据库官方来源"
-        }
-      ],
-      "verification": {
-        "status": "legacy_review_required",
-        "confidence": 0.7,
-        "source_count": 1,
-        "conflicts": [],
-        "evidence": {
-          "official_url": "https://ikfaudio.com/collections/headphones",
-          "legacy_record": true
-        },
-        "quality_gate_version": "legacy",
-        "needs_review": true
-      },
-      "brand_zh_cn": "iKF"
+      "brand_zh_cn": "iKF",
+      "spec_evidence": {}
     },
     {
       "brand": "iKF",
@@ -15187,82 +15953,6 @@
       },
       "brand_zh_cn": "iKF",
       "spec_evidence": {}
-    },
-    {
-      "brand": "iKF",
-      "name": "Rona",
-      "category": "耳机/耳麦",
-      "subcategory": "复古头戴",
-      "status": "在售/历史状态待核实",
-      "verified": "官方来源",
-      "source": "https://ikfaudio.com/collections/headphones",
-      "specs": {
-        "驱动单元": "32mm 生物纤维",
-        "蓝牙/无线": "5.4 / 6.0",
-        "编码": "AAC / SBC",
-        "电池": "500mAh",
-        "续航": "75h",
-        "降噪": "-42dB 自适应",
-        "延迟": "35ms",
-        "APP/软件": "支持",
-        "多设备": "支持",
-        "有线连接": "3.5mm",
-        "原分类": "复古头戴"
-      },
-      "conflict": "",
-      "origin": "中国",
-      "market": "全球/官网",
-      "last_verified": "2026-09-09",
-      "schema_fields": [
-        "驱动单元",
-        "驱动类型",
-        "频响",
-        "蓝牙/无线",
-        "连接",
-        "编码",
-        "采样率",
-        "位深",
-        "降噪",
-        "延迟",
-        "麦克风",
-        "麦克风数量",
-        "续航",
-        "电池",
-        "充电时间",
-        "无线距离",
-        "重量",
-        "有线连接",
-        "虚拟环绕",
-        "APP/软件",
-        "多设备",
-        "兼容平台"
-      ],
-      "image_url": "",
-      "image_source": "",
-      "first_seen": "2026-09-09",
-      "last_checked": "",
-      "sources": [
-        {
-          "type": "official_product",
-          "url": "https://ikfaudio.com/collections/headphones",
-          "tier": 100,
-          "checked_at": "2026-09-09",
-          "note": "现有数据库官方来源"
-        }
-      ],
-      "verification": {
-        "status": "legacy_review_required",
-        "confidence": 0.7,
-        "source_count": 1,
-        "conflicts": [],
-        "evidence": {
-          "official_url": "https://ikfaudio.com/collections/headphones",
-          "legacy_record": true
-        },
-        "quality_gate_version": "legacy",
-        "needs_review": true
-      },
-      "brand_zh_cn": "iKF"
     },
     {
       "brand": "iKF",
@@ -15394,108 +16084,37 @@
         "多设备",
         "兼容平台"
       ],
-      "image_url": "",
-      "image_source": "",
+      "image_url": "https://ikfaudio.com/cdn/shop/files/T1-2_4272098d-e6e6-4fe5-86df-c73ace946430.jpg?v=1774599681",
+      "image_source": "https://ikfaudio.com/products/ikf-t1-wireless-bluetooth-headphones-over-ear-3-5mm-aux-in-wired-headset",
       "first_seen": "2026-09-09",
-      "last_checked": "",
+      "last_checked": "2026-09-11",
       "sources": [
         {
           "type": "official_product",
           "url": "https://ikfaudio.com/products/ikf-t1-wireless-bluetooth-headphones-over-ear-3-5mm-aux-in-wired-headset",
           "tier": 100,
-          "checked_at": "2026-09-09",
+          "checked_at": "2026-09-11",
           "note": "现有数据库官方来源"
         }
       ],
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": false,
+          "product_schema_count": 0,
+          "canonical_url": "https://ikfaudio.com/products/ikf-t1-wireless-bluetooth-headphones-over-ear-3-5mm-aux-in-wired-headset",
+          "page_language": "en",
           "official_url": "https://ikfaudio.com/products/ikf-t1-wireless-bluetooth-headphones-over-ear-3-5mm-aux-in-wired-headset",
-          "legacy_record": true
+          "source_priority": 110
         },
-        "quality_gate_version": "legacy",
+        "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "iKF"
-    },
-    {
-      "brand": "iKF",
-      "name": "T1 Pro",
-      "category": "耳机/耳麦",
-      "subcategory": "头戴式蓝牙",
-      "status": "在售/历史状态待核实",
-      "verified": "官方来源",
-      "source": "https://ikfaudio.com/products/ikft1pro",
-      "specs": {
-        "驱动单元": "40mm",
-        "蓝牙/无线": "5.3 / 5.4 / 6.0",
-        "编码": "AAC / SBC",
-        "电池": "800mAh",
-        "续航": "120h",
-        "降噪": "无",
-        "延迟": "低延迟模式",
-        "APP/软件": "支持",
-        "多设备": "支持",
-        "有线连接": "3.5mm",
-        "原分类": "头戴式蓝牙"
-      },
-      "conflict": "",
-      "origin": "中国",
-      "market": "全球/官网",
-      "last_verified": "2026-09-09",
-      "schema_fields": [
-        "驱动单元",
-        "驱动类型",
-        "频响",
-        "蓝牙/无线",
-        "连接",
-        "编码",
-        "采样率",
-        "位深",
-        "降噪",
-        "延迟",
-        "麦克风",
-        "麦克风数量",
-        "续航",
-        "电池",
-        "充电时间",
-        "无线距离",
-        "重量",
-        "有线连接",
-        "虚拟环绕",
-        "APP/软件",
-        "多设备",
-        "兼容平台"
-      ],
-      "image_url": "",
-      "image_source": "",
-      "first_seen": "2026-09-09",
-      "last_checked": "",
-      "sources": [
-        {
-          "type": "official_product",
-          "url": "https://ikfaudio.com/products/ikft1pro",
-          "tier": 100,
-          "checked_at": "2026-09-09",
-          "note": "现有数据库官方来源"
-        }
-      ],
-      "verification": {
-        "status": "legacy_review_required",
-        "confidence": 0.7,
-        "source_count": 1,
-        "conflicts": [],
-        "evidence": {
-          "official_url": "https://ikfaudio.com/products/ikft1pro",
-          "legacy_record": true
-        },
-        "quality_gate_version": "legacy",
-        "needs_review": true
-      },
-      "brand_zh_cn": "iKF"
+      "brand_zh_cn": "iKF",
+      "spec_evidence": {}
     },
     {
       "brand": "iKF",
@@ -15630,32 +16249,37 @@
         "多设备",
         "兼容平台"
       ],
-      "image_url": "",
-      "image_source": "",
+      "image_url": "https://ikfaudio.com/cdn/shop/files/Ultra.jpg?v=1774599875",
+      "image_source": "https://ikfaudio.com/products/ikf-ultra-wireless-earbuds-active-noise-reducation-bluetooth-earphones-clear-call",
       "first_seen": "2026-09-09",
-      "last_checked": "",
+      "last_checked": "2026-09-11",
       "sources": [
         {
           "type": "official_product",
           "url": "https://ikfaudio.com/products/ikf-ultra-wireless-earbuds-active-noise-reducation-bluetooth-earphones-clear-call",
           "tier": 100,
-          "checked_at": "2026-09-09",
+          "checked_at": "2026-09-11",
           "note": "现有数据库官方来源"
         }
       ],
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": false,
+          "product_schema_count": 0,
+          "canonical_url": "https://ikfaudio.com/products/ikf-ultra-wireless-earbuds-active-noise-reducation-bluetooth-earphones-clear-call",
+          "page_language": "en",
           "official_url": "https://ikfaudio.com/products/ikf-ultra-wireless-earbuds-active-noise-reducation-bluetooth-earphones-clear-call",
-          "legacy_record": true
+          "source_priority": 110
         },
-        "quality_gate_version": "legacy",
+        "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "iKF"
+      "brand_zh_cn": "iKF",
+      "spec_evidence": {}
     },
     {
       "brand": "iKF",
@@ -17226,6 +17850,13 @@
           "tier": 110,
           "checked_at": "2026-09-11",
           "note": "new official product"
+        },
+        {
+          "type": "official_product",
+          "url": "https://lamzu.com/products/lamzu-atlantis-mini-4k-gaming-mouse",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
         }
       ],
       "specs": {
@@ -17234,7 +17865,7 @@
       "spec_evidence": {
         "Color": {
           "value": "Charcoal Black",
-          "source_url": "https://lamzu.com/zh/products/lamzu-atlantis-mini-4k-gaming-mouse",
+          "source_url": "https://lamzu.com/products/lamzu-atlantis-mini-4k-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -17245,14 +17876,14 @@
       "verification": {
         "status": "official_discovered",
         "confidence": 0.78,
-        "source_count": 1,
+        "source_count": 2,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://lamzu.com/zh/products/lamzu-atlantis-mini-4k-gaming-mouse",
-          "page_language": "zh-CN",
-          "official_url": "https://lamzu.com/zh/products/lamzu-atlantis-mini-4k-gaming-mouse",
+          "canonical_url": "https://lamzu.com/products/lamzu-atlantis-mini-4k-gaming-mouse",
+          "page_language": "en",
+          "official_url": "https://lamzu.com/products/lamzu-atlantis-mini-4k-gaming-mouse",
           "source_priority": 110,
           "sku": "",
           "schema_brand": "LAMZU"
@@ -17427,6 +18058,13 @@
           "tier": 110,
           "checked_at": "2026-09-11",
           "note": "additional official page"
+        },
+        {
+          "type": "official_product",
+          "url": "https://lamzu.com/zh/products/lamzu-atlantis-og-v2-mouse-sapphire-skate",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
         }
       ],
       "specs": {
@@ -17436,14 +18074,14 @@
       "verification": {
         "status": "conflict",
         "confidence": 0.7,
-        "source_count": 4,
+        "source_count": 5,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://lamzu.com/zh/products/lamzu-atlantis-og-v2-4k-gaming-mouse",
-          "page_language": "zh-CN",
-          "official_url": "https://lamzu.com/zh/products/lamzu-atlantis-og-v2-4k-gaming-mouse",
+          "canonical_url": "https://lamzu.com/products/lamzu-atlantis-og-v2-4k-gaming-mouse",
+          "page_language": "en",
+          "official_url": "https://lamzu.com/products/lamzu-atlantis-og-v2-4k-gaming-mouse",
           "source_priority": 110,
           "sku": "",
           "schema_brand": "LAMZU"
@@ -17792,6 +18430,64 @@
       "brand_zh_cn": "兰族"
     },
     {
+      "brand": "LAMZU",
+      "brand_zh_cn": "兰族",
+      "name": "X FNATIC THORN 4K",
+      "category": "鼠标",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "中国",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://lamzu.com/products/lamzu-x-fnatic-thorn-gaming-mouse",
+      "image_url": "https://lamzu.com/cdn/shop/products/20231108-fnatic-_-Thorn-_2_04-796089.jpg?v=1714123372",
+      "image_source": "https://lamzu.com/products/lamzu-x-fnatic-thorn-gaming-mouse",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://lamzu.com/products/lamzu-x-fnatic-thorn-gaming-mouse",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "Color": "Fnatic"
+      },
+      "spec_evidence": {
+        "Color": {
+          "value": "Fnatic",
+          "source_url": "https://lamzu.com/products/lamzu-x-fnatic-thorn-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_discovered",
+        "confidence": 0.78,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://lamzu.com/products/lamzu-x-fnatic-thorn-gaming-mouse",
+          "page_language": "en",
+          "official_url": "https://lamzu.com/products/lamzu-x-fnatic-thorn-gaming-mouse",
+          "source_priority": 110,
+          "sku": "",
+          "schema_brand": "LAMZU"
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": true
+      }
+    },
+    {
       "brand": "LUMINKEY",
       "brand_zh_cn": "LUMINKEY",
       "name": "LUMINKEY60",
@@ -18113,6 +18809,13 @@
           "tier": 110,
           "checked_at": "2026-09-11",
           "note": "additional official page"
+        },
+        {
+          "type": "official_product",
+          "url": "https://www.luminkey.com/zh/products/luminkey75-v2-tri-mode-custom-mechanical-keyboard",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
         }
       ],
       "specs": {},
@@ -18121,16 +18824,16 @@
       "verification": {
         "status": "official_discovered",
         "confidence": 0.78,
-        "source_count": 3,
+        "source_count": 4,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://luminkey.com/zh/products/titan75-he-hall-effect-magnetic-gaming-keyboard",
+          "canonical_url": "https://luminkey.com/zh/products/luminkey75-v2-tri-mode-custom-mechanical-keyboard",
           "page_language": "zh-CN",
-          "official_url": "https://www.luminkey.com/zh/products/titan75-he-hall-effect-magnetic-gaming-keyboard",
+          "official_url": "https://www.luminkey.com/zh/products/luminkey75-v2-tri-mode-custom-mechanical-keyboard",
           "source_priority": 110,
-          "sku": "",
+          "sku": "KB-LK-LK75-V2-Silver",
           "schema_brand": "LUMINKEY"
         },
         "quality_gate_version": "1.3-audited",
@@ -18745,12 +19448,12 @@
         "conflicts": [],
         "evidence": {
           "product_schema": true,
-          "product_schema_count": 1,
-          "canonical_url": "https://luminkey.com/products/magger68-professional-he-magnetic-keyboard",
+          "product_schema_count": 2,
+          "canonical_url": "https://luminkey.com/products/magger68-performance-he-magnetic-keyboard",
           "page_language": "en",
-          "official_url": "https://www.luminkey.com/products/magger68-professional-he-magnetic-keyboard",
+          "official_url": "https://www.luminkey.com/products/magger68-performance-he-magnetic-keyboard",
           "source_priority": 110,
-          "sku": "KB-LK-M68-PRO-GOLD",
+          "sku": "KB-LK-M68-PER-BLACK",
           "schema_brand": "LUMINKEY"
         },
         "quality_gate_version": "1.3-audited",
@@ -20970,7 +21673,24 @@
         "续航": "最高120h（1K）",
         "脚贴": "PTFE + 附加玻璃脚贴",
         "软件": "M HUB Web / App",
-        "可编程按键": "7"
+        "可编程按键": "7",
+        "Specification": "Black",
+        "Sensor": "PAW 3950 TI",
+        "DPI": "42,000 DPI",
+        "Chipset": "Realtek Chipset",
+        "Transmission Technology": "TOPSPEED Wireless Technology",
+        "Surface Coating": "ICEFLOW Glacier Coating",
+        "Drivers": "Self-developed M HUB (Web Driver / App Driver)",
+        "Main Key Micro Switch": "Omron Optical Micro Switch (70 Million Cycles)",
+        "Scroll Wheel": "TTC Gold Wheel Encoder",
+        "Polling Rate": "Wired 8K + Wireless 8K",
+        "Tracking Speed": "750 IPS",
+        "Acceleration": "50G",
+        "Battery": "500mAh",
+        "Weight": "53g (± 2g)",
+        "Connectivity": "Tri-mode (Type-C Cable / 2.4G Hz / Wireless)",
+        "Receiver": "8K Wireless Accelerator + 1K Nano Receiver",
+        "Package Contents": "1× A7X Ultra Mouse, 1× High-Grade Sturdy Case, 1× Glass Mouse Feet, 1× Custom Mouse Pouch, 1× Laser Soft Bottom Film, 1× 8K Wireless Accelerator, 1× 1K Nano Receiver, 1× Charging/Data Cable, 1× User Manual, 1× Anti-slip Sticker"
       },
       "conflict": "",
       "schema_fields": [
@@ -20996,32 +21716,176 @@
         "适合手型",
         "握法"
       ],
-      "image_url": "",
-      "image_source": "",
+      "image_url": "https://www.mchose.store/cdn/shop/files/mchose-official-mouse-black-mchose-a7x-ultra-magnesium-alloy-wireless-gaming-mouse-1200359829.png?v=1776838245",
+      "image_source": "https://www.mchose.store/products/mchose-a7x-ultra-magnesium-alloy-wireless-gaming-mouse",
       "first_seen": "2026-09-09",
-      "last_checked": "",
+      "last_checked": "2026-09-11",
       "sources": [
         {
           "type": "official_product",
           "url": "https://www.mchose.store/products/mchose-a7x-ultra-magnesium-alloy-wireless-gaming-mouse",
           "tier": 100,
-          "checked_at": "2026-09-09",
+          "checked_at": "2026-09-11",
           "note": "现有数据库官方来源"
         }
       ],
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": true,
+          "product_schema_count": 3,
+          "canonical_url": "https://mchose.store/products/mchose-a7x-ultra-magnesium-alloy-wireless-gaming-mouse",
+          "page_language": "en",
           "official_url": "https://www.mchose.store/products/mchose-a7x-ultra-magnesium-alloy-wireless-gaming-mouse",
-          "legacy_record": true
+          "source_priority": 110,
+          "sku": "MC-A7X-2",
+          "schema_brand": ""
         },
-        "quality_gate_version": "legacy",
+        "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "迈从"
+      "brand_zh_cn": "迈从",
+      "spec_evidence": {
+        "Specification": {
+          "value": "Black",
+          "source_url": "https://www.mchose.store/products/mchose-a7x-ultra-magnesium-alloy-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Sensor": {
+          "value": "PAW 3950 TI",
+          "source_url": "https://www.mchose.store/products/mchose-a7x-ultra-magnesium-alloy-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "DPI": {
+          "value": "42,000 DPI",
+          "source_url": "https://www.mchose.store/products/mchose-a7x-ultra-magnesium-alloy-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Chipset": {
+          "value": "Realtek Chipset",
+          "source_url": "https://www.mchose.store/products/mchose-a7x-ultra-magnesium-alloy-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Transmission Technology": {
+          "value": "TOPSPEED Wireless Technology",
+          "source_url": "https://www.mchose.store/products/mchose-a7x-ultra-magnesium-alloy-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Surface Coating": {
+          "value": "ICEFLOW Glacier Coating",
+          "source_url": "https://www.mchose.store/products/mchose-a7x-ultra-magnesium-alloy-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Drivers": {
+          "value": "Self-developed M HUB (Web Driver / App Driver)",
+          "source_url": "https://www.mchose.store/products/mchose-a7x-ultra-magnesium-alloy-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Main Key Micro Switch": {
+          "value": "Omron Optical Micro Switch (70 Million Cycles)",
+          "source_url": "https://www.mchose.store/products/mchose-a7x-ultra-magnesium-alloy-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Scroll Wheel": {
+          "value": "TTC Gold Wheel Encoder",
+          "source_url": "https://www.mchose.store/products/mchose-a7x-ultra-magnesium-alloy-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Polling Rate": {
+          "value": "Wired 8K + Wireless 8K",
+          "source_url": "https://www.mchose.store/products/mchose-a7x-ultra-magnesium-alloy-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Tracking Speed": {
+          "value": "750 IPS",
+          "source_url": "https://www.mchose.store/products/mchose-a7x-ultra-magnesium-alloy-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Acceleration": {
+          "value": "50G",
+          "source_url": "https://www.mchose.store/products/mchose-a7x-ultra-magnesium-alloy-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Battery": {
+          "value": "500mAh",
+          "source_url": "https://www.mchose.store/products/mchose-a7x-ultra-magnesium-alloy-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Weight": {
+          "value": "53g (± 2g)",
+          "source_url": "https://www.mchose.store/products/mchose-a7x-ultra-magnesium-alloy-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Connectivity": {
+          "value": "Tri-mode (Type-C Cable / 2.4G Hz / Wireless)",
+          "source_url": "https://www.mchose.store/products/mchose-a7x-ultra-magnesium-alloy-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Receiver": {
+          "value": "8K Wireless Accelerator + 1K Nano Receiver",
+          "source_url": "https://www.mchose.store/products/mchose-a7x-ultra-magnesium-alloy-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Package Contents": {
+          "value": "1× A7X Ultra Mouse, 1× High-Grade Sturdy Case, 1× Glass Mouse Feet, 1× Custom Mouse Pouch, 1× Laser Soft Bottom Film, 1× 8K Wireless Accelerator, 1× 1K Nano Receiver, 1× Charging/Data Cable, 1× User Manual, 1× Anti-slip Sticker",
+          "source_url": "https://www.mchose.store/products/mchose-a7x-ultra-magnesium-alloy-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      }
     },
     {
       "brand": "MCHOSE",
@@ -22196,7 +23060,24 @@
         "电池": "500mAh",
         "充电方式": "磁吸无线充电底座 + 8K Nano 接收器",
         "尺寸": "127.3 × 63.8 × 39.9mm",
-        "软件": "M HUB Web / App"
+        "软件": "M HUB Web / App",
+        "Model": "Black",
+        "Size": "127.3 × 63.8 × 39.9 mm (Medium to Large Hand)",
+        "Polling Rate": "Wired 8K + Wireless 8K",
+        "Main Key Micro Switch": "Omron Mechanical Switch (100 Million Clicks)",
+        "Sensor": "PAW 3950",
+        "DPI": "42,000 DPI",
+        "Chipset": "Realtek Chipset",
+        "Transmission Technology": "TOPSPEED Wireless Technology",
+        "Surface Coating": "High-Performance Glass-Like Coating",
+        "Finish": "Gold Plated PCB + Electroplated Side Button + Aluminum Alloy Scroll Wheel Roller",
+        "Drivers": "Self-developed M HUB (Web Driver / App Driver)",
+        "Weight": "59g (± 2g)",
+        "Battery": "500mAh",
+        "Scroll Wheel": "TTC Gold Wheel Encoder",
+        "Connectivity": "Tri-mode (Type-C Cable / 2.4G Hz / Wireless)",
+        "Receiver / Charging": "Magnetic Charging Dock + 8K NANO Receiver",
+        "Package Contents": "1× K7 Ultra Mouse, 1× Magnetic Charging Dock, 1× 8K Receiver, 1× Custom Mouse Storage Bag, 1× Charging/Data Cable, 1× User Manual, 1× Anti-slip Sticker"
       },
       "conflict": "",
       "schema_fields": [
@@ -22222,32 +23103,176 @@
         "适合手型",
         "握法"
       ],
-      "image_url": "",
-      "image_source": "",
+      "image_url": "https://www.mchose.store/cdn/shop/files/mchose-official-mouse-black-mchose-k7-ultra-lightweight-wireless-gaming-mouse-1182572688.jpg?v=1756452614",
+      "image_source": "https://www.mchose.store/products/mchose-k7-ultra-lightweight-wireless-gaming-mouse",
       "first_seen": "2026-09-09",
-      "last_checked": "",
+      "last_checked": "2026-09-11",
       "sources": [
         {
           "type": "official_product",
           "url": "https://www.mchose.store/products/mchose-k7-ultra-lightweight-wireless-gaming-mouse",
           "tier": 100,
-          "checked_at": "2026-09-09",
+          "checked_at": "2026-09-11",
           "note": "现有数据库官方来源"
         }
       ],
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": true,
+          "product_schema_count": 4,
+          "canonical_url": "https://mchose.store/products/mchose-k7-ultra-lightweight-wireless-gaming-mouse",
+          "page_language": "en",
           "official_url": "https://www.mchose.store/products/mchose-k7-ultra-lightweight-wireless-gaming-mouse",
-          "legacy_record": true
+          "source_priority": 110,
+          "sku": "HW-K7-13",
+          "schema_brand": ""
         },
-        "quality_gate_version": "legacy",
+        "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "迈从"
+      "brand_zh_cn": "迈从",
+      "spec_evidence": {
+        "Model": {
+          "value": "Black",
+          "source_url": "https://www.mchose.store/products/mchose-k7-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Size": {
+          "value": "127.3 × 63.8 × 39.9 mm (Medium to Large Hand)",
+          "source_url": "https://www.mchose.store/products/mchose-k7-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Polling Rate": {
+          "value": "Wired 8K + Wireless 8K",
+          "source_url": "https://www.mchose.store/products/mchose-k7-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Main Key Micro Switch": {
+          "value": "Omron Mechanical Switch (100 Million Clicks)",
+          "source_url": "https://www.mchose.store/products/mchose-k7-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Sensor": {
+          "value": "PAW 3950",
+          "source_url": "https://www.mchose.store/products/mchose-k7-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "DPI": {
+          "value": "42,000 DPI",
+          "source_url": "https://www.mchose.store/products/mchose-k7-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Chipset": {
+          "value": "Realtek Chipset",
+          "source_url": "https://www.mchose.store/products/mchose-k7-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Transmission Technology": {
+          "value": "TOPSPEED Wireless Technology",
+          "source_url": "https://www.mchose.store/products/mchose-k7-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Surface Coating": {
+          "value": "High-Performance Glass-Like Coating",
+          "source_url": "https://www.mchose.store/products/mchose-k7-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Finish": {
+          "value": "Gold Plated PCB + Electroplated Side Button + Aluminum Alloy Scroll Wheel Roller",
+          "source_url": "https://www.mchose.store/products/mchose-k7-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Drivers": {
+          "value": "Self-developed M HUB (Web Driver / App Driver)",
+          "source_url": "https://www.mchose.store/products/mchose-k7-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Weight": {
+          "value": "59g (± 2g)",
+          "source_url": "https://www.mchose.store/products/mchose-k7-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Battery": {
+          "value": "500mAh",
+          "source_url": "https://www.mchose.store/products/mchose-k7-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Scroll Wheel": {
+          "value": "TTC Gold Wheel Encoder",
+          "source_url": "https://www.mchose.store/products/mchose-k7-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Connectivity": {
+          "value": "Tri-mode (Type-C Cable / 2.4G Hz / Wireless)",
+          "source_url": "https://www.mchose.store/products/mchose-k7-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Receiver / Charging": {
+          "value": "Magnetic Charging Dock + 8K NANO Receiver",
+          "source_url": "https://www.mchose.store/products/mchose-k7-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Package Contents": {
+          "value": "1× K7 Ultra Mouse, 1× Magnetic Charging Dock, 1× 8K Receiver, 1× Custom Mouse Storage Bag, 1× Charging/Data Cable, 1× User Manual, 1× Anti-slip Sticker",
+          "source_url": "https://www.mchose.store/products/mchose-k7-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      }
     },
     {
       "brand": "MCHOSE",
@@ -22275,7 +23300,28 @@
         "电池": "500mAh",
         "充电方式": "磁吸充电底座 + 8K Nano 接收器",
         "软件": "M HUB Web / Desktop",
-        "尺寸": "约127.1 × 63.8 × 39.8mm"
+        "尺寸": "约127.1 × 63.8 × 39.8mm",
+        "Model": "K7 V2 Pro+",
+        "Colors": "Black / White",
+        "Recommended Hand Size": "Medium to Large",
+        "Dimensions": "Approx. 127.1 × 63.8 × 39.8 mm",
+        "Platform": "MCHOSE Shadow Hunter Performance Platform",
+        "Sensor": "PAW3950",
+        "Competitive Mode": "20,000+ FPS Full-Range Tracking",
+        "MCU": "Nordic 54L",
+        "Wireless Technology": "MCHOSE TOPSPEED Wireless 2.0",
+        "Build & Finishing": "Immersion Gold PCB + Standard Finishing",
+        "Coating": "Super Glide Glass-Like Coating 2.0",
+        "Weight": "59 ± 2 g",
+        "Switches": "Omron Mechanical Switches, Rated for 100 Million Clicks",
+        "Software": "M HUB (Web & Desktop)",
+        "Polling Rate": "Up to 8,000 Hz Wired & Wireless",
+        "Scroll Wheel": "TTC Gold Encoder",
+        "Max DPI": "Up to 42,000 DPI",
+        "Battery Capacity": "500 mAh",
+        "Charging & Receiver": "Magnetic Charging Dock + 8K Nano Receiver",
+        "Connectivity": "Tri-Mode (Wired / 2.4 GHz Wireless / BT)",
+        "What’s in the Box": "1 × 8K Nano Receiver 1 × Magnetic RGB Charging Dock 1 × Charging/Data Cable 1 × User Manual 1 × Anti-slip Sticker"
       },
       "conflict": "",
       "schema_fields": [
@@ -22301,32 +23347,208 @@
         "适合手型",
         "握法"
       ],
-      "image_url": "",
-      "image_source": "",
+      "image_url": "https://www.mchose.store/cdn/shop/files/mchose-official-k7-v2-pro-black-mchose-k7-v2-series-wireless-gaming-mouse-1254140940.jpg?v=1786684839",
+      "image_source": "https://www.mchose.store/products/mchose-k7-v2-series-wireless-gaming-mouse",
       "first_seen": "2026-09-09",
-      "last_checked": "",
+      "last_checked": "2026-09-11",
       "sources": [
         {
           "type": "official_product",
           "url": "https://www.mchose.store/products/mchose-k7-v2-series-wireless-gaming-mouse",
           "tier": 100,
-          "checked_at": "2026-09-09",
+          "checked_at": "2026-09-11",
           "note": "现有数据库官方来源"
         }
       ],
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": true,
+          "product_schema_count": 5,
+          "canonical_url": "https://mchose.store/products/mchose-k7-v2-series-wireless-gaming-mouse",
+          "page_language": "en",
           "official_url": "https://www.mchose.store/products/mchose-k7-v2-series-wireless-gaming-mouse",
-          "legacy_record": true
+          "source_priority": 110,
+          "sku": "MC-K7V2-10",
+          "schema_brand": ""
         },
-        "quality_gate_version": "legacy",
+        "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "迈从"
+      "brand_zh_cn": "迈从",
+      "spec_evidence": {
+        "Model": {
+          "value": "K7 V2 Pro+",
+          "source_url": "https://www.mchose.store/products/mchose-k7-v2-series-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Colors": {
+          "value": "Black / White",
+          "source_url": "https://www.mchose.store/products/mchose-k7-v2-series-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Recommended Hand Size": {
+          "value": "Medium to Large",
+          "source_url": "https://www.mchose.store/products/mchose-k7-v2-series-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Dimensions": {
+          "value": "Approx. 127.1 × 63.8 × 39.8 mm",
+          "source_url": "https://www.mchose.store/products/mchose-k7-v2-series-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Platform": {
+          "value": "MCHOSE Shadow Hunter Performance Platform",
+          "source_url": "https://www.mchose.store/products/mchose-k7-v2-series-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Sensor": {
+          "value": "PAW3950",
+          "source_url": "https://www.mchose.store/products/mchose-k7-v2-series-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Competitive Mode": {
+          "value": "20,000+ FPS Full-Range Tracking",
+          "source_url": "https://www.mchose.store/products/mchose-k7-v2-series-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "MCU": {
+          "value": "Nordic 54L",
+          "source_url": "https://www.mchose.store/products/mchose-k7-v2-series-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Wireless Technology": {
+          "value": "MCHOSE TOPSPEED Wireless 2.0",
+          "source_url": "https://www.mchose.store/products/mchose-k7-v2-series-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Build & Finishing": {
+          "value": "Immersion Gold PCB + Standard Finishing",
+          "source_url": "https://www.mchose.store/products/mchose-k7-v2-series-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Coating": {
+          "value": "Super Glide Glass-Like Coating 2.0",
+          "source_url": "https://www.mchose.store/products/mchose-k7-v2-series-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Weight": {
+          "value": "59 ± 2 g",
+          "source_url": "https://www.mchose.store/products/mchose-k7-v2-series-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Switches": {
+          "value": "Omron Mechanical Switches, Rated for 100 Million Clicks",
+          "source_url": "https://www.mchose.store/products/mchose-k7-v2-series-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Software": {
+          "value": "M HUB (Web & Desktop)",
+          "source_url": "https://www.mchose.store/products/mchose-k7-v2-series-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Polling Rate": {
+          "value": "Up to 8,000 Hz Wired & Wireless",
+          "source_url": "https://www.mchose.store/products/mchose-k7-v2-series-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Scroll Wheel": {
+          "value": "TTC Gold Encoder",
+          "source_url": "https://www.mchose.store/products/mchose-k7-v2-series-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Max DPI": {
+          "value": "Up to 42,000 DPI",
+          "source_url": "https://www.mchose.store/products/mchose-k7-v2-series-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Battery Capacity": {
+          "value": "500 mAh",
+          "source_url": "https://www.mchose.store/products/mchose-k7-v2-series-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Charging & Receiver": {
+          "value": "Magnetic Charging Dock + 8K Nano Receiver",
+          "source_url": "https://www.mchose.store/products/mchose-k7-v2-series-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Connectivity": {
+          "value": "Tri-Mode (Wired / 2.4 GHz Wireless / BT)",
+          "source_url": "https://www.mchose.store/products/mchose-k7-v2-series-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "What’s in the Box": {
+          "value": "1 × 8K Nano Receiver 1 × Magnetic RGB Charging Dock 1 × Charging/Data Cable 1 × User Manual 1 × Anti-slip Sticker",
+          "source_url": "https://www.mchose.store/products/mchose-k7-v2-series-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      }
     },
     {
       "brand": "MCHOSE",
@@ -22468,7 +23690,26 @@
         "微动": "Kailh 黑绿点光微动",
         "微动寿命": "1.5亿次",
         "脚贴": "PTFE",
-        "软件": "M HUB"
+        "软件": "M HUB",
+        "Hand Size Fit": "Small Hands",
+        "Model": "L7 Pro",
+        "Color Options": "White / Black",
+        "Grip Style": "Claw Grip",
+        "Dimensions": "115.62 × 60.61 × 36.04 mm",
+        "Polling Rate": "Wired 8K + Wireless 8K",
+        "Main Key Micro Switch": "Kailh Black Green Dot Optical Switch, 150M Clicks",
+        "Surface Coating": "High-performance Glass-like Coating",
+        "Sensor": "PAW3395",
+        "Chipset": "Realtek Chipset",
+        "Transmission Technology": "TOPSPEED Wireless Technology",
+        "Drivers": "Self-developed M HUB (Web Driver / App Driver)",
+        "DPI": "26,000 DPI",
+        "Battery Capacity": "250 mAh",
+        "Weight": "39 g",
+        "Feet": "Pure PTFE Glides",
+        "Scroll Wheel": "TTC Gold Wheel Encoder",
+        "Connectivity": "Tri-mode (Type-C Cable / 2.4G / Wireless)",
+        "Package Contents": "8K Receiver ×1, Charging/Data Paracord Cable ×1, User Manual ×1, Anti-slip Sticker ×1"
       },
       "conflict": "",
       "schema_fields": [
@@ -22494,32 +23735,192 @@
         "适合手型",
         "握法"
       ],
-      "image_url": "",
-      "image_source": "",
+      "image_url": "https://www.mchose.store/cdn/shop/files/mchose-official-mouse-l7-black-mchose-l7-series-ultra-lightweight-wireless-gaming-mouse-1166639713.jpg?v=1754474333",
+      "image_source": "https://www.mchose.store/products/mchose-l7-series-ultra-lightweight-wireless-gaming-mouse",
       "first_seen": "2026-09-09",
-      "last_checked": "",
+      "last_checked": "2026-09-11",
       "sources": [
         {
           "type": "official_product",
           "url": "https://www.mchose.store/products/mchose-l7-series-ultra-lightweight-wireless-gaming-mouse",
           "tier": 100,
-          "checked_at": "2026-09-09",
+          "checked_at": "2026-09-11",
           "note": "现有数据库官方来源"
         }
       ],
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
+          "product_schema": true,
+          "product_schema_count": 8,
+          "canonical_url": "https://mchose.store/products/mchose-l7-series-ultra-lightweight-wireless-gaming-mouse",
+          "page_language": "en",
           "official_url": "https://www.mchose.store/products/mchose-l7-series-ultra-lightweight-wireless-gaming-mouse",
-          "legacy_record": true
+          "source_priority": 110,
+          "sku": "HW-L7-4KH",
+          "schema_brand": ""
         },
-        "quality_gate_version": "legacy",
+        "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
-      "brand_zh_cn": "迈从"
+      "brand_zh_cn": "迈从",
+      "spec_evidence": {
+        "Hand Size Fit": {
+          "value": "Small Hands",
+          "source_url": "https://www.mchose.store/products/mchose-l7-series-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Model": {
+          "value": "L7 Pro",
+          "source_url": "https://www.mchose.store/products/mchose-l7-series-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Color Options": {
+          "value": "White / Black",
+          "source_url": "https://www.mchose.store/products/mchose-l7-series-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Grip Style": {
+          "value": "Claw Grip",
+          "source_url": "https://www.mchose.store/products/mchose-l7-series-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Dimensions": {
+          "value": "115.62 × 60.61 × 36.04 mm",
+          "source_url": "https://www.mchose.store/products/mchose-l7-series-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Polling Rate": {
+          "value": "Wired 8K + Wireless 8K",
+          "source_url": "https://www.mchose.store/products/mchose-l7-series-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Main Key Micro Switch": {
+          "value": "Kailh Black Green Dot Optical Switch, 150M Clicks",
+          "source_url": "https://www.mchose.store/products/mchose-l7-series-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Surface Coating": {
+          "value": "High-performance Glass-like Coating",
+          "source_url": "https://www.mchose.store/products/mchose-l7-series-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Sensor": {
+          "value": "PAW3395",
+          "source_url": "https://www.mchose.store/products/mchose-l7-series-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Chipset": {
+          "value": "Realtek Chipset",
+          "source_url": "https://www.mchose.store/products/mchose-l7-series-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Transmission Technology": {
+          "value": "TOPSPEED Wireless Technology",
+          "source_url": "https://www.mchose.store/products/mchose-l7-series-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Drivers": {
+          "value": "Self-developed M HUB (Web Driver / App Driver)",
+          "source_url": "https://www.mchose.store/products/mchose-l7-series-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "DPI": {
+          "value": "26,000 DPI",
+          "source_url": "https://www.mchose.store/products/mchose-l7-series-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Battery Capacity": {
+          "value": "250 mAh",
+          "source_url": "https://www.mchose.store/products/mchose-l7-series-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Weight": {
+          "value": "39 g",
+          "source_url": "https://www.mchose.store/products/mchose-l7-series-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Feet": {
+          "value": "Pure PTFE Glides",
+          "source_url": "https://www.mchose.store/products/mchose-l7-series-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Scroll Wheel": {
+          "value": "TTC Gold Wheel Encoder",
+          "source_url": "https://www.mchose.store/products/mchose-l7-series-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Connectivity": {
+          "value": "Tri-mode (Type-C Cable / 2.4G / Wireless)",
+          "source_url": "https://www.mchose.store/products/mchose-l7-series-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Package Contents": {
+          "value": "8K Receiver ×1, Charging/Data Paracord Cable ×1, User Manual ×1, Anti-slip Sticker ×1",
+          "source_url": "https://www.mchose.store/products/mchose-l7-series-ultra-lightweight-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      }
     },
     {
       "brand": "MCHOSE",
@@ -24479,16 +25880,16 @@
       "market": "官网",
       "first_seen": "2026-09-10",
       "last_verified": "2026-09-10",
-      "last_checked": "2026-09-10",
+      "last_checked": "2026-09-11",
       "source": "https://cn.razerzone.com/gaming-headsets/razer-blackshark-v2",
-      "image_url": "",
-      "image_source": "",
+      "image_url": "https://assets2.razerzone.com/images/pnx.assets/bcd7f2b2adfd7b003beb3b3935ceccd9/-blacksharkv2-1500x1000-0.jpg",
+      "image_source": "https://cn.razerzone.com/gaming-headsets/razer-blackshark-v2",
       "sources": [
         {
           "type": "official_product",
           "url": "https://cn.razerzone.com/gaming-headsets/razer-blackshark-v2",
           "tier": 100,
-          "checked_at": "2026-09-10",
+          "checked_at": "2026-09-11",
           "note": "new official product"
         },
         {
@@ -24524,19 +25925,90 @@
       },
       "conflict": "",
       "verification": {
-        "status": "legacy_review_required",
+        "status": "official_discovered",
         "confidence": 0.7,
         "source_count": 3,
         "conflicts": [],
         "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://cn.razerzone.com/gaming-headsets/razer-blackshark-v2",
+          "page_language": "zh-CN",
           "official_url": "https://cn.razerzone.com/gaming-headsets/razer-blackshark-v2",
-          "legacy_record": true
+          "source_priority": 110,
+          "sku": "",
+          "schema_brand": "Razer 雷蛇"
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
       },
       "brand_zh_cn": "雷蛇",
-      "spec_evidence": {}
+      "spec_evidence": {
+        "Razer™ TriForce50 毫米镀钛驱动单元": {
+          "value": "Razer™ TriForce 50 毫米驱动单元",
+          "source_url": "https://cn.razerzone.com/gaming-headsets/razer-blackshark-v2",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "带USB声卡的可拆卸RazerHyperClear灵晰降噪心形指向麦克风": {
+          "value": "固定型 Razer™ HyperClear灵晰降噪心形指向麦克风",
+          "source_url": "https://cn.razerzone.com/gaming-headsets/razer-blackshark-v2",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "先进的麦克风控制功能": {
+          "value": "-",
+          "source_url": "https://cn.razerzone.com/gaming-headsets/razer-blackshark-v2",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "超柔软的 FlowKnit 记忆绵耳罩": {
+          "value": "标准的透气记忆绵耳罩垫",
+          "source_url": "https://cn.razerzone.com/gaming-headsets/razer-blackshark-v2",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Razer SpeedFlex 超柔线缆": {
+          "value": "标准橡胶线缆",
+          "source_url": "https://cn.razerzone.com/gaming-headsets/razer-blackshark-v2",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "THX Spatial Audio 空间音效": {
+          "value": "7.1环绕声",
+          "source_url": "https://cn.razerzone.com/gaming-headsets/razer-blackshark-v2",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "连接 - 3.5 毫米接头 + USB 声卡": {
+          "value": "连接 - 3.5 毫米接头",
+          "source_url": "https://cn.razerzone.com/gaming-headsets/razer-blackshark-v2",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "重量：262 克": {
+          "value": "重量：240 克",
+          "source_url": "https://cn.razerzone.com/gaming-headsets/razer-blackshark-v2",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      }
     },
     {
       "brand": "Razer",
@@ -25290,7 +26762,7 @@
       "spec_evidence": {
         "User Guide": {
           "value": "SOUNDPEATS Air5 Pro+ User Manual",
-          "source_url": "https://soundpeats.com/en-ca/products/air5-pro-plus-tws-earbuds-xmems-10mm-drivers-hi-res-audio-ldac-aptx-lossless",
+          "source_url": "https://soundpeats.com/products/air5-pro-plus-tws-earbuds-xmems-10mm-drivers-hi-res-audio-ldac-aptx-lossless",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -25298,7 +26770,7 @@
         },
         "FAQ": {
           "value": "SOUNDPEATS Air5 Pro+ FAQ",
-          "source_url": "https://soundpeats.com/en-ca/products/air5-pro-plus-tws-earbuds-xmems-10mm-drivers-hi-res-audio-ldac-aptx-lossless",
+          "source_url": "https://soundpeats.com/products/air5-pro-plus-tws-earbuds-xmems-10mm-drivers-hi-res-audio-ldac-aptx-lossless",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -25314,9 +26786,9 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://soundpeats.com/en-ca/products/air5-pro-plus-tws-earbuds-xmems-10mm-drivers-hi-res-audio-ldac-aptx-lossless",
+          "canonical_url": "https://soundpeats.com/products/air5-pro-plus-tws-earbuds-xmems-10mm-drivers-hi-res-audio-ldac-aptx-lossless",
           "page_language": "en",
-          "official_url": "https://soundpeats.com/en-ca/products/air5-pro-plus-tws-earbuds-xmems-10mm-drivers-hi-res-audio-ldac-aptx-lossless",
+          "official_url": "https://soundpeats.com/products/air5-pro-plus-tws-earbuds-xmems-10mm-drivers-hi-res-audio-ldac-aptx-lossless",
           "source_priority": 110,
           "sku": "SP-Air5-Pro-Plus-BLACK",
           "schema_brand": "SOUNDPEATS"
@@ -25604,7 +27076,7 @@
       "spec_evidence": {
         "User Guide": {
           "value": "SOUNDPEATS Space Pro User Manual",
-          "source_url": "https://soundpeats.com/en-mx/products/soundpeats-space-pro-over-ear-anc-headphones-with-long-battery-life",
+          "source_url": "https://soundpeats.com/products/soundpeats-space-pro-over-ear-anc-headphones-with-long-battery-life",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -25620,9 +27092,9 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://soundpeats.com/en-mx/products/soundpeats-space-pro-over-ear-anc-headphones-with-long-battery-life",
+          "canonical_url": "https://soundpeats.com/products/soundpeats-space-pro-over-ear-anc-headphones-with-long-battery-life",
           "page_language": "en",
-          "official_url": "https://soundpeats.com/en-mx/products/soundpeats-space-pro-over-ear-anc-headphones-with-long-battery-life",
+          "official_url": "https://soundpeats.com/products/soundpeats-space-pro-over-ear-anc-headphones-with-long-battery-life",
           "source_priority": 110,
           "sku": "SP-Space-Pro-Black",
           "schema_brand": "SOUNDPEATS"
@@ -25918,6 +27390,13 @@
           "tier": 110,
           "checked_at": "2026-09-11",
           "note": "additional official page"
+        },
+        {
+          "type": "official_product",
+          "url": "https://steelseries.com/gaming-headsets/arctis-3-2025?color=black",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
         }
       ],
       "specs": {},
@@ -25926,16 +27405,16 @@
       "verification": {
         "status": "official_discovered",
         "confidence": 0.78,
-        "source_count": 2,
+        "source_count": 3,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
           "canonical_url": "https://steelseries.com/gaming-headsets/arctis-3-2025",
           "page_language": "en",
-          "official_url": "https://steelseries.com/gaming-headsets/arctis-3-2025?color=white",
+          "official_url": "https://steelseries.com/gaming-headsets/arctis-3-2025?color=black",
           "source_priority": 110,
-          "sku": "61506",
+          "sku": "61503",
           "schema_brand": ""
         },
         "quality_gate_version": "1.3-audited",
@@ -26360,6 +27839,13 @@
           "tier": 110,
           "checked_at": "2026-09-11",
           "note": "new official product"
+        },
+        {
+          "type": "official_product",
+          "url": "https://steelseries.com/gaming-headsets/arctis-nova-7?color=white&primaryPlatform=xbox",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
         }
       ],
       "specs": {},
@@ -26368,16 +27854,16 @@
       "verification": {
         "status": "official_discovered",
         "confidence": 0.78,
-        "source_count": 1,
+        "source_count": 2,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://steelseries.com/gaming-headsets/arctis-nova-7x-wireless-gen-2-blemishedbox",
+          "canonical_url": "https://steelseries.com/gaming-headsets/arctis-nova-7",
           "page_language": "en",
-          "official_url": "https://steelseries.com/gaming-headsets/arctis-nova-7x-wireless-gen-2-blemishedbox",
+          "official_url": "https://steelseries.com/gaming-headsets/arctis-nova-7?color=white&primaryPlatform=xbox",
           "source_priority": 110,
-          "sku": "arctis-nova-7x-wireless-gen-2-blemishedbox-variant",
+          "sku": "61567",
           "schema_brand": "SteelSeries"
         },
         "quality_gate_version": "1.3-audited",
@@ -26485,9 +27971,9 @@
           "product_schema_count": 1,
           "canonical_url": "https://steelseries.com/gaming-headsets/arctis-nova-pro",
           "page_language": "en",
-          "official_url": "https://steelseries.com/gaming-headsets/arctis-nova-pro",
+          "official_url": "https://steelseries.com/gaming-headsets/arctis-nova-pro?color=black&connectivityType=wireless&primaryPlatform=pc%2Fps",
           "source_priority": 110,
-          "sku": "61528",
+          "sku": "61529",
           "schema_brand": "SteelSeries"
         },
         "quality_gate_version": "1.3-audited",
@@ -28075,6 +29561,6 @@
   ],
   "quality_policy_version": "1.2",
   "language_default": "zh-CN",
-  "quarantined_count": 687,
+  "quarantined_count": 707,
   "quality_migration_revision": 2
 }
