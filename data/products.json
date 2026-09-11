@@ -6639,6 +6639,82 @@
     {
       "brand": "Baseus",
       "brand_zh_cn": "倍思",
+      "name": "Bowie M2 Plus",
+      "category": "耳机/耳麦",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "中国",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://www.baseus.com/products/bowie-m2-plus-tws-wireless-earbuds",
+      "image_url": "https://www.baseus.com/cdn/shop/products/NGTW190001_BaseusBowieM2PlusTWSWirelessEarbuds_1_2.webp?v=1678701181&width=1024",
+      "image_source": "https://www.baseus.com/products/bowie-m2-plus-tws-wireless-earbuds",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://www.baseus.com/products/bowie-m2-plus-tws-wireless-earbuds",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "Shipped From": "Processing Time",
+        "US": "1-2 Business day",
+        "HongKong": "1-2 Business day"
+      },
+      "spec_evidence": {
+        "Shipped From": {
+          "value": "Processing Time",
+          "source_url": "https://www.baseus.com/products/bowie-m2-plus-tws-wireless-earbuds",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "US": {
+          "value": "1-2 Business day",
+          "source_url": "https://www.baseus.com/products/bowie-m2-plus-tws-wireless-earbuds",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "HongKong": {
+          "value": "1-2 Business day",
+          "source_url": "https://www.baseus.com/products/bowie-m2-plus-tws-wireless-earbuds",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_discovered",
+        "confidence": 0.78,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://baseus.com/products/bowie-m2-plus-tws-wireless-earbuds",
+          "page_language": "en",
+          "official_url": "https://www.baseus.com/products/bowie-m2-plus-tws-wireless-earbuds",
+          "source_priority": 110,
+          "sku": "NGTW190001",
+          "schema_brand": "baseus"
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": true
+      }
+    },
+    {
+      "brand": "Baseus",
+      "brand_zh_cn": "倍思",
       "name": "Bowie MA10",
       "category": "耳机/耳麦",
       "subcategory": "自动发现",
@@ -8048,9 +8124,9 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 2,
-          "canonical_url": "https://dareu.com/products/dareu-a87l-wired-wholesale-tkl-87-key-custom-hotswap-gaming-keyboard",
+          "canonical_url": "https://dareu.com/en-eu/products/dareu-a87l-wired-wholesale-tkl-87-key-custom-hotswap-gaming-keyboard",
           "page_language": "en",
-          "official_url": "https://dareu.com/products/dareu-a87l-wired-wholesale-tkl-87-key-custom-hotswap-gaming-keyboard",
+          "official_url": "https://dareu.com/en-eu/products/dareu-a87l-wired-wholesale-tkl-87-key-custom-hotswap-gaming-keyboard",
           "source_priority": 110,
           "sku": "",
           "schema_brand": "Dareu"
@@ -8062,7 +8138,7 @@
       "spec_evidence": {
         "Product": {
           "value": "Total",
-          "source_url": "https://dareu.com/products/dareu-a87l-wired-wholesale-tkl-87-key-custom-hotswap-gaming-keyboard",
+          "source_url": "https://dareu.com/en-eu/products/dareu-a87l-wired-wholesale-tkl-87-key-custom-hotswap-gaming-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -8237,6 +8313,13 @@
           "tier": 110,
           "checked_at": "2026-09-11",
           "note": "new official product"
+        },
+        {
+          "type": "official_product",
+          "url": "https://dareu.com/products/dareu-ae6-8k-mouse",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
         }
       ],
       "specs": {
@@ -8245,7 +8328,7 @@
       "spec_evidence": {
         "Product": {
           "value": "Total",
-          "source_url": "https://dareu.com/products/dareu-ae6-8k-mouse%20%20%20%20%20%20%20%20%20%20%20%20",
+          "source_url": "https://dareu.com/products/dareu-ae6-8k-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -8256,14 +8339,14 @@
       "verification": {
         "status": "official_discovered",
         "confidence": 0.78,
-        "source_count": 1,
+        "source_count": 2,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 2,
           "canonical_url": "https://dareu.com/products/dareu-ae6-8k-mouse",
           "page_language": "en",
-          "official_url": "https://dareu.com/products/dareu-ae6-8k-mouse%20%20%20%20%20%20%20%20%20%20%20%20",
+          "official_url": "https://dareu.com/products/dareu-ae6-8k-mouse",
           "source_priority": 110,
           "sku": "",
           "schema_brand": "Dareu"
@@ -8995,7 +9078,7 @@
       "spec_evidence": {
         "Product": {
           "value": "Total",
-          "source_url": "https://dareu.com/products/dareu-flex-75-tri-mode-keyboard",
+          "source_url": "https://dareu.com/products/dareu-flex-75-tri-mode-keyboard%20%20%20%20%20%20%20%20%20%20%20%20",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -9013,7 +9096,7 @@
           "product_schema_count": 2,
           "canonical_url": "https://dareu.com/products/dareu-flex-75-tri-mode-keyboard",
           "page_language": "en",
-          "official_url": "https://dareu.com/products/dareu-flex-75-tri-mode-keyboard",
+          "official_url": "https://dareu.com/products/dareu-flex-75-tri-mode-keyboard%20%20%20%20%20%20%20%20%20%20%20%20",
           "source_priority": 110,
           "sku": "",
           "schema_brand": "Dareu"
@@ -10809,11 +10892,11 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://eksa.net/products/eksa-e1000-bt-7-1-surround-sound-wireless-gaming-headset",
+          "canonical_url": "https://eksa.net/products/eksa-e1000-rgb-usb-gaming-headset",
           "page_language": "en",
-          "official_url": "https://www.eksa.net/products/eksa-e1000-bt-7-1-surround-sound-wireless-gaming-headset",
+          "official_url": "https://www.eksa.net/products/eksa-e1000-rgb-usb-gaming-headset",
           "source_priority": 110,
-          "sku": "E1000 BT",
+          "sku": "E1000 - Grey",
           "schema_brand": "EKSA"
         },
         "quality_gate_version": "1.3-audited",
@@ -10865,11 +10948,11 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://eksa.net/products/eksa%c2%ae-e1000-v2-rgb-wired-gaming-headset-copy",
+          "canonical_url": "https://eksa.net/products/eksa-e1000-v2-rgb-wired-gaming-headset",
           "page_language": "en",
-          "official_url": "https://www.eksa.net/products/eksa%C2%AE-e1000-v2-rgb-wired-gaming-headset-copy",
+          "official_url": "https://www.eksa.net/products/eksa-e1000-v2-rgb-wired-gaming-headset",
           "source_priority": 110,
-          "sku": "E1000 V2 - Pink",
+          "sku": "E1000 V2 - Black",
           "schema_brand": "EKSA"
         },
         "quality_gate_version": "1.3-audited",
@@ -10991,11 +11074,11 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://eksa.net/products/eksa-e900-pro-7-1-virtual-surround-sound-yellow-gaming-headset-upgraded",
+          "canonical_url": "https://eksa.net/products/eksa-e900-pro-7-1-virtual-surround-sound-gaming-headset",
           "page_language": "en",
-          "official_url": "https://www.eksa.net/products/eksa-e900-pro-7-1-virtual-surround-sound-yellow-gaming-headset-upgraded",
+          "official_url": "https://www.eksa.net/products/eksa-e900-pro-7-1-virtual-surround-sound-gaming-headset",
           "source_priority": 110,
-          "sku": "E900 Pro - Yellow",
+          "sku": "E900Pro - Black",
           "schema_brand": "EKSA"
         },
         "quality_gate_version": "1.3-audited",
@@ -14246,7 +14329,7 @@
       "spec_evidence": {
         "Warranty": {
           "value": "2 years",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-d-3-wireless-mouse",
+          "source_url": "https://www.gloriousgaming.com/products/model-d-3-wired-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -14254,7 +14337,7 @@
         },
         "Shape": {
           "value": "Ergonomic",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-d-3-wireless-mouse",
+          "source_url": "https://www.gloriousgaming.com/products/model-d-3-wired-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -14262,7 +14345,7 @@
         },
         "Size": {
           "value": "Standard",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-d-3-wireless-mouse",
+          "source_url": "https://www.gloriousgaming.com/products/model-d-3-wired-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -14286,7 +14369,7 @@
         },
         "Grip Style": {
           "value": "Palm, Claw",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-d-3-wireless-mouse",
+          "source_url": "https://www.gloriousgaming.com/products/model-d-3-wired-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -14310,7 +14393,7 @@
         },
         "Sensor": {
           "value": "BAMF 3.0",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-d-3-wireless-mouse",
+          "source_url": "https://www.gloriousgaming.com/products/model-d-3-wired-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -14318,7 +14401,7 @@
         },
         "Max Sensitivity (DPI)": {
           "value": "30,000 DPI",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-d-3-wireless-mouse",
+          "source_url": "https://www.gloriousgaming.com/products/model-d-3-wired-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -14326,7 +14409,7 @@
         },
         "Max Speed (IPS)": {
           "value": "750 IPS",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-d-3-wireless-mouse",
+          "source_url": "https://www.gloriousgaming.com/products/model-d-3-wired-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -14334,7 +14417,7 @@
         },
         "Max Acceleration (G)": {
           "value": "50G",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-d-3-wireless-mouse",
+          "source_url": "https://www.gloriousgaming.com/products/model-d-3-wired-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -14342,7 +14425,7 @@
         },
         "RGB Lighting": {
           "value": "Yes",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-d-3-wireless-mouse",
+          "source_url": "https://www.gloriousgaming.com/products/model-d-3-wired-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -14350,7 +14433,7 @@
         },
         "Switch Type": {
           "value": "Optical",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-d-3-wireless-mouse",
+          "source_url": "https://www.gloriousgaming.com/products/model-d-3-wired-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -14358,7 +14441,7 @@
         },
         "Switch Lifecycle": {
           "value": "130M clicks",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-d-3-wireless-mouse",
+          "source_url": "https://www.gloriousgaming.com/products/model-d-3-wired-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -14366,7 +14449,7 @@
         },
         "Programmable Buttons": {
           "value": "6",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-d-3-wireless-mouse",
+          "source_url": "https://www.gloriousgaming.com/products/model-d-3-wired-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -14374,7 +14457,7 @@
         },
         "Mouse Feet": {
           "value": "100% PTFE",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-d-3-wireless-mouse",
+          "source_url": "https://www.gloriousgaming.com/products/model-d-3-wired-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -14390,7 +14473,7 @@
         },
         "On-Board Memory Profiles": {
           "value": "3",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-d-3-wireless-mouse",
+          "source_url": "https://www.gloriousgaming.com/products/model-d-3-wired-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -14398,7 +14481,7 @@
         },
         "Software": {
           "value": "Glorious CORE",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-d-3-wireless-mouse",
+          "source_url": "https://www.gloriousgaming.com/products/model-d-3-wired-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -14422,11 +14505,11 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 2,
-          "canonical_url": "https://gloriousgaming.com/en-de/products/model-d-3-wireless-mouse",
+          "canonical_url": "https://gloriousgaming.com/products/model-d-3-wired-mouse",
           "page_language": "en",
-          "official_url": "https://www.gloriousgaming.com/en-de/products/model-d-3-wireless-mouse",
+          "official_url": "https://www.gloriousgaming.com/products/model-d-3-wired-mouse",
           "source_priority": 110,
-          "sku": "GLO-D3-WL-BLK",
+          "sku": "GLO-D3-W-BLK",
           "schema_brand": "Glorious"
         },
         "quality_gate_version": "1.3-audited",
@@ -17989,6 +18072,13 @@
           "tier": 110,
           "checked_at": "2026-09-11",
           "note": "new official product"
+        },
+        {
+          "type": "official_product",
+          "url": "https://hyperx.com/products/hyperx-cloud-gaming-headset",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
         }
       ],
       "specs": {
@@ -18004,7 +18094,11 @@
         "Audio Controls": "Mobile multifunction button",
         "Weight": "0.04lb",
         "Cable Length (imperial) and type": "1.31yd; 0.13in headset cable | Built-in",
-        "Unit price": "/ per"
+        "Unit price": "/ per",
+        "Noise Cancelling": "Yes",
+        "Driver": "Dynamic, 53 mm with neodymium magnets",
+        "Frame Type": "Aluminum",
+        "Ear Cushions": "Memory foam (padding material); Premium leatherette (surface material)"
       },
       "spec_evidence": {
         "Form Factor": {
@@ -18057,7 +18151,7 @@
         },
         "Element": {
           "value": "Electret condenser microphone",
-          "source_url": "https://hyperx.com/products/hyperx-cloud-gaming-earbuds-ii",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-gaming-headset",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -18105,7 +18199,39 @@
         },
         "Unit price": {
           "value": "/ per",
-          "source_url": "https://hyperx.com/products/hyperx-cloud-gaming-earbuds-ii",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-gaming-headset",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Noise Cancelling": {
+          "value": "Yes",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-gaming-headset",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Driver": {
+          "value": "Dynamic, 53 mm with neodymium magnets",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-gaming-headset",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Frame Type": {
+          "value": "Aluminum",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-gaming-headset",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-11",
+          "claim_type": "厂商标称"
+        },
+        "Ear Cushions": {
+          "value": "Memory foam (padding material); Premium leatherette (surface material)",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-gaming-headset",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -18114,18 +18240,18 @@
       },
       "conflict": "",
       "verification": {
-        "status": "official_verified",
+        "status": "conflict",
         "confidence": 0.92,
-        "source_count": 1,
+        "source_count": 2,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://hyperx.com/products/hyperx-cloud-gaming-earbuds-ii",
+          "canonical_url": "https://hyperx.com/products/hyperx-cloud-gaming-headset",
           "page_language": "en",
-          "official_url": "https://hyperx.com/products/hyperx-cloud-gaming-earbuds-ii",
+          "official_url": "https://hyperx.com/products/hyperx-cloud-gaming-headset",
           "source_priority": 110,
-          "sku": "70N24AA",
+          "sku": "A3RL9AA",
           "schema_brand": "HyperX"
         },
         "quality_gate_version": "1.3-audited",
@@ -28058,6 +28184,13 @@
           "tier": 110,
           "checked_at": "2026-09-11",
           "note": "additional official page"
+        },
+        {
+          "type": "official_product",
+          "url": "https://www.luminkey.com/zh/products/magger-nova-flow-screw-tray",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "additional official page"
         }
       ],
       "specs": {},
@@ -28066,14 +28199,14 @@
       "verification": {
         "status": "official_discovered",
         "confidence": 0.78,
-        "source_count": 5,
+        "source_count": 6,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://luminkey.com/zh/products/magger-he-magnetic-switch",
+          "canonical_url": "https://luminkey.com/zh/products/titan75-he-hall-effect-magnetic-gaming-keyboard",
           "page_language": "zh-CN",
-          "official_url": "https://www.luminkey.com/zh/products/magger-he-magnetic-switch",
+          "official_url": "https://www.luminkey.com/zh/products/titan75-he-hall-effect-magnetic-gaming-keyboard",
           "source_priority": 110,
           "sku": "",
           "schema_brand": "LUMINKEY"
@@ -28807,12 +28940,12 @@
         "conflicts": [],
         "evidence": {
           "product_schema": true,
-          "product_schema_count": 1,
-          "canonical_url": "https://luminkey.com/zh/products/magger68-professional-he-magnetic-keyboard",
-          "page_language": "zh-CN",
-          "official_url": "https://www.luminkey.com/zh/products/magger68-professional-he-magnetic-keyboard",
+          "product_schema_count": 2,
+          "canonical_url": "https://luminkey.com/products/magger68-performance-he-magnetic-keyboard",
+          "page_language": "en",
+          "official_url": "https://www.luminkey.com/products/magger68-performance-he-magnetic-keyboard",
           "source_priority": 110,
-          "sku": "KB-LK-M68-PRO-GOLD",
+          "sku": "KB-LK-M68-PER-BLACK",
           "schema_brand": "LUMINKEY"
         },
         "quality_gate_version": "1.3-audited",
@@ -28822,7 +28955,7 @@
       "spec_evidence": {
         "Color:": {
           "value": "Ano-Champagne Gold",
-          "source_url": "https://www.luminkey.com/zh/products/magger68-professional-he-magnetic-keyboard",
+          "source_url": "https://www.luminkey.com/products/magger68-professional-he-magnetic-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -31881,12 +32014,12 @@
         "conflicts": [],
         "evidence": {
           "product_schema": true,
-          "product_schema_count": 6,
-          "canonical_url": "https://mchose.store/products/mchose-ace-68-gt-full-aluminum-esports-hall-effect-keyboard",
+          "product_schema_count": 10,
+          "canonical_url": "https://mchose.store/products/mchose-ace-68-hall-effect-magnetic-switch-gaming-keyboard",
           "page_language": "en",
-          "official_url": "https://www.mchose.store/products/mchose-ace-68-gt-full-aluminum-esports-hall-effect-keyboard",
+          "official_url": "https://www.mchose.store/products/mchose-ace-68-hall-effect-magnetic-switch-gaming-keyboard",
           "source_priority": 110,
-          "sku": "MC-Ace68GT-12",
+          "sku": "HW-Ace68-15",
           "schema_brand": ""
         },
         "quality_gate_version": "1.3-audited",
@@ -40796,6 +40929,53 @@
     },
     {
       "brand": "Razer",
+      "brand_zh_cn": "雷蛇",
+      "name": "Kraken X 雷蛇北海巨妖",
+      "category": "耳机/耳麦",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "海外",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://cn.razerzone.com/gaming-headsets/razer-kraken-x",
+      "image_url": "https://assets2.razerzone.com/images/pnx.assets/cde55b216bebaaff9bd2c5656e65db83/h51_9081230950430_razer-kraken-x-gallery-3.jpg",
+      "image_source": "https://cn.razerzone.com/gaming-headsets/razer-kraken-x",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-x",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {},
+      "spec_evidence": {},
+      "conflict": "",
+      "verification": {
+        "status": "official_discovered",
+        "confidence": 0.78,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-x",
+          "page_language": "zh-CN",
+          "official_url": "https://cn.razerzone.com/gaming-headsets/razer-kraken-x",
+          "source_priority": 110,
+          "sku": "",
+          "schema_brand": "Razer 雷蛇"
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": true
+      }
+    },
+    {
+      "brand": "Razer",
       "name": "Kraken 雷蛇北海巨妖",
       "category": "耳机/耳麦",
       "subcategory": "自动发现",
@@ -40964,6 +41144,53 @@
       },
       "brand_zh_cn": "雷蛇",
       "spec_evidence": {}
+    },
+    {
+      "brand": "Razer",
+      "brand_zh_cn": "雷蛇",
+      "name": "Wireless",
+      "category": "耳机/耳麦",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "海外",
+      "market": "官网",
+      "first_seen": "2026-09-11",
+      "last_verified": "2026-09-11",
+      "last_checked": "2026-09-11",
+      "source": "https://www.razer.com/gaming-headsets/razer-kraken-kitty-v3-pro",
+      "image_url": "https://assets3.razerzone.com/IimenJb7yVsFjJO5sA7xdQsogeQ=/300x300/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fhc8%2Fh5d%2F9954120007710%2Fkraken-kitty-v3-pro-qz-2-500x500.png",
+      "image_source": "https://www.razer.com/gaming-headsets/razer-kraken-kitty-v3-pro",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://www.razer.com/gaming-headsets/razer-kraken-kitty-v3-pro",
+          "tier": 110,
+          "checked_at": "2026-09-11",
+          "note": "new official product"
+        }
+      ],
+      "specs": {},
+      "spec_evidence": {},
+      "conflict": "",
+      "verification": {
+        "status": "official_discovered",
+        "confidence": 0.78,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://razer.com/gaming-headsets/razer-kraken-kitty-v3-pro",
+          "page_language": "en-US",
+          "official_url": "https://www.razer.com/gaming-headsets/razer-kraken-kitty-v3-pro",
+          "source_priority": 110,
+          "sku": "",
+          "schema_brand": "Razer"
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": true
+      }
     },
     {
       "brand": "SoundPEATS",
@@ -41173,7 +41400,7 @@
       "spec_evidence": {
         "User Guide": {
           "value": "SOUNDPEATS Cove Pro User Manual",
-          "source_url": "https://soundpeats.com/en-mx/products/cove-pro-over-ear-headphones-56db-adaptive-anc-headphones-with-95h-playtime-7-mic-ai-enc",
+          "source_url": "https://soundpeats.com/en-ca/products/cove-pro-over-ear-headphones-56db-adaptive-anc-headphones-with-95h-playtime-7-mic-ai-enc",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -41181,7 +41408,7 @@
         },
         "FAQ": {
           "value": "SOUNDPEATS Cove Pro FAQ",
-          "source_url": "https://soundpeats.com/en-mx/products/cove-pro-over-ear-headphones-56db-adaptive-anc-headphones-with-95h-playtime-7-mic-ai-enc",
+          "source_url": "https://soundpeats.com/en-ca/products/cove-pro-over-ear-headphones-56db-adaptive-anc-headphones-with-95h-playtime-7-mic-ai-enc",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-11",
@@ -41197,9 +41424,9 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://soundpeats.com/en-mx/products/cove-pro-over-ear-headphones-56db-adaptive-anc-headphones-with-95h-playtime-7-mic-ai-enc",
+          "canonical_url": "https://soundpeats.com/en-ca/products/cove-pro-over-ear-headphones-56db-adaptive-anc-headphones-with-95h-playtime-7-mic-ai-enc",
           "page_language": "en",
-          "official_url": "https://soundpeats.com/en-mx/products/cove-pro-over-ear-headphones-56db-adaptive-anc-headphones-with-95h-playtime-7-mic-ai-enc",
+          "official_url": "https://soundpeats.com/en-ca/products/cove-pro-over-ear-headphones-56db-adaptive-anc-headphones-with-95h-playtime-7-mic-ai-enc",
           "source_priority": 110,
           "sku": "SP-Cove Pro-Black",
           "schema_brand": "SOUNDPEATS"
@@ -42024,11 +42251,11 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://steelseries.com/gaming-headsets/arctis-nova-7",
+          "canonical_url": "https://steelseries.com/gaming-headsets/arctis-nova-7-wireless-gen-2-white-blemishedbox",
           "page_language": "en",
-          "official_url": "https://steelseries.com/gaming-headsets/arctis-nova-7?color=black&primaryPlatform=pc",
+          "official_url": "https://steelseries.com/gaming-headsets/arctis-nova-7-wireless-gen-2-white-blemishedbox",
           "source_priority": 110,
-          "sku": "61553",
+          "sku": "arctis-nova-7-wireless-gen-2-white-blemishedbox-variant",
           "schema_brand": "SteelSeries"
         },
         "quality_gate_version": "1.3-audited",
@@ -44026,6 +44253,6 @@
   ],
   "quality_policy_version": "1.2",
   "language_default": "zh-CN",
-  "quarantined_count": 811,
+  "quarantined_count": 815,
   "quality_migration_revision": 2
 }
