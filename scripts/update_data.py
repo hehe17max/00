@@ -14,6 +14,7 @@ ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/"data/products.json"; BRANDS=ROOT/"data/brands.json"
 REPORT=ROOT/"data/update_report.json"; REVIEW=ROOT/"data/review_queue.json"
 TODAY=datetime.date.today().isoformat()
+RUN_SLOT=datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M")
 MODE=os.getenv("PERIPHERALDB_SCAN_MODE","fast").lower()
 
 if MODE=="deep":
@@ -29,7 +30,7 @@ else:
     MAX_SHOPIFY_PAGES=2
     MAX_DISCOVERY_URLS_PER_BRAND=28
     MAX_NEW_PAGE_PARSES_PER_BRAND=12
-    MAX_RECHECKS,RECHECK_DAYS=30,10
+    MAX_RECHECKS,RECHECK_DAYS=45,10
 
 session=requests.Session()
 session.headers["User-Agent"]="Mozilla/5.0 (compatible; PeripheralDB/1.0.1)"
@@ -77,6 +78,11 @@ def parse_product_page(url):
                     product_objects.append(x)
                     if x.get("name") and not name: name=clean(x["name"])
                     images += list(image_values(x.get("image")))
+                    for prop in x.get("additionalProperty",[]) if isinstance(x.get("additionalProperty"),list) else []:
+                        if not isinstance(prop,dict): continue
+                        key=clean(prop.get("name") or prop.get("propertyID"))
+                        value=clean(prop.get("value"))
+                        if key and value and len(key)<90 and len(value)<400: specs[key]=value
         except Exception: pass
     og=soup.find("meta",property="og:image")
     if og and og.get("content"): images.append(urljoin(url,og["content"]))
@@ -163,6 +169,16 @@ def due(last):
     if not last: return True
     try: return (datetime.date.today()-datetime.date.fromisoformat(last)).days>=RECHECK_DAYS
     except: return True
+def needs_enrichment(product):
+    specs={k:v for k,v in product.get("specs",{}).items() if v not in (None,"","—","待补参数")}
+    return bool(product.get("verification",{}).get("needs_review")) or len(specs)<8 or not product.get("image_url")
+def product_due(product):
+    last=product.get("last_checked")
+    if not last: return True
+    try:
+        interval=1 if needs_enrichment(product) else RECHECK_DAYS
+        return (datetime.date.today()-datetime.date.fromisoformat(last)).days>=interval
+    except: return True
 def rotate(urls,limit,salt):
     return sorted(urls,key=lambda u:(-source_priority(u),hashlib.sha1((salt+u).encode()).hexdigest()))[:limit]
 def add_source(p,url,note):
@@ -243,7 +259,7 @@ for i,b in enumerate(brands,1):
                 base=f"{pr.scheme}://{pr.netloc}"
                 if base not in bases: bases.append(base)
         for base in bases[:1 if MODE=="fast" else 2]: found |= shopify(base)
-    subset=rotate(found,MAX_DISCOVERY_URLS_PER_BRAND,TODAY+brand)
+    subset=rotate(found,MAX_DISCOVERY_URLS_PER_BRAND,RUN_SLOT+brand)
     log(f"    found={len(found)} subset={len(subset)}")
     budget=MAX_NEW_PAGE_PARSES_PER_BRAND; newc=upd=imgs=0
     for u in subset:
@@ -277,8 +293,8 @@ for i,b in enumerate(brands,1):
     report["brand_stats"][brand]={"found":len(found),"subset":len(subset),"new":newc,"updated":upd,"images":imgs,"seconds":round(elapsed,1)}
     log(f"    done {elapsed:.1f}s new={newc} updated={upd} images={imgs}")
 
-todo=[p for p in db["products"] if due(p.get("last_checked"))]
-todo.sort(key=lambda p:(p.get("last_checked") or "",p.get("brand",""),p.get("name","")))
+todo=[p for p in db["products"] if product_due(p)]
+todo.sort(key=lambda p:(not needs_enrichment(p),bool(p.get("image_url")),len([v for v in p.get("specs",{}).values() if v not in (None,"","—","待补参数")]),p.get("last_checked") or "",p.get("brand",""),p.get("name","")))
 log(f"Recheck due={len(todo)} budget={MAX_RECHECKS}")
 done=0
 for p in todo:

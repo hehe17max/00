@@ -33,6 +33,7 @@ CANDIDATES = ROOT / "data/brand_candidates.json"
 REPORT = ROOT / "data/brand_discovery_report.json"
 
 TODAY = datetime.date.today().isoformat()
+RUN_SLOT = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M")
 UA = "Mozilla/5.0 (compatible; PeripheralDBBrandDiscovery/1.0; public-catalog-research)"
 session = requests.Session()
 session.headers["User-Agent"] = UA
@@ -399,9 +400,9 @@ known_domains = existing_brand_domains()
 candidate_by_domain = {c.get("domain","").lower(): c for c in candidates if c.get("domain")}
 candidate_sites_seen = set()
 
-# Rotate search queries deterministically by date so each day covers a different subset.
+# Rotate search queries by run slot so each half-hour update covers a different subset.
 pool = config.get("query_pool", [])
-seed = int(hashlib.sha1(TODAY.encode()).hexdigest()[:8], 16)
+seed = int(hashlib.sha1(RUN_SLOT.encode()).hexdigest()[:8], 16)
 if pool:
     start = seed % len(pool)
     ordered = pool[start:] + pool[:start]
