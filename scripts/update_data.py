@@ -295,7 +295,8 @@ def contaminated_value(value):
     labels=("battery", "play time", "playback time", "connection method", "wearing method",
             "control method", "transparent mode", "game mode", "microphone", "wired connection",
             "pairing 2 devices", "what's in", "what’s in", "package contents")
-    return len(text)>180 or sum(label in text for label in labels)>=2 or "what's in" in text or "what’s in" in text
+    strong_markers=("next-generation bluetooth", "what's in", "what’s in", "package contents")
+    return len(text)>180 or sum(label in text for label in labels)>=2 or any(marker in text for marker in strong_markers)
 def merge(p,new,url,review,evidence):
     old=p.setdefault("specs",{}); n=0
     ver=p.setdefault("verification",{"status":"official_discovered","confidence":0.82,"source_count":0,"conflicts":[]})
