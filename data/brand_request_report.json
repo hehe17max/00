@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-10",
+  "date": "2026-09-12",
   "brand": "ikf",
   "provider": "ddgs",
   "existing_before": true,
@@ -8,28 +8,19 @@
       "brand": "ikf",
       "domain": "ikfaudio.com",
       "official_url": "https://ikfaudio.com/",
-      "score": 100,
+      "score": 22,
       "categories": [
         "耳机/耳麦"
       ],
-      "product_pages": [
-        "https://ikfaudio.com/collections/gaming-headset",
-        "https://ikfaudio.com/pages/product-driven",
-        "https://ikfaudio.com/products/ikf-mars-wireless-bluetooth-headphones-40mm-20mm-drivers-active-noise-cancelling-3-5mm-wired-headset",
-        "https://ikfaudio.com/products/ikf-r2-retro-classic-wireless-headphones-ergonomic-design-wired-headset",
-        "https://ikfaudio.com/products/ikf-king-wireless-bluetooth-headphones-active-noise-cancelling-power-bass-with-mic-wired-headset",
-        "https://ikfaudio.com/products/ikf-y3-wired-headphones%E4%B8%A8retro-3-5mm-port-replaceable-earpads",
-        "https://ikfaudio.com/products/retro-wireless-bluetooth-headphones-ikf-r1",
-        "https://ikfaudio.com/products/ikf-ultra-wireless-earbuds-active-noise-reducation-bluetooth-earphones-clear-call"
-      ],
-      "product_page_count": 13,
+      "product_pages": [],
+      "product_page_count": 0,
       "schema_page_count": 0,
       "brand_text_match": true
     },
     {
       "brand": "ikf",
-      "domain": "ikeepfun.com",
-      "official_url": "https://www.ikeepfun.com/",
+      "domain": "ikeepfun.cn",
+      "official_url": "http://www.ikeepfun.cn/",
       "score": 17,
       "categories": [
         "耳机/耳麦"
@@ -54,6 +45,32 @@
     },
     {
       "brand": "ikf",
+      "domain": "ikeepfun.com",
+      "official_url": "https://www.ikeepfun.com/",
+      "score": 17,
+      "categories": [
+        "耳机/耳麦"
+      ],
+      "product_pages": [],
+      "product_page_count": 0,
+      "schema_page_count": 0,
+      "brand_text_match": true
+    },
+    {
+      "brand": "ikf",
+      "domain": "detail.zol.com.cn",
+      "official_url": "https://detail.zol.com.cn/",
+      "score": 6,
+      "categories": [
+        "键盘"
+      ],
+      "product_pages": [],
+      "product_page_count": 0,
+      "schema_page_count": 0,
+      "brand_text_match": false
+    },
+    {
+      "brand": "ikf",
       "domain": "linktr.ee",
       "official_url": "https://linktr.ee/",
       "score": 3,
@@ -62,8 +79,19 @@
       "product_page_count": 0,
       "schema_page_count": 0,
       "brand_text_match": false
+    },
+    {
+      "brand": "ikf",
+      "domain": "shopee.sg",
+      "official_url": "https://shopee.sg/",
+      "score": 0,
+      "categories": [],
+      "product_pages": [],
+      "product_page_count": 0,
+      "schema_page_count": 0,
+      "brand_text_match": false
     }
   ],
-  "status": "existing_enriched",
-  "message": "已补充现有品牌的官网入口，将继续扫描其产品。"
+  "status": "needs_review",
+  "message": "找到了候选网站，但可信度不足，未自动加入。"
 }
