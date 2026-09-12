@@ -140,6 +140,8 @@ def classify_text(text):
         cats.add("鼠标")
     if any(x in t for x in ["keyboard", "keyboards", "键盘", "磁轴"]):
         cats.add("键盘")
+    if any(x in t for x in ["speaker", "soundbar", "subwoofer", "audio system", "音箱", "音响", "低音炮"]):
+        cats.add("音箱/音响")
     if any(x in t for x in ["headset", "headphone", "earphone", "earbud", "耳机", "耳麦"]):
         cats.add("耳机/耳麦")
     return cats

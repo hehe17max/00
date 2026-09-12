@@ -257,6 +257,7 @@ def classify(name,url):
     if any(x in s for x in ["sound card","soundcard","audio interface","声卡","解码器","音频接口"]): return "声卡"
     if any(x in s for x in ["aviation connector","aviation cable","航插"]): return "航插线"
     if any(x in s for x in ["收纳包","收纳袋","carrying bag","carry bag","carry case","storage bag"]): return "外设收纳包"
+    if any(x in s for x in ["speaker","soundbar","subwoofer","audio system","音箱","音响","低音炮"]): return "音箱/音响"
     if any(x in s for x in ["accessory","accessories","配件"]): return "配件"
     if any(x in s for x in ["mouse","mice","鼠标"]): return "鼠标"
     if any(x in s for x in ["keyboard","键盘"]): return "键盘"
