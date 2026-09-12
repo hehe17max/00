@@ -16,7 +16,7 @@ FOREIGN_LOCALE_SEGMENTS = {
 
 # 小众品牌的国内零售/社区网页渠道（cn_web 策略下仅次于中文官方页）。
 CN_RETAIL_HOSTS = {
-    "jd.com", "tmall.com", "tmall.hk", "smzdm.com", "zhihu.com",
+    "jd.com", "tmall.com", "tmall.hk", "taobao.com", "smzdm.com", "zhihu.com",
     "bilibili.com", "weibo.com", "douyin.com",
 }
 
