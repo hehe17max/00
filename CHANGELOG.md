@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.4.1 — 2026-09-12
+
+### 值层全面中文化
+- 中文模式下参数**值**不再残留英文句子/短语：新增 200+ 条值翻译规则（sentenceRules），覆盖营销长句、规格短语、单位换算、材质/工艺/结构术语。
+- 典型修复："Support low latency mode for gaming"→支持游戏低延迟模式；"10 minutes of charging = 3 hours of use"→10 分钟充电 = 3 小时使用；"Crystal-Clear Calls: Four microphones..."→清晰通话：四麦克风 AI 降噪；"memory titanium alloy"→记忆钛合金；"IPX5 waterproof and sweatproof"→IPX5 防水防汗；"touch controls"→触控操作。
+- 翻译前后对比（620 条产品、4591 个显示规格项）：整行为英文句子的规格项 1730 → **0**；值内残留 ≥3 词英文片段 1730 → **10**（仅剩平台兼容列表、品牌轴体型号、国际配列代码等专名，如 "PC, PS5™, Xbox Series X|S™"、"Keychron Ultra-fast Lime"、"DE-ISO, UK-ISO"）。
+- 全部规则为显示层处理（不改动数据源），与证据一致性校验兼容。
+
 ## 1.4.0 — 2026-09-12
 
 ### 数据来源渠道策略（品牌分类）
