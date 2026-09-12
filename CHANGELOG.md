@@ -1,3 +1,14 @@
+# Changelog
+
+## 1.4.0 — 2026-09-12
+
+### 数据来源渠道策略（品牌分类）
+- 品牌分类来源优先级落地：**外国品牌**（Razer/Corsair/HyperX/SteelSeries/Keychron）→ 原属国官网优先，中文镜像降级；**小众品牌**（Kinetic Labs/Glorious/iBUYPOWER/AJAZZ/AULA/DURGOD/EKSA/KZZI/LUMINKEY/TRN/ATTACK SHARK）→ 国内官网优先、国内零售/社区网页次之；**国产品牌** → 国内官网优先。
+- quality_rules.source_priority 改为品牌分类感知：cn_official（国内官方 120 > 中性 110 > 外语镜像 90）；origin_official（原属国官方 120 > 中性 110 > 中文镜像 100 > 外语镜像 90）；cn_web（国内官方 120 > 国内零售/社区网页 115 > 全球官网 110 > 外语镜像 90）；新增 is_cn_page（识别 .cn 域名、cn. 子域、cn/zh-cn 路径）。
+- update_data.py 爬取排序、来源入库、字段合并、复检全链路按品牌策略排名；新增 scripts/rerank_sources.py（幂等）回写存量数据。
+- 存量数据回写：611 条产品来源全部按新策略重标 tier/type 并按权重重排；3 条 Razer 记录主来源由 cn.razerzone.com 翻转为 razer.com 原属国官网产品页（BlackShark V2 X / V3 X Hyperspeed / Kraken Kitty V2）。
+- validate_data.py 新增品牌策略一致性校验：source_preference 必填且与原属国分类匹配（中国品牌禁用 origin_official、外国品牌禁用 cn_official）。
+
 ## 1.3.3 — 2026-09-12
 
 ### 修复
@@ -9,8 +20,6 @@
 
 ### 数据
 - 清洗规则并入 CI（cleanup_specs.py，幂等），此后每次数据更新自动执行。
-# Changelog
-
 ## 1.3.2 — 2026-09-12
 
 - 数据按品类拆分加载：products.json 拆分为 products_mouse / products_keyboard / products_headphone 与 products_meta 版本清单，浏览器并行加载并按内容哈希缓存，减少重复下载约 27%。

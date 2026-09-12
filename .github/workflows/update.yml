@@ -60,6 +60,9 @@ jobs:
       - name: Strip marketplace spec fields
         run: python scripts/cleanup_specs.py
 
+      - name: Re-rank official sources by brand policy
+        run: python scripts/rerank_sources.py
+
       - name: Validate database
         run: python scripts/validate_data.py
 

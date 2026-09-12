@@ -14,9 +14,18 @@ brand_doc = json.loads((ROOT / "data/brands.json").read_text(encoding="utf-8"))
 brands = {b["brand"]: b for b in brand_doc.get("brands", [])}
 errors, warnings, seen_names, seen_urls = [], [], set(), set()
 
+VALID_SOURCE_PREFERENCES = ("cn_official", "origin_official", "cn_web")
+
 for brand, cfg in brands.items():
     if not cfg.get("brand_zh_cn"):
         errors.append(f"品牌 {brand}: 缺少 brand_zh_cn")
+    pref = cfg.get("source_preference", "")
+    if pref not in VALID_SOURCE_PREFERENCES:
+        errors.append(f"品牌 {brand}: 缺少或非法 source_preference（应为 cn_official/origin_official/cn_web）")
+    elif cfg.get("origin") == "中国" and pref == "origin_official":
+        errors.append(f"品牌 {brand}: 中国品牌不应使用 origin_official（外国原属国官网优先）")
+    elif cfg.get("origin") == "海外" and pref == "cn_official":
+        errors.append(f"品牌 {brand}: 外国品牌不应使用 cn_official（应为 origin_official 或 cn_web 小众策略）")
     if cfg.get("origin") == "中国" and cfg.get("preferred_locale") != "zh-CN":
         errors.append(f"品牌 {brand}: 中国品牌未设置中文来源优先")
 
