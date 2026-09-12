@@ -348,7 +348,11 @@ for i,b in enumerate(brands,1):
     budget=max(MAX_NEW_PAGE_PARSES_PER_BRAND,120) if ONLY_BRAND else MAX_NEW_PAGE_PARSES_PER_BRAND
     newc=upd=imgs=0
     for u in subset:
-        if canonical_url(u) in by_url: continue
+        existing_by_url=by_url.get(canonical_url(u))
+        # Revisit an existing official-catalogue page while it still lacks
+        # useful fields.  Previously it was skipped before the richer Shopify
+        # catalogue description could be parsed.
+        if existing_by_url and not needs_enrichment(existing_by_url): continue
         if budget<=0: break
         try:
             name,specs,image,final,evidence=parse_product_page(u); budget-=1
@@ -369,6 +373,15 @@ for i,b in enumerate(brands,1):
         )
         if rejection:
             report.setdefault("rejected",[]).append({"brand":brand,"url":final,"name":name,"reason":rejection})
+            continue
+        if existing_by_url:
+            add_source(existing_by_url,final,"official catalogue enrichment")
+            upd += merge(existing_by_url,specs,final,review,evidence)
+            existing_by_url["last_checked"]=TODAY
+            if image and not existing_by_url.get("image_url"):
+                existing_by_url["image_url"]=image
+                existing_by_url["image_source"]=final
+                imgs+=1
             continue
         concise=concise_product_name(brand,name,final)
         key=(brand.lower(),product_identity(brand,concise))

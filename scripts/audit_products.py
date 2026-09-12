@@ -43,10 +43,12 @@ def meaningful_specs(product):
 
 
 def auto_discovered(product):
+    gate = str(product.get("verification", {}).get("quality_gate_version") or "")
     return (
         product.get("subcategory") == "自动发现"
         or "自动发现" in product.get("verified", "")
-        or product.get("verification", {}).get("quality_gate_version") in ("1.2", "1.3")
+        or gate == "1.2"
+        or gate.startswith("1.3")
     )
 
 
