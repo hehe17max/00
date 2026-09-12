@@ -57,6 +57,9 @@ jobs:
       - name: Audit names, duplicates and unsupported products
         run: python scripts/audit_products.py
 
+      - name: Strip marketplace spec fields
+        run: python scripts/cleanup_specs.py
+
       - name: Validate database
         run: python scripts/validate_data.py
 

@@ -20,23 +20,107 @@ const esc=value=>String(value??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt
 // The UI renders only meaningful peripheral specifications, which prevents
 // navigation, checkout and support-table text from leaking into product specs.
 const SPEC_DEFS=[
- ['sensor','传感器','Sensor',['sensor','sensors','mouse sensor']],['dpi','最高DPI','Maximum DPI',['dpi','maximum dpi','max sensitivity (dpi)','dpi (cpi) range','mouse dpi','resolution']],['polling','回报率','Polling rate',['polling rate','max polling rate','usb report rate','polling']],['weight','重量','Weight',['weight','product weight','mouse weight','keyboard weight','weight (excluding receiver)','重量：262 克']],['chip','主控/芯片','Controller / chipset',['chipset','mcu','main controller','芯片']],['connection','连接','Connectivity',['connection','connection method','connection modes','connection type','connectivity','connectivity technology','wireless connectivity','wired connectivity','transmission technology','wireless technology','wireless tech','connection type:']],['ips','IPS','IPS / tracking speed',['tracking speed','max tracking speed','movement speed']],['acceleration','加速度','Acceleration',['acceleration','max acceleration','max acceleration (g)']],['lod','LOD','Lift-off distance',['lod']],['switch','微动','Main switches',['micro switch','main switch','main key micro switch','mouse switch','click switch','left / right button switches']],['switch_life','微动寿命','Switch lifespan',['switch lifespan','click switch lifespan','operation life']],['encoder','滚轮编码器','Scroll encoder',['scroll encoder','scroll wheel']],['battery','电池','Battery',['battery','battery capacity','battery type','mouse battery','keyboard battery']],['battery_life','续航','Battery life',['battery life','wireless working time','wireless working time (backlit off)','wireless working time (rgb)','电池续航时间']],['dimensions','尺寸','Dimensions',['size','dimensions','product dimensions','item dimension','mouse dimensions','mouse dimension(l*w*h)','keyboard dimensions','keyboard dimension(l*w*h)','dimensions (w x d x h)','dimensions (w × h × d)']],['feet','脚贴','Mouse feet',['mouse feet']],['charging','充电方式','Charging method',['charging base','charging port','charging']],['software','软件','Software',['software','software support','driver','driver support','web driver']],['memory','板载存储','Onboard memory',['on-board memory profiles','on-board memory','onboard memory','onboard profiles']],
- ['layout','配列','Layout',['layout','keyboard layout','form factor','form-factor','number of keys','number of keys','keys','keyboard']],['key_switch','轴体','Switches',['switch','switches','key switches','switch type','switches:']],['key_switch_type','轴体类型','Switch type',['keyboard type','key type']],['magnetic','磁轴方案','Hall-effect system',['hall effect (rapid trigger)']],['rapid_trigger','Rapid Trigger','Rapid Trigger',['rapid trigger','dynamic keystroke','rt smart']],['rt_precision','RT精度','RT precision',['step precision','accuracy','adjustable accuracy','rt range']],['actuation','触发行程','Actuation travel',['actuation point','actuation range','global actuation distance','pre-travel','pre travel/mm','opterating travel/mm']],['total_travel','总行程','Total travel',['total travel','total travel distance','total travel/mm','travel/mm']],['actuation_force','触发压力','Actuation force',['actuation force','operation force','operating force/gf','initial force/gf']],['scan_rate','扫描率','Scan rate',['scan rate']],['latency','延迟','Latency',['latency','click latency','最低延迟','标称延迟']],['hotswap','热插拔','Hot-swappable',['hot swappable','hot-swappable','hot swappable support','hot-swap mixed switches']],['keycaps','键帽','Keycaps',['keycap','keycaps','keycap material','keycap profile','keycap type','keycaps profile','keycaps engraving','keycap materials']],['plate','定位板','Plate',['plate','plate material','positioning plate']],['structure','结构','Structure',['structure','mount style','mounting style','internal structure']],['case','机身','Case / body',['case','case material','body material','material (body and grip)','chassis']],['nkro','全键无冲','N-key rollover',['n-key rollover (nkro)','nkro support','rollover','anti-ghosting']],['lighting','灯光','Lighting',['rgb','rgb lighting','rgb led lights','lighting','lighting effects','backlight','backlighting','backlit','led support','led color']],
+ ['sensor','传感器','Sensor',['sensor','sensors','mouse sensor']],['dpi','最高DPI','Maximum DPI',['dpi','maximum dpi','max sensitivity (dpi)','dpi (cpi) range','mouse dpi','resolution']],['polling','回报率','Polling rate',['polling rate','max polling rate','usb report rate','polling']],['weight','重量','Weight',['weight','product weight','mouse weight','keyboard weight','weight (excluding receiver)','重量：262 克']],['chip','主控/芯片','Controller / chipset',['chipset','mcu','main controller','芯片']],['connection','连接','Connectivity',['connection','connection method','connection modes','connection type','connectivity','connectivity technology','wireless connectivity','wired connectivity','transmission technology','wireless technology','wireless tech','connection type:']],['ips','追踪速度','IPS / tracking speed',['tracking speed','max tracking speed','movement speed']],['acceleration','加速度','Acceleration',['acceleration','max acceleration','max acceleration (g)']],['lod','静默高度','Lift-off distance',['lod']],['switch','微动','Main switches',['micro switch','main switch','main key micro switch','mouse switch','click switch','left / right button switches']],['switch_life','微动寿命','Switch lifespan',['switch lifespan','click switch lifespan','operation life']],['encoder','滚轮编码器','Scroll encoder',['scroll encoder','scroll wheel']],['battery','电池','Battery',['battery','battery capacity','battery type','mouse battery','keyboard battery']],['battery_life','续航','Battery life',['battery life','wireless working time','wireless working time (backlit off)','wireless working time (rgb)','电池续航时间']],['dimensions','尺寸','Dimensions',['size','dimensions','product dimensions','item dimension','mouse dimensions','mouse dimension(l*w*h)','keyboard dimensions','keyboard dimension(l*w*h)','dimensions (w x d x h)','dimensions (w × h × d)']],['feet','脚贴','Mouse feet',['mouse feet']],['charging','充电方式','Charging method',['charging base','charging port','charging']],['software','软件','Software',['software','software support','driver','driver support','web driver']],['memory','板载存储','Onboard memory',['on-board memory profiles','on-board memory','onboard memory','onboard profiles']],
+ ['layout','配列','Layout',['layout','keyboard layout','form factor','form-factor','number of keys','number of keys','keys','keyboard']],['key_switch','轴体','Switches',['switch','switches','key switches','switch type','switches:']],['key_switch_type','轴体类型','Switch type',['keyboard type','key type']],['magnetic','磁轴方案','Hall-effect system',['hall effect (rapid trigger)']],['rapid_trigger','快速触发','Rapid Trigger',['rapid trigger','dynamic keystroke','rt smart']],['rt_precision','RT精度','RT precision',['step precision','accuracy','adjustable accuracy','rt range']],['actuation','触发行程','Actuation travel',['actuation point','actuation range','global actuation distance','pre-travel','pre travel/mm','opterating travel/mm']],['total_travel','总行程','Total travel',['total travel','total travel distance','total travel/mm','travel/mm']],['actuation_force','触发压力','Actuation force',['actuation force','operation force','operating force/gf','initial force/gf']],['scan_rate','扫描率','Scan rate',['scan rate']],['latency','延迟','Latency',['latency','click latency','最低延迟','标称延迟']],['hotswap','热插拔','Hot-swappable',['hot swappable','hot-swappable','hot swappable support','hot-swap mixed switches']],['keycaps','键帽','Keycaps',['keycap','keycaps','keycap material','keycap profile','keycap type','keycaps profile','keycaps engraving','keycap materials']],['plate','定位板','Plate',['plate','plate material','positioning plate']],['structure','结构','Structure',['structure','mount style','mounting style','internal structure']],['case','机身','Case / body',['case','case material','body material','material (body and grip)','chassis']],['nkro','全键无冲','N-key rollover',['n-key rollover (nkro)','nkro support','rollover','anti-ghosting']],['lighting','灯光','Lighting',['rgb','rgb lighting','rgb led lights','lighting','lighting effects','backlight','backlighting','backlit','led support','led color']],
  ['driver','驱动单元','Driver unit',['driver size','drivers','razer™ triforce50 毫米镀钛驱动单元']],['driver_type','驱动类型','Driver type',['driver type & size','driver type']],['frequency','频响','Frequency response',['frequency response']],['wireless','蓝牙/无线','Bluetooth / wireless',['bluetooth version','bluetooth device name','wireless technology']],['codec','编码','Audio codecs',['codec','codecs']],['sample_rate','采样率','Sample rate',['sample rate','采样']],['bit_depth','位深','Bit depth',['bit-depth']],['anc','降噪','Noise cancellation',['anc','noise cancellation']],['microphone','麦克风','Microphone',['microphone','polar pattern','先进的麦克风控制功能','带usb声卡的可拆卸razerhyperclear灵晰降噪心形指向麦克风']],['microphone_count','麦克风数量','Microphone count',['microphone count']],['charge_time','充电时间','Charging time',['charge time','charging time','battery recharge time']],['wireless_range','无线距离','Wireless range',['range','wireless range','bluetooth transmission range','transmission distance']],['wired','有线连接','Wired connection',['wired connectivity','有线连接']],['surround','虚拟环绕','Virtual surround',['surround sound','thx spatial audio 空间音效']],['app','APP/软件','App / software',['app','app/软件']],['multi_device','多设备','Multi-device',['multi-device']],['compatibility','兼容平台','Compatibility',['compatibility','compatible devices','compatible platforms','platform compatibility','os compatibility','os support','system requirements','supported devices','compatible system']],['material','材质','Material',['material']],['protection','防护','Protection rating',['protection rating','ip rating']],['buttons','可编程按键','Programmable buttons',['programmable buttons','programmable mouse buttons','buttons']],['cable','线材','Cable',['cable','cable type','cable length']],['color','颜色','Color',['color','colors','color options']]
 ];
 const SPEC_BY_ID=new Map(SPEC_DEFS.map(x=>[x[0],x]));
-const normalizeSpecKey=value=>String(value||'').toLowerCase().replace(/[™®©]/g,'').replace(/[_:\-–—/（）()×*\s]+/g,' ').trim();
+const normalizeSpecKey=value=>String(value||'').toLowerCase().replace(/[™®©]/g,'').replace(/[_:\-–—/（）()×*&\s]+/g,' ').trim();
 const SPEC_ALIAS=new Map();
 SPEC_DEFS.forEach(def=>[def[1],def[2],...def[3]].forEach(alias=>SPEC_ALIAS.set(normalizeSpecKey(alias),def[0])));
 function specId(key){return SPEC_ALIAS.get(normalizeSpecKey(key))||''}
-const LOOSE_SPEC_ZH={accuracy:'精度',height:'高度',width:'宽度',depth:'深度',length:'长度',angle:'角度',application:'应用',battery:'电池',buttons:'按键',cable:'线材',calibration:'校准',charge:'充电',charging:'充电',color:'颜色',compatibility:'兼容性',compatible:'兼容',connection:'连接',connectivity:'连接',controls:'控制',device:'设备',dimensions:'尺寸',distance:'距离',driver:'驱动单元',features:'功能',force:'压力',frequency:'频率',height:'高度',interface:'接口',key:'按键',keyboard:'键盘',latency:'延迟',lighting:'灯光',material:'材质',memory:'存储',microphone:'麦克风',mode:'模式',mouse:'鼠标',operating:'触发',operation:'触发',platform:'平台',polling:'回报',profile:'配置',range:'范围',rate:'率',response:'响应',sensor:'传感器',software:'软件',speed:'速度',support:'支持',switch:'轴体/微动',technology:'技术',time:'时间',type:'类型',version:'版本',weight:'重量',wireless:'无线',wired:'有线',working:'工作'};
+// Extra aliases for English field names seen on official pages (v1.3.2)
+const EXTRA_SPEC_ALIASES=[
+ ['cable',['cable length (imperial) and type','cable length (imperial)']],
+ ['ips',['ips','max speed (ips)','max speed(ips)','tracking speed (ips)']],
+ ['switch_life',['switch lifecycle','key lifespan','key lifecycle']],
+ ['battery',['case battery capacity']],
+ ['weight',['earbud weight (single)','earbud weight(single)','earbud weight','case weight','gross weight']],
+ ['dimensions',['front height','back height','earbud size']],
+ ['structure',['frame type']],
+ ['dpi',['dpi presets','dpi preset']],
+ ['keycaps',['keycaps (fully assembled version)']],
+ ['codec',['supported bluetooth codecs','bluetooth codecs']],
+ ['wireless_range',['bluetooth range']],
+ ['rt_precision',['rapid trigger adjustment range']],
+ ['software',['qmk support','a hub game driver(windows)','a hub game driver(mac)','a hub web driver']],
+ ['surround',['surround system']],
+ ['buttons',['programmable button']],
+ ['anc',['noise cancelling']],
+ ['acceleration',['accelerate speed']],
+ ['dimensions',['dimension','earbud dimension','case size']],
+ ['battery',['earbud playtime fully charged','total playtime fully charged','playtime anc off','playtime anc on','earbuds fully charged music playback','case and earbuds fully charged music playback','earbuds fully charged','case and earbuds fully charged','usage duration']],
+ ['dpi',['dpi cpi','max dpi']],
+ ['switch_life',['left right button durability']],
+ ['codec',['audio codec']],
+ ['compatibility',['system']],
+ ['cable',['wire','wire material','cable material']],
+ ['anc',['active noise cancellation anc']],
+ ['weight',['earbud weigh']],
+ ['protection',['waterproof']],
+ ['ips',['tracking speed','movement speed','max tracking speed']],
+ ['hotswap',['hot swap']],
+ ['rt_precision',['adjustable actuation points']]
+];
+EXTRA_SPEC_ALIASES.forEach(([id,aliases])=>aliases.forEach(a=>SPEC_ALIAS.set(normalizeSpecKey(a),id)));
+// English spec keys without a canonical field -> Chinese label (v1.3.2)
+const SPEC_KEY_ZH={
+ 'warranty':'保修','shape':'外形','operating environment':'工作环境','ear cushions':'耳罩','ear cushion':'耳罩',
+ 'light effects':'灯光效果','t.h.d':'总谐波失真','element':'单元','usb specification':'USB 规格',
+ 'audio controls':'音频控制','receiver':'接收器','grip style':'握持方式','operation style':'操作方式',
+ 'customization':'自定义','surface coating':'表面涂层','input':'输入','working temperature':'工作温度',
+ 'knob support':'旋钮支持','plug':'插头','sound dampening':'隔音','screen':'屏幕',
+ 'multimedia knob':'多媒体旋钮','dedicated media key':'独立媒体键','media keys':'媒体键',
+ 'special features':'特色功能','game mode':'游戏模式','bluetooth protocols':'蓝牙协议',
+ 'stabilizer':'卫星轴','stabilizers':'卫星轴','stabs':'卫星轴','lighting effects':'灯光效果',
+'app support':'App 支持','bluetooth':'蓝牙','mems mic control':'MEMS 麦克风控制','nvidia reflex':'NVIDIA Reflex 技术',
+'motion sync':'运动同步','tracks on glass':'玻璃表面追踪','tracks on glass min. 4 mm thickness':'玻璃表面追踪（最小 4 mm）',
+'pixart 3950':'传感器（PixArt 3950）','pixart 3395':'传感器（PixArt 3395）',
+'impedance':'阻抗','nominal impedance':'额定阻抗','speaker impedance':'扬声器阻抗','speaker impendance':'扬声器阻抗',
+'sensitivity':'灵敏度','headphones sensitivity':'耳机灵敏度','boom mic sensitivity':'吊杆麦克风灵敏度','built in mic sensitivity':'内置麦克风灵敏度',
+'boom mic polar pattern':'吊杆麦克风指向性','built in mic polar pattern':'内置麦克风指向性',
+'instant pair':'快速配对','audio':'音频','rated power':'额定功率','total harmonic distortion':'总谐波失真',
+'nominal spl':'额定声压级','ear tips':'耳塞套','playback':'播放时长','dynamic keystroke':'动态键程','dynamic keystrokes':'动态键程',
+'internal foam':'内部泡棉','internal foam layering':'内部泡棉分层','internal architecture':'内部结构','housing process':'外壳工艺',
+'shell':'外壳','backplate':'背板','pcb':'电路板','pcb option':'PCB 选项','mounting':'安装方式','hub':'HUB 拓展',
+'system architecture':'系统架构','system functions':'系统功能','precision':'精度','build finishing':'做工与表面处理',
+'design':'设计','modes':'模式','numeric pad':'数字小键盘','multimedia keys':'多媒体键','advanced functions':'进阶功能',
+'hand size fit':'手型适配','feet':'脚贴','port':'接口','surface finish':'表面处理','surface finishing texture':'表面纹理',
+'finish':'表面处理','scroll wheel encoder':'滚轮与编码器','microcontroller unit mcu':'主控芯片（MCU）',
+'usb 2.0 pass through':'USB 2.0 直通','rt smart':'RT 智能模式','adjustable actuation points':'可调触发行程',
+'general':'常规','suitable hand size':'适用手型','recommended hand size':'推荐手型','earmuffs replaceable':'耳罩可更换',
+'pairing 2 devices':'双设备配对','wearing method':'佩戴方式','control method':'控制方式','aux in port':'AUX 输入口',
+'foldable':'可折叠','ikf app':'iKF App 支持','active noise cancellation anc':'主动降噪',
+'performance mode':'性能模式','competitive mode':'竞技模式','hyper competitive mode':'超级竞技模式',
+'maximum battery life':'最长续航','mouse movement detection':'移动检测方式','frame rate fps':'帧率（FPS）',
+'adc direct connection':'ADC 直连','hunting shark competitive mode':'猎鲨竞技模式','case material':'外壳材质',
+'speaker driver':'扬声器驱动单元','play time':'播放时间','transparent mode':'通透模式',
+'polling rate highest level':'最高回报率','language type':'语言类型','switches type':'轴体类型',
+'full nkro support':'全键无冲','2c fast charge':'2C 快充','earbuds input':'耳机输入',
+'in line remote controls and microphone':'线控与麦克风','mouse hand orientation':'左右手适用',
+'angle snapping':'角度吸附','optical sensor configuration':'光学传感器配置',
+'weight fully assembled version':'重量（成品版）','switch face':'微动触点',
+'dynamic key functions':'动态按键功能','advanced key features':'进阶按键功能',
+'dynamic keystroke features':'动态键程功能','audio driver':'音频驱动','power supply mode':'供电方式',
+'operating system':'操作系统','bt working time backlit off':'蓝牙续航（关背光）',
+'frequency band':'频段','bluetooth operating distance':'蓝牙工作距离',
+'built in mic frequency response':'内置麦克风频响','built in mic element':'内置麦克风单元','boom mic frequency response':'吊杆麦克风频响',
+'headphones frequency response':'耳机频响','earbud battery capacity single':'单耳电池容量',
+'earbud charging time':'单耳充电时间','earbuds charging time':'单耳充电时间',
+'case charging time':'充电仓充电时间','case charging time wired':'充电仓充电时间（有线）',
+'case dimensions':'充电仓尺寸','bottom case material':'底部外壳材质','aluminum case finishing':'铝合金外壳表面处理',
+'height without keycap front':'不含键帽高度（前）','height without keycap rear':'不含键帽高度（后）',
+'height incl keycap front':'含键帽高度（前）','height incl keycap rear':'含键帽高度（后）',
+'on ear controls left':'左侧耳罩控制','on ear controls right':'右侧耳罩控制','switch lifecyle':'轴体寿命'
+};
+const LOOSE_SPEC_ZH={accuracy:'精度',height:'高度',width:'宽度',depth:'深度',length:'长度',angle:'角度',application:'应用',battery:'电池',buttons:'按键',cable:'线材',calibration:'校准',charge:'充电',charging:'充电',color:'颜色',compatibility:'兼容性',compatible:'兼容',connection:'连接',connectivity:'连接',controls:'控制',device:'设备',dimensions:'尺寸',distance:'距离',driver:'驱动单元',features:'功能',force:'压力',frequency:'频率',height:'高度',interface:'接口',key:'按键',keyboard:'键盘',latency:'延迟',lighting:'灯光',material:'材质',memory:'存储',microphone:'麦克风',mode:'模式',mouse:'鼠标',operating:'触发',operation:'触发',platform:'平台',polling:'回报',profile:'配置',range:'范围',rate:'率',response:'响应',sensor:'传感器',software:'软件',speed:'速度',support:'支持',switch:'轴体/微动',technology:'技术',time:'时间',type:'类型',version:'版本',weight:'重量',wireless:'无线',wired:'有线',working:'工作',front:'前',back:'后',game:'游戏',media:'媒体',environment:'环境',coating:'涂层',input:'输入',plug:'插头',screen:'屏幕',warranty:'保修',shape:'外形',element:'单元',receiver:'接收器',custom:'自定义',customization:'自定义',grip:'握持',operation:'操作',stabilizer:'卫星轴',stabs:'卫星轴',dampening:'隔音',knob:'旋钮',dedicated:'独立',special:'特色',features:'功能',protocol:'协议',profiles:'配置文件',temperature:'温度',supported:'支持',lifecycle:'寿命',gross:'毛',single:'单只',cushion:'耳垫',cushions:'耳垫',holder:'支架',feet:'脚贴',bluetooth:'蓝牙',earbud:'单耳',earbuds:'单耳',dock:'底座',boom:'吊杆',mic:'麦克风',element:'单元',method:'方式',headphones:'耳机',chassis:'外壳',frame:'框架',structural:'结构',firmware:'固件',system:'系统',primary:'主',durability:'寿命',actuation:'触发',keycap:'键帽',without:'不含',incl:'含',sensitivity:'灵敏度',rear:'后',capacity:'容量'};
 function looseSpecLabel(key){
  if(LANG!=='zh-CN'||!/^[\x00-\x7F]+$/.test(key))return key;
  let changed=false;
  const words=String(key).replace(/[_-]+/g,' ').split(/\s+/).map(word=>{const translated=LOOSE_SPEC_ZH[word.toLowerCase().replace(/[^a-z]/g,'')];if(translated){changed=true;return translated}return word});
  return changed?words.join(''):key;
 }
-function specLabel(key){const def=SPEC_BY_ID.get(specId(key));return def?(LANG==='zh-CN'?def[1]:def[2]):looseSpecLabel(key)}
+function specLabel(key){const def=SPEC_BY_ID.get(specId(key));if(def)return LANG==='zh-CN'?def[1]:def[2];const zh=SPEC_KEY_ZH[normalizeSpecKey(key)];if(zh&&LANG==='zh-CN')return zh;return looseSpecLabel(key)}
 function valueLabel(value){
  let out=String(value??'—');
  const exact={
@@ -45,7 +129,7 @@ function valueLabel(value){
  if(exact[out])return exact[out][LANG==='zh-CN'?0:1];
  if(LANG==='zh-CN'){
   const replacements=[
-   ['open case self-pairing','开盖自动配对'],['neckband earphones','颈挂式耳机'],['press the button','按键操作'],['semi-in-ear','半入耳式'],['open-ear','开放式'],['open ear','开放式'],['over-ear','包耳式'],['over ear','包耳式'],['on-ear','贴耳式'],['on ear','贴耳式'],['in-ear','入耳式'],['in ear','入耳式'],['clip on','耳夹式'],['built-in','内置'],['external microphone','外置麦克风'],['active noise cancellation','主动降噪'],['noise cancellation','降噪'],['low-latency mode','低延迟模式'],['battery life','续航'],['charging case','充电仓'],['charging dock','充电底座'],['mechanical switches','机械轴'],['optical switches','光微动'],['hall-effect switches','磁轴'],['hot-swappable','支持热插拔'],['aluminum alloy','铝合金'],['magnesium alloy','镁合金'],['carbon fiber','碳纤维'],['south-facing','南向'],['north-facing','北向'],['backlight off','关闭背光'],['minimum brightness','最低亮度'],['up to','最高'],['not supported','不支持'],['supported','支持'],['tri-mode','三模'],['dual-mode','双模'],['wireless','无线'],['wired','有线'],['bluetooth','蓝牙'],['adaptive','自适应'],['touch','触控'],['button','按键'],['hours','小时'],['black','黑色'],['white','白色'],['gray','灰色'],['red','红色']
+   ['open case self-pairing','开盖自动配对'],['neckband earphones','颈挂式耳机'],['press the button','按键操作'],['semi-in-ear','半入耳式'],['open-ear','开放式'],['open ear','开放式'],['over-ear','包耳式'],['over ear','包耳式'],['on-ear','贴耳式'],['on ear','贴耳式'],['in-ear','入耳式'],['in ear','入耳式'],['clip on','耳夹式'],['built-in','内置'],['external microphone','外置麦克风'],['active noise cancellation','主动降噪'],['noise cancellation','降噪'],['low-latency mode','低延迟模式'],['battery life','续航'],['charging case','充电仓'],['charging dock','充电底座'],['mechanical switches','机械轴'],['optical switches','光微动'],['hall-effect switches','磁轴'],['hot-swappable','支持热插拔'],['aluminum alloy','铝合金'],['magnesium alloy','镁合金'],['carbon fiber','碳纤维'],['south-facing','南向'],['north-facing','北向'],['backlight off','关闭背光'],['minimum brightness','最低亮度'],['up to','最高'],['not supported','不支持'],['supported','支持'],['tri-mode','三模'],['dual-mode','双模'],['wireless','无线'],['wired','有线'],['bluetooth','蓝牙'],['adaptive','自适应'],['touch','触控'],['button','按键'],['hours','小时'],['black','黑色'],['white','白色'],['gray','灰色'],['red','红色'],['minutes','分钟'],['seconds','秒'],['grams','克'],['gram','克'],['mm','毫米'],['cm','厘米'],['inches','英寸'],['inch','英寸'],['meters','米'],['meter','米'],['no support','不支持'],['supports','支持'],['single earbud','单只耳机']
   ];
   replacements.forEach(([from,to])=>{out=out.replace(new RegExp(from.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'gi'),to)});
  }
@@ -60,7 +144,7 @@ function valueLabel(value){
 }
 function originLabel(value){return value==='中国'?t('china'):value==='海外'?t('overseas'):valueLabel(value)}
 function sourceTypeLabel(value){return value==='official_cn_product'?t('officialCnProduct'):value==='official_product'?t('officialProduct'):value||t('officialProduct')}
-const JUNK_SPEC_KEY=/(add to cart|unit price|price|reviews?|contact|data sheet|spec sheet|product name|package|packing list|what.?s in the box|included accessories|energy efficiency|sustainable impact|network interface|memory slots?|processor|graphics|storage|expansion slots?|external i\/o|system fan|security management)/i;
+const JUNK_SPEC_KEY=/(add to cart|unit price|price|reviews?|contact|data sheet|spec sheet|product name|package|packing list|what.?s in the box|included accessories|energy efficiency|sustainable impact|network interface|memory slots?|processor|graphics|storage|expansion slots?|external i\/o|system fan|security management|model|product|shipped from|hongkong|^us$|user guide|faq|specification name|^included$|звычайная цана|адпускная цана|цана за адзінку|also included|^macro$|^disabled$|^setting$|^switching$|^scenario$|^enabled$|^feature$|^specification$|^total$|play once|repeat while pressed|toggle repeat|number of levels|x\/y axis|office work|general use|fps games|high-resolution displays|general gaming|competitive fps gaming|lower value|higher value|lod setting|^smoother\s|^\d+\.|^recommended for|^function type$|^mouse functions$|^keyboard mapping$|^system functions$|^slight increase in input latency|^mode$|^sensor fps$|^\d+(\.\d+)?(\s*(mm|hz|khz|g|db|ips))?$)/i;
 function lowConfidenceField(p,key,value){
  const proof=p.spec_evidence?.[key],confidence=Number(p.verification?.confidence||0);
  return confidence<0.85||!proof||proof.value!==value||!proof.source_url;
