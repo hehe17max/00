@@ -139,7 +139,7 @@ def product_name_ok(name):
 
 def product_identity(brand, name):
     """Stable identity used to merge a concise legacy row with a store title."""
-    value = clean(html.unescape(name)).casefold()
+    value = clean(html.unescape(clean(name))).casefold()
     brand_value = clean(brand).casefold()
     if brand_value:
         value = re.sub(rf"(?<![\w]){re.escape(brand_value)}(?![\w])", " ", value)
@@ -206,7 +206,7 @@ def concise_product_name(brand, title, url=""):
 
 
 def supported_product(name, url=""):
-    value = clean(html.unescape(name)).casefold()
+    value = clean(html.unescape(clean(name))).casefold()
     low_url = unquote(url).casefold()
     # Reject explicit accessory identities, but do not reject a real headset
     # merely because its official title mentions a cable or replaceable pads.
@@ -236,6 +236,8 @@ def brand_name_ok(name):
 
 
 def publication_rejection(name, url, has_product_schema, official_catalog_listing=False):
+    if not isinstance(name, str) or not clean(name):
+        return "missing_product_name"
     if is_foreign_locale(url):
         return "foreign_locale_mirror"
     if not is_specific_product_url(url):
