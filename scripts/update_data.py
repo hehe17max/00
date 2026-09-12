@@ -319,9 +319,14 @@ for i,b in enumerate(brands,1):
                 base=f"{pr.scheme}://{pr.netloc}"
                 if base not in bases: bases.append(base)
         for base in bases[:1 if MODE=="fast" else 2]: found |= shopify(base)
-    subset=rotate(found,MAX_DISCOVERY_URLS_PER_BRAND,RUN_SLOT+brand)
+    # A manually requested brand scan is expected to finish that brand, rather
+    # than expose a different random slice on every run.  The normal scheduled
+    # scan remains deliberately bounded so all brands still get time.
+    discovery_limit=max(MAX_DISCOVERY_URLS_PER_BRAND,120) if ONLY_BRAND else MAX_DISCOVERY_URLS_PER_BRAND
+    subset=rotate(found,discovery_limit,RUN_SLOT+brand)
     log(f"    found={len(found)} subset={len(subset)}")
-    budget=MAX_NEW_PAGE_PARSES_PER_BRAND; newc=upd=imgs=0
+    budget=max(MAX_NEW_PAGE_PARSES_PER_BRAND,120) if ONLY_BRAND else MAX_NEW_PAGE_PARSES_PER_BRAND
+    newc=upd=imgs=0
     for u in subset:
         if canonical_url(u) in by_url: continue
         if budget<=0: break
