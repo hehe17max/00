@@ -68,9 +68,9 @@
         "evidence": {
           "product_schema": false,
           "product_schema_count": 0,
-          "canonical_url": "https://usa.1more.com/products/2-hq20-1more-bear",
+          "canonical_url": "https://usa.1more.com/products/2-hq31-1more-bear",
           "page_language": "en",
-          "official_url": "https://usa.1more.com/products/2-hq20-1more-bear",
+          "official_url": "https://usa.1more.com/products/2-hq31-1more-bear",
           "source_priority": 110,
           "official_catalog_listing": true
         },
@@ -1638,7 +1638,7 @@
       "spec_evidence": {
         "Model": {
           "value": "E1009",
-          "source_url": "https://usa.1more.com/products/1more-piston-fit-in-ear-earphones-5pcs",
+          "source_url": "https://usa.1more.com/products/2-1more-piston-fit-in-ear-earphones-gray",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -1646,7 +1646,7 @@
         },
         "Earbud weight (Single)": {
           "value": "14 g",
-          "source_url": "https://usa.1more.com/products/1more-piston-fit-in-ear-earphones-5pcs",
+          "source_url": "https://usa.1more.com/products/2-1more-piston-fit-in-ear-earphones-gray",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -1654,7 +1654,7 @@
         },
         "Wire": {
           "value": "125 cm",
-          "source_url": "https://usa.1more.com/products/1more-piston-fit-in-ear-earphones-5pcs",
+          "source_url": "https://usa.1more.com/products/2-1more-piston-fit-in-ear-earphones-gray",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -1662,7 +1662,7 @@
         },
         "Plug": {
           "value": "3.5 mm",
-          "source_url": "https://usa.1more.com/products/1more-piston-fit-in-ear-earphones-5pcs",
+          "source_url": "https://usa.1more.com/products/2-1more-piston-fit-in-ear-earphones-gray",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -1670,7 +1670,7 @@
         },
         "Impedance": {
           "value": "32 Ω",
-          "source_url": "https://usa.1more.com/products/1more-piston-fit-in-ear-earphones-5pcs",
+          "source_url": "https://usa.1more.com/products/2-1more-piston-fit-in-ear-earphones-gray",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -1678,7 +1678,7 @@
         },
         "Frequency": {
           "value": "20-20000 Hz",
-          "source_url": "https://usa.1more.com/products/1more-piston-fit-in-ear-earphones-5pcs",
+          "source_url": "https://usa.1more.com/products/2-1more-piston-fit-in-ear-earphones-gray",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -1694,9 +1694,9 @@
         "evidence": {
           "product_schema": false,
           "product_schema_count": 0,
-          "canonical_url": "https://usa.1more.com/products/1more-piston-fit-in-ear-earphones-5pcs",
+          "canonical_url": "https://usa.1more.com/products/2-1more-piston-fit-in-ear-earphones-gray",
           "page_language": "en",
-          "official_url": "https://usa.1more.com/products/1more-piston-fit-in-ear-earphones-5pcs",
+          "official_url": "https://usa.1more.com/products/2-1more-piston-fit-in-ear-earphones-gray",
           "source_priority": 110,
           "official_catalog_listing": true
         },
@@ -2324,6 +2324,13 @@
           "tier": 110,
           "checked_at": "2026-09-12",
           "note": "additional official page"
+        },
+        {
+          "type": "official_product",
+          "url": "https://usa.1more.com/products/1more-true-wireless-headphones-q21",
+          "tier": 110,
+          "checked_at": "2026-09-12",
+          "note": "additional official page"
         }
       ],
       "specs": {
@@ -2442,14 +2449,14 @@
       "verification": {
         "status": "conflict",
         "confidence": 0.78,
-        "source_count": 4,
+        "source_count": 5,
         "conflicts": [],
         "evidence": {
           "product_schema": false,
           "product_schema_count": 0,
-          "canonical_url": "https://usa.1more.com/products/2-q10-earbuds",
+          "canonical_url": "https://usa.1more.com/products/1more-true-wireless-headphones-q21",
           "page_language": "en",
-          "official_url": "https://usa.1more.com/products/2-q10-earbuds",
+          "official_url": "https://usa.1more.com/products/1more-true-wireless-headphones-q21",
           "source_priority": 110,
           "official_catalog_listing": true
         },
@@ -3784,6 +3791,54 @@
     {
       "brand": "ATTACK SHARK",
       "brand_zh_cn": "攻击鲨",
+      "name": "C01PRO",
+      "category": "键盘",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "中国",
+      "market": "官网",
+      "first_seen": "2026-09-12",
+      "last_verified": "2026-09-12",
+      "last_checked": "2026-09-12",
+      "source": "https://attackshark.com/products/attackshark-c01pro-coiled-keyboard-cable-usb-c-braided-mechanical-keyboard",
+      "image_url": "https://attackshark.com/cdn/shop/files/C01-PRO.jpg?v=1710761832&width=1024",
+      "image_source": "https://attackshark.com/products/attackshark-c01pro-coiled-keyboard-cable-usb-c-braided-mechanical-keyboard",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://attackshark.com/products/attackshark-c01pro-coiled-keyboard-cable-usb-c-braided-mechanical-keyboard",
+          "tier": 110,
+          "checked_at": "2026-09-12",
+          "note": "new official product"
+        }
+      ],
+      "specs": {},
+      "spec_evidence": {},
+      "conflict": "",
+      "verification": {
+        "status": "official_discovered",
+        "confidence": 0.78,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 2,
+          "canonical_url": "https://attackshark.com/products/attackshark-c01pro-coiled-keyboard-cable-usb-c-braided-mechanical-keyboard",
+          "page_language": "en",
+          "official_url": "https://attackshark.com/products/attackshark-c01pro-coiled-keyboard-cable-usb-c-braided-mechanical-keyboard",
+          "source_priority": 110,
+          "sku": "AS-C01 PRO Grey",
+          "schema_brand": "ATTACK SHARK",
+          "official_catalog_listing": true
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": true
+      }
+    },
+    {
+      "brand": "ATTACK SHARK",
+      "brand_zh_cn": "攻击鲨",
       "name": "C06 ULTRA",
       "category": "鼠标",
       "subcategory": "自动发现",
@@ -4819,6 +4874,65 @@
     {
       "brand": "ATTACK SHARK",
       "brand_zh_cn": "攻击鲨",
+      "name": "KS01",
+      "category": "键盘",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "中国",
+      "market": "官网",
+      "first_seen": "2026-09-12",
+      "last_verified": "2026-09-12",
+      "last_checked": "2026-09-12",
+      "source": "https://attackshark.com/products/ks01-keyboard-keycap-switch-puller-tool",
+      "image_url": "https://attackshark.com/cdn/shop/files/1_294e2c4e-e59a-4f8e-bbe3-d5f68b094637.jpg?v=1711625694&width=1024",
+      "image_source": "https://attackshark.com/products/ks01-keyboard-keycap-switch-puller-tool",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://attackshark.com/products/ks01-keyboard-keycap-switch-puller-tool",
+          "tier": 110,
+          "checked_at": "2026-09-12",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "尺寸": "110*18mm(4.3*0.7in) Applicable Keyboards Hot-swappable Switches, Detachable Keycaps Dual-Function Design This tool combines a keycap puller with two adjustable 304 stainless steel"
+      },
+      "spec_evidence": {
+        "尺寸": {
+          "value": "110*18mm(4.3*0.7in) Applicable Keyboards Hot-swappable Switches, Detachable Keycaps Dual-Function Design This tool combines a keycap puller with two adjustable 304 stainless steel",
+          "source_url": "https://attackshark.com/products/ks01-keyboard-keycap-switch-puller-tool",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_discovered",
+        "confidence": 0.78,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 2,
+          "canonical_url": "https://attackshark.com/products/ks01-keyboard-keycap-switch-puller-tool",
+          "page_language": "en",
+          "official_url": "https://attackshark.com/products/ks01-keyboard-keycap-switch-puller-tool",
+          "source_priority": 110,
+          "sku": "AS-KS01-Pink",
+          "schema_brand": "ATTACK SHARK",
+          "official_catalog_listing": true
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": true
+      }
+    },
+    {
+      "brand": "ATTACK SHARK",
+      "brand_zh_cn": "攻击鲨",
       "name": "L30 PRO",
       "category": "耳机/耳麦",
       "subcategory": "游戏耳机",
@@ -5437,11 +5551,11 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 2,
-          "canonical_url": "https://attackshark.com/products/attack-shark-r3pro-magnesium-alloy-gaming-mouse-8k",
+          "canonical_url": "https://attackshark.com/products/attack-shark-r3-magnesium-alloy-wireless-gaming-mouse",
           "page_language": "en",
-          "official_url": "https://attackshark.com/products/attack-shark-r3pro-magnesium-alloy-gaming-mouse-8k",
+          "official_url": "https://attackshark.com/products/attack-shark-r3-magnesium-alloy-wireless-gaming-mouse",
           "source_priority": 110,
-          "sku": "AS-R3PRO White",
+          "sku": "AS-R3-WHITE",
           "schema_brand": "ATTACK SHARK",
           "official_catalog_listing": true
         },
@@ -6920,7 +7034,8 @@
           "official_url": "https://attackshark.com/products/attackshark-m71-cnc-aluminum-custom-mechanical-gaming-keyboard",
           "source_priority": 110,
           "sku": "AS-M71-Blue",
-          "schema_brand": "ATTACK SHARK"
+          "schema_brand": "ATTACK SHARK",
+          "official_catalog_listing": true
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
@@ -8605,6 +8720,13 @@
           "tier": 110,
           "checked_at": "2026-09-12",
           "note": "new official product"
+        },
+        {
+          "type": "official_product",
+          "url": "https://attackshark.com/products/attackshark-x66-wireless-mechanical-keyboard-with-8k-coiled-cable",
+          "tier": 110,
+          "checked_at": "2026-09-12",
+          "note": "additional official page"
         }
       ],
       "specs": {},
@@ -8613,16 +8735,16 @@
       "verification": {
         "status": "official_discovered",
         "confidence": 0.78,
-        "source_count": 1,
+        "source_count": 2,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 2,
-          "canonical_url": "https://attackshark.com/products/attack-shark-x66-wireless-mechanical-keyboard-with-side-printed-pbt-keycaps",
+          "canonical_url": "https://attackshark.com/products/attackshark-x66-wireless-mechanical-keyboard-with-8k-coiled-cable",
           "page_language": "en",
-          "official_url": "https://attackshark.com/products/attack-shark-x66-wireless-mechanical-keyboard-with-side-printed-pbt-keycaps",
+          "official_url": "https://attackshark.com/products/attackshark-x66-wireless-mechanical-keyboard-with-8k-coiled-cable",
           "source_priority": 110,
-          "sku": "AS-X66-Blackberry",
+          "sku": "AS-X66PRO-Moonlight",
           "schema_brand": "ATTACK SHARK",
           "official_catalog_listing": true
         },
@@ -11367,7 +11489,8 @@
           "official_url": "https://www.baseus.com/products/bass-bs2-lite-true-wireless-earbuds",
           "source_priority": 110,
           "sku": "A0010A02",
-          "schema_brand": "Baseus"
+          "schema_brand": "Baseus",
+          "official_catalog_listing": true
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": false
@@ -12169,7 +12292,8 @@
           "official_url": "https://www.baseus.com/products/bowie-h1i-bluetooth-headphone",
           "source_priority": 110,
           "sku": "A00050402223-00",
-          "schema_brand": "Baseus"
+          "schema_brand": "Baseus",
+          "official_catalog_listing": true
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": false
@@ -12869,6 +12993,128 @@
           "official_url": "https://www.baseus.com/products/bowie-mc2-air-open-ear-true-wireless-earbuds",
           "source_priority": 110,
           "sku": "A0102A04",
+          "schema_brand": "Baseus",
+          "official_catalog_listing": true
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": false
+      }
+    },
+    {
+      "brand": "Baseus",
+      "brand_zh_cn": "倍思",
+      "name": "Bowie MF1",
+      "category": "耳机/耳麦",
+      "subcategory": "开放式/耳夹",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "中国",
+      "market": "官网",
+      "first_seen": "2026-09-12",
+      "last_verified": "2026-09-12",
+      "last_checked": "2026-09-12",
+      "source": "https://www.baseus.com/products/bowie-mf1-open-ear-tws-earbuds",
+      "image_url": "https://www.baseus.com/cdn/shop/files/Baseus_Bowie_MF1_Open-Ear_TWS_Earbuds_M-1.jpg?v=1740991813&width=1024",
+      "image_source": "https://www.baseus.com/products/bowie-mf1-open-ear-tws-earbuds",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://www.baseus.com/products/bowie-mf1-open-ear-tws-earbuds",
+          "tier": 110,
+          "checked_at": "2026-09-12",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "Shipped From": "Processing Time",
+        "US": "1-2 Business day",
+        "HongKong": "1-2 Business day",
+        "编码": "SBC, AAC, LDAC",
+        "蓝牙/无线": "V5.4",
+        "电池": "65 mAh/ 0.241 Wh (per earbud), 720 mAh/ 2.664 Wh (charging case)",
+        "续航": "Approx. 12 hours (with volume at 50%, Bass Boost and Spatial Audio off)",
+        "重量": "Approx. 79.24 g"
+      },
+      "spec_evidence": {
+        "Shipped From": {
+          "value": "Processing Time",
+          "source_url": "https://www.baseus.com/products/bowie-mf1-open-ear-tws-earbuds",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "US": {
+          "value": "1-2 Business day",
+          "source_url": "https://www.baseus.com/products/bowie-mf1-open-ear-tws-earbuds",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "HongKong": {
+          "value": "1-2 Business day",
+          "source_url": "https://www.baseus.com/products/bowie-mf1-open-ear-tws-earbuds",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "编码": {
+          "value": "SBC, AAC, LDAC",
+          "source_url": "https://www.baseus.com/products/bowie-mf1-open-ear-tws-earbuds",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "蓝牙/无线": {
+          "value": "V5.4",
+          "source_url": "https://www.baseus.com/products/bowie-mf1-open-ear-tws-earbuds",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "电池": {
+          "value": "65 mAh/ 0.241 Wh (per earbud), 720 mAh/ 2.664 Wh (charging case)",
+          "source_url": "https://www.baseus.com/products/bowie-mf1-open-ear-tws-earbuds",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "续航": {
+          "value": "Approx. 12 hours (with volume at 50%, Bass Boost and Spatial Audio off)",
+          "source_url": "https://www.baseus.com/products/bowie-mf1-open-ear-tws-earbuds",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "重量": {
+          "value": "Approx. 79.24 g",
+          "source_url": "https://www.baseus.com/products/bowie-mf1-open-ear-tws-earbuds",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_verified",
+        "confidence": 0.92,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://baseus.com/products/bowie-mf1-open-ear-tws-earbuds",
+          "page_language": "en",
+          "official_url": "https://www.baseus.com/products/bowie-mf1-open-ear-tws-earbuds",
+          "source_priority": 110,
+          "sku": "A00084501123-00",
           "schema_brand": "Baseus",
           "official_catalog_listing": true
         },
@@ -14101,7 +14347,7 @@
       "spec_evidence": {
         "Product": {
           "value": "Total",
-          "source_url": "https://dareu.com/products/dareu-a68-wired-aluminum-magnetic-switch-mechanical-keyboard-waterproof",
+          "source_url": "https://dareu.com/en-eu/products/dareu-a68-wired-aluminum-magnetic-switch-mechanical-keyboard-waterproof",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -14117,9 +14363,9 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 2,
-          "canonical_url": "https://dareu.com/products/dareu-a68-wired-aluminum-magnetic-switch-mechanical-keyboard-waterproof",
+          "canonical_url": "https://dareu.com/en-eu/products/dareu-a68-wired-aluminum-magnetic-switch-mechanical-keyboard-waterproof",
           "page_language": "en",
-          "official_url": "https://dareu.com/products/dareu-a68-wired-aluminum-magnetic-switch-mechanical-keyboard-waterproof",
+          "official_url": "https://dareu.com/en-eu/products/dareu-a68-wired-aluminum-magnetic-switch-mechanical-keyboard-waterproof",
           "source_priority": 110,
           "sku": "",
           "schema_brand": "Dareu",
@@ -14345,7 +14591,7 @@
           "type": "official_product",
           "url": "https://dareu.com/products/dareu-a950-wireless-gaming-mouse",
           "tier": 110,
-          "checked_at": "2026-09-11",
+          "checked_at": "2026-09-12",
           "note": "additional official page"
         },
         {
@@ -14357,32 +14603,78 @@
         }
       ],
       "specs": {
-        "Product": "Total"
+        "Product": "Total",
+        "连接": "Offers flexibility with wired, Bluetooth, and",
+        "传感器": "Delivers precise tracking and responsive movement, optimized for high-stakes gaming. KBS",
+        "尺寸": "123*64*39mm",
+        "重量": "88g Technical Specifications Connection Type: Wired / BT /",
+        "蓝牙/无线": "135Hz Wired: 1000 Hz"
       },
       "conflict": "",
       "verification": {
-        "status": "official_discovered",
-        "confidence": 0.7,
+        "status": "official_verified",
+        "confidence": 0.92,
         "source_count": 4,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 2,
-          "canonical_url": "https://dareu.com/products/dareu-a950-air-35g-8k-ultralight-weight-wireless-gaming-mouse",
+          "canonical_url": "https://dareu.com/products/dareu-a950-wireless-gaming-mouse",
           "page_language": "en",
-          "official_url": "https://dareu.com/products/dareu-a950-air-35g-8k-ultralight-weight-wireless-gaming-mouse",
+          "official_url": "https://dareu.com/products/dareu-a950-wireless-gaming-mouse",
           "source_priority": 110,
           "sku": "",
-          "schema_brand": "Dareu"
+          "schema_brand": "Dareu",
+          "official_catalog_listing": false
         },
         "quality_gate_version": "1.3-audited",
-        "needs_review": true
+        "needs_review": false
       },
       "brand_zh_cn": "达尔优",
       "spec_evidence": {
         "Product": {
           "value": "Total",
-          "source_url": "https://dareu.com/products/dareu-a950-air-35g-8k-ultralight-weight-wireless-gaming-mouse",
+          "source_url": "https://dareu.com/products/dareu-a950-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "连接": {
+          "value": "Offers flexibility with wired, Bluetooth, and",
+          "source_url": "https://dareu.com/products/dareu-a950-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "传感器": {
+          "value": "Delivers precise tracking and responsive movement, optimized for high-stakes gaming. KBS",
+          "source_url": "https://dareu.com/products/dareu-a950-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "尺寸": {
+          "value": "123*64*39mm",
+          "source_url": "https://dareu.com/products/dareu-a950-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "重量": {
+          "value": "88g Technical Specifications Connection Type: Wired / BT /",
+          "source_url": "https://dareu.com/products/dareu-a950-wireless-gaming-mouse",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "蓝牙/无线": {
+          "value": "135Hz Wired: 1000 Hz",
+          "source_url": "https://dareu.com/products/dareu-a950-wireless-gaming-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -14998,7 +15290,7 @@
       "spec_evidence": {
         "Product": {
           "value": "Total",
-          "source_url": "https://dareu.com/products/dareu-ek106-pro-tri-mode-hotswap-gasket-keyboard-with-knob",
+          "source_url": "https://dareu.com/en-eu/products/dareu-ek106-pro-tri-mode-hotswap-gasket-keyboard-with-knob",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -15006,7 +15298,7 @@
         },
         "配列": {
           "value": "Complete 104-key layout, perfect for both work and gaming. Three-Mode",
-          "source_url": "https://dareu.com/products/dareu-ek106-pro-tri-mode-hotswap-gasket-keyboard-with-knob",
+          "source_url": "https://dareu.com/en-eu/products/dareu-ek106-pro-tri-mode-hotswap-gasket-keyboard-with-knob",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -15014,7 +15306,7 @@
         },
         "连接": {
           "value": "Seamlessly switch between wired ,",
-          "source_url": "https://dareu.com/products/dareu-ek106-pro-tri-mode-hotswap-gasket-keyboard-with-knob",
+          "source_url": "https://dareu.com/en-eu/products/dareu-ek106-pro-tri-mode-hotswap-gasket-keyboard-with-knob",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -15022,7 +15314,7 @@
         },
         "尺寸": {
           "value": "448*138.3*42mm",
-          "source_url": "https://dareu.com/products/dareu-ek106-pro-tri-mode-hotswap-gasket-keyboard-with-knob",
+          "source_url": "https://dareu.com/en-eu/products/dareu-ek106-pro-tri-mode-hotswap-gasket-keyboard-with-knob",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -15030,7 +15322,7 @@
         },
         "重量": {
           "value": "815±15g",
-          "source_url": "https://dareu.com/products/dareu-ek106-pro-tri-mode-hotswap-gasket-keyboard-with-knob",
+          "source_url": "https://dareu.com/en-eu/products/dareu-ek106-pro-tri-mode-hotswap-gasket-keyboard-with-knob",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -15038,7 +15330,7 @@
         },
         "电池": {
           "value": "4000mAh Switch: DAREU hotswap swtich Others Light: RGB Compatibility Window /Mac / ios /Android In the Box Keyboard *1 Keyboard card *1 User manual *1 Product review Customer Revie",
-          "source_url": "https://dareu.com/products/dareu-ek106-pro-tri-mode-hotswap-gasket-keyboard-with-knob",
+          "source_url": "https://dareu.com/en-eu/products/dareu-ek106-pro-tri-mode-hotswap-gasket-keyboard-with-knob",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -15054,9 +15346,9 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 2,
-          "canonical_url": "https://dareu.com/products/dareu-ek106-pro-tri-mode-hotswap-gasket-keyboard-with-knob",
+          "canonical_url": "https://dareu.com/en-eu/products/dareu-ek106-pro-tri-mode-hotswap-gasket-keyboard-with-knob",
           "page_language": "en",
-          "official_url": "https://dareu.com/products/dareu-ek106-pro-tri-mode-hotswap-gasket-keyboard-with-knob",
+          "official_url": "https://dareu.com/en-eu/products/dareu-ek106-pro-tri-mode-hotswap-gasket-keyboard-with-knob",
           "source_priority": 110,
           "sku": "",
           "schema_brand": "Dareu",
@@ -15191,9 +15483,9 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 2,
-          "canonical_url": "https://dareu.com/products/dareu-ek75rt-8k-75-key-wired-aluminium-keyboard",
+          "canonical_url": "https://dareu.com/en-eu/products/dareu-ek75-rt",
           "page_language": "en",
-          "official_url": "https://dareu.com/products/dareu-ek75rt-8k-75-key-wired-aluminium-keyboard",
+          "official_url": "https://dareu.com/en-eu/products/dareu-ek75-rt",
           "source_priority": 110,
           "sku": "",
           "schema_brand": "Dareu",
@@ -15206,7 +15498,7 @@
       "spec_evidence": {
         "Product": {
           "value": "Total",
-          "source_url": "https://dareu.com/products/dareu-ek75rt-8k-75-key-wired-aluminium-keyboard",
+          "source_url": "https://dareu.com/en-eu/products/dareu-ek75-rt",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -16677,7 +16969,8 @@
           "official_url": "https://dareu.com/products/dareu-z19-dual-mode-cute-mechanical-numeric-keyboard",
           "source_priority": 110,
           "sku": "",
-          "schema_brand": "Dareu"
+          "schema_brand": "Dareu",
+          "official_catalog_listing": false
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": false
@@ -18187,11 +18480,11 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://eksa.net/products/eksa-e1000-wt-true-2-4-ghz-wireless-gaming-headset-with-enc",
+          "canonical_url": "https://eksa.net/products/eksa-e1000-bt-7-1-surround-sound-wireless-gaming-headset",
           "page_language": "en",
-          "official_url": "https://www.eksa.net/products/eksa-e1000-wt-true-2-4-ghz-wireless-gaming-headset-with-enc",
+          "official_url": "https://www.eksa.net/products/eksa-e1000-bt-7-1-surround-sound-wireless-gaming-headset",
           "source_priority": 110,
-          "sku": "E1000 WT-Black",
+          "sku": "E1000 BT",
           "schema_brand": "EKSA",
           "official_catalog_listing": true
         },
@@ -18285,13 +18578,13 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://eksa.net/products/eksa-e1000-v2-rgb-wired-gaming-headset",
+          "canonical_url": "https://eksa.net/products/eksa%c2%ae-e1000-v2-rgb-wired-gaming-headset-copy",
           "page_language": "en",
-          "official_url": "https://www.eksa.net/products/eksa-e1000-v2-rgb-wired-gaming-headset",
+          "official_url": "https://www.eksa.net/products/eksa%C2%AE-e1000-v2-rgb-wired-gaming-headset-copy",
           "source_priority": 110,
-          "sku": "E1000 V2 - Black",
+          "sku": "E1000 V2 - Pink",
           "schema_brand": "EKSA",
-          "official_catalog_listing": true
+          "official_catalog_listing": false
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
@@ -18300,7 +18593,7 @@
       "spec_evidence": {
         "尺寸": {
           "value": "50 mm Speaker Impedance: 32 Ω Speaker Frequency Range: 20 Hz - 20 kHz Speaker Sensitivity: 105 ± 3 dB Lighting Effect: RGB Cable Length:",
-          "source_url": "https://www.eksa.net/products/eksa-e1000-v2-rgb-wired-gaming-headset",
+          "source_url": "https://www.eksa.net/products/eksa%C2%AE-e1000-v2-rgb-wired-gaming-headset-copy",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -19046,54 +19339,6 @@
           "source_priority": 110,
           "sku": "E5000 Pro Earpads",
           "schema_brand": "EKSA",
-          "official_catalog_listing": true
-        },
-        "quality_gate_version": "1.3-audited",
-        "needs_review": true
-      }
-    },
-    {
-      "brand": "Glorious",
-      "brand_zh_cn": "Glorious",
-      "name": "Cloth",
-      "category": "键盘",
-      "subcategory": "游戏耳机",
-      "status": "官网产品页已确认/参数待复核",
-      "verified": "官方页面自动发现",
-      "origin": "海外",
-      "market": "官网",
-      "first_seen": "2026-09-12",
-      "last_verified": "2026-09-12",
-      "last_checked": "2026-09-12",
-      "source": "https://www.gloriousgaming.com/products/ergonomic-wrist-rest-cloth",
-      "image_url": "https://www.gloriousgaming.com/cdn/shop/files/GLO-KB-ACC-WR-CLTH-65-75-BLK_Web_Gallery_Front.webp?v=1725725559&width=480",
-      "image_source": "https://www.gloriousgaming.com/products/ergonomic-wrist-rest-cloth",
-      "sources": [
-        {
-          "type": "official_product",
-          "url": "https://www.gloriousgaming.com/products/ergonomic-wrist-rest-cloth",
-          "tier": 110,
-          "checked_at": "2026-09-12",
-          "note": "new official product"
-        }
-      ],
-      "specs": {},
-      "spec_evidence": {},
-      "conflict": "",
-      "verification": {
-        "status": "official_discovered",
-        "confidence": 0.78,
-        "source_count": 1,
-        "conflicts": [],
-        "evidence": {
-          "product_schema": true,
-          "product_schema_count": 1,
-          "canonical_url": "https://gloriousgaming.com/products/ergonomic-wrist-rest-cloth",
-          "page_language": "en",
-          "official_url": "https://www.gloriousgaming.com/products/ergonomic-wrist-rest-cloth",
-          "source_priority": 110,
-          "sku": "GLO-KB-ACC-WR-CLTH-65-75-BLK",
-          "schema_brand": "Glorious",
           "official_catalog_listing": true
         },
         "quality_gate_version": "1.3-audited",
@@ -20532,7 +20777,7 @@
           "type": "official_product",
           "url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
           "tier": 110,
-          "checked_at": "2026-09-11",
+          "checked_at": "2026-09-12",
           "note": "additional official page"
         },
         {
@@ -20578,7 +20823,7 @@
       "spec_evidence": {
         "Warranty": {
           "value": "2 Years",
-          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -20594,7 +20839,7 @@
         },
         "Hot Swappable": {
           "value": "Yes; 3 & 5-pin Mechanical",
-          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -20610,7 +20855,7 @@
         },
         "Hall Effect (Rapid Trigger)": {
           "value": "No",
-          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -20626,7 +20871,7 @@
         },
         "Lighting": {
           "value": "3 Zones: Per-key Backlighting, Side Lights, Badge",
-          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -20634,7 +20879,7 @@
         },
         "Colors": {
           "value": "Black; Silver",
-          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -20642,7 +20887,7 @@
         },
         "Case Material": {
           "value": "Case Material CNC Aluminum",
-          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -20658,7 +20903,7 @@
         },
         "Software": {
           "value": "Glorious CORE",
-          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -20666,7 +20911,7 @@
         },
         "Max Polling Rate": {
           "value": "1,000 Hz",
-          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -20674,7 +20919,7 @@
         },
         "OS Support": {
           "value": "Windows, macOS, Linux",
-          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -20682,7 +20927,7 @@
         },
         "On-Board Memory Profiles": {
           "value": "3",
-          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -20690,7 +20935,7 @@
         },
         "Mounting Style": {
           "value": "Mounting Style Gasket",
-          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -20698,7 +20943,7 @@
         },
         "QMK Support": {
           "value": "No",
-          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -20706,7 +20951,7 @@
         },
         "Knob Support": {
           "value": "Knob Support Yes",
-          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -20730,7 +20975,7 @@
         },
         "Price": {
           "value": "Price",
-          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -20738,7 +20983,7 @@
         },
         "Reviews": {
           "value": "Reviews",
-          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -20746,7 +20991,7 @@
         },
         "Color": {
           "value": "Color Black; Silver",
-          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -20754,7 +20999,7 @@
         },
         "Add to Cart buttons": {
           "value": "Add to Cart",
-          "source_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-3-pro-barebones-keyboard",
+          "source_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -20770,12 +21015,13 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 2,
-          "canonical_url": "https://gloriousgaming.com/en-fr/products/gmmk-3-pro-barebones-keyboard",
+          "canonical_url": "https://gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
           "page_language": "en",
-          "official_url": "https://www.gloriousgaming.com/en-fr/products/gmmk-3-pro-barebones-keyboard",
+          "official_url": "https://www.gloriousgaming.com/en-de/products/gmmk-3-pro-barebones-keyboard",
           "source_priority": 110,
           "sku": "GLO-KB-GMMK3-PRO-65-BB-W-BLK-US",
-          "schema_brand": "GMMK 3 Barebones"
+          "schema_brand": "GMMK 3 Barebones",
+          "official_catalog_listing": false
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": false
@@ -24203,6 +24449,13 @@
           "tier": 110,
           "checked_at": "2026-09-12",
           "note": "additional official page"
+        },
+        {
+          "type": "official_product",
+          "url": "https://www.gloriousgaming.com/en-fr/products/model-o-2-pro-wireless-mouse-4k-8khz",
+          "tier": 110,
+          "checked_at": "2026-09-12",
+          "note": "additional official page"
         }
       ],
       "specs": {
@@ -24237,7 +24490,7 @@
       "spec_evidence": {
         "Warranty": {
           "value": "2 years",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-o-2-pro-wireless-mouse-4k-8khz",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/model-o-2-pro-wireless-mouse-4k-8khz",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -24253,7 +24506,7 @@
         },
         "Size": {
           "value": "Standard",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-o-2-pro-wireless-mouse-4k-8khz",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/model-o-2-pro-wireless-mouse-4k-8khz",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -24269,7 +24522,7 @@
         },
         "Connectivity": {
           "value": "Connectivity 2.4GHz Wireless",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-o-2-pro-wireless-mouse-4k-8khz",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/model-o-2-pro-wireless-mouse-4k-8khz",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -24277,7 +24530,7 @@
         },
         "Grip Style": {
           "value": "Palm, Claw, Fingertip",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-o-2-pro-wireless-mouse-4k-8khz",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/model-o-2-pro-wireless-mouse-4k-8khz",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -24301,7 +24554,7 @@
         },
         "Sensor": {
           "value": "BAMF 2.0 26K Sensor",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-o-2-pro-wireless-mouse-4k-8khz",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/model-o-2-pro-wireless-mouse-4k-8khz",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -24309,7 +24562,7 @@
         },
         "Max Sensitivity (DPI)": {
           "value": "26,000 DPI",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-o-2-pro-wireless-mouse-4k-8khz",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/model-o-2-pro-wireless-mouse-4k-8khz",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -24317,7 +24570,7 @@
         },
         "Max Speed (IPS)": {
           "value": "650 IPS",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-o-2-pro-wireless-mouse-4k-8khz",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/model-o-2-pro-wireless-mouse-4k-8khz",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -24325,7 +24578,7 @@
         },
         "Max Acceleration (G)": {
           "value": "50g",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-o-2-pro-wireless-mouse-4k-8khz",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/model-o-2-pro-wireless-mouse-4k-8khz",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -24333,7 +24586,7 @@
         },
         "RGB Lighting": {
           "value": "None",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-o-2-pro-wireless-mouse-4k-8khz",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/model-o-2-pro-wireless-mouse-4k-8khz",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -24341,7 +24594,7 @@
         },
         "Switch Type": {
           "value": "Glorious Optical Switches",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-o-2-pro-wireless-mouse-4k-8khz",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/model-o-2-pro-wireless-mouse-4k-8khz",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -24349,7 +24602,7 @@
         },
         "Switch Lifecycle": {
           "value": "Rated for 100M Clicks",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-o-2-pro-wireless-mouse-4k-8khz",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/model-o-2-pro-wireless-mouse-4k-8khz",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -24357,7 +24610,7 @@
         },
         "Programmable Buttons": {
           "value": "6",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-o-2-pro-wireless-mouse-4k-8khz",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/model-o-2-pro-wireless-mouse-4k-8khz",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -24365,7 +24618,7 @@
         },
         "Mouse Feet": {
           "value": "100% PTFE G-Skates",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-o-2-pro-wireless-mouse-4k-8khz",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/model-o-2-pro-wireless-mouse-4k-8khz",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -24373,7 +24626,7 @@
         },
         "Cable": {
           "value": "Ultra-Flexible Ascended Cable (2m / 6.5ft)",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-o-2-pro-wireless-mouse-4k-8khz",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/model-o-2-pro-wireless-mouse-4k-8khz",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -24381,7 +24634,7 @@
         },
         "On-Board Memory Profiles": {
           "value": "3 Custom Profiles",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-o-2-pro-wireless-mouse-4k-8khz",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/model-o-2-pro-wireless-mouse-4k-8khz",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -24389,7 +24642,7 @@
         },
         "Software": {
           "value": "Glorious CORE (Optional)",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-o-2-pro-wireless-mouse-4k-8khz",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/model-o-2-pro-wireless-mouse-4k-8khz",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -24397,7 +24650,7 @@
         },
         "OS Support": {
           "value": "Windows, macOS, Linux",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-o-2-pro-wireless-mouse-4k-8khz",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/model-o-2-pro-wireless-mouse-4k-8khz",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -24405,7 +24658,7 @@
         },
         "System Requirements": {
           "value": "• Available USB port • Windows 7+, Mac OS, Linux",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-o-2-pro-wireless-mouse-4k-8khz",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/model-o-2-pro-wireless-mouse-4k-8khz",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -24429,7 +24682,7 @@
         },
         "Price": {
           "value": "Price",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-o-2-pro-wireless-mouse-4k-8khz",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/model-o-2-pro-wireless-mouse-4k-8khz",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -24437,7 +24690,7 @@
         },
         "Reviews": {
           "value": "Reviews",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-o-2-pro-wireless-mouse-4k-8khz",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/model-o-2-pro-wireless-mouse-4k-8khz",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -24445,7 +24698,7 @@
         },
         "Add to Cart buttons": {
           "value": "Add to Cart",
-          "source_url": "https://www.gloriousgaming.com/en-de/products/model-o-2-pro-wireless-mouse-4k-8khz",
+          "source_url": "https://www.gloriousgaming.com/en-fr/products/model-o-2-pro-wireless-mouse-4k-8khz",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -24456,14 +24709,14 @@
       "verification": {
         "status": "conflict",
         "confidence": 0.92,
-        "source_count": 3,
+        "source_count": 4,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://gloriousgaming.com/en-de/products/model-o-2-pro-wireless-mouse-4k-8khz",
+          "canonical_url": "https://gloriousgaming.com/en-fr/products/model-o-2-pro-wireless-mouse-4k-8khz",
           "page_language": "en",
-          "official_url": "https://www.gloriousgaming.com/en-de/products/model-o-2-pro-wireless-mouse-4k-8khz",
+          "official_url": "https://www.gloriousgaming.com/en-fr/products/model-o-2-pro-wireless-mouse-4k-8khz",
           "source_priority": 110,
           "sku": "GLO-MS-POWV2-4K8K-W",
           "schema_brand": "Glorious",
@@ -25241,6 +25494,13 @@
           "tier": 110,
           "checked_at": "2026-09-12",
           "note": "additional official page"
+        },
+        {
+          "type": "official_product",
+          "url": "https://www.gloriousgaming.com/products/wireless-model-o-dongle-kit-matte-black",
+          "tier": 110,
+          "checked_at": "2026-09-12",
+          "note": "additional official page"
         }
       ],
       "specs": {},
@@ -25249,14 +25509,14 @@
       "verification": {
         "status": "official_discovered",
         "confidence": 0.78,
-        "source_count": 2,
+        "source_count": 3,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://gloriousgaming.com/en-de/products/wireless-model-o-dongle-kit-matte-black",
+          "canonical_url": "https://gloriousgaming.com/products/wireless-model-o-dongle-kit-matte-black",
           "page_language": "en",
-          "official_url": "https://www.gloriousgaming.com/en-de/products/wireless-model-o-dongle-kit-matte-black",
+          "official_url": "https://www.gloriousgaming.com/products/wireless-model-o-dongle-kit-matte-black",
           "source_priority": 110,
           "sku": "GLO-ACC-MS-WDK-MB",
           "schema_brand": "Glorious",
@@ -27988,6 +28248,13 @@
           "tier": 110,
           "checked_at": "2026-09-12",
           "note": "additional official page"
+        },
+        {
+          "type": "official_product",
+          "url": "https://hyperx.com/products/hyperx-bundle-cloud-iii-s-wireless-headset-pulsefire-saga-pro-wireless-mouse",
+          "tier": 110,
+          "checked_at": "2026-09-12",
+          "note": "additional official page"
         }
       ],
       "specs": {
@@ -27996,7 +28263,7 @@
       "spec_evidence": {
         "Unit price": {
           "value": "/ per",
-          "source_url": "https://hyperx.com/products/hyperx-bundle-cloud-alpha-wireless-headset-rubber-keycaps",
+          "source_url": "https://hyperx.com/products/hyperx-bundle-cloud-iii-s-wireless-headset-pulsefire-saga-pro-wireless-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -28007,16 +28274,16 @@
       "verification": {
         "status": "official_discovered",
         "confidence": 0.78,
-        "source_count": 3,
+        "source_count": 4,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://hyperx.com/products/hyperx-bundle-cloud-alpha-wireless-headset-rubber-keycaps",
+          "canonical_url": "https://hyperx.com/products/hyperx-bundle-cloud-iii-s-wireless-headset-pulsefire-saga-pro-wireless-mouse",
           "page_language": "en",
-          "official_url": "https://hyperx.com/products/hyperx-bundle-cloud-alpha-wireless-headset-rubber-keycaps",
+          "official_url": "https://hyperx.com/products/hyperx-bundle-cloud-iii-s-wireless-headset-pulsefire-saga-pro-wireless-mouse",
           "source_priority": 110,
-          "sku": "Bundle_4P5D4AA_519T6AA#ABA",
+          "sku": "Bundle_A59YZAA_A2PB2AA",
           "schema_brand": "HyperX",
           "official_catalog_listing": true
         },
@@ -29806,11 +30073,11 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://hyperx.com/products/hyperx-cloud-iii-wired-gaming-headset",
+          "canonical_url": "https://hyperx.com/products/hyperx-cloud-iii-wireless-gaming-headset",
           "page_language": "en",
-          "official_url": "https://hyperx.com/products/hyperx-cloud-iii-wired-gaming-headset",
+          "official_url": "https://hyperx.com/products/hyperx-cloud-iii-wireless-gaming-headset",
           "source_priority": 110,
-          "sku": "9W1Q4AA",
+          "sku": "77Z46AA",
           "schema_brand": "HyperX",
           "official_catalog_listing": true
         },
@@ -29821,7 +30088,7 @@
       "spec_evidence": {
         "Surround System": {
           "value": "DTS® Headphone:X® Spatial Audio",
-          "source_url": "https://hyperx.com/products/hyperx-cloud-iii-wired-gaming-headset",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-iii-wireless-gaming-headset",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -29829,7 +30096,7 @@
         },
         "Noise Cancelling": {
           "value": "Yes",
-          "source_url": "https://hyperx.com/products/hyperx-cloud-iii-wired-gaming-headset",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-iii-wireless-gaming-headset",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -29837,7 +30104,7 @@
         },
         "Unit price": {
           "value": "/ per",
-          "source_url": "https://hyperx.com/products/hyperx-cloud-iii-wired-gaming-headset",
+          "source_url": "https://hyperx.com/products/hyperx-cloud-iii-wireless-gaming-headset",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -32577,6 +32844,13 @@
           "tier": 110,
           "checked_at": "2026-09-12",
           "note": "additional official page"
+        },
+        {
+          "type": "official_product",
+          "url": "https://hyperx.com/products/hx3d-headset-plates-werewolf",
+          "tier": 110,
+          "checked_at": "2026-09-12",
+          "note": "additional official page"
         }
       ],
       "specs": {
@@ -32585,7 +32859,7 @@
       "spec_evidence": {
         "Unit price": {
           "value": "/ per",
-          "source_url": "https://hyperx.com/products/hx3d-headset-accessory-werewolf-ears",
+          "source_url": "https://hyperx.com/products/hx3d-headset-plates-bear-paws",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -32596,16 +32870,16 @@
       "verification": {
         "status": "official_discovered",
         "confidence": 0.78,
-        "source_count": 6,
+        "source_count": 7,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://hyperx.com/products/hx3d-headset-accessory-werewolf-ears",
+          "canonical_url": "https://hyperx.com/products/hx3d-headset-plates-bear-paws",
           "page_language": "en",
-          "official_url": "https://hyperx.com/products/hx3d-headset-accessory-werewolf-ears",
+          "official_url": "https://hyperx.com/products/hx3d-headset-plates-bear-paws",
           "source_priority": 110,
-          "sku": "88H64AA",
+          "sku": "88H62AA",
           "schema_brand": "HyperX",
           "official_catalog_listing": true
         },
@@ -47247,6 +47521,270 @@
     {
       "brand": "Keychron",
       "brand_zh_cn": "渴创",
+      "name": "Lemokey L5 HE",
+      "category": "键盘",
+      "subcategory": "游戏耳机",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "海外",
+      "market": "官网",
+      "first_seen": "2026-09-12",
+      "last_verified": "2026-09-12",
+      "last_checked": "2026-09-12",
+      "source": "https://www.keychron.com/products/lemokey-l5-he-magnetic-switch-custom-gaming-keyboard",
+      "image_url": "https://www.keychron.com/cdn/shop/files/L5-HE-Iconic-Features.jpg?crop=center&height=1200&v=1766539138&width=1200",
+      "image_source": "https://www.keychron.com/products/lemokey-l5-he-magnetic-switch-custom-gaming-keyboard",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://www.keychron.com/products/lemokey-l5-he-magnetic-switch-custom-gaming-keyboard",
+          "tier": 110,
+          "checked_at": "2026-09-12",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "Dimension": "150 mm x 329 mm",
+        "Number of Keys": "81 Keys",
+        "Layout": "75%",
+        "Angle": "4.7 °",
+        "Front Height": "26.97 mm (incl. keycap)",
+        "Back Height": "45.36 mm (incl. keycaps)",
+        "Weight": "1850g±50g",
+        "Frame Material": "CNC Aluminum",
+        "Plate Material": "Aluminum",
+        "Keycap": "Double-shot PBT (ANSI) Dye-sub PBT (ISO)",
+        "N-Key Rollover (NKRO)": "Yes",
+        "Rapid Trigger": "Yes",
+        "Adjustable Actuation Points": "0.1 - 3.35 mm",
+        "Polling Rate": "1000 Hz / 2000 Hz / 8000 Hz",
+        "Dynamic Keystrokes": "Yes",
+        "Sensitivity": "0.01mm",
+        "Switch Face": "North-facing RGB",
+        "Stabilizer": "Plate-mounted Stabilizer",
+        "Backlight": "22 types of RGB backlight options plus endless possibilities",
+        "MCU": "RISC-V 32bit HPM5321ICB(1MB Flash,128KB ILM,128KB DLM)",
+        "Hot-swappable Support": "Yes, compatible with Lemokey Ultra-Fast Lime Magnetic Switches only",
+        "Charging Port": "USB Type-C (8000 Hz)",
+        "Compatible System": "Windows/ macOS/ Linux",
+        "Operating Environment": "-10 to 50℃"
+      },
+      "spec_evidence": {
+        "Dimension": {
+          "value": "150 mm x 329 mm",
+          "source_url": "https://www.keychron.com/products/lemokey-l5-he-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Number of Keys": {
+          "value": "81 Keys",
+          "source_url": "https://www.keychron.com/products/lemokey-l5-he-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Layout": {
+          "value": "75%",
+          "source_url": "https://www.keychron.com/products/lemokey-l5-he-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Angle": {
+          "value": "4.7 °",
+          "source_url": "https://www.keychron.com/products/lemokey-l5-he-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Front Height": {
+          "value": "26.97 mm (incl. keycap)",
+          "source_url": "https://www.keychron.com/products/lemokey-l5-he-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Back Height": {
+          "value": "45.36 mm (incl. keycaps)",
+          "source_url": "https://www.keychron.com/products/lemokey-l5-he-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Weight": {
+          "value": "1850g±50g",
+          "source_url": "https://www.keychron.com/products/lemokey-l5-he-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Frame Material": {
+          "value": "CNC Aluminum",
+          "source_url": "https://www.keychron.com/products/lemokey-l5-he-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Plate Material": {
+          "value": "Aluminum",
+          "source_url": "https://www.keychron.com/products/lemokey-l5-he-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Keycap": {
+          "value": "Double-shot PBT (ANSI) Dye-sub PBT (ISO)",
+          "source_url": "https://www.keychron.com/products/lemokey-l5-he-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "N-Key Rollover (NKRO)": {
+          "value": "Yes",
+          "source_url": "https://www.keychron.com/products/lemokey-l5-he-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Rapid Trigger": {
+          "value": "Yes",
+          "source_url": "https://www.keychron.com/products/lemokey-l5-he-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Adjustable Actuation Points": {
+          "value": "0.1 - 3.35 mm",
+          "source_url": "https://www.keychron.com/products/lemokey-l5-he-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Polling Rate": {
+          "value": "1000 Hz / 2000 Hz / 8000 Hz",
+          "source_url": "https://www.keychron.com/products/lemokey-l5-he-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Dynamic Keystrokes": {
+          "value": "Yes",
+          "source_url": "https://www.keychron.com/products/lemokey-l5-he-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Sensitivity": {
+          "value": "0.01mm",
+          "source_url": "https://www.keychron.com/products/lemokey-l5-he-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Switch Face": {
+          "value": "North-facing RGB",
+          "source_url": "https://www.keychron.com/products/lemokey-l5-he-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Stabilizer": {
+          "value": "Plate-mounted Stabilizer",
+          "source_url": "https://www.keychron.com/products/lemokey-l5-he-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Backlight": {
+          "value": "22 types of RGB backlight options plus endless possibilities",
+          "source_url": "https://www.keychron.com/products/lemokey-l5-he-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "MCU": {
+          "value": "RISC-V 32bit HPM5321ICB(1MB Flash,128KB ILM,128KB DLM)",
+          "source_url": "https://www.keychron.com/products/lemokey-l5-he-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Hot-swappable Support": {
+          "value": "Yes, compatible with Lemokey Ultra-Fast Lime Magnetic Switches only",
+          "source_url": "https://www.keychron.com/products/lemokey-l5-he-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Charging Port": {
+          "value": "USB Type-C (8000 Hz)",
+          "source_url": "https://www.keychron.com/products/lemokey-l5-he-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Compatible System": {
+          "value": "Windows/ macOS/ Linux",
+          "source_url": "https://www.keychron.com/products/lemokey-l5-he-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Operating Environment": {
+          "value": "-10 to 50℃",
+          "source_url": "https://www.keychron.com/products/lemokey-l5-he-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_verified",
+        "confidence": 0.92,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": false,
+          "product_schema_count": 0,
+          "canonical_url": "https://keychron.com/products/lemokey-l5-he-magnetic-switch-custom-gaming-keyboard",
+          "page_language": "en",
+          "official_url": "https://www.keychron.com/products/lemokey-l5-he-magnetic-switch-custom-gaming-keyboard",
+          "source_priority": 110,
+          "official_catalog_listing": true
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": false
+      }
+    },
+    {
+      "brand": "Keychron",
+      "brand_zh_cn": "渴创",
       "name": "Lemokey P1 HE",
       "category": "键盘",
       "subcategory": "游戏耳机",
@@ -47582,6 +48120,351 @@
           "canonical_url": "https://keychron.com/products/lemokey-p1-he-wireless-magnetic-switch-custom-gaming-keyboard-iso-layout-collection",
           "page_language": "en",
           "official_url": "https://www.keychron.com/products/lemokey-p1-he-wireless-magnetic-switch-custom-gaming-keyboard-iso-layout-collection",
+          "source_priority": 110,
+          "official_catalog_listing": true
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": false
+      }
+    },
+    {
+      "brand": "Keychron",
+      "brand_zh_cn": "渴创",
+      "name": "Lemokey P2 HE",
+      "category": "键盘",
+      "subcategory": "游戏耳机",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "海外",
+      "market": "官网",
+      "first_seen": "2026-09-12",
+      "last_verified": "2026-09-12",
+      "last_checked": "2026-09-12",
+      "source": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+      "image_url": "https://www.keychron.com/cdn/shop/files/P2-HE-Iconic-Features.jpg?crop=center&height=1200&v=1756776585&width=1200",
+      "image_source": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "tier": 110,
+          "checked_at": "2026-09-12",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "Dimension": "317.65 x 116.14 mm (12.51 x 4.57 inches)",
+        "Number of Keys": "65",
+        "Layout": "ANSI (US) Fully Asssembled",
+        "Angle": "5.5°",
+        "Front Height": "21.5 mm (without keycaps and feet)",
+        "Back Height": "31.58 mm (without keycaps and feet)",
+        "Feet Height": "1.25 mm",
+        "Weight (Fully Assembled version)": "1430±50 g",
+        "Frame Material": "Full metal",
+        "Plate Material": "Aluminum",
+        "MCU": "ARM Cortex-M4 32-bit STM32F402 (256KB Flash)",
+        "Polling Rate": "1000 Hz (2.4 GHz and wired) / 125 Hz (Bluetooth mode)",
+        "N-Key Rollover (NKRO)": "Yes, for both wireless and wired modes",
+        "Rapid Trigger": "Yes",
+        "Adjustable Actuation Points": "0.2 - 3.8 mm",
+        "Dynamic Keystrokes": "4-in-1 action keys",
+        "Sensitivity": "0.1 mm",
+        "Keycap": "Cherry Profile double-shot PBT keycaps",
+        "Switch": "Gateron double-rail magnetic switch",
+        "Switch Face": "North-facing RGB",
+        "Hot-swappable": "Yes, compatible with Gateron double-rail magnetic switch only.",
+        "Stabilizer": "Screw-in PCB stabilizer",
+        "Backlight": "22 types of RGB backlight options plus endless possibilities",
+        "Wireless Working Time (Backlit off)": "Up to 100 hours",
+        "Charging Time": "Around 5 hours",
+        "Charging Port": "USB type-C",
+        "Battery": "4000 mAh Rechargeable Li-Polymer Battery",
+        "Connectivity": "2.4 GHz/Bluetooth/wired",
+        "Bluetooth Version": "5.2",
+        "Bluetooth Device Name": "Lemokey P2 HE",
+        "Bluetooth Operating Distance": "Within 10 meters (Open space)",
+        "Compatible System": "Windows/ macOS/ Linux",
+        "Operating Environment": "-10 to 50℃"
+      },
+      "spec_evidence": {
+        "Dimension": {
+          "value": "317.65 x 116.14 mm (12.51 x 4.57 inches)",
+          "source_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Number of Keys": {
+          "value": "65",
+          "source_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Layout": {
+          "value": "ANSI (US) Fully Asssembled",
+          "source_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Angle": {
+          "value": "5.5°",
+          "source_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Front Height": {
+          "value": "21.5 mm (without keycaps and feet)",
+          "source_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Back Height": {
+          "value": "31.58 mm (without keycaps and feet)",
+          "source_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Feet Height": {
+          "value": "1.25 mm",
+          "source_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Weight (Fully Assembled version)": {
+          "value": "1430±50 g",
+          "source_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Frame Material": {
+          "value": "Full metal",
+          "source_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Plate Material": {
+          "value": "Aluminum",
+          "source_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "MCU": {
+          "value": "ARM Cortex-M4 32-bit STM32F402 (256KB Flash)",
+          "source_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Polling Rate": {
+          "value": "1000 Hz (2.4 GHz and wired) / 125 Hz (Bluetooth mode)",
+          "source_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "N-Key Rollover (NKRO)": {
+          "value": "Yes, for both wireless and wired modes",
+          "source_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Rapid Trigger": {
+          "value": "Yes",
+          "source_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Adjustable Actuation Points": {
+          "value": "0.2 - 3.8 mm",
+          "source_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Dynamic Keystrokes": {
+          "value": "4-in-1 action keys",
+          "source_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Sensitivity": {
+          "value": "0.1 mm",
+          "source_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Keycap": {
+          "value": "Cherry Profile double-shot PBT keycaps",
+          "source_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Switch": {
+          "value": "Gateron double-rail magnetic switch",
+          "source_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Switch Face": {
+          "value": "North-facing RGB",
+          "source_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Hot-swappable": {
+          "value": "Yes, compatible with Gateron double-rail magnetic switch only.",
+          "source_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Stabilizer": {
+          "value": "Screw-in PCB stabilizer",
+          "source_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Backlight": {
+          "value": "22 types of RGB backlight options plus endless possibilities",
+          "source_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Wireless Working Time (Backlit off)": {
+          "value": "Up to 100 hours",
+          "source_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Charging Time": {
+          "value": "Around 5 hours",
+          "source_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Charging Port": {
+          "value": "USB type-C",
+          "source_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Battery": {
+          "value": "4000 mAh Rechargeable Li-Polymer Battery",
+          "source_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Connectivity": {
+          "value": "2.4 GHz/Bluetooth/wired",
+          "source_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Bluetooth Version": {
+          "value": "5.2",
+          "source_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Bluetooth Device Name": {
+          "value": "Lemokey P2 HE",
+          "source_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Bluetooth Operating Distance": {
+          "value": "Within 10 meters (Open space)",
+          "source_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Compatible System": {
+          "value": "Windows/ macOS/ Linux",
+          "source_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Operating Environment": {
+          "value": "-10 to 50℃",
+          "source_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_verified",
+        "confidence": 0.92,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": false,
+          "product_schema_count": 0,
+          "canonical_url": "https://keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
+          "page_language": "en",
+          "official_url": "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard",
           "source_priority": 110,
           "official_catalog_listing": true
         },
@@ -48818,6 +49701,279 @@
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
+      }
+    },
+    {
+      "brand": "Keychron",
+      "brand_zh_cn": "渴创",
+      "name": "Q15 Max",
+      "category": "键盘",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "海外",
+      "market": "官网",
+      "first_seen": "2026-09-12",
+      "last_verified": "2026-09-12",
+      "last_checked": "2026-09-12",
+      "source": "https://www.keychron.com/products/keychron-q15-max-qmk-wireless-custom-mechanical-keyboard",
+      "image_url": "https://www.keychron.com/cdn/shop/files/Keychron-Q15-Max-QMK-Ortholinear-Wireless-Custom-Mechanical-Keyboard-Aluminum-Black-Fully-Assembled-Knob-for-Mac-Windows-Linux-Gateron-Jupiter-Red.jpg?crop=center&height=1200&v=1719303271&width=1200",
+      "image_source": "https://www.keychron.com/products/keychron-q15-max-qmk-wireless-custom-mechanical-keyboard",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://www.keychron.com/products/keychron-q15-max-qmk-wireless-custom-mechanical-keyboard",
+          "tier": 110,
+          "checked_at": "2026-09-12",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "Width": "114 mm",
+        "Length": "283.05 mm",
+        "Front Height": "21.35 mm (without keycaps)",
+        "Back Height": "34.49 mm (without keycaps)",
+        "Feet Height": "2.71 mm",
+        "Angle": "7°",
+        "Weight": "1232 g ± 10 g (Fully Assembled version)",
+        "Body Material": "Aluminum",
+        "Plate Material": "PC",
+        "Keycap": "XDA Dye-Sub PBT keycaps, not shine-through (Fully Assembled version)",
+        "Switch": "Gateron Jupiter (Fully Assembled version)",
+        "Stabilizer": "Screw-in PCB stabilizer",
+        "Backlight": "South-facing RGB LED",
+        "Hot-swappable": "Yes. Compatible with most of the 3 pin & 5 pin MX mechanical switches such as Gateron, Cherry MX and Kailh, etc.",
+        "MCU": "ARM Cortex-M4 32-bit STM32F402 (256KB Flash)",
+        "Polling Rate": "1000 Hz (2.4 GHz & wired) / 90 Hz (Bluetooth)",
+        "N-Key Rollover (NKRO)": "Yes for both wireless and wired modes",
+        "Battery": "4000 mAh Rechargeable li-polymer battery",
+        "Wireless Working Time (Backlit off)": "Up to 180 hours (Lab test result may vary by actual use)",
+        "Wireless Working Time (RGB)": "Up to 100 hours (Lowest brightness)",
+        "Bluetooth Version": "5.1",
+        "Compatible System": "macOS/Windows/Linux",
+        "Connectivity": "2.4 GHz / Bluetooth / Type-C wired",
+        "Bluetooth Device Name": "Keychron Q15 Max",
+        "Operating Environment": "-10 to 50℃"
+      },
+      "spec_evidence": {
+        "Width": {
+          "value": "114 mm",
+          "source_url": "https://www.keychron.com/products/keychron-q15-max-qmk-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Length": {
+          "value": "283.05 mm",
+          "source_url": "https://www.keychron.com/products/keychron-q15-max-qmk-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Front Height": {
+          "value": "21.35 mm (without keycaps)",
+          "source_url": "https://www.keychron.com/products/keychron-q15-max-qmk-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Back Height": {
+          "value": "34.49 mm (without keycaps)",
+          "source_url": "https://www.keychron.com/products/keychron-q15-max-qmk-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Feet Height": {
+          "value": "2.71 mm",
+          "source_url": "https://www.keychron.com/products/keychron-q15-max-qmk-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Angle": {
+          "value": "7°",
+          "source_url": "https://www.keychron.com/products/keychron-q15-max-qmk-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Weight": {
+          "value": "1232 g ± 10 g (Fully Assembled version)",
+          "source_url": "https://www.keychron.com/products/keychron-q15-max-qmk-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Body Material": {
+          "value": "Aluminum",
+          "source_url": "https://www.keychron.com/products/keychron-q15-max-qmk-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Plate Material": {
+          "value": "PC",
+          "source_url": "https://www.keychron.com/products/keychron-q15-max-qmk-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Keycap": {
+          "value": "XDA Dye-Sub PBT keycaps, not shine-through (Fully Assembled version)",
+          "source_url": "https://www.keychron.com/products/keychron-q15-max-qmk-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Switch": {
+          "value": "Gateron Jupiter (Fully Assembled version)",
+          "source_url": "https://www.keychron.com/products/keychron-q15-max-qmk-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Stabilizer": {
+          "value": "Screw-in PCB stabilizer",
+          "source_url": "https://www.keychron.com/products/keychron-q15-max-qmk-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Backlight": {
+          "value": "South-facing RGB LED",
+          "source_url": "https://www.keychron.com/products/keychron-q15-max-qmk-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Hot-swappable": {
+          "value": "Yes. Compatible with most of the 3 pin & 5 pin MX mechanical switches such as Gateron, Cherry MX and Kailh, etc.",
+          "source_url": "https://www.keychron.com/products/keychron-q15-max-qmk-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "MCU": {
+          "value": "ARM Cortex-M4 32-bit STM32F402 (256KB Flash)",
+          "source_url": "https://www.keychron.com/products/keychron-q15-max-qmk-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Polling Rate": {
+          "value": "1000 Hz (2.4 GHz & wired) / 90 Hz (Bluetooth)",
+          "source_url": "https://www.keychron.com/products/keychron-q15-max-qmk-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "N-Key Rollover (NKRO)": {
+          "value": "Yes for both wireless and wired modes",
+          "source_url": "https://www.keychron.com/products/keychron-q15-max-qmk-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Battery": {
+          "value": "4000 mAh Rechargeable li-polymer battery",
+          "source_url": "https://www.keychron.com/products/keychron-q15-max-qmk-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Wireless Working Time (Backlit off)": {
+          "value": "Up to 180 hours (Lab test result may vary by actual use)",
+          "source_url": "https://www.keychron.com/products/keychron-q15-max-qmk-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Wireless Working Time (RGB)": {
+          "value": "Up to 100 hours (Lowest brightness)",
+          "source_url": "https://www.keychron.com/products/keychron-q15-max-qmk-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Bluetooth Version": {
+          "value": "5.1",
+          "source_url": "https://www.keychron.com/products/keychron-q15-max-qmk-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Compatible System": {
+          "value": "macOS/Windows/Linux",
+          "source_url": "https://www.keychron.com/products/keychron-q15-max-qmk-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Connectivity": {
+          "value": "2.4 GHz / Bluetooth / Type-C wired",
+          "source_url": "https://www.keychron.com/products/keychron-q15-max-qmk-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Bluetooth Device Name": {
+          "value": "Keychron Q15 Max",
+          "source_url": "https://www.keychron.com/products/keychron-q15-max-qmk-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Operating Environment": {
+          "value": "-10 to 50℃",
+          "source_url": "https://www.keychron.com/products/keychron-q15-max-qmk-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_verified",
+        "confidence": 0.92,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": false,
+          "product_schema_count": 0,
+          "canonical_url": "https://keychron.com/products/keychron-q15-max-qmk-wireless-custom-mechanical-keyboard",
+          "page_language": "en",
+          "official_url": "https://www.keychron.com/products/keychron-q15-max-qmk-wireless-custom-mechanical-keyboard",
+          "source_priority": 110,
+          "official_catalog_listing": true
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": false
       }
     },
     {
@@ -50212,6 +51368,234 @@
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
+      }
+    },
+    {
+      "brand": "Keychron",
+      "brand_zh_cn": "渴创",
+      "name": "Q60",
+      "category": "键盘",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "海外",
+      "market": "官网",
+      "first_seen": "2026-09-12",
+      "last_verified": "2026-09-12",
+      "last_checked": "2026-09-12",
+      "source": "https://www.keychron.com/products/keychron-q60-qmk-custom-mechanical-keyboard",
+      "image_url": "https://www.keychron.com/cdn/shop/products/Keychron-Q60-QMK-VIA-Custom-Mechanical-Keyboard-HHKB-Layout-Gateron-G-Pro-Switch-Red.jpg?crop=center&height=1200&v=1669109732&width=1200",
+      "image_source": "https://www.keychron.com/products/keychron-q60-qmk-custom-mechanical-keyboard",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://www.keychron.com/products/keychron-q60-qmk-custom-mechanical-keyboard",
+          "tier": 110,
+          "checked_at": "2026-09-12",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "Width": "121 mm",
+        "Length": "303.4 mm",
+        "Front Height": "20 mm (without keycaps)",
+        "Back Height": "33.8 mm (without keycaps)",
+        "Feet Height": "2.7 mm",
+        "Angle": "6.5°",
+        "Aluminum Case Finishing": "Coating",
+        "Body Material": "Full CNC aluminum",
+        "Plate Material": "Steel",
+        "Polling Rate": "1000 Hz",
+        "Weight": "1519.6g (Fully Assembled Version) 1353g (Barebone Version)",
+        "Keycaps (Fully Assembled Version)": "Cherry Profile Dye-Sub PBT Keycaps",
+        "MCU": "Ultra-low-power ARM Cortex-M4 32-bit STM32L432 (128KB Flash)",
+        "Switches": "Gateron G Pro (Fully Assembled Version)",
+        "Backlight": "South-facing RGB LED",
+        "Switch Support": "Hot-swappable (5 pin & 3 pin)",
+        "Stabs": "Screw-in PCB stabs",
+        "Connectivity": "Type-C wired",
+        "Cable": "Type-C cable + Type-A to Type-C adapter",
+        "Operating Environment": "-10℃ to 50℃"
+      },
+      "spec_evidence": {
+        "Width": {
+          "value": "121 mm",
+          "source_url": "https://www.keychron.com/products/keychron-q60-qmk-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Length": {
+          "value": "303.4 mm",
+          "source_url": "https://www.keychron.com/products/keychron-q60-qmk-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Front Height": {
+          "value": "20 mm (without keycaps)",
+          "source_url": "https://www.keychron.com/products/keychron-q60-qmk-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Back Height": {
+          "value": "33.8 mm (without keycaps)",
+          "source_url": "https://www.keychron.com/products/keychron-q60-qmk-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Feet Height": {
+          "value": "2.7 mm",
+          "source_url": "https://www.keychron.com/products/keychron-q60-qmk-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Angle": {
+          "value": "6.5°",
+          "source_url": "https://www.keychron.com/products/keychron-q60-qmk-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Aluminum Case Finishing": {
+          "value": "Coating",
+          "source_url": "https://www.keychron.com/products/keychron-q60-qmk-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Body Material": {
+          "value": "Full CNC aluminum",
+          "source_url": "https://www.keychron.com/products/keychron-q60-qmk-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Plate Material": {
+          "value": "Steel",
+          "source_url": "https://www.keychron.com/products/keychron-q60-qmk-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Polling Rate": {
+          "value": "1000 Hz",
+          "source_url": "https://www.keychron.com/products/keychron-q60-qmk-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Weight": {
+          "value": "1519.6g (Fully Assembled Version) 1353g (Barebone Version)",
+          "source_url": "https://www.keychron.com/products/keychron-q60-qmk-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Keycaps (Fully Assembled Version)": {
+          "value": "Cherry Profile Dye-Sub PBT Keycaps",
+          "source_url": "https://www.keychron.com/products/keychron-q60-qmk-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "MCU": {
+          "value": "Ultra-low-power ARM Cortex-M4 32-bit STM32L432 (128KB Flash)",
+          "source_url": "https://www.keychron.com/products/keychron-q60-qmk-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Switches": {
+          "value": "Gateron G Pro (Fully Assembled Version)",
+          "source_url": "https://www.keychron.com/products/keychron-q60-qmk-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Backlight": {
+          "value": "South-facing RGB LED",
+          "source_url": "https://www.keychron.com/products/keychron-q60-qmk-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Switch Support": {
+          "value": "Hot-swappable (5 pin & 3 pin)",
+          "source_url": "https://www.keychron.com/products/keychron-q60-qmk-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Stabs": {
+          "value": "Screw-in PCB stabs",
+          "source_url": "https://www.keychron.com/products/keychron-q60-qmk-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Connectivity": {
+          "value": "Type-C wired",
+          "source_url": "https://www.keychron.com/products/keychron-q60-qmk-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Cable": {
+          "value": "Type-C cable + Type-A to Type-C adapter",
+          "source_url": "https://www.keychron.com/products/keychron-q60-qmk-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Operating Environment": {
+          "value": "-10℃ to 50℃",
+          "source_url": "https://www.keychron.com/products/keychron-q60-qmk-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_verified",
+        "confidence": 0.92,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": false,
+          "product_schema_count": 0,
+          "canonical_url": "https://keychron.com/products/keychron-q60-qmk-custom-mechanical-keyboard",
+          "page_language": "en",
+          "official_url": "https://www.keychron.com/products/keychron-q60-qmk-custom-mechanical-keyboard",
+          "source_priority": 110,
+          "official_catalog_listing": true
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": false
       }
     },
     {
@@ -52501,6 +53885,306 @@
     {
       "brand": "Keychron",
       "brand_zh_cn": "渴创",
+      "name": "V5 Max",
+      "category": "键盘",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "海外",
+      "market": "官网",
+      "first_seen": "2026-09-12",
+      "last_verified": "2026-09-12",
+      "last_checked": "2026-09-12",
+      "source": "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard",
+      "image_url": "https://www.keychron.com/cdn/shop/files/V5-Max-Iconic-Features.jpg?crop=center&height=1200&v=1763518792&width=1200",
+      "image_source": "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard",
+          "tier": 110,
+          "checked_at": "2026-09-12",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "Width": "148.7 mm",
+        "Length": "391.5 mm",
+        "Front Height": "21.7 mm (without keycaps)",
+        "Back Height": "29.6 mm (without keycaps)",
+        "Feet Height": "2 mm",
+        "Angle": "3.5° / 8° / 10°",
+        "Weight": "925 ± 10g (Fully Assembled Version)",
+        "Body Material": "ABS Plastic",
+        "Plate Material": "PC",
+        "Polling Rate": "1000 Hz (2.4 GHz and wired) / 90 Hz (Bluetooth mode)",
+        "Mount Style": "Gasket Mount Design",
+        "Bluetooth Device Name": "Keychron V5 Max",
+        "Battery": "4000 mAh Rechargeable li-polymer battery",
+        "Wireless Working Time (Backlit off)": "Up to 190 hours (Lab test result may vary by actual use)",
+        "Wireless Working Time (RGB)": "Up to 100 hours (Lowest brightness)",
+        "Charging Time": "Around 5 hours",
+        "Bluetooth Version": "5.1",
+        "Compatible System": "Windows/macOS/Linux",
+        "N-Key Rollover (NKRO)": "Yes for both wireless and wired modes",
+        "Hot-swappable": "Yes. Compatible with most of the 3 pin & 5 pin MX mechanical switches such as Gateron, Cherry MX, Kailh, etc.",
+        "Keycaps (Fully Assembled Version)": "Double-shot PBT keycaps, not shine-through, OSA Profile (OEM height, SA shape)",
+        "MCU": "ARM Cortex-M4 32-bit STM32F402 (256KB Flash)",
+        "Switches": "Gateron Jupiter (Fully Assembled Version)",
+        "Backlight": "South-facing RGB LED",
+        "Stabilizer": "Screw-in PCB stabs",
+        "Charging Port": "USB Type-C",
+        "Cable": "Type-C cable + Type-A to Type-C adapter",
+        "Operating Environment": "-10℃ to 50℃"
+      },
+      "spec_evidence": {
+        "Width": {
+          "value": "148.7 mm",
+          "source_url": "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Length": {
+          "value": "391.5 mm",
+          "source_url": "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Front Height": {
+          "value": "21.7 mm (without keycaps)",
+          "source_url": "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Back Height": {
+          "value": "29.6 mm (without keycaps)",
+          "source_url": "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Feet Height": {
+          "value": "2 mm",
+          "source_url": "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Angle": {
+          "value": "3.5° / 8° / 10°",
+          "source_url": "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Weight": {
+          "value": "925 ± 10g (Fully Assembled Version)",
+          "source_url": "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Body Material": {
+          "value": "ABS Plastic",
+          "source_url": "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Plate Material": {
+          "value": "PC",
+          "source_url": "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Polling Rate": {
+          "value": "1000 Hz (2.4 GHz and wired) / 90 Hz (Bluetooth mode)",
+          "source_url": "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Mount Style": {
+          "value": "Gasket Mount Design",
+          "source_url": "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Bluetooth Device Name": {
+          "value": "Keychron V5 Max",
+          "source_url": "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Battery": {
+          "value": "4000 mAh Rechargeable li-polymer battery",
+          "source_url": "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Wireless Working Time (Backlit off)": {
+          "value": "Up to 190 hours (Lab test result may vary by actual use)",
+          "source_url": "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Wireless Working Time (RGB)": {
+          "value": "Up to 100 hours (Lowest brightness)",
+          "source_url": "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Charging Time": {
+          "value": "Around 5 hours",
+          "source_url": "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Bluetooth Version": {
+          "value": "5.1",
+          "source_url": "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Compatible System": {
+          "value": "Windows/macOS/Linux",
+          "source_url": "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "N-Key Rollover (NKRO)": {
+          "value": "Yes for both wireless and wired modes",
+          "source_url": "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Hot-swappable": {
+          "value": "Yes. Compatible with most of the 3 pin & 5 pin MX mechanical switches such as Gateron, Cherry MX, Kailh, etc.",
+          "source_url": "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Keycaps (Fully Assembled Version)": {
+          "value": "Double-shot PBT keycaps, not shine-through, OSA Profile (OEM height, SA shape)",
+          "source_url": "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "MCU": {
+          "value": "ARM Cortex-M4 32-bit STM32F402 (256KB Flash)",
+          "source_url": "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Switches": {
+          "value": "Gateron Jupiter (Fully Assembled Version)",
+          "source_url": "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Backlight": {
+          "value": "South-facing RGB LED",
+          "source_url": "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Stabilizer": {
+          "value": "Screw-in PCB stabs",
+          "source_url": "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Charging Port": {
+          "value": "USB Type-C",
+          "source_url": "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Cable": {
+          "value": "Type-C cable + Type-A to Type-C adapter",
+          "source_url": "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        },
+        "Operating Environment": {
+          "value": "-10℃ to 50℃",
+          "source_url": "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_verified",
+        "confidence": 0.92,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": false,
+          "product_schema_count": 0,
+          "canonical_url": "https://keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard",
+          "page_language": "en",
+          "official_url": "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard",
+          "source_priority": 110,
+          "official_catalog_listing": true
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": false
+      }
+    },
+    {
+      "brand": "Keychron",
+      "brand_zh_cn": "渴创",
       "name": "V6 Max",
       "category": "键盘",
       "subcategory": "自动发现",
@@ -53128,7 +54812,7 @@
       "spec_evidence": {
         "Color": {
           "value": "Blue",
-          "source_url": "https://lamzu.com/products/lamzu-atlantis-mouse-sapphire-skate",
+          "source_url": "https://lamzu.com/zh/products/lamzu-atlantis-mouse-sapphire-skate",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -53144,9 +54828,9 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://lamzu.com/zh/products/lamzu-atlantis-mouse-teflon-feets",
+          "canonical_url": "https://lamzu.com/zh/products/lamzu-atlantis-mouse-sapphire-skate",
           "page_language": "zh-CN",
-          "official_url": "https://lamzu.com/zh/products/lamzu-atlantis-mouse-teflon-feets",
+          "official_url": "https://lamzu.com/zh/products/lamzu-atlantis-mouse-sapphire-skate",
           "source_priority": 110,
           "sku": "",
           "schema_brand": "LAMZU",
@@ -53227,6 +54911,13 @@
           "tier": 110,
           "checked_at": "2026-09-12",
           "note": "additional official page"
+        },
+        {
+          "type": "official_product",
+          "url": "https://lamzu.com/products/lamzu-atlantis-og-v2-mouse-ptfe-skates-big",
+          "tier": 110,
+          "checked_at": "2026-09-12",
+          "note": "additional official page"
         }
       ],
       "specs": {
@@ -53236,14 +54927,14 @@
       "verification": {
         "status": "conflict",
         "confidence": 0.7,
-        "source_count": 8,
+        "source_count": 9,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://lamzu.com/products/lamzu-atlantis-og-v2-4k-gaming-mouse",
+          "canonical_url": "https://lamzu.com/products/lamzu-atlantis-og-v2-mouse-ptfe-skates-big",
           "page_language": "en",
-          "official_url": "https://lamzu.com/products/lamzu-atlantis-og-v2-4k-gaming-mouse",
+          "official_url": "https://lamzu.com/products/lamzu-atlantis-og-v2-mouse-ptfe-skates-big",
           "source_priority": 110,
           "sku": "",
           "schema_brand": "LAMZU",
@@ -53451,6 +55142,65 @@
     {
       "brand": "LAMZU",
       "brand_zh_cn": "兰族",
+      "name": "Inca",
+      "category": "鼠标",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "中国",
+      "market": "官网",
+      "first_seen": "2026-09-12",
+      "last_verified": "2026-09-12",
+      "last_checked": "2026-09-12",
+      "source": "https://lamzu.com/products/lamzu-inca-glass-skate",
+      "image_url": "https://lamzu.com/cdn/shop/files/20250423142923.jpg?v=1745452067",
+      "image_source": "https://lamzu.com/products/lamzu-inca-glass-skate",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://lamzu.com/products/lamzu-inca-glass-skate",
+          "tier": 110,
+          "checked_at": "2026-09-12",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "Color": "Black"
+      },
+      "spec_evidence": {
+        "Color": {
+          "value": "Black",
+          "source_url": "https://lamzu.com/products/lamzu-inca-glass-skate",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_discovered",
+        "confidence": 0.78,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://lamzu.com/products/lamzu-inca-glass-skate",
+          "page_language": "en",
+          "official_url": "https://lamzu.com/products/lamzu-inca-glass-skate",
+          "source_priority": 110,
+          "sku": "",
+          "schema_brand": "LAMZU",
+          "official_catalog_listing": true
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": true
+      }
+    },
+    {
+      "brand": "LAMZU",
+      "brand_zh_cn": "兰族",
       "name": "Jet75",
       "category": "键盘",
       "subcategory": "自动发现",
@@ -53617,6 +55367,13 @@
           "tier": 110,
           "checked_at": "2026-09-12",
           "note": "new official product"
+        },
+        {
+          "type": "official_product",
+          "url": "https://lamzu.com/zh/products/lamzu-maya-mouse-pad",
+          "tier": 110,
+          "checked_at": "2026-09-12",
+          "note": "additional official page"
         }
       ],
       "specs": {
@@ -53626,7 +55383,7 @@
       "spec_evidence": {
         "Size :490*420*3mm": {
           "value": "490*420*3mm",
-          "source_url": "https://lamzu.com/products/lamzu-maya-mouse-pad",
+          "source_url": "https://lamzu.com/zh/products/lamzu-maya-mouse-pad",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -53634,7 +55391,7 @@
         },
         "尺寸": {
           "value": "490*420*3mm",
-          "source_url": "https://lamzu.com/products/lamzu-maya-mouse-pad",
+          "source_url": "https://lamzu.com/zh/products/lamzu-maya-mouse-pad",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -53645,18 +55402,18 @@
       "verification": {
         "status": "official_discovered",
         "confidence": 0.78,
-        "source_count": 1,
+        "source_count": 2,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://lamzu.com/products/lamzu-maya-mouse-pad",
-          "page_language": "en",
-          "official_url": "https://lamzu.com/products/lamzu-maya-mouse-pad",
+          "canonical_url": "https://lamzu.com/zh/products/lamzu-maya-mouse-pad",
+          "page_language": "zh-CN",
+          "official_url": "https://lamzu.com/zh/products/lamzu-maya-mouse-pad",
           "source_priority": 110,
           "sku": "",
           "schema_brand": "LAMZU",
-          "official_catalog_listing": true
+          "official_catalog_listing": false
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
@@ -54212,6 +55969,65 @@
     {
       "brand": "LAMZU",
       "brand_zh_cn": "兰族",
+      "name": "THORN V2",
+      "category": "鼠标",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "中国",
+      "market": "官网",
+      "first_seen": "2026-09-12",
+      "last_verified": "2026-09-12",
+      "last_checked": "2026-09-12",
+      "source": "https://lamzu.com/products/lamzu-thorn-v2-mouse-ptfe-skates",
+      "image_url": "https://lamzu.com/cdn/shop/files/4_17f94a58-3035-4822-ad0d-2299f0fb9d5c.jpg?v=1783155728",
+      "image_source": "https://lamzu.com/products/lamzu-thorn-v2-mouse-ptfe-skates",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://lamzu.com/products/lamzu-thorn-v2-mouse-ptfe-skates",
+          "tier": 110,
+          "checked_at": "2026-09-12",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "Size": "Big, Small"
+      },
+      "spec_evidence": {
+        "Size": {
+          "value": "Big, Small",
+          "source_url": "https://lamzu.com/products/lamzu-thorn-v2-mouse-ptfe-skates",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-12",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_discovered",
+        "confidence": 0.78,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://lamzu.com/products/lamzu-thorn-v2-mouse-ptfe-skates",
+          "page_language": "en",
+          "official_url": "https://lamzu.com/products/lamzu-thorn-v2-mouse-ptfe-skates",
+          "source_priority": 110,
+          "sku": "",
+          "schema_brand": "LAMZU",
+          "official_catalog_listing": true
+        },
+        "quality_gate_version": "1.3-audited",
+        "needs_review": true
+      }
+    },
+    {
+      "brand": "LAMZU",
+      "brand_zh_cn": "兰族",
       "name": "X FNATIC THORN 4K",
       "category": "鼠标",
       "subcategory": "游戏耳机",
@@ -54520,13 +56336,13 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://luminkey.com/zh/products/luminkey65-barebone-65-layout-hot-swappable-custom-mechanical-keyboard",
-          "page_language": "zh-CN",
-          "official_url": "https://www.luminkey.com/zh/products/luminkey65-barebone-65-layout-hot-swappable-custom-mechanical-keyboard",
+          "canonical_url": "https://luminkey.com/products/luminkey65-barebone-65-layout-hot-swappable-custom-mechanical-keyboard",
+          "page_language": "en",
+          "official_url": "https://www.luminkey.com/products/luminkey65-barebone-65-layout-hot-swappable-custom-mechanical-keyboard",
           "source_priority": 110,
           "sku": "",
           "schema_brand": "LUMINKEY",
-          "official_catalog_listing": false
+          "official_catalog_listing": true
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
@@ -55530,14 +57346,14 @@
         "conflicts": [],
         "evidence": {
           "product_schema": true,
-          "product_schema_count": 1,
-          "canonical_url": "https://luminkey.com/products/magger68-professional-he-magnetic-keyboard",
-          "page_language": "en",
-          "official_url": "https://www.luminkey.com/products/magger68-professional-he-magnetic-keyboard",
+          "product_schema_count": 2,
+          "canonical_url": "https://luminkey.com/zh/products/magger68-performance-he-magnetic-keyboard",
+          "page_language": "zh-CN",
+          "official_url": "https://www.luminkey.com/zh/products/magger68-performance-he-magnetic-keyboard",
           "source_priority": 110,
-          "sku": "KB-LK-M68-PRO-GOLD",
+          "sku": "KB-LK-M68-PER-BLACK",
           "schema_brand": "LUMINKEY",
-          "official_catalog_listing": true
+          "official_catalog_listing": false
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
@@ -55783,13 +57599,13 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://luminkey.com/zh/products/nova-mini-barebone-keyboard",
-          "page_language": "zh-CN",
-          "official_url": "https://www.luminkey.com/zh/products/nova-mini-barebone-keyboard",
+          "canonical_url": "https://luminkey.com/products/nova-mini-barebone-keyboard",
+          "page_language": "en",
+          "official_url": "https://www.luminkey.com/products/nova-mini-barebone-keyboard",
           "source_priority": 110,
           "sku": "",
           "schema_brand": "LUMINKEY",
-          "official_catalog_listing": false
+          "official_catalog_listing": true
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": true
@@ -55798,7 +57614,7 @@
       "spec_evidence": {
         "Connection Type:": {
           "value": "Wireless 2.4G - Bluetooth - Wired",
-          "source_url": "https://www.luminkey.com/zh/products/nova-mini-barebone-keyboard",
+          "source_url": "https://www.luminkey.com/products/nova-mini-barebone-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -55806,7 +57622,7 @@
         },
         "Color:": {
           "value": "Moonlight Silver",
-          "source_url": "https://www.luminkey.com/zh/products/nova-mini-barebone-keyboard",
+          "source_url": "https://www.luminkey.com/products/nova-mini-barebone-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -55814,7 +57630,7 @@
         },
         "蓝牙/无线": {
           "value": "125Hz Wireless",
-          "source_url": "https://www.luminkey.com/zh/products/nova-mini-barebone-keyboard",
+          "source_url": "https://www.luminkey.com/products/nova-mini-barebone-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -58704,12 +60520,12 @@
         "conflicts": [],
         "evidence": {
           "product_schema": true,
-          "product_schema_count": 6,
-          "canonical_url": "https://mchose.store/products/mchose-ace-68-gt-full-aluminum-esports-hall-effect-keyboard",
+          "product_schema_count": 10,
+          "canonical_url": "https://mchose.store/products/mchose-ace-68-hall-effect-magnetic-switch-gaming-keyboard",
           "page_language": "en",
-          "official_url": "https://www.mchose.store/products/mchose-ace-68-gt-full-aluminum-esports-hall-effect-keyboard",
+          "official_url": "https://www.mchose.store/products/mchose-ace-68-hall-effect-magnetic-switch-gaming-keyboard",
           "source_priority": 110,
-          "sku": "MC-Ace68GT-12",
+          "sku": "HW-Ace68-15",
           "schema_brand": "",
           "official_catalog_listing": false
         },
@@ -58736,7 +60552,7 @@
         },
         "Calibration Method": {
           "value": "Adaptive Dynamic Calibration 2.0",
-          "source_url": "https://www.mchose.store/products/mchose-ace-68-turbo-full-aluminum-esports-hall-effect-keyboard",
+          "source_url": "https://www.mchose.store/products/mchose-ace-68-hall-effect-magnetic-switch-gaming-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -58752,7 +60568,7 @@
         },
         "Polling Rate": {
           "value": "8K",
-          "source_url": "https://www.mchose.store/products/mchose-ace-68-turbo-full-aluminum-esports-hall-effect-keyboard",
+          "source_url": "https://www.mchose.store/products/mchose-ace-68-hall-effect-magnetic-switch-gaming-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -58784,7 +60600,7 @@
         },
         "Sensor": {
           "value": "Custom Hall Effect Sensor",
-          "source_url": "https://www.mchose.store/products/mchose-ace-68-turbo-full-aluminum-esports-hall-effect-keyboard",
+          "source_url": "https://www.mchose.store/products/mchose-ace-68-hall-effect-magnetic-switch-gaming-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -58792,7 +60608,7 @@
         },
         "Connectivity": {
           "value": "Wired",
-          "source_url": "https://www.mchose.store/products/mchose-ace-68-turbo-full-aluminum-esports-hall-effect-keyboard",
+          "source_url": "https://www.mchose.store/products/mchose-ace-68-hall-effect-magnetic-switch-gaming-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -58816,7 +60632,7 @@
         },
         "RGB LED Lights": {
           "value": "South-facing RGB LED Lights",
-          "source_url": "https://www.mchose.store/products/mchose-ace-68-turbo-full-aluminum-esports-hall-effect-keyboard",
+          "source_url": "https://www.mchose.store/products/mchose-ace-68-hall-effect-magnetic-switch-gaming-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -58824,7 +60640,7 @@
         },
         "On-board Memory": {
           "value": "Support",
-          "source_url": "https://www.mchose.store/products/mchose-ace-68-turbo-full-aluminum-esports-hall-effect-keyboard",
+          "source_url": "https://www.mchose.store/products/mchose-ace-68-hall-effect-magnetic-switch-gaming-keyboard",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -62562,8 +64378,8 @@
       },
       "conflict": "",
       "verification": {
-        "status": "official_verified",
-        "confidence": 0.92,
+        "status": "official_discovered",
+        "confidence": 0.78,
         "source_count": 1,
         "conflicts": [],
         "evidence": {
@@ -62576,7 +64392,7 @@
           "official_catalog_listing": true
         },
         "quality_gate_version": "1.3-audited",
-        "needs_review": false
+        "needs_review": true
       }
     },
     {
@@ -62917,9 +64733,9 @@
         "evidence": {
           "product_schema": false,
           "product_schema_count": 0,
-          "canonical_url": "https://qcy.com/products/qcy-h3-wireless-headphone",
+          "canonical_url": "https://qcy.com/products/qcy-h3-lite",
           "page_language": "en",
-          "official_url": "https://www.qcy.com/products/qcy-h3-wireless-headphone",
+          "official_url": "https://www.qcy.com/products/qcy-h3-lite",
           "source_priority": 110,
           "official_catalog_listing": true
         },
@@ -63275,7 +65091,7 @@
         },
         "麦克风": {
           "value": "Built-In 4 Microphones",
-          "source_url": "https://www.qcy.com/products/qcy-t13-anc",
+          "source_url": "https://www.qcy.com/products/qcy-t13-wireless-earphones",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -63291,7 +65107,7 @@
         },
         "电池": {
           "value": "380mAh",
-          "source_url": "https://www.qcy.com/products/qcy-t13-anc",
+          "source_url": "https://www.qcy.com/products/qcy-t13-wireless-earphones",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -63299,7 +65115,7 @@
         },
         "充电时间": {
           "value": "1.5 hours",
-          "source_url": "https://www.qcy.com/products/qcy-t13-anc",
+          "source_url": "https://www.qcy.com/products/qcy-t13-wireless-earphones",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -63307,7 +65123,7 @@
         },
         "充电方式": {
           "value": "Type-C",
-          "source_url": "https://www.qcy.com/products/qcy-t13-anc",
+          "source_url": "https://www.qcy.com/products/qcy-t13-wireless-earphones",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -63323,9 +65139,9 @@
         "evidence": {
           "product_schema": false,
           "product_schema_count": 0,
-          "canonical_url": "https://qcy.com/products/qcy-t13-anc",
+          "canonical_url": "https://qcy.com/products/qcy-t13-wireless-earphones",
           "page_language": "en",
-          "official_url": "https://www.qcy.com/products/qcy-t13-anc",
+          "official_url": "https://www.qcy.com/products/qcy-t13-wireless-earphones",
           "source_priority": 110,
           "official_catalog_listing": true
         },
@@ -68633,7 +70449,7 @@
           "type": "official_product",
           "url": "https://www.razer.com/gaming-headsets/razer-blackshark-v3-x-hyperspeed",
           "tier": 110,
-          "checked_at": "2026-09-11",
+          "checked_at": "2026-09-12",
           "note": "additional official page"
         }
       ],
@@ -68649,12 +70465,12 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://cn.razerzone.com/gaming-headsets/razer-blackshark-v3",
-          "page_language": "zh-CN",
-          "official_url": "https://cn.razerzone.com/gaming-headsets/razer-blackshark-v3",
+          "canonical_url": "https://razer.com/gaming-headsets/razer-blackshark-v3-x-hyperspeed",
+          "page_language": "en-US",
+          "official_url": "https://www.razer.com/gaming-headsets/razer-blackshark-v3-x-hyperspeed",
           "source_priority": 110,
           "sku": "",
-          "schema_brand": "Razer 雷蛇",
+          "schema_brand": "Razer",
           "official_catalog_listing": false
         },
         "quality_gate_version": "1.3-audited",
@@ -70260,7 +72076,7 @@
       "spec_evidence": {
         "FAQ": {
           "value": "SOUNDPEATS Q40HD FAQ",
-          "source_url": "https://soundpeats.com/products/soundpeats-q40-hd-neckband-sports-bluetooth-earphone",
+          "source_url": "https://soundpeats.com/en-mx/products/soundpeats-q40-hd-neckband-sports-bluetooth-earphone",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -70268,7 +72084,7 @@
         },
         "蓝牙/无线": {
           "value": "5.4",
-          "source_url": "https://soundpeats.com/products/soundpeats-q40-hd-neckband-sports-bluetooth-earphone",
+          "source_url": "https://soundpeats.com/en-mx/products/soundpeats-q40-hd-neckband-sports-bluetooth-earphone",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -70276,7 +72092,7 @@
         },
         "编码": {
           "value": "SBC/AAC/LDAC",
-          "source_url": "https://soundpeats.com/products/soundpeats-q40-hd-neckband-sports-bluetooth-earphone",
+          "source_url": "https://soundpeats.com/en-mx/products/soundpeats-q40-hd-neckband-sports-bluetooth-earphone",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -70284,7 +72100,7 @@
         },
         "电池": {
           "value": "110mAH(Double 55mAH)",
-          "source_url": "https://soundpeats.com/products/soundpeats-q40-hd-neckband-sports-bluetooth-earphone",
+          "source_url": "https://soundpeats.com/en-mx/products/soundpeats-q40-hd-neckband-sports-bluetooth-earphone",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -70292,7 +72108,7 @@
         },
         "充电时间": {
           "value": "1.5 hours",
-          "source_url": "https://soundpeats.com/products/soundpeats-q40-hd-neckband-sports-bluetooth-earphone",
+          "source_url": "https://soundpeats.com/en-mx/products/soundpeats-q40-hd-neckband-sports-bluetooth-earphone",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -70308,13 +72124,13 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://soundpeats.com/products/soundpeats-q40-hd-neckband-sports-bluetooth-earphone",
+          "canonical_url": "https://soundpeats.com/en-mx/products/soundpeats-q40-hd-neckband-sports-bluetooth-earphone",
           "page_language": "en",
-          "official_url": "https://soundpeats.com/products/soundpeats-q40-hd-neckband-sports-bluetooth-earphone",
+          "official_url": "https://soundpeats.com/en-mx/products/soundpeats-q40-hd-neckband-sports-bluetooth-earphone",
           "source_priority": 110,
           "sku": "SP-US-Q40HD-BLACK",
           "schema_brand": "SOUNDPEATS",
-          "official_catalog_listing": true
+          "official_catalog_listing": false
         },
         "quality_gate_version": "1.3-audited",
         "needs_review": false
@@ -70993,7 +72809,7 @@
           "type": "official_product",
           "url": "https://steelseries.com/gaming-headsets/arctis-7?color=black&model=Plus&primaryPlatform=xbox",
           "tier": 100,
-          "checked_at": "2026-09-11",
+          "checked_at": "2026-09-12",
           "note": "new official product"
         },
         {
@@ -71009,6 +72825,13 @@
           "tier": 110,
           "checked_at": "2026-09-12",
           "note": "official catalogue enrichment"
+        },
+        {
+          "type": "official_product",
+          "url": "https://steelseries.com/gaming-headsets/arctis-7?color=white&model=Plus&primaryPlatform=pc",
+          "tier": 110,
+          "checked_at": "2026-09-12",
+          "note": "official catalogue enrichment"
         }
       ],
       "specs": {
@@ -71018,16 +72841,16 @@
       "verification": {
         "status": "official_discovered",
         "confidence": 0.7,
-        "source_count": 3,
+        "source_count": 4,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
           "canonical_url": "https://steelseries.com/gaming-headsets/arctis-7",
           "page_language": "en",
-          "official_url": "https://steelseries.com/gaming-headsets/arctis-7?color=black&model=Plus&primaryPlatform=pc",
+          "official_url": "https://steelseries.com/gaming-headsets/arctis-7?color=white&model=Plus&primaryPlatform=pc",
           "source_priority": 110,
-          "sku": "61470",
+          "sku": "61461",
           "schema_brand": "SteelSeries",
           "official_catalog_listing": false
         },
@@ -71158,6 +72981,13 @@
           "tier": 110,
           "checked_at": "2026-09-12",
           "note": "official catalogue enrichment"
+        },
+        {
+          "type": "official_product",
+          "url": "https://steelseries.com/gaming-headsets/arctis-nova-3?color=white&connectivityType=wireless&primaryPlatform=xbox",
+          "tier": 110,
+          "checked_at": "2026-09-12",
+          "note": "official catalogue enrichment"
         }
       ],
       "specs": {
@@ -71167,16 +72997,16 @@
       "verification": {
         "status": "official_discovered",
         "confidence": 0.7,
-        "source_count": 6,
+        "source_count": 7,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
           "canonical_url": "https://steelseries.com/gaming-headsets/arctis-nova-3",
           "page_language": "en",
-          "official_url": "https://steelseries.com/gaming-headsets/arctis-nova-3?color=aqua&connectivityType=wireless&primaryPlatform=xbox",
+          "official_url": "https://steelseries.com/gaming-headsets/arctis-nova-3?color=white&connectivityType=wireless&primaryPlatform=xbox",
           "source_priority": 110,
-          "sku": "61691",
+          "sku": "61690",
           "schema_brand": "SteelSeries",
           "official_catalog_listing": false
         },
@@ -71291,6 +73121,20 @@
           "tier": 110,
           "checked_at": "2026-09-12",
           "note": "official catalogue enrichment"
+        },
+        {
+          "type": "official_product",
+          "url": "https://steelseries.com/gaming-headsets/arctis-nova-5?color=white&primaryPlatform=xbox",
+          "tier": 110,
+          "checked_at": "2026-09-12",
+          "note": "official catalogue enrichment"
+        },
+        {
+          "type": "official_product",
+          "url": "https://steelseries.com/gaming-headsets/arctis-nova-5?color=south-park-towelie&primaryPlatform=pc",
+          "tier": 110,
+          "checked_at": "2026-09-12",
+          "note": "official catalogue enrichment"
         }
       ],
       "specs": {
@@ -71300,16 +73144,16 @@
       "verification": {
         "status": "official_discovered",
         "confidence": 0.7,
-        "source_count": 4,
+        "source_count": 6,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
           "canonical_url": "https://steelseries.com/gaming-headsets/arctis-nova-5",
           "page_language": "en",
-          "official_url": "https://steelseries.com/gaming-headsets/arctis-nova-5?color=white&primaryPlatform=pc",
+          "official_url": "https://steelseries.com/gaming-headsets/arctis-nova-5?color=south-park-towelie&primaryPlatform=pc",
           "source_priority": 110,
-          "sku": "61671",
+          "sku": "61668",
           "schema_brand": "SteelSeries",
           "official_catalog_listing": false
         },
@@ -71369,6 +73213,20 @@
           "tier": 110,
           "checked_at": "2026-09-12",
           "note": "official catalogue enrichment"
+        },
+        {
+          "type": "official_product",
+          "url": "https://steelseries.com/gaming-headsets/arctis-nova-7?color=world-of-warcraft&primaryPlatform=pc",
+          "tier": 110,
+          "checked_at": "2026-09-12",
+          "note": "additional official page"
+        },
+        {
+          "type": "official_product",
+          "url": "https://steelseries.com/gaming-headsets/arctis-nova-7?color=black&primaryPlatform=ps5",
+          "tier": 110,
+          "checked_at": "2026-09-12",
+          "note": "official catalogue enrichment"
         }
       ],
       "specs": {
@@ -71378,16 +73236,16 @@
       "verification": {
         "status": "official_discovered",
         "confidence": 0.7,
-        "source_count": 5,
+        "source_count": 7,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://steelseries.com/gaming-headsets/arctis-nova-7-wireless-gen-2-blemishedbox",
+          "canonical_url": "https://steelseries.com/gaming-headsets/arctis-nova-7",
           "page_language": "en",
-          "official_url": "https://steelseries.com/gaming-headsets/arctis-nova-7-wireless-gen-2-blemishedbox",
+          "official_url": "https://steelseries.com/gaming-headsets/arctis-nova-7?color=black&primaryPlatform=ps5",
           "source_priority": 110,
-          "sku": "arctis-nova-7-wireless-gen-2-blemishedbox-variant",
+          "sku": "61559",
           "schema_brand": "SteelSeries",
           "official_catalog_listing": false
         },
@@ -71475,6 +73333,13 @@
           "tier": 110,
           "checked_at": "2026-09-12",
           "note": "official catalogue enrichment"
+        },
+        {
+          "type": "official_product",
+          "url": "https://steelseries.com/gaming-headsets/arctis-nova-7-gen-2?color=white&primaryPlatform=pc",
+          "tier": 110,
+          "checked_at": "2026-09-12",
+          "note": "official catalogue enrichment"
         }
       ],
       "specs": {
@@ -71484,16 +73349,16 @@
       "verification": {
         "status": "official_discovered",
         "confidence": 0.7,
-        "source_count": 9,
+        "source_count": 10,
         "conflicts": [],
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
           "canonical_url": "https://steelseries.com/gaming-headsets/arctis-nova-7-gen-2",
           "page_language": "en",
-          "official_url": "https://steelseries.com/gaming-headsets/arctis-nova-7-gen-2?color=black&primaryPlatform=xbox",
+          "official_url": "https://steelseries.com/gaming-headsets/arctis-nova-7-gen-2?color=white&primaryPlatform=pc",
           "source_priority": 110,
-          "sku": "61758",
+          "sku": "61731",
           "schema_brand": "SteelSeries",
           "official_catalog_listing": false
         },
@@ -71951,7 +73816,7 @@
       "spec_evidence": {
         "Unit price": {
           "value": "/ per",
-          "source_url": "https://vgnlab.com/products/vgn-dragonfly-f1-v5-series-ultra-lightweight-wireless-mouse",
+          "source_url": "https://vgnlab.com/products/vgn-dragonfly-f1-se-wireless-mouse",
           "source_type": "official_product",
           "source_priority": 110,
           "checked_at": "2026-09-12",
@@ -71967,11 +73832,11 @@
         "evidence": {
           "product_schema": true,
           "product_schema_count": 1,
-          "canonical_url": "https://vgnlab.com/products/vgn-dragonfly-f1-v5-series-ultra-lightweight-wireless-mouse",
+          "canonical_url": "https://vgnlab.com/products/vgn-dragonfly-f1-se-wireless-mouse",
           "page_language": "en",
-          "official_url": "https://vgnlab.com/products/vgn-dragonfly-f1-v5-series-ultra-lightweight-wireless-mouse",
+          "official_url": "https://vgnlab.com/products/vgn-dragonfly-f1-se-wireless-mouse",
           "source_priority": 110,
-          "sku": "35619",
+          "sku": "32793",
           "schema_brand": "VGN LAB",
           "official_catalog_listing": false
         },
@@ -74006,6 +75871,6 @@
   ],
   "quality_policy_version": "1.2",
   "language_default": "zh-CN",
-  "quarantined_count": 998,
+  "quarantined_count": 1004,
   "quality_migration_revision": 2
 }
