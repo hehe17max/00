@@ -4,7 +4,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from quality_rules import product_name_ok, publication_rejection, supported_product
+from quality_rules import concise_product_name, product_name_ok, publication_rejection, supported_product
 
 
 class OfficialCatalogueQualityRulesTest(unittest.TestCase):
@@ -37,6 +37,14 @@ class OfficialCatalogueQualityRulesTest(unittest.TestCase):
         self.assertEqual(publication_rejection(
             "iKF VP5 HiFi Monitor Headphone", url, False, False
         ), "missing_product_structured_data")
+
+    def test_model_editions_remain_distinct(self):
+        self.assertEqual(concise_product_name(
+            "iKF", "iKF R1 Pop Wireless Bluetooth Headphones"
+        ), "R1 Pop")
+        self.assertEqual(concise_product_name(
+            "iKF", "iKF V11 Pro 2.0 Wireless Gaming Headset"
+        ), "V11 Pro 2.0")
 
 
 if __name__ == "__main__":
