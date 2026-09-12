@@ -63,7 +63,7 @@ INLINE_SPEC_LABELS = {
     "传感器": ("sensor", "传感器"),
     "最高DPI": ("maximum dpi", "max dpi", "dpi", "最高dpi"),
     "回报率": ("polling rate", "report rate", "回报率"),
-    "连接": ("connectivity", "connection modes", "connection", "连接方式"),
+    "连接": ("connectivity", "connection method", "connection modes", "connection", "连接方式"),
     "轴体": ("switch type", "switches", "轴体"),
     "配列": ("layout", "number of keys", "配列", "按键数量"),
 }
@@ -104,12 +104,16 @@ def extract_inline_specs(soup):
     for key,values in INLINE_SPEC_LABELS.items():
         for value in values: aliases.append((key,value))
     alias_pattern="|".join(f"(?:{value})" for _,value in sorted(aliases,key=lambda x:len(x[1]),reverse=True))
-    label_re=re.compile(rf"(?P<label>{alias_pattern})\s*[:：]\s*",re.I)
+    label_re=re.compile(
+        rf"(?P<label>{alias_pattern})(?:\s*[（(][^）)]{{1,40}}[）)])?\s*[:：]\s*",re.I
+    )
     candidates=[]
     for node in soup.select(".product__description,.product-description,[id*='description'],[class*='description'],.rte"):
         value=clean(node.get_text(" ",strip=True))
         if 20<len(value)<12000 and len(label_re.findall(value))>=2: candidates.append(value)
     full=clean(soup.get_text(" ",strip=True))
+    if 20<len(full)<20000 and len(label_re.findall(full))>=2:
+        candidates.append(full)
     marker=re.search(r"(?:specifications?|technical specifications?|产品参数|规格参数)\s*[:：]?",full,re.I)
     if marker:
         segment=full[marker.end():marker.end()+6000]
@@ -117,6 +121,7 @@ def extract_inline_specs(soup):
         candidates.append(segment)
     if not candidates: return {}
     text=max(candidates,key=lambda value:len(label_re.findall(value)))
+    text=re.split(r"what.?s in (?:the )?(?:box|package)|package contents|包装清单",text,1,flags=re.I)[0]
     hits=list(label_re.finditer(text)); result={}
     alias_to_key={re.sub(r"\\", "", alias).casefold():key for key,values in INLINE_SPEC_LABELS.items() for alias in values if "\\" not in alias}
     for index,hit in enumerate(hits):
@@ -266,6 +271,12 @@ def add_source(p,url,note):
         tier=source_priority(url)
         srcs.append({"type":"official_cn_product" if tier==120 else "official_product","url":url,"tier":tier,"checked_at":TODAY,"note":note})
     p.setdefault("verification",{})["source_count"]=len(srcs)
+def contaminated_value(value):
+    text=clean(value).casefold()
+    labels=("battery", "play time", "playback time", "connection method", "wearing method",
+            "control method", "transparent mode", "game mode", "microphone", "wired connection",
+            "pairing 2 devices", "what's in", "what’s in", "package contents")
+    return len(text)>180 or sum(label in text for label in labels)>=2 or "what's in" in text or "what’s in" in text
 def merge(p,new,url,review,evidence):
     old=p.setdefault("specs",{}); n=0
     ver=p.setdefault("verification",{"status":"official_discovered","confidence":0.82,"source_count":0,"conflicts":[]})
@@ -282,7 +293,10 @@ def merge(p,new,url,review,evidence):
         elif clean(old[k]).lower()!=clean(v).lower():
             current_priority=field_evidence.get(k,{}).get("source_priority",source_priority(p.get("source",url)))
             resolution="pending_review"
-            if incoming_priority>current_priority:
+            if contaminated_value(old[k]) and not contaminated_value(v) and incoming_priority>=current_priority:
+                old_value=old[k]; old[k]=v; n+=1; resolution="replace_contaminated_official_extraction"
+                field_evidence[k]={"value":v,"source_url":url,"source_type":"official_cn_product" if incoming_priority==120 else "official_product","source_priority":incoming_priority,"checked_at":TODAY,"claim_type":"厂商标称"}
+            elif incoming_priority>current_priority:
                 old_value=old[k]; old[k]=v; n+=1; resolution="prefer_zh_cn_official"
                 field_evidence[k]={"value":v,"source_url":url,"source_type":"official_cn_product","source_priority":incoming_priority,"checked_at":TODAY,"claim_type":"厂商标称"}
             else:
@@ -362,8 +376,9 @@ for i,b in enumerate(brands,1):
         evidence["official_catalog_listing"]=bool(catalog_row)
         if catalog_row:
             catalog_soup=BeautifulSoup(catalog_row.get("body_html") or "","html.parser")
-            for key,value in extract_inline_specs(catalog_soup).items():
-                specs.setdefault(key,value)
+            # The catalogue body is preferred over theme-rendered page text:
+            # it has stable field boundaries and omits navigation/checkout UI.
+            specs.update(extract_inline_specs(catalog_soup))
             if not image:
                 catalog_images=catalog_row.get("images") or []
                 if catalog_images:
