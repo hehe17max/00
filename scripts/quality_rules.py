@@ -14,6 +14,14 @@ FOREIGN_LOCALE_SEGMENTS = {
     "pt", "pt-br", "ru", "tr", "zh-tw", "zh-hk",
 }
 
+# 小众品牌的国内零售/社区网页渠道（cn_web 策略下仅次于中文官方页）。
+CN_RETAIL_HOSTS = {
+    "jd.com", "tmall.com", "tmall.hk", "smzdm.com", "zhihu.com",
+    "bilibili.com", "weibo.com", "douyin.com",
+}
+
+SOURCE_PREFERENCES = {"cn_official", "origin_official", "cn_web"}
+
 NON_PRODUCT_TERMS = (
     "accessory", "accessories", "bundle", "cable", "carrying case",
     "collection", "ear pad", "earpad", "earmuff", "headset plate",
@@ -88,11 +96,55 @@ def is_foreign_locale(url):
     return locale_segment(url) in FOREIGN_LOCALE_SEGMENTS
 
 
-def source_priority(url):
-    """Chinese mainland official pages outrank neutral/global and foreign mirrors."""
+def is_cn_page(url):
+    """中国官方/镜像页面判定：.cn 域名、cn. 子域或路径含 cn/zh-cn。"""
     host = hostname(url)
     path = urlparse(url).path.lower()
-    if host.endswith(".cn") or "/cn/" in path or "/zh-cn/" in path or path.startswith("/cn"):
+    return (
+        host.endswith(".cn") or host.startswith("cn.")
+        or "/cn/" in path or "/zh-cn/" in path or path.startswith("/cn")
+    )
+
+
+def source_preference(brand_cfg):
+    """品牌分类 → 来源渠道策略。显式字段优先，缺省按原属国归类。
+
+    cn_official    国产品牌：国内官网优先（.cn/zh-cn 官方页 120）。
+    origin_official 外国品牌：原属国/全球官网优先（品牌域名非中文页 120），中文镜像降级。
+    cn_web         小众品牌：国内官网优先，国内零售/社区网页次之。
+    """
+    pref = (brand_cfg or {}).get("source_preference", "")
+    if pref in SOURCE_PREFERENCES:
+        return pref
+    return "cn_official" if (brand_cfg or {}).get("origin") == "中国" else "origin_official"
+
+
+def source_priority(url, preference="cn_official", domains=()):
+    """Brand-class-aware source priority (higher = more trusted channel).
+
+    cn_official    国内官方页 120 > 中性官网 110 > 外语镜像 90
+    origin_official 原属国官方站 120 > 中性官网 110 > 中文镜像 100 > 外语镜像 90
+    cn_web          国内官方页 120 > 国内零售/社区网页 115 > 全球官网 110 > 外语镜像 90
+    """
+    host = hostname(url)
+    cn = is_cn_page(url)
+    if preference == "origin_official":
+        if is_foreign_locale(url):
+            return 90
+        if cn:
+            return 100
+        if domains and any(host == d.lower() or host.endswith("." + d.lower()) for d in domains):
+            return 120
+        return 110
+    if preference == "cn_web":
+        if cn:
+            return 120
+        if any(host == d.lower() or host.endswith("." + d.lower()) for d in CN_RETAIL_HOSTS):
+            return 115
+        if is_foreign_locale(url):
+            return 90
+        return 110
+    if cn:
         return 120
     if is_foreign_locale(url):
         return 90
