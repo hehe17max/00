@@ -379,6 +379,8 @@ def make_brand_entry(c):
         "brand_zh_cn": c.get("brand_zh_cn") or c["brand"],
         "brand_zh_cn_status": "pending_human_verification",
         "origin": c.get("origin","待确认"),
+        "source_preference": ("cn_official" if c.get("origin")=="中国" else
+                              ("origin_official" if c.get("origin")=="海外" else "cn_web")),
         "preferred_locale": "zh-CN" if c.get("origin")=="中国" else "en",
         "domains": [c["domain"]],
         "collection_urls": list(dict.fromkeys([base] + c.get("sample_product_pages", [])[:3])),
