@@ -2,7 +2,7 @@ name: Update peripheral product database
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 permissions:
@@ -45,7 +45,7 @@ jobs:
 
       - name: Discover new peripheral brands
         run: python scripts/discover_brands.py
-        timeout-minutes: 8
+        timeout-minutes: 12
 
       - name: Import approved secondary feeds
         run: python scripts/import_secondary.py
