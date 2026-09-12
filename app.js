@@ -108,7 +108,7 @@ const SPEC_KEY_ZH={
 'headphones frequency response':'耳机频响','earbud battery capacity single':'单耳电池容量',
 'earbud charging time':'单耳充电时间','earbuds charging time':'单耳充电时间',
 'case charging time':'充电仓充电时间','case charging time wired':'充电仓充电时间（有线）',
-'case dimensions':'充电仓尺寸','bottom case material':'底部外壳材质',
+'case dimensions':'充电仓尺寸','bottom case material':'底部外壳材质','aluminum case finishing':'铝合金外壳表面处理',
 'height without keycap front':'不含键帽高度（前）','height without keycap rear':'不含键帽高度（后）',
 'height incl keycap front':'含键帽高度（前）','height incl keycap rear':'含键帽高度（后）',
 'on ear controls left':'左侧耳罩控制','on ear controls right':'右侧耳罩控制','switch lifecyle':'轴体寿命'
