@@ -677,6 +677,33 @@
       "preferred_locale": "en"
     },
     {
+      "brand": "iBUYPOWER®",
+      "brand_zh_cn": "iBUYPOWER®",
+      "brand_zh_cn_status": "pending_human_verification",
+      "origin": "待确认",
+      "preferred_locale": "en",
+      "domains": [
+        "ibuypower.com"
+      ],
+      "collection_urls": [
+        "https://www.ibuypower.com/gear-store/gaming-accessories",
+        "https://www.ibuypower.com/gear-store/gaming-accessories/keyboards",
+        "https://www.ibuypower.com/gear-store/gaming-accessories/keyboard-accessories",
+        "https://www.ibuypower.com/gear-store/gaming-accessories/headsets"
+      ],
+      "discovery": [
+        "configured_pages",
+        "sitemap",
+        "shopify_products_json"
+      ],
+      "sitemap_urls": [
+        "https://www.ibuypower.com/gear-store/gaming-accessories/sitemap.xml"
+      ],
+      "auto_discovered": true,
+      "discovered_at": "2026-09-12",
+      "discovery_score": 96
+    },
+    {
       "brand": "Keychron",
       "domains": [
         "keychron.com"
@@ -772,33 +799,6 @@
       ],
       "brand_zh_cn": "赛睿",
       "preferred_locale": "en"
-    },
-    {
-      "brand": "iBUYPOWER®",
-      "brand_zh_cn": "iBUYPOWER®",
-      "brand_zh_cn_status": "pending_human_verification",
-      "origin": "待确认",
-      "preferred_locale": "en",
-      "domains": [
-        "ibuypower.com"
-      ],
-      "collection_urls": [
-        "https://www.ibuypower.com/gear-store/gaming-accessories",
-        "https://www.ibuypower.com/gear-store/gaming-accessories/keyboards",
-        "https://www.ibuypower.com/gear-store/gaming-accessories/keyboard-accessories",
-        "https://www.ibuypower.com/gear-store/gaming-accessories/headsets"
-      ],
-      "discovery": [
-        "configured_pages",
-        "sitemap",
-        "shopify_products_json"
-      ],
-      "sitemap_urls": [
-        "https://www.ibuypower.com/gear-store/gaming-accessories/sitemap.xml"
-      ],
-      "auto_discovered": true,
-      "discovered_at": "2026-09-12",
-      "discovery_score": 96
     }
   ],
   "schema_version": "1.2",
