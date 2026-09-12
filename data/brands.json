@@ -834,6 +834,34 @@
       ],
       "brand_zh_cn": "赛睿",
       "preferred_locale": "en"
+    },
+    {
+      "brand": "G-Wolves",
+      "brand_zh_cn": "G-Wolves",
+      "brand_zh_cn_status": "pending_human_verification",
+      "origin": "待确认",
+      "source_preference": "cn_web",
+      "preferred_locale": "en",
+      "domains": [
+        "shop.g-wolves.com"
+      ],
+      "collection_urls": [
+        "https://shop.g-wolves.com",
+        "https://shop.g-wolves.com/products/g-wolves-warg-8k-wireless-gaming-mouse",
+        "https://shop.g-wolves.com/products/hts-plus-pro-8k-wireless-gaming-mouse-28g",
+        "https://shop.g-wolves.com/products/hts-plus-hts-8k-wireless"
+      ],
+      "discovery": [
+        "configured_pages",
+        "sitemap",
+        "shopify_products_json"
+      ],
+      "sitemap_urls": [
+        "https://shop.g-wolves.com/sitemap.xml"
+      ],
+      "auto_discovered": true,
+      "discovered_at": "2026-09-12",
+      "discovery_score": 96
     }
   ],
   "schema_version": "1.2",
