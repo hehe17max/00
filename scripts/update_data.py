@@ -107,6 +107,25 @@ def extract_inline_specs(soup):
     label_re=re.compile(
         rf"(?P<label>{alias_pattern})(?:\s*[（(][^）)]{{1,40}}[）)])?\s*[:：]\s*",re.I
     )
+    # Shopify descriptions usually keep each specification in its own span or
+    # article.  Parse those DOM lines first so the following field label can
+    # never be swallowed into the current value.
+    line_result={}
+    for raw_line in soup.get_text("\n",strip=True).splitlines():
+        line=clean(raw_line)
+        if not line or len(line)>260: continue
+        match=label_re.match(line)
+        if not match: continue
+        raw_label=clean(match.group("label")).casefold()
+        key=None
+        for candidate,values in INLINE_SPEC_LABELS.items():
+            if any(re.fullmatch(value,raw_label,re.I) for value in values):
+                key=candidate; break
+        value=clean(line[match.end():]).strip(" -|;,. ")
+        if key and key!="型号" and 0<len(value)<=180:
+            line_result.setdefault(key,value)
+    if len(line_result)>=2:
+        return line_result
     candidates=[]
     for node in soup.select(".product__description,.product-description,[id*='description'],[class*='description'],.rte"):
         value=clean(node.get_text(" ",strip=True))
@@ -293,7 +312,8 @@ def merge(p,new,url,review,evidence):
         elif clean(old[k]).lower()!=clean(v).lower():
             current_priority=field_evidence.get(k,{}).get("source_priority",source_priority(p.get("source",url)))
             resolution="pending_review"
-            if contaminated_value(old[k]) and not contaminated_value(v) and incoming_priority>=current_priority:
+            cleaner_prefix=(len(clean(old[k]))>len(clean(v))+12 and clean(v).casefold() in clean(old[k]).casefold())
+            if (contaminated_value(old[k]) or cleaner_prefix) and not contaminated_value(v) and incoming_priority>=current_priority:
                 old_value=old[k]; old[k]=v; n+=1; resolution="replace_contaminated_official_extraction"
                 field_evidence[k]={"value":v,"source_url":url,"source_type":"official_cn_product" if incoming_priority==120 else "official_product","source_priority":incoming_priority,"checked_at":TODAY,"claim_type":"厂商标称"}
             elif incoming_priority>current_priority:
