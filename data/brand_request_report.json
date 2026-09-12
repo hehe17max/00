@@ -6,50 +6,27 @@
   "candidates": [
     {
       "brand": "iKF",
+      "domain": "shop.app",
+      "official_url": "https://shop.app/",
+      "score": 100,
+      "categories": [
+        "耳机/耳麦"
+      ],
+      "product_pages": [
+        "https://shop.app/products/8126834082071/ikf-t1-wireless-bluetooth-headphones-over-ear-3-5mm-aux-in-wired-headset",
+        "https://shop.app/products/8376460509463/ikf-r1-retro-wireless-bluetooth-headphones-60h-playtime-lightweight-design",
+        "https://shop.app/products/8126842634519/ikf-t1-pro-wireless-bluetooth-headphones-over-ear-3-5mm-wired-headset-120h",
+        "https://shop.app/products/8650807410967/ikf-r2-retro-classic-wireless-headphones-ergonomic-design-3-5mm-wired-headset"
+      ],
+      "product_page_count": 4,
+      "schema_page_count": 4,
+      "brand_text_match": true
+    },
+    {
+      "brand": "iKF",
       "domain": "ikfaudio.com",
       "official_url": "https://ikfaudio.com/",
       "score": 22,
-      "categories": [
-        "耳机/耳麦"
-      ],
-      "product_pages": [],
-      "product_page_count": 0,
-      "schema_page_count": 0,
-      "brand_text_match": true
-    },
-    {
-      "brand": "iKF",
-      "domain": "shop.app",
-      "official_url": "https://shop.app/",
-      "score": 18,
-      "categories": [
-        "耳机/耳麦"
-      ],
-      "product_pages": [],
-      "product_page_count": 0,
-      "schema_page_count": 0,
-      "brand_text_match": true
-    },
-    {
-      "brand": "iKF",
-      "domain": "newegg.com",
-      "official_url": "https://www.newegg.com/",
-      "score": 17,
-      "categories": [
-        "耳机/耳麦",
-        "键盘",
-        "鼠标"
-      ],
-      "product_pages": [],
-      "product_page_count": 0,
-      "schema_page_count": 0,
-      "brand_text_match": false
-    },
-    {
-      "brand": "iKF",
-      "domain": "ikeepfun.com",
-      "official_url": "https://www.ikeepfun.com/",
-      "score": 17,
       "categories": [
         "耳机/耳麦"
       ],
@@ -73,9 +50,22 @@
     },
     {
       "brand": "iKF",
-      "domain": "business.walmart.com",
-      "official_url": "https://business.walmart.com/",
-      "score": 0,
+      "domain": "ikeepfun.com",
+      "official_url": "https://www.ikeepfun.com/",
+      "score": 17,
+      "categories": [
+        "耳机/耳麦"
+      ],
+      "product_pages": [],
+      "product_page_count": 0,
+      "schema_page_count": 0,
+      "brand_text_match": true
+    },
+    {
+      "brand": "iKF",
+      "domain": "linktr.ee",
+      "official_url": "https://linktr.ee/",
+      "score": 3,
       "categories": [],
       "product_pages": [],
       "product_page_count": 0,
@@ -84,9 +74,9 @@
     },
     {
       "brand": "iKF",
-      "domain": "kqc.awf.mybluehost.me",
-      "official_url": "https://kqc.awf.mybluehost.me/",
-      "score": 0,
+      "domain": "sj.qq.com",
+      "official_url": "https://sj.qq.com/",
+      "score": 1,
       "categories": [],
       "product_pages": [],
       "product_page_count": 0,
@@ -95,8 +85,8 @@
     },
     {
       "brand": "iKF",
-      "domain": "lemon8-app.com",
-      "official_url": "https://www.lemon8-app.com/",
+      "domain": "shopee.sg",
+      "official_url": "https://shopee.sg/",
       "score": 0,
       "categories": [],
       "product_pages": [],
@@ -105,6 +95,6 @@
       "brand_text_match": false
     }
   ],
-  "status": "needs_review",
-  "message": "找到了候选网站，但可信度不足，未自动加入。"
+  "status": "existing_enriched",
+  "message": "已补充现有品牌的官网入口，将继续扫描其产品。"
 }
