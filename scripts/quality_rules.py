@@ -125,11 +125,14 @@ def is_specific_product_url(url):
 def product_name_ok(name):
     value = clean(name)
     low = value.casefold()
-    if not 2 <= len(value) <= 160:
+    # Storefront titles are often verbose marketing copy.  They are reduced to
+    # a concise model name before publication, so length alone is not evidence
+    # that an official catalogue item is invalid.
+    if not 2 <= len(value) <= 260:
         return False
-    if low in CATEGORY_ONLY or any(term in low for term in NON_PRODUCT_TERMS):
+    if low in CATEGORY_ONLY:
         return False
-    if value.count("|") > 2 or len(value.split()) > 26:
+    if value.count("|") > 3 or len(value.split()) > 50:
         return False
     return True
 
@@ -199,9 +202,23 @@ def concise_product_name(brand, title, url=""):
 def supported_product(name, url=""):
     value = clean(html.unescape(name)).casefold()
     low_url = unquote(url).casefold()
+    # Reject explicit accessory identities, but do not reject a real headset
+    # merely because its official title mentions a cable or replaceable pads.
+    explicit_accessory = (
+        bool(re.match(r"^(?:original\s+)?(?:earmuffs?|ear\s*pads?|earpads?)\b", value))
+        or bool(re.match(r"^for\s+.+(?:earmuffs?|ear\s*pads?|earpads?)\b", value))
+        or any(term in value or term in low_url for term in (
+            "headphone case", "headset case", "storage bag", "carrying case",
+            "replacement cable", "wireless dongle", "charging cable",
+        ))
+    )
+    if explicit_accessory:
+        return False
+    if any(term in value or term in low_url for term in PRODUCT_KIND_TERMS):
+        return True
     if any(term in value or term in low_url for term in NON_PRODUCT_TERMS):
         return False
-    return any(term in value or term in low_url for term in PRODUCT_KIND_TERMS)
+    return False
 
 
 def brand_name_ok(name):
@@ -212,7 +229,7 @@ def brand_name_ok(name):
     return not any(term in low for term in BAD_BRAND_TERMS)
 
 
-def publication_rejection(name, url, has_product_schema):
+def publication_rejection(name, url, has_product_schema, official_catalog_listing=False):
     if is_foreign_locale(url):
         return "foreign_locale_mirror"
     if not is_specific_product_url(url):
@@ -221,6 +238,6 @@ def publication_rejection(name, url, has_product_schema):
         return "unsupported_or_accessory_product"
     if not product_name_ok(name):
         return "accessory_or_non_product_name"
-    if not has_product_schema:
+    if not has_product_schema and not official_catalog_listing:
         return "missing_product_structured_data"
     return ""

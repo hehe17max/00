@@ -307,7 +307,7 @@ if ONLY_BRAND:
 log(f"PeripheralDB mode={MODE} brands={len(brands)} recheck_budget={MAX_RECHECKS}")
 
 for i,b in enumerate(brands,1):
-    t0=time.time(); brand=b["brand"]; domains=b["domains"]; found=set()
+    t0=time.time(); brand=b["brand"]; domains=b["domains"]; found=set(); official_catalog_urls=set()
     log(f"[{i}/{len(brands)}] {brand}")
     for u in b.get("collection_urls",[])[:8]: found |= page_links(u,domains)
     for u in b.get("sitemap_urls",[])[:2]: found |= sitemap_urls(u,domains)
@@ -318,7 +318,10 @@ for i,b in enumerate(brands,1):
             if pr.scheme and pr.netloc:
                 base=f"{pr.scheme}://{pr.netloc}"
                 if base not in bases: bases.append(base)
-        for base in bases[:1 if MODE=="fast" else 2]: found |= shopify(base)
+        for base in bases[:1 if MODE=="fast" else 2]:
+            listed=shopify(base)
+            found |= listed
+            official_catalog_urls |= {canonical_url(url) for url in listed}
     # A manually requested brand scan is expected to finish that brand, rather
     # than expose a different random slice on every run.  The normal scheduled
     # scan remains deliberately bounded so all brands still get time.
@@ -334,7 +337,10 @@ for i,b in enumerate(brands,1):
             name,specs,image,final,evidence=parse_product_page(u); budget-=1
         except Exception as e:
             report["errors"].append({"brand":brand,"url":u,"error":str(e)[:120]}); budget-=1; continue
-        rejection=publication_rejection(name,final,evidence.get("product_schema",False))
+        evidence["official_catalog_listing"]=canonical_url(u) in official_catalog_urls
+        rejection=publication_rejection(
+            name,final,evidence.get("product_schema",False),evidence["official_catalog_listing"]
+        )
         if rejection:
             report.setdefault("rejected",[]).append({"brand":brand,"url":final,"name":name,"reason":rejection})
             continue
