@@ -90,6 +90,10 @@ PeripheralDB/
 ├── assets/
 ├── data/
 │   ├── products.json
+│   ├── products_meta.json
+│   ├── products_mouse.json
+│   ├── products_keyboard.json
+│   ├── products_headphone.json
 │   ├── brands.json
 │   ├── filter_schema.json
 │   ├── source_policy.json
