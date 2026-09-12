@@ -45,6 +45,7 @@ class OfficialCatalogueQualityRulesTest(unittest.TestCase):
         self.assertEqual(concise_product_name(
             "iKF", "iKF V11 Pro 2.0 Wireless Gaming Headset"
         ), "V11 Pro 2.0")
+        self.assertEqual(concise_product_name("iKF", "Mars / Mars"), "Mars")
 
 
 if __name__ == "__main__":
