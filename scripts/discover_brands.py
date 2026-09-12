@@ -124,6 +124,18 @@ def brand_name_from_page(soup, host):
 def classify_text(text):
     t = text.lower()
     cats = set()
+    if any(x in t for x in ["gamepad", "controller", "joystick", "joypad", "手柄"]):
+        cats.add("手柄")
+    if any(x in t for x in ["mouse pad", "mousepad", "mousemat", "desk pad", "鼠标垫"]):
+        cats.add("鼠标垫")
+    if any(x in t for x in ["sound card", "soundcard", "audio interface", "声卡", "解码器", "音频接口"]):
+        cats.add("声卡")
+    if any(x in t for x in ["aviation connector", "aviation cable", "航插"]):
+        cats.add("航插线")
+    if any(x in t for x in ["收纳包", "收纳袋", "carrying bag", "carry bag", "carry case", "storage bag"]):
+        cats.add("外设收纳包")
+    if any(x in t for x in ["accessory", "accessories", "配件"]):
+        cats.add("配件")
     if any(x in t for x in ["mouse", "mice", "鼠标"]):
         cats.add("鼠标")
     if any(x in t for x in ["keyboard", "keyboards", "键盘", "磁轴"]):

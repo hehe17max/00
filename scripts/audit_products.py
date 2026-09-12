@@ -27,7 +27,7 @@ PRODUCTS = ROOT / "data/products.json"
 QUARANTINE = ROOT / "data/quarantine_products.json"
 REPORT = ROOT / "data/data_quality_report.json"
 TODAY = datetime.date.today().isoformat()
-ALLOWED_CATEGORIES = {"鼠标", "键盘", "耳机/耳麦"}
+ALLOWED_CATEGORIES = {"鼠标", "键盘", "耳机/耳麦", "手柄", "配件", "鼠标垫", "声卡", "航插线", "外设收纳包"}
 PLACEHOLDERS = {None, "", "—", "待补参数"}
 
 
