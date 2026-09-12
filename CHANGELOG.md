@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.2 — 2026-09-12
+
+- 数据按品类拆分加载：products.json 拆分为 products_mouse / products_keyboard / products_headphone 与 products_meta 版本清单，浏览器并行加载并按内容哈希缓存，减少重复下载约 27%。
+- 筛选、搜索、关键词与对比状态写入 URL（hash 路由），支持分享链接与浏览器前进后退。
+
 ## 1.3.1 — 2026-09-11
 
 - 全库清理营销长标题、配件和非目标产品，合并同型号重复记录。

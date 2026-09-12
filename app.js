@@ -96,20 +96,73 @@ function categoryLabel(value){const map={'鼠标':['鼠标','Mouse'],'键盘':['
 applyLanguage();
 $('#languageSwitch').addEventListener('change',e=>{LANG=e.target.value;localStorage.setItem('peripheraldb-language',LANG);applyLanguage();populateFilters();render();renderDiscovery();if(CURRENT_DETAIL&&detail.open)openDetail(CURRENT_DETAIL);if(compareDialog.open)openCompare()});
 
+const APP_VERSION='1.3.2';
 Promise.all([
- fetch('data/products.json?ts='+Date.now()).then(r=>r.json()),
- fetch('data/filter_schema.json?ts='+Date.now()).then(r=>r.json()),
+ fetch('data/products_meta.json?v='+APP_VERSION).then(r=>r.json()).catch(()=>null),
+ fetch('data/filter_schema.json?v='+APP_VERSION).then(r=>r.json()),
  fetch('data/brand_discovery_report.json?ts='+Date.now()).then(r=>r.json()).catch(()=>null),
  fetch('data/brand_candidates.json?ts='+Date.now()).then(r=>r.json()).catch(()=>[])
-]).then(([d,f,discoveryReport,brandCandidates])=>{
+]).then(([meta,f,discoveryReport,brandCandidates])=>{
+ const files=meta?.files?Object.values(meta.files):['products.json'];
+ return Promise.all(files.map(fn=>fetch('data/'+fn+(fn==='products.json'?'?ts='+Date.now():'?v='+encodeURIComponent(meta.version||''))).then(r=>r.json()))).then(parts=>[parts.flatMap(x=>x.products||[]),f,discoveryReport,brandCandidates,meta]);
+}).then(([products,f,discoveryReport,brandCandidates,meta])=>{
  window.DISCOVERY_REPORT=discoveryReport; window.BRAND_CANDIDATES=brandCandidates;
- DB=d.products; FILTERS=f; UPDATED_AT=d.updated_at||'—'; $('#updated').textContent=t('updated')+UPDATED_AT; $('#total').textContent=DB.length;
+ DB=products; FILTERS=f; UPDATED_AT=(meta&&meta.updated_at)||'—'; $('#updated').textContent=t('updated')+UPDATED_AT; $('#total').textContent=DB.length;
  populateFilters(); const brands=[...new Set(DB.map(x=>x.brand))], cats=[...new Set(DB.map(x=>x.category))];
  $('#brands').textContent=brands.length; $('#cats').textContent=cats.length;
  $('#verifiedCount').textContent=DB.filter(x=>x.verification?.status==='official_verified').length;
- rebuildKeywords(); render();
+ applyStateFromHash();
  renderDiscovery();
 });
+function stateFromHash(){
+ const out={q:'',brand:'全部',cat:'全部',origin:'全部',verify:'全部',sort:'brand',mode:'single',kw:[],sel:[]};
+ try{
+  const h=decodeURIComponent((location.hash||'').replace(/^#/,''));
+  if(!h)return out;
+  new URLSearchParams(h).forEach((v,k)=>{
+   if(k==='q')out.q=v;
+   else if(k==='brand')out.brand=v;
+   else if(k==='cat')out.cat=v;
+   else if(k==='origin')out.origin=v;
+   else if(k==='verify')out.verify=v;
+   else if(k==='sort')out.sort=v;
+   else if(k==='mode')out.mode=v;
+   else if(k==='kw')out.kw=v.split(',').filter(Boolean);
+   else if(k==='sel')out.sel=v.split(',').filter(Boolean);
+  });
+ }catch(e){}
+ return out;
+}
+function applyStateFromHash(){
+ const s=stateFromHash();
+ $('#search').value=s.q;
+ if([...$('#brandFilter').options].some(o=>o.value===s.brand))$('#brandFilter').value=s.brand;
+ if([...$('#catFilter').options].some(o=>o.value===s.cat))$('#catFilter').value=s.cat;
+ if([...$('#originFilter').options].some(o=>o.value===s.origin))$('#originFilter').value=s.origin;
+ if([...$('#verifyFilter').options].some(o=>o.value===s.verify))$('#verifyFilter').value=s.verify;
+ if([...$('#sort').options].some(o=>o.value===s.sort))$('#sort').value=s.sort;
+ if([...$('#keywordMode').options].some(o=>o.value===s.mode))$('#keywordMode').value=s.mode;
+ selectedKeywords=new Set(s.kw);
+ selected=new Set(s.sel);
+ rebuildKeywords();
+ render();
+}
+function saveStateToHash(push){
+ const s=new URLSearchParams();
+ const q=$('#search').value.trim();
+ if(q)s.set('q',q);
+ if($('#brandFilter').value!=='全部')s.set('brand',$('#brandFilter').value);
+ if($('#catFilter').value!=='全部')s.set('cat',$('#catFilter').value);
+ if($('#originFilter').value!=='全部')s.set('origin',$('#originFilter').value);
+ if($('#verifyFilter').value!=='全部')s.set('verify',$('#verifyFilter').value);
+ if($('#sort').value!=='brand')s.set('sort',$('#sort').value);
+ if($('#keywordMode').value!=='single')s.set('mode',$('#keywordMode').value);
+ if(selectedKeywords.size)s.set('kw',[...selectedKeywords].join(','));
+ if(selected.size)s.set('sel',[...selected].join(','));
+ const hash='#'+s.toString();
+ try{ history[(push?'push':'replace')+'State'](null,'',hash); }catch(e){ try{location.hash=hash}catch(_){} }
+}
+window.addEventListener('hashchange',applyStateFromHash);
 function populateFilters(){
  const brandValue=$('#brandFilter').value||'全部',catValue=$('#catFilter').value||'全部';
  $('#brandFilter').innerHTML=`<option value="全部">${t('allBrands')}</option>`;
@@ -123,11 +176,11 @@ function renderDiscovery(){
  const r=window.DISCOVERY_REPORT;
  if(r){const sep=LANG==='zh-CN'?'，':', ';$('#discoverySummary').textContent=`${r.date}: ${t('discoveryNew')} ${r.new_candidates||0}${sep}${t('autoAdded')} ${r.auto_promoted||0}${sep}${t('sitesChecked')} ${r.candidate_sites_checked||0}`;$('#discoveryProvider').textContent=`${t('searchSource')}: ${r.provider||'—'} · ${t('searchResults')} ${r.results_scanned||0}`}
 }
-['#search','#brandFilter','#originFilter','#verifyFilter','#sort'].forEach(s=>$(s).addEventListener(s==='#search'?'input':'change',render));
-$('#catFilter').addEventListener('change',()=>{selectedKeywords.clear();rebuildKeywords();render()});
-$('#keywordMode').addEventListener('change',()=>{if($('#keywordMode').value==='single'&&selectedKeywords.size>1)selectedKeywords=new Set([[...selectedKeywords][0]]);rebuildKeywords();render()});
-$('#clearKeywords').onclick=()=>{selectedKeywords.clear();rebuildKeywords();render()};
-$('#clearCompare').onclick=()=>{selected.clear();render();syncCompare()};
+['#search','#brandFilter','#originFilter','#verifyFilter','#sort'].forEach(s=>$(s).addEventListener(s==='#search'?'input':'change',()=>{render();saveStateToHash(s==='#search'?false:true)}));
+$('#catFilter').addEventListener('change',()=>{selectedKeywords.clear();rebuildKeywords();render();saveStateToHash(true)});
+$('#keywordMode').addEventListener('change',()=>{if($('#keywordMode').value==='single'&&selectedKeywords.size>1)selectedKeywords=new Set([[...selectedKeywords][0]]);rebuildKeywords();render();saveStateToHash(true)});
+$('#clearKeywords').onclick=()=>{selectedKeywords.clear();rebuildKeywords();render();saveStateToHash(true)};
+$('#clearCompare').onclick=()=>{selected.clear();render();syncCompare();saveStateToHash(true)};
 $('#doCompare').onclick=openCompare;
 
 function fallback(cat){return cat==='鼠标'?'assets/mouse.svg':cat==='键盘'?'assets/keyboard.svg':'assets/headset.svg'}
@@ -162,7 +215,7 @@ function rebuildKeywords(){
    const mode=$('#keywordMode').value;
    if(mode==='single'){selectedKeywords.clear();selectedKeywords.add(t)}
    else selectedKeywords.has(t)?selectedKeywords.delete(t):selectedKeywords.add(t);
-   rebuildKeywords();render()
+   rebuildKeywords();render();saveStateToHash(true)
  };box.appendChild(b)})
 }
 function parseNum(s,unit){const m=String(s||'').replace(/,/g,'').match(new RegExp('(\\d+(?:\\.\\d+)?)\\s*'+unit,'i'));return m?parseFloat(m[1]):null}
@@ -202,7 +255,7 @@ function render(){
  });syncCompare()
 }
 function id(p){return p.brand+'::'+p.name}
-function toggleCompare(p,on){const key=id(p);if(on){if(selected.size>=20){alert(t('maxTwenty'));render();return}selected.add(key)}else selected.delete(key);syncCompare()}
+function toggleCompare(p,on){const key=id(p);if(on){if(selected.size>=20){alert(t('maxTwenty'));render();return}selected.add(key)}else selected.delete(key);syncCompare();saveStateToHash(true)}
 function syncCompare(){$('#compareBar').classList.toggle('hidden',!selected.size);$('#compareCount').textContent=selected.size;$('#compareNames').textContent=[...selected].map(x=>x.split('::')[1]).join(' · ')}
 function openDetail(p){
  CURRENT_DETAIL=p;
