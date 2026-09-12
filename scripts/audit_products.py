@@ -65,6 +65,23 @@ def classify(name, url):
     return "待分类"
 
 
+def classify_subcategory(name, url):
+    value = (clean(name) + " " + unquote(url)).casefold().replace("-", " ")
+    if "sleep" in value or "睡眠" in value:
+        return "睡眠耳机"
+    if any(x in value for x in ("open ear", "earclip", "ear clip", "耳夹", "开放式")):
+        return "开放式/耳夹"
+    if any(x in value for x in ("gaming", "esports", "游戏", "电竞")):
+        return "游戏耳机"
+    if "wired" in value and "wireless" not in value:
+        return "有线耳机"
+    if any(x in value for x in ("earbud", "earphone", "耳塞")):
+        return "TWS/耳塞"
+    if any(x in value for x in ("headset", "headphone", "耳机", "耳麦")):
+        return "头戴式耳机"
+    return "自动发现"
+
+
 def specific_url(url):
     path = urlparse(url).path.casefold()
     return "/products/" in path or "/product/" in path or "/goods/" in path
@@ -147,6 +164,8 @@ def main():
             category = classify(raw_name, product.get("source", ""))
             if category in ALLOWED_CATEGORIES:
                 product["category"] = category
+            if product.get("subcategory") in (None, "", "自动发现"):
+                product["subcategory"] = classify_subcategory(raw_name, product.get("source", ""))
             product.setdefault("verification", {})["quality_gate_version"] = "1.3-audited"
         cleaned.append(product)
 

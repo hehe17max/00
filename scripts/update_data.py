@@ -53,7 +53,13 @@ INLINE_SPEC_LABELS = {
     "麦克风": ("microphone", "mic", "麦克风"),
     "有线连接": ("wired connection", "aux connection", "有线连接"),
     "多设备": ("pairing 2 devices", "dual-device connection", "multi-device", "双设备", "多设备"),
-    "APP/软件": ("app control", "app", "software", "应用程序", "软件"),
+    "APP/软件": ("app control", "ikf app", "app", "software", "应用程序", "软件"),
+    "佩戴方式": ("wearing method", "佩戴方式"),
+    "控制方式": ("control method", "控制方式"),
+    "通透模式": ("transparent mode", "transparency mode", "通透模式"),
+    "游戏模式": ("game mode", "游戏模式"),
+    "耳罩可更换": ("earmuffs replaceable", "earpads replaceable", "耳罩可更换"),
+    "可折叠": ("foldable", "可折叠"),
     "传感器": ("sensor", "传感器"),
     "最高DPI": ("maximum dpi", "max dpi", "dpi", "最高dpi"),
     "回报率": ("polling rate", "report rate", "回报率"),
@@ -98,13 +104,13 @@ def extract_inline_specs(soup):
     for key,values in INLINE_SPEC_LABELS.items():
         for value in values: aliases.append((key,value))
     alias_pattern="|".join(f"(?:{value})" for _,value in sorted(aliases,key=lambda x:len(x[1]),reverse=True))
-    label_re=re.compile(rf"(?P<label>{alias_pattern})\\s*[:：]\\s*",re.I)
+    label_re=re.compile(rf"(?P<label>{alias_pattern})\s*[:：]\s*",re.I)
     candidates=[]
     for node in soup.select(".product__description,.product-description,[id*='description'],[class*='description'],.rte"):
         value=clean(node.get_text(" ",strip=True))
         if 20<len(value)<12000 and len(label_re.findall(value))>=2: candidates.append(value)
     full=clean(soup.get_text(" ",strip=True))
-    marker=re.search(r"(?:specifications?|technical specifications?|产品参数|规格参数)\\s*[:：]?",full,re.I)
+    marker=re.search(r"(?:specifications?|technical specifications?|产品参数|规格参数)\s*[:：]?",full,re.I)
     if marker:
         segment=full[marker.end():marker.end()+6000]
         segment=re.split(r"what.?s in (?:the )?(?:box|package)|package contents|faqs?|包装清单",segment,1,flags=re.I)[0]
@@ -122,7 +128,7 @@ def extract_inline_specs(soup):
         if not key or key=="型号": continue
         end=hits[index+1].start() if index+1<len(hits) else min(len(text),hit.end()+180)
         value=clean(text[hit.end():end]).strip(" -|;,.")
-        value=re.split(r"\\s+(?:[1-9]\\.|important|note:)",value,1,flags=re.I)[0]
+        value=re.split(r"\s+(?:[1-9]\.|important|note:)",value,1,flags=re.I)[0]
         if 0<len(value)<=180: result.setdefault(key,value)
     return result
 def parse_product_page(url):
@@ -206,7 +212,7 @@ def sitemap_urls(url,domains,depth=0):
             if host_allowed(loc,domains) and likely(loc.rstrip("/")): out.add(loc.rstrip("/"))
     return set(list(out)[:MAX_SITEMAP_URLS])
 def shopify(base):
-    out=set()
+    out={}
     for page in range(1,MAX_SHOPIFY_PAGES+1):
         try:
             r=get(base.rstrip("/")+"/products.json?limit=250&page="+str(page))
@@ -215,7 +221,8 @@ def shopify(base):
         except Exception: break
         if not rows: break
         for p in rows:
-            if p.get("handle"): out.add(base.rstrip("/")+"/products/"+p["handle"])
+            if p.get("handle"):
+                out[base.rstrip("/")+"/products/"+p["handle"]]=p
         if len(rows)<250: break
     return out
 def classify(name,url):
@@ -317,7 +324,7 @@ if ONLY_BRAND:
 log(f"PeripheralDB mode={MODE} brands={len(brands)} recheck_budget={MAX_RECHECKS}")
 
 for i,b in enumerate(brands,1):
-    t0=time.time(); brand=b["brand"]; domains=b["domains"]; found=set(); official_catalog_urls=set()
+    t0=time.time(); brand=b["brand"]; domains=b["domains"]; found=set(); official_catalog_rows={}
     log(f"[{i}/{len(brands)}] {brand}")
     for u in b.get("collection_urls",[])[:8]: found |= page_links(u,domains)
     for u in b.get("sitemap_urls",[])[:2]: found |= sitemap_urls(u,domains)
@@ -330,8 +337,8 @@ for i,b in enumerate(brands,1):
                 if base not in bases: bases.append(base)
         for base in bases[:1 if MODE=="fast" else 2]:
             listed=shopify(base)
-            found |= listed
-            official_catalog_urls |= {canonical_url(url) for url in listed}
+            found |= set(listed)
+            official_catalog_rows.update({canonical_url(url):row for url,row in listed.items()})
     # A manually requested brand scan is expected to finish that brand, rather
     # than expose a different random slice on every run.  The normal scheduled
     # scan remains deliberately bounded so all brands still get time.
@@ -347,7 +354,16 @@ for i,b in enumerate(brands,1):
             name,specs,image,final,evidence=parse_product_page(u); budget-=1
         except Exception as e:
             report["errors"].append({"brand":brand,"url":u,"error":str(e)[:120]}); budget-=1; continue
-        evidence["official_catalog_listing"]=canonical_url(u) in official_catalog_urls
+        catalog_row=official_catalog_rows.get(canonical_url(u))
+        evidence["official_catalog_listing"]=bool(catalog_row)
+        if catalog_row:
+            catalog_soup=BeautifulSoup(catalog_row.get("body_html") or "","html.parser")
+            for key,value in extract_inline_specs(catalog_soup).items():
+                specs.setdefault(key,value)
+            if not image:
+                catalog_images=catalog_row.get("images") or []
+                if catalog_images:
+                    image=normalize_image_url(catalog_images[0].get("src"),final)
         rejection=publication_rejection(
             name,final,evidence.get("product_schema",False),evidence["official_catalog_listing"]
         )

@@ -161,6 +161,9 @@ def concise_product_name(brand, title, url=""):
     """
     raw = clean(html.unescape(title)).replace("丨", "|")
     raw = re.sub(r"\s+[|–—]\s+.*$", "", raw)
+    repeated = re.fullmatch(r"(.+?)\s*/\s*\1", raw, re.I)
+    if repeated:
+        raw = clean(repeated.group(1))
     brand_re = re.compile(rf"(?<![\w]){re.escape(clean(brand))}(?![\w])", re.I)
 
     # Prefer the last brand occurrence: variant selectors often prefix titles
