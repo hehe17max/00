@@ -16,7 +16,7 @@ DATA = ROOT / "data"
 SRC = DATA / "products.json"
 
 # Top-level category -> file slug. Unknown categories fall back to unclassified.
-SLUG = {"鼠标": "mouse", "键盘": "keyboard", "耳机/耳麦": "headphone", "手柄": "controller", "配件": "accessory", "鼠标垫": "mousepad", "声卡": "soundcard", "航插线": "cable", "外设收纳包": "bag"}
+SLUG = {"鼠标": "mouse", "键盘": "keyboard", "耳机/耳麦": "headphone", "手柄": "controller", "配件": "accessory", "鼠标垫": "mousepad", "声卡": "soundcard", "航插线": "cable", "外设收纳包": "bag", "音箱/音响": "speaker"}
 UNCLASSIFIED = "unclassified"
 
 
