@@ -38,6 +38,15 @@ class OfficialCatalogueQualityRulesTest(unittest.TestCase):
             "iKF VP5 HiFi Monitor Headphone", url, False, False
         ), "missing_product_structured_data")
 
+    def test_missing_names_are_rejected_without_interrupting_scan(self):
+        url = "https://www.gloriousgaming.com/products/model-o-mouse"
+        for name in (None, "", "   ", {}, []):
+            with self.subTest(name=name):
+                self.assertEqual(publication_rejection(name, url, True, True),
+                                 "missing_product_name")
+        self.assertFalse(supported_product(None))
+        self.assertEqual(publication_rejection("Glorious Model O Mouse", url, True), "")
+
     def test_model_editions_remain_distinct(self):
         self.assertEqual(concise_product_name(
             "iKF", "iKF R1 Pop Wireless Bluetooth Headphones"
