@@ -6,22 +6,27 @@
   "candidates": [
     {
       "brand": "iKF",
-      "domain": "ikfaudio.com",
-      "official_url": "https://ikfaudio.com/",
-      "score": 22,
+      "domain": "shop.app",
+      "official_url": "https://shop.app/",
+      "score": 100,
       "categories": [
         "耳机/耳麦"
       ],
-      "product_pages": [],
-      "product_page_count": 0,
-      "schema_page_count": 0,
+      "product_pages": [
+        "https://shop.app/products/8126834082071/ikf-t1-wireless-bluetooth-headphones-over-ear-3-5mm-aux-in-wired-headset",
+        "https://shop.app/products/8126842634519/ikf-t1-pro-wireless-bluetooth-headphones-over-ear-3-5mm-wired-headset-120h",
+        "https://shop.app/products/8382126588183/ikf-solo-wireless-bluetooth-headphones-active-noise-cancelling-over-ear-wired",
+        "https://shop.app/products/8126837096727/ikf-king-wireless-bluetooth-headphones-active-noise-cancelling-power-bass-with"
+      ],
+      "product_page_count": 4,
+      "schema_page_count": 4,
       "brand_text_match": true
     },
     {
       "brand": "iKF",
-      "domain": "ikeepfun.com",
-      "official_url": "https://www.ikeepfun.com/",
-      "score": 17,
+      "domain": "ikfaudio.com",
+      "official_url": "https://ikfaudio.com/",
+      "score": 22,
       "categories": [
         "耳机/耳麦"
       ],
@@ -45,10 +50,12 @@
     },
     {
       "brand": "iKF",
-      "domain": "ikffightsports.com",
-      "official_url": "https://www.ikffightsports.com/",
-      "score": 14,
-      "categories": [],
+      "domain": "ikeepfun.cn",
+      "official_url": "http://www.ikeepfun.cn/",
+      "score": 17,
+      "categories": [
+        "耳机/耳麦"
+      ],
       "product_pages": [],
       "product_page_count": 0,
       "schema_page_count": 0,
@@ -56,49 +63,31 @@
     },
     {
       "brand": "iKF",
-      "domain": "tradeinn.com",
-      "official_url": "https://www.tradeinn.com/",
-      "score": 3,
-      "categories": [],
+      "domain": "ikeepfun.com",
+      "official_url": "https://www.ikeepfun.com/",
+      "score": 17,
+      "categories": [
+        "耳机/耳麦"
+      ],
       "product_pages": [],
       "product_page_count": 0,
       "schema_page_count": 0,
-      "brand_text_match": false
+      "brand_text_match": true
     },
     {
       "brand": "iKF",
       "domain": "walmart.com",
       "official_url": "https://www.walmart.com/",
-      "score": 2,
-      "categories": [],
-      "product_pages": [],
-      "product_page_count": 0,
-      "schema_page_count": 0,
-      "brand_text_match": false
-    },
-    {
-      "brand": "iKF",
-      "domain": "sj.qq.com",
-      "official_url": "https://sj.qq.com/",
-      "score": 1,
-      "categories": [],
-      "product_pages": [],
-      "product_page_count": 0,
-      "schema_page_count": 0,
-      "brand_text_match": false
-    },
-    {
-      "brand": "iKF",
-      "domain": "m.media-amazon.com",
-      "official_url": "https://m.media-amazon.com/",
-      "score": 0,
-      "categories": [],
+      "score": 9,
+      "categories": [
+        "耳机/耳麦"
+      ],
       "product_pages": [],
       "product_page_count": 0,
       "schema_page_count": 0,
       "brand_text_match": false
     }
   ],
-  "status": "needs_review",
-  "message": "找到了候选网站，但可信度不足，未自动加入。"
+  "status": "existing_enriched",
+  "message": "已补充现有品牌的官网入口，将继续扫描其产品。"
 }
