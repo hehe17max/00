@@ -61,7 +61,7 @@ MODEL_STOP_WORDS = {
 
 MODEL_SUFFIXES = {
     "pro", "max", "ultra", "air", "mini", "plus", "master", "elite",
-    "series", "v2", "v3", "gen-2", "gen2", "he", "rt", "rx", "apex",
+    "series", "pop", "v2", "v3", "gen-2", "gen2", "he", "rt", "rx", "apex",
 }
 
 
@@ -189,7 +189,10 @@ def concise_product_name(brand, title, url=""):
         digit_positions = [i for i, w in enumerate(kept) if any(c.isdigit() for c in w)]
         if digit_positions:
             end = digit_positions[0] + 1
-            while end < len(kept) and kept[end].casefold() in MODEL_SUFFIXES:
+            while end < len(kept) and (
+                kept[end].casefold() in MODEL_SUFFIXES
+                or re.fullmatch(r"(?:v?\d+(?:\.\d+)+|(?:mk|gen)\d+)", kept[end], re.I)
+            ):
                 end += 1
             kept = kept[:end]
         elif len(kept) > 3:

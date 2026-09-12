@@ -130,7 +130,10 @@ def main():
         raw_name = clean(product.get("name"))
         is_auto = auto_discovered(product)
         already_audited = product.get("verification", {}).get("quality_gate_version") == "1.3-audited"
-        if is_auto and not already_audited and not supported_product(raw_name, product.get("source", "")):
+        official_catalog_listing = bool(
+            product.get("verification", {}).get("evidence", {}).get("official_catalog_listing")
+        )
+        if is_auto and not already_audited and not official_catalog_listing and not supported_product(raw_name, product.get("source", "")):
             quarantined.append((product, "unsupported_or_accessory_product"))
             continue
         new_name = concise_product_name(brand, raw_name, product.get("source", "")) if is_auto else raw_name

@@ -225,6 +225,16 @@ def classify(name,url):
     if any(x in s for x in ["headset","headphone","earbud","earphone","耳机","耳麦"]): return "耳机/耳麦"
     return "待分类"
 
+def classify_subcategory(name):
+    s=clean(name).lower()
+    if "sleep" in s or "睡眠" in s: return "睡眠耳机"
+    if any(x in s for x in ("open ear","open-ear","earclip","ear clip","耳夹","开放式")): return "开放式/耳夹"
+    if any(x in s for x in ("gaming","esports","游戏","电竞")): return "游戏耳机"
+    if "wired" in s and "wireless" not in s: return "有线耳机"
+    if any(x in s for x in ("earbud","earphone","耳塞")): return "TWS/耳塞"
+    if any(x in s for x in ("headset","headphone","耳机","耳麦")): return "头戴式耳机"
+    return "自动发现"
+
 def due(last):
     if not last: return True
     try: return (datetime.date.today()-datetime.date.fromisoformat(last)).days>=RECHECK_DAYS
@@ -352,7 +362,7 @@ for i,b in enumerate(brands,1):
             if image and not p.get("image_url"): p["image_url"]=image; p["image_source"]=final; imgs+=1
             by_url[canonical_url(final)]=p
             continue
-        p={"brand":brand,"brand_zh_cn":b.get("brand_zh_cn",brand),"name":concise,"category":classify(name,final),"subcategory":"自动发现","status":"官网产品页已确认/参数待复核",
+        p={"brand":brand,"brand_zh_cn":b.get("brand_zh_cn",brand),"name":concise,"category":classify(name,final),"subcategory":classify_subcategory(name),"status":"官网产品页已确认/参数待复核",
            "verified":"官方页面自动发现","origin":b.get("origin","海外"),"market":"官网","first_seen":TODAY,"last_verified":TODAY,"last_checked":TODAY,
            "source":final,"image_url":image,"image_source":final if image else "","sources":[],"specs":specs,
            "spec_evidence":{k:{"value":v,"source_url":final,"source_type":"official_cn_product" if source_priority(final)==120 else "official_product","source_priority":source_priority(final),"checked_at":TODAY,"claim_type":"厂商标称"} for k,v in specs.items()},
