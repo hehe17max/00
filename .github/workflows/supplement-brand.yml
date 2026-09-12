@@ -23,7 +23,9 @@ jobs:
     env:
       BRAVE_SEARCH_API_KEY: ${{ secrets.BRAVE_SEARCH_API_KEY }}
       SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
-      PERIPHERALDB_SCAN_MODE: fast
+      # A user-requested brand supplement should exhaust the official catalogue.
+      # The half-hourly all-brand job keeps using the bounded fast mode.
+      PERIPHERALDB_SCAN_MODE: deep
       PERIPHERALDB_ONLY_BRAND: ${{ inputs.brand_name }}
 
     steps:
