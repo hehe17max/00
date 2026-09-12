@@ -623,7 +623,19 @@ function valueLabel(value){
    [/spatial audio/gi,'空间音频'],
    [/razer focus pro (\d+)k optical sensor gen-(\d+)/gi,'Razer Focus Pro $1K 光学传感器 Gen-$2'],
    [/optical sensor/gi,'光学传感器'],
-   [/mechanical switch/gi,'机械轴']
+   [/mechanical switch/gi,'机械轴'],
+   [/user guide via guide ansi: magi75 json file magi75 software magi96 json file magi96 software/gi,'VIA 使用指南（ANSI）：Magi75 JSON 文件、Magi75 软件、Magi96 JSON 文件、Magi96 软件'],
+   [/user guide via guide ansi: magi75\/75 pro json file magi75\/75 pro software magi96\/96 pro json file magi96\/96 pro software/gi,'VIA 使用指南（ANSI）：Magi75/75 Pro JSON 文件、Magi75/75 Pro 软件、Magi96/96 Pro JSON 文件、Magi96/96 Pro 软件'],
+   [/user guide via guide ansi:/gi,'VIA 使用指南（ANSI）：'],
+   [/json file/gi,'JSON 文件'],
+   [/software/gi,'软件'],
+   [/seamlessly switch between two devices for greater convenience and efficiency/gi,'两台设备间无缝切换，便捷高效'],
+   [/two devices for greater convenience and efficiency/gi,'两台设备，便捷高效'],
+   [/for greater convenience and efficiency/gi,'便捷高效'],
+   [/seamlessly connect two devices/gi,'无缝连接两台设备'],
+   [/greater convenience/gi,'更高便利'],
+   [/\btwo devices\b/gi,'两台设备'],
+   [/\bconvenience and efficiency\b/gi,'便捷高效']
   ];
   for(const [re,to] of sentenceRules){out=out.replace(re,to)}
   const replacements=[
