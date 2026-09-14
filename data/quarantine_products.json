@@ -74884,5 +74884,664 @@
         "needs_review": false
       }
     }
+  },
+  {
+    "quarantined_at": "2026-09-14",
+    "reason": "unsupported_or_accessory_product",
+    "product": {
+      "brand": "EDIFIER",
+      "brand_zh_cn": "漫步者",
+      "name": "HECATE G4M",
+      "category": "鼠标",
+      "subcategory": "官方商城",
+      "status": "官方商城列表已确认/参数待补",
+      "verified": "官方商城列表导入",
+      "origin": "中国",
+      "market": "官方商城",
+      "first_seen": "2026-09-12",
+      "last_verified": "2026-09-12",
+      "last_checked": "2026-09-14",
+      "source": "https://mall-pc.edifier.com/goods/goodsDetail",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://mall-pc.edifier.com/goods/goodsDetail",
+          "tier": 110,
+          "checked_at": "2026-09-12",
+          "note": "official store catalog import"
+        },
+        {
+          "type": "official_product",
+          "url": "https://mall-pc.edifierstore.com/goods/goodsDetail",
+          "tier": 110,
+          "checked_at": "2026-09-14",
+          "note": "periodic recheck"
+        }
+      ],
+      "specs": {},
+      "verification": {
+        "status": "official_discovered",
+        "needs_review": true,
+        "confidence": 0.7,
+        "source_count": 2,
+        "quality_gate_version": "1.3",
+        "evidence": {
+          "product_schema": false,
+          "product_schema_count": 0,
+          "canonical_url": "https://mall-pc.edifierstore.com/goods/goodsDetail",
+          "page_language": "zh-CN",
+          "official_url": "https://mall-pc.edifierstore.com/goods/goodsDetail",
+          "source_priority": 110
+        },
+        "conflicts": []
+      },
+      "spec_evidence": {}
+    }
+  },
+  {
+    "quarantined_at": "2026-09-14",
+    "reason": "unsupported_or_accessory_product",
+    "product": {
+      "brand": "SoundPEATS",
+      "brand_zh_cn": "泥炭",
+      "name": "C30",
+      "category": "耳机/耳麦",
+      "subcategory": "TWS/耳塞",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "中国",
+      "market": "官网",
+      "first_seen": "2026-09-12",
+      "last_verified": "2026-09-12",
+      "last_checked": "2026-09-12",
+      "source": "https://soundpeats.com/products/c30",
+      "image_url": "https://soundpeats.com/cdn/shop/files/5_b77d72a3-ad28-45a7-904b-df92cfc1597d_1024x.jpg?v=1768983191",
+      "image_source": "https://soundpeats.com/products/c30",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://soundpeats.com/products/c30",
+          "tier": 110,
+          "checked_at": "2026-09-12",
+          "note": "new official product"
+        },
+        {
+          "type": "official_product",
+          "url": "https://soundpeats.com/en-ca/products/c30",
+          "tier": 110,
+          "checked_at": "2026-09-14",
+          "note": "additional official page"
+        }
+      ],
+      "specs": {
+        "Situation": "Reason",
+        "Near PCs, Wi-Fi routers, microwave ovens, refrigerators": "These devices emit radio waves that may interfere with Bluetooth signals",
+        "Phone in chest/pants pocket or bag": "The human body blocks Bluetooth signals, especially when the main earbud is diagonal to the device",
+        "Close to other Bluetooth devices": "Multiple Bluetooth signals may cause interference",
+        "Using the device in another room": "Bluetooth signal weakens with distance and physical barriers",
+        "Too many apps running": "High system load may affect Bluetooth performance",
+        "User Guide": "SOUNDPEATS C30 User Manual",
+        "FAQ": "SOUNDPEATS C30 FAQ"
+      },
+      "spec_evidence": {
+        "Situation": {
+          "value": "Reason",
+          "source_url": "https://soundpeats.com/en-ca/products/c30",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-14",
+          "claim_type": "厂商标称"
+        },
+        "Near PCs, Wi-Fi routers, microwave ovens, refrigerators": {
+          "value": "These devices emit radio waves that may interfere with Bluetooth signals",
+          "source_url": "https://soundpeats.com/en-ca/products/c30",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-14",
+          "claim_type": "厂商标称"
+        },
+        "Phone in chest/pants pocket or bag": {
+          "value": "The human body blocks Bluetooth signals, especially when the main earbud is diagonal to the device",
+          "source_url": "https://soundpeats.com/en-ca/products/c30",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-14",
+          "claim_type": "厂商标称"
+        },
+        "Close to other Bluetooth devices": {
+          "value": "Multiple Bluetooth signals may cause interference",
+          "source_url": "https://soundpeats.com/en-ca/products/c30",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-14",
+          "claim_type": "厂商标称"
+        },
+        "Using the device in another room": {
+          "value": "Bluetooth signal weakens with distance and physical barriers",
+          "source_url": "https://soundpeats.com/en-ca/products/c30",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-14",
+          "claim_type": "厂商标称"
+        },
+        "Too many apps running": {
+          "value": "High system load may affect Bluetooth performance",
+          "source_url": "https://soundpeats.com/en-ca/products/c30",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-14",
+          "claim_type": "厂商标称"
+        },
+        "User Guide": {
+          "value": "SOUNDPEATS C30 User Manual",
+          "source_url": "https://soundpeats.com/en-ca/products/c30",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-14",
+          "claim_type": "厂商标称"
+        },
+        "FAQ": {
+          "value": "SOUNDPEATS C30 FAQ",
+          "source_url": "https://soundpeats.com/en-ca/products/c30",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-14",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_verified",
+        "confidence": 0.92,
+        "source_count": 2,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://soundpeats.com/en-ca/products/c30",
+          "page_language": "en",
+          "official_url": "https://soundpeats.com/en-ca/products/c30",
+          "source_priority": 110,
+          "sku": "SP-C30-BLACK",
+          "schema_brand": "SOUNDPEATS",
+          "official_catalog_listing": false
+        },
+        "quality_gate_version": "1.3",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "quarantined_at": "2026-09-14",
+    "reason": "unsupported_or_accessory_product",
+    "product": {
+      "brand": "SoundPEATS",
+      "brand_zh_cn": "泥炭",
+      "name": "PearlClip Pro",
+      "category": "耳机/耳麦",
+      "subcategory": "开放式/耳夹",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "中国",
+      "market": "官网",
+      "first_seen": "2026-09-13",
+      "last_verified": "2026-09-13",
+      "last_checked": "2026-09-14",
+      "source": "https://soundpeats.com/products/soundpeats-pearlclip-pro",
+      "image_url": "https://soundpeats.com/cdn/shop/files/1-2_cad6583d-18e7-4db9-8761-898ab3d843d8_1024x.jpg?v=1735892287",
+      "image_source": "https://soundpeats.com/products/soundpeats-pearlclip-pro",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://soundpeats.com/products/soundpeats-pearlclip-pro",
+          "tier": 110,
+          "checked_at": "2026-09-14",
+          "note": "new official product"
+        },
+        {
+          "type": "official_product",
+          "url": "https://soundpeats.com/en-mx/products/soundpeats-pearlclip-pro",
+          "tier": 110,
+          "checked_at": "2026-09-14",
+          "note": "additional official page"
+        }
+      ],
+      "specs": {
+        "蓝牙/无线": "V5.4",
+        "电池": "Earbuds: 35mAh*2 ; Charging Case: 350mAh",
+        "充电时间": "Earbuds: 0.53H ; Charging Case: 1.77H",
+        "充电方式": "Type-C",
+        "User Guide": "SOUNDPEATS PearlClip Pro User Manual",
+        "FAQ": "SOUNDPEATS PearlClip Pro FAQ"
+      },
+      "spec_evidence": {
+        "蓝牙/无线": {
+          "value": "V5.4",
+          "source_url": "https://soundpeats.com/en-mx/products/soundpeats-pearlclip-pro",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-14",
+          "claim_type": "厂商标称"
+        },
+        "电池": {
+          "value": "Earbuds: 35mAh*2 ; Charging Case: 350mAh",
+          "source_url": "https://soundpeats.com/en-mx/products/soundpeats-pearlclip-pro",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-14",
+          "claim_type": "厂商标称"
+        },
+        "充电时间": {
+          "value": "Earbuds: 0.53H ; Charging Case: 1.77H",
+          "source_url": "https://soundpeats.com/en-mx/products/soundpeats-pearlclip-pro",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-14",
+          "claim_type": "厂商标称"
+        },
+        "充电方式": {
+          "value": "Type-C",
+          "source_url": "https://soundpeats.com/en-mx/products/soundpeats-pearlclip-pro",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-14",
+          "claim_type": "厂商标称"
+        },
+        "User Guide": {
+          "value": "SOUNDPEATS PearlClip Pro User Manual",
+          "source_url": "https://soundpeats.com/en-mx/products/soundpeats-pearlclip-pro",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-14",
+          "claim_type": "厂商标称"
+        },
+        "FAQ": {
+          "value": "SOUNDPEATS PearlClip Pro FAQ",
+          "source_url": "https://soundpeats.com/en-mx/products/soundpeats-pearlclip-pro",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-14",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_verified",
+        "confidence": 0.92,
+        "source_count": 2,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://soundpeats.com/en-mx/products/soundpeats-pearlclip-pro",
+          "page_language": "en",
+          "official_url": "https://soundpeats.com/en-mx/products/soundpeats-pearlclip-pro",
+          "source_priority": 110,
+          "sku": "SP-US-PearlClip Pro-BLACK",
+          "schema_brand": "SOUNDPEATS",
+          "official_catalog_listing": false
+        },
+        "quality_gate_version": "1.3",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "quarantined_at": "2026-09-14",
+    "reason": "unsupported_or_accessory_product",
+    "product": {
+      "brand": "Dareu",
+      "brand_zh_cn": "达尔优",
+      "name": "A980PRO/PRO MAX",
+      "category": "鼠标",
+      "subcategory": "游戏耳机",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "中国",
+      "market": "官网",
+      "first_seen": "2026-09-14",
+      "last_verified": "2026-09-14",
+      "last_checked": "2026-09-14",
+      "source": "https://dareu.com/en-eu/products/dareu-a980pro-pro-max",
+      "image_url": "https://dareu.com/cdn/shop/files/0000__2_c1506b67-30bc-477c-b063-16377439ccaa.png?v=1744857753",
+      "image_source": "https://dareu.com/en-eu/products/dareu-a980pro-pro-max",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://dareu.com/en-eu/products/dareu-a980pro-pro-max",
+          "tier": 110,
+          "checked_at": "2026-09-14",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "Product": "Total",
+        "尺寸": "128*73.3*40mm",
+        "重量": "73g Technical Specifications Connection Type: Wired / BT /",
+        "蓝牙/无线": "1000Hz Wired: 125/250/500/1000/2000/4000/8000 Hz"
+      },
+      "spec_evidence": {
+        "Product": {
+          "value": "Total",
+          "source_url": "https://dareu.com/en-eu/products/dareu-a980pro-pro-max",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-14",
+          "claim_type": "厂商标称"
+        },
+        "尺寸": {
+          "value": "128*73.3*40mm",
+          "source_url": "https://dareu.com/en-eu/products/dareu-a980pro-pro-max",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-14",
+          "claim_type": "厂商标称"
+        },
+        "重量": {
+          "value": "73g Technical Specifications Connection Type: Wired / BT /",
+          "source_url": "https://dareu.com/en-eu/products/dareu-a980pro-pro-max",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-14",
+          "claim_type": "厂商标称"
+        },
+        "蓝牙/无线": {
+          "value": "1000Hz Wired: 125/250/500/1000/2000/4000/8000 Hz",
+          "source_url": "https://dareu.com/en-eu/products/dareu-a980pro-pro-max",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-14",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_verified",
+        "confidence": 0.92,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 2,
+          "canonical_url": "https://dareu.com/en-eu/products/dareu-a980pro-pro-max",
+          "page_language": "en",
+          "official_url": "https://dareu.com/en-eu/products/dareu-a980pro-pro-max",
+          "source_priority": 110,
+          "sku": "",
+          "schema_brand": "Dareu",
+          "official_catalog_listing": false
+        },
+        "quality_gate_version": "1.3",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "quarantined_at": "2026-09-14",
+    "reason": "unsupported_or_accessory_product",
+    "product": {
+      "brand": "Dareu",
+      "brand_zh_cn": "达尔优",
+      "name": "A98 PRO",
+      "category": "键盘",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "中国",
+      "market": "官网",
+      "first_seen": "2026-09-14",
+      "last_verified": "2026-09-14",
+      "last_checked": "2026-09-14",
+      "source": "https://dareu.com/products/dareu-a98-pro-ii-neon",
+      "image_url": "https://dareu.com/cdn/shop/files/1_0010_A98-MH-3840-2160-_-3-7-01-10-23.png?v=1733904274",
+      "image_source": "https://dareu.com/products/dareu-a98-pro-ii-neon",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://dareu.com/products/dareu-a98-pro-ii-neon",
+          "tier": 110,
+          "checked_at": "2026-09-14",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "Product": "Total"
+      },
+      "spec_evidence": {
+        "Product": {
+          "value": "Total",
+          "source_url": "https://dareu.com/products/dareu-a98-pro-ii-neon",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-14",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_discovered",
+        "confidence": 0.78,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 2,
+          "canonical_url": "https://dareu.com/products/dareu-a98-pro-ii-neon",
+          "page_language": "en",
+          "official_url": "https://dareu.com/products/dareu-a98-pro-ii-neon",
+          "source_priority": 110,
+          "sku": "",
+          "schema_brand": "Dareu",
+          "official_catalog_listing": false
+        },
+        "quality_gate_version": "1.3",
+        "needs_review": true
+      }
+    }
+  },
+  {
+    "quarantined_at": "2026-09-14",
+    "reason": "unsupported_or_accessory_product",
+    "product": {
+      "brand": "Dareu",
+      "brand_zh_cn": "达尔优",
+      "name": "COOL68",
+      "category": "键盘",
+      "subcategory": "游戏耳机",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "中国",
+      "market": "官网",
+      "first_seen": "2026-09-14",
+      "last_verified": "2026-09-14",
+      "last_checked": "2026-09-14",
+      "source": "https://dareu.com/products/dareu-cool68",
+      "image_url": "https://dareu.com/cdn/shop/files/xinde.369.png?v=1760684236",
+      "image_source": "https://dareu.com/products/dareu-cool68",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://dareu.com/products/dareu-cool68",
+          "tier": 110,
+          "checked_at": "2026-09-14",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "Product": "Total",
+        "尺寸": "329*111*44mm",
+        "重量": "740+/-50g",
+        "轴体": "Ice Blade & Shadow Blade 30% More Precision and Stability Pro-Level Magnetic Flux, Optimized by Esports Teams for Superior Control Shadow Blade Magnetic Switch N35 Permanent Magnet"
+      },
+      "spec_evidence": {
+        "Product": {
+          "value": "Total",
+          "source_url": "https://dareu.com/products/dareu-cool68",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-14",
+          "claim_type": "厂商标称"
+        },
+        "尺寸": {
+          "value": "329*111*44mm",
+          "source_url": "https://dareu.com/products/dareu-cool68",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-14",
+          "claim_type": "厂商标称"
+        },
+        "重量": {
+          "value": "740+/-50g",
+          "source_url": "https://dareu.com/products/dareu-cool68",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-14",
+          "claim_type": "厂商标称"
+        },
+        "轴体": {
+          "value": "Ice Blade & Shadow Blade 30% More Precision and Stability Pro-Level Magnetic Flux, Optimized by Esports Teams for Superior Control Shadow Blade Magnetic Switch N35 Permanent Magnet",
+          "source_url": "https://dareu.com/products/dareu-cool68",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-14",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_verified",
+        "confidence": 0.92,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 2,
+          "canonical_url": "https://dareu.com/products/dareu-cool68",
+          "page_language": "en",
+          "official_url": "https://dareu.com/products/dareu-cool68",
+          "source_priority": 110,
+          "sku": "",
+          "schema_brand": "Dareu",
+          "official_catalog_listing": false
+        },
+        "quality_gate_version": "1.3",
+        "needs_review": false
+      }
+    }
+  },
+  {
+    "quarantined_at": "2026-09-14",
+    "reason": "invalid_or_marketing_title",
+    "product": {
+      "brand": "EKSA",
+      "brand_zh_cn": "亿歌",
+      "name": "EKSA® Headset Upgraded Replaceable Microphone for E900 & E900 Pro",
+      "category": "耳机/耳麦",
+      "subcategory": "头戴式耳机",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "中国",
+      "market": "官网",
+      "first_seen": "2026-09-14",
+      "last_verified": "2026-09-14",
+      "last_checked": "2026-09-14",
+      "source": "https://www.eksa.net/products/e900-replaceable-noise-cancelling-microphonenew-update",
+      "image_url": "https://www.eksa.net/cdn/shop/products/EKSAE900HeadsetUpgradeReplaceableMicrophone_9a5e3324-0058-40c4-ad31-2152641b13fa.jpg?v=1623144662&width=1000",
+      "image_source": "https://www.eksa.net/products/e900-replaceable-noise-cancelling-microphonenew-update",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://www.eksa.net/products/e900-replaceable-noise-cancelling-microphonenew-update",
+          "tier": 110,
+          "checked_at": "2026-09-14",
+          "note": "new official product"
+        }
+      ],
+      "specs": {},
+      "spec_evidence": {},
+      "conflict": "",
+      "verification": {
+        "status": "official_discovered",
+        "confidence": 0.78,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://eksa.net/products/e900-replaceable-noise-cancelling-microphonenew-update",
+          "page_language": "en",
+          "official_url": "https://www.eksa.net/products/e900-replaceable-noise-cancelling-microphonenew-update",
+          "source_priority": 110,
+          "sku": "E900 Pro-Microphone*1",
+          "schema_brand": "EKSA",
+          "official_catalog_listing": true
+        },
+        "quality_gate_version": "1.3",
+        "needs_review": true
+      }
+    }
+  },
+  {
+    "quarantined_at": "2026-09-14",
+    "reason": "unsupported_or_accessory_product",
+    "product": {
+      "brand": "Machenike Official Store",
+      "brand_zh_cn": "Machenike Official Store",
+      "name": "KG87",
+      "category": "键盘",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "待确认",
+      "market": "官网",
+      "first_seen": "2026-09-14",
+      "last_verified": "2026-09-14",
+      "last_checked": "2026-09-14",
+      "source": "https://global.machenike.com/ms/products/kg87",
+      "image_url": "https://global.machenike.com/cdn/shop/files/7_70726db3-21d5-4d8c-a334-ff07b40b3fad.jpg?v=1755077843&width=1000",
+      "image_source": "https://global.machenike.com/ms/products/kg87",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://global.machenike.com/ms/products/kg87",
+          "tier": 110,
+          "checked_at": "2026-09-14",
+          "note": "new official product"
+        }
+      ],
+      "specs": {
+        "连接": "Wired/2.4G Connection/Bluetooth Driver: Yes Keyboard Standard: 98 Keys"
+      },
+      "spec_evidence": {
+        "连接": {
+          "value": "Wired/2.4G Connection/Bluetooth Driver: Yes Keyboard Standard: 98 Keys",
+          "source_url": "https://global.machenike.com/ms/products/kg87",
+          "source_type": "official_product",
+          "source_priority": 110,
+          "checked_at": "2026-09-14",
+          "claim_type": "厂商标称"
+        }
+      },
+      "conflict": "",
+      "verification": {
+        "status": "official_discovered",
+        "confidence": 0.78,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://global.machenike.com/ms/products/kg87",
+          "page_language": "ms",
+          "official_url": "https://global.machenike.com/ms/products/kg87",
+          "source_priority": 110,
+          "sku": "",
+          "schema_brand": "Machenike",
+          "official_catalog_listing": false
+        },
+        "quality_gate_version": "1.3",
+        "needs_review": true
+      }
+    }
   }
 ]
