@@ -54,6 +54,20 @@ BAD_BRAND_TERMS = (
 PRODUCT_KIND_TERMS = (
     "mouse", "mice", "鼠标", "keyboard", "键盘", "keypad", "headset",
     "headphone", "earphone", "earbud", "earclip", "耳机", "耳麦",
+    # 音箱/音响
+    "speaker", "soundbar", "subwoofer", "音箱", "音响", "低音炮", "sound box",
+    # 手柄
+    "gamepad", "controller", "joystick", "手柄",
+    # 鼠标垫
+    "mousepad", "mouse pad", "mousemat", "desk pad", "鼠标垫", "桌垫",
+    # 声卡
+    "sound card", "soundcard", "audio interface", "dac", "声卡", "解码器",
+    # 航插线
+    "aviation", "航插", "gx12", "gx16",
+    # 收纳包
+    "carrying bag", "storage bag", "收纳包", "收纳袋", "收纳盒",
+    # 麦克风
+    "microphone", "麦克风", "话筒", "mic ",
 )
 
 MODEL_STOP_WORDS = {
