@@ -236,7 +236,9 @@ def main():
                         "specs": {},
                         "verification": {"status": "pending", "needs_review": True,
                                          "confidence": 0.7, "source_count": 1,
-                                         "quality_gate_version": "1.3-catalog"},
+                                         "quality_gate_version": "catalog-1.3.0",
+                                         "evidence": {"official_catalog_listing": True,
+                                                      "catalog_url": u}},
                     }
                     if args.list:
                         print(f"       - {name} [{cat}]")
