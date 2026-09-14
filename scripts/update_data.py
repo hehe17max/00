@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 import json, re, datetime, os, hashlib, time, html
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
@@ -334,8 +334,16 @@ def merge(p,new,url,review,evidence,preference="cn_official",domains=()):
             if not any(x.get("brand")==item["brand"] and x.get("name")==item["name"] and x.get("field")==k and x.get("new_value")==v for x in review):
                 review.append(item)
             if resolution=="pending_review": ver["status"]="conflict"
-    ver["evidence"]=evidence
-    ver["quality_gate_version"]="1.3"
+    # Keep trusted-source exemption marks (official-store catalog / marketplace
+    # listing imports). Overwriting them would flip audit's is_auto heuristic
+    # and re-quarantine real products whose names carry no kind word.
+    trusted_mark = bool(
+        (ver.get("evidence") or {}).get("official_catalog_listing")
+        or (ver.get("evidence") or {}).get("marketplace_listing")
+    )
+    if not trusted_mark:
+        ver["evidence"]=evidence
+        ver["quality_gate_version"]="1.3"
     published_fields={k:v for k,v in old.items() if v not in (None,"","—","待补参数")}
     fully_evidenced=bool(published_fields) and all(
         field_evidence.get(k,{}).get("value")==v and field_evidence.get(k,{}).get("source_url")
