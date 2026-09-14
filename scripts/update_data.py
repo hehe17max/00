@@ -35,8 +35,8 @@ else:
 
 session=requests.Session()
 session.headers["User-Agent"]="Mozilla/5.0 (compatible; PeripheralDB/1.0.1)"
-PATH_HINTS=("/products/","/product/","/gaming-mice/","/gaming-keyboards/","/gaming-headsets/","/mouse/","/keyboard/","/headset/")
-BAD_HINTS=("/blog/","/news/","/pages/","/collections/","/category/","/support/","/download/","/login","/cart")
+PATH_HINTS=("/products/","/product/","/gaming-mice/","/gaming-keyboards/","/gaming-headsets/","/mouse/","/keyboard/","/headset/","/accessories/","/earphone/","/speaker/","/controller/","/gamepad/")
+BAD_HINTS=("/blog/","/news/","/pages/","/collections/","/category/","/support/","/download/","/login","/cart","/about","/contact","/store-locator","/warranty")
 
 INLINE_SPEC_LABELS = {
     "型号": ("model", "product model", "型号"),
