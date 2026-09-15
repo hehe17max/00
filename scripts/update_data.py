@@ -31,7 +31,7 @@ else:
     MAX_SHOPIFY_PAGES=2
     MAX_DISCOVERY_URLS_PER_BRAND=28
     MAX_NEW_PAGE_PARSES_PER_BRAND=12
-    MAX_RECHECKS,RECHECK_DAYS=45,10
+    MAX_RECHECKS,RECHECK_DAYS=150,10
 
 session=requests.Session()
 session.headers["User-Agent"]="Mozilla/5.0 (compatible; PeripheralDB/1.0.1)"
