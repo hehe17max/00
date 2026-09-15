@@ -2,20 +2,26 @@
   "date": "2026-09-15",
   "provider": "ddgs",
   "queries": [
-    "gaming earbuds brand official site",
-    "keyboard switch manufacturer official website",
-    "hall effect keyboard manufacturers official website",
-    "gaming controller brand official website",
-    "国产 客制化键盘 品牌 官网",
-    "中国 游戏外设 新锐品牌 官网",
-    "国产 透明键盘 品牌 官网",
-    "中国 电竞耳机 品牌 官方网站"
+    "佳达隆 Gateron 轴体 官网",
+    "TTC 正牌科电 轴体 官网",
+    "高特 Outemu 轴体 官网",
+    "环诺 Huano 微动 官网",
+    "KBDfans 客制化 官网",
+    "游戏手柄 品牌 官网",
+    "鼠标垫 品牌 官网",
+    "声卡 DAC 品牌 官网"
   ],
-  "results_scanned": 81,
-  "candidate_sites_checked": 36,
-  "new_candidates": 3,
+  "results_scanned": 68,
+  "candidate_sites_checked": 28,
+  "new_candidates": 2,
   "auto_promoted": 0,
   "approved_promoted": 0,
   "rejected_skipped": 0,
-  "errors": []
+  "errors": [
+    {
+      "stage": "ddgs",
+      "query": "鼠标垫 品牌 官网",
+      "error": "error sending request for url (https://www.mojeek.com/search?q=%E9%BC%A0%E6%A0%87%E5%9E%AB+%E5%93%81%E7%89%8C+%E5%AE%98%E7%BD%91) > operation timed out"
+    }
+  ]
 }
