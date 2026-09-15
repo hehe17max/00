@@ -203,12 +203,25 @@ def product_name_ok(name):
     return True
 
 
+# Category / marketing words removed from identity so a CN store title
+# ("RS6 Air磁轴键盘") matches the official EN page title ("RS6 Air").
+_ZH_KIND_WORDS = (
+    "键盘", "鼠标", "耳机", "耳麦", "音箱", "音响", "手柄", "配件", "鼠标垫",
+    "声卡", "航插", "收纳包", "磁轴", "机械", "无线", "蓝牙", "电竞", "游戏",
+    "套装", "旗舰店", "官方", "专业版", "标准版", "增强版", "青春版", "大师版",
+    "系列", "无线充", "充电", "接收器", "套装", "版",
+    "头戴式", "入耳式", "开放式", "颈挂式", "真无线", "半入耳", "夹耳式",
+    "骨传导", "降噪", "主动降噪", "高音质", "超长续航", "电竞级", "旗舰", "款",
+)
+
 def product_identity(brand, name):
     """Stable identity used to merge a concise legacy row with a store title."""
     value = clean(html.unescape(clean(name))).casefold()
     brand_value = clean(brand).casefold()
     if brand_value:
         value = re.sub(rf"(?<![\w]){re.escape(brand_value)}(?![\w])", " ", value)
+    for w in _ZH_KIND_WORDS:
+        value = value.replace(w, "")
     return re.sub(r"[^a-z0-9\u4e00-\u9fff]+", "", value)
 
 
