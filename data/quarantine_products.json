@@ -72225,5 +72225,315 @@
       "brand_zh_cn": "iKF",
       "spec_evidence": {}
     }
+  },
+  {
+    "quarantined_at": "2026-09-15",
+    "reason": "unsupported_or_accessory_product",
+    "product": {
+      "brand": "Corsair",
+      "name": "K70 MAX",
+      "category": "键盘",
+      "subcategory": "磁轴游戏键盘",
+      "status": "在售/官方支持页有效",
+      "verified": "官方来源",
+      "source": "https://help.corsair.com/hc/en-us/articles/18175045128205-K70-MAX-Specifications",
+      "specs": {
+        "配列": "全尺寸",
+        "轴体": "Corsair MGX 磁轴",
+        "触发行程": "0.4–3.6mm 可调，0.1mm 步进",
+        "总行程": "4.0mm",
+        "触发压力": "45g",
+        "回报率": "最高 8000Hz",
+        "连接": "USB 有线",
+        "键帽": "PBT 二色注塑 / 部分地区 PC",
+        "热插拔": "未标注",
+        "全键无冲": "NKRO",
+        "机身": "铝合金",
+        "重量": "1.39kg",
+        "尺寸": "442 × 166 × 39.2mm",
+        "软件": "CORSAIR iCUE",
+        "板载存储": "8MB / 最多约50配置",
+        "Form-Factor": "Full-Size",
+        "Chassis": "Aluminum, Space Gray, Bead Blasted",
+        "Key Switches": "Corsair MGX, Magnetic Linear 45g actuation force Actuation point is adjustable from 0.4mm-3.6mm in 0.1mm increments. Default actuation point is 2.0mm 4.0mm total travel",
+        "Backlighting": "Individually LED lit and per-key programmable",
+        "LED Color": "RGB, 16.8 million colors",
+        "Keycaps": "Available Keycaps vary by regional layout SKU: PBT double-shot keycap set, 1.5mm thick, backlight compatible Polycarbonate keycap set, backlight compatible",
+        "Matrix": "Full key rollover (NKRO) with 100% anti-ghosting",
+        "Wired Connectivity": "USB 3.0 Type-A",
+        "USB Report Rate": "Up to 8,000Hz hyper-polling with CORSAIR AXON",
+        "Onboard Memory": "8MB",
+        "Onboard Profiles": "Up to 50 (depending on complexity)",
+        "Onboard Lighting": "Up to 20 Layers of lighting effects with CORSAIR AXON",
+        "Volume Control": "Multi-function roller with mute button",
+        "Media Keys": "Stop, Previous Track, Play/Pause, Next Track Buttons",
+        "Profile Key": "Dedicated Button",
+        "Brightness Key": "Dedicated Button",
+        "Windows Lock Key": "Dedicated Button",
+        "Adjustable Height": "Yes",
+        "Device Compatibility": "Windows PC, Apple Mac, Xbox One, Xbox Series X|S, Playstation 4, Playstation 5",
+        "iCUE (Software)": "Supported in Windows 10, 11, and macOS 10.15+",
+        "Cable": "1.82m/ 6ft, USB Type-C to Type-A, detachable, braided fiber",
+        "Dimensions": "442(L) x 166(W) x 39.2(H) mm / 17.4(L) x 6.54(W) x 1.54(H) in",
+        "Weight": "1.39 KG / 3.06 lbs",
+        "Feature": "Description"
+      },
+      "origin": "海外",
+      "market": "全球/官网",
+      "last_verified": "2026-09-09",
+      "schema_fields": [
+        "配列",
+        "轴体",
+        "轴体类型",
+        "磁轴方案",
+        "Rapid Trigger",
+        "RT精度",
+        "触发行程",
+        "总行程",
+        "触发压力",
+        "回报率",
+        "扫描率",
+        "延迟",
+        "连接",
+        "热插拔",
+        "键帽",
+        "定位板",
+        "结构",
+        "机身",
+        "全键无冲",
+        "灯光",
+        "电池",
+        "续航",
+        "尺寸",
+        "重量",
+        "软件",
+        "板载存储"
+      ],
+      "image_url": "https://help.corsair.com/hc/theming_assets/01KWFMBCV84N57YP014HN4P1S9",
+      "image_source": "https://help.corsair.com/hc/en-us/articles/18175045128205-K70-MAX-Specifications",
+      "first_seen": "2026-09-09",
+      "last_checked": "2026-09-15",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://help.corsair.com/hc/en-us/articles/18175045128205-K70-MAX-Specifications",
+          "tier": 120,
+          "checked_at": "2026-09-15",
+          "note": "现有数据库官方来源"
+        }
+      ],
+      "verification": {
+        "status": "official_discovered",
+        "confidence": 0.7,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": false,
+          "product_schema_count": 0,
+          "canonical_url": "https://help.corsair.com/hc/en-us/articles/18175045128205-K70-MAX-Specifications",
+          "page_language": "en-US",
+          "official_url": "https://help.corsair.com/hc/en-us/articles/18175045128205-K70-MAX-Specifications",
+          "source_priority": 120
+        },
+        "quality_gate_version": "1.3",
+        "needs_review": true,
+        "restored_from_quarantine": true
+      },
+      "brand_zh_cn": "美商海盗船",
+      "spec_evidence": {
+        "Form-Factor": {
+          "value": "Full-Size",
+          "source_url": "https://help.corsair.com/hc/en-us/articles/18175045128205-K70-MAX-Specifications",
+          "source_type": "official_product",
+          "source_priority": 120,
+          "checked_at": "2026-09-15",
+          "claim_type": "厂商标称"
+        },
+        "Chassis": {
+          "value": "Aluminum, Space Gray, Bead Blasted",
+          "source_url": "https://help.corsair.com/hc/en-us/articles/18175045128205-K70-MAX-Specifications",
+          "source_type": "official_product",
+          "source_priority": 120,
+          "checked_at": "2026-09-15",
+          "claim_type": "厂商标称"
+        },
+        "Key Switches": {
+          "value": "Corsair MGX, Magnetic Linear 45g actuation force Actuation point is adjustable from 0.4mm-3.6mm in 0.1mm increments. Default actuation point is 2.0mm 4.0mm total travel",
+          "source_url": "https://help.corsair.com/hc/en-us/articles/18175045128205-K70-MAX-Specifications",
+          "source_type": "official_product",
+          "source_priority": 120,
+          "checked_at": "2026-09-15",
+          "claim_type": "厂商标称"
+        },
+        "Backlighting": {
+          "value": "Individually LED lit and per-key programmable",
+          "source_url": "https://help.corsair.com/hc/en-us/articles/18175045128205-K70-MAX-Specifications",
+          "source_type": "official_product",
+          "source_priority": 120,
+          "checked_at": "2026-09-15",
+          "claim_type": "厂商标称"
+        },
+        "LED Color": {
+          "value": "RGB, 16.8 million colors",
+          "source_url": "https://help.corsair.com/hc/en-us/articles/18175045128205-K70-MAX-Specifications",
+          "source_type": "official_product",
+          "source_priority": 120,
+          "checked_at": "2026-09-15",
+          "claim_type": "厂商标称"
+        },
+        "Keycaps": {
+          "value": "Available Keycaps vary by regional layout SKU: PBT double-shot keycap set, 1.5mm thick, backlight compatible Polycarbonate keycap set, backlight compatible",
+          "source_url": "https://help.corsair.com/hc/en-us/articles/18175045128205-K70-MAX-Specifications",
+          "source_type": "official_product",
+          "source_priority": 120,
+          "checked_at": "2026-09-15",
+          "claim_type": "厂商标称"
+        },
+        "Matrix": {
+          "value": "Full key rollover (NKRO) with 100% anti-ghosting",
+          "source_url": "https://help.corsair.com/hc/en-us/articles/18175045128205-K70-MAX-Specifications",
+          "source_type": "official_product",
+          "source_priority": 120,
+          "checked_at": "2026-09-15",
+          "claim_type": "厂商标称"
+        },
+        "Wired Connectivity": {
+          "value": "USB 3.0 Type-A",
+          "source_url": "https://help.corsair.com/hc/en-us/articles/18175045128205-K70-MAX-Specifications",
+          "source_type": "official_product",
+          "source_priority": 120,
+          "checked_at": "2026-09-15",
+          "claim_type": "厂商标称"
+        },
+        "USB Report Rate": {
+          "value": "Up to 8,000Hz hyper-polling with CORSAIR AXON",
+          "source_url": "https://help.corsair.com/hc/en-us/articles/18175045128205-K70-MAX-Specifications",
+          "source_type": "official_product",
+          "source_priority": 120,
+          "checked_at": "2026-09-15",
+          "claim_type": "厂商标称"
+        },
+        "Onboard Memory": {
+          "value": "8MB",
+          "source_url": "https://help.corsair.com/hc/en-us/articles/18175045128205-K70-MAX-Specifications",
+          "source_type": "official_product",
+          "source_priority": 120,
+          "checked_at": "2026-09-15",
+          "claim_type": "厂商标称"
+        },
+        "Onboard Profiles": {
+          "value": "Up to 50 (depending on complexity)",
+          "source_url": "https://help.corsair.com/hc/en-us/articles/18175045128205-K70-MAX-Specifications",
+          "source_type": "official_product",
+          "source_priority": 120,
+          "checked_at": "2026-09-15",
+          "claim_type": "厂商标称"
+        },
+        "Onboard Lighting": {
+          "value": "Up to 20 Layers of lighting effects with CORSAIR AXON",
+          "source_url": "https://help.corsair.com/hc/en-us/articles/18175045128205-K70-MAX-Specifications",
+          "source_type": "official_product",
+          "source_priority": 120,
+          "checked_at": "2026-09-15",
+          "claim_type": "厂商标称"
+        },
+        "Volume Control": {
+          "value": "Multi-function roller with mute button",
+          "source_url": "https://help.corsair.com/hc/en-us/articles/18175045128205-K70-MAX-Specifications",
+          "source_type": "official_product",
+          "source_priority": 120,
+          "checked_at": "2026-09-15",
+          "claim_type": "厂商标称"
+        },
+        "Media Keys": {
+          "value": "Stop, Previous Track, Play/Pause, Next Track Buttons",
+          "source_url": "https://help.corsair.com/hc/en-us/articles/18175045128205-K70-MAX-Specifications",
+          "source_type": "official_product",
+          "source_priority": 120,
+          "checked_at": "2026-09-15",
+          "claim_type": "厂商标称"
+        },
+        "Profile Key": {
+          "value": "Dedicated Button",
+          "source_url": "https://help.corsair.com/hc/en-us/articles/18175045128205-K70-MAX-Specifications",
+          "source_type": "official_product",
+          "source_priority": 120,
+          "checked_at": "2026-09-15",
+          "claim_type": "厂商标称"
+        },
+        "Brightness Key": {
+          "value": "Dedicated Button",
+          "source_url": "https://help.corsair.com/hc/en-us/articles/18175045128205-K70-MAX-Specifications",
+          "source_type": "official_product",
+          "source_priority": 120,
+          "checked_at": "2026-09-15",
+          "claim_type": "厂商标称"
+        },
+        "Windows Lock Key": {
+          "value": "Dedicated Button",
+          "source_url": "https://help.corsair.com/hc/en-us/articles/18175045128205-K70-MAX-Specifications",
+          "source_type": "official_product",
+          "source_priority": 120,
+          "checked_at": "2026-09-15",
+          "claim_type": "厂商标称"
+        },
+        "Adjustable Height": {
+          "value": "Yes",
+          "source_url": "https://help.corsair.com/hc/en-us/articles/18175045128205-K70-MAX-Specifications",
+          "source_type": "official_product",
+          "source_priority": 120,
+          "checked_at": "2026-09-15",
+          "claim_type": "厂商标称"
+        },
+        "Device Compatibility": {
+          "value": "Windows PC, Apple Mac, Xbox One, Xbox Series X|S, Playstation 4, Playstation 5",
+          "source_url": "https://help.corsair.com/hc/en-us/articles/18175045128205-K70-MAX-Specifications",
+          "source_type": "official_product",
+          "source_priority": 120,
+          "checked_at": "2026-09-15",
+          "claim_type": "厂商标称"
+        },
+        "iCUE (Software)": {
+          "value": "Supported in Windows 10, 11, and macOS 10.15+",
+          "source_url": "https://help.corsair.com/hc/en-us/articles/18175045128205-K70-MAX-Specifications",
+          "source_type": "official_product",
+          "source_priority": 120,
+          "checked_at": "2026-09-15",
+          "claim_type": "厂商标称"
+        },
+        "Cable": {
+          "value": "1.82m/ 6ft, USB Type-C to Type-A, detachable, braided fiber",
+          "source_url": "https://help.corsair.com/hc/en-us/articles/18175045128205-K70-MAX-Specifications",
+          "source_type": "official_product",
+          "source_priority": 120,
+          "checked_at": "2026-09-15",
+          "claim_type": "厂商标称"
+        },
+        "Dimensions": {
+          "value": "442(L) x 166(W) x 39.2(H) mm / 17.4(L) x 6.54(W) x 1.54(H) in",
+          "source_url": "https://help.corsair.com/hc/en-us/articles/18175045128205-K70-MAX-Specifications",
+          "source_type": "official_product",
+          "source_priority": 120,
+          "checked_at": "2026-09-15",
+          "claim_type": "厂商标称"
+        },
+        "Weight": {
+          "value": "1.39 KG / 3.06 lbs",
+          "source_url": "https://help.corsair.com/hc/en-us/articles/18175045128205-K70-MAX-Specifications",
+          "source_type": "official_product",
+          "source_priority": 120,
+          "checked_at": "2026-09-15",
+          "claim_type": "厂商标称"
+        },
+        "Feature": {
+          "value": "Description",
+          "source_url": "https://help.corsair.com/hc/en-us/articles/18175045128205-K70-MAX-Specifications",
+          "source_type": "official_product",
+          "source_priority": 120,
+          "checked_at": "2026-09-15",
+          "claim_type": "厂商标称"
+        }
+      }
+    }
   }
 ]
