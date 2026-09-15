@@ -72139,5 +72139,91 @@
         "needs_review": true
       }
     }
+  },
+  {
+    "quarantined_at": "2026-09-15",
+    "reason": "unsupported_or_accessory_product",
+    "product": {
+      "brand": "iKF",
+      "name": "Moon Pro",
+      "category": "耳机/耳麦",
+      "subcategory": "睡眠",
+      "status": "在售/历史状态待核实",
+      "verified": "官方来源",
+      "source": "https://ikfaudio.com/collections/night-waves",
+      "specs": {
+        "驱动单元": "5mm",
+        "蓝牙/无线": "5.3",
+        "编码": "—",
+        "电池": "—",
+        "续航": "约8h / 总30h",
+        "降噪": "被动隔音",
+        "延迟": "—",
+        "APP/软件": "支持",
+        "多设备": "未核实/不支持",
+        "有线连接": "无",
+        "原分类": "睡眠"
+      },
+      "conflict": "",
+      "origin": "中国",
+      "market": "全球/官网",
+      "last_verified": "2026-09-09",
+      "schema_fields": [
+        "驱动单元",
+        "驱动类型",
+        "频响",
+        "蓝牙/无线",
+        "连接",
+        "编码",
+        "采样率",
+        "位深",
+        "降噪",
+        "延迟",
+        "麦克风",
+        "麦克风数量",
+        "续航",
+        "电池",
+        "充电时间",
+        "无线距离",
+        "重量",
+        "有线连接",
+        "虚拟环绕",
+        "APP/软件",
+        "多设备",
+        "兼容平台"
+      ],
+      "image_url": "https://ikfaudio.com/cdn/shop/collections/Night-Waves.jpg?v=1779181533",
+      "image_source": "https://ikfaudio.com/collections/night-waves",
+      "first_seen": "2026-09-09",
+      "last_checked": "2026-09-15",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://ikfaudio.com/collections/night-waves",
+          "tier": 110,
+          "checked_at": "2026-09-15",
+          "note": "现有数据库官方来源"
+        }
+      ],
+      "verification": {
+        "status": "official_discovered",
+        "confidence": 0.7,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": false,
+          "product_schema_count": 0,
+          "canonical_url": "https://ikfaudio.com/collections/night-waves",
+          "page_language": "en",
+          "official_url": "https://ikfaudio.com/collections/night-waves",
+          "source_priority": 110
+        },
+        "quality_gate_version": "1.3",
+        "needs_review": true,
+        "restored_from_quarantine": true
+      },
+      "brand_zh_cn": "iKF",
+      "spec_evidence": {}
+    }
   }
 ]
