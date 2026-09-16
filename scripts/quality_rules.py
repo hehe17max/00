@@ -58,6 +58,8 @@ PRODUCT_KIND_TERMS = (
     "speaker", "soundbar", "subwoofer", "音箱", "音响", "低音炮", "sound box",
     # 手柄
     "gamepad", "controller", "joystick", "手柄",
+    # 键鼠/套装（雷柏等品牌中文名"XX键鼠套装"不含"键盘/鼠标"子串）
+    "键鼠套装", "键鼠",
     # 鼠标垫
     "mousepad", "mouse pad", "mousemat", "desk pad", "鼠标垫", "桌垫",
     # 声卡
