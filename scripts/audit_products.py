@@ -158,7 +158,8 @@ def main():
         schema_evidenced = bool(
             (product.get("verification", {}).get("evidence") or {}).get("product_schema")
         )
-        if is_auto and not already_audited and not official_catalog_listing and not schema_evidenced and not supported_product(raw_name, product.get("source", "")):
+        has_specs = bool(meaningful_specs(product))
+        if is_auto and not already_audited and not official_catalog_listing and not schema_evidenced and not has_specs and not supported_product(raw_name, product.get("source", "")):
             quarantined.append((product, "unsupported_or_accessory_product"))
             continue
         new_name = concise_product_name(brand, raw_name, product.get("source", "")) if is_auto else raw_name
