@@ -81942,5 +81942,57 @@
         "needs_review": true
       }
     }
+  },
+  {
+    "quarantined_at": "2026-09-17",
+    "reason": "invalid_or_marketing_title",
+    "product": {
+      "brand": "Glorious",
+      "brand_zh_cn": "Glorious",
+      "name": "D",
+      "category": "鼠标",
+      "subcategory": "自动发现",
+      "status": "官网产品页已确认/参数待复核",
+      "verified": "官方页面自动发现",
+      "origin": "海外",
+      "market": "官网",
+      "first_seen": "2026-09-17",
+      "last_verified": "2026-09-17",
+      "last_checked": "2026-09-17",
+      "source": "https://www.gloriousgaming.com/en-de/products/d-wireless-mouse-pad",
+      "image_url": "https://www.gloriousgaming.com/cdn/shop/files/EMEA-Model-D-Bundle_Web_Gallery_1_2x_a1d285b6-2d8c-4bb5-8e2d-8d8306d93984.webp?v=1761573194&width=1920",
+      "image_source": "https://www.gloriousgaming.com/en-de/products/d-wireless-mouse-pad",
+      "sources": [
+        {
+          "type": "official_product",
+          "url": "https://www.gloriousgaming.com/en-de/products/d-wireless-mouse-pad",
+          "tier": 110,
+          "checked_at": "2026-09-17",
+          "note": "new official product"
+        }
+      ],
+      "specs": {},
+      "spec_evidence": {},
+      "conflict": "",
+      "verification": {
+        "status": "official_discovered",
+        "confidence": 0.78,
+        "source_count": 1,
+        "conflicts": [],
+        "evidence": {
+          "product_schema": true,
+          "product_schema_count": 1,
+          "canonical_url": "https://gloriousgaming.com/en-de/products/d-wireless-mouse-pad",
+          "page_language": "en",
+          "official_url": "https://www.gloriousgaming.com/en-de/products/d-wireless-mouse-pad",
+          "source_priority": 110,
+          "sku": "",
+          "schema_brand": "Glorious",
+          "official_catalog_listing": false
+        },
+        "quality_gate_version": "1.3",
+        "needs_review": true
+      }
+    }
   }
 ]
