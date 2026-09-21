@@ -2505,6 +2505,34 @@
       "sitemap_urls": []
     },
     {
+      "brand": "Contour Design",
+      "brand_zh_cn": "Contour Design",
+      "brand_zh_cn_status": "pending_human_verification",
+      "origin": "待确认",
+      "source_preference": "cn_web",
+      "preferred_locale": "en",
+      "domains": [
+        "contourdesign.com"
+      ],
+      "collection_urls": [
+        "https://www.contourdesign.com",
+        "https://www.contourdesign.com/collection/contour-rollermouse",
+        "https://www.contourdesign.com/collection/contour-unimouse",
+        "https://www.contourdesign.com/collection/contour-slidermouse"
+      ],
+      "discovery": [
+        "configured_pages",
+        "sitemap",
+        "shopify_products_json"
+      ],
+      "sitemap_urls": [
+        "https://www.contourdesign.com/sitemap.xml"
+      ],
+      "auto_discovered": true,
+      "discovered_at": "2026-09-21",
+      "discovery_score": 96
+    },
+    {
       "brand": "Cooler Master",
       "brand_zh_cn": "Cooler Master",
       "origin": "海外",
@@ -4188,34 +4216,6 @@
         "shopify_products_json"
       ],
       "sitemap_urls": []
-    },
-    {
-      "brand": "Contour Design",
-      "brand_zh_cn": "Contour Design",
-      "brand_zh_cn_status": "pending_human_verification",
-      "origin": "待确认",
-      "source_preference": "cn_web",
-      "preferred_locale": "en",
-      "domains": [
-        "contourdesign.com"
-      ],
-      "collection_urls": [
-        "https://www.contourdesign.com",
-        "https://www.contourdesign.com/collection/contour-rollermouse",
-        "https://www.contourdesign.com/collection/contour-unimouse",
-        "https://www.contourdesign.com/collection/contour-slidermouse"
-      ],
-      "discovery": [
-        "configured_pages",
-        "sitemap",
-        "shopify_products_json"
-      ],
-      "sitemap_urls": [
-        "https://www.contourdesign.com/sitemap.xml"
-      ],
-      "auto_discovered": true,
-      "discovered_at": "2026-09-21",
-      "discovery_score": 96
     }
   ],
   "schema_version": "1.2",
