@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-21",
+  "date": "2026-09-22",
   "provider": "ddgs",
   "queries": [
     "ergonomic keyboard brand official website",
@@ -11,11 +11,17 @@
     "国产 客制化键盘 品牌 官网",
     "中国 游戏外设 新锐品牌 官网"
   ],
-  "results_scanned": 91,
+  "results_scanned": 84,
   "candidate_sites_checked": 36,
   "new_candidates": 0,
   "auto_promoted": 0,
   "approved_promoted": 0,
   "rejected_skipped": 0,
-  "errors": []
+  "errors": [
+    {
+      "stage": "ddgs",
+      "query": "中国 游戏外设 新锐品牌 官网",
+      "error": "No results found."
+    }
+  ]
 }
