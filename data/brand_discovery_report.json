@@ -2,20 +2,31 @@
   "date": "2026-09-23",
   "provider": "ddgs",
   "queries": [
-    "凯华 Kailh 轴体 官网",
-    "佳达隆 Gateron 轴体 官网",
-    "TTC 正牌科电 轴体 官网",
-    "高特 Outemu 轴体 官网",
-    "环诺 Huano 微动 官网",
     "KBDfans 客制化 官网",
     "游戏手柄 品牌 官网",
-    "鼠标垫 品牌 官网"
+    "鼠标垫 品牌 官网",
+    "声卡 DAC 品牌 官网",
+    "航插线 客制化 键盘 品牌",
+    "外设 收纳包 品牌 官网",
+    "中国 电竞外设 新品牌 鼠标 键盘 官方网站",
+    "国产 游戏鼠标 品牌 官网"
   ],
-  "results_scanned": 69,
-  "candidate_sites_checked": 26,
+  "results_scanned": 57,
+  "candidate_sites_checked": 24,
   "new_candidates": 0,
   "auto_promoted": 0,
   "approved_promoted": 0,
   "rejected_skipped": 0,
-  "errors": []
+  "errors": [
+    {
+      "stage": "ddgs",
+      "query": "中国 电竞外设 新品牌 鼠标 键盘 官方网站",
+      "error": "No results found."
+    },
+    {
+      "stage": "ddgs",
+      "query": "国产 游戏鼠标 品牌 官网",
+      "error": "No results found."
+    }
+  ]
 }
