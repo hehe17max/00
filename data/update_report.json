@@ -2,51 +2,36 @@
   "date": "2026-09-24",
   "mode": "fast",
   "discovered": 1,
-  "updated": 105,
+  "updated": 87,
   "images_added": 1,
-  "rechecked": 118,
-  "conflicts_before": 820,
-  "conflicts": 1,
+  "rechecked": 117,
+  "conflicts_before": 821,
+  "conflicts": 0,
   "errors": [
-    {
-      "brand": "1MORE",
-      "url": "https://usa.1more.com/products/1more-sonoflow-pro-noise-cancelling-headphones",
-      "error": "404 Client Error: Not Found for url: https://usa.1more.com/products/1more-sonoflow-pro-wireless-anc-over-ear-headphones"
-    },
     {
       "brand": "1MORE",
       "url": "https://usa.1more.com/products/1more-pixie-mini-wireless-microphone",
       "error": "404 Client Error: Not Found for url: https://usa.1more.com/products/1more-pixie-mini-wireless-microphone"
     },
     {
-      "brand": "Rapoo",
-      "url": "https://www.rapoo.cn/product/633",
-      "error": "404 Client Error: Not Found for url: https://www.rapoo.cn/product/633"
+      "brand": "1MORE",
+      "url": "https://usa.1more.com/products/1more-sonoflow-pro-noise-cancelling-headphones",
+      "error": "404 Client Error: Not Found for url: https://usa.1more.com/products/1more-sonoflow-pro-wireless-anc-over-ear-headphones"
+    },
+    {
+      "brand": "MCHOSE",
+      "url": "https://www.mchose.store/products/mchose-k99-v2-wireless-gasket-mount-mechanical-keyboard",
+      "error": "404 Client Error: Not Found for url: https://www.mchose.store/products/mchose-k99-v2-wireless-gasket-mount-mechanical-ke"
     },
     {
       "brand": "Rapoo",
-      "url": "https://www.rapoo.cn/product/145",
-      "error": "404 Client Error: Not Found for url: https://www.rapoo.cn/product/145"
+      "url": "https://www.rapoo.cn/product/686",
+      "error": "404 Client Error: Not Found for url: https://www.rapoo.cn/product/686"
     },
     {
       "brand": "Rapoo",
-      "url": "https://www.rapoo.cn/product/631",
-      "error": "404 Client Error: Not Found for url: https://www.rapoo.cn/product/631"
-    },
-    {
-      "brand": "Rapoo",
-      "url": "https://www.rapoo.cn/product/712",
-      "error": "404 Client Error: Not Found for url: https://www.rapoo.cn/product/712"
-    },
-    {
-      "brand": "Rapoo",
-      "url": "https://www.rapoo.cn/product/606",
-      "error": "404 Client Error: Not Found for url: https://www.rapoo.cn/product/606"
-    },
-    {
-      "brand": "Rapoo",
-      "url": "https://www.rapoo.cn/product/602",
-      "error": "404 Client Error: Not Found for url: https://www.rapoo.cn/product/602"
+      "url": "https://www.rapoo.cn/product/708",
+      "error": "404 Client Error: Not Found for url: https://www.rapoo.cn/product/708"
     },
     {
       "brand": "Rapoo",
@@ -55,8 +40,8 @@
     },
     {
       "brand": "Rapoo",
-      "url": "https://www.rapoo.cn/product/580",
-      "error": "404 Client Error: Not Found for url: https://www.rapoo.cn/product/580"
+      "url": "https://www.rapoo.cn/product/688",
+      "error": "404 Client Error: Not Found for url: https://www.rapoo.cn/product/688"
     },
     {
       "brand": "Rapoo",
@@ -65,8 +50,33 @@
     },
     {
       "brand": "Rapoo",
-      "url": "https://www.rapoo.cn/product/678",
-      "error": "404 Client Error: Not Found for url: https://www.rapoo.cn/product/678"
+      "url": "https://www.rapoo.cn/product/20",
+      "error": "404 Client Error: Not Found for url: https://www.rapoo.cn/product/20"
+    },
+    {
+      "brand": "Rapoo",
+      "url": "https://www.rapoo.cn/product/604",
+      "error": "404 Client Error: Not Found for url: https://www.rapoo.cn/product/604"
+    },
+    {
+      "brand": "Rapoo",
+      "url": "https://www.rapoo.cn/product/633",
+      "error": "404 Client Error: Not Found for url: https://www.rapoo.cn/product/633"
+    },
+    {
+      "brand": "Rapoo",
+      "url": "https://www.rapoo.cn/product/712",
+      "error": "404 Client Error: Not Found for url: https://www.rapoo.cn/product/712"
+    },
+    {
+      "brand": "Keychron",
+      "url": "https://www.keychron.com/products/keychron-tech-special-product-for-cn",
+      "error": "404 Client Error: Not Found for url: https://www.keychron.com/products/keychron-tech-special-product-for-cn"
+    },
+    {
+      "brand": "Razer",
+      "url": "https://www.razer.com/hk-en/gaming-mice/razer-viper-v3-pro/RZ01-05120200-R3A1",
+      "error": "HTTPSConnectionPool(host='www.razer.com', port=443): Read timed out. (read timeout=8)"
     },
     {
       "product": "ATK ATK A87 Ultra键盘",
@@ -195,6 +205,10 @@
     {
       "product": "EWEADN ALPHA 7",
       "error": "404 Client Error: Not Found for url: https://www.eweadn.com/products/eweadn-x-exx-alpha-7-gaming-mouse"
+    },
+    {
+      "product": "EWEADN X EXX Gamma75",
+      "error": "404 Client Error: Not Found for url: https://www.eweadn.com/products/eweadn-x-exx-gamma75-magnetic-switch-keyboard"
     }
   ],
   "brand_stats": {
@@ -202,9 +216,9 @@
       "found": 57,
       "subset": 28,
       "new": 0,
-      "updated": 6,
+      "updated": 5,
       "images": 0,
-      "seconds": 10.5
+      "seconds": 10.8
     },
     "1stPlayer": {
       "found": 0,
@@ -252,7 +266,7 @@
       "new": 0,
       "updated": 0,
       "images": 0,
-      "seconds": 3.2
+      "seconds": 2.4
     },
     "Angry Miao": {
       "found": 0,
@@ -284,15 +298,15 @@
       "new": 0,
       "updated": 0,
       "images": 0,
-      "seconds": 5.4
+      "seconds": 7.7
     },
     "ATTACK SHARK": {
       "found": 186,
       "subset": 28,
       "new": 0,
-      "updated": 0,
+      "updated": 1,
       "images": 0,
-      "seconds": 22.8
+      "seconds": 22.1
     },
     "AULA": {
       "found": 8,
@@ -300,15 +314,15 @@
       "new": 0,
       "updated": 0,
       "images": 0,
-      "seconds": 4.4
+      "seconds": 4.0
     },
     "Baseus": {
-      "found": 226,
+      "found": 227,
       "subset": 28,
       "new": 0,
-      "updated": 3,
+      "updated": 9,
       "images": 0,
-      "seconds": 8.4
+      "seconds": 7.5
     },
     "Betop": {
       "found": 0,
@@ -351,20 +365,20 @@
       "seconds": 0.0
     },
     "Dareu": {
-      "found": 137,
+      "found": 139,
       "subset": 28,
       "new": 0,
-      "updated": 11,
+      "updated": 9,
       "images": 0,
-      "seconds": 10.8
+      "seconds": 11.8
     },
     "Darmoshark": {
       "found": 23,
       "subset": 23,
       "new": 0,
-      "updated": 12,
+      "updated": 11,
       "images": 0,
-      "seconds": 7.3
+      "seconds": 7.7
     },
     "DELUX": {
       "found": 0,
@@ -396,7 +410,7 @@
       "new": 0,
       "updated": 0,
       "images": 0,
-      "seconds": 56.1
+      "seconds": 58.8
     },
     "EasySMX": {
       "found": 0,
@@ -412,15 +426,15 @@
       "new": 0,
       "updated": 0,
       "images": 0,
-      "seconds": 47.7
+      "seconds": 67.7
     },
     "EKSA": {
       "found": 31,
       "subset": 28,
-      "new": 0,
+      "new": 1,
       "updated": 0,
-      "images": 0,
-      "seconds": 8.7
+      "images": 1,
+      "seconds": 8.3
     },
     "Fenda": {
       "found": 0,
@@ -436,7 +450,7 @@
       "new": 0,
       "updated": 0,
       "images": 0,
-      "seconds": 2.8
+      "seconds": 2.6
     },
     "FLESPORTS": {
       "found": 0,
@@ -514,7 +528,7 @@
       "found": 46,
       "subset": 28,
       "new": 0,
-      "updated": 3,
+      "updated": 0,
       "images": 0,
       "seconds": 13.2
     },
@@ -524,7 +538,7 @@
       "new": 0,
       "updated": 0,
       "images": 0,
-      "seconds": 1.8
+      "seconds": 3.6
     },
     "HiVi": {
       "found": 0,
@@ -588,7 +602,7 @@
       "new": 0,
       "updated": 0,
       "images": 0,
-      "seconds": 14.7
+      "seconds": 12.6
     },
     "Inphic": {
       "found": 0,
@@ -612,7 +626,7 @@
       "new": 0,
       "updated": 0,
       "images": 0,
-      "seconds": 11.4
+      "seconds": 11.1
     },
     "KZZI": {
       "found": 13,
@@ -620,7 +634,7 @@
       "new": 0,
       "updated": 0,
       "images": 0,
-      "seconds": 13.8
+      "seconds": 16.2
     },
     "LAMZU": {
       "found": 149,
@@ -628,7 +642,7 @@
       "new": 0,
       "updated": 0,
       "images": 0,
-      "seconds": 8.7
+      "seconds": 8.4
     },
     "LANGTU": {
       "found": 0,
@@ -666,9 +680,9 @@
       "found": 90,
       "subset": 28,
       "new": 0,
-      "updated": 2,
+      "updated": 0,
       "images": 0,
-      "seconds": 10.4
+      "seconds": 10.0
     },
     "MaoKing": {
       "found": 0,
@@ -692,7 +706,7 @@
       "new": 0,
       "updated": 4,
       "images": 0,
-      "seconds": 12.5
+      "seconds": 11.1
     },
     "Meizu": {
       "found": 0,
@@ -804,7 +818,7 @@
       "new": 0,
       "updated": 0,
       "images": 0,
-      "seconds": 9.5
+      "seconds": 10.4
     },
     "QLS Audio": {
       "found": 0,
@@ -836,7 +850,7 @@
       "new": 0,
       "updated": 0,
       "images": 0,
-      "seconds": 6.7
+      "seconds": 7.5
     },
     "Rose Technics": {
       "found": 0,
@@ -930,9 +944,9 @@
       "found": 57,
       "subset": 28,
       "new": 0,
-      "updated": 18,
+      "updated": 16,
       "images": 0,
-      "seconds": 7.4
+      "seconds": 7.1
     },
     "Subor": {
       "found": 0,
@@ -1020,7 +1034,7 @@
       "new": 0,
       "updated": 0,
       "images": 0,
-      "seconds": 0.5
+      "seconds": 0.3
     },
     "TRUTHEAR": {
       "found": 0,
@@ -1052,7 +1066,7 @@
       "new": 0,
       "updated": 12,
       "images": 0,
-      "seconds": 9.3
+      "seconds": 16.9
     },
     "vivo": {
       "found": 0,
@@ -1063,12 +1077,12 @@
       "seconds": 0.0
     },
     "VXE": {
-      "found": 0,
-      "subset": 0,
+      "found": 37,
+      "subset": 28,
       "new": 0,
       "updated": 0,
       "images": 0,
-      "seconds": 11.4
+      "seconds": 5.6
     },
     "WOB": {
       "found": 0,
@@ -1292,7 +1306,7 @@
       "new": 0,
       "updated": 0,
       "images": 0,
-      "seconds": 22.6
+      "seconds": 5.2
     },
     "Cooler Master": {
       "found": 0,
@@ -1308,7 +1322,7 @@
       "new": 0,
       "updated": 0,
       "images": 0,
-      "seconds": 6.8
+      "seconds": 8.6
     },
     "Creative": {
       "found": 0,
@@ -1356,7 +1370,7 @@
       "new": 0,
       "updated": 0,
       "images": 0,
-      "seconds": 9.8
+      "seconds": 10.0
     },
     "Dynaudio": {
       "found": 0,
@@ -1396,7 +1410,7 @@
       "new": 0,
       "updated": 0,
       "images": 0,
-      "seconds": 15.6
+      "seconds": 18.2
     },
     "Filco": {
       "found": 0,
@@ -1444,7 +1458,7 @@
       "new": 0,
       "updated": 1,
       "images": 0,
-      "seconds": 9.9
+      "seconds": 8.6
     },
     "Genelec": {
       "found": 0,
@@ -1463,12 +1477,12 @@
       "seconds": 0.0
     },
     "Glorious": {
-      "found": 519,
+      "found": 523,
       "subset": 28,
-      "new": 1,
+      "new": 0,
       "updated": 0,
-      "images": 1,
-      "seconds": 15.0
+      "images": 0,
+      "seconds": 15.7
     },
     "Google Nest": {
       "found": 0,
@@ -1506,9 +1520,9 @@
       "found": 253,
       "subset": 28,
       "new": 0,
-      "updated": 2,
+      "updated": 6,
       "images": 0,
-      "seconds": 8.9
+      "seconds": 8.5
     },
     "iBUYPOWER®": {
       "found": 0,
@@ -1516,7 +1530,7 @@
       "new": 0,
       "updated": 0,
       "images": 0,
-      "seconds": 1.4
+      "seconds": 1.3
     },
     "ikbc": {
       "found": 0,
@@ -1548,7 +1562,7 @@
       "new": 0,
       "updated": 0,
       "images": 0,
-      "seconds": 36.5
+      "seconds": 49.1
     },
     "JVC": {
       "found": 0,
@@ -1564,7 +1578,7 @@
       "new": 0,
       "updated": 0,
       "images": 0,
-      "seconds": 0.9
+      "seconds": 1.3
     },
     "KEF": {
       "found": 0,
@@ -1588,7 +1602,7 @@
       "new": 0,
       "updated": 0,
       "images": 0,
-      "seconds": 35.0
+      "seconds": 41.6
     },
     "Kinetic Labs": {
       "found": 0,
@@ -1596,7 +1610,7 @@
       "new": 0,
       "updated": 0,
       "images": 0,
-      "seconds": 1.0
+      "seconds": 0.7
     },
     "Klipsch": {
       "found": 0,
@@ -1652,7 +1666,7 @@
       "new": 0,
       "updated": 0,
       "images": 0,
-      "seconds": 10.0
+      "seconds": 9.9
     },
     "Marantz": {
       "found": 0,
@@ -1724,7 +1738,7 @@
       "new": 0,
       "updated": 0,
       "images": 0,
-      "seconds": 9.0
+      "seconds": 5.3
     },
     "Naim": {
       "found": 0,
@@ -1812,7 +1826,7 @@
       "new": 0,
       "updated": 0,
       "images": 0,
-      "seconds": 30.3
+      "seconds": 40.2
     },
     "Realforce": {
       "found": 0,
@@ -1884,7 +1898,7 @@
       "new": 0,
       "updated": 0,
       "images": 0,
-      "seconds": 15.0
+      "seconds": 11.8
     },
     "Tannoy": {
       "found": 0,
@@ -1908,7 +1922,7 @@
       "new": 0,
       "updated": 1,
       "images": 0,
-      "seconds": 10.5
+      "seconds": 10.7
     },
     "Tesoro": {
       "found": 0,
@@ -2018,67 +2032,55 @@
   "rejected": [
     {
       "brand": "1MORE",
+      "url": "https://usa.1more.com/products/1more-bear-keychain-figurine-for-hq20",
+      "name": "1MORE Bear Keychain Figurine",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "1MORE",
       "url": "https://usa.1more.com/products/donation-of-a-tree",
       "name": "Donation of a Tree",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "1MORE",
-      "url": "https://usa.1more.com/products/extend-protection-plans-3",
+      "url": "https://usa.1more.com/products/extend-protection-plans-1",
       "name": "Extend Protection Plan",
       "reason": "unsupported_or_accessory_product"
     },
     {
-      "brand": "1MORE",
-      "url": "https://usa.1more.com/products/extend-shipping-protection-plans-1280-00",
-      "name": "Extend Shipping Protection Plan",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "1MORE",
-      "url": "https://usa.1more.com/products/extend-shipping-protection-plans-28-00",
-      "name": "Extend Shipping Protection Plan",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
       "brand": "ATK",
-      "url": "https://www.atkgear.com.cn/keyboard/atk-68",
+      "url": "https://www.atkgear.com.cn/accessories/nano-1k-receiver",
       "name": null,
       "reason": "missing_product_name"
     },
     {
       "brand": "ATK",
-      "url": "https://www.atkgear.com.cn/keyboard/atk-75",
-      "name": "支持V HUB",
+      "url": "https://www.atkgear.com.cn/keyboard/atk-v75x",
+      "name": "产品特性",
       "reason": "not_a_specific_product_page"
     },
     {
       "brand": "ATK",
-      "url": "https://www.atkgear.com.cn/accessories/atk-meng",
+      "url": "https://www.atkgear.com.cn/accessories/atk-8k-receiver",
       "name": null,
       "reason": "missing_product_name"
     },
     {
       "brand": "ATK",
-      "url": "https://www.atkgear.com.cn/keyboard/new-leviatan-edge60",
+      "url": "https://www.atkgear.com.cn/keyboard/atk-z87",
+      "name": "轴体介绍",
+      "reason": "not_a_specific_product_page"
+    },
+    {
+      "brand": "ATK",
+      "url": "https://www.atkgear.com.cn/accessories/atk-shouhanbao",
       "name": null,
       "reason": "missing_product_name"
     },
     {
       "brand": "ATK",
-      "url": "https://www.atkgear.com.cn/mouse/f1-extreme",
-      "name": null,
-      "reason": "missing_product_name"
-    },
-    {
-      "brand": "ATK",
-      "url": "https://www.atkgear.com.cn/mouse/x1-ultimate",
-      "name": null,
-      "reason": "missing_product_name"
-    },
-    {
-      "brand": "ATK",
-      "url": "https://www.atkgear.com.cn/accessories/r1-4k-receiver",
+      "url": "https://www.atkgear.com.cn/accessories/atk-axe",
       "name": null,
       "reason": "missing_product_name"
     },
@@ -2090,13 +2092,7 @@
     },
     {
       "brand": "ATK",
-      "url": "https://www.atkgear.com.cn/keyboard/atk-v100",
-      "name": null,
-      "reason": "missing_product_name"
-    },
-    {
-      "brand": "ATK",
-      "url": "https://www.atkgear.com.cn/keyboard/atk68-v3",
+      "url": "https://www.atkgear.com.cn/keyboard/new-leviatan-edge60",
       "name": null,
       "reason": "missing_product_name"
     },
@@ -2108,32 +2104,44 @@
     },
     {
       "brand": "ATK",
-      "url": "https://www.atkgear.com.cn/keyboard/atk-Hex80",
+      "url": "https://www.atkgear.com.cn/mouse/x1-ultimate",
+      "name": null,
+      "reason": "missing_product_name"
+    },
+    {
+      "brand": "ATK",
+      "url": "https://www.atkgear.com.cn/mouse/atk-duckbill",
+      "name": null,
+      "reason": "missing_product_name"
+    },
+    {
+      "brand": "ATK",
+      "url": "https://www.atkgear.com.cn/keyboard/atk-rs7v2",
       "name": null,
       "reason": "missing_product_name"
     },
     {
       "brand": "ATTACK SHARK",
-      "url": "https://attackshark.com/products/attack-shark-official-mascot-plush",
-      "name": "ATTACK SHARK Official Mascot Plush",
+      "url": "https://attackshark.com/products/attack-shark-x6-grip-tape",
+      "name": "ATTACK SHARK X6 Grip Tape",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "ATTACK SHARK",
-      "url": "https://attackshark.com/products/attack-shark-autumn-mystery-box",
-      "name": "ATTACK SHARK Autumn-Mystery Box",
+      "url": "https://attackshark.com/products/attack-shark-x11-ultra-r68-he-carbon-fiber-bundle",
+      "name": "ATTACK SHARK R68 HE & X11 ULTRA Carbon Fiber Gaming Bundle",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "ATTACK SHARK",
-      "url": "https://attackshark.com/products/attackshark-x-mambasnake-c02-coiledcable",
-      "name": "ATTACK SHARK x MAMBASNAKE C02 Coiled Cable",
+      "url": "https://attackshark.com/products/attack-shark-x11-ultra-r68-he-carbon-fiber-gaming-bundle-with-c01ultra-coiled-cable",
+      "name": "ATTACK SHARK R68 HE & X11 ULTRA Carbon Fiber Gaming Bundle With C01 ULTRA Coiled Cable",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "AULA",
-      "url": "https://www.aulastar.com/keyboard/904.html",
-      "name": "F75 Premium",
+      "url": "https://www.aulastar.com/keyboard/901.html",
+      "name": "NOVA75",
       "reason": "not_a_specific_product_page"
     },
     {
@@ -2144,26 +2152,8 @@
     },
     {
       "brand": "AULA",
-      "url": "https://www.aulastar.com/keyboard/911.html",
-      "name": "NOVA75 (ALT FN Version）",
-      "reason": "not_a_specific_product_page"
-    },
-    {
-      "brand": "AULA",
-      "url": "https://www.aulastar.com/mouse/856.html",
-      "name": "X5",
-      "reason": "not_a_specific_product_page"
-    },
-    {
-      "brand": "AULA",
-      "url": "https://www.aulastar.com/keyboard/901.html",
-      "name": "NOVA75",
-      "reason": "not_a_specific_product_page"
-    },
-    {
-      "brand": "AULA",
-      "url": "https://www.aulastar.com/keyboard/908.html",
-      "name": "RU75",
+      "url": "https://www.aulastar.com/keyboard/904.html",
+      "name": "F75 Premium",
       "reason": "not_a_specific_product_page"
     },
     {
@@ -2174,122 +2164,80 @@
     },
     {
       "brand": "AULA",
+      "url": "https://www.aulastar.com/mouse/856.html",
+      "name": "X5",
+      "reason": "not_a_specific_product_page"
+    },
+    {
+      "brand": "AULA",
+      "url": "https://www.aulastar.com/keyboard/911.html",
+      "name": "NOVA75 (ALT FN Version）",
+      "reason": "not_a_specific_product_page"
+    },
+    {
+      "brand": "AULA",
       "url": "https://www.aulastar.com/mouse/854.html",
       "name": "V1",
       "reason": "not_a_specific_product_page"
     },
     {
-      "brand": "Baseus",
-      "url": "https://www.baseus.com/products/powercombo-pro-7-ports-powerstrip-100w",
-      "name": "Baseus PowerCombo Pro 7 Ports Power Strip 100W",
-      "reason": "unsupported_or_accessory_product"
+      "brand": "AULA",
+      "url": "https://www.aulastar.com/keyboard/908.html",
+      "name": "RU75",
+      "reason": "not_a_specific_product_page"
     },
     {
       "brand": "Baseus",
-      "url": "https://www.baseus.com/products/dual-usb-a-car-charger-24w-4-8a",
-      "name": "Baseus Dual USB-A Car Charger 24W 4.8A",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "Baseus",
-      "url": "https://www.baseus.com/products/airpow-power-bank-20w-10000mah",
-      "name": "Baseus Airpow Power Bank 20W 10000mAh",
+      "url": "https://www.baseus.com/products/gamerx-6-ports-usb-c-steam-deck-docking-station",
+      "name": "Baseus GamerX 6 Ports USB-C Steam Deck Docking Station",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Baseus",
-      "url": "https://www.baseus.com/products/energy-stack-portable-power-station-600w-576wh",
-      "name": "Baseus Energy Stack Portable Power Station 600W 576Wh",
+      "url": "https://www.baseus.com/products/security-h1-homestation",
+      "name": "Baseus Security H1 HomeStation",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Baseus",
-      "url": "https://www.baseus.com/products/enerfill-fm21-qi2-2-magnetic-power-bank-10000mah-45w",
-      "name": "Baseus EnerFill FM21 Qi2.2 Magnetic Power Bank 10000mAh 45W",
+      "url": "https://www.baseus.com/products/gan2-pro-3-ports-usb-c-fast-charger-120w",
+      "name": "Baseus GaN2 Pro 3 Ports USB-C Fast Charger 120W",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Baseus",
-      "url": "https://www.baseus.com/products/enjoyment-pro-retractable-usb-c-car-charger-60w",
-      "name": "Baseus Enjoyment Pro Retractable USB-C Car Charger 60W",
+      "url": "https://www.baseus.com/products/adaman2-power-bank-30w-20000mah-vooc",
+      "name": "Baseus Adaman2 Power Bank 30W 20000mAh VOOC",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Baseus",
-      "url": "https://www.baseus.com/products/magpro-magnetic-power-bank-20w-5000mah",
-      "name": "Baseus MagPro Magnetic Power Bank 20W 5000mAh",
+      "url": "https://www.baseus.com/products/pioneerjoy-8-in-1-usb-c-hub",
+      "name": "Baseus PioneerJoy 8 in 1 USB-C Hub",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Baseus",
-      "url": "https://www.baseus.com/products/airpow-power-bank-20w-20000mah",
-      "name": "Baseus Airpow Power Bank 20W 20000mAh",
+      "url": "https://www.baseus.com/products/frostcore-fast-charging-data-cable-usb-c-to-usb-c-100w",
+      "name": "Baseus FrostCore Fast Charging Data Cable USB-C to USB-C 100W",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Baseus",
-      "url": "https://www.baseus.com/products/gan2-3-ports-fast-charger-65w",
-      "name": "Baseus GaN2 3 Ports Fast Charger 65W",
+      "url": "https://www.baseus.com/products/nomos-magnetic-power-bank-qi2-45w-10000mah",
+      "name": "Baseus Nomos Magnetic Power Bank Qi2 45W 10000mAh",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Baseus",
-      "url": "https://www.baseus.com/products/blade-laptop-power-bank-100w-20000mah",
-      "name": "Baseus Blade Laptop Power Bank 100W 20000mAh",
+      "url": "https://www.baseus.com/products/bipow-2-power-bank-with-built-in-usb-c-cable-10000mah-20w",
+      "name": "Baseus Bipow 2 Power Bank With Built-in USB-C Cable 10000mah 20W",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Baseus",
-      "url": "https://www.baseus.com/products/6-in-1-usb-c-hub",
-      "name": "Baseus 6 in 1 USB-C Hub",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "DURGOD",
-      "url": "https://www.durgod.com/product/kailh-turbo-silent-brown-switch/",
-      "name": "Kailh Turbo - Silent Brown Switch",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "DURGOD",
-      "url": "https://www.durgod.com/product/space-gray-pbt-keycaps-105-es/",
-      "name": "Space Gray PBT Keycaps 105 - ES",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "DURGOD",
-      "url": "https://www.durgod.com/product/echo-pbt-keycapsshine-though-104-us/",
-      "name": "Echo PBT Keycaps(Shine-though) 104 - US",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "DURGOD",
-      "url": "https://www.durgod.com/product/gateron-smoothie/",
-      "name": "Gateron - Smoothie Switch",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "DURGOD",
-      "url": "https://www.durgod.com/product/space-gray-pbt-keycaps-105-uk/",
-      "name": "Space Gray PBT Keycaps 105 - UK",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "DURGOD",
-      "url": "https://www.durgod.com/product/kailh-turbo-red-switch/",
-      "name": "Kailh Turbo - Red Switch",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "DURGOD",
-      "url": "https://www.durgod.com/product/k610w-corona-echo/",
-      "name": "K610w Corona Echo",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "DURGOD",
-      "url": "https://www.durgod.com/product/space-gray-pbt-keycaps-104-kr/",
-      "name": "Space Gray PBT Keycaps 104 - KR",
+      "url": "https://www.baseus.com/products/enercore-cj11-fast-charger-with-retractable-cable-2c-45w",
+      "name": "Baseus EnerCore CJ11 Fast Charger with Retractable Cable 2C 45W",
       "reason": "unsupported_or_accessory_product"
     },
     {
@@ -2306,8 +2254,38 @@
     },
     {
       "brand": "DURGOD",
-      "url": "https://www.durgod.com/product/echo-pbt-keycaps-104-kr/",
-      "name": "Echo PBT Keycaps 104 - KR",
+      "url": "https://www.durgod.com/product/k230-fusion-steam/",
+      "name": "K230 Fusion Steam",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "DURGOD",
+      "url": "https://www.durgod.com/product/turbo-yellow-switch/",
+      "name": "Kailh Turbo - Yellow Switch",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "DURGOD",
+      "url": "https://www.durgod.com/product/k610w-corona-echo/",
+      "name": "K610w Corona Echo",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "DURGOD",
+      "url": "https://www.durgod.com/product/k320-corona-space-gray/",
+      "name": "K320 (Taurus) Corona Space Gray",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "DURGOD",
+      "url": "https://www.durgod.com/product/hi-click-dark-blue/",
+      "name": "Hi Click Dark Blue",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "DURGOD",
+      "url": "https://www.durgod.com/product/durgod-k320-nebula-space-purple/",
+      "name": "K320 (Taurus) Nebula Space Purple",
       "reason": "unsupported_or_accessory_product"
     },
     {
@@ -2317,27 +2295,69 @@
       "reason": "unsupported_or_accessory_product"
     },
     {
-      "brand": "EDIFIER",
-      "url": "https://www.edifier.com/cn/product/product-940.html",
-      "name": "G5 Maxåºåº§ç",
+      "brand": "DURGOD",
+      "url": "https://www.durgod.com/product/space-gray-pbt-keycaps-105-uk/",
+      "name": "Space Gray PBT Keycaps 105 - UK",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "DURGOD",
+      "url": "https://www.durgod.com/product/echo-pbt-keycapsshine-though-104-us/",
+      "name": "Echo PBT Keycaps(Shine-though) 104 - US",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "DURGOD",
+      "url": "https://www.durgod.com/product/turbo-silver-switch/",
+      "name": "Kailh Turbo - Silver Switch",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "EDIFIER",
-      "url": "https://www.edifier.com/cn/product/product-542.html",
-      "name": "USB K5500",
+      "url": "https://www.edifier.com/cn/product/product-842.html",
+      "name": "Atom Lace",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "EDIFIER",
-      "url": "https://www.edifier.com/cn/product/product-880.html",
-      "name": "Atom Evo",
+      "url": "https://www.edifier.com/cn/product/product-529.html",
+      "name": "è½¦è½½éº¦å é£LOLIMIC",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "EDIFIER",
-      "url": "https://www.edifier.com/cn/product/product-889.html",
-      "name": "Auro Clip",
+      "url": "https://www.edifier.com/cn/product/product-877.html",
+      "name": "X Clip",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "EDIFIER",
+      "url": "https://www.edifier.com/cn/product/product-454.html",
+      "name": "å®é©¬å¥è£ UBç³»å",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "EDIFIER",
+      "url": "https://www.edifier.com/cn/product/product-808.html",
+      "name": "X1 Evo",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "EDIFIER",
+      "url": "https://www.edifier.com/cn/product/product-897.html",
+      "name": "CyberXèè½é³ç®±",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "EDIFIER",
+      "url": "https://www.edifier.com/cn/product/product-905.html",
+      "name": "CP2",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "EDIFIER",
+      "url": "https://www.edifier.com/cn/product/product-861.html",
+      "name": "DOO ACE",
       "reason": "unsupported_or_accessory_product"
     },
     {
@@ -2348,26 +2368,8 @@
     },
     {
       "brand": "EDIFIER",
-      "url": "https://www.edifier.com/cn/product/product-453.html",
-      "name": "IF100",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "EDIFIER",
-      "url": "https://www.edifier.com/cn/product/product-716.html",
-      "name": "S880 MKII",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "EDIFIER",
-      "url": "https://www.edifier.com/cn/product/product-30.html",
-      "name": "VO6 çæ çº¿ç«ä½å£°è³æº æµå æº¢å½© çåç¬ç¹é­ å",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "EDIFIER",
-      "url": "https://www.edifier.com/cn/product/product-455.html",
-      "name": "å«å GL8å¥è£ UGL 653/652ç³»å",
+      "url": "https://www.edifier.com/cn/product/product-22.html",
+      "name": "VO8 å¨éçæ çº¿ç«ä½å£°è³æº",
       "reason": "unsupported_or_accessory_product"
     },
     {
@@ -2378,38 +2380,26 @@
     },
     {
       "brand": "EDIFIER",
-      "url": "https://www.edifier.com/cn/product/product-934.html",
-      "name": "MF1ç£å¸é¢å¤¹çæ©é³å¨",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "EDIFIER",
-      "url": "https://www.edifier.com/cn/product/product-537.html",
-      "name": "DS612",
+      "url": "https://www.edifier.com/cn/product/product-915.html",
+      "name": "FitBuds Turbo",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Haylou",
-      "url": "https://haylou.com/products/haylou-solar-ultra",
-      "name": "HAYLOU Solar Ultra",
+      "url": "https://haylou.com/products/haylou-watch-hyper",
+      "name": "HAYLOU Watch Hyper",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Haylou",
-      "url": "https://haylou.com/be/products/haylou-hexstorm-g1",
-      "name": "HAYLOU HexStorm G1",
+      "url": "https://haylou.com/be/products/haylou-flowbuds-n50",
+      "name": "HAYLOU Flowbuds N50",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Haylou",
-      "url": "https://haylou.com/products/haylou-flowbuds-n55",
-      "name": "HAYLOU Flowbuds N55",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "Haylou",
-      "url": "https://haylou.com/be/products/haylou-solar-pro-sport-smart-watch",
-      "name": "HAYLOU Solar Pro",
+      "url": "https://haylou.com/products/haylou-flowbuds-n50",
+      "name": "HAYLOU Flowbuds N50",
       "reason": "unsupported_or_accessory_product"
     },
     {
@@ -2420,26 +2410,14 @@
     },
     {
       "brand": "Haylou",
-      "url": "https://haylou.com/be/products/haylou-solar-ultra",
-      "name": "HAYLOU Solar Ultra",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "Haylou",
-      "url": "https://haylou.com/be/products/haylou-iron-neo",
-      "name": "HAYLOU IRON Neo",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "Haylou",
-      "url": "https://haylou.com/products/haylou-mori-pro",
-      "name": "HAYLOU Mori Pro",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "Haylou",
       "url": "https://haylou.com/products/haylou-solar-lite-2",
       "name": "HAYLOU Solar Lite 2",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "Haylou",
+      "url": "https://haylou.com/be/products/haylou-velo",
+      "name": "HAYLOU Velo",
       "reason": "unsupported_or_accessory_product"
     },
     {
@@ -2450,32 +2428,38 @@
     },
     {
       "brand": "Haylou",
-      "url": "https://haylou.com/products/haylou-watch-3",
+      "url": "https://haylou.com/products/haylou-s35-anc",
+      "name": "HAYLOU S35 ANC",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "Haylou",
+      "url": "https://haylou.com/products/haylou-flowloop-s33",
+      "name": "HAYLOU FlowLoop S33",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "Haylou",
+      "url": "https://haylou.com/products/haylou-watch-faro",
+      "name": "HAYLOU Watch Faro",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "Haylou",
+      "url": "https://haylou.com/be/products/haylou-watch-3",
       "name": "HAYLOU Watch 3",
       "reason": "unsupported_or_accessory_product"
     },
     {
-      "brand": "iKF",
-      "url": "https://ikfaudio.com/products/ikf-y3-wired-headphones%E4%B8%A8retro-3-5mm-port-replaceable-earpads",
-      "name": "iKF Y3 Wired Headphones丨Retro, 3.5mm Port, Replaceable EarPads",
-      "reason": "missing_product_structured_data"
-    },
-    {
-      "brand": "iKF",
-      "url": "https://ikfaudio.com/products/ikf-matel-earmuffs-original-earmuffs-easy-replacement-soft-skin-friendly-leather",
-      "name": "Earmuffs for iKF Metal Original Earpads Easy Replacement Soft Skin-friendly Leather",
+      "brand": "Haylou",
+      "url": "https://haylou.com/be/products/haylou-flowloop-s33",
+      "name": "HAYLOU FlowLoop S33",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "IQUNIX",
-      "url": "https://iqunix.com/products/iqunix-super-tilly60",
-      "name": "IQUNIX TILLY 60",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "IQUNIX",
-      "url": "https://iqunix.com/products/zonex-75-pcb",
-      "name": "ZONEX 75 PCB",
+      "url": "https://iqunix.com/products/iqunix-ev63-ghost-in-the-shell-edition",
+      "name": "IQUNIX EV63 Ghost in the Shell Edition",
       "reason": "unsupported_or_accessory_product"
     },
     {
@@ -2486,14 +2470,8 @@
     },
     {
       "brand": "IQUNIX",
-      "url": "https://iqunix.com/products/extra-fees-free-shipping",
-      "name": "Extra Fees (free shipping)",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "IQUNIX",
-      "url": "https://iqunix.com/products/itx-case-zx-1",
-      "name": "IQUNIX ZX-1 Aluminum Mini-ITX Case",
+      "url": "https://iqunix.com/products/ardbeg-65",
+      "name": "IQUNIX Ardbeg 65",
       "reason": "unsupported_or_accessory_product"
     },
     {
@@ -2504,14 +2482,20 @@
     },
     {
       "brand": "IQUNIX",
-      "url": "https://iqunix.com/products/iqunix-ez80-he",
-      "name": "IQUNIX EZ80/EZ75 HE",
+      "url": "https://iqunix.com/products/gateron-magnetic-jade-pro-switches",
+      "name": "IQUNIX Gateron Magnetic Jade Pro Switches",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "IQUNIX",
-      "url": "https://iqunix.com/products/ardbeg-65",
-      "name": "IQUNIX Ardbeg 65",
+      "url": "https://iqunix.com/products/zonex-75-plate",
+      "name": "ZONEX 75 Plate",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "IQUNIX",
+      "url": "https://iqunix.com/products/iqunix-mq80-desk-mat",
+      "name": "IQUNIX MQ80 Astral White Desk Mat",
       "reason": "unsupported_or_accessory_product"
     },
     {
@@ -2522,55 +2506,19 @@
     },
     {
       "brand": "IQUNIX",
-      "url": "https://iqunix.com/products/zonex-75-foams-kit",
-      "name": "ZONEX 75 Foams Kit",
+      "url": "https://iqunix.com/products/extra-fees-free-shipping",
+      "name": "Extra Fees (free shipping)",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "IQUNIX",
+      "url": "https://iqunix.com/products/zonex-75-pcb",
+      "name": "ZONEX 75 PCB",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "KZZI",
-      "url": "https://www.kzzi.com/product/54/",
-      "name": null,
-      "reason": "missing_product_name"
-    },
-    {
-      "brand": "KZZI",
-      "url": "https://www.kzzi.com/product/39/",
-      "name": null,
-      "reason": "missing_product_name"
-    },
-    {
-      "brand": "KZZI",
-      "url": "https://www.kzzi.com/product/56/",
-      "name": null,
-      "reason": "missing_product_name"
-    },
-    {
-      "brand": "KZZI",
-      "url": "https://www.kzzi.com/product/41/",
-      "name": null,
-      "reason": "missing_product_name"
-    },
-    {
-      "brand": "KZZI",
-      "url": "https://www.kzzi.com/products/12/",
-      "name": null,
-      "reason": "missing_product_name"
-    },
-    {
-      "brand": "KZZI",
-      "url": "https://www.kzzi.com/product/55/",
-      "name": null,
-      "reason": "missing_product_name"
-    },
-    {
-      "brand": "KZZI",
-      "url": "https://www.kzzi.com/products/1/",
-      "name": null,
-      "reason": "missing_product_name"
-    },
-    {
-      "brand": "KZZI",
-      "url": "https://www.kzzi.com/product/58/",
+      "url": "https://www.kzzi.com/product/57/",
       "name": null,
       "reason": "missing_product_name"
     },
@@ -2582,7 +2530,43 @@
     },
     {
       "brand": "KZZI",
-      "url": "https://www.kzzi.com/product/57/",
+      "url": "https://www.kzzi.com/product/39/",
+      "name": null,
+      "reason": "missing_product_name"
+    },
+    {
+      "brand": "KZZI",
+      "url": "https://www.kzzi.com/product/58/",
+      "name": null,
+      "reason": "missing_product_name"
+    },
+    {
+      "brand": "KZZI",
+      "url": "https://www.kzzi.com/product/42/",
+      "name": null,
+      "reason": "missing_product_name"
+    },
+    {
+      "brand": "KZZI",
+      "url": "https://www.kzzi.com/product/56/",
+      "name": null,
+      "reason": "missing_product_name"
+    },
+    {
+      "brand": "KZZI",
+      "url": "https://www.kzzi.com/product/55/",
+      "name": null,
+      "reason": "missing_product_name"
+    },
+    {
+      "brand": "KZZI",
+      "url": "https://www.kzzi.com/product/54/",
+      "name": null,
+      "reason": "missing_product_name"
+    },
+    {
+      "brand": "KZZI",
+      "url": "https://www.kzzi.com/product/52/",
       "name": null,
       "reason": "missing_product_name"
     },
@@ -2594,33 +2578,15 @@
     },
     {
       "brand": "KZZI",
-      "url": "https://www.kzzi.com/product/42/",
+      "url": "https://www.kzzi.com/products/1/",
       "name": null,
       "reason": "missing_product_name"
     },
     {
-      "brand": "LAMZU",
-      "url": "https://lamzu.com/products/lamzu-x-reject-paro-reject-special-edition",
-      "name": "LAMZU X REJECT PARO REJECT SPECIAL EDITION",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "LAMZU",
-      "url": "https://lamzu.com/products/lamzu-orcus",
-      "name": "LAMZU ORCUS",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "LAMZU",
-      "url": "https://lamzu.com/products/lamzu-inca",
-      "name": "LAMZU INCA",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "LAMZU",
-      "url": "https://lamzu.com/zh/products/lamzu-8k-ii-dongle-%E5%89%AF%E6%9C%AC",
-      "name": "LAMZU AURORA II Dongle",
-      "reason": "unsupported_or_accessory_product"
+      "brand": "KZZI",
+      "url": "https://www.kzzi.com/products/12/",
+      "name": null,
+      "reason": "missing_product_name"
     },
     {
       "brand": "LAMZU",
@@ -2629,33 +2595,63 @@
       "reason": "unsupported_or_accessory_product"
     },
     {
-      "brand": "LUMINKEY",
-      "url": "https://www.luminkey.com/products/luminkey-split-palm-rest-only-panel",
-      "name": "Panels For Luminkey Split Palm Rest",
+      "brand": "LAMZU",
+      "url": "https://lamzu.com/products/lamzu-maya-anti-dust-sticker",
+      "name": "LAMZU MAYA Dustproof Seal",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "LAMZU",
+      "url": "https://lamzu.com/zh/products/lamzu-paro-aurora-se",
+      "name": "LAMZU PARO AURORA SE",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "LAMZU",
+      "url": "https://lamzu.com/products/lamzu-dongle",
+      "name": "LAMZU Atlantis 1K Dongle",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "LAMZU",
+      "url": "https://lamzu.com/products/lamzu-thorn-v2",
+      "name": "LAMZU THORN V2",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "LUMINKEY",
-      "url": "https://www.luminkey.com/zh/products/luminkey80-glacier-novelty-keycaps-set",
-      "name": "Glacier Novelty Keycap Set",
+      "url": "https://www.luminkey.com/products/magger-he-magnetic-switch",
+      "name": "Magger HE Magnetic Switch",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "LUMINKEY",
-      "url": "https://www.luminkey.com/zh/products/add-on-keycaps-for-luminkey65-multiple-layout-iso-keycaps",
-      "name": "PBT Keycap Set (ISO Support)",
+      "url": "https://www.luminkey.com/zh/products/lx60-copper-edition",
+      "name": "LX60 Copper Edition-In Stock",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "LUMINKEY",
-      "url": "https://www.luminkey.com/products/extra-alu-fr4-pcb-mount-plate-for-luminkey75v2-supports-multiple-layout",
-      "name": "Extra Alu/FR4 PCB-Mount Plate for LUMINKEY75V2 (Supports Multiple Layout)",
+      "url": "https://www.luminkey.com/zh/products/magger60-he-pcb",
+      "name": "Magger60 60% HE / Only PCB",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "LUMINKEY",
-      "url": "https://www.luminkey.com/products/extra-alu-fr4-pcb-mount-plate-for-luminkey98-supports-multiple-layout",
-      "name": "Extra Alu/FR4 PCB-Mount Plate for LUMINKEY98 (Supports Multiple Layout)",
+      "url": "https://www.luminkey.com/zh/products/luminkey-desk-mat",
+      "name": "LUMINKEY Desk Mat - Meow Graffiti",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "LUMINKEY",
+      "url": "https://www.luminkey.com/zh/products/luminkey-split-palm-rest-carbon-fiber",
+      "name": "Luminkey Split Palm Rest - CNC Aluminium",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "MCHOSE",
+      "url": "https://www.mchose.store/products/mchose-x-unbox-therapy-ergonomic-wrist-rest",
+      "name": "MCHOSE x Unbox Therapy Wrist Rest",
       "reason": "unsupported_or_accessory_product"
     },
     {
@@ -2666,49 +2662,43 @@
     },
     {
       "brand": "MCHOSE",
-      "url": "https://www.mchose.store/products/mchose-after-sales-replacement",
-      "name": "$5 MCHOSE After-Sales Replacement",
+      "url": "https://www.mchose.store/products/mchose-68-key-transparent-white-keycap-set",
+      "name": "MCHOSE 68-Key Transparent White Keycap Set",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "MCHOSE",
-      "url": "https://www.mchose.store/products/mchose-68-key-white-orange-blue-keycap-set",
-      "name": "MCHOSE 68-Key White Orange & Blue Keycap Set",
+      "url": "https://www.mchose.store/products/mchose-g75-pro-black-matcha-latte-switch-g3-v2-pro-black-gaming-work-combo",
+      "name": "MCHOSE G75 Pro Black Matcha Latte Switch + G3 V2 Pro Black Gaming & Work Combo",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "MCHOSE",
-      "url": "https://www.mchose.store/products/mchose-silver-butterfly-keycap",
-      "name": "MCHOSE Silver Butterfly Love Keycap Set",
+      "url": "https://www.mchose.store/products/mchose-ace-68-turbo-mount-tai-magnetic-switch-gt-l7-gaming-combo",
+      "name": "L7 Ultra / Black MCHOSE Ace 68 Turbo Mount Tai Magnetic Switch GT + L7 Gaming Combo",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "MOONDROP",
-      "url": "https://moondroplab.com/cn/products/golden-ages-2",
+      "url": "https://moondroplab.com/cn/products/pill",
       "name": "商品详情",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "MOONDROP",
-      "url": "https://moondroplab.com/cn/products/pudding",
+      "url": "https://moondroplab.com/cn/products/nekocake-mousepad",
+      "name": "商品详情",
+      "reason": "missing_product_structured_data"
+    },
+    {
+      "brand": "MOONDROP",
+      "url": "https://moondroplab.com/cn/products/ucts",
       "name": "商品详情",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "MOONDROP",
-      "url": "https://moondroplab.com/cn/products/discdream2-ultra",
-      "name": "商品详情",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "MOONDROP",
-      "url": "https://moondroplab.com/cn/products/m4p-mtm",
-      "name": "商品详情",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "MOONDROP",
-      "url": "https://moondroplab.com/cn/products/space-travel-2",
+      "url": "https://moondroplab.com/cn/products/freedsp-pro",
       "name": "商品详情",
       "reason": "unsupported_or_accessory_product"
     },
@@ -2720,25 +2710,31 @@
     },
     {
       "brand": "MOONDROP",
-      "url": "https://moondroplab.com/cn/products/solis-ii",
+      "url": "https://moondroplab.com/cn/products/nice-buds",
       "name": "商品详情",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "MOONDROP",
-      "url": "https://moondroplab.com/cn/products/moonriver3",
+      "url": "https://moondroplab.com/cn/products/meteor",
       "name": "商品详情",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "MOONDROP",
-      "url": "https://moondroplab.com/cn/products/ucts",
+      "url": "https://moondroplab.com/cn/products/para2",
       "name": "商品详情",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "MOONDROP",
-      "url": "https://moondroplab.com/cn/products/lan-ii",
+      "url": "https://moondroplab.com/cn/products/robin",
+      "name": "商品详情",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "MOONDROP",
+      "url": "https://moondroplab.com/cn/products/mirage",
       "name": "商品详情",
       "reason": "unsupported_or_accessory_product"
     },
@@ -2750,92 +2746,74 @@
     },
     {
       "brand": "MOONDROP",
-      "url": "https://moondroplab.com/cn/products/mirage",
+      "url": "https://moondroplab.com/cn/products/lunalight-tessence",
       "name": "商品详情",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "QCY",
-      "url": "https://www.qcy.com/products/qcy-crossky-gtr2",
-      "name": "QCY Crossky GTR2",
+      "url": "https://www.qcy.com/products/s3",
+      "name": "QCY Watch GT2",
+      "reason": "not_a_specific_product_page"
+    },
+    {
+      "brand": "QCY",
+      "url": "https://www.qcy.com/products/qcy-melobuds-n60",
+      "name": "QCY MeloBuds N60",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "QCY",
-      "url": "https://www.qcy.com/products/melobuds-n65",
-      "name": "QCY MeloBuds N65",
+      "url": "https://www.qcy.com/products/qcy-t13-pro",
+      "name": "QCY T13 Pro",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "QCY",
-      "url": "https://www.qcy.com/products/qcy-crossky-r70",
-      "name": "QCY Crossky R70",
+      "url": "https://www.qcy.com/products/heroad-h8gm-tri-edition",
+      "name": "Heroad VT200 Tri-Mode Edition",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "QCY",
-      "url": "https://www.qcy.com/products/qcy-crossky-c30s",
-      "name": "QCY Crossky C30S",
+      "url": "https://www.qcy.com/products/qcy-watch-gs2-smart-watch",
+      "name": "QCY Watch GS2",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "QCY",
-      "url": "https://www.qcy.com/products/qcy-crossky-c50",
-      "name": "QCY Crossky C50",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "QCY",
-      "url": "https://www.qcy.com/products/qcy-urban-gs-smart-watch",
-      "name": "QCY Urban GS Smart Watch",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "QCY",
-      "url": "https://www.qcy.com/products/heroad-gt2-tri-mode-edition",
-      "name": "Heroad GT2 Tri-Mode Edition",
+      "url": "https://www.qcy.com/products/qcy-active-gt",
+      "name": "QCY Active GT Smart Watch",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Rapoo",
-      "url": "https://www.rapoo.cn/product/702",
+      "url": "https://www.rapoo.cn/product/940",
       "name": null,
       "reason": "missing_product_name"
     },
     {
       "brand": "Rapoo",
-      "url": "https://www.rapoo.cn/product/235",
+      "url": "https://www.rapoo.cn/product/661",
+      "name": null,
+      "reason": "missing_product_name"
+    },
+    {
+      "brand": "Rapoo",
+      "url": "https://www.rapoo.cn/product/931",
       "name": null,
       "reason": "missing_product_name"
     },
     {
       "brand": "SoundPEATS",
-      "url": "https://soundpeats.com/products/c30-orange-ref-amazon-us",
-      "name": "C30 Orange",
+      "url": "https://soundpeats.com/en-ca/products/worry-free-purchase",
+      "name": "Worry-Free Purchase",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "SoundPEATS",
-      "url": "https://soundpeats.com/products/clip1-titanium-black",
-      "name": "Clip1 Titanium Black",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "SoundPEATS",
-      "url": "https://soundpeats.com/en-ca/products/q3-pro",
-      "name": "Q3 Pro",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "SoundPEATS",
-      "url": "https://soundpeats.com/products/soundpeats-tws-models-protective-charging-case-cover",
-      "name": "SOUNDPEATS H3 Clear Protective Case – Durable Transparent Cover Designed for a Perfect Fit and Everyday Protection",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "SoundPEATS",
-      "url": "https://soundpeats.com/en-ca/products/c30-purple-ref-amazon-us",
-      "name": "C30 Purple",
+      "url": "https://soundpeats.com/en-mx/products/c30-beige-ref-amazon-us",
+      "name": "C30 Beige",
       "reason": "unsupported_or_accessory_product"
     },
     {
@@ -2846,56 +2824,104 @@
     },
     {
       "brand": "SoundPEATS",
-      "url": "https://soundpeats.com/en-mx/products/clip1-titanium-black",
-      "name": "Clip1 Titanium Black",
+      "url": "https://soundpeats.com/products/c30-purple-ref-amazon-us",
+      "name": "C30 Purple",
       "reason": "unsupported_or_accessory_product"
     },
     {
-      "brand": "Contour Design",
-      "url": "https://www.contourdesign.com/product/touch",
-      "name": "Contour Touch",
-      "reason": "unsupported_or_accessory_product"
+      "brand": "VXE",
+      "url": "https://www.atkgear.com.cn/keyboard/leviatan-edge60",
+      "name": null,
+      "reason": "missing_product_name"
     },
     {
-      "brand": "Contour Design",
-      "url": "https://www.contourdesign.com/product/contour-dongle-c",
-      "name": "Contour Dongle-C",
-      "reason": "unsupported_or_accessory_product"
+      "brand": "VXE",
+      "url": "https://www.atkgear.com.cn/keyboard/atk68-v3",
+      "name": null,
+      "reason": "missing_product_name"
+    },
+    {
+      "brand": "VXE",
+      "url": "https://www.atkgear.com.cn/keyboard/atk-75",
+      "name": "支持V HUB",
+      "reason": "not_a_specific_product_page"
+    },
+    {
+      "brand": "VXE",
+      "url": "https://www.atkgear.com.cn/keyboard/rs7",
+      "name": null,
+      "reason": "missing_product_name"
+    },
+    {
+      "brand": "VXE",
+      "url": "https://www.atkgear.com.cn/keyboard/new-leviatan-edge60",
+      "name": null,
+      "reason": "missing_product_name"
+    },
+    {
+      "brand": "VXE",
+      "url": "https://www.atkgear.com.cn/keyboard/atk-68",
+      "name": null,
+      "reason": "missing_product_name"
+    },
+    {
+      "brand": "VXE",
+      "url": "https://www.atkgear.com.cn/accessories/leviatan-mousepad",
+      "name": null,
+      "reason": "missing_product_name"
+    },
+    {
+      "brand": "VXE",
+      "url": "https://www.atkgear.com.cn/accessories/atk-n9",
+      "name": null,
+      "reason": "missing_product_name"
+    },
+    {
+      "brand": "VXE",
+      "url": "https://www.atkgear.com.cn/keyboard/atk-v100",
+      "name": null,
+      "reason": "missing_product_name"
+    },
+    {
+      "brand": "VXE",
+      "url": "https://www.atkgear.com.cn/mouse/x1",
+      "name": null,
+      "reason": "missing_product_name"
+    },
+    {
+      "brand": "VXE",
+      "url": "https://www.atkgear.com.cn/keyboard/atk-v75x",
+      "name": "产品特性",
+      "reason": "not_a_specific_product_page"
+    },
+    {
+      "brand": "VXE",
+      "url": "https://www.atkgear.com.cn/accessories/atk-54-8k-nano",
+      "name": null,
+      "reason": "missing_product_name"
     },
     {
       "brand": "Corsair",
-      "url": "https://www.corsair.com/us/en/c/gaming-headsets/playstation",
-      "name": "PlayStation Gaming Headsets",
-      "reason": "accessory_or_non_product_name"
-    },
-    {
-      "brand": "Corsair",
-      "url": "https://www.corsair.com/us/en/p/gaming-headsets/ca-9011186-na/virtuoso-rgb-wireless-high-fidelity-gaming-headset-white-ca-9011186-na",
-      "name": "VIRTUOSO RGB WIRELESS High-Fidelity Gaming Headset — White",
+      "url": "https://www.corsair.com/us/en/p/gaming-headsets/ca-9011295-na/hs80-max-wireless-gaming-headset-steel-gray-ca-9011295-na",
+      "name": "HS80 MAX WIRELESS Gaming Headset, Steel Gray",
       "reason": "not_a_specific_product_page"
     },
     {
       "brand": "Corsair",
-      "url": "https://www.corsair.com/us/en/p/gaming-headsets/ca-9011383-na/hs35-v2-multiplatform-gaming-headset-blue-ca-9011383-na",
-      "name": "HS35 v2 Multiplatform Gaming Headset — Blue",
+      "url": "https://www.corsair.com/us/en/p/gaming-headsets/ca-9011387-ww/hs80-max-premium-wireless-gaming-headset-for-xbox-with-spatial-audio-ca-9011387-ww",
+      "name": "HS80 MAX Premium Wireless Gaming Headset for Xbox with Spatial Audio",
       "reason": "not_a_specific_product_page"
     },
     {
       "brand": "Corsair",
-      "url": "https://www.corsair.com/us/en/p/gaming-headsets/ca-9011235-chi/hs80-rgb-wireless-premium-gaming-headset-with-spatial-audio-call-of-duty-black-ops-7-edition-ca-9011235-chi",
-      "name": "HS80 RGB WIRELESS Premium Gaming Headset with Spatial Audio - Call of Duty®: Black Ops 7 Edition",
+      "url": "https://www.corsair.com/us/en/p/gaming-headsets/ca-9011381-ww/void-v2-max-wireless-gaming-headset-for-xbox-carbon-ca-9011381-ww",
+      "name": "VOID v2 MAX WIRELESS Gaming Headset for Xbox - Carbon",
       "reason": "not_a_specific_product_page"
     },
     {
       "brand": "Corsair",
-      "url": "https://www.corsair.com/us/en/p/gaming-headsets/ca-9011372-ww/virtuoso-max-wireless-gaming-headset-carbon-ca-9011372-ww",
-      "name": "VIRTUOSO MAX WIRELESS Gaming Headset, Carbon",
-      "reason": "not_a_specific_product_page"
-    },
-    {
-      "brand": "Corsair",
-      "url": "https://www.corsair.com/us/en/p/gaming-headsets/ca-9011291-na/hs55-wireless-core-gaming-headset-graphite-gray-ca-9011291-na",
-      "name": "HS55 WIRELESS CORE Gaming Headset",
+      "url": "https://www.corsair.com/us/en/p/gaming-headsets/ca-9011201-na/void-rgb-elite-wireless-premium-gaming-headset-with-7-1-surround-sound-carbon-ca-9011201-na",
+      "name": "VOID RGB ELITE Wireless Premium Gaming Headset with 7.1 Surround Sound — Carbon",
       "reason": "not_a_specific_product_page"
     },
     {
@@ -2906,21 +2932,27 @@
     },
     {
       "brand": "Corsair",
-      "url": "https://www.corsair.com/us/en/c/gaming-headsets/xbox-gaming-headsets",
-      "name": "Xbox Gaming Headsets",
+      "url": "https://www.corsair.com/us/en/p/gaming-headsets/ca-9011237-na/hs80-rgb-usb-wired-gaming-headset-carbon-ca-9011237-na",
+      "name": "HS80 RGB USB Wired Gaming Headset — Carbon",
+      "reason": "not_a_specific_product_page"
+    },
+    {
+      "brand": "Corsair",
+      "url": "https://www.corsair.com/us/en/c/gaming-headsets/wireless-headsets",
+      "name": "Wireless Gaming Headsets",
       "reason": "accessory_or_non_product_name"
     },
     {
       "brand": "Corsair",
-      "url": "https://www.corsair.com/us/en/p/gaming-headsets/ca-9011387-ww/hs80-max-premium-wireless-gaming-headset-for-xbox-with-spatial-audio-ca-9011387-ww",
-      "name": "HS80 MAX Premium Wireless Gaming Headset for Xbox with Spatial Audio",
+      "url": "https://www.corsair.com/us/en/p/gaming-headsets/ca-9011280-na/hs55-wireless-gaming-headset-carbon-ca-9011280-na",
+      "name": "HS55 WIRELESS Gaming Headset — Carbon",
       "reason": "not_a_specific_product_page"
     },
     {
       "brand": "Corsair",
-      "url": "https://www.corsair.com/us/en/p/gaming-headsets/ca-9011236-nuk/nuka-cola-hs80-rgb-wireless-ca-9011236-nuk",
-      "name": "Nuka-Cola™ HS80 RGB WIRELESS",
-      "reason": "not_a_specific_product_page"
+      "url": "https://www.corsair.com/us/en/c/gaming-headsets/wired-headsets",
+      "name": "Wired Gaming Headsets",
+      "reason": "accessory_or_non_product_name"
     },
     {
       "brand": "Corsair",
@@ -2930,92 +2962,98 @@
     },
     {
       "brand": "Corsair",
-      "url": "https://www.corsair.com/us/en/p/gaming-headsets/ca-9011295-na/hs80-max-wireless-gaming-headset-steel-gray-ca-9011295-na",
-      "name": "HS80 MAX WIRELESS Gaming Headset, Steel Gray",
-      "reason": "not_a_specific_product_page"
+      "url": "https://www.corsair.com/us/en/c/gaming-headsets/wireless-headsets",
+      "name": "Wireless Gaming Headsets",
+      "reason": "accessory_or_non_product_name"
+    },
+    {
+      "brand": "Corsair",
+      "url": "https://www.corsair.com/us/en/c/gaming-headsets/wired-headsets",
+      "name": "Wired Gaming Headsets",
+      "reason": "accessory_or_non_product_name"
     },
     {
       "brand": "Dygma",
-      "url": "https://dygma.com/products/dygma-defy-black-black-32",
-      "name": "Dygma Defy Black & Black",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "Dygma",
-      "url": "https://dygma.com/products/extra-keycaps",
-      "name": "Extra Keycaps",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "Dygma",
-      "url": "https://dygma.com/products/dygma-defy-silver-white-9",
+      "url": "https://dygma.com/products/dygma-defy-silver-white-24",
       "name": "Dygma Defy Silver & White",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Dygma",
-      "url": "https://dygma.com/products/dygma-defy-black-black-26",
-      "name": "Dygma Defy Black & Black",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "Dygma",
-      "url": "https://dygma.com/products/heavy-duty-desk-c-clamp",
-      "name": "Heavy Duty Desk C-Clamps",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "Dygma",
-      "url": "https://dygma.com/products/keycaps-and-palm-pads-bundle",
-      "name": "Extra Keycaps and Palm Pads Bundle",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "Dygma",
-      "url": "https://dygma.com/products/dygma-defy-black-white-10",
-      "name": "Dygma Defy Black & White",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "Dygma",
-      "url": "https://dygma.com/products/dygma-defy-purple-white-1",
-      "name": "Dygma Defy Purple & White",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "Dygma",
-      "url": "https://dygma.com/products/raise-2-bundle-cables",
-      "name": "Extra Cables Bundle",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "Dygma",
-      "url": "https://dygma.com/products/dygma-defy-black-black-37",
-      "name": "Dygma Defy Black & Black",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "Dygma",
-      "url": "https://dygma.com/products/dygma-defy-silver-white-26",
+      "url": "https://dygma.com/products/dygma-defy-silver-white-12",
       "name": "Dygma Defy Silver & White",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Dygma",
-      "url": "https://dygma.com/products/dygma-defy-black-white-9",
+      "url": "https://dygma.com/products/dygma-defy-silver-black-9",
+      "name": "Dygma Defy Silver & Black",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "Dygma",
+      "url": "https://dygma.com/products/dygma-defy-refurbished-black-white",
       "name": "Dygma Defy Black & White",
       "reason": "unsupported_or_accessory_product"
     },
     {
-      "brand": "EWEADN",
-      "url": "https://www.eweadn.com/products/eweadn-fishnet-aviator-cable",
-      "name": "EWEADN Fishnet Coiled Cable with Metal Connector",
+      "brand": "Dygma",
+      "url": "https://dygma.com/products/foldable-laptop-stand",
+      "name": "Foldable Laptop Stand",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "Dygma",
+      "url": "https://dygma.com/products/dygma-defy-black-black-48",
+      "name": "Dygma Defy Black & Black",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "Dygma",
+      "url": "https://dygma.com/products/dygma-defy-silver-white-31",
+      "name": "Dygma Defy Silver & White",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "Dygma",
+      "url": "https://dygma.com/products/dygma-raise-2-silver-white-8",
+      "name": "Dygma Raise 2 Silver & White",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "Dygma",
+      "url": "https://dygma.com/products/dygma-defy-black-black-17",
+      "name": "Dygma Defy Black & Black",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "Dygma",
+      "url": "https://dygma.com/products/cables-bundle",
+      "name": "Cables Bundle",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "Dygma",
+      "url": "https://dygma.com/products/dygma-gift-card",
+      "name": "Dygma Gift Card",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "Dygma",
+      "url": "https://dygma.com/products/dygma-defy-black-black-35",
+      "name": "Dygma Defy Black & Black",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "EWEADN",
-      "url": "https://www.eweadn.com/products/deep68-s9-built-for-competitive-gamers-1",
-      "name": "Deep68 & S9+ - Built for Competitive Gamers",
+      "url": "https://www.eweadn.com/products/eweadn-nk20-mechanical-macropad",
+      "name": "EWEADN NK20 Mechanical Macropad",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "EWEADN",
+      "url": "https://www.eweadn.com/products/eweadn-keycaps-contour-series",
+      "name": "EWEADN Keycaps – Contour Series",
       "reason": "unsupported_or_accessory_product"
     },
     {
@@ -3026,248 +3064,248 @@
     },
     {
       "brand": "EWEADN",
-      "url": "https://www.eweadn.com/products/eweadn-keycaps-foundation-series",
-      "name": "EWEADN Keycaps – Foundation Series",
+      "url": "https://www.eweadn.com/products/eweadn-fishnet-aviator-cable",
+      "name": "EWEADN Fishnet Coiled Cable with Metal Connector",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "G-Wolves",
-      "url": "https://shop.g-wolves.com/products/g-wolves-lightweight-clay",
-      "name": "G-Wolves Lightweight Clay (4 pieces)",
+      "url": "https://shop.g-wolves.com/products/white-to-pink",
+      "name": "white to pink",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "G-Wolves",
-      "url": "https://shop.g-wolves.com/products/freight-fee",
-      "name": "freight fee",
+      "url": "https://shop.g-wolves.com/products/g-wolves-backpack",
+      "name": "G-Wolves Ultra Light Backpack 22×32×10cm",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "G-Wolves",
-      "url": "https://shop.g-wolves.com/products/pay-more-10-dollors",
-      "name": "pay more dollors",
+      "url": "https://shop.g-wolves.com/products/usb-type-c-cable-for-for-4k-8k-receiver2-pcs-color-random-%E7%9A%84%E5%89%AF%E6%9C%AC",
+      "name": "G-Wolves USB-C Cable for 4K/8K Receiver (2 pcs)",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Glorious",
-      "url": "https://www.gloriousgaming.com/en-de/products/rain-forest-bundle",
-      "name": "Rain Forest Bundle",
+      "url": "https://www.gloriousgaming.com/en-fr/products/gpbt-celestial-fire-v2-keycaps",
+      "name": "GPBT Celestial Fire V2 Keycaps",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Glorious",
-      "url": "https://www.gloriousgaming.com/products/gmmk-3-top-case-limited-edition-synth-purple-100",
-      "name": "GMMK 3 Top Case Limited Edition Synth Purple 100",
+      "url": "https://www.gloriousgaming.com/en-de/products/gpbt-backlit-keycaps",
+      "name": "GPBT Backlit Keycaps",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Glorious",
-      "url": "https://www.gloriousgaming.com/products/keycapsules-keycaps-celestial-fire-us",
-      "name": "Keycaps Celestial Fire US",
+      "url": "https://www.gloriousgaming.com/products/keycapsules-keycaps-pixel-pink-us",
+      "name": "Keycaps Limited Edition Pixel Punk US",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Glorious",
-      "url": "https://www.gloriousgaming.com/products/gmmk-3-gasket-module-pack-firm-75",
-      "name": "GMMK 3 Gasket Module Pack Firm 75%",
+      "url": "https://www.gloriousgaming.com/en-fr/products/gpbt-ocean-v2-keycaps",
+      "name": "GPBT Ocean V2 Keycaps",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Glorious",
-      "url": "https://www.gloriousgaming.com/en-de/products/nebula-bundle",
-      "name": "Nebula Bundle",
+      "url": "https://www.gloriousgaming.com/en-fr/products/gpbt-grapefruit-v2-keycaps",
+      "name": "GPBT Grapefruit V2 Keycaps",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Glorious",
-      "url": "https://www.gloriousgaming.com/products/keycapsules-keycaps-grapefruit-us",
-      "name": "Keycaps Grapefruit US",
+      "url": "https://www.gloriousgaming.com/en-de/products/glorious-lube-station",
+      "name": "Lube Station",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Glorious",
-      "url": "https://www.gloriousgaming.com/en-de/products/gpbt-ink-noir",
-      "name": "GPBT Ink Noir Keycaps",
+      "url": "https://www.gloriousgaming.com/products/keycaps-power-panel-us",
+      "name": "Keycaps Power Panel US",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "Glorious",
+      "url": "https://www.gloriousgaming.com/en-de/products/gpbt-synth-sunrise",
+      "name": "GPBT Synth Sunrise Keycaps",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "Glorious",
+      "url": "https://www.gloriousgaming.com/products/keycapsules-keycaps-basics-classic-black-de",
+      "name": "Keycaps Basics Classic Black DE",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "Glorious",
+      "url": "https://www.gloriousgaming.com/en-fr/products/infiniteplay-battery-pack",
+      "name": "InfinitePlay Extra Life Battery Pack 500mAh",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "Glorious",
+      "url": "https://www.gloriousgaming.com/products/gmmk-rotary-knob-silver",
+      "name": "GMMK Rotary Knob Silver",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "HyperX",
-      "url": "https://hyperx.com/products/hx3d-spacebar-fps-camo",
-      "name": "HX3D Spacebar - FPS Camo",
+      "url": "https://hyperx.com/products/hx3d-keycap-cat",
+      "name": "HX3D Keycap - Cat",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "HyperX",
-      "url": "https://hyperx.com/products/hx3d-keycap-guild-wars-2-warclaw",
-      "name": "HX3D x Guild Wars 2 Keycap - Warclaw",
+      "url": "https://hyperx.com/products/hx3d-keycap-patty-the-pumpkin",
+      "name": "HX3D Keycap - Patty the Pumpkin",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "HyperX",
-      "url": "https://hyperx.com/products/hyperx-chargeplay-quad-2-joy-con-charging-station",
-      "name": "HyperX ChargePlay Quad 2 – Charging Station for Nintendo Switch",
+      "url": "https://hyperx.com/products/hx3d-keycap-safari-leopard",
+      "name": "HX3D Keycap - Safari Leopard",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "HyperX",
-      "url": "https://hyperx.com/products/hyperx-omen-max-16-inch-gaming-laptop-pc-16-ah1932nr",
-      "name": "HyperX OMEN MAX 16 inch Gaming Laptop PC 16, Windows 11 Home, 16\", Intel® Core™ Ultra 9, 32GB RAM, 2TB SSD, NVIDIA® GeForce RTX™ 5090, 2.5K, Shadow black",
+      "url": "https://hyperx.com/products/hyperx-origins-2-65-housing",
+      "name": "HyperX Origins 2 65 Housing",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "HyperX",
-      "url": "https://hyperx.com/products/hx3d-keycap-guild-wars-2-siege-turtle",
-      "name": "HX3D x Guild Wars 2 Keycap - Siege Turtle",
+      "url": "https://hyperx.com/products/hx3d-keycap-fps-bundle-full-set",
+      "name": "HX3D Keycaps - FPS Bundle Full Set",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "HyperX",
-      "url": "https://hyperx.com/products/hyperx-3d-civilization-wonders-set",
-      "name": "HyperX 3D Print Wonders Set Civilization VII",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "HyperX",
-      "url": "https://hyperx.com/products/hx3d-keycap-hamster",
-      "name": "HX3D Keycap - Hamster",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "HyperX",
-      "url": "https://hyperx.com/products/omen-35l-gaming-desktop-gt16-0285t",
-      "name": "OMEN 35L Gaming Desktop GT16-0285t PC, Windows 11 Home, Intel® Core™ Ultra 9, 64GB RAM, 2TB SSD, NVIDIA® GeForce RTX™ 5080, Black",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "HyperX",
-      "url": "https://hyperx.com/products/omen-16l-gaming-desktop-tg03-0055m-pc",
-      "name": "OMEN 16L Gaming Desktop TG03-0055m PC, Windows 11 Home, AMD Ryzen™ 5, 16GB RAM, 512GB SSD, AMD Radeon™ RX 7600, Black",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "HyperX",
-      "url": "https://hyperx.com/products/hx3d-keycap-safari-animals-collection-set",
-      "name": "HX3D Keycap - Safari Animals Collection Set",
+      "url": "https://hyperx.com/products/hyperx-omen-15-inch-gaming-laptop-pc-15-gb0261nr",
+      "name": "HyperX OMEN 15 inch Gaming Laptop PC 15, Windows 11 Home, 15.3\", AMD Ryzen™ 7, 16GB RAM, 1TB SSD, NVIDIA® GeForce RTX™ 5060, 2.5K, Shadow black",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "JLab",
-      "url": "https://www.jlab.com/products/nolan-hickman-collection-card",
-      "name": "Nolan Hickman Collection Card",
+      "url": "https://www.jlab.com/products/chance-gray-collection-card",
+      "name": "Chance Gray Collection Card",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "JLab",
-      "url": "https://www.jlab.com/products/nic-anderson-collection-card",
-      "name": "Nic Anderson Collection Card",
+      "url": "https://www.jlab.com/products/naomi-panganiban-collection-card",
+      "name": "Naomi Panganiban Collection Card",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "JLab",
+      "url": "https://www.jlab.com/products/travis-hunter-collection-card",
+      "name": "Travis Hunter Collection Card",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Keychron",
-      "url": "https://www.keychron.com/products/keychron-k6-wireless-mechanical-keyboard",
-      "name": "Keychron K6 Wireless Mechanical Keyboard",
+      "url": "https://www.keychron.com/products/keychron-double-sleeved-geek-cable",
+      "name": "Keychron Double-Sleeved Geek Cable",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "Keychron",
+      "url": "https://www.keychron.com/products/v10-aluminum-plate",
+      "name": "V10 Aluminum Plate",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "Keychron",
+      "url": "https://www.keychron.com/products/graphics-card-aluminium-alloy-artisan-keycap",
+      "name": "Graphics Card Aluminum Alloy Artisan Keycap",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "Keychron",
+      "url": "https://www.keychron.com/products/gateron-switch-tester-version-2",
+      "name": "Gateron Switch Tester - Version 2",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "Keychron",
+      "url": "https://www.keychron.com/products/q2-fr4-plate",
+      "name": "Q2 FR4 Plate",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "Keychron",
+      "url": "https://www.keychron.com/products/keychron-low-profile-mechanical-switch",
+      "name": "Keychron Low Profile Mechanical Switch",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "Keychron",
+      "url": "https://www.keychron.com/products/keychron-coiled-aviator-cable-8k",
+      "name": "Keychron Coiled Aviator Cable 8K",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "Keychron",
+      "url": "https://www.keychron.com/products/keychron-k7-ultra-slim-wireless-mechanical-keyboard-nordic-iso-layout",
+      "name": "Keychron K7 Ultra-slim Wireless Mechanical Keyboard (Nordic ISO Layout)",
       "reason": "missing_product_structured_data"
     },
     {
-      "brand": "Keychron",
-      "url": "https://www.keychron.com/products/keychron-m1-mouse",
-      "name": "Keychron M1 Ultra-Light Optical Mouse (Wired)",
-      "reason": "missing_product_structured_data"
-    },
-    {
-      "brand": "Keychron",
-      "url": "https://www.keychron.com/products/kailh-box-cream-pro-switch",
-      "name": "Kailh Box Cream Pro Switch",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "Keychron",
-      "url": "https://www.keychron.com/products/elegant-goldfish-resin-artisan-keycap",
-      "name": "Elegant Goldfish Resin Artisan Keycap",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "Keychron",
-      "url": "https://www.keychron.com/products/q12-brass-plate",
-      "name": "Q12 Brass Plate",
+      "brand": "Machenike Official Store",
+      "url": "https://global.machenike.com/ms/products/mk23fg165s1",
+      "name": "Machenike Siri MK23 - MK23FG165S1 Monitor",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Machenike Official Store",
-      "url": "https://global.machenike.com/ms/products/k500w",
-      "name": "Papan Kekunci Mekanikal K500W",
+      "url": "https://global.machenike.com/ms/products/k500f",
+      "name": "Papan Kekunci Mekanikal Berwayar K500-B61",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Machenike Official Store",
-      "url": "https://global.machenike.com/ms/products/l15a-12",
-      "name": "Machenike L15A Gen 12 Intel (15.6”) Gaming Laptop",
+      "url": "https://global.machenike.com/products/t58_11",
+      "name": "Machenike T58 Gen 11 Intel (15.6”) Gaming Laptop",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Machenike Official Store",
-      "url": "https://global.machenike.com/products/f117-fp",
-      "name": "Machenike F117-FP Gen 11 Intel (17.3”) Gaming Laptop",
+      "url": "https://global.machenike.com/ms/products/mk21flt1",
+      "name": "Machcreator Siri MK21 - MK21FLT1 Monitor",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Machenike Official Store",
-      "url": "https://global.machenike.com/products/t58-va",
-      "name": "Machenike T58-VA Gen 11 Intel (15.6”) Gaming Laptop",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "Machenike Official Store",
-      "url": "https://global.machenike.com/ms/products/g1",
-      "name": "G1 Gamepad Controller",
-      "reason": "not_a_specific_product_page"
-    },
-    {
-      "brand": "Machenike Official Store",
-      "url": "https://global.machenike.com/ms/products/gk80",
-      "name": "Papan kekunci mekanikal gasket GK80",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "Machenike Official Store",
-      "url": "https://global.machenike.com/products/gqx25mws",
-      "name": "Machenike Creation GQX25MWS Gaming Desktop",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "Machenike Official Store",
-      "url": "https://global.machenike.com/ms/products/k600-2",
-      "name": "Papan kekunci mekanikal K600 Gen2",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "Machenike Official Store",
-      "url": "https://global.machenike.com/ms/products/gqx25abs",
-      "name": "Machenike Creation GQX25ABS Gaming Desktop",
-      "reason": "unsupported_or_accessory_product"
-    },
-    {
-      "brand": "Machenike Official Store",
-      "url": "https://global.machenike.com/ms/products/mk27fg165s1",
-      "name": "Machenike Siri MK27 - MK27FG165S1 Monitor",
+      "url": "https://global.machenike.com/ms/products/14x",
+      "name": "Machcreator-14X Gen 12 Intel (14 \") komputer riba",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Nagashock Gaming",
-      "url": "https://nagashock.com/product/purple-ps5-fps-predator/",
-      "name": "PURPLE PS5 'FPS PREDATOR'",
+      "url": "https://nagashock.com/product/white-xbox-series-x-fps-raider/",
+      "name": "WHITE XBOX SERIES X 'FPS RAIDER'",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Nagashock Gaming",
-      "url": "https://nagashock.com/product/red-ps5-fps-predator/",
-      "name": "RED PS5 'FPS PREDATOR'",
+      "url": "https://nagashock.com/product/black-ps4-fps-predator/",
+      "name": "JET BLACK PS4 'FPS PREDATOR'",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Nagashock Gaming",
-      "url": "https://nagashock.com/product/red-xbox-series-x-fps-raider/",
-      "name": "RED XBOX SERIES X 'FPS RAIDER'",
+      "url": "https://nagashock.com/product/orange-xbox-series-x-fps-raider/",
+      "name": "ORANGE XBOX SERIES X 'FPS RAIDER'",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "Nagashock Gaming",
+      "url": "https://nagashock.com/product/ps5-inferno-fps-predator/",
+      "name": "PS5 ‘INFERNO’ FPS PREDATOR",
       "reason": "unsupported_or_accessory_product"
     },
     {
@@ -3278,164 +3316,140 @@
     },
     {
       "brand": "Nagashock Gaming",
-      "url": "https://nagashock.com/product/carbon-black-xbox-series-x-fps-wingman/",
-      "name": "CARBON BLACK XBOX SERIES X 'FPS WINGMAN'",
+      "url": "https://nagashock.com/product/ps4-frostbyte-fps-predator/",
+      "name": "PS4 ‘FROSTBYTE’ FPS PREDATOR",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Nagashock Gaming",
-      "url": "https://nagashock.com/product/blue-ps5-fps-predator/",
-      "name": "BLUE PS5 'FPS PREDATOR'",
+      "url": "https://nagashock.com/product/white-ps5-fps-wingman/",
+      "name": "WHITE PS5 'FPS WINGMAN'",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Nagashock Gaming",
-      "url": "https://nagashock.com/product/green-xbox-series-x-fps-raider/",
-      "name": "GREEN XBOX SERIES X 'FPS RAIDER'",
+      "url": "https://nagashock.com/product/fps-predator-rallied/",
+      "name": "PS4 FPS PREDATOR ‘RALLIED’",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Nagashock Gaming",
-      "url": "https://nagashock.com/product/ps5-fps-predator-rallied/",
-      "name": "PS5 FPS Predator 'Rallied'",
+      "url": "https://nagashock.com/product/galactic-purple-ps5-fps-raider/",
+      "name": "GALACTIC PURPLE PS5 'FPS RAIDER'",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Nagashock Gaming",
-      "url": "https://nagashock.com/product/yellow-ps5-fps-predator/",
-      "name": "YELLOW PS5 'FPS PREDATOR'",
+      "url": "https://nagashock.com/product/yellow-ps4-fps-predator/",
+      "name": "YELLOW PS4 'FPS PREDATOR'",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "Razer",
-      "url": "https://www.razer.com/gaming-mice/razer-basilisk-mobile",
-      "name": "Razer Basilisk Mobile: Portable Ergonomic Wireless Gaming Mouse | Razer United States",
+      "url": "https://www.razer.com/au-en/gaming-headsets/razer-kraken-kitty-v3-pro/RZ04-05170200-R3M1",
+      "name": "Razer Kraken Kitty V3 Pro",
       "reason": "not_a_specific_product_page"
     },
     {
       "brand": "Razer",
-      "url": "https://www.razer.com/gaming-keyboards/razer-blackwidow-v3-tenkeyless",
-      "name": "RAZER BLACKWIDOW V3 TENKEYLESS",
-      "reason": "not_a_specific_product_page"
-    },
-    {
-      "brand": "Razer",
-      "url": "https://www.razer.com/au-en/gaming-mice/razer-basilisk-v3-pro/RZ01-04620200-R3A1",
-      "name": "RAZER BASILISK V3 PRO",
-      "reason": "not_a_specific_product_page"
-    },
-    {
-      "brand": "Razer",
-      "url": "https://www.razer.com/gaming-keyboards/razer-huntsman-mini",
-      "name": "RAZER HUNTSMAN MINI",
-      "reason": "not_a_specific_product_page"
-    },
-    {
-      "brand": "Razer",
-      "url": "https://www.razer.com/hk-en/gaming-mice/razer-deathadder-essential/RZ01-03850100-R3M1",
+      "url": "https://www.razer.com/hk-zh/gaming-mice/razer-deathadder-essential/RZ01-03850100-R3M1",
       "name": "Razer DeathAdder Essential",
       "reason": "not_a_specific_product_page"
     },
     {
       "brand": "Razer",
-      "url": "https://www.razer.com/pc/gaming-mice/basilisk-line",
-      "name": "THE RAZER BASILISK LINE",
+      "url": "https://www.razer.com/gaming-mice/minecraft-razer-cobra/RZ01-04650200-R3M1",
+      "name": "Razer Cobra",
       "reason": "not_a_specific_product_page"
     },
     {
       "brand": "Razer",
-      "url": "https://www.razer.com/au-en/gaming-headsets/razer-kraken-kitty-v2/RZ04-04730200-R3M1",
-      "name": "Razer Kraken Kitty V2",
-      "reason": "not_a_specific_product_page"
-    },
-    {
-      "brand": "Razer",
-      "url": "https://www.razer.com/gaming-keyboards/razer-blackwidow-v4-low-profile-hyperspeed",
-      "name": "Razer BlackWidow V4 Low-profile HyperSpeed Keyboard | Razer United States",
-      "reason": "not_a_specific_product_page"
-    },
-    {
-      "brand": "Razer",
-      "url": "https://www.razer.com/hk-en/gaming-mice/razer-basilisk-v3-pro-35k/RZ01-05240100-R3A1",
-      "name": null,
-      "reason": "missing_product_name"
-    },
-    {
-      "brand": "Razer",
-      "url": "https://www.razer.com/gaming-keyboards/razer-blackwidow-v4-x/RZ03-04704300-R3M1",
+      "url": "https://www.razer.com/au-en/gaming-keyboards/razer-blackwidow-v4-x/RZ03-04704300-R3M1",
       "name": "Razer BlackWidow V4 X",
       "reason": "not_a_specific_product_page"
     },
     {
       "brand": "Razer",
-      "url": "https://www.razer.com/hk-en/gaming-keyboards/razer-blackwidow-v4-pro/RZ03-04683300-R3T1",
+      "url": "https://www.razer.com/au-en/gaming-keyboards/razer-blackwidow-v4-pro/RZ03-04683500-R3M1",
       "name": "Razer BlackWidow V4 Pro",
       "reason": "not_a_specific_product_page"
     },
     {
       "brand": "Razer",
-      "url": "https://www.razer.com/au-en/gaming-keyboards/razer-huntsman-v3-pro/RZ03-04970100-R3M1",
-      "name": "Razer Huntsman V3 Pro",
+      "url": "https://www.razer.com/gaming-keyboards/razer-ornata-v3-tenkeyless/RZ03-04882800-R3M1",
+      "name": "Razer Ornata V3 Tenkeyless",
+      "reason": "not_a_specific_product_page"
+    },
+    {
+      "brand": "Razer",
+      "url": "https://www.razer.com/hk-zh/gaming-keyboards/razer-huntsman-mini/RZ03-03390300-R3M1",
+      "name": "RAZER HUNTSMAN MINI",
+      "reason": "not_a_specific_product_page"
+    },
+    {
+      "brand": "Razer",
+      "url": "https://www.razer.com/gaming-keyboards/razer-reclusa-x-mini-65",
+      "name": "Reclusa X Mini 65% Hot-Swappable Gaming Keyboard | Razer United States",
+      "reason": "not_a_specific_product_page"
+    },
+    {
+      "brand": "Razer",
+      "url": "https://www.razer.com/pc/gaming-keyboards/keyboards-accessories",
+      "name": "Interactive Keyboard Customization",
+      "reason": "not_a_specific_product_page"
+    },
+    {
+      "brand": "Razer",
+      "url": "https://www.razer.com/gaming-keyboards/razer-huntsman-v3-pro-8khz/RZ03-05530200-R3U1",
+      "name": "Razer Huntsman V3 Pro 8KHz",
       "reason": "not_a_specific_product_page"
     },
     {
       "brand": "SteelSeries",
-      "url": "https://steelseries.com/gaming-keyboards/apex-3?keyboardSize=fullSize&keyboardLanguage=english&color=black",
-      "name": "Apex 3 US",
+      "url": "https://steelseries.com/gaming-keyboards/apex-pro?keyboardSize=mini&connectivityType=wired&keyboardLanguage=english",
+      "name": "Apex Pro Mini - US",
       "reason": "not_a_specific_product_page"
     },
     {
       "brand": "SteelSeries",
-      "url": "https://steelseries.com/gaming-mice/aerox-3-wireless-gen-2?color=shadow",
-      "name": "Aerox 3 Wireless Gen 2 - Shadow",
-      "reason": "not_a_specific_product_page"
-    },
-    {
-      "brand": "SteelSeries",
-      "url": "https://steelseries.com/gaming-keyboards/apex-3?keyboardSize=fullSize&keyboardLanguage=spanish&color=black",
-      "name": "Apex 3 SP",
-      "reason": "not_a_specific_product_page"
-    },
-    {
-      "brand": "SteelSeries",
-      "url": "https://steelseries.com/gaming-mice/aerox-5?color=black&connectivityType=wired",
-      "name": "Aerox 5",
-      "reason": "not_a_specific_product_page"
-    },
-    {
-      "brand": "SteelSeries",
-      "url": "https://steelseries.com/gaming-mice/aerox-5",
-      "name": "Aerox 5 Wireless",
+      "url": "https://steelseries.com/gaming-mice/aerox-9?color=black",
+      "name": "Aerox 9 Wireless",
       "reason": "not_a_specific_product_page"
     },
     {
       "brand": "TempoTec Audio",
-      "url": "https://www.tempotec.net/cs/products/tempotec-v1-back-clip",
-      "name": "Back Clip for TempoTec Variations V1",
+      "url": "https://www.tempotec.net/cs/products/tempotec-v3-digital-audio-player",
+      "name": "TempoTec V3 | Digital Audio Player",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "TempoTec Audio",
-      "url": "https://www.tempotec.net/products/tempotec-sonata-hd-iii-android-version-ios-version",
-      "name": "Android version TempoTec Sonata HD III (Android version / iOS version）",
+      "url": "https://www.tempotec.net/cs/products/tempotec-v6",
+      "name": "Gold wheel TempoTec Variations V6 HiFi Music Player",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "TempoTec Audio",
-      "url": "https://www.tempotec.net/products/tempotec-sonata-hd-v",
-      "name": "Silver / Android version TempoTec Sonata HD V (Android version / iOS version）",
+      "url": "https://www.tempotec.net/products/tempotec-serenade-x",
+      "name": "US plug TempoTec Serenade X",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "TempoTec Audio",
-      "url": "https://www.tempotec.net/cs/products/tempotec-v3d-digital-audio-player",
+      "url": "https://www.tempotec.net/cs/products/leather-case-for-tempotec-v3-dap-mp3-player-accessories",
+      "name": "Black Protective Case For TempoTec Variations V3 Series DAP MP3 Player Accessories",
+      "reason": "unsupported_or_accessory_product"
+    },
+    {
+      "brand": "TempoTec Audio",
+      "url": "https://www.tempotec.net/products/tempotec-v3d-digital-audio-player",
       "name": "TempoTec V3-D | Portable HiFi Digital Audio Player",
       "reason": "unsupported_or_accessory_product"
     },
     {
       "brand": "TempoTec Audio",
-      "url": "https://www.tempotec.net/cs/products/tempotec-type-c-female-to-lightning-male-cable",
-      "name": "TempoTec Type-C Female To Lightning Male Cable",
+      "url": "https://www.tempotec.net/cs/products/tempotec-march-iii-m3",
+      "name": "US plug TempoTec March III M3",
       "reason": "unsupported_or_accessory_product"
     }
   ]
