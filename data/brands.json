@@ -2335,6 +2335,34 @@
       "sitemap_urls": []
     },
     {
+      "brand": "AULA Official Store",
+      "brand_zh_cn": "AULA Official Store",
+      "brand_zh_cn_status": "pending_human_verification",
+      "origin": "待确认",
+      "source_preference": "cn_web",
+      "preferred_locale": "en",
+      "domains": [
+        "aulagaming.com"
+      ],
+      "collection_urls": [
+        "https://www.aulagaming.com",
+        "https://www.aulagaming.com/products/aula-f75-pro",
+        "https://www.aulagaming.com/products/aula-s75-pro",
+        "https://www.aulagaming.com/products/aula-win60-he"
+      ],
+      "discovery": [
+        "configured_pages",
+        "sitemap",
+        "shopify_products_json"
+      ],
+      "sitemap_urls": [
+        "https://www.aulagaming.com/sitemap.xml"
+      ],
+      "auto_discovered": true,
+      "discovered_at": "2026-09-29",
+      "discovery_score": 96
+    },
+    {
       "brand": "Bang & Olufsen",
       "brand_zh_cn": "Bang & Olufsen",
       "origin": "海外",
@@ -4272,34 +4300,6 @@
         "shopify_products_json"
       ],
       "sitemap_urls": []
-    },
-    {
-      "brand": "AULA Official Store",
-      "brand_zh_cn": "AULA Official Store",
-      "brand_zh_cn_status": "pending_human_verification",
-      "origin": "待确认",
-      "source_preference": "cn_web",
-      "preferred_locale": "en",
-      "domains": [
-        "aulagaming.com"
-      ],
-      "collection_urls": [
-        "https://www.aulagaming.com",
-        "https://www.aulagaming.com/products/aula-f75-pro",
-        "https://www.aulagaming.com/products/aula-s75-pro",
-        "https://www.aulagaming.com/products/aula-win60-he"
-      ],
-      "discovery": [
-        "configured_pages",
-        "sitemap",
-        "shopify_products_json"
-      ],
-      "sitemap_urls": [
-        "https://www.aulagaming.com/sitemap.xml"
-      ],
-      "auto_discovered": true,
-      "discovered_at": "2026-09-29",
-      "discovery_score": 96
     }
   ],
   "schema_version": "1.2",
