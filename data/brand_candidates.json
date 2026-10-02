@@ -3968,7 +3968,7 @@
   {
     "brand": "Flydigi",
     "domain": "shops.flydigi.com",
-    "official_url": "https://shops.flydigi.com",
+    "official_url": "https://shops.flydigi.com/",
     "score": 92,
     "categories": [
       "手柄",
@@ -4001,11 +4001,11 @@
     },
     "origin": "待确认",
     "discovered_at": "2026-09-13",
-    "last_seen": "2026-09-29",
+    "last_seen": "2026-10-02",
     "search_evidence": {
-      "query": "gaming controller brand official website",
+      "query": "飞智 游戏手柄 官网",
       "result_title": "Flydigi Official Store",
-      "result_snippet": "Enjoy precise and reliable gaming with Flydigi gaming controllers, designed for multi-platform use."
+      "result_snippet": "Enjoy precise and reliable gaming with Flydigi gaming controllers, designed for multi-platform use. Sale price $19.99 USD"
     },
     "status": "candidate"
   },
@@ -5634,9 +5634,9 @@
     },
     "origin": "待确认",
     "discovered_at": "2026-09-14",
-    "last_seen": "2026-10-01",
+    "last_seen": "2026-10-02",
     "search_evidence": {
-      "query": "ergonomic keyboard brand official website",
+      "query": "ergonomic mouse brand official site",
       "result_title": "Kinesis Ergonomic Keyboards, Mice and Input Solutions",
       "result_snippet": "Kinesis builds premium ergonomic keyboards, mice and foot pedals boosting comfort and productivity for all computer users."
     },
@@ -7312,19 +7312,20 @@
     "brand": "Sablute",
     "domain": "sablute.com",
     "official_url": "https://sablute.com/",
-    "score": 86,
+    "score": 94,
     "categories": [
       "键盘",
       "鼠标"
     ],
-    "product_page_count": 6,
-    "product_schema_page_count": 2,
+    "product_page_count": 7,
+    "product_schema_page_count": 3,
     "sample_product_pages": [
       "https://sablute.com/collections/ergonomic-keyboard-mouse-combos",
       "https://sablute.com/collections/ergonomic-mice",
       "https://sablute.com/collections/light-up-series",
       "https://sablute.com/products/sablute-split-ergonomic-keyboard-and-mouse-combo-ma51",
       "https://sablute.com/collections/wave-keyboards",
+      "https://sablute.com/products/ergonomic-wireless-keyboard-and-mouse-combo-ma31-pro",
       "https://sablute.com/products/wave-keys-wireless-keyboard-and-mouse-combo-ma22-plus"
     ],
     "sample_product_names": [
@@ -7340,9 +7341,9 @@
     },
     "origin": "待确认",
     "discovered_at": "2026-09-19",
-    "last_seen": "2026-10-01",
+    "last_seen": "2026-10-02",
     "search_evidence": {
-      "query": "ergonomic keyboard brand official website",
+      "query": "ergonomic mouse brand official site",
       "result_title": "Sablute | Ergonomic Wireless Keyboard & Mouse Combos for Work",
       "result_snippet": "Sablute creates ergonomic keyboards and mice with natural hand positioning, softer keystrokes, and wrist support for more comfortable everyday work."
     },
@@ -8647,7 +8648,7 @@
     },
     "origin": "待确认",
     "discovered_at": "2026-09-25",
-    "last_seen": "2026-09-29",
+    "last_seen": "2026-10-02",
     "search_evidence": {
       "query": "ergonomic mouse brand official site",
       "result_title": "Swiftpoint - Ergonomic Mice | Gaming Mice | Travel Mice | Apple's Mice",
@@ -9817,5 +9818,58 @@
       "result_snippet": "4.5 12 · Free delivery over $25 KontrolFreek is the creator of Performance Gaming Gear that enhance the player experience by maximizing comfort and precision."
     },
     "status": "candidate"
+  },
+  {
+    "brand": "Aula Gear",
+    "domain": "aulagear.com",
+    "official_url": "https://aulagear.com/",
+    "score": 96,
+    "categories": [
+      "耳机/耳麦",
+      "键盘",
+      "鼠标"
+    ],
+    "product_page_count": 12,
+    "product_schema_page_count": 12,
+    "sample_product_pages": [
+      "https://aulagear.com/products/aula-f75",
+      "https://aulagear.com/products/aula-f75-max",
+      "https://aulagear.com/products/aula-hero68-he",
+      "https://aulagear.com/products/aula-f99-copy",
+      "https://aulagear.com/products/aula-f108-pro",
+      "https://aulagear.com/products/aula-win60he-max",
+      "https://aulagear.com/products/aula-f99",
+      "https://aulagear.com/products/aula-win68-he-series",
+      "https://aulagear.com/products/epomaker-x-aula-f65",
+      "https://aulagear.com/products/aula-f87-pro"
+    ],
+    "sample_product_names": [
+      "AULA F75",
+      "AULA F75 MAX",
+      "AULA HERO 68 HE",
+      "AULA F99 PRO",
+      "AULA F108 PRO",
+      "AULA WIN60 HE Series",
+      "AULA F99",
+      "AULA WIN68 HE Series",
+      "AULA F65",
+      "AULA F87 Pro"
+    ],
+    "evidence": {
+      "has_contact_or_about": true,
+      "has_support_or_driver": true,
+      "official_cue_hits": 7
+    },
+    "origin": "待确认",
+    "discovered_at": "2026-10-02",
+    "last_seen": "2026-10-02",
+    "search_evidence": {
+      "query": "狼蛛 AULA 键盘 官网",
+      "result_title": "AULA F108 Pro Driver - Aula Gear",
+      "result_snippet": "Mar 31, 2025 · Regular price $79.99 Sale price $79.99. New updated full-size keyboard!"
+    },
+    "status": "promoted",
+    "promoted_at": "2026-10-02",
+    "promotion_reason": "high_confidence_auto"
   }
 ]
