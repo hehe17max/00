@@ -2,25 +2,35 @@
   "date": "2026-10-02",
   "provider": "ddgs",
   "queries": [
-    "国产 耳夹式 开放式耳机 品牌 官方网站",
-    "2026 新款 电竞鼠标 键盘 品牌 官网",
-    "中国 机械键盘 厂商 官方网站",
-    "中国 无线游戏鼠标 厂商 官网",
-    "中国 Hall Effect 磁轴键盘 品牌 官方",
-    "gaming peripherals new brand official mouse keyboard headset",
-    "gaming mouse manufacturer official website keyboard headset",
-    "hall effect keyboard brand official website"
+    "wireless earbuds brand official website",
+    "gaming earbuds brand official site",
+    "keyboard switch manufacturer official website",
+    "hall effect keyboard manufacturers official website",
+    "gaming controller brand official website",
+    "国产 客制化键盘 品牌 官网",
+    "中国 游戏外设 新锐品牌 官网",
+    "国产 透明键盘 品牌 官网"
   ],
-  "results_scanned": 75,
-  "candidate_sites_checked": 32,
-  "new_candidates": 0,
-  "auto_promoted": 0,
+  "results_scanned": 52,
+  "candidate_sites_checked": 28,
+  "new_candidates": 5,
+  "auto_promoted": 1,
   "approved_promoted": 0,
   "rejected_skipped": 0,
   "errors": [
     {
       "stage": "ddgs",
-      "query": "中国 机械键盘 厂商 官方网站",
+      "query": "keyboard switch manufacturer official website",
+      "error": "No results found."
+    },
+    {
+      "stage": "ddgs",
+      "query": "国产 客制化键盘 品牌 官网",
+      "error": "No results found."
+    },
+    {
+      "stage": "ddgs",
+      "query": "中国 游戏外设 新锐品牌 官网",
       "error": "No results found."
     }
   ]
