@@ -2,27 +2,22 @@
   "date": "2026-10-07",
   "provider": "ddgs",
   "queries": [
-    "拓品 Topping 声卡 解码器 官网",
     "乂度 xDuoo 解码器 官网",
     "海贝 HiBy 播放器 官网",
     "天使吉米 Tanchjim 耳机 官网",
     "宁梵 NF Audio 耳机 官网",
     "阿思翠 Astrotec 耳机 官网",
     "弱水时砂 耳机 官网",
-    "锦瑟香也 TFZ 耳机 官网"
+    "锦瑟香也 TFZ 耳机 官网",
+    "绿联 UGREEN 数码配件 官网"
   ],
   "results_scanned": 10,
-  "candidate_sites_checked": 3,
+  "candidate_sites_checked": 2,
   "new_candidates": 0,
   "auto_promoted": 0,
   "approved_promoted": 0,
   "rejected_skipped": 0,
   "errors": [
-    {
-      "stage": "ddgs",
-      "query": "乂度 xDuoo 解码器 官网",
-      "error": "No results found."
-    },
     {
       "stage": "ddgs",
       "query": "海贝 HiBy 播放器 官网",
@@ -51,6 +46,11 @@
     {
       "stage": "ddgs",
       "query": "锦瑟香也 TFZ 耳机 官网",
+      "error": "No results found."
+    },
+    {
+      "stage": "ddgs",
+      "query": "绿联 UGREEN 数码配件 官网",
       "error": "No results found."
     }
   ]
