@@ -379,9 +379,21 @@ for i,b in enumerate(brands,1):
     log(f"[{i}/{len(brands)}] {brand}")
     for u in b.get("collection_urls",[])[:8]: found |= page_links(u,domains)
     for u in b.get("sitemap_urls",[])[:2]: found |= sitemap_urls(u,domains)
+    if not found:
+        # Auto-discovery fallback for brands configured with domains only:
+        # probe common sitemap paths, then the homepage for product links.
+        for d in domains[:1]:
+            base=d if d.startswith(("http://","https://")) else "https://"+d
+            for probe in ("/sitemap.xml","/sitemap_index.xml","/wp-sitemap.xml"):
+                try: found |= sitemap_urls(base+probe,domains)
+                except Exception: pass
+                if len(found)>=MAX_DISCOVERY_URLS_PER_BRAND: break
+            if not found:
+                try: found |= page_links(base+"/",domains)
+                except Exception: pass
     if "shopify_products_json" in b.get("discovery",[]):
         bases=[]
-        for u in b.get("collection_urls",[]):
+        for u in (b.get("collection_urls",[]) or ([domains[0]] if domains else [])):
             pr=urlparse(u)
             if pr.scheme and pr.netloc:
                 base=f"{pr.scheme}://{pr.netloc}"
