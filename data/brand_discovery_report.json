@@ -2,30 +2,40 @@
   "date": "2026-10-31",
   "provider": "ddgs",
   "queries": [
+    "gaming peripherals new brand official mouse keyboard headset",
+    "gaming mouse manufacturer official website keyboard headset",
+    "hall effect keyboard brand official website",
+    "wireless gaming mouse brand official store",
+    "gaming headset peripheral brand official site",
     "best mechanical keyboard brands 2026 official website",
     "top gaming mouse brands official site",
-    "best gaming headset brands 2026 official website",
-    "ergonomic keyboard brand official website",
-    "wireless earbuds brand official website",
-    "gaming earbuds brand official site",
-    "keyboard switch manufacturer official website",
-    "hall effect keyboard manufacturers official website"
+    "best gaming headset brands 2026 official website"
   ],
-  "results_scanned": 45,
-  "candidate_sites_checked": 29,
-  "new_candidates": 1,
+  "results_scanned": 31,
+  "candidate_sites_checked": 12,
+  "new_candidates": 0,
   "auto_promoted": 0,
   "approved_promoted": 0,
   "rejected_skipped": 0,
   "errors": [
     {
       "stage": "ddgs",
-      "query": "wireless earbuds brand official website",
+      "query": "wireless gaming mouse brand official store",
       "error": "No results found."
     },
     {
       "stage": "ddgs",
-      "query": "keyboard switch manufacturer official website",
+      "query": "gaming headset peripheral brand official site",
+      "error": "error sending request for url (https://grokipedia.com/api/typeahead?query=gaming+headset+peripheral+brand+official+site&limit=1) > operation timed out"
+    },
+    {
+      "stage": "ddgs",
+      "query": "best mechanical keyboard brands 2026 official website",
+      "error": "No results found."
+    },
+    {
+      "stage": "ddgs",
+      "query": "best gaming headset brands 2026 official website",
       "error": "No results found."
     }
   ]
