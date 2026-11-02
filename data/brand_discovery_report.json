@@ -2,17 +2,17 @@
   "date": "2026-11-02",
   "provider": "ddgs",
   "queries": [
-    "国产 客制化键盘 品牌 官网",
-    "中国 游戏外设 新锐品牌 官网",
-    "国产 透明键盘 品牌 官网",
-    "中国 电竞耳机 品牌 官方网站",
-    "国产 鼠标垫 品牌 官网",
-    "ergonomic mouse brand official site",
-    "觅声 Misiom 耳机 声卡 官网",
-    "漫步者 官网"
+    "绿联 UGREEN 数码配件 官网",
+    "奥睿科 ORICO 数码配件 官网",
+    "品胜 PISEN 数码配件 官网",
+    "倍思 数码配件 官网",
+    "摩米士 MOMAX 配件 官网",
+    "京东京造 外设 官网",
+    "凯华 Kailh 轴体 官网",
+    "佳达隆 Gateron 轴体 官网"
   ],
-  "results_scanned": 45,
-  "candidate_sites_checked": 26,
+  "results_scanned": 21,
+  "candidate_sites_checked": 11,
   "new_candidates": 0,
   "auto_promoted": 0,
   "approved_promoted": 0,
@@ -20,13 +20,28 @@
   "errors": [
     {
       "stage": "ddgs",
-      "query": "国产 透明键盘 品牌 官网",
-      "error": "No results found."
+      "query": "奥睿科 ORICO 数码配件 官网",
+      "error": "error sending request for url (https://www.mojeek.com/search?q=%E5%A5%A5%E7%9D%BF%E7%A7%91+ORICO+%E6%95%B0%E7%A0%81%E9%85%8D%E4%BB%B6+%E5%AE%98%E7%BD%91) > operation timed out"
     },
     {
       "stage": "ddgs",
-      "query": "中国 电竞耳机 品牌 官方网站",
-      "error": "No results found."
+      "query": "品胜 PISEN 数码配件 官网",
+      "error": "error sending request for url (https://www.mojeek.com/search?q=%E5%93%81%E8%83%9C+PISEN+%E6%95%B0%E7%A0%81%E9%85%8D%E4%BB%B6+%E5%AE%98%E7%BD%91) > operation timed out"
+    },
+    {
+      "stage": "ddgs",
+      "query": "京东京造 外设 官网",
+      "error": "error sending request for url (https://www.mojeek.com/search?q=%E4%BA%AC%E4%B8%9C%E4%BA%AC%E9%80%A0+%E5%A4%96%E8%AE%BE+%E5%AE%98%E7%BD%91) > operation timed out"
+    },
+    {
+      "stage": "ddgs",
+      "query": "凯华 Kailh 轴体 官网",
+      "error": "error sending request for url (https://www.mojeek.com/search?q=%E5%87%AF%E5%8D%8E+Kailh+%E8%BD%B4%E4%BD%93+%E5%AE%98%E7%BD%91) > operation timed out"
+    },
+    {
+      "stage": "ddgs",
+      "query": "佳达隆 Gateron 轴体 官网",
+      "error": "error sending request for url (https://www.mojeek.com/search?q=%E4%BD%B3%E8%BE%BE%E9%9A%86+Gateron+%E8%BD%B4%E4%BD%93+%E5%AE%98%E7%BD%91) > operation timed out"
     }
   ]
 }
