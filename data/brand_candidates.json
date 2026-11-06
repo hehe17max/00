@@ -8293,18 +8293,16 @@
       "配件",
       "音箱/音响"
     ],
-    "product_page_count": 6,
+    "product_page_count": 5,
     "product_schema_page_count": 2,
     "sample_product_pages": [
       "https://us.edifier.com/products/m90",
       "https://us.edifier.com/products/mr4-5",
-      "https://us.edifier.com/blogs/reviews/why-the-edifier-s300-feels-different-from-most-tabletop-speakers",
       "https://us.edifier.com/collections/speaker",
       "https://us.edifier.com/collections/headphones",
       "https://us.edifier.com/collections/accessories"
     ],
     "sample_product_names": [
-      "Why the Edifier S300 Feels Different from Most Tabletop Speakers",
       "Speakers",
       "Headphones",
       "Accessories"
@@ -8316,7 +8314,7 @@
     },
     "origin": "待确认",
     "discovered_at": "2026-09-21",
-    "last_seen": "2026-11-03",
+    "last_seen": "2026-11-06",
     "search_evidence": {
       "query": "漫步者 官网",
       "result_title": "Edifier丨Official Site | Speakers & Headphones",
@@ -11067,6 +11065,59 @@
       "query": "hall effect keyboard manufacturers official website",
       "result_title": "Womier | Mechanical Keyboard, Keycaps & Accessories Store",
       "result_snippet": "Womier is a high-quality mechanical keyboard brand for gamers and professionals, specializing in the design and manufacture of custom keyboards, keycaps and accessories."
+    },
+    "status": "candidate"
+  },
+  {
+    "brand": "AULAKEYBOARD",
+    "domain": "aulakeyboard.com",
+    "official_url": "https://aulakeyboard.com/",
+    "score": 73,
+    "categories": [
+      "手柄",
+      "耳机/耳麦",
+      "配件",
+      "键盘",
+      "鼠标"
+    ],
+    "product_page_count": 12,
+    "product_schema_page_count": 1,
+    "sample_product_pages": [
+      "https://aulakeyboard.com/",
+      "https://aulakeyboard.com/blog/",
+      "https://aulakeyboard.com/orders-tracking/",
+      "https://aulakeyboard.com/contact-us/",
+      "https://aulakeyboard.com/fi/",
+      "https://aulakeyboard.com/my-account-2/",
+      "https://aulakeyboard.com/my-account-2/lost-password/",
+      "https://aulakeyboard.com/cart-2/",
+      "https://aulakeyboard.com/product/aula-ag63/",
+      "https://aulakeyboard.com/product/aula-f75/"
+    ],
+    "sample_product_names": [
+      "Mechanical keyboard",
+      "Blog",
+      "Orders Tracking",
+      "Contact us",
+      "Mekaaninen näppäimistö",
+      "My account",
+      "My account",
+      "Cart",
+      "Aula AG63",
+      "AULA F75"
+    ],
+    "evidence": {
+      "has_contact_or_about": true,
+      "has_support_or_driver": true,
+      "official_cue_hits": 5
+    },
+    "origin": "待确认",
+    "discovered_at": "2026-11-06",
+    "last_seen": "2026-11-06",
+    "search_evidence": {
+      "query": "狼蛛 AULA 键盘 官网",
+      "result_title": "AULA F98 Pro - Aula Keyboard",
+      "result_snippet": "Explore AULA keyboards, including AULA Win60he, AULA Win68he, AULA F99, AULA F75, and AULA F87. Shop high-quality mechanical keyboards, customizable keycaps, and more. Create your perfect keyboard with AULA's innovative designs and premium features!"
     },
     "status": "candidate"
   }
